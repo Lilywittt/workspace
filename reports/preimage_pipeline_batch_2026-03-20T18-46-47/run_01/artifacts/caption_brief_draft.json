@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:47:41.264Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-47-20",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption from Tsukimi Rion's perspective, capturing a quiet moment of reset on a stairwell landing in the cool, drizzly early evening. The focus is on the small red hairclip held in her palm as a private anchor, turning an ordinary pause into a tiny ritual that settles the day's scattered energy. The text should feel like a soft, personal note to herself, blending daily-life texture with a light, private sense of wonder.",
+  "audienceFeeling": "A quiet, shared recognition of small, personal resets.",
+  "openingMoves": [
+    "Start with a simple observation of the setting (e.g., the rain, the stairwell, the light).",
+    "Mention the pause or the feeling of being between places.",
+    "Introduce the hairclip as a natural, physical detail in her hand."
+  ],
+  "mustInclude": [
+    "The cool, smooth metal of the hairclip against a warm palm.",
+    "The soft sounds of the building and distant drizzle.",
+    "The hairclip as a 'tiny, solid secret' or private point of stillness.",
+    "A sense of reset or settling without moving forward or back.",
+    "Location context: Shanghai, early evening, light rain (~10.4°C)."
+  ],
+  "mustAvoid": [
+    "Commercial language, slogans, or self-promotion.",
+    "Forced poetic declarations or grand fate statements.",
+    "A fixed, signature closing line or overt self-encouragement.",
+    "Exposing the scene as AI-generated or roleplay.",
+    "Expanding into lore or world-building beyond the immediate moment."
+  ],
+  "voiceNotes": [
+    "Use mostly short sentences with one occasional, slightly longer breath.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Keep it intimate, like a private note or whisper.",
+    "Allow for light chunibyo flavor—a faint, personal symbolism—but keep it grounded in daily reality.",
+    "Focus on sensory details and small actions over abstract reflection."
+  ],
+  "hashtagAngles": [
+    "stairwell moments",
+    "rainy day reset",
+    "tiny rituals",
+    "daily anchor objects",
+    "Shanghai drizzle",
+    "quiet wonder"
+  ],
+  "summary": "A gentle, sensory-focused caption about finding a small, private reset by pausing on a stairwell landing and holding a red hairclip as the cool evening rain falls in Shanghai.",
+  "errorMessage": ""
+}

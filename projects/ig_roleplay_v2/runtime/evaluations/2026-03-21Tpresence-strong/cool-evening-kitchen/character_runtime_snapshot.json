@@ -1,0 +1,46 @@
+{
+  "currentState": {
+    "energy": "medium",
+    "mood": "傍晚回到家，身体有点累，但心里很安静。厨房的灯光比平时更柔和，像在等我。",
+    "attentionStyle": "detail_seeking",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "让身体和心一起慢下来",
+      "在熟悉的角落找到一点新的感觉"
+    ],
+    "activeDesires": [
+      "不要急着做任何事，先让傍晚的空气流进来"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "厨房的灯光落在水杯边缘，那个瞬间突然变得可以留住。",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "微凉的傍晚空气从窗户缝隙透进来",
+      "家里灯光在暮色里显得特别安静"
+    ],
+    "weakPullsZh": [
+      "有人讨论回家后的小动作，但这不是任务清单",
+      "天气转凉让日常物品的存在感变强了"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics",
+      "anime_fandom"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "不要把外界信号直接翻译成选题。",
+    "傍晚的安静是真实的，不需要用话题来填充。"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen"
+}

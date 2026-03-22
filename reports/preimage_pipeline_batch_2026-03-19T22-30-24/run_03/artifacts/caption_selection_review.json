@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:34:58.837Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-34-06",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "This candidate best balances the scene's micro-purchase program with a fresh, publishable voice that avoids recent semantic fatigue. It grounds the 'shy attachment' in a concrete, tactile sensation ('纸杯在手里沉甸甸的') and transforms the object into a secret weight ('像把一小块安静的傍晚，稳妥地装进了口袋') without sounding overwritten or melodramatic. The tone is gentle, privately meaningful, and fits the 'light chunibyo' persona through a believable, daily-life metaphor, making it the strongest choice for a life_record post after a selfie streak.",
+  "strengths": [
+    "Concrete sensory detail (weight, temperature) anchors the emotional landing",
+    "Fresh metaphor ('一小块安静的傍晚') that feels private, not theatrical",
+    "Avoids repetitive '契约' or '通行证' framing from recent history",
+    "Fits the 'gentle_intention' and 'private ritual energy' tone perfectly",
+    "Publishable length and natural sentence flow for the platform"
+  ],
+  "risks": [
+    "Slightly less direct 'shy attachment' phrasing than candidate 03",
+    "Metaphor could be seen as subtle; requires a receptive audience",
+    "Hashtag set is slightly smaller but still covers core angles"
+  ],
+  "errorMessage": ""
+}

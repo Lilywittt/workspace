@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:42:00.459Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'find_unfold_notice_again' to a different action kernel like 'arrange_admire_let_be' or 'trace_compare_soften'",
+    "Use a location archetype outside the desk/corner/kitchen cluster, e.g., 'window_seat', 'park_bench', or 'transit_stop'"
+  ],
+  "avoidMotifs": [
+    "Avoid accessory objects; lean into object families like 'tool', 'textile', or 'natural_fragment'"
+  ],
+  "narrativeNudges": [
+    "Let the emotional landing be 'gentle_anticipation' or 'soft_detachment' instead of quiet completion"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense sensory hook different from recent openings, e.g., a sound or texture"
+  ],
+  "imageAdvice": [
+    "Frame for a wider environmental presence with the character trace, using the cool, drizzly light as a soft backdrop"
+  ],
+  "summary": "Switch lanes to life_record with a fresh location and object family while maintaining the gentle, detail-sensitive voice.",
+  "errorMessage": ""
+}

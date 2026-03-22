@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:05:21.763Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a day of studying, the evening light in the room has shifted to a soft blue, and a forgotten pencil on the floor catches the eye, looking like a tiny, misplaced secret waiting to be found.",
+  "microPlot": [
+    "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk.",
+    "A pencil that rolled off the desk earlier now lies perfectly still on the wooden floor, its shadow stretching long.",
+    "There's a small, quiet feeling of finding a piece of the day that was lost, like a note from the morning self."
+  ],
+  "sensoryFocus": "the faint, dry scent of pencil wood and the cool, smooth texture of the floorboards",
+  "sceneNotes": [
+    "The frame is wide, showing a corner of a desk, part of a chair, and the floor.",
+    "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair.",
+    "The small red hairclip is subtly present, catching a tiny bit of residual light.",
+    "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window.",
+    "A closed notebook sits on the desk, its cover slightly worn."
+  ],
+  "tone": [
+    "quietly_observant"
+  ],
+  "captionFocus": [
+    "A short observation about the sound of the evening settling in and the feel of the wooden floor."
+  ],
+  "summary": "A quiet dusk scene where a forgotten pencil on the floor becomes a small, meaningful trace of the day's end.",
+  "errorMessage": ""
+}

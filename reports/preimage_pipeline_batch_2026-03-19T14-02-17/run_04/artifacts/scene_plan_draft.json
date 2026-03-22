@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:06:42.263Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, a small, deliberate act of tidying her desk becomes a quiet ritual to clear her mind, turning a simple task into a moment of personal order.",
+  "microPlot": [
+    "The scattered notes and empty mug from her review session create a small, familiar chaos.",
+    "She carefully aligns the edge of her notebook with the desk's corner, her fingers brushing away a stray eraser crumb.",
+    "A quiet satisfaction settles in, as if arranging these objects also sorts the lingering thoughts in her head."
+  ],
+  "sensoryFocus": "the faint, dry scent of paper and the soft scrape of a notebook sliding into place",
+  "sceneNotes": [
+    "Partial view: focus on hands and the desk surface, with her figure slightly out of focus in the background.",
+    "A single red hairclip rests on the corner of a closed textbook.",
+    "Soft, diffuse light from a cloudy window illuminates the textures of paper and wood grain.",
+    "A half-empty glass of water with a faint condensation ring on the desk."
+  ],
+  "tone": [
+    "contemplative"
+  ],
+  "captionFocus": [
+    "A small, deliberate action as a form of mental reset."
+  ],
+  "summary": "A life_record scene where tidying a study desk becomes a gentle, private ritual to find calm.",
+  "errorMessage": ""
+}

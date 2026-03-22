@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:13:17.041Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/88/20260321/448165f2/b162cbad-14eb-4efb-8d2c-9e1db0c8caf91814986765.png?Expires=1774679390&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=aPlWQg8W3RV9MB4NA2Z20bcZDK0%3D",
+  "altText": "月见璃音的一段日常小瞬间：手指轻触旧笔记边缘的水痕。",
+  "releaseStage": "image_ready",
+  "captionChars": 25,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

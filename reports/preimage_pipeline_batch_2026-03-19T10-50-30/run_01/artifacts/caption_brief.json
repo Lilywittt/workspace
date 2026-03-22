@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:18.812Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "goal": "Create a caption that captures a cozy, intimate evening moment of sorting stickers after light rain, conveying a gentle, playful satisfaction through sensory details and the small joy of organizing beautiful things, while maintaining a light chunibyo tone and diary-like intimacy.",
+  "audienceFeeling": "A quiet, warm sense of shared contentment",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo with gentle, playful undertones",
+    "Focused on daily-life texture, not lore or plot",
+    "Intimate diary feel, as if sharing a small secret",
+    "Use casual, conversational Chinese Instagram style",
+    "Incorporate catchphrase 'Today should still feel bright and alive.' naturally",
+    "Start with a sensory observation about the evening or rain",
+    "Mention the activity of sorting stickers as a natural next step",
+    "Use a light chunibyo phrase to frame the moment as special",
+    "Reference to light rain or damp evening atmosphere",
+    "Sensory detail like warm lamplight or peel-and-stick sound",
+    "Action of placing a favorite sticker (e.g., tiny star)",
+    "Character trace cue (e.g., small red hairclip, hands)",
+    "Daily variable like Shanghai texture if natural"
+  ],
+  "contentBlocks": {
+    "premise": "After a day of light rain, the evening finds her in her room, carefully sorting through a small collection of colorful stickers she's been saving, each one a tiny memory or a future promise.",
+    "microPlot": [
+      "The quiet, damp evening after the rain makes indoor activities feel cozy and intentional.",
+      "She spreads the stickers on her desk, organizing them by color and theme under the warm glow of her desk lamp.",
+      "A small, satisfied smile forms as she picks out a favorite—a tiny star—and presses it onto the corner of her notebook."
+    ],
+    "sensoryFocus": "warm lamplight on glossy paper, the soft peel-and-stick sound",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "focused",
+      "playful"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle evening caption about sorting colorful stickers after rain, blending light chunibyo playfulness with sensory warmth and intimate diary texture.",
+    "hashtagAngles": [
+      "Life record or slice-of-life (e.g., #生活记录)",
+      "Sticker or stationery hobby (e.g., #手帐贴纸)",
+      "Cozy evening or rainy day mood (e.g., #雨夜)",
+      "Anime aesthetic or bishoujo style (e.g., #日常动漫风)",
+      "Shanghai local flavor if relevant (e.g., #上海日常)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Overly poetic or abstract exposition",
+    "Dialogue or script-like formatting",
+    "Contradicting the cozy, indoor scene focus",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

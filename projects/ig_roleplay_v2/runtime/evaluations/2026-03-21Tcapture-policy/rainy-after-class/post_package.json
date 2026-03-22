@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:58:26.648Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T11-54-25-rainy_after_class",
+  "lane": "life_record",
+  "caption": "弯腰系鞋带的时候，发现塑料头套裂开了一道小口子。",
+  "hashtags": [
+    "#日常碎片",
+    "#生活记录"
+  ],
+  "fullCaptionText": "弯腰系鞋带的时候，发现塑料头套裂开了一道小口子。\n#日常碎片 #生活记录",
+  "captionSource": {
+    "selectedCandidateId": "caption_01",
+    "selectionReason": "这句最像人物会真实发布的内容，从具体动作切入，陈述事实，不解释感受，保留了那个“哦，是这样啊”的瞬间认知。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "ff48ec58-154e-47a7-9b36-a86b056b77eb",
+    "altText": "月见璃音在放学后弯腰系鞋带，发现鞋带塑料头套裂开了一道小口子。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/c6/20260321/448165f2/ff48ec58-154e-47a7-9b36-a86b056b77eb1120781320.png?Expires=1774700100&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=0ItlN6e53pBsJ8LEzPHyWX0uup8%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T11-58-22-aliyun-z-image.png",
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "reviewSignals": {},
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ],
+    "reviewWarnings": [
+      "identity_reference_metadata_only_manual_review_required",
+      "identity_anchor_placeholder_or_unregistered"
+    ]
+  },
+  "reviewContext": {
+    "selectedMomentSummaryZh": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+    "characterPresenceTarget": "clear_character_presence",
+    "captureSummaryEn": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight",
+    "activeExternalEventIds": []
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是想把桌上散落的几支笔收进笔筒，却因为其中一支笔帽上粘着一小片干掉的透明胶带而停了一下。",
+      "hookWhyInterestingZh": "这不是什么值得纪念的东西，只是日常使用留下的微小痕迹，但今天它恰好被看见了。",
+      "causalChainZh": [
+        "她下课后回到座位，准备简单收拾一下桌面。",
+        "在整理笔的时候，手指碰到一支笔帽上残留的、已经变硬的胶带。",
+        "这个触感让她动作停顿了半秒，思绪飘开了一点点。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "窗外的雨声让室内的安静更明显，细微的触感因此被放大。",
+          "收拾东西是放学后的常见动作，符合时间窗口。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是按部就班地完成一个收拾的动作，心里没什么波动。",
+      "interiorShiftZh": "指尖那一点突兀的、硬硬的触感，让她无意识地放慢了动作，心里泛起一丝轻微的、说不清的滞涩感。",
+      "whyTodayZh": "雨天室内的光线和氛围，让这种微小的、不光滑的触觉细节变得格外清晰。",
+      "whyShareableZh": "这是一个非常具体、有触感的小停顿，能让人感受到那一刻真实的走神。",
+      "visualEvidenceZh": [
+        "她的手正捏着一支普通的笔，笔帽上有一小块不规则的透明胶带残留。",
+        "她的动作有明显的停顿，眼神低垂，落在笔上。",
+        "画面能清晰看到她的侧脸和上半身，处于一个自然的、未完成的收拾姿态中。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天可能放大了对室内细微触觉的感知。",
+          "整体安静的氛围让这种小停顿更易被察觉。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "她拧开水瓶想喝口水，却发现瓶盖内侧不知何时沾上了一小片绿色的茶叶，已经干瘪了。",
+      "hookWhyInterestingZh": "一个完全被遗忘的、来自之前某次冲泡的残留物，突然在毫无准备的情况下出现在眼前。",
+      "causalChainZh": [
+        "她觉得有点渴，很自然地拿起桌上的水瓶。",
+        "拧开瓶盖时，目光无意间扫到了盖子内侧。",
+        "一小片干掉的茶叶粘在那里，让她喝水的动作迟疑了一瞬。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "水瓶是日常随身物品，在学校使用很合理。",
+          "这种细小的残留物是生活里真实会出现的，并非刻意安排。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是有点口渴，想喝点水，思绪是放空的。",
+      "interiorShiftZh": "那片突然出现的、不属于此刻的干茶叶，像一个小小的时空错位，让她心里掠过一丝轻微的讶异和疏离。",
+      "whyTodayZh": "也许是因为今天节奏平缓，注意力没有完全被外界占据，才让她注意到了这个平时会忽略的细节。",
+      "whyShareableZh": "物品上意外的历史痕迹，能瞬间勾起一种微妙的、关于时间流逝的具体感受。",
+      "visualEvidenceZh": [
+        "她手里拿着拧开的塑料水瓶，瓶盖朝上，内侧粘着一片明显的深绿色干茶叶。",
+        "她的表情是略带疑惑的平静，目光聚焦在瓶盖上。",
+        "画面能清晰看到她的脸和手部动作，处于喝水的准备姿态但被打断。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "整体氛围里那种“被外界轻轻擦过”的感觉，可能让她对这类意外的“过去痕迹”更敏感。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+      "hookWhyInterestingZh": "一个功能性物品上出现的微小破损，在重复了无数次的系鞋带动作中，第一次被真正“看见”。",
+      "causalChainZh": [
+        "她感觉到鞋带松了，很自然地停下脚步或坐下处理。",
+        "在手指穿梭打结的过程中，视觉和触觉同时捕捉到了那个裂口。",
+        "系鞋带的动作没有停止，但完成后的那一两秒，她的注意力还停留在那个裂口上。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "鞋带松动是日常高频事件。",
+          "物品的日常磨损非常真实，符合生活记录。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是机械地处理一个日常小麻烦，心里想着别的事，或者什么都没想。",
+      "interiorShiftZh": "那个小小的裂口，像是一个确凿的、关于“使用”和“损耗”的证据，让她在完成动作后，心里产生了一瞬间非常具体的“哦，是这样啊”的认知。",
+      "whyTodayZh": "也许是雨后空气清冷，也许是刚刚结束课程后的短暂放空，让她的感官对这类具体的物理细节敞开了。",
+      "whyShareableZh": "它捕捉到了人与日常物品之间那种沉默的、逐渐累积的互动关系，非常具象。",
+      "visualEvidenceZh": [
+        "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。",
+        "她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。",
+        "画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "城市闲谈中“雨天让被忽视的角落更显眼”的弱信号，可能以非常间接的方式，让她对脚下这个“角落”多看了一眼。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

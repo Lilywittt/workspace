@@ -1,0 +1,295 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:03:18.841Z",
+  "apiKeyPresent": true,
+  "status": "creative_intelligence_ready",
+  "summary": {
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "errors": [],
+  "warnings": [],
+  "passed": [
+    {
+      "code": "continuity_creative_review.json_exists",
+      "message": "continuity_creative_review.json should exist in runtime/current."
+    },
+    {
+      "code": "scene_plan_draft.json_exists",
+      "message": "scene_plan_draft.json should exist in runtime/current."
+    },
+    {
+      "code": "scene_plan.json_exists",
+      "message": "scene_plan.json should exist in runtime/current."
+    },
+    {
+      "code": "caption_brief_draft.json_exists",
+      "message": "caption_brief_draft.json should exist in runtime/current."
+    },
+    {
+      "code": "caption_brief.json_exists",
+      "message": "caption_brief.json should exist in runtime/current."
+    },
+    {
+      "code": "caption_candidates_ai.json_exists",
+      "message": "caption_candidates_ai.json should exist in runtime/current."
+    },
+    {
+      "code": "caption_candidates.json_exists",
+      "message": "caption_candidates.json should exist in runtime/current."
+    },
+    {
+      "code": "caption_selection_review.json_exists",
+      "message": "caption_selection_review.json should exist in runtime/current."
+    },
+    {
+      "code": "selected_caption.json_exists",
+      "message": "selected_caption.json should exist in runtime/current."
+    },
+    {
+      "code": "continuity_review_source_present",
+      "message": "continuity_review should record its source."
+    },
+    {
+      "code": "continuity_review_status_present",
+      "message": "continuity_review should record its status."
+    },
+    {
+      "code": "continuity_review_source_skill",
+      "message": "continuity_review should come from the live creative model, not fallback."
+    },
+    {
+      "code": "continuity_review_freshness",
+      "message": "Continuity review should provide at least two freshness targets."
+    },
+    {
+      "code": "continuity_review_caption_advice",
+      "message": "Continuity review should provide caption advice."
+    },
+    {
+      "code": "continuity_review_image_advice",
+      "message": "Continuity review should provide image advice."
+    },
+    {
+      "code": "scene_plan_draft_source_present",
+      "message": "scene_plan_draft should record its source."
+    },
+    {
+      "code": "scene_plan_draft_status_present",
+      "message": "scene_plan_draft should record its status."
+    },
+    {
+      "code": "scene_plan_draft_source_skill",
+      "message": "scene_plan_draft should come from the live creative model, not fallback."
+    },
+    {
+      "code": "scene_plan_draft_premise",
+      "message": "Scene plan draft should provide a narrative premise."
+    },
+    {
+      "code": "scene_plan_draft_micro_plot",
+      "message": "Scene plan draft should provide a three-step micro-plot."
+    },
+    {
+      "code": "scene_plan_draft_scene_notes",
+      "message": "Scene plan draft should provide scene notes."
+    },
+    {
+      "code": "scene_plan_run_id",
+      "message": "Scene plan should have a run id."
+    },
+    {
+      "code": "scene_plan_creative_source",
+      "message": "Scene plan should record creative draft source status."
+    },
+    {
+      "code": "scene_plan_micro_plot",
+      "message": "Scene plan should keep a three-step micro-plot."
+    },
+    {
+      "code": "scene_plan_scene_notes",
+      "message": "Scene plan should include layered scene notes."
+    },
+    {
+      "code": "caption_brief_draft_source_present",
+      "message": "caption_brief_draft should record its source."
+    },
+    {
+      "code": "caption_brief_draft_status_present",
+      "message": "caption_brief_draft should record its status."
+    },
+    {
+      "code": "caption_brief_draft_source_skill",
+      "message": "caption_brief_draft should come from the live creative model, not fallback."
+    },
+    {
+      "code": "caption_brief_draft_goal",
+      "message": "Caption brief draft should define a goal."
+    },
+    {
+      "code": "caption_brief_draft_opening_moves",
+      "message": "Caption brief draft should provide opening moves."
+    },
+    {
+      "code": "caption_brief_draft_must_include",
+      "message": "Caption brief draft should provide must-include guidance."
+    },
+    {
+      "code": "caption_brief_goal",
+      "message": "Caption brief should define a goal."
+    },
+    {
+      "code": "caption_brief_directives",
+      "message": "Caption brief should have enough writing directives."
+    },
+    {
+      "code": "caption_brief_creative_source",
+      "message": "Caption brief should record creative draft status."
+    },
+    {
+      "code": "caption_candidates_ai_source_present",
+      "message": "caption_candidates_ai should record its source."
+    },
+    {
+      "code": "caption_candidates_ai_status_present",
+      "message": "caption_candidates_ai should record its status."
+    },
+    {
+      "code": "caption_candidates_ai_source_skill",
+      "message": "caption_candidates_ai should come from the live creative model, not fallback."
+    },
+    {
+      "code": "caption_candidates_ai_count",
+      "message": "caption_candidates_ai should contain at least three candidates."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_01_chinese",
+      "message": "caption_candidates_ai candidate ai_cand_01 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_01_length",
+      "message": "caption_candidates_ai candidate ai_cand_01 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_01_hashtags",
+      "message": "caption_candidates_ai candidate ai_cand_01 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_02_chinese",
+      "message": "caption_candidates_ai candidate ai_cand_02 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_02_length",
+      "message": "caption_candidates_ai candidate ai_cand_02 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_02_hashtags",
+      "message": "caption_candidates_ai candidate ai_cand_02 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_03_chinese",
+      "message": "caption_candidates_ai candidate ai_cand_03 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_03_length",
+      "message": "caption_candidates_ai candidate ai_cand_03 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_ai_cand_03_hashtags",
+      "message": "caption_candidates_ai candidate ai_cand_03 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_ai_distinct_openings",
+      "message": "caption_candidates_ai should keep distinct opening lines."
+    },
+    {
+      "code": "caption_candidates_source",
+      "message": "Validated caption candidates should record their source."
+    },
+    {
+      "code": "caption_candidates_status",
+      "message": "Validated caption candidates should record their source status."
+    },
+    {
+      "code": "caption_candidates_count",
+      "message": "caption_candidates should contain at least three candidates."
+    },
+    {
+      "code": "caption_candidates_ai_cand_01_chinese",
+      "message": "caption_candidates candidate ai_cand_01 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_cand_01_length",
+      "message": "caption_candidates candidate ai_cand_01 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_cand_01_hashtags",
+      "message": "caption_candidates candidate ai_cand_01 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_ai_cand_02_chinese",
+      "message": "caption_candidates candidate ai_cand_02 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_cand_02_length",
+      "message": "caption_candidates candidate ai_cand_02 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_cand_02_hashtags",
+      "message": "caption_candidates candidate ai_cand_02 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_ai_cand_03_chinese",
+      "message": "caption_candidates candidate ai_cand_03 should be Chinese."
+    },
+    {
+      "code": "caption_candidates_ai_cand_03_length",
+      "message": "caption_candidates candidate ai_cand_03 should stay within 180 characters."
+    },
+    {
+      "code": "caption_candidates_ai_cand_03_hashtags",
+      "message": "caption_candidates candidate ai_cand_03 should stay within 5 hashtags."
+    },
+    {
+      "code": "caption_candidates_distinct_openings",
+      "message": "caption_candidates should keep distinct opening lines."
+    },
+    {
+      "code": "caption_selection_review_source_present",
+      "message": "caption_selection_review should record its source."
+    },
+    {
+      "code": "caption_selection_review_status_present",
+      "message": "caption_selection_review should record its status."
+    },
+    {
+      "code": "caption_selection_review_source_skill",
+      "message": "caption_selection_review should come from the live creative model, not fallback."
+    },
+    {
+      "code": "caption_selection_review_id",
+      "message": "Selection review should choose an existing candidate id."
+    },
+    {
+      "code": "caption_selection_review_strengths",
+      "message": "Selection review should explain strengths."
+    },
+    {
+      "code": "selected_caption_id",
+      "message": "Selected caption should point to a validated candidate id."
+    },
+    {
+      "code": "selected_caption_chinese",
+      "message": "Selected caption should be Chinese."
+    },
+    {
+      "code": "selected_caption_hashtags",
+      "message": "Selected caption should respect hashtag limits."
+    },
+    {
+      "code": "selected_caption_creative_review",
+      "message": "Selected caption should carry creative review metadata when the API is available."
+    }
+  ]
+}

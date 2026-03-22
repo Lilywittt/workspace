@@ -1,0 +1,229 @@
+{
+  "runIndex": 2,
+  "scenePlanRunId": "sceneplan-2026-03-20T10-48-53",
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "sceneFatigue": [
+      "micro_purchase_program",
+      "return_or_repair_program",
+      "shelter_pause",
+      "bookish_pause"
+    ]
+  },
+  "noveltyLedger": {
+    "scenePrograms": [
+      {
+        "value": "micro_purchase_program",
+        "count": 6
+      },
+      {
+        "value": "return_or_repair_program",
+        "count": 5
+      },
+      {
+        "value": "threshold_pause_program",
+        "count": 1
+      }
+    ],
+    "locations": [
+      {
+        "value": "covered_walkway",
+        "count": 6
+      },
+      {
+        "value": "bookstore_aisle",
+        "count": 5
+      },
+      {
+        "value": "stairwell_landing",
+        "count": 1
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "comfort_item",
+        "count": 6
+      },
+      {
+        "value": "stationery",
+        "count": 5
+      },
+      {
+        "value": "accessory",
+        "count": 1
+      }
+    ],
+    "fatigueFlags": {
+      "weatherPrimaryOveruse": false,
+      "indoorClusterOveruse": true,
+      "studyAftermathClusterOveruse": true
+    }
+  },
+  "reflectionNotes": {
+    "recurringObjects": [
+      "comfort_item",
+      "stationery"
+    ],
+    "familiarPlaces": [
+      "covered_walkway",
+      "bookstore_aisle"
+    ],
+    "fatiguePatterns": [
+      "Indoor clusters have become dominant enough to flatten the world.",
+      "Study-adjacent scenes are starting to feel over-represented.",
+      "Cooldown scene cluster: shelter_pause",
+      "Cooldown scene cluster: bookish_pause"
+    ]
+  },
+  "worldState": {
+    "daypart": "early_evening",
+    "weekdayMode": "school_day",
+    "seasonPhase": "early_spring",
+    "mobilityWindow": "short_walk_ok",
+    "needState": [
+      "small_reset",
+      "private_meaning",
+      "mobility_shift",
+      "non_study_relief"
+    ],
+    "preferredLane": "life_record"
+  },
+  "affordancePool": {
+    "primaryAffordanceIds": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "threshold_pause_window",
+      "indoor_reset_window"
+    ],
+    "topAffordances": [
+      {
+        "id": "kitchen_comfort_window",
+        "score": 0.84,
+        "reasons": [
+          "Temperature and energy support a tiny comfort scene.",
+          "Hand-to-object intimacy is plausible in the current state."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic",
+          "indoor"
+        ]
+      },
+      {
+        "id": "transit_fragment_window",
+        "score": 0.82,
+        "reasons": [
+          "Mobility window allows a short transit fragment.",
+          "School-day rhythm naturally creates transit micro-scenes."
+        ],
+        "preferredLocationKinds": [
+          "public_transit",
+          "semi_outdoor",
+          "outdoor_light"
+        ]
+      },
+      {
+        "id": "threshold_pause_window",
+        "score": 0.78,
+        "reasons": [
+          "The day has in-between energy that suits a threshold pause.",
+          "Weather can support a liminal pause without taking over."
+        ],
+        "preferredLocationKinds": [
+          "liminal_indoor",
+          "semi_outdoor"
+        ]
+      },
+      {
+        "id": "indoor_reset_window",
+        "score": 0.72,
+        "reasons": [
+          "Current mobility and energy favor a contained indoor scene.",
+          "Character state is asking for a small reset.",
+          "Evening timing naturally supports reset energy."
+        ],
+        "preferredLocationKinds": [
+          "indoor",
+          "indoor_domestic"
+        ]
+      }
+    ]
+  },
+  "sceneCandidates": {
+    "count": 5,
+    "topCandidateIds": [
+      "scene_cand_04",
+      "scene_cand_02",
+      "scene_cand_03",
+      "scene_cand_09",
+      "scene_cand_08"
+    ],
+    "programs": [
+      "transit_fragment_program",
+      "rediscovery_program",
+      "threshold_pause_program",
+      "kitchen_comfort_program",
+      "laundry_corner_program"
+    ]
+  },
+  "selectedSceneCandidate": {
+    "selectedCandidateId": "scene_cand_04",
+    "sceneProgramId": "transit_fragment_program",
+    "locationArchetype": "station_edge",
+    "objectFamily": "bag_contents",
+    "objectBindings": [
+      "folded shopping list"
+    ],
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "tiny_reset"
+  },
+  "scenePlanDraft": {
+    "premise": "In the cool, drizzly early evening, a short wait at a station edge becomes a quiet, suspended moment. A folded shopping list, carried in a bag, isn't just an errand reminder; it's a small, tangible fragment of the day's ordinary intent, briefly held in the liminal space between here and there, becoming a quiet, keepable trace of a simple plan.",
+    "microPlot": [
+      "A folded shopping list, carried from a morning errand, rests at the bottom of a bag.",
+      "During a brief wait at a station platform edge, the list is noticed, its creases smoothed with a thumb in a small, absent gesture.",
+      "The simple act of holding this ordinary fragment in a place of transit makes the day's small intentions feel momentarily solid and quietly precious."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "sceneProgramId": "transit_fragment_program",
+    "locationArchetype": "station_edge",
+    "objectFamily": "bag_contents",
+    "emotionalLanding": "tiny_reset",
+    "premise": "In the cool, drizzly early evening, a short wait at a station edge becomes a quiet, suspended moment. A folded shopping list, carried in a bag, isn't just an errand reminder; it's a small, tangible fragment of the day's ordinary intent, briefly held in the liminal space between here and there, becoming a quiet, keepable trace of a simple plan."
+  },
+  "captionBrief": {
+    "goal": "将站台边等待时发现一张褶皱购物清单的微小瞬间，转化为一条私密的日常动态。通过短句和感官细节，让这张普通的纸片在雨夜灯光下，短暂承载一天意图的重量，成为一次安静的、只对自己可见的微小重置。",
+    "sceneProgramId": "transit_fragment_program"
+  },
+  "selectedCaption": {
+    "candidateAngle": "触觉仪式",
+    "caption": "等车时，摸到包里一张皱皱的购物清单。\n用拇指把它抚平，纸片摩擦帆布的沙沙声，比雨声还清楚。\n原来一天的意图，可以这么轻，又这么具体。"
+  },
+  "imageBrief": {
+    "sceneProgramId": "transit_fragment_program",
+    "locationArchetype": "station_edge"
+  },
+  "imageRequest": {
+    "sceneProgramId": "transit_fragment_program",
+    "scene": "Scene: a station edge held briefly still, passing-through transit air, folded shopping list, carrying folded shopping list through a brief transition, weather supports reflection without taking over, slightly chilly, Character trace: a hand holding the list, edge of a sleeve or bag strap visible, Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces, Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs, Action texture: thumb gently smoothing a crease, a pause in motion, Object detail: list is slightly worn, one corner softened from being carried, Scene location archetype: station edge, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace, slight sense of paused motion",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, quietly_observant, a tiny emotional reset, the faint, dry rustle of paper against fabric"
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 95,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "a5fde4af1539",
+    "sceneProgram": "1f382aacb549",
+    "locationArchetype": "b749f54f4be8",
+    "objectFamily": "6a0b380f26a7",
+    "selectedCaption": "e04cb5a1d5b7",
+    "imageScene": "919b847e2c8a"
+  }
+}

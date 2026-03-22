@@ -1,0 +1,181 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:33:05.928Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-32-45",
+  "goal": "Write a caption that feels like a private note left for oneself, capturing the quiet ritual of repairing a borrowed pencil in a rainy evening bookstore. It should convey a gentle sense of order restored through a small, focused act, blending daily-life texture with a light, intimate chunibyo touch—treating the ordinary object as a tiny secret with personal weight.",
+  "audienceFeeling": "A soft, focused warmth, like witnessing a small, perfect secret.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / mechanical pencil.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Short sentences with one occasional longer breath for rhythm.",
+    "Soft, trailing sentence endings, like a gentle exhale or self-address.",
+    "Light chunibyo flavor: intimate, not performative (e.g., 'a tiny shared secret').",
+    "Focus on micro-plot, sensory details, and daily variables.",
+    "Tone should feel like a private note to oneself or a future self.",
+    "Start with a sensory detail from the scene (e.g., the sound, the scent, the damp air).",
+    "Frame the action as a small, discovered task or quiet moment of attention.",
+    "Use a gentle, self-addressed tone, as if thinking aloud.",
+    "The mechanical pencil as the central object, with its worn lead and loose clip.",
+    "The act of tightening the clip and sharpening the lead as a focused, intimate gesture.",
+    "The sensory details: woody paper scent and metallic click of the clip.",
+    "The weather context: 小雨, cool early evening in Shanghai.",
+    "The feeling of leaving the space 'a little more ordered' as a small, forward-looking promise.",
+    "One ordinary object or gesture treated with faint symbolic weight (e.g., the pencil clip snap as a 'tiny loop closed')."
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly early evening, a small errand to a quiet bookstore aisle becomes a gentle act of restoration. Repairing a borrowed mechanical pencil isn't just a task; it's a tiny, forward-looking ritual of putting a small thing back in order, a quiet promise to the day that even borrowed objects deserve a little care before they're returned.",
+    "microPlot": [
+      "Noticing the borrowed pencil's worn-down lead and loose clip feels like finding a tiny, shared secret.",
+      "Carefully tightening the clip and sharpening the lead in the store's quiet corner turns a simple repair into a focused, intimate gesture.",
+      "Placing it back on the shelf feels like closing a small, perfect loop, leaving the space just a little more ordered than she found it."
+    ],
+    "sensoryFocus": "the faint, woody scent of old paper and the precise, metallic click of a pencil clip snapping shut",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "mechanical pencil"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 18,
+        "daypart": "early_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "medium_low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, rainy-evening caption about repairing a borrowed pencil in a bookstore, turning a small task into a private ritual of order and care.",
+    "hashtagAngles": [
+      "gentle order",
+      "rainy bookstore moments",
+      "small repair rituals",
+      "daily secret weight",
+      "Shanghai early evening",
+      "quiet restoration"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial or promotional language.",
+    "Grand, theatrical declarations or overt world-building.",
+    "Fixed slogan endings or repeated signature phrases.",
+    "Explicit self-encouragement or moralizing.",
+    "Dialogue or lore exposition that breaks the Instagram post voice."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

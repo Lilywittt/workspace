@@ -1,0 +1,142 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是把杯子放回架子上，却因为杯沿上残留的一圈水痕停了一下。",
+      "hookWhyInterestingZh": "一个极其微小的物理细节，在傍晚的光线下突然变得显眼，让一个日常动作有了半拍的停顿。",
+      "causalChainZh": [
+        "傍晚回家后，她准备把用过的杯子放好。",
+        "拿起杯子时，手指触碰到杯沿一圈未干的水痕。",
+        "那一瞬间的凉意和触感让她动作顿住，目光落在杯沿上。",
+        "她没有立刻擦掉，只是看着，然后才把杯子放回原处。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚的凉意让水痕的触感更明显。",
+          "室内光线可能让水痕的反光更清晰。",
+          "这是一个发生在回家后、整理过程中的微小动作。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是按部就班地收拾，思绪在别处飘着。",
+      "interiorShiftZh": "指尖那圈微凉、具体的水痕，把她拉回了此刻的物理现实，心里有了一瞬间的“哦，在这里”。",
+      "whyTodayZh": "今天傍晚的凉意和室内光线，让这种微小的触觉和视觉细节更容易被注意到。",
+      "whyShareableZh": "它捕捉了一个真实的、非戏剧性的停顿，有具体的触觉和视觉证据，能让人感到角色的存在。",
+      "visualEvidenceZh": [
+        "她拿着杯子的手部特写，能看到杯沿的水痕。",
+        "她的侧脸或低垂的视线，正看着杯沿。",
+        "傍晚室内柔和的光线，勾勒出杯子和她手指的轮廓。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "傍晚凉意让触感更清晰，室内光线让细节更显眼。",
+          "背景里关于“回家后微小动作”的讨论，可能让这种停顿本身更值得留意，但并非直接主题。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "她走过房间角落时，袜子被地板上一处微小的不平勾了一下。",
+      "hookWhyInterestingZh": "身体在熟悉空间里遭遇的一次微小、意外的物理阻力，打破了流畅的移动，带来一瞬间的专注。",
+      "causalChainZh": [
+        "她光脚穿着袜子，在房间里走动。",
+        "经过厨房和房间连接的角落时，左脚袜子的纤维被地板上一处几乎看不见的微小凸起勾住。",
+        "身体因这微小的阻力而轻微失衡，她立刻停下，低头看去。",
+        "她用脚尖轻轻蹭了蹭那个地方，确认了它的存在，然后继续走开。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "发生在居家环境内，角色处于放松、移动的状态。",
+          "涉及身体与熟悉环境的微小互动。",
+          "动作是瞬间的、反应性的，而非计划好的。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她正随意地从一个地方移动到另一个地方，心思没在走路上。",
+      "interiorShiftZh": "脚底那一下细微的拉扯，让她所有的注意力瞬间集中到身体和地板的接触点上，心里掠过一丝“啊，是这里”的确认。",
+      "whyTodayZh": "也许是因为今天能量中等，节奏平缓，这种微小的身体意外才没有被忽略，反而成了一个清晰的感知点。",
+      "whyShareableZh": "它描绘了一个非常具体、可感的身体经验，通过停顿和低头查看的动作，清晰地传达了角色的在场和反应。",
+      "visualEvidenceZh": [
+        "她停下的下半身姿态，一只脚微微抬起或点地。",
+        "她低头看向地板的视线方向。",
+        "可能捕捉到她脸上瞬间的、轻微的困惑或专注。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "背景中对“角色在厨房和房间角落间普通走动”的喜爱，可能为这种空间移动的细节染上一点色彩，但事件本身是独立的。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "她整理桌面时，发现一支笔的笔夹上卡着一根自己的头发。",
+      "hookWhyInterestingZh": "一个无关紧要的、属于过去的微小遗留物，在整理时意外出现，打断了任务的连续性。",
+      "causalChainZh": [
+        "她在清理书桌，把散落的笔收进笔筒。",
+        "拿起其中一支时，看到笔的金属笔夹缝隙里，紧紧卡着一根细长的、自己的头发。",
+        "她捏着笔，没有立刻把头发扯掉，而是就那样看了一两秒。",
+        "最后她用指甲小心地把头发挑出来，放在一边，然后继续收拾。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "发生在晚间整理或重置的常规活动中。",
+          "涉及一个被忽视的、带有个人痕迹的日常物品。",
+          "动作从无意识的整理转向有意识的观察和处理。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她处于一种机械性的整理模式，目标只是让桌面变整齐。",
+      "interiorShiftZh": "那根卡住的头发，作为一个具体、私人的证据，让她从“整理者”的身份中抽离片刻，变成了一个“发现者”，心里有轻微的、关于时间流逝的模糊触动。",
+      "whyTodayZh": "今天“安静但留意细节”的心境，让她更可能注意到这种微不足道的遗留痕迹，并为之停顿。",
+      "whyShareableZh": "事件小而具体，有清晰的视觉焦点（笔和头发），角色的停顿和细微处理动作能很好地传达她的存在和内心那一丝波动。",
+      "visualEvidenceZh": [
+        "她拿着笔的近距离特写，焦点在笔夹和卡住的头发上。",
+        "她的手指正试图或刚刚挑出头发。",
+        "她的表情是平静的专注，或许带有一丝不易察觉的恍神。"
+      ],
+      "ambientInfluence": {
+        "used": false,
+        "resonanceOnlyZh": [],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

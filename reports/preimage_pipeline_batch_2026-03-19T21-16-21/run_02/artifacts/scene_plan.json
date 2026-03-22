@@ -1,0 +1,358 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T13-18-01",
+  "createdAt": "2026-03-19T13:18:01.231Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "selectedSceneCandidatePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/selected_scene_candidate.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "小雨, about 10.4C",
+    "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "semanticFatigue": [
+      "legacy_program"
+    ],
+    "dominantSemantics": {
+      "scenePrograms": [
+        {
+          "value": "legacy_program",
+          "count": 11
+        },
+        {
+          "value": "micro_purchase_program",
+          "count": 1
+        }
+      ],
+      "locationArchetypes": [
+        {
+          "value": "indoor_desk_corner",
+          "count": 7
+        },
+        {
+          "value": "kitchen_counter",
+          "count": 2
+        },
+        {
+          "value": "bookstore_aisle",
+          "count": 1
+        },
+        {
+          "value": "convenience_counter",
+          "count": 1
+        },
+        {
+          "value": "laundry_corner",
+          "count": 1
+        }
+      ],
+      "actionKernels": [
+        {
+          "value": "find_unfold_notice_again",
+          "count": 8
+        },
+        {
+          "value": "choose_pay_carry_back",
+          "count": 1
+        },
+        {
+          "value": "heat_hold_breathe",
+          "count": 1
+        },
+        {
+          "value": "return_fix_restore",
+          "count": 1
+        },
+        {
+          "value": "wait_carry_pass_through",
+          "count": 1
+        }
+      ],
+      "objectFamilies": [
+        {
+          "value": "accessory",
+          "count": 10
+        },
+        {
+          "value": "comfort_item",
+          "count": 1
+        },
+        {
+          "value": "paper_fragment",
+          "count": 1
+        }
+      ],
+      "weatherRoles": [
+        {
+          "value": "reflective_support",
+          "count": 11
+        },
+        {
+          "value": "texture_modifier",
+          "count": 1
+        }
+      ],
+      "emotionalLandings": [
+        {
+          "value": "quiet_completion",
+          "count": 4
+        },
+        {
+          "value": "tiny_reset",
+          "count": 3
+        },
+        {
+          "value": "memory_return",
+          "count": 2
+        },
+        {
+          "value": "private_omen",
+          "count": 2
+        },
+        {
+          "value": "shy_attachment",
+          "count": 1
+        }
+      ],
+      "presenceModes": [
+        {
+          "value": "wide_scene_with_character_trace",
+          "count": 8
+        },
+        {
+          "value": "partial_presence",
+          "count": 4
+        }
+      ],
+      "captionEndingFamilies": [
+        {
+          "value": "soft_observation",
+          "count": 8
+        },
+        {
+          "value": "memory_return",
+          "count": 2
+        },
+        {
+          "value": "quiet_completion",
+          "count": 2
+        }
+      ],
+      "locationClusters": [
+        {
+          "value": "micro_errand",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "worldState": {
+    "timeContext": {
+      "timezone": "Asia/Shanghai",
+      "localDate": "2026-03-17",
+      "localHour": 21,
+      "daypart": "late_evening",
+      "weekdayMode": "school_day",
+      "seasonPhase": "early_spring",
+      "routineAnchors": [
+        "after_class_reset",
+        "short_errand",
+        "evening_reset",
+        "shelter_pause",
+        "indoor_reset",
+        "rediscovery_window"
+      ]
+    },
+    "environment": {
+      "city": "Shanghai",
+      "locationName": "Shanghai",
+      "weatherCode": 61,
+      "weatherSummary": "小雨",
+      "temperatureC": 10.4,
+      "windSpeedKmh": 10.8,
+      "temperatureBand": "cool",
+      "mobilityWindow": "short_walk_ok",
+      "weatherRoleDefault": "reflective_support"
+    },
+    "characterState": {
+      "lanePreference": "life_record",
+      "energy": "low",
+      "socialBandwidth": "solo_preferred",
+      "attentionShape": "detail_seeking",
+      "needState": [
+        "small_reset",
+        "private_meaning"
+      ],
+      "temperament": [
+        "light_chunibyo",
+        "gentle",
+        "occasionally_tsundere",
+        "sensitive_to_daily_details",
+        "playful",
+        "private_ritual_energy",
+        "quietly_reads_small_omens"
+      ]
+    },
+    "continuityPressure": {
+      "preferredLane": "life_record",
+      "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+      "sceneFatigue": [
+        "legacy_program"
+      ],
+      "objectFatigue": [
+        "accessory"
+      ],
+      "weatherOveruse": false,
+      "indoorOveruse": false,
+      "studyAftermathOveruse": false
+    }
+  },
+  "narrative": {
+    "premise": "In the quiet, late evening of a drizzly Shanghai spring, a small, bent paper clip found on the floor of a familiar bookstore aisle becomes a tiny, necessary task. The act of carefully straightening it and placing it back on a shelf isn't just tidying; it's a quiet, forward-looking ritual of gentle order, a private way of closing a small loop in the day before heading home.",
+    "microPlot": [
+      "Noticing a single, bent paper clip on the floor between the shelves.",
+      "Picking it up and, with focused fingers, slowly working it back into its proper shape.",
+      "Feeling a quiet, satisfied click as the tiny repair is completed and the day settles."
+    ],
+    "sensoryFocus": "the faint metallic coolness and slight resistance of the wire under her fingertips",
+    "emotionalLanding": "gentle_order"
+  },
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_07",
+    "sceneProgramId": "return_or_repair_program",
+    "affordanceId": "return_or_repair_window",
+    "locationArchetype": "bookstore_aisle",
+    "locationCluster": "bookish_pause",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "paper clip"
+    ],
+    "actionKernel": "return_fix_restore",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "gentle_order",
+    "presencePolicy": "partial_presence",
+    "captionHooks": [
+      "putting a small thing back where it belongs",
+      "repair as quiet affection"
+    ],
+    "imageHooks": [
+      "hands fixing or returning an item",
+      "small before/after feeling"
+    ]
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "partial_presence",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneProgramId": "return_or_repair_program",
+      "objectBindings": [
+        "paper clip"
+      ],
+      "weatherRole": "texture_modifier"
+    },
+    "concreteSceneCues": [
+      "Focus on hands in frame, holding the small silver paper clip",
+      "Soft, warm bookstore lighting from overhead, casting gentle shadows",
+      "Blurred background of book spines, a familiar, cozy chaos",
+      "A single droplet of rain traces a slow path down the windowpane outside the frame",
+      "Scene location archetype: bookstore aisle",
+      "Object focus: paper clip"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "hands fixing or returning an item",
+      "small before/after feeling",
+      "putting a small thing back where it belongs",
+      "repair as quiet affection",
+      "Frame a scene with partial presence, focusing on hands or an object in use",
+      "Focus on hands in frame, holding the small silver paper clip.",
+      "Soft, warm bookstore lighting from overhead, casting gentle shadows.",
+      "Blurred background of book spines, a familiar, cozy chaos.",
+      "A single droplet of rain traces a slow path down the windowpane outside the frame.",
+      "Presence mode: partial_presence.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable",
+      "ordinary_object_with_secret_weight"
+    ],
+    "hooks": [
+      "putting a small thing back where it belongs",
+      "repair as quiet affection"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the cozy, reflective mood but pivot from rediscovery to a small, intentional evening action.",
+    "draftSummary": "A bent paper clip in a bookstore becomes the focus of a tiny, satisfying evening ritual of restoration.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "selectedSceneCandidate": "selected_scene_candidate_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    },
+    "affordanceHints": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "domestic_reset_window",
+      "threshold_pause_window"
+    ]
+  }
+}

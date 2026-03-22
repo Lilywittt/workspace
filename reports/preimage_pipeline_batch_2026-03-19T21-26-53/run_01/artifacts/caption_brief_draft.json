@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:27:41.053Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-27-22",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption that captures the quiet ritual of buying a cup sleeve on a drizzly evening. Frame it as a private, forward-looking note to oneself, where the ordinary object briefly carries a secret weight of comfort and reset.",
+  "audienceFeeling": "A soft, shared recognition of finding small comforts in daily life.",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., the light, the sound, the air).",
+    "Frame the action as a small, deliberate choice.",
+    "Use a gentle, self-addressing tone."
+  ],
+  "mustInclude": [
+    "The faint, papery rustle of the cup sleeve in its bag.",
+    "The contrast between the warm store light and the cool, misty air outside.",
+    "A sense of shy attachment to the object as a promise of a gentle reset.",
+    "Location cue: Shanghai, covered walkway, late evening, 小雨.",
+    "The action of choosing, paying for, and carrying the sleeve back."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "Overly poetic or theatrical declarations.",
+    "Fixed slogan or repeated signature endings.",
+    "Explicit world-building or lore exposition.",
+    "Forgetting the daily-life texture."
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath.",
+    "Soft sentence endings, like a light exhale or gentle trailing off.",
+    "Light chunibyo flavor—intimate, not performative.",
+    "Treat the cup sleeve as an ordinary object with a secret, private meaning.",
+    "Sound like a real person posting a quiet, personal moment."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#小雨的晚上",
+    "#小小仪式感",
+    "#便利店治愈时刻",
+    "#给明天的小温暖"
+  ],
+  "summary": "A shy, forward-looking note about choosing a warm cup sleeve on a drizzly Shanghai evening, turning a small errand into a private ritual of comfort.",
+  "errorMessage": ""
+}

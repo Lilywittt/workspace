@@ -1,0 +1,155 @@
+{
+  "defaultPreferredLane": "life_record",
+  "shareDistance": "private_but_legible",
+  "disclosureStyle": "implied_not_explained",
+  "characterPresencePolicy": {
+    "defaultTarget": "supporting_presence",
+    "allowedTargets": [
+      "trace_only",
+      "supporting_presence",
+      "clear_character_presence",
+      "expression_led"
+    ],
+    "targetGuidanceEn": {
+      "trace_only": "the same moment may stay trace-led if the event remains legible and truthful",
+      "supporting_presence": "the protagonist should be readable through partial face, posture, clothing, or body action without forcing portrait dominance",
+      "clear_character_presence": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "expression_led": "the protagonist's facial expression and immediate emotional state should be clearly readable from the same lived moment"
+    }
+  },
+  "capturePolicy": {
+    "allowedValues": {
+      "cameraRelation": [
+        "observational",
+        "self_held",
+        "mirror_mediated",
+        "companion_like",
+        "ambiguous"
+      ],
+      "faceReadability": [
+        "not_required",
+        "glimpse",
+        "readable",
+        "expression_led"
+      ],
+      "bodyCoverage": [
+        "hand_only",
+        "partial",
+        "half",
+        "three_quarter",
+        "full"
+      ],
+      "distance": [
+        "macro",
+        "close",
+        "medium",
+        "wide"
+      ],
+      "environmentWeight": [
+        "low",
+        "balanced",
+        "high"
+      ]
+    },
+    "laneDefaults": {
+      "selfie": {
+        "cameraRelation": "self_held",
+        "faceReadability": "expression_led",
+        "bodyCoverage": "partial",
+        "distance": "close",
+        "environmentWeight": "balanced"
+      },
+      "life_record": {
+        "cameraRelation": "observational",
+        "faceReadability": "glimpse",
+        "bodyCoverage": "partial",
+        "distance": "medium",
+        "environmentWeight": "balanced"
+      }
+    },
+    "laneAllowances": {
+      "selfie": {
+        "cameraRelation": [
+          "self_held",
+          "mirror_mediated",
+          "ambiguous"
+        ],
+        "faceReadability": [
+          "readable",
+          "expression_led"
+        ],
+        "bodyCoverage": [
+          "partial",
+          "half",
+          "three_quarter"
+        ],
+        "distance": [
+          "close",
+          "medium"
+        ],
+        "environmentWeight": [
+          "low",
+          "balanced"
+        ]
+      },
+      "life_record": {
+        "cameraRelation": [
+          "observational",
+          "companion_like",
+          "ambiguous",
+          "self_held",
+          "mirror_mediated"
+        ],
+        "faceReadability": [
+          "not_required",
+          "glimpse",
+          "readable"
+        ],
+        "bodyCoverage": [
+          "hand_only",
+          "partial",
+          "half",
+          "three_quarter",
+          "full"
+        ],
+        "distance": [
+          "macro",
+          "close",
+          "medium",
+          "wide"
+        ],
+        "environmentWeight": [
+          "low",
+          "balanced",
+          "high"
+        ]
+      }
+    }
+  },
+  "shareTriggers": [
+    "tiny emotional shift becomes visually legible",
+    "ordinary object suddenly feels keepable",
+    "brief pause changes the texture of the day"
+  ],
+  "keepPrivateBoundaries": [
+    "do not explain every feeling",
+    "do not turn private meaning into public lore",
+    "do not overshare conflict"
+  ],
+  "laneRules": {
+    "selfie": {
+      "whenAppropriate": [
+        "emotion is face-led",
+        "the expression itself is the moment"
+      ],
+      "characterPresenceTarget": "expression_led"
+    },
+    "life_record": {
+      "whenAppropriate": [
+        "the world detail is the carrier of the feeling",
+        "the framing should follow what actually carries the feeling, whether that is trace, face, posture, or a wider body action"
+      ],
+      "characterPresenceTarget": "supporting_presence"
+    }
+  }
+}

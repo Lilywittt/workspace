@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:08.540Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-57-23",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best executes the lane pivot to life_record by focusing on the concrete, sensory actions of tidying, directly translating the micro-plot into a quiet, satisfying narrative. It integrates the required sensory detail (sound of pen caps, cool covers) and daily variable (light rain) subtly, maintains the gentle chunibyo tone, and naturally incorporates the character's catchphrase, making it the most cohesive and publishable option that feels like a natural diary entry.",
+  "caption": "把散落的笔一支支收好，笔记本按大小摞齐。指尖划过微凉的封面，听见笔帽合上的轻响。\n整理完书桌，心里的毛线团好像也被理清了。窗外的雨声很轻，今天应该还是明亮而鲜活的一天吧。",
+  "hashtags": [
+    "#生活碎片",
+    "#治愈系整理",
+    "#书桌日记",
+    "#雨天的宁静"
+  ],
+  "candidateAngle": "秩序带来的宁静",
+  "candidateRationale": "聚焦整理动作与感官细节（笔帽轻响、封面触感），以整理隐喻内心平静，自然融入角色口头禅和雨天变量，营造安静治愈的日常感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best executes the lane pivot to life_record by focusing on the concrete, sensory actions of tidying, directly translating the micro-plot into a quiet, satisfying narrative. It integrates the required sensory detail (sound of pen caps, cool covers) and daily variable (light rain) subtly, maintains the gentle chunibyo tone, and naturally incorporates the character's catchphrase, making it the most cohesive and publishable option that feels like a natural diary entry.",
+    "strengths": [
+      "Strongest alignment with the scene's micro-plot and sensory focus",
+      "Seamlessly integrates the character's catchphrase for continuity",
+      "Clear, intimate daily-life texture without being overly poetic",
+      "Effective lane pivot from selfie to object-focused life record"
+    ],
+    "risks": [
+      "Opening line about organizing pens is straightforward and could be perceived as simple",
+      "Hashtag set is slightly generic but remains within the brief's angles"
+    ]
+  }
+}

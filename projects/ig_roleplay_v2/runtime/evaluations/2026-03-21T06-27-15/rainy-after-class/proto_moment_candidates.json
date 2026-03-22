@@ -1,0 +1,180 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "收拾书包时，发现夹层里一张去年的电影票根，上面的日期刚好是今天。",
+      "hookWhyInterestingZh": "它只是被遗忘的纸片，但日期重合的巧合让动作停了一拍。",
+      "causalChainZh": [
+        "准备拉上书包拉链，手碰到夹层里一个硬角。",
+        "抽出来发现是张旧票根，下意识看了一眼日期。",
+        "发现是去年的同一天，心里轻轻‘啊’了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "雨天收拾东西的动作比平时慢一点。",
+          "票根可能是在某个雨天看完电影后随手塞进去的。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "想着快点收好东西离开教室。",
+      "interiorShiftZh": "一个无关紧要的巧合，却让时间感变得有点具体。",
+      "whyTodayZh": "雨天的节奏和安静，让这种偶然的发现更容易被注意到。",
+      "whyShareableZh": "它很小，不沉重，但有一个具体的触点和停顿。",
+      "visualEvidenceZh": [
+        "皱了的电影票根一角从书包夹层露出",
+        "手指捏着票根的瞬间",
+        "窗外雨痕模糊的玻璃"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天容易让人留意到被遗忘的角落"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "擦窗台上的灰，发现之前掉的一颗纽扣卡在窗缝里，金属扣面被雨打湿了。",
+      "hookWhyInterestingZh": "一个以为丢了的小东西，突然出现在一个不合理的地方。",
+      "causalChainZh": [
+        "用纸巾随意抹了一下窗台边缘。",
+        "感觉到一个硬物，不是灰尘。",
+        "拨出来一看，是那颗找了很久的衬衫纽扣。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "可能是之前靠在窗边时掉进去的。",
+          "雨让窗缝有点潮湿，纽扣摸起来凉凉的。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是做一点无心的清理。",
+      "interiorShiftZh": "失而复得，但已经过了需要它的时刻。",
+      "whyTodayZh": "雨天光线柔和，让金属的微弱反光变得显眼。",
+      "whyShareableZh": "物品的位移和时间的错位，构成一个微小的叙事。",
+      "visualEvidenceZh": [
+        "卡在窗缝里的银色纽扣",
+        "指尖捏着沾了水渍的纽扣",
+        "窗台上被擦出的一道痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "‘被外界轻轻擦过的感觉’体现在物品的意外重现上"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "想把耳机线绕好，却发现线身上有一处胶皮裂开了，露出里面细细的铜丝。",
+      "hookWhyInterestingZh": "日常使用的损耗，在某一刻突然变得可见。",
+      "causalChainZh": [
+        "像往常一样整理耳机线。",
+        "指尖划过一处不寻常的粗糙感。",
+        "低头仔细看，是胶皮裂了一小道口子。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class"
+        ],
+        "inferredDetailsZh": [
+          "可能是长期折叠或拉扯导致的。",
+          "之前一直没注意到。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "机械地完成一个收纳动作。",
+      "interiorShiftZh": "意识到某样东西正在缓慢地坏掉，而自己刚刚发现。",
+      "whyTodayZh": "安静的独处时刻，感知更容易落到这种微小的磨损上。",
+      "whyShareableZh": "它关于时间与使用的痕迹，非常具体且私人。",
+      "visualEvidenceZh": [
+        "耳机线上细小的裂口和露出的铜丝",
+        "手指捏着那一段线的特写",
+        "耳机线圈在桌上的松散状态"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "‘克制又有一点被细节牵住’的注意力状态"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "翻开一本很久没用的笔记本，发现某一页的页角被折过，现在抚平了也留着一道浅痕。",
+      "hookWhyInterestingZh": "一个过去的、被遗忘的标记动作，留下了物理证据。",
+      "causalChainZh": [
+        "想找一页空白纸，随手翻开笔记本。",
+        "看到某一页的角落有一道明显的折痕。",
+        "试图抚平它，但痕迹还在。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class"
+        ],
+        "inferredDetailsZh": [
+          "可能是某次为了快速标记而折的。",
+          "后来忘了这件事，也没再打开这一页。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是想用一页纸。",
+      "interiorShiftZh": "面对一个自己制造但已无法解读的记号。",
+      "whyTodayZh": "节奏放缓时，容易与这些静止的、过去的痕迹相遇。",
+      "whyShareableZh": "关于记忆的不可靠和物体记忆的持久，是一个安静的瞬间。",
+      "visualEvidenceZh": [
+        "笔记本页角上无法消除的折痕",
+        "手指试图抚平它的动作",
+        "摊开的笔记本和周围的文具"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "‘只形成气压’的安静氛围让这种发现成立"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

@@ -1,0 +1,95 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:24.510Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+    "microPlot": [
+      "The last textbook is closed, leaving a sudden, soft silence in the room.",
+      "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+      "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+    ],
+    "sensoryFocus": "the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+    "selectedCaptionOpening": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+    "selectedCaptionSummary": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+    "candidateAngle": "静谧的仪式感"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it | The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug | A stack of closed textbooks and a single, abandoned highlighter with its cap off | The red hairclip is the only bright color in the muted, warm tones of wood and paper | Soft, shallow depth of field blurs the background, focusing on the clip and the hand | The last textbook is closed, leaving a sudden, soft silence in the room",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Compose a shot of hands, a desk item, or a cozy interior corner, not a face-forward selfie",
+    "Shift focus from self-portraits to the surrounding environment or objects",
+    "Introduce a subtle narrative of transition, like moving indoors or a change in activity",
+    "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it.",
+    "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug.",
+    "A stack of closed textbooks and a single, abandoned highlighter with its cap off.",
+    "The red hairclip is the only bright color in the muted, warm tones of wood and paper.",
+    "Soft, shallow depth of field blurs the background, focusing on the clip and the hand.",
+    "Observing the quiet weight of ordinary objects after focused work",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:49:43.354Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-48-53",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best captures the scene's core sensory and private-ritual texture, starting with the tactile 'thumb smoothing' action and the specific sound of 'paper against fabric' from the brief. It feels like a spontaneous, whispered observation that fits the 'light chunibyo' tone without overwriting, and its short, breath-like structure mirrors the 'note to future self' directive while avoiding the indoor/study fatigue of recent posts.",
+  "strengths": [
+    "Strong sensory hook with 'thumb smoothing' and 'paper rustle' matching the brief's focus",
+    "Light, private ritual energy that feels genuine and unprompted",
+    "Concise, three-line structure that reads like a quiet breath, not a slogan",
+    "Avoids overused semantics like 'archive' or 'anchor' that risk feeling repetitive"
+  ],
+  "risks": [
+    "Slightly abstract final line ('intention can be this light, this concrete') may feel less grounded than the opening",
+    "Could be perceived as subtle, but fits the 'tiny_reset' emotional landing appropriately"
+  ],
+  "errorMessage": ""
+}

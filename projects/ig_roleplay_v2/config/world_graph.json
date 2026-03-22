@@ -1,0 +1,101 @@
+{
+  "version": "2.0.0-alpha.1",
+  "placeTagWeights": {
+    "private_meaning": [
+      "private",
+      "quiet",
+      "in_between",
+      "browse",
+      "window"
+    ],
+    "small_reset": [
+      "reset",
+      "pause",
+      "warm_drink",
+      "domestic",
+      "quiet"
+    ],
+    "mobility_shift": [
+      "transit",
+      "walk",
+      "passing_through",
+      "edge",
+      "after_school"
+    ],
+    "non_study_relief": [
+      "errand",
+      "rain_shelter",
+      "bright_light",
+      "soft_texture",
+      "warm_drink"
+    ]
+  },
+  "objectFamilyWeights": {
+    "private_meaning": [
+      "paper_fragment",
+      "keepsake",
+      "accessory"
+    ],
+    "small_reset": [
+      "comfort_item",
+      "stationery",
+      "accessory"
+    ],
+    "mobility_shift": [
+      "bag_contents",
+      "accessory",
+      "paper_fragment"
+    ],
+    "non_study_relief": [
+      "comfort_item",
+      "bag_contents",
+      "paper_fragment"
+    ]
+  },
+  "symbolicObjectKeywords": {
+    "paper_fragment": [
+      "petal",
+      "leaf",
+      "ticket",
+      "receipt",
+      "paper"
+    ],
+    "keepsake": [
+      "bookmark",
+      "note",
+      "charm",
+      "stub"
+    ],
+    "comfort_item": [
+      "cocoa",
+      "tea",
+      "blanket",
+      "warm",
+      "soft"
+    ],
+    "accessory": [
+      "hairclip",
+      "hairpin",
+      "ribbon",
+      "keychain",
+      "badge"
+    ],
+    "bag_contents": [
+      "list",
+      "card",
+      "balm",
+      "case",
+      "pouch"
+    ]
+  },
+  "activationRules": {
+    "topPlaceCount": 6,
+    "topObjectCount": 8,
+    "topProgramCount": 6,
+    "topSeedCount": 10
+  },
+  "criticThresholds": {
+    "repeatRiskHigh": 75,
+    "repeatRiskMedium": 45
+  }
+}

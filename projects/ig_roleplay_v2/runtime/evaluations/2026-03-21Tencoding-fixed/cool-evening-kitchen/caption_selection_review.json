@@ -1,0 +1,16 @@
+{
+  "selectedCandidateId": "caption_01",
+  "reasonZh": "这句最像角色会真实发布的内容，直接捕捉了触觉细节，保留了停顿的瞬间感，没有过度解释。",
+  "strengthsZh": [
+    "Concrete",
+    "Natural",
+    "Preserves the moment"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

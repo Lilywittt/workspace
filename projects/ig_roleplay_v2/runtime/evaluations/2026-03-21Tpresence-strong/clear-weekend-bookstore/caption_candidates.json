@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "字迹晕开了，像时间轻轻呼出的一口气。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体物件出发，赋予轻微诗意"
+    },
+    {
+      "id": "caption_03",
+      "angle": "action_pause",
+      "caption": "整理到一半，手忽然停住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "聚焦动作中断的瞬间，克制陈述"
+    },
+    {
+      "id": "caption_04",
+      "angle": "private_weight",
+      "caption": "一张旧便签，让下午的重量悄悄偏了一点点。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "让普通物件承载私人感受，不解释原因"
+    },
+    {
+      "id": "caption_05",
+      "angle": "trace_found",
+      "caption": "在书页间，找到了几年前自己留下的痕迹。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "强调“发现”本身，语气私密且略带中二"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/selected-caption.schema.json",
+  "title": "IG Roleplay Selected Caption",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "selectedCandidateId",
+    "selectionReason",
+    "caption",
+    "hashtags"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "selectedCandidateId": {
+      "type": "string"
+    },
+    "selectionReason": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

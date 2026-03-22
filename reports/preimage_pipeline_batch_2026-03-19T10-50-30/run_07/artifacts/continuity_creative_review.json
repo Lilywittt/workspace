@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:20.534Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from selfie close-ups to wider environmental shots",
+    "Focus on an activity or object, not just a mood"
+  ],
+  "avoidMotifs": [
+    "Repeating '窗外' or '小雨' openings",
+    "Overusing #上海, #日常, #自拍, #小确幸 hashtags"
+  ],
+  "narrativeNudges": [
+    "Show a small action or discovery, not just passive observation"
+  ],
+  "captionAdvice": [
+    "Start with a concrete action or question, not a weather description",
+    "Keep the tone intimate but slightly more active"
+  ],
+  "imageAdvice": [
+    "Use a life_record composition: hands doing something, a tabletop scene, or a street view",
+    "Incorporate the '小雨' weather subtly in the background or lighting"
+  ],
+  "summary": "Maintain the intimate Shanghai diary feel but pivot to a life_record lane with active framing to refresh the streak.",
+  "errorMessage": ""
+}

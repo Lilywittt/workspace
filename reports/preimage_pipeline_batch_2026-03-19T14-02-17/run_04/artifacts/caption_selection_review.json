@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:07:31.749Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-06-42",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the brief by weaving the micro-plot, sensory detail, and daily variable into a cohesive, gentle private ritual. It starts with the concrete action of aligning the notebook, incorporates the sensory detail of paper's dry scent, and subtly references the light rain as ambient accompaniment. The final line connects the physical order to mental clarity without overstatement, perfectly capturing the contemplative, slightly chunibyo tone of a note to oneself.",
+  "strengths": [
+    "Strong narrative flow from action to internal feeling",
+    "Integrates sensory detail (scent, sound) and weather naturally",
+    "Embodies 'private ritual energy' with quiet, meaningful closure",
+    "Avoids blocked phrases and fixed slogan endings"
+  ],
+  "risks": [
+    "Slight risk the 'accompaniment' metaphor feels slightly poetic",
+    "Must ensure visual clearly shows the notebook alignment action"
+  ],
+  "errorMessage": ""
+}

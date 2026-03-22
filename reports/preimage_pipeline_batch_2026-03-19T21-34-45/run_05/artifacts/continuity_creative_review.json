@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:41:12.392Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'find_unfold_notice_again' to a different action kernel like 'arrange_place_linger' or 'trace_leave_soft_mark'",
+    "Use a new location archetype outside the desk/corner/kitchen cluster, perhaps 'park_bench' or 'bus_window_seat'"
+  ],
+  "avoidMotifs": [
+    "Avoid 'accessory' object family; try 'snack_item' or 'natural_fragment' instead"
+  ],
+  "narrativeNudges": [
+    "Let the emotional landing be 'gentle_anticipation' or 'soft_wonder' instead of quiet_completion/memory_return"
+  ],
+  "captionAdvice": [
+    "Start with a fresh opening line; avoid repeating '窗外的小雨' or '复习了一上午' patterns"
+  ],
+  "imageAdvice": [
+    "Frame for a wider scene with character trace, but include a new visual element like distant lights or passing shadows"
+  ],
+  "summary": "Switch to life_record with a fresh action and location to break the indoor accessory pattern while keeping the gentle, private tone.",
+  "errorMessage": ""
+}

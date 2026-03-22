@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:37:49.776Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-37-03",
+  "briefGoal": "Write a short, intimate Instagram caption that turns a simple errand—buying a warm cup sleeve on a drizzly Shanghai evening—into a quiet, forward-looking ritual. The text should feel like a private note to herself, capturing the gentle, shyly intentional act of choosing and carrying a small comfort back into the night as a soft reset.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的仪式",
+      "caption": "在雨棚下，为明天的杯子选了一个暖杯套。\n付款时纸袋发出细碎的声响，像在说：这是今晚的小小营救。\n把它装进包里，走回细雨中，忽然觉得，原来温柔是可以这样一点点攒起来的。",
+      "hashtags": [
+        "#暖杯套",
+        "#小雨夜",
+        "#微小仪式",
+        "#温柔重置",
+        "#上海生活"
+      ],
+      "rationale": "将购买行为描绘为一场私密、温柔的营救仪式，聚焦纸袋的声响和携带的触感，符合‘小采购作为私人救援’的钩子。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "携带秘密",
+      "caption": "深夜的廊下，指尖触到不同材质的暖杯套。\n最后选了一个有细密纹理的。\n把它带回家，像携带一个关于明天会更好的、潮湿而温暖的秘密。",
+      "hashtags": [
+        "#深夜散步",
+        "#廊下",
+        "#生活细节",
+        "#私密时刻",
+        "#春夜"
+      ],
+      "rationale": "强调‘选择’的触感和‘携带’的隐喻，将普通物件转化为一个关于未来的私密承诺，符合‘携带微小舒适’的钩子。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "雨夜的锚点",
+      "caption": "10.4度的雨夜，需要一点具体的暖意。\n于是走到廊下，买了一个暖杯套。\n它躺在纸袋里，轻得几乎没有重量，却足以让这个潮湿的夜晚，有了一个可以握住的、干燥的锚点。",
+      "hashtags": [
+        "#雨夜记录",
+        "#具体暖意",
+        "#生活锚点",
+        "#日常切片",
+        "#微采购"
+      ],
+      "rationale": "结合具体天气温度，将暖杯套抽象为一个对抗潮湿夜晚的‘干燥锚点’，赋予日常物件以稳定和秘密的象征意义。"
+    }
+  ]
+}

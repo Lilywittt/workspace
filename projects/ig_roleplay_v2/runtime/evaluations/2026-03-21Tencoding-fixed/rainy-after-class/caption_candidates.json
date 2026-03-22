@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_action_start",
+      "caption": "鞋带松了。系好起身时，正好看见对面玻璃窗里，倒映着身后空荡的走廊，被雨天的窗框分割成几块。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从具体动作开始，平实地描述事件链条，将感受隐含在景象描述中。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "reflection_as_anchor",
+      "caption": "玻璃窗上的倒影里，自己成了身后那段空走廊的一个静默注脚。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "以倒影为核心，直接点出‘静默注脚’这一私人感受，但省略了前因和解释。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "ambient_triggered_pause",
+      "caption": "雨天让玻璃的反光变得清晰。弯腰，起身，然后视线就停在了那里。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从环境（雨天）切入，描述动作（弯腰起身）和随之而来的视觉停留，节奏短促。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "trace_of_presence",
+      "caption": "系好鞋带站起来，世界好像也跟着调整了一下角度。潮湿的窗框把倒影切开了。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "将个人动作（系鞋带）与外部世界（角度调整）进行轻微、私人的联结，带有轻微中二感。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

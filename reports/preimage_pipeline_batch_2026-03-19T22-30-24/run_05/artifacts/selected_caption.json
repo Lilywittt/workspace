@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:38:07.200Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-37-03",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best balances the scene's concrete sensory details with a light, private-ritual texture. It directly incorporates the specific weather cue (10.4°C), grounds the action in the 'covered walkway' (廊下), and transforms the object into a 'dry anchor'—a perfect fit for the 'shy_attachment' emotional landing and the 'private rescue' hook. The language is gentle, publishable, and avoids the slight abstraction of 'carrying a secret' or the more overt 'rescue' metaphor of the other options, feeling more like a quiet, believable note to herself.",
+  "caption": "10.4度的雨夜，需要一点具体的暖意。\n于是走到廊下，买了一个暖杯套。\n它躺在纸袋里，轻得几乎没有重量，却足以让这个潮湿的夜晚，有了一个可以握住的、干燥的锚点。",
+  "hashtags": [
+    "#雨夜记录",
+    "#具体暖意",
+    "#生活锚点",
+    "#日常切片",
+    "#微采购"
+  ],
+  "candidateAngle": "雨夜的锚点",
+  "candidateRationale": "结合具体天气温度，将暖杯套抽象为一个对抗潮湿夜晚的‘干燥锚点’，赋予日常物件以稳定和秘密的象征意义。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the scene's concrete sensory details with a light, private-ritual texture. It directly incorporates the specific weather cue (10.4°C), grounds the action in the 'covered walkway' (廊下), and transforms the object into a 'dry anchor'—a perfect fit for the 'shy_attachment' emotional landing and the 'private rescue' hook. The language is gentle, publishable, and avoids the slight abstraction of 'carrying a secret' or the more overt 'rescue' metaphor of the other options, feeling more like a quiet, believable note to herself.",
+    "strengths": [
+      "Strongly integrates the specific daily variable (temperature) and location",
+      "Metaphor ('dry anchor') is fresh, tactile, and fits the 'shy_attachment' mood",
+      "Maintains a gentle, observational tone that feels authentic and publishable",
+      "Avoids overused semantic patterns from recent history (e.g., 'secret', 'rescue')"
+    ],
+    "risks": [
+      "The metaphor, while strong, is slightly more abstract than the crinkle-of-paper sensory detail in candidate 01",
+      "Ending with 'anchor point' is a soft observation, which is common in history, but the fresh context mitigates repetition"
+    ]
+  }
+}

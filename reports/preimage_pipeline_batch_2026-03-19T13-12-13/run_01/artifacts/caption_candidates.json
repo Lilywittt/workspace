@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:14.255Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "briefGoal": "Capture the quiet, reflective moment after studying, where a forgotten red hairclip on the desk becomes a small, meaningful discovery. Convey a sense of gentle transition and private ritual, using sensory details and light chunibyo tone to make the ordinary feel faintly symbolic.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "静谧的仪式感",
+      "caption": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#上海雨天",
+        "#发现小确幸"
+      ],
+      "rationale": "以感官细节（触感、比喻）将发夹的发现转化为一个安静的私人仪式，呼应了‘微小预兆’的轻中二感，并以角色口头禅自然收尾。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨日的微小预兆",
+      "caption": "窗外的雨声细碎，给结束的复习蒙上一层柔软的滤镜。在笔筒旁发现了它——一枚小小的红色发夹。旧木桌的气味里，它亮得像一个秘密的肯定。把东西一件件归位，也是把心情整理平整。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#书桌日常",
+        "#发现小确幸"
+      ],
+      "rationale": "从天气变量切入，将发夹的‘发现’构建为对努力的隐秘肯定，聚焦‘私人仪式感’（整理动作），避免宏大叙事。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触觉的转折点",
+      "caption": "从漫长的专注里浮上来，最先感受到的是桌面凉而光滑的纹理。然后，是这枚红色发夹。它卡在那里，仿佛时间特意留下的一个书签，标记着从‘必须完成’到‘可以感受’的微妙转折。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#发现小确幸"
+      ],
+      "rationale": "强调触觉这一具体感官，将普通物件赋予‘时间书签’的轻中二隐喻，捕捉从学习到日常的过渡心境，角度独特。"
+    }
+  ]
+}

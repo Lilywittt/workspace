@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:02:48.080Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a Chinese Instagram caption that shares a quiet, personal victory of tidying a desk corner after studying, using warm lamplight and the evening rain as sensory anchors to create a cozy, intimate slice-of-life moment that feels bright and alive.",
+  "audienceFeeling": "cozy, intimate satisfaction",
+  "openingMoves": [
+    "Start with a sensory detail about the light or rain",
+    "Frame the action as a small, personal ritual",
+    "Use a gentle, slightly chunibyo reflection on order vs. chaos"
+  ],
+  "mustInclude": [
+    "The origami crane as a deliberate, placed object",
+    "The red hairclip resting on the notebook",
+    "The contrast between the tidy indoor corner and the rainy evening outside",
+    "A micro-plot beat about the clutter from studying",
+    "The phrase 'bright and alive' or its sentiment"
+  ],
+  "mustAvoid": [
+    "Overly poetic or abstract language",
+    "Commercial or promotional phrasing",
+    "Exposition about lore or backstory",
+    "Dialogue or script format",
+    "Exceeding 180 characters"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: slightly dramatic but gentle",
+    "Daily-life texture: concrete, small details",
+    "Cozy accomplishment: quiet pride, not boasting",
+    "First-person, intimate, like sharing with close friends"
+  ],
+  "hashtagAngles": [
+    "Slice-of-life aesthetic (e.g., #日常 #生活碎片)",
+    "Cozy study atmosphere (e.g., #书桌日常 #治愈系)",
+    "Shanghai evening mood (e.g., #上海夜晚 #雨天)",
+    "Anime-style life record (e.g., #二次元日常)"
+  ],
+  "summary": "A gentle, chunibyo-tinged caption about the quiet satisfaction of organizing a desk on a rainy Shanghai evening, centered on warm lamplight and a small origami crane.",
+  "errorMessage": ""
+}

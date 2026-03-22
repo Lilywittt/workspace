@@ -1,0 +1,18 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:52:23.788Z",
+  "lane": "life_record",
+  "characterPresenceTarget": "clear_character_presence",
+  "guidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "sourceMode": "scenario_override",
+  "personaLaneDefaultTarget": "supporting_presence",
+  "scenarioOverrideTarget": "clear_character_presence",
+  "allowedTargets": [
+    "trace_only",
+    "supporting_presence",
+    "clear_character_presence",
+    "expression_led"
+  ],
+  "notesEn": [],
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

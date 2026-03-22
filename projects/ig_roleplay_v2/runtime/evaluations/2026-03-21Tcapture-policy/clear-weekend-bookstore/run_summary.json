@@ -1,0 +1,157 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:52:12.874Z",
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore",
+  "mode": "zero_memory_agent",
+  "scenarioId": "clear-weekend-bookstore",
+  "dayContext": {
+    "isoDate": "2026-03-22",
+    "routineWindow": "afternoon_pause",
+    "weather": "clear to lightly cloudy",
+    "currentContext": "weekend_pause_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "city_trivia",
+      "seasonal_culture",
+      "trending_topics",
+      "anime_fandom",
+      "weather"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [
+      "bookstore_weekend_stationery_display"
+    ],
+    "worldStateNotes": [
+      "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+      "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "The aisle now has a temporary display edge with extra notebook stacks and binder clips near the entrance.",
+      "A small tray of binder clips is plausibly visible near the temporary display.",
+      "There is a little more shelf-side hesitation and browsing drift than usual."
+    ]
+  },
+  "characterState": {
+    "mood": "quiet, but slightly caught by one specific detail",
+    "preferredLane": "life_record",
+    "whyPostToday": "One tiny beat briefly felt worth keeping."
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "captureIntent": {
+    "lane": "life_record",
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    }
+  },
+  "selectedMoment": {
+    "summaryZh": "路过书店入口的临时陈列架时，她注意到一本笔记本的封面颜色，和她头发上的发卡几乎一模一样。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "caption": {
+    "text": "手指碰了碰发卡，又看了一眼那本笔记本。",
+    "hashtags": [
+      "#日常碎片",
+      "#颜色巧合",
+      "#路过看见"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "captureSummaryEn": "observational camera relation, medium distance, half body coverage, readable face, balanced environment weight",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [
+        "bookstore_weekend_stationery_display"
+      ],
+      "captureSummaryEn": "observational camera relation, medium distance, half body coverage, readable face, balanced environment weight",
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T11-52-06-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/b7/20260321/448165f2/c351323f-43fb-48c0-a851-4d0ca27c5163913777687.png?Expires=1774699725&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=xF1UVZUEfUxkXeAng6hJmjwT%2F6Y%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

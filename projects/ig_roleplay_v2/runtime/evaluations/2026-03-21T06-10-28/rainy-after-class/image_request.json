@@ -1,0 +1,51 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:19:14.577Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-16-20-rainy_after_class",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子, texture of dark wooden chair back, small broken blue chalk piece embedded in wood grain, school bag strap draped over the chair back, 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nComposition: close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "fashion editorial polish, empty scenic wallpaper, rewriting the moment into a person interacting, 时尚杂志般的抛光感, 空荡的风景壁纸, 将瞬间重写成人物互动, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, empty scenery without character trace, sunny outdoor field, bright outdoor meadow",
+    "shotNotes": [
+      "深色木椅的纹理",
+      "嵌在缝隙里的蓝色粉笔头",
+      "搭在椅背上的书包带子",
+      "texture of dark wooden chair back",
+      "small broken blue chalk piece embedded in wood grain",
+      "school bag strap draped over the chair back"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子, texture of dark wooden chair back, small broken blue chalk piece embedded in wood grain, school bag strap draped over the chair back, 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子",
+      "context": "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+      "composition": "close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "璃音发现教室椅背木纹里嵌着一小截蓝色粉笔头的瞬间",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

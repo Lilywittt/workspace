@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:35.960Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, the character steps into a small, quiet bookstore to browse, finding a worn-out novel with a pressed flower tucked inside its pages, sparking a moment of quiet curiosity and connection to a stranger's past.",
+  "microPlot": [
+    "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head.",
+    "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages.",
+    "A soft, wondering smile touches her lips as she imagines the story behind the forgotten bookmark, feeling a gentle, shared secret with the unknown previous reader."
+  ],
+  "sensoryFocus": "The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+  "sceneNotes": [
+    "Character's hand (with small red hairclip visible) gently holding the open book.",
+    "Soft, diffuse light from a nearby window highlighting the pressed flower on the page.",
+    "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop.",
+    "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background."
+  ],
+  "tone": [
+    "quietly_wondering"
+  ],
+  "captionFocus": [
+    "A discovered fragment of someone else's story, left behind like a secret."
+  ],
+  "summary": "A life_record scene in a Shanghai bookstore where the character finds a pressed flower in an old book, blending the day's gentle rain with a moment of intimate, curious connection.",
+  "errorMessage": ""
+}

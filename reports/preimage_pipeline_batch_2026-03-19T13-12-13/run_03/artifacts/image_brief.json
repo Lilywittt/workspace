@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:16:03.145Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+    "microPlot": [
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+      "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+      "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+    ],
+    "sensoryFocus": "the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+    "selectedCaptionOpening": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。",
+    "selectedCaptionSummary": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。 一枚光滑的石头，一张褪色的票根，一只落单的耳环。 指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。 今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+    "candidateAngle": "雨声作伴的整理"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Medium shot from across the room, framing her in profile near a rain-streaked window | Her small red hairclip is visible, catching a bit of the muted grey light | On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point | The rest of the room is softly out of focus, suggesting a cozy, lived-in space | Her expression is one of gentle, focused contemplation, not looking at the camera | cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Use a medium shot showing environment and activity",
+    "Consider a still-life composition of objects related to the moment",
+    "Focus on a wider scene or activity, not a close-up selfie",
+    "Incorporate the current '小雨' weather as a background element, not the main subject",
+    "Medium shot from across the room, framing her in profile near a rain-streaked window.",
+    "Her small red hairclip is visible, catching a bit of the muted grey light.",
+    "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point.",
+    "The rest of the room is softly out of focus, suggesting a cozy, lived-in space.",
+    "Her expression is one of gentle, focused contemplation, not looking at the camera.",
+    "The quiet ceremony of rediscovering little things the rain makes you remember.",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

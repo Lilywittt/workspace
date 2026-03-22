@@ -1,0 +1,227 @@
+{
+  "runIndex": 6,
+  "scenePlanRunId": "sceneplan-2026-03-20T10-39-51",
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "sceneFatigue": [
+      "legacy_program"
+    ]
+  },
+  "noveltyLedger": {
+    "scenePrograms": [
+      {
+        "value": "legacy_program",
+        "count": 10
+      },
+      {
+        "value": "micro_purchase_program",
+        "count": 1
+      },
+      {
+        "value": "return_or_repair_program",
+        "count": 1
+      }
+    ],
+    "locations": [
+      {
+        "value": "indoor_desk_corner",
+        "count": 6
+      },
+      {
+        "value": "bookstore_aisle",
+        "count": 2
+      },
+      {
+        "value": "kitchen_counter",
+        "count": 2
+      },
+      {
+        "value": "convenience_counter",
+        "count": 1
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "accessory",
+        "count": 9
+      },
+      {
+        "value": "comfort_item",
+        "count": 1
+      },
+      {
+        "value": "paper_fragment",
+        "count": 1
+      },
+      {
+        "value": "stationery",
+        "count": 1
+      }
+    ],
+    "fatigueFlags": {
+      "weatherPrimaryOveruse": false,
+      "indoorClusterOveruse": false,
+      "studyAftermathClusterOveruse": false
+    }
+  },
+  "reflectionNotes": {
+    "recurringObjects": [
+      "accessory"
+    ],
+    "familiarPlaces": [
+      "indoor_desk_corner",
+      "bookstore_aisle",
+      "kitchen_counter"
+    ],
+    "fatiguePatterns": []
+  },
+  "worldState": {
+    "daypart": "early_evening",
+    "weekdayMode": "school_day",
+    "seasonPhase": "early_spring",
+    "mobilityWindow": "short_walk_ok",
+    "needState": [
+      "small_reset",
+      "private_meaning"
+    ],
+    "preferredLane": "life_record"
+  },
+  "affordancePool": {
+    "primaryAffordanceIds": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "threshold_pause_window",
+      "indoor_reset_window"
+    ],
+    "topAffordances": [
+      {
+        "id": "kitchen_comfort_window",
+        "score": 0.84,
+        "reasons": [
+          "Temperature and energy support a tiny comfort scene.",
+          "Hand-to-object intimacy is plausible in the current state."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic",
+          "indoor"
+        ]
+      },
+      {
+        "id": "transit_fragment_window",
+        "score": 0.82,
+        "reasons": [
+          "Mobility window allows a short transit fragment.",
+          "School-day rhythm naturally creates transit micro-scenes."
+        ],
+        "preferredLocationKinds": [
+          "public_transit",
+          "semi_outdoor",
+          "outdoor_light"
+        ]
+      },
+      {
+        "id": "threshold_pause_window",
+        "score": 0.78,
+        "reasons": [
+          "The day has in-between energy that suits a threshold pause.",
+          "Weather can support a liminal pause without taking over."
+        ],
+        "preferredLocationKinds": [
+          "liminal_indoor",
+          "semi_outdoor"
+        ]
+      },
+      {
+        "id": "indoor_reset_window",
+        "score": 0.72,
+        "reasons": [
+          "Current mobility and energy favor a contained indoor scene.",
+          "Character state is asking for a small reset.",
+          "Evening timing naturally supports reset energy."
+        ],
+        "preferredLocationKinds": [
+          "indoor",
+          "indoor_domestic"
+        ]
+      }
+    ]
+  },
+  "sceneCandidates": {
+    "count": 5,
+    "topCandidateIds": [
+      "scene_cand_06",
+      "scene_cand_01",
+      "scene_cand_08",
+      "scene_cand_07",
+      "scene_cand_04"
+    ],
+    "programs": [
+      "micro_purchase_program",
+      "desk_reset_program",
+      "laundry_corner_program",
+      "return_or_repair_program",
+      "transit_fragment_program"
+    ]
+  },
+  "selectedSceneCandidate": {
+    "selectedCandidateId": "scene_cand_06",
+    "sceneProgramId": "micro_purchase_program",
+    "locationArchetype": "covered_walkway",
+    "objectFamily": "comfort_item",
+    "objectBindings": [
+      "mug of cocoa"
+    ],
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "shy_attachment"
+  },
+  "scenePlanDraft": {
+    "premise": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset.",
+    "microPlot": [
+      "A long day of studying leaves a quiet, low-energy need for a small reset.",
+      "She steps out into the light rain, not for a walk, but to make a tiny, intentional purchase at a small kiosk under a covered walkway.",
+      "Carrying the warm mug back, she feels a shy attachment to this small, chosen comfort—a private rescue mission for the evening."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "partial_presence",
+    "sceneProgramId": "micro_purchase_program",
+    "locationArchetype": "covered_walkway",
+    "objectFamily": "comfort_item",
+    "emotionalLanding": "shy_attachment",
+    "premise": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset."
+  },
+  "captionBrief": {
+    "goal": "Write a short, intimate caption for a photo of hands holding a warm cocoa mug under a covered walkway in the drizzly Shanghai evening. The text should frame a simple errand as a shy, intentional act of self-care—a private rescue mission for the day. It should feel like a quiet note to oneself, blending daily-life texture with a light, chunibyo sense of private meaning.",
+    "sceneProgramId": "micro_purchase_program"
+  },
+  "selectedCaption": {
+    "candidateAngle": "quiet errand as rescue",
+    "caption": "一项秘密任务：在傍晚的廊下，用一杯热可可，打捞沉没了一整天的注意力。\n任务完成，正在返航。"
+  },
+  "imageBrief": {
+    "sceneProgramId": "micro_purchase_program",
+    "locationArchetype": "covered_walkway"
+  },
+  "imageRequest": {
+    "sceneProgramId": "micro_purchase_program",
+    "scene": "Scene: a covered walkway holding back the weather, edge-of-rain atmosphere, mug of cocoa, bringing mug of cocoa back from a tiny errand, weather appears mainly through texture and air, slightly chilly, Frame focuses on hands holding the paper cup, with the covered walkway's sheltering roof and soft, diffuse evening light in the background, A small shopping bag rests at her feet, slightly blurred, containing just this one item, Her sleeve is pushed back just enough to show a familiar small red hairclip against her wrist, The light rain creates a gentle, misty texture in the air beyond the shelter, but the immediate space is dry and contained, Scene location archetype: covered walkway, Object focus: mug of cocoa, everyday life in Shanghai",
+    "camera": "Camera: partial first-person presence",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, shyly intentional, quiet fondness kept mostly private, the soft warmth of the paper cup through thin gloves"
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 95,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "dcabc00e6ffb",
+    "sceneProgram": "c1ec90451b61",
+    "locationArchetype": "999813f34d9d",
+    "objectFamily": "21d63a4169eb",
+    "selectedCaption": "1274b4baf675",
+    "imageScene": "ed80841fcdac"
+  }
+}

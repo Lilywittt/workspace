@@ -1,0 +1,25 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那个巧合带来的微小情绪波动，像水面被轻轻碰了一下。",
+  "whatToSayZh": "只说‘看到一本颜色很像发卡的笔记本’，不提为什么停下，也不解释为什么觉得有趣。",
+  "whatToLeaveUnsaidZh": "把‘为什么这个巧合让我嘴角动了一下’留在空白里，那是私人的玩笑。",
+  "openingMovesZh": [
+    "从‘路过书店时’开始。",
+    "直接描述看到的颜色。",
+    "让手指轻触发卡的动作成为唯一的暗示。",
+    "不说‘我觉得’或‘这让我想起’，只说事实。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片",
+    "颜色巧合",
+    "路过看见"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

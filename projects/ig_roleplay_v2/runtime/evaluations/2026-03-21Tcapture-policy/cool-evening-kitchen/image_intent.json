@@ -1,0 +1,68 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresencePlanEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "cameraRelation": "observational",
+  "faceReadability": "readable",
+  "bodyCoverage": "half",
+  "distance": "close",
+  "environmentWeight": "balanced",
+  "captureSummaryEn": "observational camera relation, close distance, half body coverage, readable face, balanced environment weight",
+  "captureGuidanceEn": [
+    "the frame should feel witnessed from the outside, not automatically self-held",
+    "a brief or partial face glimpse is enough; do not force portrait dominance",
+    "partial body coverage is enough when it keeps the moment concrete",
+    "medium distance is a stable everyday framing for ordinary daily-life moments",
+    "balance the protagonist and environment so they support the same lived beat together",
+    "the face should be readable, but the lived event may still stay primary",
+    "half-body coverage is allowed when it helps the action read cleanly",
+    "close framing is allowed when it helps the lived beat read more clearly"
+  ],
+  "framingZh": "让构图跟随同一个生活节拍，使动作和空间保持连贯。",
+  "framingEn": "moment-led framing rooted in the same lived action",
+  "mustShowZh": [
+    "她拿着杯子的手部特写，可以看清手指与杯沿的接触点",
+    "她的侧脸或上半身，表情是专注而略带疑惑的停顿",
+    "背景是家中桌面的局部，光线偏冷，符合傍晚氛围"
+  ],
+  "mustShowEn": [
+    "her hand holding the cup, with a clear view of the fingertip touching the small chip on the rim",
+    "her profile or upper body, with an expression of focused, slightly puzzled pause",
+    "partial view of a home desk surface in the background, with cool-toned evening light"
+  ],
+  "mayShowZh": [
+    "桌上的其他日常物品，如笔记本或笔",
+    "她衣服的袖口边缘",
+    "她头发上的红色小发夹（如果自然可见）"
+  ],
+  "mayShowEn": [
+    "other ordinary items on the desk, like a notebook or pen",
+    "the edge of her sleeve",
+    "the small red hairclip in her hair (if naturally visible)"
+  ],
+  "mustAvoidZh": [
+    "通用的美学壁纸",
+    "时尚大片般的精修感",
+    "将这一刻重写为不同的事件",
+    "让背景人物或无关路人占据比主角更多的视觉权重",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look"
+  ],
+  "mustAvoidEn": [
+    "generic aesthetic wallpaper",
+    "fashion editorial polish",
+    "rewriting the moment into a different event",
+    "letting irrelevant bystanders or background people take more visual weight than the protagonist"
+  ],
+  "atmosphereZh": "一个真实的生活片段，在流逝中被捕捉。",
+  "altTextZh": "角色月见璃音在傍晚家中，手指意外触碰到水杯边缘细小缺口时的瞬间。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

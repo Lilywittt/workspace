@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:02:30.257Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift focus from self-portrait to a small object or scene detail",
+    "Change sensory focus from visual (rain, wind) to sound or texture"
+  ],
+  "avoidMotifs": [
+    "Opening with '窗外的小雨' or similar weather-at-window phrases",
+    "Overusing hashtags #上海, #日常, #自拍, #小确幸"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a small note left for a future self"
+  ],
+  "captionAdvice": [
+    "Use a short observation about an ordinary object with secret weight",
+    "End with a gentle trailing thought, not a bright affirmation"
+  ],
+  "imageAdvice": [
+    "Compose around a handheld object or partial view, not a full-face selfie",
+    "Use soft, indirect lighting to match the gentle, private tone"
+  ],
+  "summary": "Move from selfie to a life_record of a small, textured moment, keeping the intimate, sensitive voice but shifting the frame.",
+  "errorMessage": ""
+}

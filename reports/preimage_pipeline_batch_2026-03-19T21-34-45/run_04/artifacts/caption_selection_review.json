@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:40:57.879Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-40-07",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best captures the scene's core emotional landing of 'shy_attachment' and the directive for a 'quiet, private note to her future self.' It cleanly executes the micro-plot (buying, sensory detail, carrying as a promise) with short, intimate sentences that avoid diary summary. The '小小暗号' (little secret signal) metaphor provides the light chunibyo texture and private-ritual weight without overwriting, and the ending feels like a gentle, trailing self-address, not a fixed slogan.",
+  "strengths": [
+    "Perfectly matches the 'shy_attachment' emotional landing and 'private ritual' tone",
+    "Clean three-line structure follows the cause-action-feeling micro-plot",
+    "Integrates sensory detail (rustle of paper, rain) naturally",
+    "Metaphor ('小小暗号') is light, intimate, and persona-appropriate",
+    "Ending is soft and forward-looking, avoiding a repetitive or self-encouraging slogan"
+  ],
+  "risks": [
+    "Slightly more abstract than the tactile contrast in candidate 02",
+    "The metaphor, while gentle, edges toward the 'tiny omen' semantic used recently"
+  ],
+  "errorMessage": ""
+}

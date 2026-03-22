@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:03:18.170Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate 02 best balances the required life_record lane shift with a fresh narrative hook, weaving multiple concrete scene objects (mug, crane, hairclip) and the weather variable into a cohesive micro-plot that feels intimate and gently dramatic, directly supporting the 'bright and alive' continuity while avoiding recent opening patterns.",
+  "caption": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\n笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。\n嗯，今天也是明亮的一天。",
+  "hashtags": [
+    "#上海夜晚",
+    "#生活记录",
+    "#书桌整理",
+    "#治愈时刻",
+    "#日常美学"
+  ],
+  "candidateAngle": "雨夜角落",
+  "candidateRationale": "从“对抗倦怠”的轻中二角度切入，融入多个具体物件（马克杯、纸鹤、发夹）和天气变量，强调内外对比，以角色信念作结，富有生活纹理。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "Candidate 02 best balances the required life_record lane shift with a fresh narrative hook, weaving multiple concrete scene objects (mug, crane, hairclip) and the weather variable into a cohesive micro-plot that feels intimate and gently dramatic, directly supporting the 'bright and alive' continuity while avoiding recent opening patterns.",
+    "strengths": [
+      "Strong life_record pivot with rich environmental detail",
+      "Integrates multiple specific objects from the visual cues",
+      "Clear cause-action-feeling micro-plot structure",
+      "Natural, non-repetitive incorporation of the catchphrase"
+    ],
+    "risks": [
+      "Slightly more abstract '对抗倦怠' opening may feel less immediate",
+      "Hashtag #上海夜晚 is a minor continuity repetition"
+    ]
+  }
+}

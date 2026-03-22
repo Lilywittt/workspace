@@ -1,0 +1,69 @@
+{
+  "candidateId": "event_03",
+  "lane": "life_record",
+  "eventSummaryZh": "她拉开窗帘想看看天色，却发现玻璃上有一小片水汽凝结的痕迹。",
+  "hookWhyInterestingZh": "不是完整的雾气，而是手指无意中划过留下的一小道清晰区域。",
+  "causalChainZh": [
+    "她走到窗边想确认外面的光线。",
+    "伸手去拉窗帘时，手掌侧面碰到了玻璃。",
+    "皮肤的温度在凉玻璃上留下了一小片短暂消雾的痕迹。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_evening_reset",
+      "weather_cloudy"
+    ],
+    "inferredDetailsZh": [
+      "傍晚室内外温差导致玻璃起雾。",
+      "这个动作发生在查看天气的日常意图中。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "她只是想知道外面是不是完全暗了。",
+  "interiorShiftZh": "那片清晰的痕迹让她意识到自己的体温正在影响眼前的世界，哪怕只有一小块。",
+  "whyTodayZh": "凉爽的傍晚让玻璃起雾，为这个无意的接触创造了物理条件。",
+  "whyShareableZh": "它捕捉了一个体温与环境相互作用的微小证据。",
+  "visualEvidenceZh": [
+    "玻璃上一小道清晰的弧形痕迹",
+    "手掌还停留在玻璃附近",
+    "窗外模糊的暮色透过痕迹显得稍亮一些"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "傍晚的凉意让玻璃起雾，但没有直接导致她去触碰。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T15:40:44.068Z",
+  "review": {
+    "candidateId": "event_03",
+    "personaTruthScore": 87,
+    "groundingScore": 88,
+    "postabilityScore": 85,
+    "coherenceScore": 87,
+    "characterPresenceFitScore": 90,
+    "sourceMirroringRiskScore": 10,
+    "strengthsZh": [
+      "物理细节（体温消雾）直接导致了情感转变。",
+      "瞬间本身支持从手部痕迹到角色侧脸/身体的清晰构图。",
+      "在不破坏原事件的前提下，能自然满足‘清晰角色存在’的目标。",
+      "环境（玻璃、暮色）与角色动作紧密结合。"
+    ],
+    "risksZh": [
+      "需要确保‘查看天色’的意图不被环境信号（凉意）扭曲为直接指令。"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

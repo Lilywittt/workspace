@@ -1,0 +1,177 @@
+{
+  "version": "2.0.0-alpha.1",
+  "historyWindowForSemantics": 12,
+  "dayparts": [
+    {
+      "id": "early_morning",
+      "startHour": 5,
+      "endHour": 8
+    },
+    {
+      "id": "morning",
+      "startHour": 8,
+      "endHour": 11
+    },
+    {
+      "id": "midday",
+      "startHour": 11,
+      "endHour": 14
+    },
+    {
+      "id": "afternoon",
+      "startHour": 14,
+      "endHour": 17
+    },
+    {
+      "id": "early_evening",
+      "startHour": 17,
+      "endHour": 20
+    },
+    {
+      "id": "late_evening",
+      "startHour": 20,
+      "endHour": 23
+    },
+    {
+      "id": "night",
+      "startHour": 23,
+      "endHour": 29
+    }
+  ],
+  "weekdayModes": {
+    "weekendDays": [
+      0,
+      6
+    ],
+    "schoolDayLabel": "school_day",
+    "weekendLabel": "weekend"
+  },
+  "seasonPhaseByMonth": {
+    "1": "mid_winter",
+    "2": "late_winter",
+    "3": "early_spring",
+    "4": "spring_light",
+    "5": "late_spring",
+    "6": "early_summer",
+    "7": "mid_summer",
+    "8": "late_summer",
+    "9": "early_autumn",
+    "10": "mid_autumn",
+    "11": "late_autumn",
+    "12": "early_winter"
+  },
+  "temperatureBands": [
+    {
+      "id": "cold",
+      "max": 7
+    },
+    {
+      "id": "cool",
+      "max": 14
+    },
+    {
+      "id": "mild",
+      "max": 23
+    },
+    {
+      "id": "warm",
+      "max": 30
+    },
+    {
+      "id": "hot",
+      "max": 99
+    }
+  ],
+  "mobilityWindows": [
+    {
+      "id": "indoor_preferred",
+      "weatherCodes": [
+        63,
+        65,
+        71,
+        73,
+        75,
+        95
+      ],
+      "windAbove": 20,
+      "temperatureMax": 6
+    },
+    {
+      "id": "short_walk_ok",
+      "weatherCodes": [
+        51,
+        53,
+        55,
+        61,
+        80,
+        81
+      ],
+      "windAbove": 14,
+      "temperatureMax": 12
+    },
+    {
+      "id": "open_city_ok",
+      "weatherCodes": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "windAbove": 99,
+      "temperatureMax": 99
+    }
+  ],
+  "energyHeuristics": {
+    "daypartBase": {
+      "early_morning": "low_to_medium",
+      "morning": "medium",
+      "midday": "medium",
+      "afternoon": "medium_low",
+      "early_evening": "medium_low",
+      "late_evening": "low",
+      "night": "low"
+    },
+    "lanePressurePenalty": {
+      "life_record": "detail_seeking",
+      "selfie": "self_reflective"
+    }
+  },
+  "socialBandwidthByLane": {
+    "life_record": "solo_preferred",
+    "selfie": "self_reflective"
+  },
+  "weatherRolePolicies": {
+    "rainCodes": [
+      51,
+      53,
+      55,
+      61,
+      63,
+      65,
+      80,
+      81
+    ],
+    "stormCodes": [
+      95
+    ],
+    "fogCodes": [
+      45,
+      48
+    ],
+    "snowCodes": [
+      71,
+      73,
+      75
+    ]
+  },
+  "needStateRules": {
+    "life_record": [
+      "small_reset",
+      "private_meaning"
+    ],
+    "selfie": [
+      "self_capture",
+      "mood_translation"
+    ]
+  }
+}

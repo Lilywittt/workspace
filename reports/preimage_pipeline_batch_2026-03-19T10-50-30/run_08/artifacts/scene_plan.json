@@ -1,0 +1,127 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T02-59-53",
+  "createdAt": "2026-03-19T02:59:53.313Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After a morning of studying, she tidies her desk, finding a small, forgotten charm tucked under a notebook—a tiny, worn rabbit keychain from a childhood trip, its threadbare ears a sudden, soft anchor to a simpler time.",
+    "microPlot": [
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space.",
+      "action sentence: She carefully stacks her textbooks, wipes the desk with a soft cloth, and discovers the old keychain hidden beneath.",
+      "feeling sentence: A quiet warmth spreads through her chest, a mix of nostalgia and gentle surprise that something so small can still feel so comforting."
+    ],
+    "sensoryFocus": "soft cloth texture, faint paper-dust scent, worn plush under fingertips"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "partial_presence",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Desk lit by a warm, low desk lamp, casting soft shadows",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in",
+      "The red hairclip visible at the edge of her hair, catching the light",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain",
+      "A faint, blurred background of a bedroom shelf with a few trinkets",
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a scene with hands or objects, not a face-forward selfie",
+      "Use warmer indoor lighting if possible",
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor setting or a different time of day",
+      "Desk lit by a warm, low desk lamp, casting soft shadows.",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in.",
+      "The red hairclip visible at the edge of her hair, catching the light.",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain.",
+      "A faint, blurred background of a bedroom shelf with a few trinkets.",
+      "A quiet moment of rediscovery in the midst of tidying up.",
+      "Do not leave the frame as a pure empty scene; include one or two readable character traces",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "A hand holding a phone or drink, a sleeve edge, a reflection, or a hairclip is acceptable even if the full face is absent",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate diary feel but pivot from selfies to a simple life-record scene to refresh the visual rhythm.",
+    "draftSummary": "She finds an old charm while cleaning her desk, sparking a gentle, nostalgic pause in her day.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

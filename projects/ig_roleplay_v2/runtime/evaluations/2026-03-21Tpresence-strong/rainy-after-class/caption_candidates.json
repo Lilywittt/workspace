@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "指尖先认出了它，比眼睛还快。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体触感出发，符合叙事习惯"
+    },
+    {
+      "id": "caption_03",
+      "angle": "ambient_influence",
+      "caption": "雨声里，一张被压得平平整整的纸片。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "融入环境但非直接因果，保持私密感"
+    },
+    {
+      "id": "caption_04",
+      "angle": "action_feeling_arc",
+      "caption": "手伸进去找东西，却带出来一个去年的下午。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "展示一个从动作到感觉的微小弧线"
+    },
+    {
+      "id": "caption_05",
+      "angle": "private_weight",
+      "caption": "忘了扔的东西，今天摸起来像一个小小的征兆。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "让普通物件获得私人重量，轻微中二"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

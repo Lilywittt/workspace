@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:53:53.551Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-53-34",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, reflective moment of rediscovering an old sketchbook on a rainy afternoon. The caption should convey gentle nostalgia and the small joy of finding a forgotten piece of oneself, using sensory details and daily-life texture to make the scene feel intimate and real.",
+  "audienceFeeling": "A cozy, wistful smile",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo tone: slightly dramatic but grounded in daily life",
+    "Gentle and nostalgic, not sad or overly sentimental",
+    "First-person, casual, like sharing a moment with friends",
+    "Use concrete details over vague emotions",
+    "Keep sentences short and flowing, suitable for social media",
+    "Start with a simple observation about the rain or the desk",
+    "Mention the act of finding something unexpected",
+    "Describe the physical sensation of opening the sketchbook",
+    "The sketchbook as a found object",
+    "Sensory detail (e.g., paper scent, rain sound)",
+    "A micro-plot beat (finding, opening, reacting)",
+    "The red hairclip as a character trace",
+    "The catchphrase 'Today should still feel bright and alive.' woven naturally"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, she decides to tidy her desk, discovering a forgotten sketchbook tucked under a pile of notes. The soft rain outside creates a quiet, reflective atmosphere as she flips through the old drawings, each page a small memory from a brighter season.",
+    "microPlot": [
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity.",
+      "She carefully brushes off the cover and opens it to a page of summer flowers.",
+      "A gentle, nostalgic smile forms, mixing the comfort of memory with the cozy present."
+    ],
+    "sensoryFocus": "The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "nostalgic"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, nostalgic caption about finding an old sketchbook on a rainy afternoon, blending sensory details with light chunibyo charm.",
+    "hashtagAngles": [
+      "#雨天小发现 (Rainy day discovery)",
+      "#手帐回忆 (Sketchbook memories)",
+      "#上海日常 (Shanghai daily life)",
+      "#治愈时刻 (Healing moment)",
+      "#中二病日常 (Chunibyo daily life)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Overly poetic or abstract diary entries",
+    "Exposition about lore or backstory",
+    "Dialogue or script format",
+    "Ignoring the rainy Shanghai atmosphere"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "recommendedCandidateId": "event_02",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 75,
+      "postabilityScore": 82,
+      "coherenceScore": 80,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "有具体的物理触发（笔帽刻痕）",
+        "符合‘让一个瞬间的触感停留得久一点’的需求"
+      ],
+      "risksZh": [
+        "视觉上可能过于依赖手部特写，难以达成‘clear_character_presence’",
+        "刻痕细节若处理不当，可能显得刻意或装饰性"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 88,
+      "groundingScore": 82,
+      "postabilityScore": 85,
+      "coherenceScore": 87,
+      "characterPresenceFitScore": 88,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "触觉先于视觉的发现过程非常真实",
+        "事件支持从‘trace_led’到‘clear_character_presence’的多种构图",
+        "票根是‘被压得平平整整’的，细节顽固而普通"
+      ],
+      "risksZh": [
+        "需注意避免将‘去年的电影票根’解读为怀旧主题，保持触觉发现的纯粹性"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 80,
+      "groundingScore": 78,
+      "postabilityScore": 75,
+      "coherenceScore": 82,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "水珠滑落的物理过程清晰",
+        "与雨天背景有安静的呼应"
+      ],
+      "risksZh": [
+        "‘杯盖内侧的水珠’作为视觉主体，容易滑向唯美装饰",
+        "为满足‘clear_character_presence’，可能被迫加入不自然的肖像修正"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 83,
+      "groundingScore": 80,
+      "postabilityScore": 78,
+      "coherenceScore": 79,
+      "characterPresenceFitScore": 85,
+      "sourceMirroringRiskScore": 18,
+      "strengthsZh": [
+        "‘被无数只手磨得异常光滑的凹陷’是出色的顽固细节",
+        "场景（教室后门）自然支持人物全身或半身出现，符合目标"
+      ],
+      "risksZh": [
+        "对‘集体无意识痕迹’的解读需克制，避免变成公开的哲理阐述",
+        "视觉上需确保门框细节不喧宾夺主"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "审查完成。event_02在角色真实性、现实贴合度、图文同源性上表现均衡，且能自然支持‘clear_character_presence’的构图目标，而不破坏事件本身。其触觉发现的纯粹性和视觉灵活性使其成为最佳选择。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

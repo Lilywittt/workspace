@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:34:37.021Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly early evening, a short errand to a covered walkway becomes a tiny, forward-looking ritual. Choosing a small, soft pouch isn't just a purchase; it's a shy act of self-care, carrying a small, tactile comfort back into the day as a private promise of gentle shelter.",
+  "microPlot": [
+    "Feeling the damp chill seep in after a long day, she steps into a covered walkway for a brief, necessary pause.",
+    "Her fingers trace the soft fabric of a small pouch on a counter, a quiet decision made and a tiny purchase completed.",
+    "Carrying the small comfort back with her, she feels a shy, private attachment to this ordinary object, a tiny anchor against the evening's drift."
+  ],
+  "sensoryFocus": "the soft, slightly fuzzy texture of the pouch against cool fingertips",
+  "sceneNotes": [
+    "Focus on hands and the small object; background is a soft blur of the covered walkway's concrete and diffused evening light.",
+    "The pouch is a simple, muted color, perhaps a soft grey or faded lavender, resting on a worn wooden counter.",
+    "A faint, damp scent of rain on concrete lingers in the air, a subtle ambient note."
+  ],
+  "tone": [
+    "shyly_attached"
+  ],
+  "captionFocus": [
+    "A small, forward-looking choice made in a sheltered pause."
+  ],
+  "summary": "A gentle micro-purchase of a soft pouch becomes a shy, forward-looking ritual of self-care in the cool, drizzly early evening.",
+  "errorMessage": ""
+}

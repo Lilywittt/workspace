@@ -1,0 +1,176 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:36:11.460Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-35-54",
+  "goal": "将发现并抚平一张计划表内页的微小动作，写成一条私密的、带有轻微中二感的日常动态。重点在于手感、光线和内心那点‘为明天悄悄整理秩序’的温柔意图，而非事件本身。",
+  "audienceFeeling": "一种安静的、被微小仪式感抚慰的共鸣",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / planner page.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "短句为主，允许偶尔一句稍长的、像轻轻呼出一口气的句子",
+    "句尾使用轻柔的收束或轻微的自我呢喃语气",
+    "保持克制，让中二感体现在对普通物件的私人赋予意义上，而非夸张的表演",
+    "像在给未来的自己留一张小纸条",
+    "从触觉或视觉细节切入（如纸张的触感、雨天的光线）",
+    "用一句简短的发现陈述引入场景",
+    "以第一人称的轻微自问或自我对话开场",
+    "手指抚平纸张褶皱的具体触感（干涩的沙沙声）",
+    "雨天傍晚书店里柔和、漫射的光线",
+    "动作完成后胸口那阵‘悄悄整理好一件事’的温暖满足感",
+    "将这张内页视为‘给明天的小小承诺’的私人解读"
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly early evening, a small, torn page from a planner is found tucked between books in a quiet bookstore aisle. The act of carefully smoothing its crease and slipping it back into its proper place becomes a tiny, forward-looking ritual—a quiet promise to tomorrow, made with gentle hands.",
+    "microPlot": [
+      "A loose planner page, its corner torn and ink smudged from the damp air, is discovered among the secondhand novels.",
+      "With careful, deliberate fingers, she smooths the page flat against a book's cover, aligning its edges as if setting a small thing right.",
+      "A quiet, satisfied warmth settles in her chest, a feeling of gentle order restored in the soft, rainy light."
+    ],
+    "sensoryFocus": "the faint, dry rustle of paper under fingertips",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "planner page"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 18,
+        "daypart": "early_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "medium_low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_intention"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "一个女孩在雨天的书店里，将一张散落的计划表内页抚平放回，视之为一个给明天的、温柔的私人承诺。",
+    "hashtagAngles": [
+      "雨天书店",
+      "微小仪式感",
+      "日常修复时刻",
+      "温柔意图",
+      "计划与偶然"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "将动作拔高为宏大的命运宣言或人生转折",
+    "使用商业合作或营销口吻",
+    "以固定的自我鼓励口号式句子结尾",
+    "过度解释或说明这个‘仪式’的意义"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

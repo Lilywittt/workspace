@@ -1,0 +1,93 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:41:29.187Z",
+  "sourceCandidateId": "event_01",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "她只是把杯子放回架子上，却因为杯沿上残留的一圈水痕停了一下。",
+    "hookWhyInterestingZh": "一个极其微小的物理细节，在傍晚的光线下突然变得显眼，让一个日常动作有了半拍的停顿。",
+    "causalChainZh": [
+      "傍晚回家后，她准备把用过的杯子放好。",
+      "拿起杯子时，手指触碰到杯沿一圈未干的水痕。",
+      "那一瞬间的凉意和触感让她动作顿住，目光落在杯沿上。",
+      "她没有立刻擦掉，只是看着，然后才把杯子放回原处。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_home_evening_reset",
+        "weather_cloudy"
+      ],
+      "inferredDetailsZh": [
+        "傍晚的凉意让水痕的触感更明显。",
+        "室内光线可能让水痕的反光更清晰。",
+        "这是一个发生在回家后、整理过程中的微小动作。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "傍晚凉意让触感更清晰，室内光线让细节更显眼。",
+        "背景里关于“回家后微小动作”的讨论，可能让这种停顿本身更值得留意，但并非直接主题。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "她只是按部就班地收拾，思绪在别处飘着。",
+    "after": "指尖那圈微凉、具体的水痕，把她拉回了此刻的物理现实，心里有了一瞬间的“哦，在这里”。",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "home_evening_reset",
+    "routineWindow": "evening_reset",
+    "weather": "cool cloudy evening",
+    "minimalBounds": [
+      "context_home_evening_reset",
+      "window_evening_reset",
+      "weather_cloudy",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "它捕捉了一个真实的、非戏剧性的停顿，有具体的触觉和视觉证据，能让人感到角色的存在。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "她拿着杯子的手部特写，能看到杯沿的水痕。",
+      "她的侧脸或低垂的视线，正看着杯沿。",
+      "傍晚室内柔和的光线，勾勒出杯子和她手指的轮廓。"
+    ],
+    "mayShow": [
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context.",
+      "pressed leaf is a plausible object anchor in this context.",
+      "bookmark is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

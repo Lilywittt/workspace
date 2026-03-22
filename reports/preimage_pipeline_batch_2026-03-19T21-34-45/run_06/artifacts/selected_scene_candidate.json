@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:42:35.507Z",
+  "source": "code",
+  "status": "selected_scene_candidate_ready",
+  "selectedCandidateId": "scene_cand_06",
+  "selectionReason": "Selected micro_purchase_program because it balanced novelty 73, feasibility 92, and persona fit 88.",
+  "selectedCandidate": {
+    "candidateId": "scene_cand_06",
+    "lane": "life_record",
+    "sceneProgramId": "micro_purchase_program",
+    "affordanceId": "micro_purchase_window",
+    "locationArchetype": "covered_walkway",
+    "locationCluster": "shelter_pause",
+    "objectFamily": "comfort_item",
+    "objectBindings": [
+      "warm cup sleeve"
+    ],
+    "weatherRole": "texture_modifier",
+    "actionKernel": "choose_pay_carry_back",
+    "actionSequence": [
+      "choose warm cup sleeve",
+      "complete the tiny purchase",
+      "carry the small comfort back into the day"
+    ],
+    "emotionalLanding": "shy_attachment",
+    "presenceMode": "partial_presence",
+    "captionHooks": [
+      "small purchase as a private rescue",
+      "carrying a tiny comfort back with her"
+    ],
+    "imageHooks": [
+      "counter light",
+      "shopping bag detail",
+      "small object prominence"
+    ],
+    "premiseSeed": "warm cup sleeve becomes the center of a choose pay carry back moment at covered walkway.",
+    "scores": {
+      "total": 73,
+      "novelty": 73,
+      "feasibility": 92,
+      "personaFit": 88
+    }
+  },
+  "rankedCandidates": [
+    {
+      "candidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "totalScore": 73,
+      "locationArchetype": "covered_walkway",
+      "objectFamily": "comfort_item",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment"
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "sceneProgramId": "desk_reset_program",
+      "totalScore": 71,
+      "locationArchetype": "window_seat",
+      "objectFamily": "stationery",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "sceneProgramId": "laundry_corner_program",
+      "totalScore": 71,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "totalScore": 65,
+      "locationArchetype": "convenience_counter",
+      "objectFamily": "stationery",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_04",
+      "sceneProgramId": "transit_fragment_program",
+      "totalScore": 64,
+      "locationArchetype": "covered_walkway",
+      "objectFamily": "bag_contents",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "shy_attachment"
+    }
+  ]
+}

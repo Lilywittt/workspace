@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:39:56.499Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-38-55",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption best fulfills the brief by centering the required sensory detail (dry, rough paper vs. damp air) and weaving it directly into the micro-plot of restoring order, creating a publishable, intimate moment that feels like a note to a future self. It avoids repetition of recent openings and semantic fatigue by focusing on tactile contrast and a fresh 'gentle_order' emotional landing, fitting the scene's 'return_or_repair_program' while maintaining a light, believable chunibyo texture.",
+  "strengths": [
+    "Strong sensory hook with tactile contrast (rough paper vs. damp air) as required",
+    "Cleanly executes the micro-plot from discovery to internal resolution",
+    "Ends with a gentle, inward-focused observation that avoids slogan-like closure",
+    "Fits the 'gentle_order' emotional landing and 'texture_modifier' weather role perfectly"
+  ],
+  "risks": [
+    "The hashtag '#私人秩序' is used by another candidate, slightly reducing novelty",
+    "Slightly more abstract than candidate 02's step-by-step ritual description"
+  ],
+  "errorMessage": ""
+}

@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:15:30.996Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, rainy afternoon spent arranging forgotten objects on a windowsill, blending gentle chunibyo with intimate daily texture. The caption should convey a private ritual feeling, focus on sensory details like the sound of rain and the touch of objects, and end with a soft, reflective note that feels personal and uncommercial.",
+  "audienceFeeling": "A quiet, cozy resonance",
+  "openingMoves": [
+    "Start with a simple observation about the rain or the indoor atmosphere",
+    "Mention the act of finding or arranging small objects",
+    "Use a short, breath-like sentence to introduce the ritual feeling"
+  ],
+  "mustInclude": [
+    "The sound or feel of the light rain (小雨)",
+    "A list or description of 2-3 specific forgotten objects (e.g., smooth stone, ticket stub)",
+    "The small red hairclip as a visual anchor",
+    "A hint that one object feels faintly symbolic or holds a secret story",
+    "The catchphrase 'Today should still feel bright and alive.' woven naturally"
+  ],
+  "mustAvoid": [
+    "Explicit world-building or theatrical chunibyo",
+    "Commercial or promotional language",
+    "Overly poetic or diary-like exposition",
+    "Directly addressing the camera or audience",
+    "Mentioning AI, KPIs, or collaboration"
+  ],
+  "voiceNotes": [
+    "Use short sentences with one slightly longer, breath-like phrase",
+    "End with a soft, trailing tone or gentle self-address",
+    "Keep language simple, intimate, and believable for a daily post",
+    "Let the 'light chunibyo' flavor emerge through private ritual energy, not fantasy",
+    "Incorporate sensory details (touch, sound) to ground the moment"
+  ],
+  "hashtagAngles": [
+    "#小雨的仪式感 (ritual feeling of light rain)",
+    "#被遗忘的小东西 (forgotten little things)",
+    "#上海阴天 (Shanghai cloudy day)",
+    "#日常收藏 (daily collection)",
+    "#安静下午 (quiet afternoon)"
+  ],
+  "summary": "A life_record caption about arranging forgotten objects during a rainy afternoon, blending gentle chunibyo with intimate daily texture and a soft, reflective close.",
+  "errorMessage": ""
+}

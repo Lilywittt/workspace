@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:27:57.217Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-27-22",
+  "briefGoal": "Write a short, intimate Instagram caption that captures the quiet ritual of buying a cup sleeve on a drizzly evening. Frame it as a private, forward-looking note to oneself, where the ordinary object briefly carries a secret weight of comfort and reset.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "私密仪式",
+      "caption": "在雨棚下的小小采购。\n选了一个暖杯套，纸袋发出轻微的沙沙声。\n像是给明天，偷偷存了一点温度。",
+      "hashtags": [
+        "#小小仪式感",
+        "#便利店治愈时刻",
+        "#小雨的晚上",
+        "#给明天的小温暖"
+      ],
+      "rationale": "聚焦于购买行为作为私密仪式，用感官细节（沙沙声）和未来指向（给明天）营造轻柔的中二感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物件暗号",
+      "caption": "一个普通的暖杯套。\n但在今晚的细雨里，它成了我和自己之间，一个关于重启的、害羞的暗号。",
+      "hashtags": [
+        "#生活切片",
+        "#微小的救赎",
+        "#上海日常",
+        "#春季重置"
+      ],
+      "rationale": "将普通物件赋予秘密暗号的质感，符合“平凡事物带有秘密意义”的指令，语气私密且克制。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "携带温暖",
+      "caption": "带着一小袋温暖，走回潮湿的空气里。\n10.4度的夜晚，一个暖杯套就是全部的行动纲领。",
+      "hashtags": [
+        "#携带温度",
+        "#晚间散步",
+        "#日常记录",
+        "#微小的舒适"
+      ],
+      "rationale": "以“携带”动作为核心，结合具体天气数据，将微小物品提升为个人“行动纲领”，充满生活纹理和轻微戏剧性。"
+    }
+  ]
+}

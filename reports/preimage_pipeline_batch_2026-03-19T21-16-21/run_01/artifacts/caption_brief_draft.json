@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:05.550Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-16-48",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures a quiet, private moment of finding and fixing a bent paper clip in a bookstore aisle. It should feel like a gentle, personal ritual, using short sentences and sensory details (cool metal, warm light, sound of rain) to convey a small reset and a sense of restoring order, without making it a grand statement.",
+  "audienceFeeling": "A soft, intimate sense of quiet satisfaction",
+  "openingMoves": [
+    "Start with noticing the small object on the floor",
+    "Describe the physical sensation of picking it up",
+    "Mention the surrounding quiet and weather"
+  ],
+  "mustInclude": [
+    "The act of straightening the paper clip with fingers",
+    "The sensory detail of metal warming against skin",
+    "Placing it back on the shelf as a completion",
+    "The light rain and cool evening in Shanghai",
+    "A subtle hint that this small act feels privately meaningful"
+  ],
+  "mustAvoid": [
+    "Explicitly calling it a 'ritual' or 'symbolic'",
+    "Overly poetic or theatrical language",
+    "A fixed, slogan-like ending",
+    "Broad life lessons or self-encouragement mantras",
+    "Commercial or promotional phrasing"
+  ],
+  "voiceNotes": [
+    "Use mostly short sentences with one slightly longer breath",
+    "End with a soft, trailing tone or gentle self-address",
+    "Keep it light, chunibyo should feel intimate, not performative",
+    "Write as a private note to self or a future self",
+    "Let the ordinary object (paper clip) carry a faint, secret weight"
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#书店碎片",
+    "#生活记录",
+    "#微小仪式感",
+    "#阴雨天的安静"
+  ],
+  "summary": "A gentle caption about straightening a found paper clip in a rainy Shanghai bookstore, treating it as a private, satisfying small reset.",
+  "errorMessage": ""
+}

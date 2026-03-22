@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:31:02.881Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-30-13",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=105. review=This candidate best fulfills the brief by grounding the private ritual in a specific sensory detail (the clean scent of wood polish on a cloth) and weaving the micro-plot from clutter to action to a gentle, internal feeling of reset. It avoids a fixed slogan ending, instead trailing off with a light chunibyo touch ('a corner of the heart was gently wiped clean') that feels intimate and publishable, fitting the shift from a selfie streak to a contemplative life_record.",
+  "caption": "整理完书桌，指尖还留着木蜡布那点干净的松木香。\n把散落的笔记对齐，擦掉可可渍，一支笔回到笔筒。\n窗外的雨声很轻，但心里的某个角落，好像也这样被轻轻擦亮了。",
+  "hashtags": [
+    "#生活碎片",
+    "#整理心情",
+    "#书桌日记",
+    "#小仪式感",
+    "#上海"
+  ],
+  "candidateAngle": "触感与秩序",
+  "candidateRationale": "以触觉（木蜡布香气）和秩序感（对齐、擦掉、放回）为核心，将整理动作转化为对内心角落的擦拭，符合‘普通物件带上私人意义’的要求，结尾自然融入雨声，避免口号式收尾。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the brief by grounding the private ritual in a specific sensory detail (the clean scent of wood polish on a cloth) and weaving the micro-plot from clutter to action to a gentle, internal feeling of reset. It avoids a fixed slogan ending, instead trailing off with a light chunibyo touch ('a corner of the heart was gently wiped clean') that feels intimate and publishable, fitting the shift from a selfie streak to a contemplative life_record.",
+    "strengths": [
+      "Strong sensory anchor with the wood polish scent directly from the brief",
+      "Clear micro-plot progression (clutter -> tidying actions -> internal feeling)",
+      "Light chunibyo touch feels natural and intimate, not overwritten",
+      "Integrates the weather (light rain) subtly without dominating",
+      "Avoids repetitive openings and fixed, motivational endings"
+    ],
+    "risks": [
+      "The final metaphor ('wiped clean') is slightly abstract, though grounded by the preceding actions",
+      "Hashtag #上海 is frequent in recent history, but its use here is contextually appropriate"
+    ]
+  }
+}

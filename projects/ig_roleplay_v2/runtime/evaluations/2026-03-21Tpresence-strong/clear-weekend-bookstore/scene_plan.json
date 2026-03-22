@@ -1,0 +1,52 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore",
+  "createdAt": "2026-03-21T09:13:19.031Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "晴到多云",
+    "locationName": "Shanghai",
+    "routineWindow": "afternoon_pause"
+  },
+  "narrative": {
+    "premise": "下午整理书架时，发现一本旧书里夹着一张几年前随手写的便签，上面的字迹已经有点晕开了。",
+    "microPlot": [
+      "原本只是继续往下做日常动作。",
+      "某个具体细节突然把注意力拉住。",
+      "心里的重量轻轻偏了一下。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "结果因为一个很小的细节，心里轻轻停了一下。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "手边的小物件",
+      "动作停住的一瞬间",
+      "人物存在的痕迹"
+    ],
+    "sceneNotes": [
+      "context: weekend_pause_window",
+      "weather: 晴到多云",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "close-up of hand and notebook page, moment-led framing rooted in the same lived action",
+  "mustShowZh": [
+    "摊开的旧笔记本，纸张边缘有不规则的水渍皱痕",
+    "手指正轻轻触碰或停留在皱痕上"
+  ],
+  "mustShowEn": [
+    "an old notebook lying open, with an irregular water-stain wrinkle at the edge of the page",
+    "a finger gently touching or resting on the wrinkled texture"
+  ],
+  "mayShowZh": [
+    "笔记本下方或旁边的桌面",
+    "袖口边缘",
+    "一缕头发或红色发夹的局部"
+  ],
+  "mayShowEn": [
+    "the edge of a desk or surface beneath the notebook",
+    "the edge of a sleeve",
+    "a glimpse of hair or the small red hairclip"
+  ],
+  "mustAvoidZh": [
+    "时尚杂志般的摆拍",
+    "将瞬间改写成与他人互动",
+    "没有角色痕迹的空白场景",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look",
+    "advertisement feeling"
+  ],
+  "mustAvoidEn": [
+    "fashion editorial polish",
+    "rewriting the moment into an interaction with another person",
+    "empty scenery without character trace"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "月见璃音的一段日常小瞬间：手指轻触旧笔记边缘的水痕。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

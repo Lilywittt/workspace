@@ -1,0 +1,60 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:23:47.099Z",
+  "runId": "zeromemory-2026-03-21T10-19-54-cool_evening_kitchen",
+  "scenarioId": "cool-evening-kitchen",
+  "mode": "zero_memory_agent",
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "fallback",
+      "promptName": "moment-generator-agent",
+      "error": "Model response JSON block was incomplete."
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  },
+  "selectedMoment": {
+    "candidateId": "event_01_paper_pause",
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。"
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "caption_02",
+    "candidateAngle": "concrete_detail"
+  }
+}

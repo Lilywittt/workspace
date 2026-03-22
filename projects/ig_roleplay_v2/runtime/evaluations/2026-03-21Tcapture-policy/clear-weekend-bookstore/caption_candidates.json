@@ -1,0 +1,54 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_detail",
+      "caption": "路过书店时，看到一本暗红色的笔记本。",
+      "hashtags": [
+        "#日常碎片",
+        "#颜色巧合",
+        "#路过看见"
+      ],
+      "rationale": "从具体场景和颜色细节切入，只说事实，留下空白。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "action_implied",
+      "caption": "手指碰了碰发卡，又看了一眼那本笔记本。",
+      "hashtags": [
+        "#日常碎片",
+        "#颜色巧合",
+        "#路过看见"
+      ],
+      "rationale": "通过动作暗示联系，省略原因和感受，保持私密感。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_coincidence",
+      "caption": "一个暗红色的小巧合，在书店入口。",
+      "hashtags": [
+        "#日常碎片",
+        "#颜色巧合",
+        "#路过看见"
+      ],
+      "rationale": "将巧合本身作为主角，语气轻微中二但克制，像一句私密笔记。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "trace_observation",
+      "caption": "陈列架上，有个颜色和发卡几乎一样的封面。",
+      "hashtags": [
+        "#日常碎片",
+        "#颜色巧合",
+        "#路过看见"
+      ],
+      "rationale": "从外部观察视角描述，聚焦于视觉上的偶然对应，不解释内在反应。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

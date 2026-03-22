@@ -1,0 +1,95 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:49:43.928Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-48-53",
+  "lane": "life_record",
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_04",
+    "sceneProgramId": "transit_fragment_program",
+    "affordanceId": "transit_fragment_window",
+    "locationArchetype": "station_edge",
+    "locationCluster": "transit_fragment",
+    "objectFamily": "bag_contents",
+    "objectBindings": [
+      "folded shopping list"
+    ],
+    "actionKernel": "wait_carry_pass_through",
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "tiny_reset",
+    "presencePolicy": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city"
+    ],
+    "imageHooks": [
+      "platform edge",
+      "bag or hand detail",
+      "motion held briefly still"
+    ]
+  },
+  "generationMode": "anime_wide_scene_character_trace",
+  "sourceBriefCreatedAt": "2026-03-20T10:49:43.722Z",
+  "references": [
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "weight": 0.55,
+      "why": "Carry forward scene or platform style cues without locking the composition."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, present through subtle but readable character traces\nScene: a station edge held briefly still, passing-through transit air, folded shopping list, carrying folded shopping list through a brief transition, weather supports reflection without taking over, slightly chilly, Character trace: a hand holding the list, edge of a sleeve or bag strap visible, Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces, Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs, Action texture: thumb gently smoothing a crease, a pause in motion, Object detail: list is slightly worn, one corner softened from being carried, Scene location archetype: station edge, everyday life in Shanghai\nStyle: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood\nCamera: wide scene with readable character trace, slight sense of paused motion\nMood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, quietly_observant, a tiny emotional reset, the faint, dry rustle of paper against fabric\nDetails: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint\nHard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay",
+    "negativePrompt": "ad poster, glossy editorial, text, watermark, platform UI overlay, extra fingers, bad anatomy, duplicate objects, chaotic clutter, irrelevant fantasy props, tourism poster, empty aesthetic wallpaper, staged look, over-symmetry, over-polished look, text, subtitle, watermark, logo, UI overlay, extra fingers, bad hands, broken anatomy, duplicate objects, identity drift, empty scenery without character trace, tourism poster, ad poster, glossy editorial, photoreal live action",
+    "shotNotes": [
+      "Character trace: a hand holding the list, edge of a sleeve or bag strap visible",
+      "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces",
+      "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs",
+      "Action texture: thumb gently smoothing a crease, a pause in motion",
+      "Object detail: list is slightly worn, one corner softened from being carried",
+      "Scene location archetype: station edge",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "platform edge",
+      "bag or hand detail",
+      "motion held briefly still",
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city",
+      "Prioritize a wider shot that shows the character in relation to a new environment",
+      "If a close-up, focus on an action-in-progress (e.g., adjusting, holding, noticing) rather than a static object",
+      "Use natural, available light to create a different mood (e.g., soft dusk, artificial streetlight)",
+      "Character trace: a hand holding the list, edge of a sleeve or bag strap visible.",
+      "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces.",
+      "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs.",
+      "Action texture: thumb gently smoothing a crease, a pause in motion.",
+      "Object detail: list is slightly worn, one corner softened from being carried.",
+      "Presence mode: wide_scene_with_character_trace.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ],
+    "promptBlocks": {
+      "layeringStrategy": "global_style + character_core + scene + camera + mood + detail + hard_constraints",
+      "subject": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, present through subtle but readable character traces",
+      "scene": "Scene: a station edge held briefly still, passing-through transit air, folded shopping list, carrying folded shopping list through a brief transition, weather supports reflection without taking over, slightly chilly, Character trace: a hand holding the list, edge of a sleeve or bag strap visible, Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces, Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs, Action texture: thumb gently smoothing a crease, a pause in motion, Object detail: list is slightly worn, one corner softened from being carried, Scene location archetype: station edge, everyday life in Shanghai",
+      "style": "Style: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood",
+      "camera": "Camera: wide scene with readable character trace, slight sense of paused motion",
+      "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, quietly_observant, a tiny emotional reset, the faint, dry rustle of paper against fabric",
+      "details": "Details: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint",
+      "constraints": "Hard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "seedStrategy": "diversified_candidates",
+    "consistencyPolicy": "scene_first_style_guided"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "A Japanese-anime slice-of-life image with readable character presence.",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready"
+}

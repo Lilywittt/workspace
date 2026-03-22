@@ -1,0 +1,150 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把书包侧袋里揉成一团的纸巾拿出来时，发现它被雨水洇湿的边缘刚好晕开了一小片模糊的蓝色，像是钢笔漏墨，又像是天空掉下来的一角。",
+      "hookWhyInterestingZh": "一个本该被直接扔掉的废品，因为雨水的偶然参与，变成了一小块可以被注视的、安静的意外。",
+      "causalChainZh": [
+        "放学后，在空荡的走廊里整理书包侧袋。",
+        "手指碰到一团湿软的旧纸巾，下意识想拿出来丢掉。",
+        "展开时，发现被雨水洇湿的边缘晕染开一小片不规则的淡蓝色痕迹。",
+        "动作停住了，盯着那团模糊的蓝色看了几秒。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "纸巾可能是早上或更早之前塞进去的。",
+          "雨水通过书包的缝隙或敞开的拉链渗入，造成了这次洇染。",
+          "蓝色来源不明，可能是蹭到了什么，但此刻不重要了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是机械地清理杂物，让书包轻一点，心思是放空的。",
+      "interiorShiftZh": "那片偶然的、安静的蓝色，让原本要被丢弃的瞬间，有了一点可以被记住的质地。",
+      "whyTodayZh": "雨天的湿气和放学后的安静，让这种对微小意外的察觉变得可能。",
+      "whyShareableZh": "它具体、安静，没有结论，只是一次被雨改变的注视。",
+      "visualEvidenceZh": [
+        "捏着湿纸巾的指尖",
+        "纸巾上晕开的淡蓝色水痕",
+        "走廊窗边昏暗的天光映在侧脸上"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨声提供了背景的细密感",
+          "走廊的空荡让这个停顿不被干扰"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "靠在窗边等雨小一点，低头看见自己鞋带头上沾了一小片被踩扁的、湿漉漉的樱花花瓣，颜色已经变得很淡了。",
+      "hookWhyInterestingZh": "一个赶路时完全没注意到的微小附着物，在停下来的时刻才被发现，它记录了一段被忽略的路径。",
+      "causalChainZh": [
+        "放学后在教学楼门口犹豫要不要冲进雨里。",
+        "最终决定靠在走廊窗边再等一会儿。",
+        "百无聊赖地低头，目光落在自己的鞋上。",
+        "发现白色鞋带的塑料头那里，黏着一片被彻底压平、失去形状的淡粉色花瓣。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "花瓣应该是白天经过校园某棵树下时沾上的。",
+          "雨水和踩踏让它失去了原本的立体感，变成了一张湿纸片。",
+          "在等待的安静中，它才从背景里浮现出来。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "有点不耐烦，只是被动地等着雨停或变小。",
+      "interiorShiftZh": "那片不起眼的、被携带了一路的花瓣，让等待的时间忽然有了一个可以聚焦的、具体的落点。",
+      "whyTodayZh": "春天的雨和校园里的花，共同制造了这个微小的、易被忽略的证据。",
+      "whyShareableZh": "它关于携带与发现，关于一个安静时刻里突然清晰的细节。",
+      "visualEvidenceZh": [
+        "低垂的视线看向鞋尖",
+        "鞋带上那片湿透压扁的淡粉色",
+        "窗外灰蒙蒙的光线勾勒出等待的侧影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "季节性过渡（春）提供了花瓣存在的可能",
+          "雨天的等待氛围让低头审视变得自然"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "想把窗台上积的一小滩雨水用抹布擦掉，却发现水渍干涸后留下的轮廓，意外地像一张侧脸。",
+      "hookWhyInterestingZh": "一次日常的清理动作，因为一个偶然形成的、似是而非的图案而中断，产生了短暂的、私密的联想。",
+      "causalChainZh": [
+        "回到教室（或活动室）拿忘带的东西。",
+        "看见窗台瓷砖接缝处积了一小片雨水。",
+        "顺手拿起旁边不知谁的抹布想去擦干。",
+        "抹布吸走大部分水后，残留的水渍蒸发痕迹在瓷砖上形成了一个模糊的、像人侧脸的轮廓。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "雨水是从没关严的窗户缝隙渗进来的。",
+          "抹布可能是值日生留下的，半干不湿。",
+          "水渍的形态完全是偶然，但在此刻被解读了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "带着一点完成任务的随意，打算快速处理掉这点不便。",
+      "interiorShiftZh": "那个偶然的图案让简单的擦拭动作有了一个短暂的、需要辨认的停顿。",
+      "whyTodayZh": "雨提供了水和痕迹，放学后的无人教室提供了安静凝视的条件。",
+      "whyShareableZh": "它关于一次偶然的发现和随之而来的、短暂的内心偏移，非常个人化。",
+      "visualEvidenceZh": [
+        "拿着抹布的手悬在窗台上方",
+        "瓷砖上那片即将消失的、像侧脸的水渍痕迹",
+        "人物微微前倾，专注凝视的侧身轮廓"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天与积水构成了物理前提",
+          "角落的安静感允许了这次停顿"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

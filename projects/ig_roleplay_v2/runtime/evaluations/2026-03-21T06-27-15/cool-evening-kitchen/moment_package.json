@@ -1,0 +1,82 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:31:46.580Z",
+  "sourceCandidateId": "event_03",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "从衣柜拿睡衣，发现最上面那件的标签翻出来了，硬硬地硌了一下手心。",
+    "hookWhyInterestingZh": "标签一直都在，但今天第一次被“收到”了。",
+    "causalChainZh": [
+      "打开衣柜门，手伸向叠好的那摞睡衣。",
+      "抓住最上面那件棉质T恤的瞬间，手心感觉到一小块方形硬物。",
+      "翻过来看，是缝在后领的洗涤标签，不知何时翻到了外面。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_home_evening_reset",
+        "window_evening_reset"
+      ],
+      "inferredDetailsZh": [
+        "可能是上次晾晒或折叠时没注意。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "季节转换期对“家里物件存在感”的普遍谈论，可能轻微放大了对这类细节的注意"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "带着完成睡前准备的心情。",
+    "after": "触觉上的意外打断，让拿衣服这个动作从流程中独立了出来。",
+    "whyPostToday": "有一个瞬间短暂地值得留下。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "home_evening_reset",
+    "routineWindow": "evening_reset",
+    "weather": "微凉的多云傍晚",
+    "minimalBounds": [
+      "context_home_evening_reset",
+      "window_evening_reset",
+      "weather_cloudy",
+      "identity_stability"
+    ]
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "whyShareableZh": "关于衣物、触感和一个被修正的微小不顺。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "打开的衣柜门和叠放的衣物",
+      "手心朝上，托着那件浅色睡衣",
+      "翻到外面的白色洗涤标签特写"
+    ],
+    "mayShow": [
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

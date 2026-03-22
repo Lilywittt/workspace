@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:14.001Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-47-20",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate 01 most cleanly executes the threshold_pause_program by directly stating the action ('在楼梯间的转角停了一下'), integrating the required sensory detail ('金属的凉意贴着掌心'), and using the environment ('雨声很远，走廊很深') to create a palpable sense of being held between places. Its short, declarative sentences and trailing final line ('这一刻哪里都不用去') perfectly match the intimate, private-note tone and avoid the slightly overwritten or conclusive phrasing of the other options, making it the most publishable and fresh choice that fits the lane switch to life_record.",
+  "caption": "在楼梯间的转角停了一下。\n手里握着一枚小小的红色发夹，金属的凉意贴着掌心。\n雨声很远，走廊很深，这一刻哪里都不用去。",
+  "hashtags": [
+    "#楼梯间时刻",
+    "#小雨重置",
+    "#微小仪式",
+    "#日常锚点",
+    "#安静时刻"
+  ],
+  "candidateAngle": "threshold pause",
+  "candidateRationale": "直接切入场景与动作，用发夹的触觉和空间感营造“被夹在两个地方之间”的停顿感，符合threshold_pause_program。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "Candidate 01 most cleanly executes the threshold_pause_program by directly stating the action ('在楼梯间的转角停了一下'), integrating the required sensory detail ('金属的凉意贴着掌心'), and using the environment ('雨声很远，走廊很深') to create a palpable sense of being held between places. Its short, declarative sentences and trailing final line ('这一刻哪里都不用去') perfectly match the intimate, private-note tone and avoid the slightly overwritten or conclusive phrasing of the other options, making it the most publishable and fresh choice that fits the lane switch to life_record.",
+    "strengths": [
+      "Clean, direct micro-plot that matches the scene program and action kernel.",
+      "Strong sensory integration (touch, sound, space) feels immediate and believable.",
+      "Ending line is open and gentle, avoiding a fixed, slogan-like conclusion.",
+      "Uses simple language that fits the 'private note' persona without forced drama."
+    ],
+    "risks": [
+      "Slightly less overt 'light chunibyo' flavor compared to other candidates.",
+      "Metaphor is minimal, which could be seen as less 'enchanted' for some readers."
+    ]
+  }
+}

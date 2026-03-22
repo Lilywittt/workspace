@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_triggered_memory",
+      "caption": "纸的边缘皱皱的，忽然想起去年夏天的雨。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体细节触发回忆，克制地陈述"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_pause",
+      "caption": "手指停在这里，时间好像也跟着停了一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "聚焦于动作带来的瞬间感受，私密而轻微"
+    },
+    {
+      "id": "caption_04",
+      "angle": "trace_of_past",
+      "caption": "原来去年的雨，还留在这里。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将物理痕迹视为过去的遗留，带有轻微的诗意"
+    },
+    {
+      "id": "caption_05",
+      "angle": "unexpected_encounter",
+      "caption": "整理旧笔记，却翻到一小块过去的天气。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "以“却”字转折，带出意料之外的发现"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

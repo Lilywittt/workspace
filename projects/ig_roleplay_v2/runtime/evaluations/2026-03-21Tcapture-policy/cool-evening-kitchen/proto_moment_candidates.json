@@ -1,0 +1,139 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是想把桌上那杯凉掉的水倒掉，却在拿起杯子时，指尖碰到了杯沿一处几乎看不见的细小缺口。",
+      "hookWhyInterestingZh": "一个微小的、几乎被遗忘的瑕疵，在某个瞬间突然被重新感知。",
+      "causalChainZh": [
+        "她准备清理桌面，结束一天。",
+        "拿起水杯时，指尖意外地擦过一处平时从未注意的缺口。",
+        "触感带来的短暂停顿，让她对这件日常物品产生了一瞬间的陌生感。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚的凉意让杯子的触感更明显。",
+          "在家中的日常整理场景下，这种微小的发现才可能发生。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是机械地执行着收尾的动作，思绪放空。",
+      "interiorShiftZh": "指尖传来的异样触感，让她从自动导航的状态里短暂地抽离了半秒。",
+      "whyTodayZh": "今天这种安静、略带凉意的傍晚，让感官对这类微小的物理细节变得更敏感。",
+      "whyShareableZh": "这是一个非常具体、有触感的瞬间，没有戏剧性，却真实地捕捉了日常生活中的一个微小断层。",
+      "visualEvidenceZh": [
+        "她拿着杯子的手部特写，可以看清手指与杯沿的接触点。",
+        "她的侧脸或上半身，表情是专注而略带疑惑的停顿。",
+        "背景是家中桌面的局部，光线偏冷，符合傍晚氛围。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "城市信号中提到的‘杯沿在天气转凉时变得更可感知’，为这个瞬间提供了微弱的环境底色，但没有直接导致事件。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "她穿过客厅去关窗，经过沙发时，被自己早上随手丢在那的一件外套的袖子轻轻绊了一下。",
+      "hookWhyInterestingZh": "一个由自己制造的、几乎无意识的微小障碍，在一天结束时以一种意外的方式回馈给自己。",
+      "causalChainZh": [
+        "她感到有些凉意，起身去关窗。",
+        "走过熟悉的路径时，脚踝被垂落的外套袖子挂到。",
+        "身体一个踉跄，她停下来，低头看了看那件外套。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚转凉是去关窗的合理动机。",
+          "外套是早上出门或回家后随手放置的，符合生活动线。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是遵循身体对温度变化的反应，行动带着一点目的性的随意。",
+      "interiorShiftZh": "被绊住的瞬间带来一丝轻微的自我调侃——‘啊，原来是我自己留下的’。",
+      "whyTodayZh": "今天整体的节奏和能量（中等、安静）让这种小小的、自找的‘意外’显得格外清晰，而不是被匆忙忽略。",
+      "whyShareableZh": "画面感强，动作明确（踉跄、停顿、低头看），能清晰地传达人物在空间中的存在和与物品的意外互动。",
+      "visualEvidenceZh": [
+        "她身体微微失去平衡的瞬间，可以捕捉到动态。",
+        "她停下后，低头看向脚边外套的视角。",
+        "画面能体现她从客厅一端走向窗户的路径。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "动漫信号中提到的‘角色以非常普通的方式穿过房间角落’，为这个在家庭空间内移动并发生小意外的场景提供了极弱的氛围参照。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "她给手机充电，插头第一次没对准，金属触点擦过插座边缘发出轻微的‘咔’声，她顿了顿，才第二次稳稳插进去。",
+      "hookWhyInterestingZh": "一个失败后再成功的、微不足道的操作，却因为那一声轻响和短暂的调整，凝结成了一个完整的小小动作单元。",
+      "causalChainZh": [
+        "她结束一天，准备给设备充电。",
+        "第一次插入时心不在焉，插头滑了一下。",
+        "听到声音后，她集中注意力，第二次成功插入。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "傍晚归家后的例行事务之一。",
+          "动作发生在熟悉的床头或桌边充电位置。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她执行着一个重复了无数遍的动作，注意力并不在此。",
+      "interiorShiftZh": "那一声意外的轻响像一个小小的错误提示，让她把涣散的注意力收拢回来，完成了这个动作。",
+      "whyTodayZh": "今天‘不想把日子过成戏剧故事’的倾向，让这种对微小操作失误的如实记录，反而显得更真实。",
+      "whyShareableZh": "事件极其微小，但包含听觉（轻响）、触觉（对准）、视觉（插头与插座）和一个小小的心理调整过程，层次丰富。",
+      "visualEvidenceZh": [
+        "她的手部特写，握着充电插头，正在对准插座。",
+        "可以捕捉到她第一次失误后微微蹙眉或专注起来的表情。",
+        "充电线、插座和部分背景，构成一个熟悉的私人角落。"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "趋势信号中‘讨论哪个微小动作算真正回家’的弱氛围，可能让这类结束一天时最基础的、关乎连接的动作被更细致地感知。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

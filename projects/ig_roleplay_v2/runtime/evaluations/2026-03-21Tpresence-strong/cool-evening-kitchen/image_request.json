@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:17:20.358Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手指停在边缘, 衣袖口, 半开着的随身物件, fingers paused at the edge of a planner, desk under evening indoor lighting, protagonist's side profile or upper body, showing her paused posture, 手指停在planner边缘的动作, 傍晚室内灯光下的桌面, 主人公的侧脸或上半身，能看出她停住的姿态\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nComposition: moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, fashion editorial polish, generic aesthetic wallpaper, rewriting the moment into interaction with another person, 时尚大片感, 空泛的美学壁纸, 将瞬间重写成与他人互动, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, empty scenery without character trace",
+    "shotNotes": [
+      "手指停在边缘",
+      "衣袖口",
+      "半开着的随身物件",
+      "fingers paused at the edge of a planner",
+      "desk under evening indoor lighting",
+      "protagonist's side profile or upper body, showing her paused posture"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "手指停在边缘, 衣袖口, 半开着的随身物件, fingers paused at the edge of a planner, desk under evening indoor lighting, protagonist's side profile or upper body, showing her paused posture, 手指停在planner边缘的动作, 傍晚室内灯光下的桌面, 主人公的侧脸或上半身，能看出她停住的姿态",
+      "context": "ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "composition": "moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "璃音在傍晚整理时，因为planner停住了半秒。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen"
+}

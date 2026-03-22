@@ -1,0 +1,516 @@
+{
+  "version": "2.0.0-alpha.1",
+  "programs": [
+    {
+      "id": "desk_reset_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "indoor_reset_window"
+      ],
+      "actionKernel": "sort_reset_arrange",
+      "locationArchetypes": [
+        "indoor_desk_corner",
+        "window_seat"
+      ],
+      "objectSources": [
+        "stationery",
+        "paper_fragment",
+        "comfort_item"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "reflective_support",
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "gentle_order",
+        "tiny_reset",
+        "quiet_completion"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "restoring order through one small action",
+        "letting an object carry the mood"
+      ],
+      "imageHooks": [
+        "object-led composition",
+        "hand and desk texture",
+        "readable trace cues"
+      ]
+    },
+    {
+      "id": "rediscovery_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "rediscovery_window"
+      ],
+      "actionKernel": "find_unfold_notice_again",
+      "locationArchetypes": [
+        "indoor_desk_corner",
+        "bookstore_aisle",
+        "covered_walkway"
+      ],
+      "objectSources": [
+        "paper_fragment",
+        "keepsake",
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "reflective_support",
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "memory_return",
+        "private_omen",
+        "quiet_completion"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "ordinary object gains secret weight",
+        "a tiny trace from an earlier self"
+      ],
+      "imageHooks": [
+        "close object detail",
+        "unfolding gesture",
+        "soft depth around the object"
+      ]
+    },
+    {
+      "id": "threshold_pause_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "threshold_pause_window"
+      ],
+      "actionKernel": "pause_listen_hold",
+      "locationArchetypes": [
+        "stairwell_landing",
+        "covered_walkway",
+        "campus_edge"
+      ],
+      "objectSources": [
+        "accessory",
+        "comfort_item",
+        "bag_contents"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": true,
+        "preferredRoles": [
+          "primary_scene_driver",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "tiny_reset",
+        "private_omen"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "a pause that changes the texture of the day",
+        "being briefly held between places"
+      ],
+      "imageHooks": [
+        "edge framing",
+        "corridor depth",
+        "rain shelter texture"
+      ]
+    },
+    {
+      "id": "transit_fragment_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "transit_fragment_window"
+      ],
+      "actionKernel": "wait_carry_pass_through",
+      "locationArchetypes": [
+        "station_edge",
+        "covered_walkway",
+        "campus_edge"
+      ],
+      "objectSources": [
+        "bag_contents",
+        "keepsake",
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "tiny_reset",
+        "shy_attachment"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "ordinary transit becomes keepable",
+        "carrying a small thing through the city"
+      ],
+      "imageHooks": [
+        "platform edge",
+        "bag or hand detail",
+        "motion held briefly still"
+      ]
+    },
+    {
+      "id": "bookstore_pause_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "bookstore_pause_window"
+      ],
+      "actionKernel": "browse_pause_notice",
+      "locationArchetypes": [
+        "bookstore_aisle"
+      ],
+      "objectSources": [
+        "keepsake",
+        "paper_fragment",
+        "stationery"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "memory_return",
+        "shy_attachment",
+        "private_omen"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "something left by a stranger feels personal",
+        "quiet public place, private feeling"
+      ],
+      "imageHooks": [
+        "shelf depth",
+        "paper texture",
+        "fingers touching a page"
+      ]
+    },
+    {
+      "id": "micro_purchase_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "micro_purchase_window"
+      ],
+      "actionKernel": "choose_pay_carry_back",
+      "locationArchetypes": [
+        "convenience_counter",
+        "covered_walkway"
+      ],
+      "objectSources": [
+        "comfort_item",
+        "stationery",
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "tiny_reset",
+        "shy_attachment"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ]
+    },
+    {
+      "id": "return_or_repair_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "return_or_repair_window"
+      ],
+      "actionKernel": "return_fix_restore",
+      "locationArchetypes": [
+        "indoor_desk_corner",
+        "bookstore_aisle",
+        "convenience_counter"
+      ],
+      "objectSources": [
+        "stationery",
+        "bag_contents",
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "gentle_order",
+        "quiet_completion"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    {
+      "id": "laundry_corner_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "domestic_reset_window"
+      ],
+      "actionKernel": "fold_sort_pause",
+      "locationArchetypes": [
+        "laundry_corner",
+        "window_seat"
+      ],
+      "objectSources": [
+        "comfort_item",
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "gentle_order",
+        "tiny_reset"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "soft textures changing the pace of the day",
+        "domestic order as a private ritual"
+      ],
+      "imageHooks": [
+        "fabric texture",
+        "folding gesture",
+        "domestic corner framing"
+      ]
+    },
+    {
+      "id": "kitchen_comfort_program",
+      "laneEligibility": [
+        "life_record"
+      ],
+      "requiredAffordances": [
+        "kitchen_comfort_window"
+      ],
+      "actionKernel": "heat_hold_breathe",
+      "locationArchetypes": [
+        "kitchen_counter",
+        "window_seat"
+      ],
+      "objectSources": [
+        "comfort_item",
+        "stationery"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "reflective_support",
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "tiny_reset",
+        "quiet_completion",
+        "shy_attachment"
+      ],
+      "presencePolicies": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "captionHooks": [
+        "warm thing in hand, day settling down",
+        "small comfort without big declaration"
+      ],
+      "imageHooks": [
+        "steam or cup texture",
+        "countertop glow",
+        "hand-to-object intimacy"
+      ]
+    },
+    {
+      "id": "close_mood_capture_program",
+      "laneEligibility": [
+        "selfie"
+      ],
+      "requiredAffordances": [
+        "self_capture_window"
+      ],
+      "actionKernel": "notice_capture_breathe",
+      "locationArchetypes": [
+        "window_seat",
+        "indoor_desk_corner"
+      ],
+      "objectSources": [
+        "accessory",
+        "comfort_item"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "tiny_reset",
+        "shy_attachment"
+      ],
+      "presencePolicies": [
+        "full_selfie"
+      ],
+      "captionHooks": [
+        "capturing a moment before it disappears",
+        "face-led mood translation"
+      ],
+      "imageHooks": [
+        "close framing",
+        "stable identity",
+        "subtle expression shift"
+      ]
+    },
+    {
+      "id": "mirror_transition_program",
+      "laneEligibility": [
+        "selfie"
+      ],
+      "requiredAffordances": [
+        "self_capture_window",
+        "threshold_pause_window"
+      ],
+      "actionKernel": "adjust_check_capture",
+      "locationArchetypes": [
+        "stairwell_landing",
+        "window_seat",
+        "indoor_desk_corner"
+      ],
+      "objectSources": [
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "private_omen",
+        "tiny_reset"
+      ],
+      "presencePolicies": [
+        "full_selfie"
+      ],
+      "captionHooks": [
+        "small adjustment becomes mood marker",
+        "mirror as transition not spectacle"
+      ],
+      "imageHooks": [
+        "mirror-assisted framing",
+        "identity stability",
+        "outfit edge or accessory emphasis"
+      ]
+    },
+    {
+      "id": "accessory_adjustment_program",
+      "laneEligibility": [
+        "selfie"
+      ],
+      "requiredAffordances": [
+        "self_capture_window"
+      ],
+      "actionKernel": "touch_adjust_notice",
+      "locationArchetypes": [
+        "window_seat",
+        "campus_edge"
+      ],
+      "objectSources": [
+        "accessory"
+      ],
+      "weatherPolicy": {
+        "allowPrimary": false,
+        "preferredRoles": [
+          "texture_modifier",
+          "reflective_support"
+        ]
+      },
+      "emotionalLandingFamilies": [
+        "shy_attachment",
+        "private_omen"
+      ],
+      "presencePolicies": [
+        "full_selfie"
+      ],
+      "captionHooks": [
+        "accessory holds the whole mood",
+        "small gesture, full emotional texture"
+      ],
+      "imageHooks": [
+        "close accessory legibility",
+        "face and hand relationship",
+        "subtle wind or light"
+      ]
+    }
+  ]
+}

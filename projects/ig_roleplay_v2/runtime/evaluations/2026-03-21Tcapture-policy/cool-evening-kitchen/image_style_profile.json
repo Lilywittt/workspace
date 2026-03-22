@@ -1,0 +1,23 @@
+{
+  "version": "3.0.0-alpha.1",
+  "profileId": "default_neutral_anime_render",
+  "styleIntentZh": "只调整最终生图的画工与渲染表现，不改变人物设定、叙事事件、道具关系、场景事实或构图语义。",
+  "stylePositiveEn": [
+    "clean anime linework",
+    "balanced local color separation",
+    "controlled contrast",
+    "clear clothing seam readability"
+  ],
+  "styleNegativeEn": [
+    "muddy clothing colors",
+    "washed out contrast",
+    "blurry linework",
+    "flat fabric rendering"
+  ],
+  "guardrailsEn": [
+    "adjust rendering craft only",
+    "do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing",
+    "do not add new objects, remove required evidence, or rewrite the selected moment"
+  ],
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

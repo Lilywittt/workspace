@@ -1,0 +1,141 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:38:27.295Z",
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore",
+  "mode": "zero_memory_agent",
+  "scenarioId": "clear-weekend-bookstore",
+  "dayContext": {
+    "isoDate": "2026-03-22",
+    "routineWindow": "afternoon_pause",
+    "weather": "clear to lightly cloudy",
+    "currentContext": "weekend_pause_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "weather",
+      "city_trivia",
+      "anime_fandom",
+      "seasonal_culture",
+      "trending_topics"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [
+      "bookstore_weekend_stationery_display"
+    ],
+    "worldStateNotes": [
+      "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+      "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "The aisle now has a temporary display edge with extra notebook stacks and binder clips near the entrance.",
+      "A small tray of binder clips is plausibly visible near the temporary display.",
+      "There is a little more shelf-side hesitation and browsing drift than usual."
+    ]
+  },
+  "characterState": {
+    "mood": "quiet, but slightly caught by one specific detail",
+    "preferredLane": "life_record",
+    "whyPostToday": "One tiny beat briefly felt worth keeping."
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "She was only tidying up for a second, then paused because of planner.",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "caption": {
+    "text": "手指停在计划本的边缘，整理的动作就断了半拍。",
+    "hashtags": [
+      "#日常碎片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [
+        "bookstore_weekend_stationery_display"
+      ],
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T10-38-20-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/35/20260321/448165f2/ca76fbe3-86f7-4317-a130-f0c1a8338145818200162.png?Expires=1774695299&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=3oJhv0UDMHyTgSwEy%2Bfsd0V0zvA%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "fallback",
+      "promptName": "moment-generator-agent",
+      "error": "Model response JSON block was incomplete."
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

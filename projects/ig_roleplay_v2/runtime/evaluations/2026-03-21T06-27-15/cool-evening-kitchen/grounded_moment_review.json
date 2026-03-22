@@ -1,0 +1,84 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理触发清晰（茶渍形状）",
+        "图文同源潜力高",
+        "符合“让普通物件获得私人重量”的叙事习惯"
+      ],
+      "risksZh": [
+        "“像小岛/地图”的比喻有轻微装饰风险，需控制不夸张",
+        "需确保图像是发现痕迹的瞬间，而非摆拍"
+      ],
+      "verdict": "good"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 70,
+      "coherenceScore": 72,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "感官细节具体（声音质地变化）",
+        "符合“从具体细节开始”的叙事习惯"
+      ],
+      "risksZh": [
+        "图像证据（插头特写）可能过于静态，更像产品拍摄而非生活记录",
+        "“被拉回当下”的情感转变与物理细节的因果链稍弱",
+        "有被解读为对充电行为本身进行评论的风险"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 86,
+      "sourceMirroringRiskScore": 12,
+      "strengthsZh": [
+        "顽固的平凡细节（硌手的标签）",
+        "触觉意外导致情感转变，因果链强",
+        "图像（手心托睡衣）能直接承载发现瞬间",
+        "完全符合“留住一小块真实感”的当前需求"
+      ],
+      "risksZh": [
+        "需确保标签是意外翻出，而非刻意安排"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 82,
+      "groundingScore": 78,
+      "postabilityScore": 75,
+      "coherenceScore": 80,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "自然力形成的痕迹，有短暂性",
+        "与“被外界轻轻擦过”的氛围有微妙呼应"
+      ],
+      "risksZh": [
+        "“风画的图案”有落入诗意装饰盆地的风险",
+        "图像（灰尘纹路）可能过于唯美，削弱生活记录感",
+        "情感转变（被吸引）与物理细节的联结稍显常规"
+      ],
+      "verdict": "good"
+    }
+  ],
+  "summaryZh": "审查完成。event_03在角色真实性、现实贴合度、图文同源性和规避过拟合风险方面表现最佳，其基于触觉意外的平凡细节最能体现“留住真实感”的当下需求。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

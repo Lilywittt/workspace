@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:36.249Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from selfie close-ups to wider environmental shots",
+    "Incorporate a subtle action or small task in the scene"
+  ],
+  "avoidMotifs": [
+    "Repeating '窗外' (outside the window) openings or rainy day themes",
+    "Overusing #上海, #日常, #自拍, #小确幸 hashtags"
+  ],
+  "narrativeNudges": [
+    "Focus on a small, completed moment rather than an ongoing mood"
+  ],
+  "captionAdvice": [
+    "Start with an observation about a completed action or a found object",
+    "Keep the tone reflective but slightly more forward-looking"
+  ],
+  "imageAdvice": [
+    "Frame to include hands interacting with an object or the environment",
+    "Use natural, indirect light if indoors to maintain soft aesthetic"
+  ],
+  "summary": "Maintain the intimate diary feel but pivot from passive selfie observation to a gentle, activity-focused life record.",
+  "errorMessage": ""
+}

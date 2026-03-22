@@ -1,0 +1,271 @@
+{
+  "runIndex": 7,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift from selfie close-ups to wider environmental shots",
+      "Focus on an activity or object, not just a mood"
+    ],
+    "avoidMotifs": [
+      "Repeating '窗外' or '小雨' openings",
+      "Overusing #上海, #日常, #自拍, #小确幸 hashtags"
+    ],
+    "captionAdvice": [
+      "Start with a concrete action or question, not a weather description",
+      "Keep the tone intimate but slightly more active"
+    ],
+    "imageAdvice": [
+      "Use a life_record composition: hands doing something, a tabletop scene, or a street view",
+      "Incorporate the '小雨' weather subtly in the background or lighting"
+    ],
+    "summary": "Maintain the intimate Shanghai diary feel but pivot to a life_record lane with active framing to refresh the streak."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a morning of studying, the character steps into a small, quiet bookstore to browse, finding a worn-out novel with a pressed flower tucked inside its pages, sparking a moment of quiet curiosity and connection to a stranger's past.",
+    "microPlot": [
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head.",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages.",
+      "A soft, wondering smile touches her lips as she imagines the story behind the forgotten bookmark, feeling a gentle, shared secret with the unknown previous reader."
+    ],
+    "sceneNotes": [
+      "Character's hand (with small red hairclip visible) gently holding the open book.",
+      "Soft, diffuse light from a nearby window highlighting the pressed flower on the page.",
+      "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop.",
+      "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background."
+    ],
+    "captionFocus": [
+      "A discovered fragment of someone else's story, left behind like a secret."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a morning of studying, the character steps into a small, quiet bookstore to browse, finding a worn-out novel with a pressed flower tucked inside its pages, sparking a moment of quiet curiosity and connection to a stranger's past.",
+    "microPlot": [
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head.",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages.",
+      "A soft, wondering smile touches her lips as she imagines the story behind the forgotten bookmark, feeling a gentle, shared secret with the unknown previous reader."
+    ],
+    "sensoryFocus": "The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+    "concreteSceneCues": [
+      "Character's hand (with small red hairclip visible) gently holding the open book",
+      "Soft, diffuse light from a nearby window highlighting the pressed flower on the page",
+      "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop",
+      "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background",
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_wondering"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a caption that captures a quiet, intimate moment of discovery in a Shanghai bookstore, where finding a pressed flower in an old book sparks gentle curiosity and a feeling of shared secret with a stranger, blending the day's light rain with a sense of wonder.",
+    "audienceFeeling": "A soft, wondering connection to a small, beautiful detail.",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo tone: slightly dramatic but gentle"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "偶然的浪漫",
+      "opening": "在旧书店随手翻开一本书，里面夹着一朵干枯的花。纸张的灰尘味和窗外的小雨声混在一起，突然觉得和某个陌生人共享了一个温柔的瞬间。今天应该还是明亮又生动的。",
+      "caption": "在旧书店随手翻开一本书，里面夹着一朵干枯的花。纸张的灰尘味和窗外的小雨声混在一起，突然觉得和某个陌生人共享了一个温柔的瞬间。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#上海日记",
+        "#小雨中的发现",
+        "#旧书与花",
+        "#生活碎片",
+        "#二次元日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "安静的连接",
+      "opening": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+      "caption": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#生活碎片",
+        "#旧书与花",
+        "#小雨中的发现",
+        "#二次元日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书页间的秘密",
+      "opening": "小雨天的书店，光线很柔和。发现书里夹着一朵花，花瓣的纹路还很清楚。好像不小心读到了别人没写完的日记，心里轻轻动了一下。今天应该还是明亮又生动的。",
+      "caption": "小雨天的书店，光线很柔和。发现书里夹着一朵花，花瓣的纹路还很清楚。好像不小心读到了别人没写完的日记，心里轻轻动了一下。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#小雨中的发现",
+        "#旧书与花",
+        "#上海日记",
+        "#生活碎片"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "偶然的浪漫",
+      "opening": "在旧书店随手翻开一本书，里面夹着一朵干枯的花。纸张的灰尘味和窗外的小雨声混在一起，突然觉得和某个陌生人共享了一个温柔的瞬间。今天应该还是明亮又生动的。",
+      "caption": "在旧书店随手翻开一本书，里面夹着一朵干枯的花。纸张的灰尘味和窗外的小雨声混在一起，突然觉得和某个陌生人共享了一个温柔的瞬间。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#上海日记",
+        "#小雨中的发现",
+        "#旧书与花",
+        "#生活碎片",
+        "#二次元日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "安静的连接",
+      "opening": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+      "caption": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#生活碎片",
+        "#旧书与花",
+        "#小雨中的发现",
+        "#二次元日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书页间的秘密",
+      "opening": "小雨天的书店，光线很柔和。发现书里夹着一朵花，花瓣的纹路还很清楚。好像不小心读到了别人没写完的日记，心里轻轻动了一下。今天应该还是明亮又生动的。",
+      "caption": "小雨天的书店，光线很柔和。发现书里夹着一朵花，花瓣的纹路还很清楚。好像不小心读到了别人没写完的日记，心里轻轻动了一下。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#小雨中的发现",
+        "#旧书与花",
+        "#上海日记",
+        "#生活碎片"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best executes the lane shift to life_record by starting with a concrete, active micro-plot ('复习到有点晕，躲进书店'), seamlessly integrates the required sensory detail ('指尖碰到一本旧书的凉凉封面'), and introduces the daily variable (rain) subtly through implication. It maintains a gentle, quietly wondering tone with a light chunibyo touch through its speculative question, feels most like a natural diary snippet, and cleanly incorporates the character's catchphrase.",
+    "strengths": [
+      "Strong micro-plot structure with clear cause, action, and discovery",
+      "Excellent sensory integration through touch ('凉凉封面')",
+      "Implies the '小雨' weather context naturally without stating it outright",
+      "Presents the discovery as a quiet, intimate question, enhancing connection",
+      "Feels most like an unforced, personal life_record entry"
+    ],
+    "risks": [
+      "Slightly less explicit visual scene-setting compared to candidate 03",
+      "The question format, while gentle, is a minor tonal departure from pure statement"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_02",
+    "candidateAngle": "安静的连接",
+    "caption": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+    "hashtags": [
+      "#生活碎片",
+      "#旧书与花",
+      "#小雨中的发现",
+      "#二次元日常"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best executes the lane shift to life_record by starting with a concrete, active micro-plot ('复习到有点晕，躲进书店'), seamlessly integrates the required sensory detail ('指尖碰到一本旧书的凉凉封面'), and introduces the daily variable (rain) subtly through implication. It maintains a gentle, quietly wondering tone with a light chunibyo touch through its speculative question, feels most like a natural diary snippet, and cleanly incorporates the character's catchphrase."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Character's hand (with small red hairclip visible) gently holding the open book | Soft, diffuse light from a nearby window highlighting the pressed flower on the page | Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop | Subtle reflection of drizzling rain ('小雨') on the windowpane in the background | Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head | She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Character's hand (with small red hairclip visible) gently holding the open book, Soft, diffuse light from a nearby window highlighting the pressed flower on the page, Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop, Subtle reflection of drizzling rain ('小雨') on the windowpane in the background, Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head, She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, quietly_wondering, The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+    "shotNotes": [
+      "Character's hand (with small red hairclip visible) gently holding the open book",
+      "Soft, diffuse light from a nearby window highlighting the pressed flower on the page",
+      "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop",
+      "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background",
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "088332231a11",
+    "selectedCaption": "8347e0f420bf",
+    "imageScene": "4581deecf11d",
+    "candidateAngles": "7b4c18183062"
+  }
+}

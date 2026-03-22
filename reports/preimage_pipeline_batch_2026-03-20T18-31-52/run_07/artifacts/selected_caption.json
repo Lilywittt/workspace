@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:41:52.858Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-41-05",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the scene's concrete sensory details (the precise click, paper scent, slowing rain) with the forward-looking, gentle-order emotional landing. It frames the repair as a 'light preparation for tomorrow' which feels fresh against recent history of quiet completions and shy attachments, avoiding repetition while keeping the private-ritual texture. The tone is gently chunibyo without being theatrical, and the structure flows naturally from action to feeling.",
+  "caption": "今天的小小秩序，是自动铅笔精确的咔哒声。\n在弥漫着纸墨香气的走道里，完成这个微小的修复。\n雨让一切变慢，正好容得下这个为明天准备的、轻巧的预备动作。",
+  "hashtags": [
+    "#雨天书店时刻",
+    "#日常修复学",
+    "#微小秩序",
+    "#器物私语"
+  ],
+  "candidateAngle": "秩序的声响",
+  "candidateRationale": "强调‘感官焦点’（铅笔声）与‘氛围’（纸墨香、雨），将修复行为明确表述为一种为未来准备的‘预备动作’，贴合‘温柔秩序’的情感落点。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the scene's concrete sensory details (the precise click, paper scent, slowing rain) with the forward-looking, gentle-order emotional landing. It frames the repair as a 'light preparation for tomorrow' which feels fresh against recent history of quiet completions and shy attachments, avoiding repetition while keeping the private-ritual texture. The tone is gently chunibyo without being theatrical, and the structure flows naturally from action to feeling.",
+    "strengths": [
+      "Strong integration of sensory focus (click) and environment (paper scent, rain)",
+      "Forward-looking 'preparation' angle provides novelty against recent completions",
+      "Clear, publishable micro-plot from action to feeling",
+      "Light chunibyo tone feels natural and persona-appropriate"
+    ],
+    "risks": [
+      "Slightly more abstract than candidate 01's 'patch for the day'",
+      "Must ensure hashtags avoid overused #上海 from recent posts"
+    ]
+  }
+}

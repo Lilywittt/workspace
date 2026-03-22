@@ -1,0 +1,66 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 82,
+      "groundingScore": 75,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "具体的物理触发（胶带触感）。",
+        "因果链清晰，从动作到停顿。"
+      ],
+      "risksZh": [
+        "视觉证据描述为“侧脸和上半身”，可能难以满足“clear_character_presence”目标。",
+        "雨天氛围可能被用作直接原因，而非背景现实。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 80,
+      "groundingScore": 78,
+      "postabilityScore": 76,
+      "coherenceScore": 79,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "意外的历史痕迹（干茶叶）带来微妙的时空错位感。",
+        "符合“让普通物品获得私人重量”的叙事习惯。"
+      ],
+      "risksZh": [
+        "“时空错位”的解释可能略显刻意，有装饰感。",
+        "“partial_presence”模式可能无法自然升级到“clear_character_presence”。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 85,
+      "groundingScore": 82,
+      "postabilityScore": 84,
+      "coherenceScore": 86,
+      "characterPresenceFitScore": 88,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "顽固的日常细节（鞋带头破损），感觉非常普通且真实。",
+        "视觉证据（上半身姿态、手部动作、鞋带特写）能自然支持“clear_character_presence”。",
+        "情感转变（“哦，是这样啊”）由具体的物理证据直接引发。"
+      ],
+      "risksZh": [
+        "需要确保“弯腰或坐着”的姿态在画面中能清晰呈现人物身份。"
+      ],
+      "verdict": "recommended"
+    }
+  ],
+  "summaryZh": "已完成对候选人的人格真实性、现实契合度、可发布性、图文一致性及角色呈现契合度的评审。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

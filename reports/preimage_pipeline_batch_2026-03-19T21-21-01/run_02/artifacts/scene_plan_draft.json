@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:23:13.324Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late evening of a drizzly Shanghai day, a small errand to return a borrowed mechanical pencil to its forgotten spot in a bookstore aisle becomes a quiet, intentional act of gentle order. The simple motion of placing it back on the shelf feels like closing a tiny, invisible loop, a private ritual of care for a small object that held a stranger's thoughts.",
+  "microPlot": [
+    "A borrowed mechanical pencil, its lead worn down from a stranger's notes, has been carried in a pocket all day.",
+    "In the hushed, warm light of the bookstore aisle, she carefully places it back on its proper shelf, aligning it with the others.",
+    "A quiet, settled feeling arrives, as if the day has mended one of its own tiny, frayed threads."
+  ],
+  "sensoryFocus": "the soft click of graphite against wood, the warm, paper-dust scent of the aisle, the cool dampness still clinging to a coat sleeve",
+  "sceneNotes": [
+    "Focus on hands: one holding the pencil, the other gently placing it back on a wooden shelf among identical others.",
+    "The bookstore's warm, low lighting casts long shadows, making the aisle feel like a quiet corridor.",
+    "A trace of the evening's light rain is visible as faint, drying droplets on the sleeve of her coat.",
+    "The pencil itself is slightly worn, with a small dent near the clip, hinting at its previous use."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of returning a small thing to where it belongs"
+  ],
+  "summary": "A late-evening trip to a bookstore turns into a private ritual of gentle order, as returning a borrowed pencil becomes a small, meaningful act of closure.",
+  "errorMessage": ""
+}

@@ -1,0 +1,65 @@
+{
+  "recommendedCandidateId": "event_01_paper_pause",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 88,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "具体物理触发（整理时停顿）。",
+        "视觉证据（手指停顿、袖口）与事件因果链一致。",
+        "能支持更清晰的角色存在目标，无需破坏事件。"
+      ],
+      "risksZh": [
+        "如果细节过于模糊，可能滑入安全但通用的停顿模式。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 78,
+      "characterPresenceFitScore": 82,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "调整动作具体，有可拍摄的痕迹。"
+      ],
+      "risksZh": [
+        "事件总结略显抽象，像装饰性提示。",
+        "视觉证据（角落、痕迹）可能过于通用。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "personaTruthScore": 76,
+      "groundingScore": 72,
+      "postabilityScore": 74,
+      "coherenceScore": 75,
+      "characterPresenceFitScore": 80,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "“残留痕迹”符合人物对细节的敏感。"
+      ],
+      "risksZh": [
+        "因果链重复且模糊，缺乏具体物理触发。",
+        "视觉证据（手中物体、环境边缘）可能沦为氛围装饰。",
+        "存在被过度强的事实压力拖入重复基线的风险。"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对人格真实性、现实贴合度、可发布性、图文一致性及角色存在目标契合度的评审。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

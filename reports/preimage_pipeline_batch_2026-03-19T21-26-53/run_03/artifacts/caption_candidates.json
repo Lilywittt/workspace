@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:30:37.690Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-30-01",
+  "briefGoal": "Write a caption that feels like a quiet, private note to self, capturing the small ritual of buying a single tea sachet on a drizzly evening. It should translate the scene's gentle, forward-looking energy into a few short sentences, focusing on sensory details and the shy attachment to this ordinary object, making the mundane feel like a small, personal omen.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "sensory ritual",
+      "caption": "傍晚的雨让空气变得很凉。\n在廊下的小摊，选了一包茶。\n纸袋的窸窣声，像给明天的小小约定。",
+      "hashtags": [
+        "#小雨的晚上",
+        "#一个人的小仪式",
+        "#茶包日记",
+        "#微小的前进感",
+        "#生活切片"
+      ],
+      "rationale": "从感官细节（凉空气、纸袋声）切入，将购买行为转化为对明天的私密约定，符合‘小仪式’和‘害羞的依恋’的情感落点。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "object as omen",
+      "caption": "一枚茶包，躺在小小的纸袋里。\n带回它，像带回一个温和的暗号。\n今晚的潮湿，也因此有了一点点向前的意思。",
+      "hashtags": [
+        "#微小的前进感",
+        "#茶包日记",
+        "#生活记录",
+        "#私人暗号",
+        "#上海夜晚"
+      ],
+      "rationale": "将普通茶包赋予‘温和的暗号’的私密意义，呼应‘给平凡事物秘密含义’的要求，结尾将天气与向前感联结，不落俗套。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "shelter and choice",
+      "caption": "躲进有光的廊下。\n在诸多选择里，只带走了这一份。\n握在手心，是此刻能为自己完成的、最轻最小的救援行动。",
+      "hashtags": [
+        "#一个人的小仪式",
+        "#生活切片",
+        "#微小救援",
+        "#茶包日记",
+        "#廊下时光"
+      ],
+      "rationale": "以‘躲进’和‘选择’构建微型情节，将购买明确表述为‘轻小的救援’，直接呼应场景钩子，语气私密且带轻微中二感。"
+    }
+  ]
+}

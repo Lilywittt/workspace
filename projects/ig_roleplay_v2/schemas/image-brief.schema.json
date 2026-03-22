@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/image-brief.schema.json",
+  "title": "IG Roleplay Image Brief",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "lane",
+    "briefGoal",
+    "storyBinding",
+    "identityControl",
+    "visualDirectives",
+    "negativeDirectives",
+    "renderHints"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "lane": {
+      "type": "string"
+    },
+    "briefGoal": {
+      "type": "string"
+    },
+    "storyBinding": {
+      "type": "object",
+      "required": [
+        "premise",
+        "microPlot",
+        "sensoryFocus",
+        "selectedCaptionOpening",
+        "selectedCaptionSummary"
+      ],
+      "properties": {
+        "premise": {
+          "type": "string"
+        },
+        "microPlot": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sensoryFocus": {
+          "type": "string"
+        },
+        "selectedCaptionOpening": {
+          "type": "string"
+        },
+        "selectedCaptionSummary": {
+          "type": "string"
+        },
+        "candidateAngle": {
+          "type": "string"
+        }
+      }
+    },
+    "identityControl": {
+      "type": "object",
+      "required": [
+        "stableTraits",
+        "allowedVariation",
+        "requiredIdentityAnchors",
+        "optionalStyleAnchors",
+        "faceVisibility"
+      ],
+      "properties": {
+        "stableTraits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allowedVariation": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requiredIdentityAnchors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "optionalStyleAnchors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "faceVisibility": {
+          "type": "string"
+        }
+      }
+    },
+    "visualDirectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "negativeDirectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "renderHints": {
+      "type": "object",
+      "required": [
+        "platform",
+        "aspectRatio",
+        "candidateCount",
+        "narrativePriority"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "aspectRatio": {
+          "type": "string"
+        },
+        "candidateCount": {
+          "type": "integer"
+        },
+        "narrativePriority": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

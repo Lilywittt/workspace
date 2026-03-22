@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:12:55.375Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Capture the quiet, reflective moment after studying, where a forgotten red hairclip on the desk becomes a small, meaningful discovery. Convey a sense of gentle transition and private ritual, using sensory details and light chunibyo tone to make the ordinary feel faintly symbolic.",
+  "audienceFeeling": "A soft, intimate recognition of small daily wins",
+  "openingMoves": [
+    "Start with the sensory shift after closing the last book",
+    "Mention the quiet weight of the room or the desk",
+    "Introduce the discovered object naturally, as if just noticed"
+  ],
+  "mustInclude": [
+    "The red hairclip as the focal object",
+    "Sensory detail: woody desk scent or cool plastic texture",
+    "Micro-plot: from study end to small discovery",
+    "Daily variable: light rain or 10.4°C weather hint",
+    "A private ritual, like putting things back in place"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Explicit lore or world-building exposition",
+    "Overly theatrical chunibyo",
+    "Face-forward selfie narration",
+    "AI self-disclosure"
+  ],
+  "voiceNotes": [
+    "Light chunibyo—treat the hairclip as a small omen, not a grand symbol",
+    "Gentle, reflective tone with soft sentence endings",
+    "Short sentences, one longer breath for rhythm",
+    "Private ritual energy, like talking to oneself softly",
+    "Chinese Instagram casual, not poetic or script-like"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "##书桌日常 (desk daily life)",
+    "#治愈时刻 (healing moment)",
+    "#上海雨天 (Shanghai rainy day)",
+    "#发现小确幸 (discovering small happiness)"
+  ],
+  "summary": "A wide-shot life record of a desk corner where a red hairclip, found after studying, becomes a gentle symbol of transition and quiet reward.",
+  "errorMessage": ""
+}

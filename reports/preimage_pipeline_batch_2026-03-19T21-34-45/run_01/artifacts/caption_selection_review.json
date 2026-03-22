@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:36:16.878Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-35-18",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "Candidate 01 most cleanly executes the scene's core action with a strong sensory focus, delivering the required micro-plot and daily texture while feeling like a private, publishable note. It avoids the slightly abstract or generalized tone of the others by grounding the ritual in the concrete sound and feel of the paper, which aligns perfectly with the 'repair as quiet affection' hook and the character's detail-seeking temperament.",
+  "strengths": [
+    "Strong sensory detail ('纸张干燥的沙沙声') directly from the brief",
+    "Clear, concise micro-plot: find, smooth, return",
+    "Light chunibyo touch ('打了个小小的结') feels natural and private",
+    "Excellent scene fit for bookstore aisle and sticky note object",
+    "Avoids overused hashtags like #上海日常 from recent history"
+  ],
+  "risks": [
+    "The metaphor ('打了个小小的结') is slightly common, but its gentleness fits the tone",
+    "Ending is soft but could be perceived as a minor closure cliché; however, it's a fresh action for this continuity"
+  ],
+  "errorMessage": ""
+}

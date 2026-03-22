@@ -1,0 +1,86 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 82,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "具体的物理触发（湿票根）",
+        "情感转变由细节清晰驱动",
+        "雨天的氛围融入自然"
+      ],
+      "risksZh": [
+        "视觉证据（手、窗、书包）可能过于分散，难以在‘clear_character_presence’目标下让主角清晰可读",
+        "‘票根’作为对象可能滑向怀旧的通用意象"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 80,
+      "groundingScore": 75,
+      "postabilityScore": 75,
+      "coherenceScore": 78,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "发现源于日常动作（擦桌子）",
+        "‘偶然成像’的趣味符合敏感特质"
+      ],
+      "risksZh": [
+        "水渍形状像叶子可能显得刻意‘诗意’，有装饰风险",
+        "视觉上（手、抹布、水渍）可能仍是痕迹主导，对‘clear_character_presence’支持较弱"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 82,
+      "coherenceScore": 85,
+      "characterPresenceFitScore": 90,
+      "sourceMirroringRiskScore": 10,
+      "strengthsZh": [
+        "触发极其具体、私密（发夹上的橡皮屑），顽固地平凡",
+        "完美结合身份锚点（红色发夹）与日常发现",
+        "同一时刻可自然支撑从痕迹特写到半身/清晰面容的构图，满足‘clear_character_presence’目标",
+        "触觉细节引发情感转变，因果关系强"
+      ],
+      "risksZh": [
+        "需注意橡皮屑的特写不能喧宾夺主，需保持主角存在感"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 83,
+      "groundingScore": 78,
+      "postabilityScore": 80,
+      "coherenceScore": 82,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 18,
+      "strengthsZh": [
+        "与‘过渡时间’的心理状态契合",
+        "自我痕迹的再发现有私人重量"
+      ],
+      "risksZh": [
+        "‘翻旧书发现涂鸦’是较常见的叙事模式，有落入熟悉基线的风险",
+        "视觉上（手、便签、书）可能仍偏向痕迹，要清晰呈现主角需要额外构图调整"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对候选人的人格真实性、事实 grounding、可发布性、图文一致性及角色呈现契合度的评审。event_03 在满足‘clear_character_presence’目标方面表现最佳，其触发具体私密，且与角色身份锚点自然融合。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

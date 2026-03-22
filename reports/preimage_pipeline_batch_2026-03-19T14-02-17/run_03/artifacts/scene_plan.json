@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T06-05-22",
+  "createdAt": "2026-03-19T06:05:22.015Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ]
+  },
+  "narrative": {
+    "premise": "After a day of studying, the evening light in the room has shifted to a soft blue, and a forgotten pencil on the floor catches the eye, looking like a tiny, misplaced secret waiting to be found.",
+    "microPlot": [
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk.",
+      "A pencil that rolled off the desk earlier now lies perfectly still on the wooden floor, its shadow stretching long.",
+      "There's a small, quiet feeling of finding a piece of the day that was lost, like a note from the morning self."
+    ],
+    "sensoryFocus": "the faint, dry scent of pencil wood and the cool, smooth texture of the floorboards"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "The frame is wide, showing a corner of a desk, part of a chair, and the floor",
+      "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair",
+      "The small red hairclip is subtly present, catching a tiny bit of residual light",
+      "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window",
+      "A closed notebook sits on the desk, its cover slightly worn",
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Compose a shot where the persona is present but not the central focus",
+      "Shift focus from self-portrait to a small object or scene detail",
+      "Introduce a subtle time-of-day change, like evening or dusk",
+      "The frame is wide, showing a corner of a desk, part of a chair, and the floor.",
+      "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair.",
+      "The small red hairclip is subtly present, catching a tiny bit of residual light.",
+      "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window.",
+      "A closed notebook sits on the desk, its cover slightly worn.",
+      "A short observation about the sound of the evening settling in and the feel of the wooden floor.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observant"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the gentle, detail-sensitive voice but pivot from selfies to observing a quiet moment in the surroundings.",
+    "draftSummary": "A quiet dusk scene where a forgotten pencil on the floor becomes a small, meaningful trace of the day's end.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

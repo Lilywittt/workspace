@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:47:04.218Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift to an outdoor or semi-outdoor location, like a park bench or a quiet street corner",
+    "Introduce a non-study, non-errand action, like observing something small or a brief interaction"
+  ],
+  "avoidMotifs": [
+    "Avoid indoor clusters like bookstores or covered walkways",
+    "Avoid comfort_item or stationery as the primary object"
+  ],
+  "narrativeNudges": [
+    "Focus on a fleeting moment of curiosity rather than a ritual",
+    "Let the emotional landing be slightly more open-ended, like quiet wonder or soft surprise"
+  ],
+  "captionAdvice": [
+    "Use a short opening that describes a small, immediate sensory detail",
+    "End with a soft observation that doesn't force a lesson or promise"
+  ],
+  "imageAdvice": [
+    "Frame should include more environmental context, like a bit of sky or street",
+    "Keep the focus on a small action or object, but with natural, diffused light"
+  ],
+  "summary": "Switch to life_record with an outdoor, non-ritual scene to refresh the rhythm while staying intimate.",
+  "errorMessage": ""
+}

@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:30:00.648Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on a small object or action, not a self-portrait",
+    "Shift from indoor/weather reflection to a deliberate small task or errand"
+  ],
+  "avoidMotifs": [
+    "Avoid opening with weather or window observations",
+    "Avoid hashtags #上海, #日常, #自拍, #小确幸"
+  ],
+  "narrativeNudges": [
+    "Give an ordinary object a brief, private meaning today"
+  ],
+  "captionAdvice": [
+    "Use a short sentence about a small action, then one slightly longer breath about its quiet significance"
+  ],
+  "imageAdvice": [
+    "Frame a detail of a task or object in hand, not a face"
+  ],
+  "summary": "Shift from selfie streak to a life_record of a small, intentional act with gentle personal weight.",
+  "errorMessage": ""
+}

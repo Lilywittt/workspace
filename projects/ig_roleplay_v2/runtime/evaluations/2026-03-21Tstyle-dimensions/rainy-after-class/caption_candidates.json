@@ -1,0 +1,50 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "触觉引子",
+      "caption": "想重新别好发夹，指尖却摸到背面沾着一点橡皮屑。",
+      "hashtags": [
+        "#日常碎片",
+        "#触觉时刻"
+      ],
+      "rationale": "从动作引子开始，直接陈述触觉发现，保持私密记录感。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "微小异物",
+      "caption": "金属背面，不知何时沾上的粉色碎屑。",
+      "hashtags": [
+        "#日常碎片",
+        "#触觉时刻"
+      ],
+      "rationale": "聚焦于异物本身，省略动作前因，让细节自己说话。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "停顿瞬间",
+      "caption": "调整发夹的手，忽然停了一下。",
+      "hashtags": [
+        "#日常碎片",
+        "#触觉时刻"
+      ],
+      "rationale": "描述动作的微妙中断，暗示触觉上的意外发现，留白较多。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "具体触感",
+      "caption": "熟悉的金属触感里，混进一点陌生的、软软的碎屑。",
+      "hashtags": [
+        "#日常碎片",
+        "#触觉时刻"
+      ],
+      "rationale": "对比熟悉与陌生、金属与柔软的触感，带一点轻微的感官描写。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

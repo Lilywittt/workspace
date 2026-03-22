@@ -1,0 +1,69 @@
+{
+  "recommendedCandidateId": "event_01_paper_pause",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 78,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "具体物理触发：手指在边缘暂停。",
+        "因果链清晰，情感转变有实物依托。",
+        "视觉证据（手指、袖口、打开的物品）与文案可来自同一上游事实。"
+      ],
+      "risksZh": [
+        "若细节描述过于模糊，可能滑回熟悉的、安全的通用模式。",
+        "为满足'clear_character_presence'目标，可能需要调整构图，但事件本身支持。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 77,
+      "characterPresenceFitScore": 72,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "事件规模小，符合人物私密分享倾向。",
+        "提及'最近触碰的小物件'，有一定具体性。"
+      ],
+      "risksZh": [
+        "'微小调整'作为触发点可能过于抽象，易沦为装饰性提示。",
+        "视觉证据（桌角、附近痕迹）可能不够独特，导致图像通用。",
+        "因果链与另两个候选几乎相同，存在被事实压力拖入重复模式的风险。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "personaTruthScore": 79,
+      "groundingScore": 76,
+      "postabilityScore": 77,
+      "coherenceScore": 78,
+      "characterPresenceFitScore": 74,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "'残留的痕迹'概念符合人物对微小细节的敏感。",
+        "事件感觉像生活自然提供的暂停，而非刻意制造。"
+      ],
+      "risksZh": [
+        "'未完全结束的动作'作为视觉核心可能不够明确，导致图像缺乏焦点。",
+        "因果链完全重复，缺乏独特性，存在模板化风险。",
+        "为满足'clear_character_presence'目标，可能需要强行改变事件性质。"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对人物真实性、现实贴合度、可发布性、图文一致性及源数据过拟合风险的评审。推荐 event_01_paper_pause，因其触发点最具体，因果链与视觉证据结合紧密，且在保持真实生活瞬间的前提下，较易调整以满足'清晰角色存在'的目标。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

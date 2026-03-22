@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:35:37.786Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from finding forgotten objects to a small, forward-looking action",
+    "Use weather as active texture, not just reflective support"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing 'indoor_desk_corner' location"
+  ],
+  "narrativeNudges": [
+    "Focus on a tiny, intentional act that feels like a promise to tomorrow"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense sensory detail, not a recap of studying",
+    "End with a soft, forward-looking observation, not a completed memory"
+  ],
+  "imageAdvice": [
+    "Frame a small action in motion, not a static object on a surface",
+    "Use the cool, drizzly light to create a gentle, intimate mood"
+  ],
+  "summary": "After a streak of selfies and repetitive discovery scenes, pivot to a life_record that feels like a shy, forward-looking ritual in the soft rain.",
+  "errorMessage": ""
+}

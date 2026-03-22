@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是想把窗台上的水渍擦掉，却发现雨滴在玻璃上留下的痕迹，每一道都朝着不同的方向。",
+      "hookWhyInterestingZh": "一个被重复了无数次的简单动作，今天却因为雨水的轨迹而显得不同。",
+      "causalChainZh": [
+        "放学后，她习惯性地走向窗边。",
+        "看到玻璃上的水渍，想用袖子随手擦一下。",
+        "手停在半空，因为发现那些水痕的走向各不相同。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "窗台是放学后常待的地方。",
+          "雨天让玻璃上的痕迹变得格外清晰。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是完成一个日常的清理动作，心里没什么波动。",
+      "interiorShiftZh": "突然意识到，连雨水落下的路径都不是统一的。",
+      "whyTodayZh": "雨天的光线和安静，让这种微小的不协调变得可见。",
+      "whyShareableZh": "它捕捉了一个具体的、物理的细节，而不是情绪化的感慨。",
+      "visualEvidenceZh": [
+        "抬起的手停在玻璃前",
+        "玻璃上交错的水痕特写",
+        "窗外模糊的雨景和她的侧影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天的清晰度让平时忽略的纹理显现。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "收拾书包时，一根铅笔滚到了课桌腿后面，她蹲下去捡，却看到桌脚和墙壁之间积了一层薄薄的、颜色不一样的灰。",
+      "hookWhyInterestingZh": "一个被迫的低头动作，意外地揭示了一个从未被注意的平面。",
+      "causalChainZh": [
+        "拉上书包拉链时，笔袋没关好。",
+        "一根铅笔掉出来，滚向墙角。",
+        "蹲下伸手去够，视线自然落到了那个狭窄的缝隙里。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class"
+        ],
+        "inferredDetailsZh": [
+          "放学收拾东西是固定环节。",
+          "教室角落的灰尘构成日常环境的一部分。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "想着快点收拾完离开，动作有点匆忙。",
+      "interiorShiftZh": "在那个不体面的角度里，发现灰尘也有它的层次和疆域。",
+      "whyTodayZh": "低能量的状态让她对这类意外的“发现”更敏感。",
+      "whyShareableZh": "事件由具体的物理互动（捡笔）触发，观察结果也是具体的（灰尘的色差）。",
+      "visualEvidenceZh": [
+        "蹲在课桌旁的背影",
+        "伸向墙角的手和远处的铅笔",
+        "桌脚与墙壁缝隙的局部特写"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "放学后的过渡时刻，注意力容易飘向细节。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "走廊里，她的鞋带松了。系好站起来时，正好看见对面班级门上的玻璃窗，映出自己身后空荡走廊的一小段，被雨水打湿的窗框分割成几块。",
+      "hookWhyInterestingZh": "一次短暂的身体失衡和恢复，恰好对准了一个不寻常的、包含自身的反射视角。",
+      "causalChainZh": [
+        "走过走廊，鞋带松脱。",
+        "停下，弯腰系鞋带。",
+        "起身的瞬间，视线高度与对面门上的玻璃窗齐平。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "放学后走廊人渐少。",
+          "雨天让玻璃的反光更明显。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "想着走路要小心，别踩到水。",
+      "interiorShiftZh": "在玻璃的倒影里，自己成了身后空旷场景的一个静默注脚。",
+      "whyTodayZh": "雨声混着脚步声的环境，让这种瞬间的静止和观察成为可能。",
+      "whyShareableZh": "结合了身体动作（系鞋带）和意外的视觉构图（反射景象），有很强的场景感。",
+      "visualEvidenceZh": [
+        "系鞋带的弯腰动作",
+        "玻璃窗上倒映的走廊和她模糊的轮廓",
+        "潮湿的窗框将画面分割"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天的光线和空旷感影响了视觉体验。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "想把练习册塞进书架，却遇到阻力。抽出来一看，是之前随手夹进去的一片干枯的银杏叶，叶柄卡在了两本书之间。",
+      "hookWhyInterestingZh": "一个受阻的日常动作，揭露了一个被自己遗忘的、来自更早季节的微小存在。",
+      "causalChainZh": [
+        "整理书架，想把练习册归位。",
+        "推不进去，感到奇怪的阻力。",
+        "抽出册子，发现了卡住的叶柄。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class"
+        ],
+        "inferredDetailsZh": [
+          "放学后可能有整理物品的环节。",
+          "银杏叶暗示了过去的某个秋日。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "机械地进行整理，心思不在此处。",
+      "interiorShiftZh": "这片叶子是什么时候、为什么夹进去的？完全想不起来了。",
+      "whyTodayZh": "低能量下的整理动作，更容易被这种小小的、来自过去的物理阻力打断。",
+      "whyShareableZh": "事件由具体的触觉阻力（推不动）引发，发现物也是具体且中性的（枯叶），没有强加伤感。",
+      "visualEvidenceZh": [
+        "捏着练习册和卡住银杏叶的手",
+        "枯叶特写，叶柄卡在书页间",
+        "书架局部的杂乱状态"
+      ],
+      "ambientInfluence": {
+        "used": false,
+        "resonanceOnlyZh": [],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

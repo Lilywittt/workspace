@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:03:09.262Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "briefGoal": "Write a Chinese Instagram caption that shares a quiet, personal victory of tidying a desk corner after studying, using warm lamplight and the evening rain as sensory anchors to create a cozy, intimate slice-of-life moment that feels bright and alive.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "秩序与光",
+      "caption": "把散落的书和笔记一一归位，最后放上折好的纸鹤。\n台灯的光落在木纹上，暖烘烘的。窗外的雨声很轻，屋里却是一个刚刚整理好的、安静的小世界。\n今天也应该明亮而鲜活地度过呀。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈系",
+        "#二次元日常",
+        "#雨天"
+      ],
+      "rationale": "遵循微情节（起因-行动-感受），聚焦整理书桌的具体行动与感官细节（木纹上的灯光），以角色口头禅自然收尾，营造安静治愈的成就感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨夜角落",
+      "caption": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\n笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。\n嗯，今天也是明亮的一天。",
+      "hashtags": [
+        "#上海夜晚",
+        "#生活记录",
+        "#书桌整理",
+        "#治愈时刻",
+        "#日常美学"
+      ],
+      "rationale": "从“对抗倦怠”的轻中二角度切入，融入多个具体物件（马克杯、纸鹤、发夹）和天气变量，强调内外对比，以角色信念作结，富有生活纹理。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "无声的完成式",
+      "caption": "整理书桌像完成一个无声的仪式。\n当最后一本书靠墙立好，灯光便温柔地填满了所有空隙。雨在玻璃上划出细痕，而屋里只有纸张的摩擦声和一种圆满的静。\n这样的一刻，让今天显得明亮而鲜活。",
+      "hashtags": [
+        "#日常仪式感",
+        "#学习角落",
+        "#温暖时光",
+        "#生活切片",
+        "#安静时刻"
+      ],
+      "rationale": "以“仪式感”为角度，强化动作的象征意义与感官对比（雨痕 vs 室内静），语言略带戏剧性但保持温柔，自然融入角色核心句，传递静谧的满足感。"
+    }
+  ]
+}

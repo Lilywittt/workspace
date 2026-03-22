@@ -1,0 +1,271 @@
+{
+  "runIndex": 9,
+  "scenePlanRunId": "sceneplan-2026-03-19T03-01-11",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift from selfie close-ups to wider scene or object focus",
+      "Introduce a new indoor or evening setting"
+    ],
+    "avoidMotifs": [
+      "Avoid opening captions about rain or wind",
+      "Avoid overusing #上海, #日常, #自拍, #小确幸"
+    ],
+    "captionAdvice": [
+      "Use a more active or reflective tone, less observational",
+      "Mention a specific object or activity from the scene"
+    ],
+    "imageAdvice": [
+      "Frame a detail of the environment, not just the face",
+      "Use warmer, artificial lighting if indoors"
+    ],
+    "summary": "Maintain the intimate diary feel but pivot to life_record with a focus on environment and activity to refresh the visual and narrative tone."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a long day of studying, she's finally taking a moment for herself, curled up in a cozy corner of her room with a warm drink, letting the soft glow of a desk lamp and the quiet patter of rain outside create a private, comforting world.",
+    "microPlot": [
+      "The last textbook is closed, and the mental fatigue from hours of review settles in.",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows.",
+      "A deep, contented sigh escapes as she feels the day's tension melt away, replaced by a quiet, earned peace."
+    ],
+    "sceneNotes": [
+      "Character trace: her small red hairclip resting on the edge of a closed notebook.",
+      "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur.",
+      "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window.",
+      "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session."
+    ],
+    "captionFocus": [
+      "Reflecting on the quiet satisfaction of finishing a task and rewarding oneself."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a long day of studying, she's finally taking a moment for herself, curled up in a cozy corner of her room with a warm drink, letting the soft glow of a desk lamp and the quiet patter of rain outside create a private, comforting world.",
+    "microPlot": [
+      "The last textbook is closed, and the mental fatigue from hours of review settles in.",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows.",
+      "A deep, contented sigh escapes as she feels the day's tension melt away, replaced by a quiet, earned peace."
+    ],
+    "sensoryFocus": "warm lamplight on hands, soft blanket texture, faint scent of tea",
+    "concreteSceneCues": [
+      "Character trace: her small red hairclip resting on the edge of a closed notebook",
+      "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur",
+      "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window",
+      "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session",
+      "The last textbook is closed, and the mental fatigue from hours of review settles in",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "cozy"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a cozy, intimate caption that captures the transition from a long study session to a private, comforting moment of rest, using sensory details and a gentle, light chunibyo tone to reflect the character's personality and the scene's warmth.",
+    "audienceFeeling": "A quiet, shared contentment",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Gentle and intimate, like sharing a quiet moment with a friend"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "感官沉浸",
+      "opening": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+      "caption": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+      "hashtags": [
+        "#StudyBreak",
+        "#CozyEvening",
+        "#LifeRecord",
+        "#RainyDay",
+        "#WarmDrink"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物件特写",
+      "opening": "注意力终于从字里行间溜走，停在了桌角那枚小小的红色发夹上。它和合上的笔记本、喝到一半的奶茶，一起构成了今晚全部的风景。雨声是背景音，毯子软乎乎的，这一刻什么都可以不想。今天应该也还是明亮而鲜活的一天。",
+      "caption": "注意力终于从字里行间溜走，停在了桌角那枚小小的红色发夹上。它和合上的笔记本、喝到一半的奶茶，一起构成了今晚全部的风景。雨声是背景音，毯子软乎乎的，这一刻什么都可以不想。今天应该也还是明亮而鲜活的一天。",
+      "hashtags": [
+        "#LifeRecord",
+        "#CozyEvening",
+        "#StudyBreak",
+        "#WarmDrink"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "瞬间松弛",
+      "opening": "完成漫长复习后的那一声叹息，大概是最动听的声音。让热意从掌心传到全身，让灯光把影子拉得长长的。雨点敲在玻璃上，像在替我说“辛苦了”。那么，今天应该也还是明亮而鲜活的一天。",
+      "caption": "完成漫长复习后的那一声叹息，大概是最动听的声音。让热意从掌心传到全身，让灯光把影子拉得长长的。雨点敲在玻璃上，像在替我说“辛苦了”。那么，今天应该也还是明亮而鲜活的一天。",
+      "hashtags": [
+        "#StudyBreak",
+        "#RainyDay",
+        "#CozyEvening",
+        "#WarmDrink"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "感官沉浸",
+      "opening": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+      "caption": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+      "hashtags": [
+        "#StudyBreak",
+        "#CozyEvening",
+        "#LifeRecord",
+        "#RainyDay",
+        "#WarmDrink"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物件特写",
+      "opening": "注意力终于从字里行间溜走，停在了桌角那枚小小的红色发夹上。它和合上的笔记本、喝到一半的奶茶，一起构成了今晚全部的风景。雨声是背景音，毯子软乎乎的，这一刻什么都可以不想。今天应该也还是明亮而鲜活的一天。",
+      "caption": "注意力终于从字里行间溜走，停在了桌角那枚小小的红色发夹上。它和合上的笔记本、喝到一半的奶茶，一起构成了今晚全部的风景。雨声是背景音，毯子软乎乎的，这一刻什么都可以不想。今天应该也还是明亮而鲜活的一天。",
+      "hashtags": [
+        "#LifeRecord",
+        "#CozyEvening",
+        "#StudyBreak",
+        "#WarmDrink"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "瞬间松弛",
+      "opening": "完成漫长复习后的那一声叹息，大概是最动听的声音。让热意从掌心传到全身，让灯光把影子拉得长长的。雨点敲在玻璃上，像在替我说“辛苦了”。那么，今天应该也还是明亮而鲜活的一天。",
+      "caption": "完成漫长复习后的那一声叹息，大概是最动听的声音。让热意从掌心传到全身，让灯光把影子拉得长长的。雨点敲在玻璃上，像在替我说“辛苦了”。那么，今天应该也还是明亮而鲜活的一天。",
+      "hashtags": [
+        "#StudyBreak",
+        "#RainyDay",
+        "#CozyEvening",
+        "#WarmDrink"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best executes the lane pivot to life_record by fully rendering the micro-plot from studying to cozy rest with strong sensory immersion. It directly incorporates the required sensory detail (lamplight like honey on the hand), integrates the daily weather variable (light rain) subtly, and concludes naturally with the character's catchphrase. The tone is gentle, non-commercial, and has a light chunibyo flourish ('like a small piece of melted honey'), making it the most publishable and scene-faithful option.",
+    "strengths": [
+      "Strongest micro-plot execution: cause (closing book), action (making tea, wrapping in blanket), feeling (quiet corner of the world).",
+      "Vivid, original sensory detail ('light like melted honey') that aligns perfectly with the visual plan.",
+      "Seamlessly incorporates the 'light rain' freshness variable as ambient sound.",
+      "Natural, conversational flow that fits the character's voice and ends with the required catchphrase."
+    ],
+    "risks": [
+      "The metaphor 'like melted honey' is slightly poetic; must ensure it doesn't feel forced in the final tone.",
+      "Slightly more abstract than candidate 02's object-focused angle, but still grounded in the concrete scene."
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "感官沉浸",
+    "caption": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+    "hashtags": [
+      "#StudyBreak",
+      "#CozyEvening",
+      "#LifeRecord",
+      "#RainyDay",
+      "#WarmDrink"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best executes the lane pivot to life_record by fully rendering the micro-plot from studying to cozy rest with strong sensory immersion. It directly incorporates the required sensory detail (lamplight like honey on the hand), integrates the daily weather variable (light rain) subtly, and concludes naturally with the character's catchphrase. The tone is gentle, non-commercial, and has a light chunibyo flourish ('like a small piece of melted honey'), making it the most publishable and scene-faithful option."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: warm lamplight on hands, soft blanket texture, faint scent of tea",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Character trace: her small red hairclip resting on the edge of a closed notebook | Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur | Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window | Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session | The last textbook is closed, and the mental fatigue from hours of review settles in | She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Character trace: her small red hairclip resting on the edge of a closed notebook, Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur, Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window, Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session, The last textbook is closed, and the mental fatigue from hours of review settles in, She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, cozy, warm lamplight on hands, soft blanket texture, faint scent of tea",
+    "shotNotes": [
+      "Character trace: her small red hairclip resting on the edge of a closed notebook",
+      "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur",
+      "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window",
+      "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session",
+      "The last textbook is closed, and the mental fatigue from hours of review settles in",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "4ef79d7353d5",
+    "selectedCaption": "1b6d4e2ffd2d",
+    "imageScene": "f33186a24d97",
+    "candidateAngles": "3d7dcaff45ba"
+  }
+}

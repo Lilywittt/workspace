@@ -1,0 +1,84 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 82,
+      "groundingScore": 75,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "从具体物理动作（擦水渍）开始，符合叙事习惯。",
+        "细节（水痕走向）承载私人重量，符合人物特质。"
+      ],
+      "risksZh": [
+        "视觉焦点（玻璃水痕特写）可能过于抽象，与要求的清晰人物存在目标冲突。",
+        "侧影可能不足以达成“clear_character_presence”，容易滑向模糊的氛围场景。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 85,
+      "groundingScore": 88,
+      "postabilityScore": 82,
+      "coherenceScore": 85,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 12,
+      "strengthsZh": [
+        "因果链清晰具体（捡笔触发观察）。",
+        "观察结果（灰尘色差）顽固而普通，感觉真实。"
+      ],
+      "risksZh": [
+        "存在模式为“partial_presence”（蹲下的背影），难以满足“clear_character_presence”目标。",
+        "视觉证据中“局部特写”可能再次将人物推离画面中心。"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 90,
+      "characterPresenceFitScore": 88,
+      "sourceMirroringRiskScore": 10,
+      "strengthsZh": [
+        "身体动作（系鞋带）与视觉发现（玻璃倒影）自然结合，因果紧密。",
+        "同一时刻既能产出动作画面，也能产出包含人物与环境的构图，满足清晰存在目标。",
+        "倒影中的自身成为场景注脚，有轻微中二感但不夸张。"
+      ],
+      "risksZh": [
+        "需确保倒影中的人物轮廓足够可辨，而非完全模糊。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 83,
+      "groundingScore": 80,
+      "postabilityScore": 80,
+      "coherenceScore": 82,
+      "characterPresenceFitScore": 72,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "触觉阻力（推不动）作为触发点非常具体。",
+        "发现物（枯叶）中性，避免了强加情绪。"
+      ],
+      "risksZh": [
+        "“完全想不起来”的内心转折稍显套路，有滑向熟悉安全盆地的风险。",
+        "视觉焦点易偏向“手与枯叶特写”，可能削弱人物的整体存在感，难以达成目标。"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对候选人的人格真实性、事实锚定、可发布性、图文一致性及人物存在目标契合度的评审。event_03在满足“clear_character_presence”目标方面表现最佳，其事件本身支持从同一真实上游衍生出既展现人物动作又包含其清晰存在的画面。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

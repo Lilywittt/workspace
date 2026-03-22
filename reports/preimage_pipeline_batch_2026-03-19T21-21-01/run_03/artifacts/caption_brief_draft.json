@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:25:10.287Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-24-48",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note left for a future self, capturing the quiet, forward-looking gesture of finding and returning a lost planner page in a late-evening bookstore. The text should focus on small sensory details (the paper's rustle, the warm light, the woody scent) and the gentle, almost ritualistic feeling of smoothing a crease, making a tiny act of order feel faintly significant without being dramatic.",
+  "audienceFeeling": "A soft, intimate resonance, like overhearing a quiet thought.",
+  "openingMoves": [
+    "Start with the sensory discovery (sound, sight, or scent).",
+    "Describe the hands-on action of unfolding and smoothing the page.",
+    "Anchor the moment in the late-evening, drizzly Shanghai atmosphere."
+  ],
+  "mustInclude": [
+    "The act of thumb-smoothing the crease on the planner page.",
+    "The warm, low light catching the paper.",
+    "The planner open to a blank future date.",
+    "The small red hairclip (visible but not the focus).",
+    "The feeling of a small, unseen loop being closed.",
+    "Use Chinese language for the final caption."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "A fixed, slogan-like ending.",
+    "Forcing the moment into a grand life lesson or fateful declaration.",
+    "Explicitly explaining the 'secret meaning' of the object.",
+    "Dialogue or lore exposition."
+  ],
+  "voiceNotes": [
+    "Short sentences, with maybe one slightly longer, breath-like phrase.",
+    "Soft, trailing sentence endings, like a gentle exhale or self-address.",
+    "Light chunibyo flavor: let the ordinary page briefly feel like a small omen or private code, not a theatrical performance.",
+    "Tone is gentle, private, and grounded in daily-life texture."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#书店碎片",
+    "#手边的秩序感",
+    "#小雨的夜晚",
+    "#给未来的小纸条"
+  ],
+  "summary": "A late-evening moment in a Shanghai bookstore where finding and smoothing a lost planner page becomes a quiet, forward-looking ritual of gentle order.",
+  "errorMessage": ""
+}

@@ -1,0 +1,70 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 85,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理触发明确（湿纸巾的蓝色晕染）",
+        "细节顽固而普通（废品、洇湿边缘）",
+        "图文同源性强（指尖、水痕、侧脸光）",
+        "能支持清晰角色存在而不破坏事件"
+      ],
+      "risksZh": [
+        "蓝色来源需保持模糊，避免过度解释",
+        "需确保画面焦点在事件，而非单纯肖像"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 79,
+      "characterPresenceFitScore": 80,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "携带与发现的叙事弧完整",
+        "花瓣细节具体且具季节性"
+      ],
+      "risksZh": [
+        "樱花花瓣易滑向装饰性意象",
+        "低头看鞋的构图可能重复",
+        "对清晰角色存在的支持稍弱"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 72,
+      "groundingScore": 70,
+      "postabilityScore": 68,
+      "coherenceScore": 74,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "联想符合轻微中二感",
+        "清理动作有日常感"
+      ],
+      "risksZh": [
+        "水渍侧脸易被视为刻意提示而非偶然发现",
+        "像在写设定（“被解读了”）",
+        "事件本身对清晰角色存在的承载压力大"
+      ],
+      "verdict": "weak"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。候选1在物理触发、顽固细节和角色存在适配性上表现最佳，推荐采用。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

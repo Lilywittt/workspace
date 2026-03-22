@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:51:12.336Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-50-16",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the scene brief by delivering a complete, sensory micro-plot (sliding out, unfolding, receiving) that feels like a private note to oneself. It integrates the weather naturally as atmosphere, directly lands the 'private omen' emotional beat, and avoids the repetitive indoor/study fatigue by focusing on a fresh rediscovery moment. The language is gentle, believably chunibyo in its 'secret code' framing, and matches the required daily-life texture without sounding overwritten.",
+  "caption": "整理书桌，一片干枯的花瓣从本子里滑出来。\n在掌心展开它，灰白的窗光照着那些细密的脉络。\n像是来自上一个春天的、只对我有效的私密暗号，在傍晚的小雨里被重新接收。",
+  "hashtags": [
+    "#书桌角落",
+    "#干枯花瓣",
+    "#私密仪式",
+    "#上海傍晚",
+    "#小雨氛围"
+  ],
+  "candidateAngle": "私密暗号",
+  "candidateRationale": "紧扣“微小痕迹成为私密暗号”的钩子，完整呈现发现、展开、感受的微情节，并将天气自然融入氛围，避免口号式收尾。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the scene brief by delivering a complete, sensory micro-plot (sliding out, unfolding, receiving) that feels like a private note to oneself. It integrates the weather naturally as atmosphere, directly lands the 'private omen' emotional beat, and avoids the repetitive indoor/study fatigue by focusing on a fresh rediscovery moment. The language is gentle, believably chunibyo in its 'secret code' framing, and matches the required daily-life texture without sounding overwritten.",
+    "strengths": [
+      "Complete, three-part micro-plot that mirrors the scene plan's action kernel.",
+      "Strong integration of sensory detail (veins in grey window light) and weather (drizzly evening).",
+      "Perfectly captures the 'private omen' and 'tiny trace from an earlier self' hooks.",
+      "Feels most like a real, intimate memo with a soft, breath-like ending.",
+      "Avoids fatigue from recent indoor/purchase/repair semantics by centering a paper fragment discovery."
+    ],
+    "risks": [
+      "Slightly more abstract than candidate 02's concrete temperature mention.",
+      "The 'secret code' metaphor, while fitting, edges close to being a tiny bit theatrical."
+    ]
+  }
+}

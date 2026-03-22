@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:42:20.209Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-41-27",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best balances the required gentle, private ritual energy with a fresh, publishable voice. It directly executes the micro-plot (finding and smoothing the note) and integrates the key sensory detail ('沙沙的暗号'), while the '今晚，所有走散的小东西，都可以回家' line delivers the light chunibyo touch and forward-looking 'gentle_order' emotional landing in a way that feels intimate and slightly enchanted, not overwritten. It avoids the more common '心里会这么安静' observation ending and the slightly more generic '解开了一个结' metaphor, offering stronger novelty and persona fit.",
+  "caption": "便条纸的卷边，被我抚平了。\n一个几乎听不见的、沙沙的暗号。\n意思是：今晚，所有走散的小东西，都可以回家。",
+  "hashtags": [
+    "#日常修复仪式",
+    "#轻中二日常",
+    "#私密动态",
+    "#生活切片"
+  ],
+  "candidateAngle": "日常暗号",
+  "candidateRationale": "将普通手势（抚平卷边）和声音（沙沙声）转化为带有轻微中二感的“私密暗号”，并赋予其“让走散之物回家”的温柔、前瞻性含义，满足“普通事物带有秘密意义”的要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best balances the required gentle, private ritual energy with a fresh, publishable voice. It directly executes the micro-plot (finding and smoothing the note) and integrates the key sensory detail ('沙沙的暗号'), while the '今晚，所有走散的小东西，都可以回家' line delivers the light chunibyo touch and forward-looking 'gentle_order' emotional landing in a way that feels intimate and slightly enchanted, not overwritten. It avoids the more common '心里会这么安静' observation ending and the slightly more generic '解开了一个结' metaphor, offering stronger novelty and persona fit.",
+    "strengths": [
+      "Excellent persona fit: '暗号' and the personification of '走散的小东西' deliver the light, private chunibyo tone perfectly.",
+      "Strong scene execution: Clearly depicts the action and sensory detail ('沙沙的暗号') from the brief.",
+      "Fresh emotional landing: The '回家' metaphor for gentle order feels more novel and intimate than a standard 'quiet' or 'completion' ending.",
+      "Compact and publishable: Short, breath-like sentences that read like a private note."
+    ],
+    "risks": [
+      "Slightly abstract: The '暗号' and '走散的小东西' lines could be perceived as mildly cryptic versus the more grounded alternatives.",
+      "Lower explicit weather integration: Mentions rain only indirectly as context ('今晚'), whereas other candidates integrate it more directly as texture."
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:00:44.247Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "lane": "life_record",
+  "generationMode": "anime_partial_presence_daily_record",
+  "sourceBriefCreatedAt": "2026-03-19T03:00:44.033Z",
+  "references": [
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "weight": 0.55,
+      "why": "Carry forward scene or platform style cues without locking the composition."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her\nScene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk lit by a warm, low desk lamp, casting soft shadows, Textbooks stacked neatly, one slightly askew with a pencil tucked in, The red hairclip visible at the edge of her hair, catching the light, Her hands in frame, one holding the cloth, the other cradling the keychain, A faint, blurred background of a bedroom shelf with a few trinkets, cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space, everyday life in Shanghai\nStyle: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood\nCamera: partial first-person presence\nMood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, reflective, soft cloth texture, faint paper-dust scent, worn plush under fingertips\nDetails: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint\nHard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay",
+    "negativePrompt": "ad poster, glossy editorial, text, watermark, platform UI overlay, extra fingers, bad anatomy, duplicate objects, chaotic clutter, irrelevant fantasy props, tourism poster, empty aesthetic wallpaper, staged look, over-symmetry, over-polished look, text, subtitle, watermark, logo, UI overlay, extra fingers, bad hands, broken anatomy, duplicate objects, identity drift, empty scenery without character trace, tourism poster, ad poster, glossy editorial, photoreal live action",
+    "shotNotes": [
+      "Desk lit by a warm, low desk lamp, casting soft shadows",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in",
+      "The red hairclip visible at the edge of her hair, catching the light",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain",
+      "A faint, blurred background of a bedroom shelf with a few trinkets",
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a scene with hands or objects, not a face-forward selfie",
+      "Use warmer indoor lighting if possible",
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor setting or a different time of day",
+      "Desk lit by a warm, low desk lamp, casting soft shadows.",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in.",
+      "The red hairclip visible at the edge of her hair, catching the light.",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain.",
+      "A faint, blurred background of a bedroom shelf with a few trinkets.",
+      "A quiet moment of rediscovery in the midst of tidying up.",
+      "Do not leave the frame as a pure empty scene; include one or two readable character traces",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "A hand holding a phone or drink, a sleeve edge, a reflection, or a hairclip is acceptable even if the full face is absent",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ],
+    "promptBlocks": {
+      "layeringStrategy": "global_style + character_core + scene + camera + mood + detail + hard_constraints",
+      "subject": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her",
+      "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk lit by a warm, low desk lamp, casting soft shadows, Textbooks stacked neatly, one slightly askew with a pencil tucked in, The red hairclip visible at the edge of her hair, catching the light, Her hands in frame, one holding the cloth, the other cradling the keychain, A faint, blurred background of a bedroom shelf with a few trinkets, cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space, everyday life in Shanghai",
+      "style": "Style: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood",
+      "camera": "Camera: partial first-person presence",
+      "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, reflective, soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+      "details": "Details: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint",
+      "constraints": "Hard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "seedStrategy": "diversified_candidates",
+    "consistencyPolicy": "scene_first_style_guided"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "A Japanese-anime slice-of-life image with readable character presence.",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready"
+}

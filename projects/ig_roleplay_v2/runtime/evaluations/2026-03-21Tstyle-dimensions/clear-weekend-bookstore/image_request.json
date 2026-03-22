@@ -1,0 +1,96 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:37:08.135Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable.",
+      "libraryStatus": "placeholder",
+      "librarySource": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "referencePlan": {
+    "identityReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "styleReferenceIds": [],
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ]
+  },
+  "referenceHandling": {
+    "requestedReferenceCount": 1,
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "deliveryMode": "pending_provider_selection"
+  },
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable through face, posture, or fuller-body action while the lived event stays primary; strengthen identity via visible face shape, age impression, and red hairclip when naturally in frame, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: finger paused at an edge, sleeve cuff, partially opened carried item, finger paused at the edge of a planner or notebook, sleeve cuff or part of the arm, partially opened carried item (like a bag), clearly visible girl's face in profile or three-quarter view, with small red hairclip, 手指在笔记本或计划本边缘停顿的动作, 袖口或部分手臂, 部分打开的随身物品（如书包、袋子）, 清晰可见的少女侧脸或四分之三脸，带有红色发夹\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause, A temporary stationery and notebook display is set near the quiet bookstore aisle entrance., Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable through face, posture, or fuller-body action while the lived event stays primary; strengthen identity via visible face shape, age impression, and red hairclip when naturally in frame\nCapturePlan: observational camera relation, medium distance, half body coverage, readable face, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, the face should be readable, but the lived event may still stay primary, half-body coverage is allowed when it helps the action read cleanly\nIdentityLock: same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable\nComposition: moment-led framing rooted in the same lived action of pausing while tidying, 让构图跟随同一个生活节拍，使动作和空间保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 一个真实的生活片段，在路过时被捕捉。\nRenderStyleSummary: line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth\nRenderStyle: clean crisp anime linework, controlled clear contrast, balanced color richness, clear local color separation, clear clothing seam and object edge readability, layered subject-background separation, anime daily-life rendering with stable local color blocks, clear silhouette readability without poster-like exaggeration\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "blurry linework, washed out contrast, muddy clothing colors, color regions collapsing into flat mud, flat fabric rendering, flat depth with no foreground-background hierarchy, generic aesthetic wallpaper, fashion editorial polish, tourism poster feeling, empty scenery without character trace, rewriting the action into interaction with another person, letting background bystanders take more visual weight than the protagonist, 通用的美学壁纸, 时尚大片般的抛光感, 旅游海报氛围, 没有角色痕迹的空旷场景, 将动作改写为与他人互动, 让背景人物比主角更显眼, generic anime boy redesign, older-looking redesign, irrelevant bystanders drawing more attention than the protagonist",
+    "shotNotes": [
+      "finger paused at an edge",
+      "sleeve cuff",
+      "partially opened carried item",
+      "finger paused at the edge of a planner or notebook",
+      "sleeve cuff or part of the arm",
+      "partially opened carried item (like a bag)",
+      "clearly visible girl's face in profile or three-quarter view, with small red hairclip",
+      "quiet bookstore aisle background"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable through face, posture, or fuller-body action while the lived event stays primary; strengthen identity via visible face shape, age impression, and red hairclip when naturally in frame, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "finger paused at an edge, sleeve cuff, partially opened carried item, finger paused at the edge of a planner or notebook, sleeve cuff or part of the arm, partially opened carried item (like a bag), clearly visible girl's face in profile or three-quarter view, with small red hairclip, 手指在笔记本或计划本边缘停顿的动作, 袖口或部分手臂, 部分打开的随身物品（如书包、袋子）, 清晰可见的少女侧脸或四分之三脸，带有红色发夹",
+      "context": "ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause, A temporary stationery and notebook display is set near the quiet bookstore aisle entrance., Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable through face, posture, or fuller-body action while the lived event stays primary; strengthen identity via visible face shape, age impression, and red hairclip when naturally in frame",
+      "capturePlan": "observational camera relation, medium distance, half body coverage, readable face, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, the face should be readable, but the lived event may still stay primary, half-body coverage is allowed when it helps the action read cleanly",
+      "identityLock": "same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+      "composition": "moment-led framing rooted in the same lived action of pausing while tidying, 让构图跟随同一个生活节拍，使动作和空间保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "一个真实的生活片段，在路过时被捕捉。",
+      "renderStyleSummary": "line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth",
+      "renderStyle": "clean crisp anime linework, controlled clear contrast, balanced color richness, clear local color separation, clear clothing seam and object edge readability, layered subject-background separation, anime daily-life rendering with stable local color blocks, clear silhouette readability without poster-like exaggeration",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音在书店整理东西时，因为一本计划本而短暂停顿的瞬间。",
+    "needsFaceReview": false,
+    "needsIdentityReview": true,
+    "dryRunDefault": true
+  },
+  "reviewSignals": {
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": [
+      "bookstore_weekend_stationery_display"
+    ],
+    "captureSummaryEn": "observational camera relation, medium distance, half body coverage, readable face, balanced environment weight",
+    "renderStyleSummaryEn": "line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth",
+    "unresolvedIdentityReference": true,
+    "strongerIdentityLock": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

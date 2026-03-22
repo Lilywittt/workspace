@@ -1,0 +1,115 @@
+{
+  "version": "3.0.0-alpha.1",
+  "events": [
+    {
+      "eventId": "bookstore_weekend_stationery_display",
+      "title": "Temporary stationery display near the bookstore aisle entrance",
+      "status": "scheduled",
+      "timeWindow": {
+        "start": "2026-03-20T00:00:00+08:00",
+        "end": "2026-03-31T23:59:59+08:00",
+        "scheduleModes": [
+          "weekend"
+        ],
+        "routineWindows": [
+          "afternoon_pause"
+        ],
+        "currentContexts": [
+          "weekend_pause_window"
+        ]
+      },
+      "scope": {
+        "city": "Shanghai",
+        "placeIds": [
+          "bookstore_aisle"
+        ]
+      },
+      "factStatements": [
+        "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+        "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday."
+      ],
+      "placeStateChanges": [
+        {
+          "placeId": "bookstore_aisle",
+          "stateFacts": [
+            "The aisle now has a temporary display edge with extra notebook stacks and binder clips near the entrance."
+          ],
+          "addedPhysicalTraits": [
+            "temporary display edge",
+            "extra notebook stacks",
+            "small stationery trays"
+          ]
+        }
+      ],
+      "objectAvailabilityChanges": [
+        {
+          "objectId": "binder_clip_tray",
+          "label": "binder clip tray",
+          "availabilityMode": "available",
+          "stateFacts": [
+            "A small tray of binder clips is plausibly visible near the temporary display."
+          ],
+          "physicalTraits": [
+            "small metal clips",
+            "tray beside notebook stacks"
+          ]
+        }
+      ],
+      "ambientShifts": [
+        "There is a little more shelf-side hesitation and browsing drift than usual."
+      ],
+      "hardConstraints": [
+        "Do not force the temporary display into the protagonist's moment unless she truly notices or touches it.",
+        "Treat the extra traffic as background world state, not as a required interaction."
+      ],
+      "notesZh": "可通过上游手动维护，仅改变世界状态与可用事实，不直接指定发帖内容。"
+    },
+    {
+      "eventId": "school_corridor_notice_refresh",
+      "title": "Fresh noticeboard refresh near the after-class corridor",
+      "status": "scheduled",
+      "timeWindow": {
+        "start": "2026-03-20T00:00:00+08:00",
+        "end": "2026-03-28T23:59:59+08:00",
+        "scheduleModes": [
+          "school_day"
+        ],
+        "routineWindows": [
+          "after_class"
+        ],
+        "currentContexts": [
+          "school_transition_window"
+        ]
+      },
+      "scope": {
+        "city": "Shanghai",
+        "placeIds": [
+          "classroom_edge",
+          "stairwell_near_library"
+        ]
+      },
+      "factStatements": [
+        "A noticeboard refresh near the after-class corridor leaves a few newly pinned paper edges in view."
+      ],
+      "placeStateChanges": [
+        {
+          "placeId": "stairwell_near_library",
+          "stateFacts": [
+            "The stairwell landing now has a nearby noticeboard with freshly pinned paper edges."
+          ],
+          "addedPhysicalTraits": [
+            "new paper corners",
+            "slightly uneven pinned notices"
+          ]
+        }
+      ],
+      "ambientShifts": [
+        "The corridor carries a mild just-updated school routine feeling."
+      ],
+      "hardConstraints": [
+        "Do not turn the noticeboard itself into a symbolic poster shot."
+      ],
+      "notesZh": "示例事件：把学校走廊的更新视作世界事实，而不是强制题材。"
+    }
+  ]
+}

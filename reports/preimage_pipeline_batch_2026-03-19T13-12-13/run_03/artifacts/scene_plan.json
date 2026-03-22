@@ -1,0 +1,127 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T05-15-11",
+  "createdAt": "2026-03-19T05:15:11.205Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+    "microPlot": [
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+      "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+      "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+    ],
+    "sensoryFocus": "the muffled tap of rain on glass and the cool, smooth texture of collected objects"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Medium shot from across the room, framing her in profile near a rain-streaked window",
+      "Her small red hairclip is visible, catching a bit of the muted grey light",
+      "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point",
+      "The rest of the room is softly out of focus, suggesting a cozy, lived-in space",
+      "Her expression is one of gentle, focused contemplation, not looking at the camera",
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Use a medium shot showing environment and activity",
+      "Consider a still-life composition of objects related to the moment",
+      "Focus on a wider scene or activity, not a close-up selfie",
+      "Incorporate the current '小雨' weather as a background element, not the main subject",
+      "Medium shot from across the room, framing her in profile near a rain-streaked window.",
+      "Her small red hairclip is visible, catching a bit of the muted grey light.",
+      "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point.",
+      "The rest of the room is softly out of focus, suggesting a cozy, lived-in space.",
+      "Her expression is one of gentle, focused contemplation, not looking at the camera.",
+      "The quiet ceremony of rediscovering little things the rain makes you remember.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from selfie close-ups to a scene-focused life_record that maintains the cozy, reflective mood but changes the framing.",
+    "draftSummary": "A life_record scene of a character finding a quiet, ritualistic focus in arranging forgotten objects during a rainy afternoon.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

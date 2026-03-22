@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore",
+  "createdAt": "2026-03-21T06:29:40.449Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "晴到多云",
+    "locationName": "Shanghai",
+    "routineWindow": "afternoon_pause"
+  },
+  "narrative": {
+    "premise": "翻找充电线时，在抽屉角落摸到一枚很久没用的发夹，金属部分有点凉。",
+    "microPlot": [
+      "原本只是继续往下做日常动作。",
+      "某个具体细节突然把注意力拉住。",
+      "心里的重量轻轻偏了一下。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "结果因为一个很小的细节，心里轻轻停了一下。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "concreteSceneCues": [
+      "手边的小物件",
+      "动作停住的一瞬间",
+      "人物存在的痕迹"
+    ],
+    "sceneNotes": [
+      "context: weekend_pause_window",
+      "weather: 晴到多云"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "identity_stability",
+      "context_weekend_pause_window"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:16:48.270Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, cool evening after a long day, a small, bent paper clip found on the floor of a familiar bookstore aisle becomes a tiny, forward-looking task. The act of straightening it out and placing it back on a shelf isn't just tidying; it's a gentle, private ritual of restoring a small piece of order, a quiet promise to the space and to herself that even the smallest things can be put right.",
+  "microPlot": [
+    "Noticing a single, bent paper clip on the worn wooden floor between the shelves.",
+    "Picking it up, carefully straightening its curves with her fingers, and placing it back on the edge of a shelf where it belongs.",
+    "Feeling the quiet satisfaction of closing a tiny, invisible loop, as if the day itself exhales a soft, orderly breath."
+  ],
+  "sensoryFocus": "the cool, smooth metal of the paper clip warming against her fingertips",
+  "sceneNotes": [
+    "Hands in frame, focused on the small metal object.",
+    "Soft, warm light from a nearby reading lamp pooling on the wooden floorboards.",
+    "The quiet, dusty scent of old paper and polished wood in the still air.",
+    "A faint, distant sound of light rain tapping against the high bookstore windows."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet feeling of putting a small thing back where it belongs."
+  ],
+  "summary": "A bent paper clip on a bookstore floor becomes the focus of a quiet, restorative evening ritual.",
+  "errorMessage": ""
+}

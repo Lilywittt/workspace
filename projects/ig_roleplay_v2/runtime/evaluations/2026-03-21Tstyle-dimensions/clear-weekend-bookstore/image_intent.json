@@ -1,0 +1,71 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresencePlanEn": "the protagonist should be clearly readable through face, posture, or fuller-body action while the lived event stays primary; strengthen identity via visible face shape, age impression, and red hairclip when naturally in frame",
+  "cameraRelation": "observational",
+  "faceReadability": "readable",
+  "bodyCoverage": "half",
+  "distance": "medium",
+  "environmentWeight": "balanced",
+  "captureSummaryEn": "observational camera relation, medium distance, half body coverage, readable face, balanced environment weight",
+  "captureGuidanceEn": [
+    "the frame should feel witnessed from the outside, not automatically self-held",
+    "a brief or partial face glimpse is enough; do not force portrait dominance",
+    "partial body coverage is enough when it keeps the moment concrete",
+    "medium distance is a stable everyday framing for ordinary daily-life moments",
+    "balance the protagonist and environment so they support the same lived beat together",
+    "the face should be readable, but the lived event may still stay primary",
+    "half-body coverage is allowed when it helps the action read cleanly"
+  ],
+  "framingZh": "让构图跟随同一个生活节拍，使动作和空间保持连贯。",
+  "framingEn": "moment-led framing rooted in the same lived action of pausing while tidying",
+  "mustShowZh": [
+    "手指在笔记本或计划本边缘停顿的动作",
+    "袖口或部分手臂",
+    "部分打开的随身物品（如书包、袋子）",
+    "清晰可见的少女侧脸或四分之三脸，带有红色发夹"
+  ],
+  "mustShowEn": [
+    "finger paused at the edge of a planner or notebook",
+    "sleeve cuff or part of the arm",
+    "partially opened carried item (like a bag)",
+    "clearly visible girl's face in profile or three-quarter view, with small red hairclip"
+  ],
+  "mayShowZh": [
+    "安静的书店过道背景",
+    "午后阳光透过窗户投下的淡淡影子",
+    "附近文具陈列架的模糊轮廓"
+  ],
+  "mayShowEn": [
+    "quiet bookstore aisle background",
+    "afternoon sunlight casting soft shadows through a window",
+    "blurred outline of nearby stationery display shelves"
+  ],
+  "mustAvoidZh": [
+    "通用的美学壁纸",
+    "时尚大片般的抛光感",
+    "旅游海报氛围",
+    "没有角色痕迹的空旷场景",
+    "将动作改写为与他人互动",
+    "让背景人物比主角更显眼",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling"
+  ],
+  "mustAvoidEn": [
+    "generic aesthetic wallpaper",
+    "fashion editorial polish",
+    "tourism poster feeling",
+    "empty scenery without character trace",
+    "rewriting the action into interaction with another person",
+    "letting background bystanders take more visual weight than the protagonist"
+  ],
+  "atmosphereZh": "一个真实的生活片段，在路过时被捕捉。",
+  "altTextZh": "月见璃音在书店整理东西时，因为一本计划本而短暂停顿的瞬间。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

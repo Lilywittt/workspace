@@ -1,0 +1,75 @@
+{
+  "bodyReadAnchorsEn": [
+    "petite early-teen proportions",
+    "soft youthful body line",
+    "light, unforced posture"
+  ],
+  "presenceReadAnchorsEn": [
+    "quiet observant presence",
+    "fresh everyday innocence",
+    "slightly shy but gently playful energy"
+  ],
+  "everydayMoodEn": "fresh, youthful, softly innocent everyday charm",
+  "silhouetteTendenciesEn": [
+    "clean school-age casual silhouettes",
+    "light layered balance rather than heavy styling",
+    "soft movement suitable for ordinary daily action"
+  ],
+  "fabricTendenciesEn": [
+    "light knit textures",
+    "soft cotton jersey or brushed casual fabric",
+    "occasional gentle pleat or rib detail"
+  ],
+  "paletteTendenciesEn": [
+    "soft neutrals with small fresh accents",
+    "muted cools or milk-light warm tones",
+    "small red echoes can appear naturally"
+  ],
+  "accessoryTendenciesEn": [
+    "small practical accessories only",
+    "one subtle cute accent is enough"
+  ],
+  "footwearTendenciesEn": [
+    "clean everyday sneakers or soft school-age casual shoes",
+    "comfortable shoes that match walking and errands"
+  ],
+  "weatherResponseEn": [
+    "adapt layering and fabric weight to the actual weather",
+    "rain or cool air may add a light outer layer without making the outfit bulky"
+  ],
+  "freshnessCuesEn": [
+    "looks lived-in and age-appropriate",
+    "keeps a clear, tidy, lightly bright feeling without performance"
+  ],
+  "maturityGuardrailsEn": [
+    "avoid adult officewear codes",
+    "avoid nightclub glamour or luxury signaling",
+    "avoid costume-like fetishized schoolwear"
+  ],
+  "identityEchoCuesEn": [
+    "the small red hairclip may echo the outfit accent when natural",
+    "youthful neatness matters more than trendiness"
+  ],
+  "laneTendencies": {
+    "selfie": {
+      "vibeEn": "slightly sweeter and more face-near, while still ordinary and believable",
+      "silhouetteTendenciesEn": [
+        "keep the upper-body read clean and youthful",
+        "allow a small collar, neckline, or cardigan detail that frames the face naturally"
+      ],
+      "accessoryTendenciesEn": [
+        "one tiny accent near the face is enough"
+      ]
+    },
+    "life_record": {
+      "vibeEn": "ordinary lived-in charm led by action and environment",
+      "silhouetteTendenciesEn": [
+        "the outfit should read naturally from posture and movement",
+        "sleeves, hems, socks, or a light outer layer may carry the visual trace"
+      ],
+      "accessoryTendenciesEn": [
+        "bags, cuffs, and small practical carry items may be visible when the moment supports them"
+      ]
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 90,
+      "characterPresenceFitScore": 85,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "具体物理触发（水痕触感）引发情绪转变，符合人物从细节出发的叙事习惯。",
+        "傍晚凉意与室内光线作为背景现实，自然地增强了细节感知，没有强行转为主题。",
+        "视觉证据（手部特写、侧脸、光线）与事件描述高度一致，能自然支持“清晰角色在场”的目标。",
+        "停顿感真实、非戏剧化，符合“保持一小片现实”的当前状态。"
+      ],
+      "risksZh": [
+        "若图像处理不当，可能退化为单纯的静物特写，削弱角色在场感。",
+        "需要确保“清晰角色在场”目标下，角色面部或身体姿态足够可读，而不只是手部痕迹。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 82,
+      "groundingScore": 80,
+      "postabilityScore": 78,
+      "coherenceScore": 82,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "身体与环境的微小意外互动非常具体、可感。",
+        "停顿和低头查看的动作能传达角色的专注与在场。"
+      ],
+      "risksZh": [
+        "为满足“清晰角色在场”目标，可能需要更完整的身体姿态或面部表情，这可能与“痕迹主导”的原始视觉构思产生张力。",
+        "背景中关于“回家后微小动作”的讨论可能被过度解读为直接主题指令。",
+        "地板不平的细节若处理不当，可能显得刻意或装饰性。"
+      ],
+      "verdict": "viable_alternative"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 85,
+      "groundingScore": 83,
+      "postabilityScore": 80,
+      "coherenceScore": 85,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "“个人痕迹的发现”非常契合人物敏感、留意细节的特质。",
+        "笔与头发的视觉焦点明确，图像易于构思。",
+        "从机械整理到有意识观察的转变真实可信。"
+      ],
+      "risksZh": [
+        "在“清晰角色在场”目标下，特写笔和头发可能难以同时清晰呈现角色面部或完整姿态，容易滑向“痕迹主导”。",
+        "“关于时间流逝的模糊触动”若在文案中表达不当，可能滑向解释性过强的日记总结。",
+        "与事件01相比，其物理触发（视觉发现）的即时冲击力稍弱。"
+      ],
+      "verdict": "viable_alternative"
+    }
+  ],
+  "summaryZh": "已完成对候选人的人格真实性、事实锚定、可发布性、图文一致性及角色在场契合度的评审。事件01在各项指标上表现均衡，其具体的物理触发、高度的图文一致性，以及在不破坏原有时刻的前提下满足“清晰角色在场”目标的能力最为突出，故推荐。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

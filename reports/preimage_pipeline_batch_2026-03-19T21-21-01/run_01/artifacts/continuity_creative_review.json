@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:21:20.383Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a non-legacy scene program (e.g., micro_purchase_program or other)",
+    "Shift location away from indoor_desk_corner (try a new indoor or gentle outdoor spot)",
+    "Experiment with a different emotional landing (e.g., shy_attachment or a new subtle feeling)"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel",
+    "Avoid 'accessory' object family",
+    "Avoid starting caption with weather observation at a window"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking, small action rather than rediscovery",
+    "Incorporate a different sensory detail (e.g., sound, texture, warmth)",
+    "Let the object be a comfort item or something consumable"
+  ],
+  "captionAdvice": [
+    "Use a short, present-tense opening about a small decision or movement",
+    "End with a soft observation that feels like a private note, not a conclusion",
+    "Incorporate one specific, tactile detail (e.g., the weight of a mug, the sound of a door)"
+  ],
+  "imageAdvice": [
+    "Frame a partial presence shot (hands, object, corner of room)",
+    "Use natural evening or indoor lighting to create a cozy, intimate mood",
+    "Include a simple, non-accessory object central to the micro-plot"
+  ],
+  "summary": "Shift from rediscovery to a gentle, forward-looking micro-action in a fresh location to maintain continuity while introducing subtle novelty.",
+  "errorMessage": ""
+}

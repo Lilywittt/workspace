@@ -1,0 +1,177 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把笔袋里的笔倒出来想换支新的，发现其中一支的笔帽内侧，用指甲刻了一个很小的、几乎看不清的叉。",
+      "hookWhyInterestingZh": "它足够小，但像一天里会被真实留下来的那一块。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "收拾书包时，手指碰到夹层里一张被压得平平整整的、去年的电影票根。",
+      "hookWhyInterestingZh": "不是刻意收藏，只是忘了扔，今天却突然摸到了它的存在。",
+      "causalChainZh": [
+        "手伸进书包夹层找东西。",
+        "指尖触感不是要找的，而是一张光滑的纸片。",
+        "抽出来看，动作比思考快。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class"
+        ],
+        "inferredDetailsZh": [
+          "日常整理动作中偶然触发的停顿。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "机械地执行整理动作，思绪在别处。",
+      "interiorShiftZh": "触觉先于视觉识别了那个物件，带来一个短暂的、纯粹的物理停顿。",
+      "whyTodayZh": "雨天的安静让触觉变得格外清晰。",
+      "whyShareableZh": "捕捉到了“发现”发生前那一瞬间的空白感。",
+      "visualEvidenceZh": [
+        "半抽出的手和票根一角",
+        "书包的局部和人物侧影",
+        "指尖与纸片接触的特写"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨声让触感更清晰"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "拧开保温杯想喝水，发现杯盖内侧凝结的水珠，正沿着一个特定的纹路缓慢地、完整地滑落。",
+      "hookWhyInterestingZh": "一个被重复了无数次的日常动作里，突然出现了一个微小的、完整的物理过程。",
+      "causalChainZh": [
+        "拿起杯子，拧开。",
+        "视线自然落在打开的杯盖内侧。",
+        "被一滴水的完整轨迹吸引，看了它滑落的全程。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "雨天温差可能加剧了冷凝现象。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "有点渴，动作带着目的性。",
+      "interiorShiftZh": "目的被一个无关的、完整的微小过程暂时取代了。",
+      "whyTodayZh": "外面的雨和杯盖里的雨，形成了一种不刻意对应的、安静的呼应。",
+      "whyShareableZh": "记录了一个被“劫持”的注意力瞬间，很私人，但画面感强。",
+      "visualEvidenceZh": [
+        "拿着杯盖的手部特写",
+        "杯盖内侧的水珠和反光",
+        "人物低头凝视的侧脸或上半身"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨的存在感以另一种形式出现在手边"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "从教室后门离开时，手扶在门框上，感觉到木头上一处被无数只手磨得异常光滑的凹陷。",
+      "hookWhyInterestingZh": "一个承载了集体无意识痕迹的物理细节，在独处的时刻被单独触摸到。",
+      "causalChainZh": [
+        "推门，手自然地扶在门框上。",
+        "掌心的触感与平时经过时略有不同。",
+        "停下，用指尖确认了一下那块光滑的区域。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "放学后的走廊，人少，触觉细节更突出。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "准备离开，思绪已经飘向接下来要做的事。",
+      "interiorShiftZh": "身体通过触觉接收到了一个关于“时间”和“经过”的微小证据。",
+      "whyTodayZh": "放学后人少安静，触觉代替了视觉成为主要的感知渠道。",
+      "whyShareableZh": "把一种模糊的集体感，落实到了一个非常具体的物理触点上。",
+      "visualEvidenceZh": [
+        "扶在门框上的手部特写",
+        "门框木纹的局部",
+        "人物站在门边的半身剪影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "走廊变淡的光线让细节更内收"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

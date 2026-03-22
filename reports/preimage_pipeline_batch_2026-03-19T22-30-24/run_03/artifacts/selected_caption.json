@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:34:59.103Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-34-06",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the scene's micro-purchase program with a fresh, publishable voice that avoids recent semantic fatigue. It grounds the 'shy attachment' in a concrete, tactile sensation ('纸杯在手里沉甸甸的') and transforms the object into a secret weight ('像把一小块安静的傍晚，稳妥地装进了口袋') without sounding overwritten or melodramatic. The tone is gentle, privately meaningful, and fits the 'light chunibyo' persona through a believable, daily-life metaphor, making it the strongest choice for a life_record post after a selfie streak.",
+  "caption": "十度的雨夜，需要一个具体的温暖。于是带回一杯热可可。纸杯在手里沉甸甸的，像把一小块安静的傍晚，稳妥地装进了口袋。",
+  "hashtags": [
+    "#日常暗号",
+    "#手心的温度",
+    "#微小的仪式感"
+  ],
+  "candidateAngle": "温柔重置",
+  "candidateRationale": "聚焦“具体温暖”与“装进口袋”的意象，让普通物件（纸杯）承载“一小块傍晚”的秘密重量，感觉私密且温柔。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best balances the scene's micro-purchase program with a fresh, publishable voice that avoids recent semantic fatigue. It grounds the 'shy attachment' in a concrete, tactile sensation ('纸杯在手里沉甸甸的') and transforms the object into a secret weight ('像把一小块安静的傍晚，稳妥地装进了口袋') without sounding overwritten or melodramatic. The tone is gentle, privately meaningful, and fits the 'light chunibyo' persona through a believable, daily-life metaphor, making it the strongest choice for a life_record post after a selfie streak.",
+    "strengths": [
+      "Concrete sensory detail (weight, temperature) anchors the emotional landing",
+      "Fresh metaphor ('一小块安静的傍晚') that feels private, not theatrical",
+      "Avoids repetitive '契约' or '通行证' framing from recent history",
+      "Fits the 'gentle_intention' and 'private ritual energy' tone perfectly",
+      "Publishable length and natural sentence flow for the platform"
+    ],
+    "risks": [
+      "Slightly less direct 'shy attachment' phrasing than candidate 03",
+      "Metaphor could be seen as subtle; requires a receptive audience",
+      "Hashtag set is slightly smaller but still covers core angles"
+    ]
+  }
+}

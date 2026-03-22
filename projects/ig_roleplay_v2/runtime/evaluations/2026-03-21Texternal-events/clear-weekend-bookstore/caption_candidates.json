@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "手指停在planner边缘的半秒。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体动作切入，省略主语"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_ritual",
+      "caption": "本来只是整理，却被一个细节轻轻定住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "轻微中二感的私人仪式感"
+    },
+    {
+      "id": "caption_04",
+      "angle": "ambient_resonance",
+      "caption": "被外界轻轻擦过，心里就停了一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "呼应环境影响的微妙感受"
+    },
+    {
+      "id": "caption_05",
+      "angle": "concrete_breath",
+      "caption": "一个很小的细节，让这段时间忽然有了形状。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "短句加稍长呼吸，赋予普通物件重量"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-15-51-clear_weekend_bookstore"
+}

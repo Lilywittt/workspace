@@ -1,0 +1,180 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:37:26.377Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-37-03",
+  "goal": "Write a short, intimate Instagram caption that turns a simple errand—buying a warm cup sleeve on a drizzly Shanghai evening—into a quiet, forward-looking ritual. The text should feel like a private note to herself, capturing the gentle, shyly intentional act of choosing and carrying a small comfort back into the night as a soft reset.",
+  "audienceFeeling": "a quiet, tender recognition of small comforts",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: micro_purchase_program.",
+    "Keep the location archetype and object binding legible: covered_walkway / warm cup sleeve.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Mostly short sentences with one occasional longer breath",
+    "Light chunibyo flavor—intimate, not performative",
+    "Gentle, private ritual energy, like a note to a future self",
+    "Focus on small actions, textures, light, and sound over big emotions",
+    "Allow the cup sleeve to briefly feel like a personal, faintly symbolic object",
+    "Start with a sensory detail from the damp, cool evening",
+    "Mention the small need or impulse that prompted the walk",
+    "Describe the act of choosing the cup sleeve with quiet focus",
+    "The faint crinkle of paper and the cool, damp air under the covered walkway",
+    "Hands: one holding the small paper bag, the other brushing damp hair",
+    "The vendor's warm counter light on wet pavement",
+    "Tucking the cup sleeve away like a small, forward-looking secret",
+    "A soft, trailing sentence ending that feels like a light exhale"
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly late evening, a short errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing and paying for a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the damp night as a private promise of a gentle reset.",
+    "microPlot": [
+      "The cool evening and a need for a small reset prompt a short walk to a sheltered vendor.",
+      "She carefully chooses a warm cup sleeve, completes the tiny purchase, and tucks it into her bag.",
+      "Carrying the small comfort back into the drizzle feels like holding a quiet, forward-looking secret."
+    ],
+    "sensoryFocus": "the faint crinkle of paper and the cool, damp air under the covered walkway",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "warm cup sleeve"
+      ],
+      "actionKernel": "choose_pay_carry_back",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 22,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "shyly intentional"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A shy, intentional purchase of a warm cup sleeve on a damp night becomes a quiet ritual of self-care and a soft promise for tomorrow.",
+    "hashtagAngles": [
+      "late evening walks",
+      "Shanghai drizzle",
+      "small comforts",
+      "private rituals",
+      "gentle reset",
+      "daily details"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial or promotional language",
+    "A fixed, slogan-like closing line",
+    "Exaggerated, theatrical chunibyo or world-building",
+    "Turning the moment into a grand fateful declaration",
+    "Disclosing AI or meta-commentary"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

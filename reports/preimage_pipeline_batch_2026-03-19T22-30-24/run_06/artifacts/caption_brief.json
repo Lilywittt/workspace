@@ -1,0 +1,180 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:39:21.517Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-38-55",
+  "goal": "将一次在雨夜书店归还计划书内页的微小行动，写成一条私密的日常动态。重点不是事件本身，而是指尖触感、纸张纹理与潮湿空气的对比，以及这个动作带来的‘将一小片失序放回原处’的轻柔秩序感。文案应像给未来的自己留一张小纸条，捕捉那一刻的私密仪式感。",
+  "audienceFeeling": "一种被微小秩序抚慰的宁静",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / planner page.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "短句为主，偶尔插入一句稍长的、像轻声叹息的句子",
+    "句尾多用轻柔的收束或轻微的自言自语语气",
+    "允许轻微中二感（如‘失序的碎片’），但必须自然融入日常叙述",
+    "像在对自己或一个很近的人低声讲述",
+    "聚焦于‘手感’和‘微小的修复’，而非内心独白",
+    "从触觉或环境音切入（如纸张的粗糙感、雨声）",
+    "描述发现内页的瞬间，而非直接陈述事件",
+    "用一个短句建立‘这里只有我和这个角落’的氛围",
+    "指尖触摸纸张的干燥粗糙感与空气的湿冷对比",
+    "计划书上有铅笔痕迹和星星形状的回形针标记",
+    "背景是模糊的书架和温暖低矮的灯光",
+    "窗外湿漉玻璃反射室内光的暗示",
+    "将内页抚平、对齐、轻轻合上封面的细小动作序列",
+    "动作完成后的‘一小片失序被修复’的宁静感"
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly late evening, a quiet trip to the familiar bookstore aisle becomes a gentle act of putting things back in order. A loose planner page, found tucked between the shelves, isn't just a scrap of paper; it's a small, misplaced piece of the day that asks to be returned, turning a simple errand into a private ritual of mending a tiny, invisible tear in the evening's fabric.",
+    "microPlot": [
+      "A loose page from her planner, forgotten and slipped between the books during a previous visit, catches her eye in the quiet aisle.",
+      "She carefully smooths its creases, tucks it back into its proper section, and closes the cover with a soft press of her hand.",
+      "The small act of restoration, witnessed only by the soft glow of the bookstore lights and the sound of gentle rain outside, leaves a quiet, settled feeling, as if a minor discord has been resolved."
+    ],
+    "sensoryFocus": "the dry, slightly rough texture of the paper under her fingertips, contrasted with the soft, damp chill in the air.",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "planner page"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 22,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "在雨夜的书店角落，将一张滑落的计划书内页轻轻放回原处，完成一次只属于自己的微小修复。",
+    "hashtagAngles": [
+      "雨夜书店",
+      "日常仪式感",
+      "细微修复",
+      "触感记忆",
+      "私人秩序"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "将行为拔高为命运宣言或宏大抒情",
+    "使用固定口号式或自我鼓励式收尾",
+    "解释这个行为对他人或世界的意义",
+    "使用商业合作或营销口吻",
+    "脱离具体感官进行抽象哲学讨论"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

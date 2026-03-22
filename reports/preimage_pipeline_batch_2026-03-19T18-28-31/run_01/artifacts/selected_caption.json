@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:29:50.202Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-28-59",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required daily-life texture with the light, private symbolism requested by the brief. It opens with a sensory weather detail ('雨让夜晚变得很软') that naturally incorporates the daily variable, then moves concretely to the notebook and hairclip, using precise tactile description ('凉凉的，滑滑的') to ground the moment before the gentle, wishful turn ('忽然希望明天也能被这样轻轻按住'). It avoids theatrical fantasy, feels like a natural, whispered thought, and its structure—from external scene to intimate object to personal feeling—cleanly executes the micro-plot while maintaining a publishable, relatable tone.",
+  "caption": "雨让夜晚变得很软。\n翻开的笔记本，页角有点毛了，一枚红色发夹静静地压着字迹。\n摸了摸它，凉凉的，滑滑的——忽然希望明天也能被这样轻轻按住，不要散掉。\n10.4度的空气里，有一点纸的暖香。",
+  "hashtags": [
+    "#生活碎片",
+    "#上海日常",
+    "#书桌仪式感",
+    "#感官记录"
+  ],
+  "candidateAngle": "感官切片",
+  "candidateRationale": "从天气和触觉切入，将‘按住’的触感延伸为对明天的私密愿望，具体提到了温度（10.4度）和气味（纸香），营造细腻的日常切片感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best balances the required daily-life texture with the light, private symbolism requested by the brief. It opens with a sensory weather detail ('雨让夜晚变得很软') that naturally incorporates the daily variable, then moves concretely to the notebook and hairclip, using precise tactile description ('凉凉的，滑滑的') to ground the moment before the gentle, wishful turn ('忽然希望明天也能被这样轻轻按住'). It avoids theatrical fantasy, feels like a natural, whispered thought, and its structure—from external scene to intimate object to personal feeling—cleanly executes the micro-plot while maintaining a publishable, relatable tone.",
+    "strengths": [
+      "Strong sensory weave: integrates weather, touch, temperature, and smell organically.",
+      "Private wish feels earned and human-scale, not overwritten.",
+      "Flows naturally from observation to feeling, executing the micro-plot clearly.",
+      "Avoids recent opening patterns and fixed slogan endings."
+    ],
+    "risks": [
+      "Slightly more abstract than Candidate 01's '封印' metaphor.",
+      "The wish ('不要散掉') could be read as mildly anxious versus purely contemplative."
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "洇湿的纸巾边缘，晕开了一小片模糊的蓝。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体细节切入，不解释来源"
+    },
+    {
+      "id": "caption_03",
+      "angle": "action_pause",
+      "caption": "本来要丢掉的，动作却停住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "聚焦于动作的停顿，暗示内心变化"
+    },
+    {
+      "id": "caption_04",
+      "angle": "private_metaphor",
+      "caption": "像钢笔漏墨，又像天空掉下来的一角。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "使用轻微中二的比喻，保留私人联想"
+    },
+    {
+      "id": "caption_05",
+      "angle": "ambient_quiet",
+      "caption": "雨声里，一小片蓝色变得可以注视。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将环境与细节结合，营造安静氛围"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

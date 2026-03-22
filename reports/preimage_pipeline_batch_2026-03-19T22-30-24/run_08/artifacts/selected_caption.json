@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:43:46.601Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-42-27",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate ai_cand_01 most cleanly executes the scene's 'return_or_repair' program and required micro-plot, moving from discovery to action to the 'gentle_order' emotional landing with efficient, publishable prose. It integrates the weather as a soft texture modifier without letting it dominate, avoids the slight exposition of 'future note' and the potentially overthought 'need' statement of 'paper whisper', and delivers a quiet, forward-looking ritual that feels like a natural, intimate life-record post after a selfie streak.",
+  "caption": "在书店角落发现一张卷了边的便签，上面有陌生人模糊的铅笔字。把它抚平，夹回最近的小说里。窗外的雨声很轻，像在配合这个微小的、向前的仪式。世界又悄悄归位了一点点。",
+  "hashtags": [
+    "#书店时光",
+    "#微小修复",
+    "#春雨",
+    "#私密仪式",
+    "#生活秩序"
+  ],
+  "candidateAngle": "quiet loop",
+  "candidateRationale": "聚焦于发现、修复、归还的完整微情节，将小雨作为氛围而非主角，落脚于‘归位’的轻柔秩序感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "Candidate ai_cand_01 most cleanly executes the scene's 'return_or_repair' program and required micro-plot, moving from discovery to action to the 'gentle_order' emotional landing with efficient, publishable prose. It integrates the weather as a soft texture modifier without letting it dominate, avoids the slight exposition of 'future note' and the potentially overthought 'need' statement of 'paper whisper', and delivers a quiet, forward-looking ritual that feels like a natural, intimate life-record post after a selfie streak.",
+    "strengths": [
+      "Clear, complete micro-plot (find, smooth, return) that matches the action kernel.",
+      "Landing ('世界又悄悄归位了一点点') perfectly captures 'gentle_order' without being a fixed slogan.",
+      "Weather is present as atmosphere ('窗外的雨声很轻') but doesn't overshadow the core action.",
+      "Prose is concise, gentle, and feels like a private note with a light chunibyo touch in the final observation.",
+      "Hashtags are fresh and support the scene's unique angles (e.g., #微小修复, #私密仪式)."
+    ],
+    "risks": [
+      "The phrase '向前的仪式' is slightly abstract, but it's grounded by the concrete action that precedes it.",
+      "Slight semantic proximity to recent 'quiet completion' landings, though '归位' offers a distinct forward-looking nuance."
+    ]
+  }
+}

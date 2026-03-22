@@ -1,0 +1,49 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain",
+  "mustShowZh": [
+    "深色木椅的纹理",
+    "嵌在缝隙里的蓝色粉笔头",
+    "搭在椅背上的书包带子"
+  ],
+  "mustShowEn": [
+    "texture of dark wooden chair back",
+    "small broken blue chalk piece embedded in wood grain",
+    "school bag strap draped over the chair back"
+  ],
+  "mayShowZh": [
+    "手指或袖口边缘",
+    "一小缕头发或红色发夹的暗示",
+    "教室后排的模糊背景"
+  ],
+  "mayShowEn": [
+    "fingers or edge of sleeve touching the chair",
+    "hint of hair or the small red hairclip",
+    "blurred background of classroom back row"
+  ],
+  "mustAvoidZh": [
+    "时尚杂志般的抛光感",
+    "空荡的风景壁纸",
+    "将瞬间重写成人物互动",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look",
+    "advertisement feeling"
+  ],
+  "mustAvoidEn": [
+    "fashion editorial polish",
+    "empty scenic wallpaper",
+    "rewriting the moment into a person interacting"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "璃音发现教室椅背木纹里嵌着一小截蓝色粉笔头的瞬间",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:50.772Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the life_record lane's pivot from selfies by fully immersing in the sensory and intimate scene. It directly incorporates the required sensory detail ('撕下背胶时那一声细微的“嘶啦”') and daily variable ('雨后的夜晚'), weaves a complete micro-plot from cause to feeling, and naturally integrates the catchphrase. Its tone is gentle, focused, and diary-like, avoiding commercial language while maintaining a light chunibyo sensibility through its quiet observation.",
+  "strengths": [
+    "Strong sensory immersion aligns perfectly with the brief's focus",
+    "Naturally integrates the required catchphrase as a closing thought",
+    "Provides a complete, quiet micro-plot from setting to action to reflection",
+    "Uses fresh, lane-appropriate hashtags that avoid recent overuse"
+  ],
+  "risks": [
+    "Opening line about quiet rain could feel slightly similar to recent '窗外的小雨' posts, though the context is distinct",
+    "Slightly less overtly playful than other options, leaning more into gentle focus"
+  ],
+  "errorMessage": ""
+}

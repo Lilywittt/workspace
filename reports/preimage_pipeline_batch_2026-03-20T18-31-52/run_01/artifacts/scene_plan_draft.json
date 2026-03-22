@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:32:45.641Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly early evening, a small errand to a quiet bookstore aisle becomes a gentle act of restoration. Repairing a borrowed mechanical pencil isn't just a task; it's a tiny, forward-looking ritual of putting a small thing back in order, a quiet promise to the day that even borrowed objects deserve a little care before they're returned.",
+  "microPlot": [
+    "Noticing the borrowed pencil's worn-down lead and loose clip feels like finding a tiny, shared secret.",
+    "Carefully tightening the clip and sharpening the lead in the store's quiet corner turns a simple repair into a focused, intimate gesture.",
+    "Placing it back on the shelf feels like closing a small, perfect loop, leaving the space just a little more ordered than she found it."
+  ],
+  "sensoryFocus": "the faint, woody scent of old paper and the precise, metallic click of a pencil clip snapping shut",
+  "sceneNotes": [
+    "Hands in frame, focused on the small mechanical task against the soft blur of book spines.",
+    "The cool, damp air from outside seeping in, making the indoor warmth feel like a gentle shelter.",
+    "A single drop of water tracing a slow path down the windowpane nearby, marking time."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of fixing a small, borrowed thing."
+  ],
+  "summary": "A quiet bookstore errand becomes a gentle ritual of repair and return, turning a borrowed pencil into a tiny vessel for order and care.",
+  "errorMessage": ""
+}

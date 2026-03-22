@@ -1,0 +1,137 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:46:26.297Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-45-34",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "In the late evening, after a long day, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the cool, drizzly night as a private promise of a gentle reset.",
+    "microPlot": [
+      "A long day leaves her feeling low, needing a small reset.",
+      "She steps out to a covered walkway, chooses and pays for a simple mug of cocoa.",
+      "Carrying the small warmth back feels like a shy, private promise to her future self."
+    ],
+    "sensoryFocus": "the soft clink of a ceramic mug being placed on a counter",
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "mug of cocoa"
+      ],
+      "actionKernel": "choose_pay_carry_back",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ]
+    },
+    "selectedCaptionOpening": "在连廊下买了一杯可可。",
+    "selectedCaptionSummary": "在连廊下买了一杯可可。 瓷杯放在柜台上的轻响，像给今天按下的一个句点。 然后带着这点小小的、羞怯的温暖，走回雨里。",
+    "candidateAngle": "微小的救赎"
+  },
+  "semanticBindings": {
+    "sceneProgramId": "micro_purchase_program",
+    "locationArchetype": "covered_walkway",
+    "locationCluster": "shelter_pause",
+    "objectFamily": "comfort_item",
+    "objectBindings": [
+      "mug of cocoa"
+    ],
+    "actionKernel": "choose_pay_carry_back",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "shy_attachment",
+    "presencePolicy": "partial_presence"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "partial_presence",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"在连廊下买了一杯可可。\"",
+    "Scene program: micro_purchase_program",
+    "Location archetype: covered_walkway",
+    "Object bindings: mug of cocoa",
+    "Weather role: texture_modifier",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the soft clink of a ceramic mug being placed on a counter",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Focus on hands and the small object; the mug held carefully | Light from the shop counter casting a warm, intimate glow on the transaction | The covered walkway providing shelter, with the soft sound of light rain just beyond | Scene location archetype: covered walkway | Object focus: mug of cocoa | choose mug of cocoa",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: partial_presence",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "counter light",
+    "shopping bag detail",
+    "small object prominence",
+    "small purchase as a private rescue",
+    "carrying a tiny comfort back with her",
+    "Frame to show partial presence with focus on hands or object interaction",
+    "Use natural, soft lighting to match late_evening mood",
+    "Avoid cluttered backgrounds; keep scene simple and intimate",
+    "Focus on hands and the small object; the mug held carefully.",
+    "Light from the shop counter casting a warm, intimate glow on the transaction.",
+    "The covered walkway providing shelter, with the soft sound of light rain just beyond.",
+    "Presence mode: partial_presence.",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

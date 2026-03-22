@@ -1,0 +1,68 @@
+{
+  "candidateId": "event_03",
+  "lane": "life_record",
+  "eventSummaryZh": "想把发夹重新别好，指尖却摸到金属背面不知何时沾上的一点点橡皮屑。",
+  "hookWhyInterestingZh": "身体佩戴物上积累的、未被察觉的微小‘携带物’。",
+  "causalChainZh": [
+    "感到头发有些松散，下意识去调整发夹。",
+    "指尖在熟悉的金属触感中碰到一点异常的碎屑。",
+    "取下来看，是细小的、已经压扁的粉色橡皮屑。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "identity_stability"
+    ],
+    "inferredDetailsZh": [
+      "发夹是日常佩戴物，容易在活动中沾上环境里的碎屑。",
+      "触觉在安静时刻变得敏感。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "有点心不在焉，动作全凭习惯。",
+  "interiorShiftZh": "触感上的微小异物带来一瞬的困惑，随即转化为一种‘原来它一直在这里’的淡淡察觉。",
+  "whyTodayZh": "整体平缓的节奏让这种细微的触觉差异变得突出。",
+  "whyShareableZh": "非常私人和具体的身体感体验，连接了物品、身体和未被注意的时间。",
+  "visualEvidenceZh": [
+    "指尖捏着取下的红色发夹，特写背面的橡皮屑",
+    "另一只手轻轻拢着头发的动作",
+    "可能映出窗外雨光的镜子一角"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "‘角落变得安静’的氛围，让对自身佩戴物的感知更向内收。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T15:44:29.650Z",
+  "review": {
+    "candidateId": "event_03",
+    "personaTruthScore": 88,
+    "groundingScore": 85,
+    "postabilityScore": 82,
+    "coherenceScore": 85,
+    "characterPresenceFitScore": 90,
+    "sourceMirroringRiskScore": 10,
+    "strengthsZh": [
+      "触发极其具体、私密（发夹上的橡皮屑），顽固地平凡",
+      "完美结合身份锚点（红色发夹）与日常发现",
+      "同一时刻可自然支撑从痕迹特写到半身/清晰面容的构图，满足‘clear_character_presence’目标",
+      "触觉细节引发情感转变，因果关系强"
+    ],
+    "risksZh": [
+      "需注意橡皮屑的特写不能喧宾夺主，需保持主角存在感"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

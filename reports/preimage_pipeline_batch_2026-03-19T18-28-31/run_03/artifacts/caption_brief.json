@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:31:41.737Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-31-25",
+  "goal": "Write a caption that captures a quiet, post-study moment where untangling earbuds becomes a small, focused ritual. Convey the gentle, tactile satisfaction of the task and the shift from mental clutter to calm, using light chunibyo flavor to hint at private meaning without theatricality.",
+  "audienceFeeling": "A soft, relatable sense of quiet focus and minor catharsis.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Short sentences with one occasional longer, breath-like phrase.",
+    "Soft, trailing endings or gentle self-address.",
+    "Light chunibyo tone: intimate, not performative.",
+    "Like leaving a private note for oneself or a future self.",
+    "Start with a simple observation of the scene or object.",
+    "Mention the transition from studying to this small manual task.",
+    "Use a sensory detail (like sound or touch) to ground the moment.",
+    "The micro-plot: studying ended, earbuds tangled, untangling them.",
+    "A sensory detail: the faint plastic squeak of wires separating.",
+    "A daily variable: the light rain and cool Shanghai evening outside.",
+    "One ordinary object (the earbuds or hairclip) treated with a hint of private, symbolic weight."
+  ],
+  "contentBlocks": {
+    "premise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+    "microPlot": [
+      "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+      "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+      "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+    ],
+    "sensoryFocus": "the faint plastic squeak of wires being separated",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle life-record caption about untangling earbuds as a quiet, settling ritual after studying, blending daily texture with light, intimate chunibyo.",
+    "hashtagAngles": [
+      "#上海日常",
+      "#解压小仪式",
+      "##耳机线整理",
+      "#雨夜独处",
+      "#生活碎片"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial or promotional language.",
+    "Fixed slogan endings or repeated signature phrases.",
+    "Grand, theatrical declarations or world-building lore.",
+    "Explicitly explaining the 'secret meaning' of the ritual."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

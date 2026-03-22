@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:49:59.359Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift to an outdoor or transit-adjacent location to break indoor cluster fatigue",
+    "Focus on a non-purchase, non-repair action kernel like 'observe_share_leave' or 'pause_absorb_release'"
+  ],
+  "avoidMotifs": [
+    "Avoid bookstore_aisle and covered_walkway locations",
+    "Avoid comfort_item and stationery object families"
+  ],
+  "narrativeNudges": [
+    "Let the object be something found or briefly shared, not bought or fixed",
+    "Lean into 'tiny_reset' emotional landing but with a slightly more outward, observational tone"
+  ],
+  "captionAdvice": [
+    "Use a soft observation ending, not an unknown or self-encouragement closure",
+    "Mention a small, fleeting detail of the environment (sound, light, texture) to anchor the moment"
+  ],
+  "imageAdvice": [
+    "Prioritize 'wide_scene_with_character_trace' presence mode to show environment context",
+    "Frame to include a hint of movement or transition, not a static shelter pause"
+  ],
+  "summary": "Switch lanes to life_record with an outdoor, observational scene that breaks the indoor purchase/repair cycle while maintaining gentle, detail-sensitive intimacy.",
+  "errorMessage": ""
+}

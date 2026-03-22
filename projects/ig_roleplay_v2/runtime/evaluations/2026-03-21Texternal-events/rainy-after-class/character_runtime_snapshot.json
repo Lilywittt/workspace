@@ -1,0 +1,45 @@
+{
+  "currentState": {
+    "energy": "low_medium",
+    "mood": "被雨声轻轻包裹，有一点想停下来的安静",
+    "attentionStyle": "detail_seeking",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "让一个瞬间变得可以触摸"
+    ],
+    "activeDesires": [
+      "不要解释，只是让一个细节自己说话"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨让一个普通的角落变得不一样了，想悄悄记住。",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "雨声的细密感",
+      "放学后走廊的空荡"
+    ],
+    "weakPullsZh": [
+      "雨天让人想整理东西的氛围",
+      "角落的安静感"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics",
+      "anime_fandom"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "雨天放学后的安静是背景，不是主题。",
+    "瞬间的牵引感来自一个具体的、被雨改变的小物件或角落。"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

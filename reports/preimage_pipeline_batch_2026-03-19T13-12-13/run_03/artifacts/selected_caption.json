@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:16:02.927Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best balances the required elements of the scene plan and brief. It opens with a strong, sensory-driven cause ('雨声把世界调成了静音'), clearly executes the action of arranging objects, and concludes with a feeling that subtly integrates the character's catchphrase ('也明亮地存在一会儿吧'). It delivers the 'private ritual energy' with a gentle, non-commercial tone, avoids the recent '窗外的小雨...' opening, and its hashtag selection effectively supports the lane shift to life_record.",
+  "caption": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\n一枚光滑的石头，一张褪色的票根，一只落单的耳环。\n指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。\n今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+  "hashtags": [
+    "#小雨的仪式感",
+    "#被遗忘的小东西",
+    "#安静下午",
+    "#日常收藏"
+  ],
+  "candidateAngle": "雨声作伴的整理",
+  "candidateRationale": "以雨声静音为引，聚焦触觉与物品的暂停感，结尾呼应角色口头禅，营造静谧的仪式感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best balances the required elements of the scene plan and brief. It opens with a strong, sensory-driven cause ('雨声把世界调成了静音'), clearly executes the action of arranging objects, and concludes with a feeling that subtly integrates the character's catchphrase ('也明亮地存在一会儿吧'). It delivers the 'private ritual energy' with a gentle, non-commercial tone, avoids the recent '窗外的小雨...' opening, and its hashtag selection effectively supports the lane shift to life_record.",
+    "strengths": [
+      "Strong micro-plot structure with clear cause, action, feeling.",
+      "Excellent sensory grounding in sound and touch.",
+      "Integrates the daily variable (rain) naturally without dominating.",
+      "Ends with a soft, reflective note that echoes the catchphrase.",
+      "Avoids duplicate openings from recent history."
+    ],
+    "risks": [
+      "Slightly abstract phrase '被按了暂停的时光' could feel faintly overwritten.",
+      "Hashtag '#被遗忘的小东西' is used by two candidates, reducing novelty."
+    ]
+  }
+}

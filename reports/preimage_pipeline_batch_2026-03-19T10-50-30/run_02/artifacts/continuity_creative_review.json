@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:52:02.738Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on objects, food, or environment instead of face",
+    "Show a small action or task in progress"
+  ],
+  "avoidMotifs": [
+    "Starting captions with weather observations",
+    "Using #上海, #日常, #自拍, #小确幸 hashtags"
+  ],
+  "narrativeNudges": [
+    "Shift from observing to doing—show a hand completing a simple task"
+  ],
+  "captionAdvice": [
+    "Use a caption that describes a brief moment of action or discovery",
+    "Mention a specific object or sound instead of general mood"
+  ],
+  "imageAdvice": [
+    "Frame from a new angle (e.g., overhead, close-up on hands)",
+    "Include a prop like a book, mug, or plant to add context"
+  ],
+  "summary": "Maintain the intimate diary feel but pivot from selfies to hands-on moments to refresh the visual narrative.",
+  "errorMessage": ""
+}

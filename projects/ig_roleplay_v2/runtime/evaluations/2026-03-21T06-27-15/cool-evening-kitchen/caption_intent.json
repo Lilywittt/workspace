@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "只留下那个瞬间带来的轻微变化",
+  "whatToSayZh": "说具体细节，不解释全部原因",
+  "whatToLeaveUnsaidZh": "私人意味保留在留白里",
+  "openingMovesZh": [
+    "从一个细节开始"
+  ],
+  "hashtagAnglesZh": [
+    "日常切片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

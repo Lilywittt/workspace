@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:24.004Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption best fulfills the brief by weaving the sensory detail of the cool hairclip with a light chunibyo metaphor ('a small, quiet period'), directly executes the micro-plot from closing the book to the discovery, and cleanly integrates the character's catchphrase as a natural, uplifting conclusion. It feels the most complete and publishable, balancing private ritual energy with daily-life texture without overcomplication.",
+  "strengths": [
+    "Strong sensory integration with tactile detail and poetic simile",
+    "Clear narrative arc from study end to discovery to feeling",
+    "Seamlessly incorporates the required character catchphrase",
+    "Tone is gently reflective with perfect light chunibyo weight"
+  ],
+  "risks": [
+    "Metaphor ('shape of silence') could feel slightly abstract to some",
+    "Slightly less explicit weather integration than candidate 02"
+  ],
+  "errorMessage": ""
+}

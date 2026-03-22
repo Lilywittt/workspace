@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:26:08.327Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-24-02-rainy_after_class",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/8a/20260321/448165f2/86e615d9-1418-4361-9c74-3367df32fecb1787383087.png?Expires=1774694559&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=KhyrfyfgyZtlYFVA69dqOxh5hiY%3D",
+  "altText": "Tsukimi Rion 在走廊窗边发现纸巾上被雨水洇开的蓝色痕迹。",
+  "releaseStage": "image_ready",
+  "captionChars": 25,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

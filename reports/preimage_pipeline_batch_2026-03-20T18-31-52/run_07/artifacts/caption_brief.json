@@ -1,0 +1,177 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:41:23.892Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-41-05",
+  "goal": "将归还和修复一支自动铅笔的微小情节，转化为一条私密的、带有轻微中二感的日常动态。文案需聚焦于手部动作、铅笔的精确声响和雨天书店的氛围，让这个微小修复成为一种为未来自己留下的、带有隐秘意义的日常仪式。",
+  "audienceFeeling": "一种安静的、被微小秩序抚慰的共鸣",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / mechanical pencil.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "短句为主，偶尔穿插一口稍长的呼吸（描述感受或环境）",
+    "允许轻微中二，但必须像真实少女的私密碎念",
+    "使用轻柔的句尾语气，如轻微叹息或对自己说话的感觉",
+    "整体像给未来自己留的一张便条，而非公开表演",
+    "从触觉或声音开始（例如：指尖的触感，咔哒声）",
+    "描述一个具体的、正在进行的小动作",
+    "引入环境背景（小雨，傍晚，书店一角）",
+    "修复铅笔的具体动作（如：小心地扳直笔尖套管）",
+    "铅笔按钮发出的“咔哒”声",
+    "雨天傍晚在书店的感官细节（纸木气味，窗上雨痕，阅读灯光）",
+    "一个赋予普通物件（铅笔）短暂私人意义的瞬间",
+    "一种“为某件小事画上句号”的轻微满足感"
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly early evening, a small errand to a familiar bookstore becomes a quiet act of restoration. Fixing a borrowed mechanical pencil isn't just about the object; it's a tiny, forward-looking ritual of putting a small thing back in order, a private gesture of gentle care that closes a quiet loop in the day.",
+    "microPlot": [
+      "A borrowed mechanical pencil, its lead sleeve slightly bent, sits forgotten in a pocket.",
+      "In a quiet corner of the bookstore, she carefully straightens the sleeve, testing the click of the lead.",
+      "A small, quiet satisfaction settles in, like the day has mended a tiny, unnoticed tear."
+    ],
+    "sensoryFocus": "the precise click of a mechanical pencil's button",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "mechanical pencil"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 18,
+        "daypart": "early_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "medium_low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "一个少女在雨天的书店角落，通过修复一支借来的自动铅笔，完成了一次为内心带来轻微秩序的私密仪式。",
+    "hashtagAngles": [
+      "日常修复学",
+      "雨天书店时刻",
+      "微小秩序",
+      "器物私语",
+      "上海傍晚"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "将修复行为拔高为命运或宏大宣言",
+    "使用固定口号或自我鼓励式收尾",
+    "解释这个行为对他人或世界的意义",
+    "脱离具体动作和感官的纯抒情"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

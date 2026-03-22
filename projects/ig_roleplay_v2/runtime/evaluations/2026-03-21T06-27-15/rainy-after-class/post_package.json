@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:34:27.864Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-32-30-rainy_after_class",
+  "lane": "life_record",
+  "caption": "书包夹层里，去年的今天。",
+  "hashtags": [
+    "#日常切片"
+  ],
+  "fullCaptionText": "书包夹层里，去年的今天。\n#日常切片",
+  "captionSource": {
+    "selectedCandidateId": "caption_02",
+    "selectionReason": "这一条最像角色会真的发出来的话。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "b4ddb346-9ea2-44a5-a9c2-2a20a528157f",
+    "altText": "璃音收拾书包时，发现夹层里一张去年的电影票根。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/9e/20260321/448165f2/b4ddb346-9ea2-44a5-a9c2-2a20a528157f1945130941.png?Expires=1774680662&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=WpKSOIVfael3Q%2Bz%2F5lXTyWAYVf8%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T06-34-23-aliyun-z-image.png",
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ]
+  }
+}

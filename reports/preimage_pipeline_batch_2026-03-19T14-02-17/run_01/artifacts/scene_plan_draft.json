@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:02:44.959Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "A quiet moment after studying, where the soft sound of rain outside makes the silence inside feel like a small, private room. The character notices a forgotten pencil, its tip worn down from the morning's work, and for a second it feels like a tiny monument to the effort.",
+  "microPlot": [
+    "The soft, steady sound of rain outside makes the room feel hushed and separate.",
+    "She picks up a pencil left on the desk, its tip blunted from the morning's notes.",
+    "A quiet, satisfied feeling settles in, like the day has left a small, tangible mark."
+  ],
+  "sensoryFocus": "the faint, dry rasp of graphite on paper pad",
+  "sceneNotes": [
+    "Hand holding a worn-down pencil, resting on an open notebook.",
+    "Soft, grey window light catching the edge of the pencil's eraser.",
+    "Blurred background of a desk with a closed laptop and a half-empty water glass."
+  ],
+  "tone": [
+    "gentle",
+    "contemplative"
+  ],
+  "captionFocus": [
+    "A short observation about the weight of a used-up pencil."
+  ],
+  "summary": "A life_record of a worn pencil, turning a study break into a quiet ritual of noticing.",
+  "errorMessage": ""
+}

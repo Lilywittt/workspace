@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:01:11.216Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a long day of studying, she's finally taking a moment for herself, curled up in a cozy corner of her room with a warm drink, letting the soft glow of a desk lamp and the quiet patter of rain outside create a private, comforting world.",
+  "microPlot": [
+    "The last textbook is closed, and the mental fatigue from hours of review settles in.",
+    "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows.",
+    "A deep, contented sigh escapes as she feels the day's tension melt away, replaced by a quiet, earned peace."
+  ],
+  "sensoryFocus": "warm lamplight on hands, soft blanket texture, faint scent of tea",
+  "sceneNotes": [
+    "Character trace: her small red hairclip resting on the edge of a closed notebook.",
+    "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur.",
+    "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window.",
+    "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session."
+  ],
+  "tone": [
+    "cozy"
+  ],
+  "captionFocus": [
+    "Reflecting on the quiet satisfaction of finishing a task and rewarding oneself."
+  ],
+  "summary": "A cozy, intimate evening scene where she transitions from studying to a warm, private moment of rest.",
+  "errorMessage": ""
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:35:54.598Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly early evening, a small, torn page from a planner is found tucked between books in a quiet bookstore aisle. The act of carefully smoothing its crease and slipping it back into its proper place becomes a tiny, forward-looking ritual—a quiet promise to tomorrow, made with gentle hands.",
+  "microPlot": [
+    "A loose planner page, its corner torn and ink smudged from the damp air, is discovered among the secondhand novels.",
+    "With careful, deliberate fingers, she smooths the page flat against a book's cover, aligning its edges as if setting a small thing right.",
+    "A quiet, satisfied warmth settles in her chest, a feeling of gentle order restored in the soft, rainy light."
+  ],
+  "sensoryFocus": "the faint, dry rustle of paper under fingertips",
+  "sceneNotes": [
+    "Hands in frame, one holding the page flat, the other gently smoothing a crease.",
+    "The soft, diffused light from a nearby window catching the slight sheen of damp on the page's edge.",
+    "A shallow depth of field, blurring the colorful spines of the surrounding books into a soft, textured backdrop."
+  ],
+  "tone": [
+    "gentle_intention"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of putting a small, lost thing back where it belongs."
+  ],
+  "summary": "A torn planner page found in a bookstore becomes the focus of a shy, restorative act, turning a simple repair into a private promise carried into the drizzly evening.",
+  "errorMessage": ""
+}

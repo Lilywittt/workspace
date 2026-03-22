@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:32:10.271Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-31-25",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This caption best balances the required daily-life texture with the light chunibyo tone, using '结界' to create a private, intimate ritual space without theatricality. It directly incorporates the sensory detail (static noise) and daily variable (10.4°C air), and its focus on 'a very specific quiet' perfectly captures the contemplative, post-study mood while feeling fresh and publishable.",
+  "strengths": [
+    "Strong 'private ritual' energy with a subtle, fitting chunibyo metaphor ('结界')",
+    "Integrates sensory detail (static) and daily variable (temperature) naturally",
+    "Focuses on the 'specific quiet' of the action, matching the scene's contemplative tone",
+    "Avoids repetitive openings and feels distinct from recent selfie posts"
+  ],
+  "risks": [
+    "The term '结界' might be slightly niche, though it fits the persona's light chunibyo style",
+    "Slightly more abstract than the other options, but remains grounded in the concrete action"
+  ],
+  "errorMessage": ""
+}

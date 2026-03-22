@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:41:45.393Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-41-27",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to oneself, capturing the quiet ritual of finding and returning a stray sticky note in a rainy evening bookstore. It should focus on the small sensory details—the feel of the paper, the dusty light, the sound of rain—and let the act of smoothing its corner carry a faint, personal meaning about gentle order and closing tiny loops.",
+  "audienceFeeling": "A soft, intimate recognition of finding quiet meaning in small, everyday repairs.",
+  "openingMoves": [
+    "Start with the hands-on discovery of the object.",
+    "Anchor in the specific weather and time of day.",
+    "Use a short, sensory phrase to draw focus inward."
+  ],
+  "mustInclude": [
+    "The tactile detail: the soft rasp of paper under a thumb.",
+    "The location: a Shanghai bookstore aisle in 小雨, late evening.",
+    "The action: smoothing the curled corner and placing it back.",
+    "A light chunibyo touch—treating the sticky note as a small, private omen or loop closed.",
+    "The feeling of the day settling, like a tiny knot undone."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "Overly poetic or grandiose declarations.",
+    "Fixed slogan or repeated signature endings.",
+    "Explaining the 'secret meaning' outright—keep it implied.",
+    "Dialogue or lore exposition."
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath.",
+    "Soft, trailing endings—like a gentle exhale or self-address.",
+    "Light chunibyo flavor: intimate, not theatrical.",
+    "As if leaving a note for future self on a private story.",
+    "Youthful, sensitive, but grounded in daily texture."
+  ],
+  "hashtagAngles": [
+    "#上海书店 #小雨夜 #日常修复仪式",
+    "#轻中二日常 #细小仪式感",
+    "#便条纸的温柔 #角落整理",
+    "#生活记录 #私密动态"
+  ],
+  "summary": "A quiet, late-evening moment in a Shanghai bookstore where smoothing a stray sticky note becomes a gentle, private ritual of order, shared as an intimate, sensory-rich caption.",
+  "errorMessage": ""
+}

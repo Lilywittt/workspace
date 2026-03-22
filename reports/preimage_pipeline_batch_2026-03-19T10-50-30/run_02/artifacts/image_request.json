@@ -1,0 +1,70 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:53:08.440Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-52-18",
+  "lane": "life_record",
+  "generationMode": "anime_partial_presence_daily_record",
+  "sourceBriefCreatedAt": "2026-03-19T02:53:08.210Z",
+  "references": [
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "weight": 0.55,
+      "why": "Carry forward scene or platform style cues without locking the composition."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her\nScene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Overhead or close-up angle focused on hands and the small drawer contents, Soft, diffused afternoon light from a nearby window, no direct sun, A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower, Character's sleeve is slightly pushed up, showing a slender wrist, The pebble is grey and smooth, about the size of a large coin, While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view, everyday life in Shanghai\nStyle: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood\nCamera: partial first-person presence\nMood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, nostalgic, cool, smooth stone against warm palm\nDetails: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint\nHard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay",
+    "negativePrompt": "ad poster, glossy editorial, text, watermark, platform UI overlay, extra fingers, bad anatomy, duplicate objects, chaotic clutter, irrelevant fantasy props, tourism poster, empty aesthetic wallpaper, staged look, over-symmetry, over-polished look, text, subtitle, watermark, logo, UI overlay, extra fingers, bad hands, broken anatomy, duplicate objects, identity drift, empty scenery without character trace, tourism poster, ad poster, glossy editorial, photoreal live action",
+    "shotNotes": [
+      "Overhead or close-up angle focused on hands and the small drawer contents",
+      "Soft, diffused afternoon light from a nearby window, no direct sun",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower",
+      "Character's sleeve is slightly pushed up, showing a slender wrist",
+      "The pebble is grey and smooth, about the size of a large coin",
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame from a new angle (e.g., overhead, close-up on hands)",
+      "Include a prop like a book, mug, or plant to add context",
+      "Focus on objects, food, or environment instead of face",
+      "Show a small action or task in progress",
+      "Overhead or close-up angle focused on hands and the small drawer contents.",
+      "Soft, diffused afternoon light from a nearby window, no direct sun.",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower.",
+      "Character's sleeve is slightly pushed up, showing a slender wrist.",
+      "The pebble is grey and smooth, about the size of a large coin.",
+      "A small, forgotten treasure found in the quiet of the afternoon.",
+      "Do not leave the frame as a pure empty scene; include one or two readable character traces",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "A hand holding a phone or drink, a sleeve edge, a reflection, or a hairclip is acceptable even if the full face is absent",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ],
+    "promptBlocks": {
+      "layeringStrategy": "global_style + character_core + scene + camera + mood + detail + hard_constraints",
+      "subject": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her",
+      "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Overhead or close-up angle focused on hands and the small drawer contents, Soft, diffused afternoon light from a nearby window, no direct sun, A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower, Character's sleeve is slightly pushed up, showing a slender wrist, The pebble is grey and smooth, about the size of a large coin, While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view, everyday life in Shanghai",
+      "style": "Style: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood",
+      "camera": "Camera: partial first-person presence",
+      "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, nostalgic, cool, smooth stone against warm palm",
+      "details": "Details: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint",
+      "constraints": "Hard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "seedStrategy": "diversified_candidates",
+    "consistencyPolicy": "scene_first_style_guided"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "A Japanese-anime slice-of-life image with readable character presence.",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready"
+}

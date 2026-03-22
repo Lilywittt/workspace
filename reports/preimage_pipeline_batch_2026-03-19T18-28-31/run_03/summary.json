@@ -1,0 +1,271 @@
+{
+  "runIndex": 3,
+  "scenePlanRunId": "sceneplan-2026-03-19T10-31-25",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift focus from self-portrait to a scene or object",
+      "Introduce a new indoor or evening setting"
+    ],
+    "avoidMotifs": [
+      "Opening with weather observations",
+      "Overusing #上海, #日常, #自拍, #小确幸"
+    ],
+    "captionAdvice": [
+      "Start with a tactile or auditory detail, not the weather",
+      "Let the object or scene hold a gentle, private meaning"
+    ],
+    "imageAdvice": [
+      "Compose a still life or environmental shot, not a direct selfie",
+      "Use soft, low-light or indoor ambient lighting"
+    ],
+    "summary": "Move from selfie to a gentle life record, focusing on a quiet indoor ritual with sensory details."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+    "microPlot": [
+      "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+      "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+      "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+    ],
+    "sceneNotes": [
+      "Desk lit by a single warm lamp, casting long shadows.",
+      "Textbooks and a half-empty mug pushed slightly out of frame.",
+      "A small red hairclip resting on the edge of an open notebook.",
+      "The earbuds are almost, but not quite, fully untangled."
+    ],
+    "captionFocus": [
+      "The quiet, tactile focus of a simple task after mental work."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+    "microPlot": [
+      "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+      "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+      "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+    ],
+    "sensoryFocus": "the faint plastic squeak of wires being separated",
+    "concreteSceneCues": [
+      "Desk lit by a single warm lamp, casting long shadows",
+      "Textbooks and a half-empty mug pushed slightly out of frame",
+      "A small red hairclip resting on the edge of an open notebook",
+      "The earbuds are almost, but not quite, fully untangled",
+      "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk",
+      "Fingers work slowly, patiently following each loop and knot in the dim lamplight"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a caption that captures a quiet, post-study moment where untangling earbuds becomes a small, focused ritual. Convey the gentle, tactile satisfaction of the task and the shift from mental clutter to calm, using light chunibyo flavor to hint at private meaning without theatricality.",
+    "audienceFeeling": "A soft, relatable sense of quiet focus and minor catharsis.",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "不要固定口号式收尾"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触感仪式",
+      "opening": "整理耳机线时，塑料摩擦发出细微的吱吱声。",
+      "caption": "整理耳机线时，塑料摩擦发出细微的吱吱声。\n在台灯的光圈里，把打结的思绪一根根理直。\n雨声很轻，像在给这个小小的仪式伴奏。",
+      "hashtags": [
+        "#解压小仪式",
+        "#耳机线整理",
+        "#雨夜独处",
+        "#生活碎片",
+        "#上海日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "未完待续",
+      "opening": "故意留了一个小结没有解开。",
+      "caption": "故意留了一个小结没有解开。\n给明天的自己，留一个可以继续的、温柔的借口。\n桌上的红色发夹，像书签一样别住了这个雨夜。",
+      "hashtags": [
+        "#生活碎片",
+        "#私密仪式",
+        "#日常记录",
+        "#温柔待办"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静电场域",
+      "opening": "指尖划过耳机线，带起几乎听不见的静电噪音。",
+      "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+      "hashtags": [
+        "#生活碎片",
+        "#结界时刻",
+        "#专注力",
+        "#感官日记"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触感仪式",
+      "opening": "整理耳机线时，塑料摩擦发出细微的吱吱声。",
+      "caption": "整理耳机线时，塑料摩擦发出细微的吱吱声。\n在台灯的光圈里，把打结的思绪一根根理直。\n雨声很轻，像在给这个小小的仪式伴奏。",
+      "hashtags": [
+        "#解压小仪式",
+        "#耳机线整理",
+        "#雨夜独处",
+        "#生活碎片",
+        "#上海日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "未完待续",
+      "opening": "故意留了一个小结没有解开。",
+      "caption": "故意留了一个小结没有解开。\n给明天的自己，留一个可以继续的、温柔的借口。\n桌上的红色发夹，像书签一样别住了这个雨夜。",
+      "hashtags": [
+        "#生活碎片",
+        "#私密仪式",
+        "#日常记录",
+        "#温柔待办"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静电场域",
+      "opening": "指尖划过耳机线，带起几乎听不见的静电噪音。",
+      "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+      "hashtags": [
+        "#生活碎片",
+        "#结界时刻",
+        "#专注力",
+        "#感官日记"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best balances the required daily-life texture with the light chunibyo tone, using '结界' to create a private, intimate ritual space without theatricality. It directly incorporates the sensory detail (static noise) and daily variable (10.4°C air), and its focus on 'a very specific quiet' perfectly captures the contemplative, post-study mood while feeling fresh and publishable.",
+    "strengths": [
+      "Strong 'private ritual' energy with a subtle, fitting chunibyo metaphor ('结界')",
+      "Integrates sensory detail (static) and daily variable (temperature) naturally",
+      "Focuses on the 'specific quiet' of the action, matching the scene's contemplative tone",
+      "Avoids repetitive openings and feels distinct from recent selfie posts"
+    ],
+    "risks": [
+      "The term '结界' might be slightly niche, though it fits the persona's light chunibyo style",
+      "Slightly more abstract than the other options, but remains grounded in the concrete action"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_03",
+    "candidateAngle": "静电场域",
+    "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+    "hashtags": [
+      "#生活碎片",
+      "#结界时刻",
+      "#专注力",
+      "#感官日记"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best balances the required daily-life texture with the light chunibyo tone, using '结界' to create a private, intimate ritual space without theatricality. It directly incorporates the sensory detail (static noise) and daily variable (10.4°C air), and its focus on 'a very specific quiet' perfectly captures the contemplative, post-study mood while feeling fresh and publishable."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"指尖划过耳机线，带起几乎听不见的静电噪音。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the faint plastic squeak of wires being separated",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Desk lit by a single warm lamp, casting long shadows | Textbooks and a half-empty mug pushed slightly out of frame | A small red hairclip resting on the edge of an open notebook | The earbuds are almost, but not quite, fully untangled | After hours of focused review, a tangled mess of white earbuds sits coiled on the desk | Fingers work slowly, patiently following each loop and knot in the dim lamplight"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk lit by a single warm lamp, casting long shadows, Textbooks and a half-empty mug pushed slightly out of frame, A small red hairclip resting on the edge of an open notebook, The earbuds are almost, but not quite, fully untangled, After hours of focused review, a tangled mess of white earbuds sits coiled on the desk, Fingers work slowly, patiently following each loop and knot in the dim lamplight, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, contemplative, the faint plastic squeak of wires being separated",
+    "shotNotes": [
+      "Desk lit by a single warm lamp, casting long shadows",
+      "Textbooks and a half-empty mug pushed slightly out of frame",
+      "A small red hairclip resting on the edge of an open notebook",
+      "The earbuds are almost, but not quite, fully untangled",
+      "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk",
+      "Fingers work slowly, patiently following each loop and knot in the dim lamplight",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "f9e2c6ad498e",
+    "selectedCaption": "c743b4819c14",
+    "imageScene": "e18462cbff00",
+    "candidateAngles": "257313530cc5"
+  }
+}

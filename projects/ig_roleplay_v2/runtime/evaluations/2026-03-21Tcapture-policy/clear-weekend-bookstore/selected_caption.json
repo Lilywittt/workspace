@@ -1,0 +1,18 @@
+{
+  "selectedAt": "2026-03-21T11:51:33.681Z",
+  "selectedCandidateId": "caption_02",
+  "selectionReason": "这个选项通过动作暗示了颜色巧合的联系，保留了瞬间的私密感，没有过度解释，最像真人会发的帖子。",
+  "selectionStrengthsZh": [
+    "具体动作",
+    "自然含蓄",
+    "保留瞬间"
+  ],
+  "candidateAngle": "action_implied",
+  "caption": "手指碰了碰发卡，又看了一眼那本笔记本。",
+  "hashtags": [
+    "#日常碎片",
+    "#颜色巧合",
+    "#路过看见"
+  ],
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

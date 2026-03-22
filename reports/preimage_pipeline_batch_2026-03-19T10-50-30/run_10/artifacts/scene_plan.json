@@ -1,0 +1,126 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T03-02-31",
+  "createdAt": "2026-03-19T03:02:31.211Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After a day of studying, the character has just finished organizing her desk, creating a small, tidy corner that feels like a personal victory against the lingering drizzle outside.",
+    "microPlot": [
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered.",
+      "She carefully stacks the books, aligns her pens in a mug, and places a small, newly finished origami crane beside the lamp.",
+      "A quiet sense of order and calm settles in, making the cozy, lamplit room feel like a perfect little world."
+    ],
+    "sensoryFocus": "warm lamplight on wood grain"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Desk corner with a warm, vintage-style desk lamp as the main light source",
+      "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately",
+      "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light",
+      "A red hairclip resting on the edge of an open notebook",
+      "Framing is slightly wide to show the organized space and the character's hand adjusting the crane",
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a wider shot showing more of the room or a specific activity setup",
+      "Use warmer, artificial lighting if it's evening",
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor or cozy evening setting",
+      "Desk corner with a warm, vintage-style desk lamp as the main light source.",
+      "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately.",
+      "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light.",
+      "A red hairclip resting on the edge of an open notebook.",
+      "Framing is slightly wide to show the organized space and the character's hand adjusting the crane.",
+      "The quiet satisfaction of tidying a small space after work.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "cozy_accomplishment"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Switch to life_record lane with a focus on environmental details and a fresh narrative hook to maintain continuity while avoiding repetition.",
+    "draftSummary": "A life_record scene showing a freshly organized desk corner in the evening, capturing a moment of quiet, personal order.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

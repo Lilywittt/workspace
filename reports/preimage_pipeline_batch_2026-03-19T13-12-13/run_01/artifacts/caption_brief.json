@@ -1,0 +1,85 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:12:55.621Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "goal": "Capture the quiet, reflective moment after studying, where a forgotten red hairclip on the desk becomes a small, meaningful discovery. Convey a sense of gentle transition and private ritual, using sensory details and light chunibyo tone to make the ordinary feel faintly symbolic.",
+  "audienceFeeling": "A soft, intimate recognition of small daily wins",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo—treat the hairclip as a small omen, not a grand symbol",
+    "Gentle, reflective tone with soft sentence endings",
+    "Short sentences, one longer breath for rhythm",
+    "Private ritual energy, like talking to oneself softly",
+    "Chinese Instagram casual, not poetic or script-like",
+    "Start with the sensory shift after closing the last book",
+    "Mention the quiet weight of the room or the desk",
+    "Introduce the discovered object naturally, as if just noticed",
+    "The red hairclip as the focal object",
+    "Sensory detail: woody desk scent or cool plastic texture",
+    "Micro-plot: from study end to small discovery",
+    "Daily variable: light rain or 10.4°C weather hint",
+    "A private ritual, like putting things back in place"
+  ],
+  "contentBlocks": {
+    "premise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+    "microPlot": [
+      "The last textbook is closed, leaving a sudden, soft silence in the room.",
+      "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+      "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+    ],
+    "sensoryFocus": "the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A wide-shot life record of a desk corner where a red hairclip, found after studying, becomes a gentle symbol of transition and quiet reward.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "##书桌日常 (desk daily life)",
+      "#治愈时刻 (healing moment)",
+      "#上海雨天 (Shanghai rainy day)",
+      "#发现小确幸 (discovering small happiness)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Explicit lore or world-building exposition",
+    "Overly theatrical chunibyo",
+    "Face-forward selfie narration",
+    "AI self-disclosure"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

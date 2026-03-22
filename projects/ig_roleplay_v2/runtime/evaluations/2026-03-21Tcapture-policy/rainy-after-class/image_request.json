@@ -1,0 +1,92 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:58:13.760Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T11-54-25-rainy_after_class",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable.",
+      "libraryStatus": "placeholder",
+      "librarySource": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "referencePlan": {
+    "identityReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "styleReferenceIds": [],
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ]
+  },
+  "referenceHandling": {
+    "requestedReferenceCount": 1,
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "deliveryMode": "pending_provider_selection"
+  },
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable through her posture, body action, and partial face while the focus remains on the act of tying the shoelace and noticing the cracked plastic tip, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 她的手指正捏着鞋带，塑料头套上的裂口清晰可见。, 她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。, 画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。, her posture, bending over or sitting down, looking at her shoelace, her fingers holding the shoelace, with the cracked plastic tip clearly visible, showing the white fibers inside, her upper body posture and hand action, proving the moment of tying the shoelace is happening, 她弯腰或坐下的姿态，目光向下看着鞋带, 她的手指捏着鞋带，塑料头套上的裂口清晰可见，露出内部白色纤维, 她的上半身姿态和手部动作，证明这是一个正在发生的系鞋带瞬间\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable through her posture, body action, and partial face while the focus remains on the act of tying the shoelace and noticing the cracked plastic tip\nCapturePlan: observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, half-body coverage is allowed when it helps the action read cleanly\nIdentityLock: same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable\nComposition: moment-led framing rooted in the act of tying a shoelace and noticing a small crack, 让构图跟随同一个生活瞬间，使弯腰系鞋带的动作和发现裂口的状态保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 一个真实的生活切片，在弯腰的短暂停顿中被捕捉。\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, fashion editorial polish, shifting focus from the cracked shoelace tip to unrelated decorative backgrounds, letting irrelevant bystanders or background people take more visual weight than the protagonist, rewriting the moment into an interaction with another person or an exchange of objects, 时尚大片般的抛光感, 将焦点从鞋带裂口转移到无关的装饰性背景, 让无关的路人或背景人物占据比主角更多的视觉权重, 将这一刻重写为与他人互动或交换物品, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, empty scenery without character trace, generic anime boy redesign, older-looking redesign, irrelevant bystanders drawing more attention than the protagonist, sunny outdoor field, bright outdoor meadow",
+    "shotNotes": [
+      "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。",
+      "她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。",
+      "画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。",
+      "her posture, bending over or sitting down, looking at her shoelace",
+      "her fingers holding the shoelace, with the cracked plastic tip clearly visible, showing the white fibers inside",
+      "her upper body posture and hand action, proving the moment of tying the shoelace is happening",
+      "sleeve edge or corner of school uniform",
+      "hair tip or small red hairclip"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable through her posture, body action, and partial face while the focus remains on the act of tying the shoelace and noticing the cracked plastic tip, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。, 她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。, 画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。, her posture, bending over or sitting down, looking at her shoelace, her fingers holding the shoelace, with the cracked plastic tip clearly visible, showing the white fibers inside, her upper body posture and hand action, proving the moment of tying the shoelace is happening, 她弯腰或坐下的姿态，目光向下看着鞋带, 她的手指捏着鞋带，塑料头套上的裂口清晰可见，露出内部白色纤维, 她的上半身姿态和手部动作，证明这是一个正在发生的系鞋带瞬间",
+      "context": "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable through her posture, body action, and partial face while the focus remains on the act of tying the shoelace and noticing the cracked plastic tip",
+      "capturePlan": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, half-body coverage is allowed when it helps the action read cleanly",
+      "identityLock": "same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+      "composition": "moment-led framing rooted in the act of tying a shoelace and noticing a small crack, 让构图跟随同一个生活瞬间，使弯腰系鞋带的动作和发现裂口的状态保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "一个真实的生活切片，在弯腰的短暂停顿中被捕捉。",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音在放学后弯腰系鞋带，发现鞋带塑料头套裂开了一道小口子。",
+    "needsFaceReview": false,
+    "needsIdentityReview": true,
+    "dryRunDefault": true
+  },
+  "reviewSignals": {
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": [],
+    "captureSummaryEn": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight",
+    "unresolvedIdentityReference": true,
+    "strongerIdentityLock": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

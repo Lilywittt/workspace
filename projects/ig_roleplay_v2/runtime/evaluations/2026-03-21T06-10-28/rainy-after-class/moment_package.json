@@ -1,0 +1,82 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:18:43.574Z",
+  "sourceCandidateId": "event_01",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "把书包放在教室后排的椅子上，发现椅背的木纹里嵌着一小截断掉的蓝色粉笔头。",
+    "hookWhyInterestingZh": "它就在那里，和椅子颜色几乎融为一体，但今天被看见了。",
+    "causalChainZh": [
+      "下课后，想找个角落放一下书包。",
+      "把书包搭上椅背时，手指蹭到了不平整的触感。",
+      "低头看见那截粉笔，像被遗忘的标点，心里顿了一下。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "window_after_class",
+        "context_school_transition_window"
+      ],
+      "inferredDetailsZh": [
+        "可能是之前上课时无意间崩断，卡在了木缝里。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "雨天让人更容易注意到室内被忽略的角落"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "只是找个地方放东西，让身体休息几秒。",
+    "after": "那个小小的、坚硬的蓝色存在，让这个普通的动作有了一个具体的停顿点。",
+    "whyPostToday": "有一个瞬间短暂地值得留下。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "school_transition_window",
+    "routineWindow": "after_class",
+    "weather": "小雨",
+    "minimalBounds": [
+      "context_school_transition_window",
+      "window_after_class",
+      "weather_rain",
+      "identity_stability"
+    ]
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "whyShareableZh": "它就是一个被发现的、无关紧要的细节，刚好够记录。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "深色木椅的纹理",
+      "嵌在缝隙里的蓝色粉笔头",
+      "搭在椅背上的书包带子"
+    ],
+    "mayShow": [
+      "covered walkway is a plausible nearby anchor in this context.",
+      "station edge is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

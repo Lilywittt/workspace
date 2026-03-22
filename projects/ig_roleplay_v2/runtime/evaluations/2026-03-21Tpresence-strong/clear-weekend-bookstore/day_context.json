@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:11:42.838Z",
+  "sourceMode": "scenario_override",
+  "scenarioId": "clear-weekend-bookstore",
+  "date": {
+    "isoDate": "2026-03-22",
+    "weekday": "Sun",
+    "scheduleMode": "weekend",
+    "season": "spring"
+  },
+  "time": {
+    "timestamp": "2026-03-22T15:10:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "localHour": 15,
+    "localMinute": 10,
+    "daypart": "afternoon",
+    "routineWindow": "afternoon_pause"
+  },
+  "weather": {
+    "summary": "晴到多云",
+    "bucket": "clear",
+    "temperatureC": 17.8,
+    "precipitationMm": 0,
+    "windSpeedKmh": 10.8
+  },
+  "location": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "weekend_pause_window",
+    "specificPlaceHint": "",
+    "mobilityPhase": "settled",
+    "indoorOutdoorBias": "unspecified"
+  },
+  "boundaries": {
+    "longDistanceTravelLikely": false,
+    "sameCityAssumed": true,
+    "largePublicEventAssumed": false
+  },
+  "factualNotes": [
+    "Current context: weekend_pause_window.",
+    "Weather: 晴到多云.",
+    "Routine window: afternoon_pause."
+  ],
+  "overrideNotes": [
+    "测试周末书店气质下是否还能保持角色真实感，而不是直接掉进文青模板。"
+  ],
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

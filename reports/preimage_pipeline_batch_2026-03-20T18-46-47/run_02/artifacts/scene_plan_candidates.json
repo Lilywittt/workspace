@@ -1,0 +1,199 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:34.619Z",
+  "source": "code",
+  "status": "scene_plan_candidates_ready",
+  "sourceArtifacts": {
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "noveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json"
+  },
+  "candidateCount": 5,
+  "candidates": [
+    {
+      "candidateId": "scene_cand_04",
+      "lane": "life_record",
+      "sceneProgramId": "transit_fragment_program",
+      "affordanceId": "transit_fragment_window",
+      "locationArchetype": "station_edge",
+      "locationCluster": "transit_fragment",
+      "objectFamily": "bag_contents",
+      "objectBindings": [
+        "folded shopping list"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "wait_carry_pass_through",
+      "actionSequence": [
+        "carry folded shopping list through a short transition",
+        "pause while waiting or passing through",
+        "let an ordinary fragment become keepable"
+      ],
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "ordinary transit becomes keepable",
+        "carrying a small thing through the city"
+      ],
+      "imageHooks": [
+        "platform edge",
+        "bag or hand detail",
+        "motion held briefly still"
+      ],
+      "premiseSeed": "folded shopping list becomes the center of a wait carry pass through moment at station edge.",
+      "scores": {
+        "total": 106,
+        "novelty": 106,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_02",
+      "lane": "life_record",
+      "sceneProgramId": "rediscovery_program",
+      "affordanceId": "rediscovery_window",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "indoor_reset",
+      "objectFamily": "paper_fragment",
+      "objectBindings": [
+        "tiny receipt corner"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "find_unfold_notice_again",
+      "actionSequence": [
+        "spot tiny receipt corner while pausing",
+        "unfold or lift it into focus",
+        "attach a quiet private meaning to it again"
+      ],
+      "emotionalLanding": "private_omen",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "ordinary object gains secret weight",
+        "a tiny trace from an earlier self"
+      ],
+      "imageHooks": [
+        "close object detail",
+        "unfolding gesture",
+        "soft depth around the object"
+      ],
+      "premiseSeed": "tiny receipt corner becomes the center of a find unfold notice again moment at indoor desk corner.",
+      "scores": {
+        "total": 94,
+        "novelty": 94,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_03",
+      "lane": "life_record",
+      "sceneProgramId": "threshold_pause_program",
+      "affordanceId": "threshold_pause_window",
+      "locationArchetype": "campus_edge",
+      "locationCluster": "after_school_fragment",
+      "objectFamily": "accessory",
+      "objectBindings": [
+        "small red hairclip"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "pause_listen_hold",
+      "actionSequence": [
+        "pause at campus edge",
+        "hold or touch small red hairclip",
+        "listen to the day long enough for the mood to settle"
+      ],
+      "emotionalLanding": "private_omen",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "a pause that changes the texture of the day",
+        "being briefly held between places"
+      ],
+      "imageHooks": [
+        "edge framing",
+        "corridor depth",
+        "rain shelter texture"
+      ],
+      "premiseSeed": "small red hairclip becomes the center of a pause listen hold moment at campus edge.",
+      "scores": {
+        "total": 91,
+        "novelty": 91,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_09",
+      "lane": "life_record",
+      "sceneProgramId": "kitchen_comfort_program",
+      "affordanceId": "kitchen_comfort_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "small blanket"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "heat_hold_breathe",
+      "actionSequence": [
+        "warm or hold small blanket",
+        "pause over the warmth for one breath",
+        "allow the day to settle without declaration"
+      ],
+      "emotionalLanding": "quiet_completion",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "warm thing in hand, day settling down",
+        "small comfort without big declaration"
+      ],
+      "imageHooks": [
+        "steam or cup texture",
+        "countertop glow",
+        "hand-to-object intimacy"
+      ],
+      "premiseSeed": "small blanket becomes the center of a heat hold breathe moment at window seat.",
+      "scores": {
+        "total": 79,
+        "novelty": 79,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "lane": "life_record",
+      "sceneProgramId": "laundry_corner_program",
+      "affordanceId": "domestic_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "tea sachet"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "fold_sort_pause",
+      "actionSequence": [
+        "gather a few soft domestic pieces",
+        "fold or sort around tea sachet",
+        "let texture and repetition soften the mood"
+      ],
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "soft textures changing the pace of the day",
+        "domestic order as a private ritual"
+      ],
+      "imageHooks": [
+        "fabric texture",
+        "folding gesture",
+        "domestic corner framing"
+      ],
+      "premiseSeed": "tea sachet becomes the center of a fold sort pause moment at window seat.",
+      "scores": {
+        "total": 75,
+        "novelty": 75,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    }
+  ]
+}

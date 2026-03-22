@@ -1,0 +1,140 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "下午整理旧笔记，翻到一页边缘被水浸过又干透的痕迹，手指停在那里，想起是去年夏天某次下雨时放在窗边忘了收。",
+      "hookWhyInterestingZh": "它只是一个物理痕迹，但今天被看见了，像时间自己留下的一个标点。",
+      "causalChainZh": [
+        "只是想把散乱的笔记理一理。",
+        "翻到那一页，边缘的纸皱得有点特别。",
+        "手指摸上去，突然想起它为什么变成这样。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause",
+          "weather_clear"
+        ],
+        "inferredDetailsZh": [
+          "笔记是旧的，但今天才注意到这个细节。",
+          "天气是晴到多云，但想起的是过去的雨。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是想整理一下，让下午的时间有点事做。",
+      "interiorShiftZh": "那个皱痕突然把去年夏天的某个瞬间拉回来了半秒。",
+      "whyTodayZh": "今天的安静和节奏，让这种小小的、非刻意的回想刚好成立。",
+      "whyShareableZh": "它具体，有触感，但没有被解释成什么大道理，只是一块被注意到的过去。",
+      "visualEvidenceZh": [
+        "笔记本摊开的那一页",
+        "纸张边缘不规则的皱痕",
+        "手指停在皱痕上的瞬间"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界关于旧书纸张、微小日常的讨论，可能让今天更容易注意到这类细节"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "喝水时发现杯底有一小块没化开的糖渍，用指甲轻轻刮了一下，想起是昨天泡蜂蜜水时搅得不够彻底。",
+      "hookWhyInterestingZh": "一个被忽略的、不完美的残留，今天被发现了，像生活里一个很小的诚实证据。",
+      "causalChainZh": [
+        "只是拿起杯子喝水。",
+        "杯底触感有点不一样，看了一眼。",
+        "用指甲刮了刮，确认是什么，然后想起原因。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause"
+        ],
+        "inferredDetailsZh": [
+          "杯子是日常用的，糖渍是昨天留下的。",
+          "动作很小，发生在独处的下午。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是有点渴，想喝点水。",
+      "interiorShiftZh": "那个小小的糖渍，让昨天的某个匆忙瞬间被轻轻碰了一下。",
+      "whyTodayZh": "今天偏安静，注意力会落在这种平时不会停驻的细节上。",
+      "whyShareableZh": "它真实、琐碎，没有美化，就是生活里一个被看见的微小断层。",
+      "visualEvidenceZh": [
+        "透明的玻璃杯",
+        "杯底一小块浅黄色的糖渍",
+        "指甲轻轻刮过杯底的侧影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界对微小日常的讨论，可能形成一种更容易关注具体细节的气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "把外套挂回衣架时，闻到袖口有一点点残留的、说不清是哪里沾上的陌生气味，可能是公交车的扶手，也可能是路过面包店的门。",
+      "hookWhyInterestingZh": "一个无法追溯来源的气味痕迹，像今天在外面走了一圈后，悄悄带回来的、无法命名的证据。",
+      "causalChainZh": [
+        "只是想把外套挂好。",
+        "拿起时，袖口凑近了鼻子一点。",
+        "闻到一点很淡的、不属于自己的气味，停了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "外套是今天或近期穿过的。",
+          "气味很淡，无法确定具体来源。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是完成挂衣服这个动作。",
+      "interiorShiftZh": "那个陌生的气味，让“今天去过外面”这件事，有了一个非视觉的、微小的证据。",
+      "whyTodayZh": "今天的感知偏细腻，会被这种非视觉的、模糊的痕迹拉住。",
+      "whyShareableZh": "它捕捉的是一种模糊的、无法归类的感知，不是故事，只是一个被注意到的存在痕迹。",
+      "visualEvidenceZh": [
+        "外套被拎起的瞬间",
+        "袖口靠近脸侧的模糊轮廓",
+        "衣架和外套形成的简单构图"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "被外界轻轻擦过的感觉，可能让这种来自公共空间的、模糊的痕迹更容易被感知"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

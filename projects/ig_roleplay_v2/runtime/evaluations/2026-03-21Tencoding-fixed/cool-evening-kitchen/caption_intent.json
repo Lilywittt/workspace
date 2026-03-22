@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那个微小停顿带来的、被拉回现实的瞬间感。",
+  "whatToSayZh": "说出杯沿那圈水痕的触感和视觉细节，不说为什么它会让自己停下。",
+  "whatToLeaveUnsaidZh": "把‘思绪被拉回此刻’的私人感受留在空白里，不解释那瞬间的‘哦，在这里’具体是什么。",
+  "openingMovesZh": [
+    "从指尖触碰到的那圈微凉水痕开始。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

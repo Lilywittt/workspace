@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:52:37.355Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-52-18",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a gentle, nostalgic caption from a light chunibyo perspective, focused on the small discovery of a forgotten pebble while tidying. Convey the quiet warmth of the memory it sparks, using sensory details and daily-life texture to create an intimate, non-commercial diary-like feel for a Chinese Instagram audience.",
+  "audienceFeeling": "A soft, relatable smile of recognition",
+  "openingMoves": [
+    "Start with a simple observation about the action (tidying, finding)",
+    "Directly mention the discovered object (the pebble)",
+    "Use a short, reflective phrase about time or memory"
+  ],
+  "mustInclude": [
+    "The cool, smooth sensation of the pebble in hand",
+    "Reference to the past weekend walk by the river",
+    "The character's gentle, fond emotional response",
+    "At least one concrete daily detail (e.g., the drawer, the light, other small objects)",
+    "The catchphrase 'Today should still feel bright and alive.' integrated naturally"
+  ],
+  "mustAvoid": [
+    "Overly poetic or abstract language",
+    "Commercial or promotional phrasing",
+    "Full lore exposition or backstory dumping",
+    "Dialogue or script format",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: slightly dramatic but grounded in real feeling",
+    "Gentle and introspective, not loud or energetic",
+    "First-person, diary-like intimacy",
+    "Chinese social-post natural flow, not translated prose",
+    "Tsundere hint: warmth wrapped in casual observation"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#上海日常 (Shanghai daily life)",
+    "#治愈时刻 (healing moment)",
+    "#怀旧 (nostalgia)",
+    "#整理发现 (tidying discovery)"
+  ],
+  "summary": "A character shares a quiet moment of nostalgic warmth after finding a forgotten pebble while tidying a drawer.",
+  "errorMessage": ""
+}

@@ -1,0 +1,52 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:10:16.278Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-09-52",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a late-evening life-record caption about finding and gently returning a stranger's loose planner page in a quiet bookstore. Convey the small, private ritual of smoothing its crease and sliding it back, turning a forgotten note into a moment of gentle order and forward-looking quiet affection, all through the lens of light chunibyo and daily texture.",
+  "audienceFeeling": "a quiet, shared recognition of small, caring acts",
+  "openingMoves": [
+    "Start with the found object or the immediate sensory detail",
+    "Mention the late hour and the bookstore's quiet atmosphere",
+    "Describe the action of picking up and smoothing the page",
+    "Note the stranger's neat handwriting or the page's content briefly",
+    "Frame the return as a small, forward-looking promise"
+  ],
+  "mustInclude": [
+    "The loose planner page as the central object",
+    "The action of smoothing a crease and returning it",
+    "Sensory detail: the soft rustle of paper or faint woody scent",
+    "The time: late evening (21:00) in early spring Shanghai",
+    "A trace of the character (e.g., a hand, sleeve, or red hairclip in frame)",
+    "The emotional landing of 'gentle_order'",
+    "The hook 'repair as quiet affection'"
+  ],
+  "mustAvoid": [
+    "Exposition about the bookstore's history or lore",
+    "Dialogue or script-like exchanges",
+    "Commercial or promotional language",
+    "Fixed slogan or repeated signature ending",
+    "Overly theatrical or world-building-heavy chunibyo",
+    "Mentioning 'accessory' objects (fatigued)",
+    "Overusing 'legacy_program' semantics"
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath",
+    "Light chunibyo flavor: treat the ordinary page as a small, secret omen",
+    "Gentle, private ritual energy, not performative",
+    "Soft endings, like a gentle trailing tone or soft self-address",
+    "Tsundere hint: maybe a slight downplay of the caring act",
+    "Write as a private note to self or a future self, not a broadcast"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragment)",
+    "#Gentle action angle",
+    "#小小修复术 (tiny repair art)",
+    "#Bookstore/quiet moment angle",
+    "#书店的夜晚 (bookstore night)",
+    "#Private ritual angle"
+  ],
+  "summary": "A found planner page in a late-evening bookstore is gently returned, making a stranger's forgotten schedule a private ritual of quiet order.",
+  "errorMessage": ""
+}

@@ -1,0 +1,198 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:22:53.611Z",
+  "source": "code",
+  "status": "scene_plan_candidates_ready",
+  "sourceArtifacts": {
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "noveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json"
+  },
+  "candidateCount": 5,
+  "candidates": [
+    {
+      "candidateId": "scene_cand_07",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "mechanical pencil"
+      ],
+      "weatherRole": "texture_modifier",
+      "actionKernel": "return_fix_restore",
+      "actionSequence": [
+        "pick up mechanical pencil",
+        "repair, return, or put it back where it belongs",
+        "feel the day close a tiny loop"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ],
+      "premiseSeed": "mechanical pencil becomes the center of a return fix restore moment at bookstore aisle.",
+      "scores": {
+        "total": 94,
+        "novelty": 94,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "lane": "life_record",
+      "sceneProgramId": "desk_reset_program",
+      "affordanceId": "indoor_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "sticky note"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "sort_reset_arrange",
+      "actionSequence": [
+        "notice the slight disorder around window seat",
+        "sort or straighten sticky note",
+        "let the act of arranging shift the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "restoring order through one small action",
+        "letting an object carry the mood"
+      ],
+      "imageHooks": [
+        "object-led composition",
+        "hand and desk texture",
+        "readable trace cues"
+      ],
+      "premiseSeed": "sticky note becomes the center of a sort reset arrange moment at window seat.",
+      "scores": {
+        "total": 77,
+        "novelty": 77,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_06",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "small blanket"
+      ],
+      "weatherRole": "texture_modifier",
+      "actionKernel": "choose_pay_carry_back",
+      "actionSequence": [
+        "choose small blanket",
+        "complete the tiny purchase",
+        "carry the small comfort back into the day"
+      ],
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ],
+      "premiseSeed": "small blanket becomes the center of a choose pay carry back moment at covered walkway.",
+      "scores": {
+        "total": 77,
+        "novelty": 77,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "lane": "life_record",
+      "sceneProgramId": "laundry_corner_program",
+      "affordanceId": "domestic_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "mug of cocoa"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "fold_sort_pause",
+      "actionSequence": [
+        "gather a few soft domestic pieces",
+        "fold or sort around mug of cocoa",
+        "let texture and repetition soften the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "soft textures changing the pace of the day",
+        "domestic order as a private ritual"
+      ],
+      "imageHooks": [
+        "fabric texture",
+        "folding gesture",
+        "domestic corner framing"
+      ],
+      "premiseSeed": "mug of cocoa becomes the center of a fold sort pause moment at window seat.",
+      "scores": {
+        "total": 73,
+        "novelty": 73,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_05",
+      "lane": "life_record",
+      "sceneProgramId": "bookstore_pause_program",
+      "affordanceId": "bookstore_pause_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "keepsake",
+      "objectBindings": [
+        "small charm"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "browse_pause_notice",
+      "actionSequence": [
+        "browse slowly near small charm",
+        "pause on one page or small trace",
+        "let the quiet public setting turn personal"
+      ],
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "something left by a stranger feels personal",
+        "quiet public place, private feeling"
+      ],
+      "imageHooks": [
+        "shelf depth",
+        "paper texture",
+        "fingers touching a page"
+      ],
+      "premiseSeed": "small charm becomes the center of a browse pause notice moment at bookstore aisle.",
+      "scores": {
+        "total": 62,
+        "novelty": 62,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    }
+  ]
+}

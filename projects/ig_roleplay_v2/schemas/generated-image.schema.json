@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/generated-image.schema.json",
+  "title": "IG Roleplay Generated Image",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "sourceRequestCreatedAt",
+    "provider",
+    "status"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "sourceRequestCreatedAt": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "provider": {
+      "type": "string"
+    },
+    "model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "assetId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "remoteJobId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "providerRequestId": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "requestSummary": {
+      "type": "object"
+    },
+    "providerRequest": {
+      "type": "object"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "generation_scaffold_ready",
+        "generation_submitted",
+        "image_generated_local_only",
+        "image_ready",
+        "provider_credentials_missing",
+        "provider_auth_failed",
+        "provider_network_error",
+        "provider_request_failed"
+      ]
+    },
+    "outputFormat": {
+      "type": "string"
+    },
+    "localFilePath": {
+      "type": "string"
+    },
+    "latestFilePath": {
+      "type": "string"
+    },
+    "failureReason": {
+      "type": "string"
+    }
+  }
+}

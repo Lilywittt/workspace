@@ -1,0 +1,61 @@
+{
+  "mustStayStable": [
+    "core_face_shape",
+    "hair_color_family",
+    "age_impression",
+    "overall_temperament"
+  ],
+  "allowedVariation": [
+    "expression",
+    "small_accessory",
+    "outfit_accent",
+    "lighting",
+    "camera_angle"
+  ],
+  "requiredIdentityAnchors": [
+    "rion_core_face_01"
+  ],
+  "identityPromptBaseEn": [
+    "same recurring girl character",
+    "middle-school age impression",
+    "soft anime face shape",
+    "small red hairclip when naturally visible"
+  ],
+  "lifeRecordIdentityAnchorsEn": [
+    "keep the same recurring girl-character identity even in action-led daily-life framing",
+    "preserve the same youthful face and age impression when the face is partially or fully visible",
+    "do not drift toward an older-looking or masculine-coded redesign"
+  ],
+  "clearPresenceIdentityAnchorsEn": [
+    "when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+    "clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead"
+  ],
+  "styleAnchors": [
+    {
+      "id": "legacy_selfie_style_001",
+      "style": "selfie"
+    },
+    {
+      "id": "legacy_daily_style_001",
+      "style": "daily-life"
+    }
+  ],
+  "traceCuePreferences": [
+    "hand_with_object",
+    "sleeve_edge",
+    "hair_tip_or_red_hairclip",
+    "reflection_or_shadow_hint"
+  ],
+  "framingPrinciplesEn": [
+    "let framing scale follow the lived moment instead of a fixed crop template",
+    "life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it",
+    "prefer unposed action truth over portrait correction"
+  ],
+  "interactionGuardrailsEn": [
+    "do not rewrite a self-contained action into another person interacting unless the moment is actually about that interaction"
+  ],
+  "faceVisibilityRules": {
+    "selfie": "required",
+    "life_record": "optional_moment_led"
+  }
+}

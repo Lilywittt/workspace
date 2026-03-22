@@ -1,0 +1,60 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:42:04.687Z",
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen",
+  "scenarioId": "cool-evening-kitchen",
+  "mode": "zero_memory_agent",
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  },
+  "selectedMoment": {
+    "candidateId": "event_01",
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "caption_01",
+    "candidateAngle": "触觉细节"
+  }
+}

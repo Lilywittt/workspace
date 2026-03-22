@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:12:37.434Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+  "microPlot": [
+    "The last textbook is closed, leaving a sudden, soft silence in the room.",
+    "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+    "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+  ],
+  "sensoryFocus": "the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+  "sceneNotes": [
+    "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it.",
+    "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug.",
+    "A stack of closed textbooks and a single, abandoned highlighter with its cap off.",
+    "The red hairclip is the only bright color in the muted, warm tones of wood and paper.",
+    "Soft, shallow depth of field blurs the background, focusing on the clip and the hand."
+  ],
+  "tone": [
+    "reflective"
+  ],
+  "captionFocus": [
+    "Observing the quiet weight of ordinary objects after focused work"
+  ],
+  "summary": "A quiet, wide-angle moment at the desk where a forgotten hairclip becomes a small, meaningful discovery after studying.",
+  "errorMessage": ""
+}

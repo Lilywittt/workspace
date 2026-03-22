@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:40:45.010Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-40-07",
+  "briefGoal": "Write a caption that feels like a quiet, private note to her future self, capturing the small ritual of buying a tea sachet on a damp evening. It should focus on the sensory details of the moment—the feel of the paper bag, the cool air—and let the ordinary object briefly carry a shy, personal meaning, without turning into a grand statement.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "私密承诺",
+      "caption": "买了一个茶包。\n纸袋的窸窣声，和雨声混在一起。\n带它回去，像带一个给明天的小小暗号。",
+      "hashtags": [
+        "#小雨的晚上",
+        "#一个人的小仪式",
+        "#茶包与私密承诺",
+        "#上海日常",
+        "#生活切片"
+      ],
+      "rationale": "以微小动作为核心，将购买行为转化为给未来的私密暗号，符合‘害羞的依恋’情绪和‘私人仪式’基调。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "感官锚点",
+      "caption": "傍晚的空气是凉的，指尖碰到纸袋却是暖的。\n在连廊下完成一次微型采购，把这点温度握在手里带回去。",
+      "hashtags": [
+        "#微型采购",
+        "#感官记录",
+        "#连廊下",
+        "#生活切片",
+        "#上海日常"
+      ],
+      "rationale": "聚焦触觉对比（凉空气与暖纸袋），将场景（连廊）和程序（微型采购）自然融入，营造具体而私人的感官锚点。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静物仪式",
+      "caption": "给今晚选了一个茶包。\n柜台的光很软，照得纸袋像个小小的圣物盒。\n接下来，是把它安全护送回房间的仪式。",
+      "hashtags": [
+        "#生活仪式感",
+        "#静物观察",
+        "#茶包与私密承诺",
+        "#上海日常",
+        "#小雨的晚上"
+      ],
+      "rationale": "将普通纸袋赋予‘圣物盒’的轻微中二想象，并将‘护送’动作仪式化，符合‘轻中二’与‘私人救援’的钩子。"
+    }
+  ]
+}

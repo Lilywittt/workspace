@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:47:20.686Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_03",
+  "sceneProgramId": "threshold_pause_program",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "In the cool, drizzly early evening, a pause on a stairwell landing becomes a tiny, private reset. The small red hairclip, held in hand, isn't just an accessory; it's a momentary anchor, a quiet point of focus that briefly holds the day's scattered energy before letting it settle into a softer, more manageable shape.",
+  "microPlot": [
+    "The day's soft rain and the transition between places create a liminal, in-between feeling.",
+    "Pausing on the landing, she takes out the small red hairclip, holding it in her palm and listening to the quiet sounds of the building and the distant drizzle.",
+    "For a moment, the clip feels like a tiny, solid secret—a private point of stillness that resets the texture of the hour without needing to move forward or back."
+  ],
+  "sensoryFocus": "the cool, smooth metal of the hairclip against warm palm",
+  "sceneNotes": [
+    "Frame emphasizes the corridor's depth and the soft, diffused light from a window at the end of the hall.",
+    "Character is a small, still figure against the architectural lines of the stairwell, suggesting a pause between spaces.",
+    "A trace of rain streaks on a nearby windowpane, blurring the outside world into soft, grey shapes."
+  ],
+  "tone": [
+    "quiet_wonder"
+  ],
+  "captionFocus": [
+    "A small object held in a pause, becoming a brief, private anchor."
+  ],
+  "summary": "A quiet pause on a stairwell landing turns a small red hairclip into a momentary anchor for a soft, private reset.",
+  "errorMessage": ""
+}

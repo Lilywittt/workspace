@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "tactile_detail",
+      "caption": "手心被一小块方形硌到，才发现标签翻出来了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体触感切入，符合从细节开始的习惯"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_ritual",
+      "caption": "拿睡衣时，被一个硬硬的边角叫住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将动作赋予轻微仪式感，符合私密记录的语气"
+    },
+    {
+      "id": "caption_04",
+      "angle": "momentary_interruption",
+      "caption": "流程里忽然卡进一个触觉上的顿号。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "用标点比喻瞬间的打断，克制且形象"
+    },
+    {
+      "id": "caption_05",
+      "angle": "object_weight",
+      "caption": "标签一直都在，今天才第一次被手心收到。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "呼应hook，让普通物件获得私人重量"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

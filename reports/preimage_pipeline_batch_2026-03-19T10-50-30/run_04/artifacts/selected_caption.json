@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:55:45.249Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-54-55",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the lane pivot to life_record by centering the concrete micro-plot of returning a book, directly incorporates the required sensory detail of rain on an umbrella, and cleanly integrates the character's catchphrase for continuity. Its structure moves from action to feeling, providing a clear, publishable slice-of-life moment that feels fresh after a streak of selfies.",
+  "caption": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+  "hashtags": [
+    "#上海雨天",
+    "#还书日记",
+    "#轻中二日常",
+    "#生活记录",
+    "#日常碎片"
+  ],
+  "candidateAngle": "雨日仪式",
+  "candidateRationale": "以归还书籍这一具体动作为核心，构建从室内专注到户外宁静的过渡感，融入雨声的感官细节，并以角色口头禅收尾，符合微情节与氛围要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the lane pivot to life_record by centering the concrete micro-plot of returning a book, directly incorporates the required sensory detail of rain on an umbrella, and cleanly integrates the character's catchphrase for continuity. Its structure moves from action to feeling, providing a clear, publishable slice-of-life moment that feels fresh after a streak of selfies.",
+    "strengths": [
+      "Strong micro-plot: action (packing book, stepping out) leads clearly to feeling (soft reset).",
+      "Integrates sensory detail ('雨点敲在伞布上的声音') and the daily weather variable naturally.",
+      "Explicitly uses the character's catchphrase, aligning with continuity pressure.",
+      "Tone is gently reflective with light chunibyo ('柔软的句号'), fitting the brief.",
+      "Hashtag set is appropriate and avoids overused tags from recent history."
+    ],
+    "risks": [
+      "The opening line about packing a book is functional but could be perceived as slightly plain.",
+      "Must ensure the visual clearly shows the described action (book in bag, umbrella) to match."
+    ]
+  }
+}

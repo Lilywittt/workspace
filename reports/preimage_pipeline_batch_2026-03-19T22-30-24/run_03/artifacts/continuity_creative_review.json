@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:33:48.459Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'finding forgotten objects' to 'intentionally placing or arranging'",
+    "Use weather as 'texture_modifier' for a tactile, forward-looking mood"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel",
+    "Avoid 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a small, intentional act that feels like a gentle promise to tomorrow"
+  ],
+  "captionAdvice": [
+    "Use short sentences with one slightly longer breath about a tiny, forward-looking ritual"
+  ],
+  "imageAdvice": [
+    "Frame a partial presence shot focusing on hands and a simple object in a new location"
+  ],
+  "summary": "Propose a gentle, forward-looking life_record scene that shifts from rediscovery to intentional placement, using cool, drizzly weather as a tactile texture.",
+  "errorMessage": ""
+}

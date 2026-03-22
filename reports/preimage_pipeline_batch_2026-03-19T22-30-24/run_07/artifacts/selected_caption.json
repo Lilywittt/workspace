@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:41:36.331Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-40-31",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required scene elements with a fresh, publishable voice. It opens with a concrete sensory detail ('十度的雨夜，手有点空') that grounds the moment in the weather and character state, then cleanly executes the micro-plot from entering the light to choosing and carrying the object. The final line ('像携带了一小片安静的庇护所') delivers the 'shy_attachment' emotional landing with a light, private-ritual texture that feels intimate without being overwritten or slogan-like. It avoids the recent semantic fatigue of 'legacy_program' and 'accessory' by focusing on a new 'comfort_item' in a 'covered_walkway', aligning with the lane switch to life_record.",
+  "caption": "十度的雨夜，手有点空。\n从摊位暖黄的光里，选了这个小小的杯套。\n现在它被小心地放在包里，像携带了一小片安静的庇护所。",
+  "hashtags": [
+    "#廊下小摊",
+    "#携带温暖",
+    "#庇护所时刻",
+    "#春夜记录"
+  ],
+  "candidateAngle": "携带暖意",
+  "candidateRationale": "从体感和天气切入，描述‘选择-携带’的微情节，赋予普通物品‘庇护所’的隐秘意义，避免口号式收尾。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best balances the required scene elements with a fresh, publishable voice. It opens with a concrete sensory detail ('十度的雨夜，手有点空') that grounds the moment in the weather and character state, then cleanly executes the micro-plot from entering the light to choosing and carrying the object. The final line ('像携带了一小片安静的庇护所') delivers the 'shy_attachment' emotional landing with a light, private-ritual texture that feels intimate without being overwritten or slogan-like. It avoids the recent semantic fatigue of 'legacy_program' and 'accessory' by focusing on a new 'comfort_item' in a 'covered_walkway', aligning with the lane switch to life_record.",
+    "strengths": [
+      "Strong opening with sensory and weather detail that feels immediate and real",
+      "Clear, linear micro-plot that matches the action kernel 'choose_pay_carry_back'",
+      "Emotional landing ('庇护所') is intimate, gentle, and forward-looking without being melodramatic",
+      "Avoids repetitive semantic patterns (legacy_program, accessory) from recent history",
+      "Tone is consistently gentle and private, fitting the persona's 'light chunibyo' and 'shyly_forward-looking' directive"
+    ],
+    "risks": [
+      "The metaphor '庇护所' (shelter/refuge) could be slightly heavy if read without the surrounding gentle context",
+      "Slightly less overt 'tiny omen' texture compared to candidate 01's '约定' (promise), but this keeps it more publishable and less internally dramatic"
+    ]
+  }
+}

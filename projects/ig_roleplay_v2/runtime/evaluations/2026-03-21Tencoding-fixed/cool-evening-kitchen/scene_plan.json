@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen",
+  "createdAt": "2026-03-21T10:42:04.657Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "cool cloudy evening",
+    "locationName": "Shanghai",
+    "routineWindow": "evening_reset"
+  },
+  "narrative": {
+    "premise": "她只是把杯子放回架子上，却因为杯沿上残留的一圈水痕停了一下。",
+    "microPlot": [
+      "傍晚回家后，她准备把用过的杯子放好。",
+      "拿起杯子时，手指触碰到杯沿一圈未干的水痕。",
+      "那一瞬间的凉意和触感让她动作顿住，目光落在杯沿上。",
+      "她没有立刻擦掉，只是看着，然后才把杯子放回原处。"
+    ],
+    "sensoryFocus": "傍晚家中一个真实的、非戏剧性的停顿瞬间。",
+    "emotionalLanding": "指尖那圈微凉、具体的水痕，把她拉回了此刻的物理现实，心里有了一瞬间的“哦，在这里”。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "她拿着杯子的手部特写，能看到杯沿的水痕。",
+      "她的侧脸或低垂的视线，正看着杯沿。",
+      "傍晚室内柔和的光线，勾勒出杯子和她手指的轮廓。"
+    ],
+    "sceneNotes": [
+      "context: home_evening_reset",
+      "weather: cool cloudy evening",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_home_evening_reset",
+      "weather_cloudy"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": "",
+    "activeExternalEventIds": []
+  }
+}

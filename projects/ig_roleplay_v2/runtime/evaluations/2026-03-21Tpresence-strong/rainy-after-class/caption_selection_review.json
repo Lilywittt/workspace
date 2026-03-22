@@ -1,0 +1,15 @@
+{
+  "selectedCandidateId": "caption_01",
+  "reasonZh": "这一条最像角色会真的发出来的话。",
+  "strengthsZh": [
+    "具体",
+    "自然"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

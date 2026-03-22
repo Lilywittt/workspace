@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "tactile_detail",
+      "caption": "指尖停在纸页边缘，像碰到了一个安静的开关。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从具体的触感切入，赋予日常动作轻微的仪式感。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "internal_pause",
+      "caption": "只是整理一下，却突然停住了。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "简洁陈述动作与停顿的因果，留下空白让读者想象。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "momentary_weight",
+      "caption": "纸页的边缘，今天摸起来有点不一样。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "将注意力聚焦于普通物体上突然感知到的微妙差异。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "breath_length",
+      "caption": "下午三点的阳光很淡，手指碰到纸页，忽然就不想继续翻过去了。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "融入环境氛围，用稍长的句子描绘一个完整的、私密的停顿弧线。"
+    },
+    {
+      "id": "caption_05",
+      "angle": "implied_why",
+      "caption": "停在这里，大概是因为这一页的空白刚刚好。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "给出一个似是而非的、私人的理由，暗示而非解释停顿的原因。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

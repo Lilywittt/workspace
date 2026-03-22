@@ -1,0 +1,30 @@
+{
+  "date": "2026-03-17",
+  "location": {
+    "name": "Shanghai",
+    "latitude": 31.22222,
+    "longitude": 121.45806,
+    "timezone": "Asia/Shanghai"
+  },
+  "weather": {
+    "temperature_c": 10.4,
+    "weather_code": 61,
+    "wind_speed_kmh": 10.8,
+    "precipitation_mm": 0,
+    "summary": "小雨"
+  },
+  "news": [
+    {
+      "title": "news_fetch_failed: HTTP 429",
+      "url": null,
+      "source": null,
+      "seendate": null
+    }
+  ],
+  "trends": [
+    "news fetch failed"
+  ],
+  "notes": [
+    "signals由 update_signals.js 自动生成"
+  ]
+}

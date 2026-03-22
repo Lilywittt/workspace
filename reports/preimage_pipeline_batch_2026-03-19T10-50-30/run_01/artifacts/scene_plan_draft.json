@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:50:57.985Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a day of light rain, the evening finds her in her room, carefully sorting through a small collection of colorful stickers she's been saving, each one a tiny memory or a future promise.",
+  "microPlot": [
+    "The quiet, damp evening after the rain makes indoor activities feel cozy and intentional.",
+    "She spreads the stickers on her desk, organizing them by color and theme under the warm glow of her desk lamp.",
+    "A small, satisfied smile forms as she picks out a favorite—a tiny star—and presses it onto the corner of her notebook."
+  ],
+  "sensoryFocus": "warm lamplight on glossy paper, the soft peel-and-stick sound",
+  "sceneNotes": [
+    "Medium shot focused on hands and desk surface",
+    "Desk lamp casting a warm, focused pool of light",
+    "Scatter of colorful stickers, some partially peeled",
+    "Notebook with a few already-placed stickers visible",
+    "Faint reflection of window with raindrops in background",
+    "Small red hairclip catching the light"
+  ],
+  "tone": [
+    "gentle",
+    "focused",
+    "playful"
+  ],
+  "captionFocus": [
+    "The quiet pleasure of organizing small, beautiful things"
+  ],
+  "summary": "A cozy evening moment of sorting and placing colorful stickers, capturing a small, tangible joy.",
+  "errorMessage": ""
+}

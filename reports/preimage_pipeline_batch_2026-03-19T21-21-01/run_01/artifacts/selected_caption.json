@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:22:34.820Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-21-37",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best balances the required private ritual energy with a fresh, publishable voice. It avoids the more common 'closing the day' metaphor of candidate 01 and the slightly abstract 'closing a loop' of candidate 03, instead offering a novel, gentle literary comparison ('like an unfinished sentence') that fits the bookstore setting and the character's light chunibyo temperament. It delivers the sensory detail (cool metal, click sound) and the core action of return, landing with a quiet, satisfying 'period' that feels earned and personal without being melodramatic.",
+  "caption": "发现它的时候，它正躺在书架边缘，像一句没写完的句子。\n金属的凉意停在掌心，轻轻一按，笔芯回应了咔哒的轻响。\n把它送回该在的地方，这个动作本身，就成了今晚一个安静的句号。",
+  "hashtags": [
+    "#微小仪式感",
+    "#书店时光",
+    "#降温",
+    "#生活切片",
+    "#秩序感"
+  ],
+  "candidateAngle": "秩序的触感",
+  "candidateRationale": "将铅笔比作‘没写完的句子’，归还动作则成为‘句号’，赋予普通物件隐秘的叙事性，同时保持了日常观察的质地。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best balances the required private ritual energy with a fresh, publishable voice. It avoids the more common 'closing the day' metaphor of candidate 01 and the slightly abstract 'closing a loop' of candidate 03, instead offering a novel, gentle literary comparison ('like an unfinished sentence') that fits the bookstore setting and the character's light chunibyo temperament. It delivers the sensory detail (cool metal, click sound) and the core action of return, landing with a quiet, satisfying 'period' that feels earned and personal without being melodramatic.",
+    "strengths": [
+      "Fresh, scene-appropriate metaphor ('like an unfinished sentence') that avoids semantic fatigue",
+      "Strong integration of sensory detail (cool metal, click) and the core 'return' action",
+      "Ending ('a quiet period') provides gentle_order landing without being a fixed slogan",
+      "Tone is gentle, private, and subtly literary, fitting the persona perfectly"
+    ],
+    "risks": [
+      "Slightly more abstract opening line compared to the direct scene-setting of candidate 01",
+      "Metaphor could be perceived as faintly pretentious if not grounded by the concrete action that follows"
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:45:09.212Z",
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class",
+  "scenarioId": "rainy-after-class",
+  "mode": "zero_memory_agent",
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  },
+  "selectedMoment": {
+    "candidateId": "event_03",
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "caption_01",
+    "candidateAngle": "concrete_action_start"
+  }
+}

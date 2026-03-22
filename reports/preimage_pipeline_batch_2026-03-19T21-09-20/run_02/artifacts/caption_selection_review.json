@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:12:07.703Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-11-18",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best balances the scene's sensory focus, the required forward-leaning ritual, and freshness against continuity. It opens with the weather as a texture modifier, directly integrates the key sensory detail of cool metal, and personifies the action as a 'rescue' with a light chunibyo touch. The invented internal 'click' sound for things returning to place is a strong, publishable private-omen moment that feels like a note to the future self, avoiding the overused 'soft observation' ending while staying grounded.",
+  "strengths": [
+    "Strong sensory opening that uses weather as a texture modifier, aligning with the scene plan.",
+    "Personifies the action ('救起') with a light, forward-leaning chunibyo energy.",
+    "Creates a memorable, intimate 'click' metaphor for internal order, fitting the gentle_order landing.",
+    "Avoids repetitive semantic patterns like '微小的句点' or '世界归位' seen in other candidates.",
+    "Feels like a fresh, believable private ritual without being melodramatic."
+  ],
+  "risks": [
+    "The phrase '在心里' could be slightly abstract, though it's anchored by the preceding concrete action.",
+    "Slightly less direct about the 'ceramic dish' destination compared to candidate 01."
+  ],
+  "errorMessage": ""
+}

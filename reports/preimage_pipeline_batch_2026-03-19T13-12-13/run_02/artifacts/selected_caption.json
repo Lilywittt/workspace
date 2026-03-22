@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:14:41.749Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-13-50",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the brief by weaving sensory detail ('金属的微凉', '清脆的咔哒声'), the daily variable (Shanghai's 10.4°C rain), and the full micro-plot into a cohesive, gentle narrative. It explicitly treats the pattern as a private ritual with '轻中二' weight ('给这个无意义的图案一点私人的意义') while directly echoing the continuity catchphrase, making it the most publishable and complete option that fits the life_record lane shift.",
+  "caption": "整理旧物时，翻出一盒混色的回形针。把它们按颜色分开，在笔记本的空白处摆成一个小小的星形。指尖触到金属的微凉，听见它们碰撞时清脆的咔哒声。窗外是上海淅淅沥沥的雨，10.4度的空气很安静。给这个无意义的图案一点私人的意义，今日也应当明亮而鲜活。",
+  "hashtags": [
+    "#生活碎片",
+    "#桌面仪式",
+    "#轻中二日常",
+    "#文具小确幸",
+    "#感官记录"
+  ],
+  "candidateAngle": "感官仪式",
+  "candidateRationale": "从触觉和听觉的感官细节切入，将整理回形针描述为赋予无意义之物私人意义的安静仪式，呼应了‘轻中二’和‘私人仪式感’，并自然融入天气和地点。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the brief by weaving sensory detail ('金属的微凉', '清脆的咔哒声'), the daily variable (Shanghai's 10.4°C rain), and the full micro-plot into a cohesive, gentle narrative. It explicitly treats the pattern as a private ritual with '轻中二' weight ('给这个无意义的图案一点私人的意义') while directly echoing the continuity catchphrase, making it the most publishable and complete option that fits the life_record lane shift.",
+    "strengths": [
+      "Integrates all required elements: sensory detail, weather, and clear cause-action-feeling plot.",
+      "Strong 'light chunibyo' tone by assigning private meaning to an ordinary action.",
+      "Directly links to the character's catchphrase for continuity.",
+      "Uses concrete, intimate language that feels grounded and non-commercial."
+    ],
+    "risks": [
+      "Slightly more explicit in stating the 'private meaning' than other candidates, which could verge on over-explaining for some readers.",
+      "Hashtag #感官记录 is less common and may not perform as well as more standard tags."
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:33:59.631Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-32-45",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required elements of the scene: it integrates the weather (10.4°C rain) and sensory detail (old paper scent) naturally, follows the micro-plot of repair and return without over-dramatizing, and lands with a gentle, publishable observation ('一种很轻的秩序感'). It avoids the overt 'secret contract' metaphor of candidate 03, which risks feeling too performative, and is more atmospheric and complete than candidate 01, which is strong on action but lighter on scene-setting. The tone is grounded, intimate, and fits the life_record lane's need for daily-life texture with a light, private-ritual touch.",
+  "caption": "10.4度的雨让书店成了避风港。手指在做一件很小的事：把一支笔修好，然后物归原处。空气里有旧纸的木头味，完成时，窗上的雨滴正好滑到底部。一种很轻的秩序感。",
+  "hashtags": [
+    "#生活切片",
+    "#春日微寒",
+    "#物归原处",
+    "#细节仪式"
+  ],
+  "candidateAngle": "雨与秩序的切片",
+  "candidateRationale": "整合了天气、感官细节和微情节（雨滴计时），将日常修复提升为一种‘轻秩序感’，避免夸张。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This candidate best balances the required elements of the scene: it integrates the weather (10.4°C rain) and sensory detail (old paper scent) naturally, follows the micro-plot of repair and return without over-dramatizing, and lands with a gentle, publishable observation ('一种很轻的秩序感'). It avoids the overt 'secret contract' metaphor of candidate 03, which risks feeling too performative, and is more atmospheric and complete than candidate 01, which is strong on action but lighter on scene-setting. The tone is grounded, intimate, and fits the life_record lane's need for daily-life texture with a light, private-ritual touch.",
+    "strengths": [
+      "Seamlessly weaves weather, sensory detail, and micro-plot into a cohesive slice-of-life moment",
+      "Ends with a soft, observant landing ('一种很轻的秩序感') that feels fresh and avoids slogan fatigue",
+      "Uses concrete details (temperature, scent, rain droplet) to create a believable, immersive scene",
+      "Maintains a gentle, private tone that fits the character's 'quietly reads small omens' temperament"
+    ],
+    "risks": [
+      "The phrase '物归原处' is slightly literal, but its simplicity fits the 'gentle order' theme",
+      "Slightly less overt 'chunibyo' flavor than candidate 03, but this keeps it more publishable and less theatrical"
+    ]
+  }
+}

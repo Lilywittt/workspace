@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:06:27.864Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on an object or small action, not a face-forward selfie",
+    "Shift to a wider scene or environmental detail"
+  ],
+  "avoidMotifs": [
+    "Avoid starting captions with weather observations like '窗外的小雨' or '今天的风'",
+    "Avoid overusing #上海, #日常, #自拍, #小确幸"
+  ],
+  "narrativeNudges": [
+    "Introduce a small, private ritual or a minor decision made today"
+  ],
+  "captionAdvice": [
+    "Use a short, concrete opening about a specific object or minor action",
+    "Include one sensory detail (touch, sound, light) beyond just sight"
+  ],
+  "imageAdvice": [
+    "Frame a detail of a personal item or a partial view of a scene",
+    "Use natural, indirect lighting to match the gentle, observant mood"
+  ],
+  "summary": "Shift from consecutive selfies to a life_record that observes a small, meaningful detail in the environment.",
+  "errorMessage": ""
+}

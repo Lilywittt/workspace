@@ -1,0 +1,84 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:12:35.798Z",
+  "sourceCandidateId": "event_01",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "下午整理旧笔记，翻到一页边缘被水浸过又干透的痕迹，手指停在那里，想起是去年夏天某次下雨时放在窗边忘了收。",
+    "hookWhyInterestingZh": "它只是一个物理痕迹，但今天被看见了，像时间自己留下的一个标点。",
+    "causalChainZh": [
+      "只是想把散乱的笔记理一理。",
+      "翻到那一页，边缘的纸皱得有点特别。",
+      "手指摸上去，突然想起它为什么变成这样。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_weekend_pause_window",
+        "window_afternoon_pause",
+        "weather_clear"
+      ],
+      "inferredDetailsZh": [
+        "笔记是旧的，但今天才注意到这个细节。",
+        "天气是晴到多云，但想起的是过去的雨。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "外界关于旧书纸张、微小日常的讨论，可能让今天更容易注意到这类细节"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "只是想整理一下，让下午的时间有点事做。",
+    "after": "那个皱痕突然把去年夏天的某个瞬间拉回来了半秒。",
+    "whyPostToday": "有一个瞬间短暂地值得留下。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "weekend_pause_window",
+    "routineWindow": "afternoon_pause",
+    "weather": "晴到多云",
+    "minimalBounds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear",
+      "identity_stability"
+    ]
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "whyShareableZh": "它具体，有触感，但没有被解释成什么大道理，只是一块被注意到的过去。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "笔记本摊开的那一页",
+      "纸张边缘不规则的皱痕",
+      "手指停在皱痕上的瞬间"
+    ],
+    "mayShow": [
+      "quiet bookstore aisle is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

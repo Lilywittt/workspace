@@ -1,0 +1,81 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理触发清晰（手碰到硬角）",
+        "情感转折由具体日期巧合驱动",
+        "图文同源性强（票根、手指、雨窗）",
+        "细节顽固且普通（皱票根）"
+      ],
+      "risksZh": [
+        "需确保视觉细节不滑向唯美摆拍"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 79,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "发现位置不合理（窗缝）有生活感",
+        "触感细节（凉凉的）具体"
+      ],
+      "risksZh": [
+        "纽扣作为物品易被装饰化",
+        "‘失而复得’叙事稍显模板"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 82,
+      "groundingScore": 79,
+      "postabilityScore": 78,
+      "coherenceScore": 81,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "磨损发现非常日常且顽固",
+        "从触觉（粗糙感）到视觉的转折自然"
+      ],
+      "risksZh": [
+        "情感转向‘缓慢坏掉’可能稍显刻意",
+        "视觉上铜丝特写需避免艺术化"
+      ],
+      "verdict": "good"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 76,
+      "groundingScore": 74,
+      "postabilityScore": 75,
+      "coherenceScore": 77,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "折痕作为物理证据很坚实",
+        "‘无法解读的记号’符合私人感"
+      ],
+      "risksZh": [
+        "动作（抚平）可能流于氛围",
+        "笔记本作为道具易陷入常见盆地"
+      ],
+      "verdict": "acceptable"
+    }
+  ],
+  "summaryZh": "审查完成。event_01 在触发具体性、情感因果和图文同源性上表现最佳，最贴近角色‘被细节牵住’的安静瞬间。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

@@ -1,0 +1,108 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:08:24.445Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-08-03",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, private moment in a library hallway after hours. The focus is on finding a lost button, treating it as a small, secret artifact that briefly holds the weight of an unknown story. The caption should feel like a soft, observational note to self, blending tactile details with a light chunibyo sense of mystery, without resolving the feeling.",
+  "audienceFeeling": "A gentle, lingering curiosity about small, lost things.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Short sentences with one occasional longer breath.",
+    "Light chunibyo flavor—intimate, not theatrical.",
+    "Soft endings, gentle trailing tones, or soft self-address.",
+    "Like a private note to self or future self.",
+    "Ordinary language with one small 'secret meaning' beat.",
+    "Start with the tactile sensation of the found object.",
+    "Mention the quiet, empty setting indirectly.",
+    "Use a short, simple sentence to establish the moment.",
+    "The pale blue button and its cool, smooth texture.",
+    "The faint hum of the water cooler or scent of floor cleaner.",
+    "A trace of the character (e.g., a red hairclip, a sleeve edge, a shadow).",
+    "A gentle, unanswered question about where lost small things belong.",
+    "The daily variable: light rain in Shanghai, about 10.4°C."
+  ],
+  "contentBlocks": {
+    "premise": "In the quiet, fluorescent-lit hallway of a library after hours, a loose button found on the floor becomes a tiny, misplaced artifact. For a moment, it feels like a secret message left behind, a small weight in the palm that connects to no one and everyone.",
+    "microPlot": [
+      "Finding a single, pale blue button on the linoleum near the water cooler.",
+      "Picking it up and rolling it between thumb and forefinger, feeling its cool, smooth surface.",
+      "A quiet, unnamed feeling of holding a story that isn't hers, a small secret the hallway kept."
+    ],
+    "sensoryFocus": "the cool, smooth ceramic of the button; the faint hum of the water cooler; the sharp, clean scent of floor cleaner.",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observational",
+      "intimate",
+      "slightly_unresolved"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A caption about finding a lost button in a library hallway, turning it into a brief, intimate ritual of connection and release, told through tactile details and a gentle, unresolved tone.",
+    "hashtagAngles": [
+      "Life record or slice-of-life angle (e.g., #生活碎片).",
+      "Weather or mood angle (e.g., #小雨日记).",
+      "Object or detail focus (e.g., #纽扣).",
+      "Library or quiet space angle (e.g., #图书馆时刻).",
+      "Optional: subtle chunibyo or mystery angle (e.g., #小小暗号)."
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。",
+    "blockedPhrases": [
+      "Today should still feel bright and alive.",
+      "bright and alive",
+      "今天也要明亮地活着",
+      "今天应该也明亮地活着",
+      "明亮而鲜活",
+      "明亮地活着"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Today should still feel bright and alive.",
+    "bright and alive",
+    "今天也要明亮地活着",
+    "今天应该也明亮地活着",
+    "明亮而鲜活",
+    "明亮地活着",
+    "Direct eye contact with the camera or face-forward selfie tone.",
+    "Commercial, poetic-for-poetry's-sake, or brand-deck language.",
+    "Fixed slogan endings or repeated signature sentences.",
+    "Legacy blocked phrases like 'bright and alive' or their Chinese equivalents.",
+    "Inventing new plot beats beyond the micro-plot."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

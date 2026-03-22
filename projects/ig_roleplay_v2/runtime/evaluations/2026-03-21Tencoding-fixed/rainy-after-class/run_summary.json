@@ -1,0 +1,131 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:45:54.870Z",
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class",
+  "mode": "zero_memory_agent",
+  "scenarioId": "rainy-after-class",
+  "dayContext": {
+    "isoDate": "2026-03-21",
+    "routineWindow": "after_class",
+    "weather": "light rain",
+    "currentContext": "school_transition_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "trending_topics",
+      "city_trivia",
+      "anime_fandom",
+      "seasonal_culture",
+      "weather"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [],
+    "worldStateNotes": []
+  },
+  "characterState": {
+    "mood": "quiet, slightly softened by rain, noticing one small thing that feels different",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨声让一个普通的角落突然有了重量，想悄悄记下。"
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "走廊里，她的鞋带松了。系好站起来时，正好看见对面班级门上的玻璃窗，映出自己身后空荡走廊的一小段，被雨水打湿的窗框分割成几块。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "caption": {
+    "text": "鞋带松了。系好起身时，正好看见对面玻璃窗里，倒映着身后空荡的走廊，被雨天的窗框分割成几块。",
+    "hashtags": [
+      "#日常碎片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [],
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T10-45-47-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/6a/20260321/448165f2/dd3b294c-73c5-4ea8-aca3-1250554a788c210003950.png?Expires=1774695746&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=Cij5zWUIij4sLkaRg3CtlUCVxws%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

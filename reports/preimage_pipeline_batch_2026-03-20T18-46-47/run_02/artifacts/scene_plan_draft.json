@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:53.081Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_04",
+  "sceneProgramId": "transit_fragment_program",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "In the cool, drizzly early evening, a short wait at a station edge becomes a quiet, suspended moment. A folded shopping list, carried in a bag, isn't just an errand reminder; it's a small, tangible fragment of the day's ordinary intent, briefly held in the liminal space between here and there, becoming a quiet, keepable trace of a simple plan.",
+  "microPlot": [
+    "A folded shopping list, carried from a morning errand, rests at the bottom of a bag.",
+    "During a brief wait at a station platform edge, the list is noticed, its creases smoothed with a thumb in a small, absent gesture.",
+    "The simple act of holding this ordinary fragment in a place of transit makes the day's small intentions feel momentarily solid and quietly precious."
+  ],
+  "sensoryFocus": "the faint, dry rustle of paper against fabric",
+  "sceneNotes": [
+    "Character trace: a hand holding the list, edge of a sleeve or bag strap visible.",
+    "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces.",
+    "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs.",
+    "Action texture: thumb gently smoothing a crease, a pause in motion.",
+    "Object detail: list is slightly worn, one corner softened from being carried."
+  ],
+  "tone": [
+    "quietly_observant"
+  ],
+  "captionFocus": [
+    "A short, concrete sensory detail (the sound/feel of the paper).",
+    "A reflective observation about ordinary fragments becoming keepable in transit.",
+    "End with a soft, open-ended observation, not a promise or resolution."
+  ],
+  "summary": "A folded shopping list becomes a small, tangible anchor during a brief wait at a station edge, turning an ordinary transit fragment into a quietly keepable moment.",
+  "errorMessage": ""
+}

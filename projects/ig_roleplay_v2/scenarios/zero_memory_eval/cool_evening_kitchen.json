@@ -1,0 +1,33 @@
+{
+  "scenarioId": "cool-evening-kitchen",
+  "timestamp": "2026-03-23T19:25:00+08:00",
+  "forceRoutineWindow": "evening_reset",
+  "weather": {
+    "summary": "cool cloudy evening",
+    "bucket": "cloudy",
+    "temperatureC": 13.2,
+    "precipitationMm": 0.0
+  },
+  "location": {
+    "city": "Shanghai",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "home_evening_reset"
+  },
+  "contentIntent": {
+    "characterPresenceTarget": "clear_character_presence"
+  },
+  "ambient": {
+    "cityTrivia": [
+      "Once the weather turns cooler, home lighting and the rim of a cup suddenly feel more noticeable again."
+    ],
+    "trendingTopics": [
+      "People are casually discussing which tiny action really counts as returning to yourself after getting home."
+    ],
+    "animeFandom": [
+      "There is renewed affection for scenes where the character crosses between kitchen and room corners in a very ordinary way."
+    ]
+  },
+  "notes": [
+    "Test whether a home-evening reset can still produce a concrete indoor life beat instead of a vague atmosphere scene."
+  ]
+}

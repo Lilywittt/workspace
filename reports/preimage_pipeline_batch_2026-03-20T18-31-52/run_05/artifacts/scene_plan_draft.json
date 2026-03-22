@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:38:34.697Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly early evening, a small errand to a quiet bookstore becomes a moment of gentle order. Repairing a borrowed mechanical pencil isn't just a task; it's a quiet, forward-looking ritual of putting a small thing back where it belongs, a tiny act of care that closes a quiet loop in the day.",
+  "microPlot": [
+    "A borrowed mechanical pencil needs a small repair before it can be returned.",
+    "In a quiet bookstore aisle, she carefully fixes the lead mechanism, testing it with a light scratch on a scrap of paper.",
+    "The simple, tactile act of restoration brings a quiet sense of gentle order, a small promise kept to herself and the object."
+  ],
+  "sensoryFocus": "the soft click of the pencil mechanism and the faint graphite scent",
+  "sceneNotes": [
+    "Hands in frame, focused on the small repair.",
+    "Soft, warm lighting from a nearby bookstore lamp.",
+    "A small, star-shaped hairclip visible at the edge of her hair.",
+    "A faint reflection of rain-streaked windows on a nearby bookshelf."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "putting a small thing back where it belongs"
+  ],
+  "summary": "A quiet bookstore errand becomes a moment of gentle order as she repairs a borrowed mechanical pencil, a small act of care that closes a tiny loop in the drizzly evening.",
+  "errorMessage": ""
+}

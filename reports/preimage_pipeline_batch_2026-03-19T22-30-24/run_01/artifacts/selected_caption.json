@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:32:11.320Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-31-06",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by weaving concrete sensory details (rain sound, fabric texture) into a private, forward-looking ritual. It avoids overt self-encouragement or slogan endings, instead landing on a quiet, completed action ('现在可以安静地走回夜色里了') that perfectly captures the 'shy_attachment' emotional landing. The '秘密频率' metaphor is a light, believable touch of chunibyo that doesn't overwrite the daily-life texture, and the overall structure feels most like a private note to self, carrying the tiny comfort home as a quiet anchor.",
+  "caption": "听见雨敲廊顶的笃笃声，和指尖掠过布袋纤维的沙沙声，合成了一个秘密频率。\n用一点零钱换回一小团柔软的锚。\n好了，现在可以安静地走回夜色里了。",
+  "hashtags": [
+    "#静默交接",
+    "#触觉细节",
+    "#微小舒适",
+    "#夜晚漫步",
+    "#私人频率"
+  ],
+  "candidateAngle": "静默交接",
+  "candidateRationale": "从两种声音的并置创造‘秘密频率’的轻微中二感，将普通布袋视为‘锚’，以完成动作后的平静收尾，体现害羞的依恋与重置感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best fulfills the brief by weaving concrete sensory details (rain sound, fabric texture) into a private, forward-looking ritual. It avoids overt self-encouragement or slogan endings, instead landing on a quiet, completed action ('现在可以安静地走回夜色里了') that perfectly captures the 'shy_attachment' emotional landing. The '秘密频率' metaphor is a light, believable touch of chunibyo that doesn't overwrite the daily-life texture, and the overall structure feels most like a private note to self, carrying the tiny comfort home as a quiet anchor.",
+    "strengths": [
+      "Strong sensory opening with two distinct sounds creating an intimate 'secret frequency'",
+      "Perfectly captures the micro-plot: choose/pay (用一点零钱换回) -> carry back (走回夜色里)",
+      "Light chunibyo ('秘密频率', '柔软的锚') is subtle and persona-appropriate",
+      "Ending is a gentle, forward-looking completion, not a fixed slogan",
+      "Avoids repetition of recent openings and feels fresh against semantic history"
+    ],
+    "risks": [
+      "Slightly more abstract than other options; relies on reader connecting '锚' to the comfort/reset premise",
+      "The '秘密频率' metaphor, while light, could be seen as slightly fanciful for a pure life_record tone"
+    ]
+  }
+}

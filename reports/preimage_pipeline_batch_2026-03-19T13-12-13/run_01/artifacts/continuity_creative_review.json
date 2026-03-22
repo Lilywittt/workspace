@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:12:22.835Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift focus from self-portraits to the surrounding environment or objects",
+    "Introduce a subtle narrative of transition, like moving indoors or a change in activity"
+  ],
+  "avoidMotifs": [
+    "Repeating the 'window + weather' opening sentence structure"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a quiet pivot or a small discovery after the study session"
+  ],
+  "captionAdvice": [
+    "Use a caption that observes a detail in your immediate space, not the weather"
+  ],
+  "imageAdvice": [
+    "Compose a shot of hands, a desk item, or a cozy interior corner, not a face-forward selfie"
+  ],
+  "summary": "Maintain the intimate, reflective tone but pivot the camera's focus from self to setting for a fresh perspective.",
+  "errorMessage": ""
+}

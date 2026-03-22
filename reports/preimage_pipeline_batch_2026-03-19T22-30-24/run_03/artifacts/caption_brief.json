@@ -1,0 +1,177 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:34:25.422Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-34-06",
+  "goal": "将一次傍晚购买热可可的微小日常，转化为一条私密、带着轻微中二感的动态。重点不是描述事件，而是捕捉手持温热纸杯时，那份羞涩的依恋与对晚间自我的温柔承诺，让平凡物件带上一点秘密的重量。",
+  "audienceFeeling": "一种被微小温柔触动的共情",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: micro_purchase_program.",
+    "Keep the location archetype and object binding legible: covered_walkway / mug of cocoa.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "短句为主，偶尔穿插一句稍长的呼吸",
+    "句子结尾用轻柔的语气或轻微的自我对谈感",
+    "允许轻微中二，但必须像真实少女在发日常",
+    "更像给未来或过去的自己留一张小纸条",
+    "从触觉或环境细节切入，比如手心的温度或雨雾",
+    "用一句简短的自言自语或内心旁白开场",
+    "描述一个微小、专注的动作瞬间",
+    "手捧着温热纸杯的触感和重量",
+    "有顶棚的走道与外面小雨的声/雾感",
+    "交易时柜台灯光的柔和质感",
+    "将这个小行为视为一种羞涩的、私人的仪式",
+    "至少一个普通物件（如杯套、袋子）的细节"
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly late evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset.",
+    "microPlot": [
+      "The cool, damp air after a long day creates a quiet need for a small, tangible comfort.",
+      "She chooses and pays for a simple mug of cocoa at a small counter under a covered walkway, the transaction a brief, focused moment.",
+      "Carrying the warm cup back with her, she feels a shy attachment to this tiny, intentional act—a quiet promise to her evening self."
+    ],
+    "sensoryFocus": "the warm weight of the paper cup in cool hands",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "mug of cocoa"
+      ],
+      "actionKernel": "choose_pay_carry_back",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 22,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_intention"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "一个少女在雨夜的有顶棚走道买了一杯热可可，将这个微小行为视为给晚间自我的温柔承诺。",
+    "hashtagAngles": [
+      "上海小雨夜",
+      "微小的仪式感",
+      "手心的温度",
+      "晚间重置时刻",
+      "日常暗号"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "口号式的自我鼓励或励志结尾",
+    "将行为拔高为命运或宏大宣言",
+    "使用商业合作或营销口吻",
+    "脱离具体感官的抽象抒情"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

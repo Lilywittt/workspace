@@ -1,0 +1,270 @@
+{
+  "runIndex": 1,
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift focus from self-portraits to the surrounding environment or objects",
+      "Introduce a subtle narrative of transition, like moving indoors or a change in activity"
+    ],
+    "avoidMotifs": [
+      "Repeating the 'window + weather' opening sentence structure"
+    ],
+    "captionAdvice": [
+      "Use a caption that observes a detail in your immediate space, not the weather"
+    ],
+    "imageAdvice": [
+      "Compose a shot of hands, a desk item, or a cozy interior corner, not a face-forward selfie"
+    ],
+    "summary": "Maintain the intimate, reflective tone but pivot the camera's focus from self to setting for a fresh perspective."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+    "microPlot": [
+      "The last textbook is closed, leaving a sudden, soft silence in the room.",
+      "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+      "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+    ],
+    "sceneNotes": [
+      "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it.",
+      "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug.",
+      "A stack of closed textbooks and a single, abandoned highlighter with its cap off.",
+      "The red hairclip is the only bright color in the muted, warm tones of wood and paper.",
+      "Soft, shallow depth of field blurs the background, focusing on the clip and the hand."
+    ],
+    "captionFocus": [
+      "Observing the quiet weight of ordinary objects after focused work"
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+    "microPlot": [
+      "The last textbook is closed, leaving a sudden, soft silence in the room.",
+      "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+      "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+    ],
+    "sensoryFocus": "the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+    "concreteSceneCues": [
+      "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it",
+      "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug",
+      "A stack of closed textbooks and a single, abandoned highlighter with its cap off",
+      "The red hairclip is the only bright color in the muted, warm tones of wood and paper",
+      "Soft, shallow depth of field blurs the background, focusing on the clip and the hand",
+      "The last textbook is closed, leaving a sudden, soft silence in the room"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Capture the quiet, reflective moment after studying, where a forgotten red hairclip on the desk becomes a small, meaningful discovery. Convey a sense of gentle transition and private ritual, using sensory details and light chunibyo tone to make the ordinary feel faintly symbolic.",
+    "audienceFeeling": "A soft, intimate recognition of small daily wins",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\""
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "静谧的仪式感",
+      "opening": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+      "caption": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#上海雨天",
+        "#发现小确幸"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨日的微小预兆",
+      "opening": "窗外的雨声细碎，给结束的复习蒙上一层柔软的滤镜。在笔筒旁发现了它——一枚小小的红色发夹。旧木桌的气味里，它亮得像一个秘密的肯定。把东西一件件归位，也是把心情整理平整。",
+      "caption": "窗外的雨声细碎，给结束的复习蒙上一层柔软的滤镜。在笔筒旁发现了它——一枚小小的红色发夹。旧木桌的气味里，它亮得像一个秘密的肯定。把东西一件件归位，也是把心情整理平整。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#书桌日常",
+        "#发现小确幸"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触觉的转折点",
+      "opening": "从漫长的专注里浮上来，最先感受到的是桌面凉而光滑的纹理。然后，是这枚红色发夹。它卡在那里，仿佛时间特意留下的一个书签，标记着从‘必须完成’到‘可以感受’的微妙转折。",
+      "caption": "从漫长的专注里浮上来，最先感受到的是桌面凉而光滑的纹理。然后，是这枚红色发夹。它卡在那里，仿佛时间特意留下的一个书签，标记着从‘必须完成’到‘可以感受’的微妙转折。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#发现小确幸"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "静谧的仪式感",
+      "opening": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+      "caption": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#上海雨天",
+        "#发现小确幸"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨日的微小预兆",
+      "opening": "窗外的雨声细碎，给结束的复习蒙上一层柔软的滤镜。在笔筒旁发现了它——一枚小小的红色发夹。旧木桌的气味里，它亮得像一个秘密的肯定。把东西一件件归位，也是把心情整理平整。",
+      "caption": "窗外的雨声细碎，给结束的复习蒙上一层柔软的滤镜。在笔筒旁发现了它——一枚小小的红色发夹。旧木桌的气味里，它亮得像一个秘密的肯定。把东西一件件归位，也是把心情整理平整。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#书桌日常",
+        "#发现小确幸"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触觉的转折点",
+      "opening": "从漫长的专注里浮上来，最先感受到的是桌面凉而光滑的纹理。然后，是这枚红色发夹。它卡在那里，仿佛时间特意留下的一个书签，标记着从‘必须完成’到‘可以感受’的微妙转折。",
+      "caption": "从漫长的专注里浮上来，最先感受到的是桌面凉而光滑的纹理。然后，是这枚红色发夹。它卡在那里，仿佛时间特意留下的一个书签，标记着从‘必须完成’到‘可以感受’的微妙转折。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈时刻",
+        "#发现小确幸"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the brief by weaving the sensory detail of the cool hairclip with a light chunibyo metaphor ('a small, quiet period'), directly executes the micro-plot from closing the book to the discovery, and cleanly integrates the character's catchphrase as a natural, uplifting conclusion. It feels the most complete and publishable, balancing private ritual energy with daily-life texture without overcomplication.",
+    "strengths": [
+      "Strong sensory integration with tactile detail and poetic simile",
+      "Clear narrative arc from study end to discovery to feeling",
+      "Seamlessly incorporates the required character catchphrase",
+      "Tone is gently reflective with perfect light chunibyo weight"
+    ],
+    "risks": [
+      "Metaphor ('shape of silence') could feel slightly abstract to some",
+      "Slightly less explicit weather integration than candidate 02"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "静谧的仪式感",
+    "caption": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+    "hashtags": [
+      "#生活碎片",
+      "#书桌日常",
+      "#治愈时刻",
+      "#上海雨天",
+      "#发现小确幸"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by weaving the sensory detail of the cool hairclip with a light chunibyo metaphor ('a small, quiet period'), directly executes the micro-plot from closing the book to the discovery, and cleanly integrates the character's catchphrase as a natural, uplifting conclusion. It feels the most complete and publishable, balancing private ritual energy with daily-life texture without overcomplication."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it | The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug | A stack of closed textbooks and a single, abandoned highlighter with its cap off | The red hairclip is the only bright color in the muted, warm tones of wood and paper | Soft, shallow depth of field blurs the background, focusing on the clip and the hand | The last textbook is closed, leaving a sudden, soft silence in the room"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it, The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug, A stack of closed textbooks and a single, abandoned highlighter with its cap off, The red hairclip is the only bright color in the muted, warm tones of wood and paper, Soft, shallow depth of field blurs the background, focusing on the clip and the hand, The last textbook is closed, leaving a sudden, soft silence in the room, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, reflective, the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip",
+    "shotNotes": [
+      "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it",
+      "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug",
+      "A stack of closed textbooks and a single, abandoned highlighter with its cap off",
+      "The red hairclip is the only bright color in the muted, warm tones of wood and paper",
+      "Soft, shallow depth of field blurs the background, focusing on the clip and the hand",
+      "The last textbook is closed, leaving a sudden, soft silence in the room",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "78dbbe73ca31",
+    "selectedCaption": "0551ea29ca03",
+    "imageScene": "950a740ecbea",
+    "candidateAngles": "b2ca5ba1be59"
+  }
+}

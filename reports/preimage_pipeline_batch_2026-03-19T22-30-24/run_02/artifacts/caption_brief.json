@@ -1,0 +1,176 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:32:56.205Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-32-38",
+  "goal": "写一条关于在书店过道捡起并弄直一个回形针的日常动态。捕捉这个微小动作带来的私密仪式感和轻柔的秩序感，像给未来的自己留一张小纸条，而不是公开的宣告。",
+  "audienceFeeling": "一种被微小治愈触动的宁静",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / paper clip.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "短句为主，偶尔穿插一句稍长的呼吸",
+    "句尾用轻柔的语气或轻微的自我对话感",
+    "允许轻微中二，但保持真实发帖的质感",
+    "聚焦于手部动作、光线和雨声的细节",
+    "从触感或环境声音切入",
+    "描述发现回形针的瞬间",
+    "用一个短句建立当下的氛围",
+    "指尖感受到回形针金属变凉的触感",
+    "上海小雨和傍晚书店的安静背景",
+    "将弄直回形针描述为‘关上一个小小的、看不见的环’",
+    "动作完成后的轻微满足感"
+  ],
+  "contentBlocks": {
+    "premise": "In the quiet, drizzly late evening, a small, bent paper clip found on a bookstore aisle floor becomes a tiny, forward-looking ritual. Straightening it isn't just tidying; it's a quiet act of gentle order, a private promise to put one small thing back where it belongs before the day closes.",
+    "microPlot": [
+      "Finding a bent paper clip on the floor of a quiet bookstore aisle.",
+      "Carefully straightening it between her fingers, feeling the cool metal yield.",
+      "Feeling the quiet satisfaction of closing a tiny, invisible loop in the world."
+    ],
+    "sensoryFocus": "cool metal yielding under fingertips",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "paper clip"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 22,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "一个少女在雨夜的书店过道，通过弄直一枚回形针完成了一次私人的、带来轻柔秩序感的小小仪式。",
+    "hashtagAngles": [
+      "日常仪式感",
+      "微小治愈",
+      "书店时光",
+      "上海雨夜",
+      "轻柔秩序"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "将回形针比喻成命运或宏大象征",
+    "使用固定口号或自我鼓励式结尾",
+    "解释这个行为对世界的意义",
+    "商业合作或营销口吻"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

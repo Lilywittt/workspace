@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:16:32.609Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from passive discovery to a small, intentional action",
+    "Use weather as active texture, not just reflective support"
+  ],
+  "avoidMotifs": [
+    "Finding forgotten accessories on a desk"
+  ],
+  "narrativeNudges": [
+    "Frame a tiny errand as a forward-looking choice, not a nostalgic look back"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense, sensory observation of a small action"
+  ],
+  "imageAdvice": [
+    "Focus on a hand or partial presence interacting with a new object family"
+  ],
+  "summary": "Move from desk-bound rediscovery to a gentle, intentional micro-action in the cool evening.",
+  "errorMessage": ""
+}

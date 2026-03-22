@@ -1,0 +1,60 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:38:11.090Z",
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore",
+  "scenarioId": "clear-weekend-bookstore",
+  "mode": "zero_memory_agent",
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "fallback",
+      "promptName": "moment-generator-agent",
+      "error": "Model response JSON block was incomplete."
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  },
+  "selectedMoment": {
+    "candidateId": "event_01_paper_pause",
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "caption_01",
+    "candidateAngle": "concrete_action"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:43:52.882Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from indoor desk corners to a different quiet indoor space like a library nook or a cozy window seat",
+    "Try an action kernel that involves gentle movement or a small decision, like 'arrange_adjust_step_back' or 'choose_place_leave'"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel and 'accessory' object family due to overuse"
+  ],
+  "narrativeNudges": [
+    "Focus on a moment of quiet anticipation or a subtle shift in mood, rather than completion or memory"
+  ],
+  "captionAdvice": [
+    "Use a slightly more active or forward-looking opening, avoiding rain/weather descriptions if possible"
+  ],
+  "imageAdvice": [
+    "Frame to include a bit more environmental context, like a soft light source or a hint of outdoor view"
+  ],
+  "summary": "Maintain the gentle, private life_record lane but introduce freshness through a new indoor location and a less passive action.",
+  "errorMessage": ""
+}

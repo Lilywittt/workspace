@@ -1,0 +1,269 @@
+{
+  "runIndex": 3,
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Focus on a wider scene or activity, not a close-up selfie",
+      "Incorporate the current '小雨' weather as a background element, not the main subject"
+    ],
+    "avoidMotifs": [
+      "Repeating the 'drawing on a rainy window' or 'wind in hair' opening lines",
+      "Overusing hashtags #上海, #日常, #自拍, #小确幸"
+    ],
+    "captionAdvice": [
+      "Write from a slightly more observational, third-person-ish perspective",
+      "Mention the weather subtly as atmosphere, not the first line"
+    ],
+    "imageAdvice": [
+      "Use a medium shot showing environment and activity",
+      "Consider a still-life composition of objects related to the moment"
+    ],
+    "summary": "Shift from selfie close-ups to a scene-focused life_record that maintains the cozy, reflective mood but changes the framing."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+    "microPlot": [
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+      "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+      "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+    ],
+    "sceneNotes": [
+      "Medium shot from across the room, framing her in profile near a rain-streaked window.",
+      "Her small red hairclip is visible, catching a bit of the muted grey light.",
+      "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point.",
+      "The rest of the room is softly out of focus, suggesting a cozy, lived-in space.",
+      "Her expression is one of gentle, focused contemplation, not looking at the camera."
+    ],
+    "captionFocus": [
+      "The quiet ceremony of rediscovering little things the rain makes you remember."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+    "microPlot": [
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+      "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+      "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+    ],
+    "sensoryFocus": "the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+    "concreteSceneCues": [
+      "Medium shot from across the room, framing her in profile near a rain-streaked window",
+      "Her small red hairclip is visible, catching a bit of the muted grey light",
+      "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point",
+      "The rest of the room is softly out of focus, suggesting a cozy, lived-in space",
+      "Her expression is one of gentle, focused contemplation, not looking at the camera",
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a Chinese Instagram caption that captures a quiet, rainy afternoon spent arranging forgotten objects on a windowsill, blending gentle chunibyo with intimate daily texture. The caption should convey a private ritual feeling, focus on sensory details like the sound of rain and the touch of objects, and end with a soft, reflective note that feels personal and uncommercial.",
+    "audienceFeeling": "A quiet, cozy resonance",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\""
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Explicit world-building or theatrical chunibyo"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨声作伴的整理",
+      "opening": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。",
+      "caption": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\n一枚光滑的石头，一张褪色的票根，一只落单的耳环。\n指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。\n今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#被遗忘的小东西",
+        "#安静下午",
+        "#日常收藏"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物品的无声检阅",
+      "opening": "给窗台上的小物件们一次无声的检阅。",
+      "caption": "给窗台上的小物件们一次无声的检阅。\n雨点敲在玻璃上，成了唯一的背景音。\n它们不说话，但每一件都像藏着一个没讲完的句子。\n在这种潮湿的下午，连石头和纸片都显得很温柔。\n今天，应该也还是明亮而生动的一天吧。",
+      "hashtags": [
+        "#被遗忘的小东西",
+        "#上海阴天",
+        "#安静下午",
+        "#日常收藏"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触感的秘密仪式",
+      "opening": "发现触感也有自己的秘密仪式。",
+      "caption": "发现触感也有自己的秘密仪式。\n当雨让外面的一切变得模糊，指尖划过石头、纸片和金属的凉意却格外清晰。\n把它们在光线下排好，像举行一场只有自己知道的微小典礼。\n原来让一个下午变得鲜活的，不一定是阳光。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#日常收藏",
+        "#安静下午"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨声作伴的整理",
+      "opening": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。",
+      "caption": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\n一枚光滑的石头，一张褪色的票根，一只落单的耳环。\n指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。\n今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#被遗忘的小东西",
+        "#安静下午",
+        "#日常收藏"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物品的无声检阅",
+      "opening": "给窗台上的小物件们一次无声的检阅。",
+      "caption": "给窗台上的小物件们一次无声的检阅。\n雨点敲在玻璃上，成了唯一的背景音。\n它们不说话，但每一件都像藏着一个没讲完的句子。\n在这种潮湿的下午，连石头和纸片都显得很温柔。\n今天，应该也还是明亮而生动的一天吧。",
+      "hashtags": [
+        "#被遗忘的小东西",
+        "#上海阴天",
+        "#安静下午",
+        "#日常收藏"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触感的秘密仪式",
+      "opening": "发现触感也有自己的秘密仪式。",
+      "caption": "发现触感也有自己的秘密仪式。\n当雨让外面的一切变得模糊，指尖划过石头、纸片和金属的凉意却格外清晰。\n把它们在光线下排好，像举行一场只有自己知道的微小典礼。\n原来让一个下午变得鲜活的，不一定是阳光。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#日常收藏",
+        "#安静下午"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best balances the required elements of the scene plan and brief. It opens with a strong, sensory-driven cause ('雨声把世界调成了静音'), clearly executes the action of arranging objects, and concludes with a feeling that subtly integrates the character's catchphrase ('也明亮地存在一会儿吧'). It delivers the 'private ritual energy' with a gentle, non-commercial tone, avoids the recent '窗外的小雨...' opening, and its hashtag selection effectively supports the lane shift to life_record.",
+    "strengths": [
+      "Strong micro-plot structure with clear cause, action, feeling.",
+      "Excellent sensory grounding in sound and touch.",
+      "Integrates the daily variable (rain) naturally without dominating.",
+      "Ends with a soft, reflective note that echoes the catchphrase.",
+      "Avoids duplicate openings from recent history."
+    ],
+    "risks": [
+      "Slightly abstract phrase '被按了暂停的时光' could feel faintly overwritten.",
+      "Hashtag '#被遗忘的小东西' is used by two candidates, reducing novelty."
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "雨声作伴的整理",
+    "caption": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\n一枚光滑的石头，一张褪色的票根，一只落单的耳环。\n指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。\n今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+    "hashtags": [
+      "#小雨的仪式感",
+      "#被遗忘的小东西",
+      "#安静下午",
+      "#日常收藏"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best balances the required elements of the scene plan and brief. It opens with a strong, sensory-driven cause ('雨声把世界调成了静音'), clearly executes the action of arranging objects, and concludes with a feeling that subtly integrates the character's catchphrase ('也明亮地存在一会儿吧'). It delivers the 'private ritual energy' with a gentle, non-commercial tone, avoids the recent '窗外的小雨...' opening, and its hashtag selection effectively supports the lane shift to life_record."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Medium shot from across the room, framing her in profile near a rain-streaked window | Her small red hairclip is visible, catching a bit of the muted grey light | On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point | The rest of the room is softly out of focus, suggesting a cozy, lived-in space | Her expression is one of gentle, focused contemplation, not looking at the camera | cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Medium shot from across the room, framing her in profile near a rain-streaked window, Her small red hairclip is visible, catching a bit of the muted grey light, On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point, The rest of the room is softly out of focus, suggesting a cozy, lived-in space, Her expression is one of gentle, focused contemplation, not looking at the camera, cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, contemplative, the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+    "shotNotes": [
+      "Medium shot from across the room, framing her in profile near a rain-streaked window",
+      "Her small red hairclip is visible, catching a bit of the muted grey light",
+      "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point",
+      "The rest of the room is softly out of focus, suggesting a cozy, lived-in space",
+      "Her expression is one of gentle, focused contemplation, not looking at the camera",
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "ed88be53a8e6",
+    "selectedCaption": "0f2a97a199c9",
+    "imageScene": "a13631fe8a53",
+    "candidateAngles": "8afac1079087"
+  }
+}

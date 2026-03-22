@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:38:14.434Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'finding forgotten objects' to a small, intentional action with a new object family",
+    "Use weather as active texture (drizzle on surfaces, cool air) rather than just reflective support"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing 'indoor_desk_corner' or 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Frame a tiny, forward-looking ritual that isn't about memory or completion"
+  ],
+  "captionAdvice": [
+    "Start with a sensory detail about the cool, damp evening air or sound of light rain",
+    "End with a soft observation about a small, private intention rather than a completed feeling"
+  ],
+  "imageAdvice": [
+    "Show a partial presence—hands or an object in focus, with the rainy environment as a blurred background",
+    "Use cool, muted lighting to match the late evening drizzle"
+  ],
+  "summary": "After a streak of selfies, pivot to a life_record scene that feels like a quiet, forward-looking ritual in the cool, damp evening, avoiding repetitive discovery motifs.",
+  "errorMessage": ""
+}

@@ -1,0 +1,174 @@
+{
+  "version": "3.0.0-alpha.1",
+  "worldProfile": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "schoolLifeMode": "middle_school_slice_of_life"
+  },
+  "routineWindows": {
+    "school_day": [
+      "before_class",
+      "lunch_break",
+      "after_class",
+      "evening_reset"
+    ],
+    "weekend": [
+      "late_morning_outing",
+      "afternoon_pause",
+      "early_evening_errand",
+      "night_reset"
+    ]
+  },
+  "places": [
+    {
+      "id": "classroom_edge",
+      "label": "classroom edge",
+      "kind": "school_indoor",
+      "availabilityTags": ["school_day", "before_class", "after_class", "rain_ok"],
+      "physicalTraits": ["half packed bags", "desks not fully cleared", "indoor school lighting"],
+      "contextFacts": ["belongs to the school indoor zone", "reachable during before-class and after-class windows"]
+    },
+    {
+      "id": "stairwell_near_library",
+      "label": "stairwell near library",
+      "kind": "liminal_indoor",
+      "availabilityTags": ["school_day", "after_class", "rain_ok", "quiet_pause"],
+      "physicalTraits": ["echoed footsteps", "narrow landing space", "indoor transition area"],
+      "contextFacts": ["lies between classrooms and the library zone", "can appear on an after-class route"]
+    },
+    {
+      "id": "bookstore_aisle",
+      "label": "quiet bookstore aisle",
+      "kind": "public_indoor",
+      "availabilityTags": ["weekend", "afternoon_pause", "rain_ok", "clear_ok"],
+      "physicalTraits": ["paper texture", "shelf depth", "quiet indoor browsing space"],
+      "contextFacts": ["belongs to a weekend public indoor outing context", "plausible during an afternoon pause"]
+    },
+    {
+      "id": "covered_walkway",
+      "label": "covered walkway",
+      "kind": "semi_outdoor",
+      "availabilityTags": ["school_day", "weekend", "after_class", "afternoon_pause", "rain_ok"],
+      "physicalTraits": ["roofed passage", "weather audible nearby", "edge between indoor and outdoor space"],
+      "contextFacts": ["works as a shelter route when rain is present", "can be part of a school or neighborhood transition"]
+    },
+    {
+      "id": "station_edge",
+      "label": "station edge",
+      "kind": "public_transit",
+      "availabilityTags": ["school_day", "weekend", "after_class", "early_evening_errand", "clear_ok", "light_rain_ok"],
+      "physicalTraits": ["brief waiting zone", "transit signage nearby", "city movement passing through"],
+      "contextFacts": ["belongs to a short transit pause", "more likely during movement between places"]
+    },
+    {
+      "id": "kitchen_counter",
+      "label": "kitchen counter",
+      "kind": "home_indoor",
+      "availabilityTags": ["evening_reset", "night_reset", "cool_ok", "rain_ok", "clear_ok"],
+      "physicalTraits": ["countertop surface", "domestic light", "small home objects within reach"],
+      "contextFacts": ["belongs to a home reset window", "more plausible after returning home"]
+    },
+    {
+      "id": "desk_corner",
+      "label": "desk corner",
+      "kind": "home_indoor",
+      "availabilityTags": ["evening_reset", "night_reset", "rain_ok", "clear_ok"],
+      "physicalTraits": ["paper edges", "compact work surface", "stationery within reach"],
+      "contextFacts": ["belongs to a private home workspace", "plausible when winding down or resetting the day"]
+    },
+    {
+      "id": "window_seat",
+      "label": "window seat",
+      "kind": "home_indoor",
+      "availabilityTags": ["afternoon_pause", "evening_reset", "rain_ok", "clear_ok"],
+      "physicalTraits": ["light on nearby objects", "weather visible from inside", "seated indoor edge"],
+      "contextFacts": ["belongs to an indoor pause near a window", "plausible when weather is noticeable outside"]
+    }
+  ],
+  "objects": [
+    {
+      "id": "planner",
+      "family": "stationery",
+      "label": "planner",
+      "availabilityTags": ["school_day", "weekend", "portable"],
+      "physicalTraits": ["paper cover", "pocket or insert pages", "carried as a daily item"],
+      "usageFacts": ["often carried on school days", "can hold loose small paper items"]
+    },
+    {
+      "id": "mechanical_pencil",
+      "family": "stationery",
+      "label": "mechanical pencil",
+      "availabilityTags": ["school_day", "portable"],
+      "physicalTraits": ["small hand-held writing tool", "click adjustment", "easy to carry"],
+      "usageFacts": ["common during study windows", "plausible in any school-related setting"]
+    },
+    {
+      "id": "receipt_corner",
+      "family": "paper_fragment",
+      "label": "receipt corner",
+      "availabilityTags": ["portable", "rain_ok", "clear_ok"],
+      "physicalTraits": ["thin folded paper", "easy to leave inside pockets or pages", "small enough to be overlooked"],
+      "usageFacts": ["can appear as a leftover bag or pocket item", "often only noticed when sorting or opening something"]
+    },
+    {
+      "id": "pressed_leaf",
+      "family": "paper_fragment",
+      "label": "pressed leaf",
+      "availabilityTags": ["portable", "clear_ok", "rain_ok"],
+      "physicalTraits": ["fragile flat leaf", "kept inside paper or books", "visually delicate"],
+      "usageFacts": ["plausible as an old kept trace", "more likely noticed during browsing or sorting"]
+    },
+    {
+      "id": "bookmark",
+      "family": "keepsake",
+      "label": "bookmark",
+      "availabilityTags": ["portable", "bookstore_ok", "home_ok"],
+      "physicalTraits": ["thin page marker", "paper or card texture", "fits in books or planners"],
+      "usageFacts": ["plausible around books or paper items", "easy to carry unnoticed"]
+    },
+    {
+      "id": "small_red_hairclip",
+      "family": "accessory",
+      "label": "small red hairclip",
+      "availabilityTags": ["always"],
+      "physicalTraits": ["small red clip", "near hairline when worn", "easy to show as a trace cue"],
+      "usageFacts": ["belongs to the character's stable appearance", "can appear in both selfie and trace-led images"]
+    },
+    {
+      "id": "tea_sachet",
+      "family": "comfort_item",
+      "label": "tea sachet",
+      "availabilityTags": ["home_ok", "cool_ok", "rain_ok"],
+      "physicalTraits": ["small packet", "kitchen-adjacent item", "used for warm drinks"],
+      "usageFacts": ["more plausible at home", "more plausible in cool or rainy conditions"]
+    },
+    {
+      "id": "cup_sleeve",
+      "family": "comfort_item",
+      "label": "cup sleeve",
+      "availabilityTags": ["portable", "cool_ok", "rain_ok"],
+      "physicalTraits": ["cardboard sleeve", "used with takeaway drinks", "keeps a trace of recent warmth"],
+      "usageFacts": ["plausible during errands or transit", "more plausible in cool or rainy conditions"]
+    },
+    {
+      "id": "library_card",
+      "family": "bag_item",
+      "label": "library card",
+      "availabilityTags": ["school_day", "weekend", "portable"],
+      "physicalTraits": ["small flat card", "easy to keep in a wallet or pouch", "school-and-reading related item"],
+      "usageFacts": ["plausible in school or bookstore contexts", "portable enough to be carried daily"]
+    }
+  ],
+  "presenceModes": [
+    "full_selfie",
+    "partial_presence",
+    "wide_scene_with_character_trace"
+  ],
+  "visualTraceCues": [
+    "hand_with_object",
+    "sleeve_edge",
+    "hair_tip_or_red_hairclip",
+    "reflection_or_shadow_hint"
+  ]
+}

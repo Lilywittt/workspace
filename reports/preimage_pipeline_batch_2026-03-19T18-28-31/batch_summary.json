@@ -1,0 +1,841 @@
+{
+  "analysis": {
+    "runCount": 3,
+    "laneCounts": {
+      "life_record": 3
+    },
+    "presenceModeCounts": {
+      "wide_scene_with_character_trace": 3
+    },
+    "uniquePremiseCount": 3,
+    "uniqueSelectedCaptionCount": 3,
+    "uniqueImageSceneCount": 3,
+    "uniqueCandidateAngleSetCount": 3,
+    "motifFrequency": {
+      "desk": 3,
+      "lamp": 2,
+      "hairclip": 3,
+      "rain": 3,
+      "room": 3,
+      "study": 3,
+      "mug": 2
+    },
+    "allCreativeValidationReady": true
+  },
+  "runs": [
+    {
+      "runIndex": 1,
+      "scenePlanRunId": "sceneplan-2026-03-19T10-28-59",
+      "statuses": {
+        "continuityCreativeReview": "creative_review_ready",
+        "scenePlanDraft": "scene_plan_draft_ready",
+        "captionBriefDraft": "caption_brief_draft_ready",
+        "captionCandidatesAi": "caption_candidates_ai_ready",
+        "captionSelectionReview": "caption_selection_review_ready",
+        "creativeValidation": "creative_intelligence_ready"
+      },
+      "continuity": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "recentOpeningCount": 4,
+        "frequentHashtags": [
+          "#上海",
+          "#日常",
+          "#自拍",
+          "#小确幸",
+          "#雨天"
+        ]
+      },
+      "creativeReview": {
+        "freshnessTargets": [
+          "Shift focus from self-portrait to a detailed object or small scene",
+          "Introduce a subtle indoor or nighttime setting to contrast recent daytime/outdoor posts"
+        ],
+        "avoidMotifs": [
+          "Avoid opening lines about weather or window scenes",
+          "Avoid overusing #上海, #日常, #自拍, #小确幸"
+        ],
+        "captionAdvice": [
+          "Use a short sensory detail (touch, sound, light) to anchor the scene",
+          "End with a gentle, trailing thought, not a conclusive statement"
+        ],
+        "imageAdvice": [
+          "Compose a still-life or detail shot (e.g., a book, a cup, a shadow)",
+          "Use softer, indirect lighting to match a contemplative mood"
+        ],
+        "summary": "Move from selfies to a gentle life-record scene, focusing on a small object or quiet indoor moment with personal weight."
+      },
+      "scenePlanDraft": {
+        "requestedPresenceMode": "wide_scene_with_character_trace",
+        "narrativePremise": "A quiet evening at home after a day of study, where a small, ordinary object on the desk briefly feels like a tiny, personal omen for tomorrow.",
+        "microPlot": [
+          "The last bit of daylight fades, leaving the room in the glow of a single desk lamp.",
+          "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark.",
+          "A soft, private thought forms—a quiet wish for the morning, sealed with this tiny ritual."
+        ],
+        "sceneNotes": [
+          "Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow.",
+          "Notebook is slightly worn at the edges, with a few loose pages visible.",
+          "The small red hairclip rests precisely on the open page, catching a glint of the lamplight.",
+          "A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie."
+        ],
+        "captionFocus": [
+          "A quiet, sensory detail that anchors the private moment"
+        ]
+      },
+      "scenePlan": {
+        "lane": "life_record",
+        "presenceMode": "wide_scene_with_character_trace",
+        "premise": "A quiet evening at home after a day of study, where a small, ordinary object on the desk briefly feels like a tiny, personal omen for tomorrow.",
+        "microPlot": [
+          "The last bit of daylight fades, leaving the room in the glow of a single desk lamp.",
+          "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark.",
+          "A soft, private thought forms—a quiet wish for the morning, sealed with this tiny ritual."
+        ],
+        "sensoryFocus": "the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+        "concreteSceneCues": [
+          "Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow",
+          "Notebook is slightly worn at the edges, with a few loose pages visible",
+          "The small red hairclip rests precisely on the open page, catching a glint of the lamplight",
+          "A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie",
+          "The last bit of daylight fades, leaving the room in the glow of a single desk lamp",
+          "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark"
+        ],
+        "tone": [
+          "light chunibyo",
+          "gentle",
+          "private ritual energy",
+          "daily-life texture",
+          "non-commercial",
+          "contemplative"
+        ]
+      },
+      "captionBrief": {
+        "goal": "Write a caption that feels like a private note to future self, capturing a quiet evening moment where a small red hairclip on a notebook briefly becomes a personal omen for tomorrow. Use short sentences with one longer breath, blending daily texture with light chunibyo intimacy.",
+        "audienceFeeling": "A soft, shared secret about finding meaning in small things.",
+        "writingDirectives": [
+          "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+          "Do not sound commercial, promotional, or self-descriptive as an AI.",
+          "Use one small micro-plot: cause -> action -> feeling.",
+          "Include at least one concrete sensory detail.",
+          "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+          "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+          "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+          "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+        ],
+        "avoidList": [
+          "commercial tone",
+          "marketing language",
+          "AI self-reference",
+          "flat diary summary",
+          "repeating a recent opening line",
+          "不要固定口号式收尾"
+        ]
+      },
+      "captionCandidatesAi": [
+        {
+          "id": "ai_cand_01",
+          "angle": "物件仪式",
+          "opening": "台灯的光圈刚好圈住笔记本和那枚红色发夹。",
+          "caption": "台灯的光圈刚好圈住笔记本和那枚红色发夹。\n指尖碰了碰冰凉的金属，忽然觉得，它像个给明天的小小封印。\n雨声很轻，纸的味道很旧。\n晚安，上海。",
+          "hashtags": [
+            "#书桌仪式感",
+            "#生活碎片",
+            "#晚间独白",
+            "#少女心发现"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "感官切片",
+          "opening": "雨让夜晚变得很软。",
+          "caption": "雨让夜晚变得很软。\n翻开的笔记本，页角有点毛了，一枚红色发夹静静地压着字迹。\n摸了摸它，凉凉的，滑滑的——忽然希望明天也能被这样轻轻按住，不要散掉。\n10.4度的空气里，有一点纸的暖香。",
+          "hashtags": [
+            "#生活碎片",
+            "#上海日常",
+            "#书桌仪式感",
+            "#感官记录"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "静默暗号",
+          "opening": "在台灯的光晕里，给一枚红色发夹分配了秘密任务。",
+          "caption": "在台灯的光晕里，给一枚红色发夹分配了秘密任务。\n它现在不是发夹了，是书签，也是沉默的哨兵，看守着这一页未写完的夜晚。\n窗外雨丝划过玻璃的痕迹，像某种摩斯密码。\n我读懂了，但我不说。",
+          "hashtags": [
+            "#少女心发现",
+            "#晚间独白",
+            "#私密仪式",
+            "#生活隐喻"
+          ]
+        }
+      ],
+      "captionCandidatesValidated": [
+        {
+          "id": "ai_cand_01",
+          "angle": "物件仪式",
+          "opening": "台灯的光圈刚好圈住笔记本和那枚红色发夹。",
+          "caption": "台灯的光圈刚好圈住笔记本和那枚红色发夹。\n指尖碰了碰冰凉的金属，忽然觉得，它像个给明天的小小封印。\n雨声很轻，纸的味道很旧。\n晚安，上海。",
+          "hashtags": [
+            "#书桌仪式感",
+            "#生活碎片",
+            "#晚间独白",
+            "#少女心发现"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "感官切片",
+          "opening": "雨让夜晚变得很软。",
+          "caption": "雨让夜晚变得很软。\n翻开的笔记本，页角有点毛了，一枚红色发夹静静地压着字迹。\n摸了摸它，凉凉的，滑滑的——忽然希望明天也能被这样轻轻按住，不要散掉。\n10.4度的空气里，有一点纸的暖香。",
+          "hashtags": [
+            "#生活碎片",
+            "#上海日常",
+            "#书桌仪式感",
+            "#感官记录"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "静默暗号",
+          "opening": "在台灯的光晕里，给一枚红色发夹分配了秘密任务。",
+          "caption": "在台灯的光晕里，给一枚红色发夹分配了秘密任务。\n它现在不是发夹了，是书签，也是沉默的哨兵，看守着这一页未写完的夜晚。\n窗外雨丝划过玻璃的痕迹，像某种摩斯密码。\n我读懂了，但我不说。",
+          "hashtags": [
+            "#少女心发现",
+            "#晚间独白",
+            "#私密仪式",
+            "#生活隐喻"
+          ]
+        }
+      ],
+      "selectionReview": {
+        "selectedCandidateId": "ai_cand_02",
+        "reason": "This candidate best balances the required daily-life texture with the light, private symbolism requested by the brief. It opens with a sensory weather detail ('雨让夜晚变得很软') that naturally incorporates the daily variable, then moves concretely to the notebook and hairclip, using precise tactile description ('凉凉的，滑滑的') to ground the moment before the gentle, wishful turn ('忽然希望明天也能被这样轻轻按住'). It avoids theatrical fantasy, feels like a natural, whispered thought, and its structure—from external scene to intimate object to personal feeling—cleanly executes the micro-plot while maintaining a publishable, relatable tone.",
+        "strengths": [
+          "Strong sensory weave: integrates weather, touch, temperature, and smell organically.",
+          "Private wish feels earned and human-scale, not overwritten.",
+          "Flows naturally from observation to feeling, executing the micro-plot clearly.",
+          "Avoids recent opening patterns and fixed slogan endings."
+        ],
+        "risks": [
+          "Slightly more abstract than Candidate 01's '封印' metaphor.",
+          "The wish ('不要散掉') could be read as mildly anxious versus purely contemplative."
+        ]
+      },
+      "selectedCaption": {
+        "selectedCandidateId": "ai_cand_02",
+        "candidateAngle": "感官切片",
+        "caption": "雨让夜晚变得很软。\n翻开的笔记本，页角有点毛了，一枚红色发夹静静地压着字迹。\n摸了摸它，凉凉的，滑滑的——忽然希望明天也能被这样轻轻按住，不要散掉。\n10.4度的空气里，有一点纸的暖香。",
+        "hashtags": [
+          "#生活碎片",
+          "#上海日常",
+          "#书桌仪式感",
+          "#感官记录"
+        ],
+        "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required daily-life texture with the light, private symbolism requested by the brief. It opens with a sensory weather detail ('雨让夜晚变得很软') that naturally incorporates the daily variable, then moves concretely to the notebook and hairclip, using precise tactile description ('凉凉的，滑滑的') to ground the moment before the gentle, wishful turn ('忽然希望明天也能被这样轻轻按住'). It avoids theatrical fantasy, feels like a natural, whispered thought, and its structure—from external scene to intimate object to personal feeling—cleanly executes the micro-plot while maintaining a publishable, relatable tone."
+      },
+      "imageBrief": {
+        "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+        "faceVisibility": "optional_with_character_trace",
+        "presenceMode": "wide_scene_with_character_trace",
+        "requiredTraceCues": [
+          "hand_with_phone_or_drink",
+          "sleeve_or_outfit_edge",
+          "hair_tip_or_red_hairclip",
+          "reflection_shadow_or_mirror_hint",
+          "soft_anime_face",
+          "youthful_presence",
+          "small_red_hairclip",
+          "清瘦脸颊",
+          "平胸"
+        ],
+        "visualDirectives": [
+          "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+          "Bind the image to the selected caption opening: \"雨让夜晚变得很软。\"",
+          "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+          "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+          "Carry at least one sensory cue from the plan: the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+          "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+          "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+          "Make these scene cues legible in the frame: Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow | Notebook is slightly worn at the edges, with a few loose pages visible | The small red hairclip rests precisely on the open page, catching a glint of the lamplight | A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie | The last bit of daylight fades, leaving the room in the glow of a single desk lamp | Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark"
+        ]
+      },
+      "imageRequest": {
+        "generationMode": "anime_wide_scene_character_trace",
+        "scene": "Scene: light rain, wet pavement reflections, window droplets, cool damp air, slightly chilly, Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow, Notebook is slightly worn at the edges, with a few loose pages visible, The small red hairclip rests precisely on the open page, catching a glint of the lamplight, A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie, The last bit of daylight fades, leaving the room in the glow of a single desk lamp, Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark, everyday life in Shanghai",
+        "camera": "Camera: wide scene with readable character trace",
+        "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, contemplative, the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+        "shotNotes": [
+          "Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow",
+          "Notebook is slightly worn at the edges, with a few loose pages visible",
+          "The small red hairclip rests precisely on the open page, catching a glint of the lamplight",
+          "A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie",
+          "The last bit of daylight fades, leaving the room in the glow of a single desk lamp",
+          "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark",
+          "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+          "Keep character presence readable through traces, posture, or interaction with the scene."
+        ],
+        "referenceIds": [
+          "legacy_daily_style_001"
+        ]
+      },
+      "validation": {
+        "status": "creative_intelligence_ready",
+        "passedChecks": 70,
+        "warningCount": 0,
+        "errorCount": 0
+      },
+      "_signatures": {
+        "premise": "cfca8e305903",
+        "selectedCaption": "c6abb6b340c4",
+        "imageScene": "8b73e5aa2cd0",
+        "candidateAngles": "79c134edadda"
+      }
+    },
+    {
+      "runIndex": 2,
+      "scenePlanRunId": "sceneplan-2026-03-19T10-30-13",
+      "statuses": {
+        "continuityCreativeReview": "creative_review_ready",
+        "scenePlanDraft": "scene_plan_draft_ready",
+        "captionBriefDraft": "caption_brief_draft_ready",
+        "captionCandidatesAi": "caption_candidates_ai_ready",
+        "captionSelectionReview": "caption_selection_review_ready",
+        "creativeValidation": "creative_intelligence_ready"
+      },
+      "continuity": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "recentOpeningCount": 4,
+        "frequentHashtags": [
+          "#上海",
+          "#日常",
+          "#自拍",
+          "#小确幸",
+          "#雨天"
+        ]
+      },
+      "creativeReview": {
+        "freshnessTargets": [
+          "Focus on a small object or action, not a self-portrait",
+          "Shift from indoor/weather reflection to a deliberate small task or errand"
+        ],
+        "avoidMotifs": [
+          "Avoid opening with weather or window observations",
+          "Avoid hashtags #上海, #日常, #自拍, #小确幸"
+        ],
+        "captionAdvice": [
+          "Use a short sentence about a small action, then one slightly longer breath about its quiet significance"
+        ],
+        "imageAdvice": [
+          "Frame a detail of a task or object in hand, not a face"
+        ],
+        "summary": "Shift from selfie streak to a life_record of a small, intentional act with gentle personal weight."
+      },
+      "scenePlanDraft": {
+        "requestedPresenceMode": "wide_scene_with_character_trace",
+        "narrativePremise": "After a morning of studying, a small, deliberate act of tidying becomes a quiet ritual to clear the mind and reset the day's energy.",
+        "microPlot": [
+          "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk.",
+          "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup.",
+          "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts."
+        ],
+        "sceneNotes": [
+          "A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window.",
+          "The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover.",
+          "Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner."
+        ],
+        "captionFocus": [
+          "The quiet ceremony of putting things back in their place."
+        ]
+      },
+      "scenePlan": {
+        "lane": "life_record",
+        "presenceMode": "wide_scene_with_character_trace",
+        "premise": "After a morning of studying, a small, deliberate act of tidying becomes a quiet ritual to clear the mind and reset the day's energy.",
+        "microPlot": [
+          "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk.",
+          "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup.",
+          "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts."
+        ],
+        "sensoryFocus": "the faint, clean scent of wood polish on a cloth",
+        "concreteSceneCues": [
+          "A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window",
+          "The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover",
+          "Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner",
+          "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk",
+          "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup",
+          "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts"
+        ],
+        "tone": [
+          "light chunibyo",
+          "gentle",
+          "private ritual energy",
+          "daily-life texture",
+          "non-commercial",
+          "contemplative"
+        ]
+      },
+      "captionBrief": {
+        "goal": "Write a caption that turns the small act of tidying a study desk after morning work into a gentle, personal reset. Convey the quiet satisfaction of ordering physical space to clear mental clutter, using sensory details and a light chunibyo touch to make the mundane feel faintly meaningful, like a private ritual.",
+        "audienceFeeling": "A quiet, shared recognition of small comforts.",
+        "writingDirectives": [
+          "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+          "Do not sound commercial, promotional, or self-descriptive as an AI.",
+          "Use one small micro-plot: cause -> action -> feeling.",
+          "Include at least one concrete sensory detail.",
+          "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+          "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+          "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+          "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+        ],
+        "avoidList": [
+          "commercial tone",
+          "marketing language",
+          "AI self-reference",
+          "flat diary summary",
+          "repeating a recent opening line",
+          "不要固定口号式收尾"
+        ]
+      },
+      "captionCandidatesAi": [
+        {
+          "id": "ai_cand_01",
+          "angle": "触感与秩序",
+          "opening": "整理完书桌，指尖还留着木蜡布那点干净的松木香。",
+          "caption": "整理完书桌，指尖还留着木蜡布那点干净的松木香。\n把散落的笔记对齐，擦掉可可渍，一支笔回到笔筒。\n窗外的雨声很轻，但心里的某个角落，好像也这样被轻轻擦亮了。",
+          "hashtags": [
+            "#生活碎片",
+            "#整理心情",
+            "#书桌日记",
+            "#小仪式感",
+            "#上海"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "物件的小小复位",
+          "opening": "给早晨的混乱画一个句号。",
+          "caption": "给早晨的混乱画一个句号。\n笔记本边缘对齐的瞬间，发出很轻的‘嗒’一声。\n红发夹在整理好的桌角，像是一个安静的小小勋章。\n雨天的光线漫进来，一切都回到了它该在的位置。",
+          "hashtags": [
+            "#整理心情",
+            "#生活碎片",
+            "#小仪式感",
+            "#日常记录",
+            "#雨天"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "呼吸的间隙",
+          "opening": "学习暂告一段落，用整理书桌来换一口气。",
+          "caption": "学习暂告一段落，用整理书桌来换一口气。\n抹布擦过桌面，带走可可的痕迹和一点焦躁的毛边。\n此刻的满足很具体：所有东西各得其所，包括思绪。\n窗玻璃上雨痕蜿蜒，像某种无需解读的密文。",
+          "hashtags": [
+            "#书桌日记",
+            "#生活碎片",
+            "#整理心情",
+            "#上海日常",
+            "#治愈时刻"
+          ]
+        }
+      ],
+      "captionCandidatesValidated": [
+        {
+          "id": "ai_cand_01",
+          "angle": "触感与秩序",
+          "opening": "整理完书桌，指尖还留着木蜡布那点干净的松木香。",
+          "caption": "整理完书桌，指尖还留着木蜡布那点干净的松木香。\n把散落的笔记对齐，擦掉可可渍，一支笔回到笔筒。\n窗外的雨声很轻，但心里的某个角落，好像也这样被轻轻擦亮了。",
+          "hashtags": [
+            "#生活碎片",
+            "#整理心情",
+            "#书桌日记",
+            "#小仪式感",
+            "#上海"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "物件的小小复位",
+          "opening": "给早晨的混乱画一个句号。",
+          "caption": "给早晨的混乱画一个句号。\n笔记本边缘对齐的瞬间，发出很轻的‘嗒’一声。\n红发夹在整理好的桌角，像是一个安静的小小勋章。\n雨天的光线漫进来，一切都回到了它该在的位置。",
+          "hashtags": [
+            "#整理心情",
+            "#生活碎片",
+            "#小仪式感",
+            "#日常记录",
+            "#雨天"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "呼吸的间隙",
+          "opening": "学习暂告一段落，用整理书桌来换一口气。",
+          "caption": "学习暂告一段落，用整理书桌来换一口气。\n抹布擦过桌面，带走可可的痕迹和一点焦躁的毛边。\n此刻的满足很具体：所有东西各得其所，包括思绪。\n窗玻璃上雨痕蜿蜒，像某种无需解读的密文。",
+          "hashtags": [
+            "#书桌日记",
+            "#生活碎片",
+            "#整理心情",
+            "#上海日常",
+            "#治愈时刻"
+          ]
+        }
+      ],
+      "selectionReview": {
+        "selectedCandidateId": "ai_cand_01",
+        "reason": "This candidate best fulfills the brief by grounding the private ritual in a specific sensory detail (the clean scent of wood polish on a cloth) and weaving the micro-plot from clutter to action to a gentle, internal feeling of reset. It avoids a fixed slogan ending, instead trailing off with a light chunibyo touch ('a corner of the heart was gently wiped clean') that feels intimate and publishable, fitting the shift from a selfie streak to a contemplative life_record.",
+        "strengths": [
+          "Strong sensory anchor with the wood polish scent directly from the brief",
+          "Clear micro-plot progression (clutter -> tidying actions -> internal feeling)",
+          "Light chunibyo touch feels natural and intimate, not overwritten",
+          "Integrates the weather (light rain) subtly without dominating",
+          "Avoids repetitive openings and fixed, motivational endings"
+        ],
+        "risks": [
+          "The final metaphor ('wiped clean') is slightly abstract, though grounded by the preceding actions",
+          "Hashtag #上海 is frequent in recent history, but its use here is contextually appropriate"
+        ]
+      },
+      "selectedCaption": {
+        "selectedCandidateId": "ai_cand_01",
+        "candidateAngle": "触感与秩序",
+        "caption": "整理完书桌，指尖还留着木蜡布那点干净的松木香。\n把散落的笔记对齐，擦掉可可渍，一支笔回到笔筒。\n窗外的雨声很轻，但心里的某个角落，好像也这样被轻轻擦亮了。",
+        "hashtags": [
+          "#生活碎片",
+          "#整理心情",
+          "#书桌日记",
+          "#小仪式感",
+          "#上海"
+        ],
+        "selectionReason": "Selected by creative review plus novelty-aware scoring. score=105. review=This candidate best fulfills the brief by grounding the private ritual in a specific sensory detail (the clean scent of wood polish on a cloth) and weaving the micro-plot from clutter to action to a gentle, internal feeling of reset. It avoids a fixed slogan ending, instead trailing off with a light chunibyo touch ('a corner of the heart was gently wiped clean') that feels intimate and publishable, fitting the shift from a selfie streak to a contemplative life_record."
+      },
+      "imageBrief": {
+        "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+        "faceVisibility": "optional_with_character_trace",
+        "presenceMode": "wide_scene_with_character_trace",
+        "requiredTraceCues": [
+          "hand_with_phone_or_drink",
+          "sleeve_or_outfit_edge",
+          "hair_tip_or_red_hairclip",
+          "reflection_shadow_or_mirror_hint",
+          "soft_anime_face",
+          "youthful_presence",
+          "small_red_hairclip",
+          "清瘦脸颊",
+          "平胸"
+        ],
+        "visualDirectives": [
+          "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+          "Bind the image to the selected caption opening: \"整理完书桌，指尖还留着木蜡布那点干净的松木香。\"",
+          "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+          "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+          "Carry at least one sensory cue from the plan: the faint, clean scent of wood polish on a cloth",
+          "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+          "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+          "Make these scene cues legible in the frame: A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window | The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover | Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner | The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk | She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup | A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts"
+        ]
+      },
+      "imageRequest": {
+        "generationMode": "anime_wide_scene_character_trace",
+        "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window, The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover, Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner, The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk, She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup, A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts, everyday life in Shanghai",
+        "camera": "Camera: wide scene with readable character trace",
+        "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, contemplative, the faint, clean scent of wood polish on a cloth",
+        "shotNotes": [
+          "A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window",
+          "The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover",
+          "Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner",
+          "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk",
+          "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup",
+          "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts",
+          "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+          "Keep character presence readable through traces, posture, or interaction with the scene."
+        ],
+        "referenceIds": [
+          "legacy_daily_style_001"
+        ]
+      },
+      "validation": {
+        "status": "creative_intelligence_ready",
+        "passedChecks": 70,
+        "warningCount": 0,
+        "errorCount": 0
+      },
+      "_signatures": {
+        "premise": "9d79d43d4dcf",
+        "selectedCaption": "b71f267b64b8",
+        "imageScene": "3879d77bd5f8",
+        "candidateAngles": "2a7763aa6c32"
+      }
+    },
+    {
+      "runIndex": 3,
+      "scenePlanRunId": "sceneplan-2026-03-19T10-31-25",
+      "statuses": {
+        "continuityCreativeReview": "creative_review_ready",
+        "scenePlanDraft": "scene_plan_draft_ready",
+        "captionBriefDraft": "caption_brief_draft_ready",
+        "captionCandidatesAi": "caption_candidates_ai_ready",
+        "captionSelectionReview": "caption_selection_review_ready",
+        "creativeValidation": "creative_intelligence_ready"
+      },
+      "continuity": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "recentOpeningCount": 4,
+        "frequentHashtags": [
+          "#上海",
+          "#日常",
+          "#自拍",
+          "#小确幸",
+          "#雨天"
+        ]
+      },
+      "creativeReview": {
+        "freshnessTargets": [
+          "Shift focus from self-portrait to a scene or object",
+          "Introduce a new indoor or evening setting"
+        ],
+        "avoidMotifs": [
+          "Opening with weather observations",
+          "Overusing #上海, #日常, #自拍, #小确幸"
+        ],
+        "captionAdvice": [
+          "Start with a tactile or auditory detail, not the weather",
+          "Let the object or scene hold a gentle, private meaning"
+        ],
+        "imageAdvice": [
+          "Compose a still life or environmental shot, not a direct selfie",
+          "Use soft, low-light or indoor ambient lighting"
+        ],
+        "summary": "Move from selfie to a gentle life record, focusing on a quiet indoor ritual with sensory details."
+      },
+      "scenePlanDraft": {
+        "requestedPresenceMode": "wide_scene_with_character_trace",
+        "narrativePremise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+        "microPlot": [
+          "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+          "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+          "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+        ],
+        "sceneNotes": [
+          "Desk lit by a single warm lamp, casting long shadows.",
+          "Textbooks and a half-empty mug pushed slightly out of frame.",
+          "A small red hairclip resting on the edge of an open notebook.",
+          "The earbuds are almost, but not quite, fully untangled."
+        ],
+        "captionFocus": [
+          "The quiet, tactile focus of a simple task after mental work."
+        ]
+      },
+      "scenePlan": {
+        "lane": "life_record",
+        "presenceMode": "wide_scene_with_character_trace",
+        "premise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+        "microPlot": [
+          "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+          "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+          "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+        ],
+        "sensoryFocus": "the faint plastic squeak of wires being separated",
+        "concreteSceneCues": [
+          "Desk lit by a single warm lamp, casting long shadows",
+          "Textbooks and a half-empty mug pushed slightly out of frame",
+          "A small red hairclip resting on the edge of an open notebook",
+          "The earbuds are almost, but not quite, fully untangled",
+          "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk",
+          "Fingers work slowly, patiently following each loop and knot in the dim lamplight"
+        ],
+        "tone": [
+          "light chunibyo",
+          "gentle",
+          "private ritual energy",
+          "daily-life texture",
+          "non-commercial",
+          "contemplative"
+        ]
+      },
+      "captionBrief": {
+        "goal": "Write a caption that captures a quiet, post-study moment where untangling earbuds becomes a small, focused ritual. Convey the gentle, tactile satisfaction of the task and the shift from mental clutter to calm, using light chunibyo flavor to hint at private meaning without theatricality.",
+        "audienceFeeling": "A soft, relatable sense of quiet focus and minor catharsis.",
+        "writingDirectives": [
+          "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+          "Do not sound commercial, promotional, or self-descriptive as an AI.",
+          "Use one small micro-plot: cause -> action -> feeling.",
+          "Include at least one concrete sensory detail.",
+          "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+          "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+          "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+          "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+        ],
+        "avoidList": [
+          "commercial tone",
+          "marketing language",
+          "AI self-reference",
+          "flat diary summary",
+          "repeating a recent opening line",
+          "不要固定口号式收尾"
+        ]
+      },
+      "captionCandidatesAi": [
+        {
+          "id": "ai_cand_01",
+          "angle": "触感仪式",
+          "opening": "整理耳机线时，塑料摩擦发出细微的吱吱声。",
+          "caption": "整理耳机线时，塑料摩擦发出细微的吱吱声。\n在台灯的光圈里，把打结的思绪一根根理直。\n雨声很轻，像在给这个小小的仪式伴奏。",
+          "hashtags": [
+            "#解压小仪式",
+            "#耳机线整理",
+            "#雨夜独处",
+            "#生活碎片",
+            "#上海日常"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "未完待续",
+          "opening": "故意留了一个小结没有解开。",
+          "caption": "故意留了一个小结没有解开。\n给明天的自己，留一个可以继续的、温柔的借口。\n桌上的红色发夹，像书签一样别住了这个雨夜。",
+          "hashtags": [
+            "#生活碎片",
+            "#私密仪式",
+            "#日常记录",
+            "#温柔待办"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "静电场域",
+          "opening": "指尖划过耳机线，带起几乎听不见的静电噪音。",
+          "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+          "hashtags": [
+            "#生活碎片",
+            "#结界时刻",
+            "#专注力",
+            "#感官日记"
+          ]
+        }
+      ],
+      "captionCandidatesValidated": [
+        {
+          "id": "ai_cand_01",
+          "angle": "触感仪式",
+          "opening": "整理耳机线时，塑料摩擦发出细微的吱吱声。",
+          "caption": "整理耳机线时，塑料摩擦发出细微的吱吱声。\n在台灯的光圈里，把打结的思绪一根根理直。\n雨声很轻，像在给这个小小的仪式伴奏。",
+          "hashtags": [
+            "#解压小仪式",
+            "#耳机线整理",
+            "#雨夜独处",
+            "#生活碎片",
+            "#上海日常"
+          ]
+        },
+        {
+          "id": "ai_cand_02",
+          "angle": "未完待续",
+          "opening": "故意留了一个小结没有解开。",
+          "caption": "故意留了一个小结没有解开。\n给明天的自己，留一个可以继续的、温柔的借口。\n桌上的红色发夹，像书签一样别住了这个雨夜。",
+          "hashtags": [
+            "#生活碎片",
+            "#私密仪式",
+            "#日常记录",
+            "#温柔待办"
+          ]
+        },
+        {
+          "id": "ai_cand_03",
+          "angle": "静电场域",
+          "opening": "指尖划过耳机线，带起几乎听不见的静电噪音。",
+          "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+          "hashtags": [
+            "#生活碎片",
+            "#结界时刻",
+            "#专注力",
+            "#感官日记"
+          ]
+        }
+      ],
+      "selectionReview": {
+        "selectedCandidateId": "ai_cand_03",
+        "reason": "This caption best balances the required daily-life texture with the light chunibyo tone, using '结界' to create a private, intimate ritual space without theatricality. It directly incorporates the sensory detail (static noise) and daily variable (10.4°C air), and its focus on 'a very specific quiet' perfectly captures the contemplative, post-study mood while feeling fresh and publishable.",
+        "strengths": [
+          "Strong 'private ritual' energy with a subtle, fitting chunibyo metaphor ('结界')",
+          "Integrates sensory detail (static) and daily variable (temperature) naturally",
+          "Focuses on the 'specific quiet' of the action, matching the scene's contemplative tone",
+          "Avoids repetitive openings and feels distinct from recent selfie posts"
+        ],
+        "risks": [
+          "The term '结界' might be slightly niche, though it fits the persona's light chunibyo style",
+          "Slightly more abstract than the other options, but remains grounded in the concrete action"
+        ]
+      },
+      "selectedCaption": {
+        "selectedCandidateId": "ai_cand_03",
+        "candidateAngle": "静电场域",
+        "caption": "指尖划过耳机线，带起几乎听不见的静电噪音。\n在这个由台灯光和10.4度空气圈出的结界里，世界暂时只剩下解开的动作本身。\n一种很具体的安静。",
+        "hashtags": [
+          "#生活碎片",
+          "#结界时刻",
+          "#专注力",
+          "#感官日记"
+        ],
+        "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best balances the required daily-life texture with the light chunibyo tone, using '结界' to create a private, intimate ritual space without theatricality. It directly incorporates the sensory detail (static noise) and daily variable (10.4°C air), and its focus on 'a very specific quiet' perfectly captures the contemplative, post-study mood while feeling fresh and publishable."
+      },
+      "imageBrief": {
+        "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+        "faceVisibility": "optional_with_character_trace",
+        "presenceMode": "wide_scene_with_character_trace",
+        "requiredTraceCues": [
+          "hand_with_phone_or_drink",
+          "sleeve_or_outfit_edge",
+          "hair_tip_or_red_hairclip",
+          "reflection_shadow_or_mirror_hint",
+          "soft_anime_face",
+          "youthful_presence",
+          "small_red_hairclip",
+          "清瘦脸颊",
+          "平胸"
+        ],
+        "visualDirectives": [
+          "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+          "Bind the image to the selected caption opening: \"指尖划过耳机线，带起几乎听不见的静电噪音。\"",
+          "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+          "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+          "Carry at least one sensory cue from the plan: the faint plastic squeak of wires being separated",
+          "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+          "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+          "Make these scene cues legible in the frame: Desk lit by a single warm lamp, casting long shadows | Textbooks and a half-empty mug pushed slightly out of frame | A small red hairclip resting on the edge of an open notebook | The earbuds are almost, but not quite, fully untangled | After hours of focused review, a tangled mess of white earbuds sits coiled on the desk | Fingers work slowly, patiently following each loop and knot in the dim lamplight"
+        ]
+      },
+      "imageRequest": {
+        "generationMode": "anime_wide_scene_character_trace",
+        "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk lit by a single warm lamp, casting long shadows, Textbooks and a half-empty mug pushed slightly out of frame, A small red hairclip resting on the edge of an open notebook, The earbuds are almost, but not quite, fully untangled, After hours of focused review, a tangled mess of white earbuds sits coiled on the desk, Fingers work slowly, patiently following each loop and knot in the dim lamplight, everyday life in Shanghai",
+        "camera": "Camera: wide scene with readable character trace",
+        "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, contemplative, the faint plastic squeak of wires being separated",
+        "shotNotes": [
+          "Desk lit by a single warm lamp, casting long shadows",
+          "Textbooks and a half-empty mug pushed slightly out of frame",
+          "A small red hairclip resting on the edge of an open notebook",
+          "The earbuds are almost, but not quite, fully untangled",
+          "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk",
+          "Fingers work slowly, patiently following each loop and knot in the dim lamplight",
+          "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+          "Keep character presence readable through traces, posture, or interaction with the scene."
+        ],
+        "referenceIds": [
+          "legacy_daily_style_001"
+        ]
+      },
+      "validation": {
+        "status": "creative_intelligence_ready",
+        "passedChecks": 70,
+        "warningCount": 0,
+        "errorCount": 0
+      },
+      "_signatures": {
+        "premise": "f9e2c6ad498e",
+        "selectedCaption": "c743b4819c14",
+        "imageScene": "e18462cbff00",
+        "candidateAngles": "257313530cc5"
+      }
+    }
+  ]
+}

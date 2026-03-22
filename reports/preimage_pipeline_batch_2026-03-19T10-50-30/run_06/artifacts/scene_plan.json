@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T02-57-23",
+  "createdAt": "2026-03-19T02:57:23.764Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After a long day of studying, she tidies her desk and notices the quiet, satisfying order of her pens and notebooks, a small victory against the clutter of thoughts.",
+    "microPlot": [
+      "The scattered notes and empty mug from earlier feel like remnants of a mental storm.",
+      "She carefully aligns each pen in its case and stacks the books by size, her fingers brushing against the cool, smooth covers.",
+      "A soft, contented sigh escapes as the space clears, mirroring the calm settling in her mind."
+    ],
+    "sensoryFocus": "the faint scent of paper and the soft click of pen caps"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "partial_presence",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "desk lit by a warm, low lamp, casting long shadows",
+      "a small red hairclip resting beside a closed notebook",
+      "a single stray pencil about to be put away",
+      "blurred background of a cozy, slightly messy room",
+      "The scattered notes and empty mug from earlier feel like remnants of a mental storm",
+      "She carefully aligns each pen in its case and stacks the books by size, her fingers brushing against the cool, smooth covers"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a detail of a room, a book, or hands doing something simple",
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor or cozy evening scene",
+      "desk lit by a warm, low lamp, casting long shadows",
+      "a small red hairclip resting beside a closed notebook",
+      "a single stray pencil about to be put away",
+      "blurred background of a cozy, slightly messy room",
+      "the quiet satisfaction of ordering a small space",
+      "Do not leave the frame as a pure empty scene; include one or two readable character traces",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "A hand holding a phone or drink, a sleeve edge, a reflection, or a hairclip is acceptable even if the full face is absent",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "tranquil"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate diary feel but pivot from selfies to quiet, object-focused life records to refresh the streak.",
+    "draftSummary": "A moment of gentle tidying brings a sense of peace after a busy day.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

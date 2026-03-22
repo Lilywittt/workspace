@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那一刻带来的微小偏移感。",
+  "whatToSayZh": "只说鞋带松了、玻璃窗、倒影和潮湿的窗框，不解释为什么这个视角会让人停留。",
+  "whatToLeaveUnsaidZh": "把‘自己成为空旷场景的静默注脚’这个感受留在空白里。",
+  "openingMovesZh": [
+    "从‘鞋带松了’这个具体动作开始。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

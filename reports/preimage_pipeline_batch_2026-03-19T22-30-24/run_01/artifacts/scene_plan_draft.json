@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:31:05.776Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly late evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a soft, simple pouch from a tiny stall isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset.",
+  "microPlot": [
+    "The soft, persistent drizzle and the quiet end of a long day create a need for a small, tangible comfort.",
+    "She carefully chooses a simple, soft pouch from a stall in a covered walkway, completes the tiny purchase, and tucks it into her bag.",
+    "Carrying this small, new object home feels like holding a quiet, shy promise to herself—a tiny anchor for the days ahead."
+  ],
+  "sensoryFocus": "the soft, slightly fuzzy texture of the pouch against cool fingertips",
+  "sceneNotes": [
+    "Focus on hands: one holding the pouch, the other gently testing its fabric.",
+    "Frame: counter-level view, with the stall's warm string lights creating a soft glow on the pouch and her sleeves.",
+    "Background: shallow depth-of-field blurring the other market stalls and the misty evening light filtering through the covered walkway.",
+    "Character trace: the edge of her jacket sleeve and a glimpse of her small, red hairclip.",
+    "Atmosphere: the quiet hum of the evening market and the soft patter of rain on the walkway's roof."
+  ],
+  "tone": [
+    "shyly_forward_looking"
+  ],
+  "captionFocus": [
+    "A small purchase as a private rescue, carrying a tiny comfort back with her."
+  ],
+  "summary": "A soft pouch becomes the center of a gentle, forward-looking micro-purchase in a drizzly covered walkway, a shy act of self-care carried home.",
+  "errorMessage": ""
+}

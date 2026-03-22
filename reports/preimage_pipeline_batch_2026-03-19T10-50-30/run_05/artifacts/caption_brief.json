@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:56:31.088Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-56-12",
+  "goal": "Write a gentle, cozy Chinese Instagram caption that shares a small moment of satisfaction from tidying a study desk after morning work, using light chunibyo voice and sensory details to make the ordinary feel quietly special, without sounding like a commercial or poetic diary entry.",
+  "audienceFeeling": "a warm, relatable contentment",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo: slightly whimsical, but grounded in daily life",
+    "Gentle and cozy, like sharing a quiet thought with a friend",
+    "Use casual, conversational Chinese fitting for Instagram",
+    "Hint at tsundere playfulness without being overtly sharp",
+    "Start with a simple observation about the desk or pens",
+    "Mention the action of tidying as a small, personal ritual",
+    "Use a soft, reflective tone to invite the viewer into the moment",
+    "Reference to arranging pens by color or stacking notebooks",
+    "At least one sensory detail (e.g., rustle of paper, graphite scent, lamplight)",
+    "The small red hairclip as a character trace",
+    "A daily variable like the lukewarm tea or weather hint",
+    "The catchphrase 'Today should still feel bright and alive.' woven naturally"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, she quietly finishes organizing her desk, finding a small satisfaction in the neat order of her pens and notes.",
+    "microPlot": [
+      "Cause: The scattered pens and papers from studying feel messy and distracting.",
+      "Action: She carefully lines up each pen by color and stacks her notebooks into a tidy pile.",
+      "Feeling: A quiet, warm contentment settles in as the small chaos becomes a clean, personal order."
+    ],
+    "sensoryFocus": "soft rustle of paper, faint graphite scent, warm lamplight on wood grain",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "cozy"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A quiet life-record caption about finding warm contentment in tidying a study desk, told with gentle chunibyo voice and sensory details.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "#书桌整理 (desk tidying)",
+      "#治愈瞬间 (healing moment)",
+      "#上海日常 (Shanghai daily life)",
+      "#手帐女孩 (notebook girl)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Face-forward selfie descriptions or full-face focus",
+    "Overly poetic or commercial language",
+    "Inventing new plot beats beyond tidying",
+    "Pure environmental description without character traces",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

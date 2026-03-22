@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:54:28.716Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-53-34",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required narrative elements and persona tone. It opens with a strong, fresh metaphor ('时间胶囊') that fits the light chunibyo style, clearly executes the micro-plot of finding and opening the sketchbook, and incorporates a specific character trace (the red hairclip) and sensory detail (worn corners). It naturally weaves in the catchphrase at the end, creating a cohesive arc from discovery to a gentle, affirming conclusion that aligns with the 'bright and alive' continuity.",
+  "caption": "发现了一个时间胶囊。\n是藏在论文下面的速写本，角都磨软了。\n里面夹着某个夏天画的花，还有当时用的红色发夹。\n原来记忆不需要刻意保存，它只是安静地等着被再次翻开。\n今天，也要明亮地活着哦。",
+  "hashtags": [
+    "#雨天小发现",
+    "#手帐回忆",
+    "#治愈时刻",
+    "#中二病日常"
+  ],
+  "candidateAngle": "被存档的夏日",
+  "candidateRationale": "用“时间胶囊”的比喻开启，引入具体物件（红色发夹）增强真实感，结尾再次呼应角色信念，完成从发现到感悟的完整微叙事。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the required narrative elements and persona tone. It opens with a strong, fresh metaphor ('时间胶囊') that fits the light chunibyo style, clearly executes the micro-plot of finding and opening the sketchbook, and incorporates a specific character trace (the red hairclip) and sensory detail (worn corners). It naturally weaves in the catchphrase at the end, creating a cohesive arc from discovery to a gentle, affirming conclusion that aligns with the 'bright and alive' continuity.",
+    "strengths": [
+      "Strong opening metaphor ('时间胶囊') that is fresh and avoids recent duplicate patterns.",
+      "Effectively integrates a key character trace (red hairclip) and concrete sensory detail (worn corners).",
+      "Cleanly executes the micro-plot from discovery to reflection and ends with the required catchphrase.",
+      "Hashtag selection is appropriate and avoids overused tags from recent history."
+    ],
+    "risks": [
+      "The metaphor, while strong, is slightly more abstract than other candidates' openings.",
+      "The final line closely mirrors the catchphrase, which could feel slightly formulaic if overused in future posts."
+    ]
+  }
+}

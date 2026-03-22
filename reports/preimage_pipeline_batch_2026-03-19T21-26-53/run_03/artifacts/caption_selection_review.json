@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:30:51.619Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-30-01",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "This candidate best balances the scene's need for a fresh, forward-leaning tone with the persona's light chunibyo and private ritual energy. It frames the tea sachet as a '温和的暗号' (gentle secret signal), which directly translates the 'shy attachment' emotional landing and the 'private meaning' need state into a daily-life texture that feels intimate and slightly enchanted without being theatrical. The ending elegantly connects the damp weather to a sense of forward motion, avoiding a fixed slogan-like closure while maintaining a soft, trailing observation.",
+  "strengths": [
+    "Core object (tea sachet) is elegantly personified as a 'gentle secret signal,' fitting the 'ordinary object with secret weight' directive",
+    "Ending ties weather ('今晚的潮湿') to a subtle forward-leaning feeling, refreshing the narrative without repetition",
+    "Tone is intimate and gently dramatic, matching the 'private note to self' goal without sounding commercial or overwritten",
+    "Semantically distinct from recent 'soft_observation' endings, offering a fresh 'private_omen' texture"
+  ],
+  "risks": [
+    "Slightly more abstract than other candidates; relies on the reader to infer the micro-purchase action",
+    "The phrase '温和的暗号' edges toward explicit metaphor, though it stays within light chunibyo bounds"
+  ],
+  "errorMessage": ""
+}

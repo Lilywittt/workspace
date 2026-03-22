@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:22:34.602Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-21-37",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "This candidate best balances the required private ritual energy with a fresh, publishable voice. It avoids the more common 'closing the day' metaphor of candidate 01 and the slightly abstract 'closing a loop' of candidate 03, instead offering a novel, gentle literary comparison ('like an unfinished sentence') that fits the bookstore setting and the character's light chunibyo temperament. It delivers the sensory detail (cool metal, click sound) and the core action of return, landing with a quiet, satisfying 'period' that feels earned and personal without being melodramatic.",
+  "strengths": [
+    "Fresh, scene-appropriate metaphor ('like an unfinished sentence') that avoids semantic fatigue",
+    "Strong integration of sensory detail (cool metal, click) and the core 'return' action",
+    "Ending ('a quiet period') provides gentle_order landing without being a fixed slogan",
+    "Tone is gentle, private, and subtly literary, fitting the persona perfectly"
+  ],
+  "risks": [
+    "Slightly more abstract opening line compared to the direct scene-setting of candidate 01",
+    "Metaphor could be perceived as faintly pretentious if not grounded by the concrete action that follows"
+  ],
+  "errorMessage": ""
+}

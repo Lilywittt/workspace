@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/publish-result.schema.json",
+  "title": "IG Roleplay Publish Result",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "platform",
+    "dryRun",
+    "status",
+    "imageSource",
+    "imageUrl",
+    "releaseStage",
+    "captionChars"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "dryRun": {
+      "type": "boolean"
+    },
+    "status": {
+      "type": "string"
+    },
+    "imageSource": {
+      "type": "string"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "releaseStage": {
+      "type": "string"
+    },
+    "altText": {
+      "type": "string"
+    },
+    "captionChars": {
+      "type": "integer"
+    },
+    "publishTarget": {
+      "type": "object",
+      "required": [
+        "graphApiBase",
+        "mode",
+        "provider",
+        "providerEndpoint"
+      ],
+      "properties": {
+        "graphApiBase": {
+          "type": "string"
+        },
+        "mode": {
+          "type": "string"
+        },
+        "provider": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerEndpoint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "result": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

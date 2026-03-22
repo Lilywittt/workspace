@@ -1,0 +1,97 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:13:34.052Z",
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore",
+  "mode": "zero_memory_agent",
+  "scenarioId": "clear-weekend-bookstore",
+  "dayContext": {
+    "isoDate": "2026-03-22",
+    "routineWindow": "afternoon_pause",
+    "weather": "晴到多云",
+    "currentContext": "weekend_pause_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "seasonal_culture",
+      "trending_topics",
+      "weather",
+      "city_trivia",
+      "anime_fandom"
+    ]
+  },
+  "characterState": {
+    "mood": "今天偏安静，但会被一个具体细节牵住",
+    "preferredLane": "life_record",
+    "whyPostToday": "有一个瞬间短暂地值得留下。"
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "下午整理书架时，发现一本旧书里夹着一张几年前随手写的便签，上面的字迹已经有点晕开了。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。"
+  },
+  "caption": {
+    "text": "字迹晕开了，像时间轻轻呼出的一口气。",
+    "hashtags": [
+      "#日常切片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T09-13-28-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/0a/20260321/448165f2/dfaeb920-0496-4eed-af7f-1b990c200f6156624666.png?Expires=1774690206&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=L8ITgwUdToKjldMgYnlEQIF4x18%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

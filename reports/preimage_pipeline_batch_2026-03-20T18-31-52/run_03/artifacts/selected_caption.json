@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:36:43.133Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-35-54",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the scene's gentle, forward-looking ritual with daily-life believability and a fresh narrative shape. It cleanly executes the 'return_or_repair_program' micro-plot from discovery to action to internal feeling, incorporates the key sensory detail of paper rustle, and lands with a 'gentle_order' emotional tone that feels publishable and subtly enchanted. It avoids the more overt metaphorical framing of the other options, which, while creative, risk sounding overwritten or melodramatic for a life_record post after a streak of selfies.",
+  "caption": "在书店的过道里，发现一张被雨气濡湿了边角的计划表内页。把它抚平，放回原处。指尖擦过纸张的沙沙声，像给明天悄悄整理了一个小小的秩序。",
+  "hashtags": [
+    "#雨天书店",
+    "#微小仪式感",
+    "#日常修复时刻",
+    "#温柔意图"
+  ],
+  "candidateAngle": "修复的私密仪式",
+  "candidateRationale": "紧扣‘修复’程序，从发现到动作再到内心感受，完整呈现一个私密仪式。用‘沙沙声’作为感官细节，将普通动作赋予‘为明天整理秩序’的轻微中二感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best balances the scene's gentle, forward-looking ritual with daily-life believability and a fresh narrative shape. It cleanly executes the 'return_or_repair_program' micro-plot from discovery to action to internal feeling, incorporates the key sensory detail of paper rustle, and lands with a 'gentle_order' emotional tone that feels publishable and subtly enchanted. It avoids the more overt metaphorical framing of the other options, which, while creative, risk sounding overwritten or melodramatic for a life_record post after a streak of selfies.",
+    "strengths": [
+      "Clear, complete micro-plot structure (find, smooth, return, feeling)",
+      "Strong sensory detail ('指尖擦过纸张的沙沙声')",
+      "Light chunibyo texture in '给明天悄悄整理了一个小小的秩序' feels private and human-scale",
+      "Fits the 'gentle_order' emotional landing and 'partial_presence' mode perfectly",
+      "Uses fresh hashtag angles that avoid recent semantic fatigue"
+    ],
+    "risks": [
+      "The final line's metaphor is slightly more explicit than a pure observation, but remains grounded in daily action",
+      "Slightly more direct than the 'soft_observation' ending family dominant in history, but provides needed novelty"
+    ]
+  }
+}

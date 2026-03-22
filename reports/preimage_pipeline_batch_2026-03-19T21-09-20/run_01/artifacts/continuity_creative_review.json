@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:09:37.455Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a scene program other than legacy_program",
+    "Shift from accessory objects to a different object family like tool or container",
+    "Try a weather role beyond reflective_support, like texture_modifier or active_agent"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing indoor_desk_corner location",
+    "Caption endings that are purely soft_observation"
+  ],
+  "narrativeNudges": [
+    "Focus on a small forward-looking action rather than rediscovery",
+    "Incorporate a subtle social trace (e.g., a message, a shared space) without direct interaction",
+    "Let the emotional landing be shy_attachment or private_omen for variety"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense sensory detail not about rain or studying",
+    "Include one slightly longer sentence that feels like a quiet realization",
+    "End with a gentle, forward-looking hint rather than a completed observation"
+  ],
+  "imageAdvice": [
+    "Choose a location with slight movement or transition, like a bus stop or park path",
+    "Frame to include both a personal object and environmental texture",
+    "Use lighting that suggests a specific time of day, like late afternoon or early night"
+  ],
+  "summary": "Shift from introspective rediscovery to a gentle, forward-moving micro-action while maintaining the character's intimate, detail-sensitive voice.",
+  "errorMessage": ""
+}

@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:38:29.527Z",
+  "sourceMode": "scenario_override",
+  "scenarioId": "cool-evening-kitchen",
+  "date": {
+    "isoDate": "2026-03-23",
+    "weekday": "Mon",
+    "scheduleMode": "school_day",
+    "season": "spring"
+  },
+  "time": {
+    "timestamp": "2026-03-23T19:25:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "localHour": 19,
+    "localMinute": 25,
+    "daypart": "early_evening",
+    "routineWindow": "evening_reset"
+  },
+  "weather": {
+    "summary": "cool cloudy evening",
+    "bucket": "cloudy",
+    "temperatureC": 13.2,
+    "precipitationMm": 0,
+    "windSpeedKmh": 10.8
+  },
+  "location": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "home_evening_reset",
+    "specificPlaceHint": "",
+    "mobilityPhase": "settled",
+    "indoorOutdoorBias": "mostly_indoor"
+  },
+  "boundaries": {
+    "longDistanceTravelLikely": false,
+    "sameCityAssumed": true,
+    "largePublicEventAssumed": false
+  },
+  "factualNotes": [
+    "Current context: home_evening_reset.",
+    "Weather: cool cloudy evening.",
+    "Routine window: evening_reset."
+  ],
+  "overrideNotes": [
+    "Test whether a home-evening reset can still produce a concrete indoor life beat instead of a vague atmosphere scene."
+  ],
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

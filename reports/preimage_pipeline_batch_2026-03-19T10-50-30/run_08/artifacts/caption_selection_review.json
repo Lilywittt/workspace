@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:00:43.567Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption best fulfills the life_record pivot by grounding the scene in immediate sensory discovery ('摸到一个软软的小东西', '指尖却突然触到'), cleanly executes the required micro-plot, and integrates the weather ('窗外的雨声细细的') and catchphrase with natural, non-dominant flow. Its gentle chunibyo turn ('干燥温暖的旧时光') feels intimate and publishable, avoiding the slightly more abstract metaphors of the other options which carry higher tonal risk.",
+  "strengths": [
+    "Strong sensory lead with tactile discovery aligning with the brief",
+    "Clean, linear micro-plot execution from cause to feeling",
+    "Weather and catchphrase integrated subtly without dominating",
+    "Maintains intimate, diary-like first-person voice",
+    "Effective lane pivot from selfie to environment-focused life_record"
+  ],
+  "risks": [
+    "Mild repetition of 'soft' texture concepts",
+    "Hashtag #上海 is frequent in recent history but fits the scene"
+  ],
+  "errorMessage": ""
+}

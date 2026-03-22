@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:38:24.578Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from indoor desk corners to a semi-outdoor or transitional space like a balcony, park bench, or bus stop",
+    "Introduce a small, forward-looking action like planning a tiny outing or preparing a simple gift for tomorrow"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Frame the scene as a gentle pivot toward tomorrow rather than a reflection on today"
+  ],
+  "captionAdvice": [
+    "Use a slightly more active opening, e.g., '决定明天去...' or '悄悄准备了一小份...'",
+    "End with a soft, forward-looking hint instead of a quiet completion"
+  ],
+  "imageAdvice": [
+    "Include a hint of movement or preparation, like a hand placing an item into a bag",
+    "Use natural evening light with a touch of urban glow (e.g., streetlights, shop windows)"
+  ],
+  "summary": "Shift from retrospective desk moments to a gentle, forward-looking evening ritual in a semi-outdoor space.",
+  "errorMessage": ""
+}

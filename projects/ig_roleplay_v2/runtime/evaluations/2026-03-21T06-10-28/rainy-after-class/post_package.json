@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:19:27.246Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-16-20-rainy_after_class",
+  "lane": "life_record",
+  "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+  "hashtags": [
+    "#日常切片"
+  ],
+  "fullCaptionText": "只是碰到一下，今天就忽然有了一个能停一停的地方。\n#日常切片",
+  "captionSource": {
+    "selectedCandidateId": "caption_01",
+    "selectionReason": "这一条最像角色会真的发出来的话。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "4813be4c-344b-4355-af85-777b70889225",
+    "altText": "璃音发现教室椅背木纹里嵌着一小截蓝色粉笔头的瞬间",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/1c/20260321/448165f2/4813be4c-344b-4355-af85-777b70889225573041491.png?Expires=1774679761&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=5ZiuYcfAsHU40xPOCI3h%2F2F%2BsUk%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T06-19-22-aliyun-z-image.png",
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ]
+  }
+}

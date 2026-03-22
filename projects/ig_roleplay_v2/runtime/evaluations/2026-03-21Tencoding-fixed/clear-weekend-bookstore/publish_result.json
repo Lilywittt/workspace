@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:38:27.017Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/35/20260321/448165f2/ca76fbe3-86f7-4317-a130-f0c1a8338145818200162.png?Expires=1774695299&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=3oJhv0UDMHyTgSwEy%2Bfsd0V0zvA%3D",
+  "altText": "角色在整理时因计划本而短暂停顿的日常瞬间。",
+  "releaseStage": "image_ready",
+  "captionChars": 28,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

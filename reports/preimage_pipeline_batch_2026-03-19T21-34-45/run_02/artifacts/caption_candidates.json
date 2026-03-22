@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:37:43.916Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-36-57",
+  "briefGoal": "Write a caption that captures a small, private moment of choosing a tea sachet on a damp Shanghai evening. Frame it as a shy, forward-looking ritual of self-care, where the ordinary act of carrying a small purchase home becomes a quiet promise to her future self. Focus on sensory details and the gentle, hopeful feeling of the scene.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的承诺",
+      "caption": "在廊下选了最久的一包茶。\n纸袋的窸窣声，和手腕上凉凉的空气，都像在说：这是给明天的小小承诺。\n带它回家，就是今晚最郑重的仪式。",
+      "hashtags": [
+        "#上海小雨",
+        "#晚间散步",
+        "#一个人的小仪式",
+        "#茶包选择困难症",
+        "#给明天的小小承诺"
+      ],
+      "rationale": "紧扣‘选择’与‘携带’的微情节，将纸袋声和凉空气作为私密仪式感的载体，落脚于‘郑重的仪式’，符合轻中二与私人承诺感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "庇护所的暂停",
+      "caption": "廊下的光晕里，标签贴歪的那包茶好像在对我说‘选我’。\n十度的雨夜，把这一点点温热握在手心带回去，就是一次小小的自我救援。",
+      "hashtags": [
+        "#晚间散步",
+        "#一个人的小仪式",
+        "#茶包选择困难症",
+        "#微小的自我救援",
+        "#上海雨夜"
+      ],
+      "rationale": "从‘标签贴歪’的细节切入，赋予物件轻微的人格化，将购买直接定义为‘自我救援’，呼应brief中的‘private rescue’，角度更内向坚定。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "凉意与暖意",
+      "caption": "雨夜的廊下，指尖在茶包间犹豫的几秒，世界好像暂停了。\n最后选中的那包，会在明天的杯子里变成一小片晴朗吧。\n此刻，手腕很凉，但手心是暖的。",
+      "hashtags": [
+        "#上海小雨",
+        "#晚间散步",
+        "#茶包选择困难症",
+        "#给明天的小小承诺",
+        "#生活切片"
+      ],
+      "rationale": "以‘指尖犹豫’的动作为核心，将‘选择’瞬间放大为世界的暂停，并用‘杯子里的小片晴朗’隐喻未来的安慰，感官对比（凉手腕/暖手心）收尾，温柔而富有画面感。"
+    }
+  ]
+}

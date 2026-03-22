@@ -1,0 +1,22 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:55.497Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-18-01",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best captures the private ritual energy and light chunibyo tone by framing the repair as a 'secret signal' with a satisfying internal 'click,' aligning perfectly with the scene's emotional landing of gentle_order and the character's need for private meaning. It avoids being a flat diary summary, integrates the weather as a contrasting texture, and feels like a note to a future self, which is more publishable and fresh than the slightly more generic alternatives.",
+  "strengths": [
+    "Strong private ritual energy with 'secret signal' framing",
+    "Excellent sensory and internal detail ('咔一声轻响')",
+    "Integrates weather as a soft contrast without dominating",
+    "Ending feels like a quiet, personal completion",
+    "Avoids overused '心也整理了一遍' phrasing"
+  ],
+  "risks": [
+    "Slightly more abstract than other candidates",
+    "'今天可以关上了' could be read as mildly melancholic",
+    "Must ensure the hashtag #秘密信号 doesn't feel forced"
+  ],
+  "errorMessage": ""
+}

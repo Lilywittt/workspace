@@ -1,0 +1,356 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-20T10-48-53",
+  "createdAt": "2026-03-20T10:48:53.282Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "selectedSceneCandidatePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/selected_scene_candidate.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "小雨, about 10.4C",
+    "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "semanticFatigue": [
+      "micro_purchase_program",
+      "return_or_repair_program",
+      "shelter_pause",
+      "bookish_pause"
+    ],
+    "dominantSemantics": {
+      "scenePrograms": [
+        {
+          "value": "micro_purchase_program",
+          "count": 6
+        },
+        {
+          "value": "return_or_repair_program",
+          "count": 5
+        },
+        {
+          "value": "threshold_pause_program",
+          "count": 1
+        }
+      ],
+      "locationArchetypes": [
+        {
+          "value": "covered_walkway",
+          "count": 6
+        },
+        {
+          "value": "bookstore_aisle",
+          "count": 5
+        },
+        {
+          "value": "stairwell_landing",
+          "count": 1
+        }
+      ],
+      "actionKernels": [
+        {
+          "value": "choose_pay_carry_back",
+          "count": 6
+        },
+        {
+          "value": "return_fix_restore",
+          "count": 5
+        },
+        {
+          "value": "pause_listen_hold",
+          "count": 1
+        }
+      ],
+      "objectFamilies": [
+        {
+          "value": "comfort_item",
+          "count": 6
+        },
+        {
+          "value": "stationery",
+          "count": 5
+        },
+        {
+          "value": "accessory",
+          "count": 1
+        }
+      ],
+      "weatherRoles": [
+        {
+          "value": "texture_modifier",
+          "count": 11
+        },
+        {
+          "value": "reflective_support",
+          "count": 1
+        }
+      ],
+      "emotionalLandings": [
+        {
+          "value": "shy_attachment",
+          "count": 6
+        },
+        {
+          "value": "gentle_order",
+          "count": 5
+        },
+        {
+          "value": "tiny_reset",
+          "count": 1
+        }
+      ],
+      "presenceModes": [
+        {
+          "value": "partial_presence",
+          "count": 11
+        },
+        {
+          "value": "wide_scene_with_character_trace",
+          "count": 1
+        }
+      ],
+      "captionEndingFamilies": [
+        {
+          "value": "unknown",
+          "count": 11
+        },
+        {
+          "value": "soft_observation",
+          "count": 1
+        }
+      ],
+      "locationClusters": [
+        {
+          "value": "shelter_pause",
+          "count": 6
+        },
+        {
+          "value": "bookish_pause",
+          "count": 5
+        },
+        {
+          "value": "threshold_pause",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "worldState": {
+    "timeContext": {
+      "timezone": "Asia/Shanghai",
+      "localDate": "2026-03-17",
+      "localHour": 18,
+      "daypart": "early_evening",
+      "weekdayMode": "school_day",
+      "seasonPhase": "early_spring",
+      "routineAnchors": [
+        "after_class_reset",
+        "short_errand",
+        "evening_reset",
+        "shelter_pause",
+        "indoor_reset",
+        "rediscovery_window"
+      ]
+    },
+    "environment": {
+      "city": "Shanghai",
+      "locationName": "Shanghai",
+      "weatherCode": 61,
+      "weatherSummary": "小雨",
+      "temperatureC": 10.4,
+      "windSpeedKmh": 10.8,
+      "temperatureBand": "cool",
+      "mobilityWindow": "short_walk_ok",
+      "weatherRoleDefault": "reflective_support"
+    },
+    "characterState": {
+      "lanePreference": "life_record",
+      "energy": "medium_low",
+      "socialBandwidth": "solo_preferred",
+      "attentionShape": "pattern_breaking",
+      "needState": [
+        "small_reset",
+        "private_meaning",
+        "mobility_shift",
+        "non_study_relief"
+      ],
+      "temperament": [
+        "light_chunibyo",
+        "gentle",
+        "occasionally_tsundere",
+        "sensitive_to_daily_details",
+        "playful",
+        "private_ritual_energy",
+        "quietly_reads_small_omens"
+      ]
+    },
+    "continuityPressure": {
+      "preferredLane": "life_record",
+      "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+      "sceneFatigue": [
+        "shelter_pause",
+        "bookish_pause",
+        "micro_purchase_program",
+        "return_or_repair_program"
+      ],
+      "objectFatigue": [
+        "comfort_item",
+        "stationery"
+      ],
+      "weatherOveruse": false,
+      "indoorOveruse": true,
+      "studyAftermathOveruse": true
+    }
+  },
+  "narrative": {
+    "premise": "In the cool, drizzly early evening, a short wait at a station edge becomes a quiet, suspended moment. A folded shopping list, carried in a bag, isn't just an errand reminder; it's a small, tangible fragment of the day's ordinary intent, briefly held in the liminal space between here and there, becoming a quiet, keepable trace of a simple plan.",
+    "microPlot": [
+      "A folded shopping list, carried from a morning errand, rests at the bottom of a bag.",
+      "During a brief wait at a station platform edge, the list is noticed, its creases smoothed with a thumb in a small, absent gesture.",
+      "The simple act of holding this ordinary fragment in a place of transit makes the day's small intentions feel momentarily solid and quietly precious."
+    ],
+    "sensoryFocus": "the faint, dry rustle of paper against fabric",
+    "emotionalLanding": "tiny_reset"
+  },
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_04",
+    "sceneProgramId": "transit_fragment_program",
+    "affordanceId": "transit_fragment_window",
+    "locationArchetype": "station_edge",
+    "locationCluster": "transit_fragment",
+    "objectFamily": "bag_contents",
+    "objectBindings": [
+      "folded shopping list"
+    ],
+    "actionKernel": "wait_carry_pass_through",
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "tiny_reset",
+    "presencePolicy": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city"
+    ],
+    "imageHooks": [
+      "platform edge",
+      "bag or hand detail",
+      "motion held briefly still"
+    ]
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneProgramId": "transit_fragment_program",
+      "objectBindings": [
+        "folded shopping list"
+      ],
+      "weatherRole": "reflective_support"
+    },
+    "concreteSceneCues": [
+      "Character trace: a hand holding the list, edge of a sleeve or bag strap visible",
+      "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces",
+      "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs",
+      "Action texture: thumb gently smoothing a crease, a pause in motion",
+      "Object detail: list is slightly worn, one corner softened from being carried",
+      "Scene location archetype: station edge"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "platform edge",
+      "bag or hand detail",
+      "motion held briefly still",
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city",
+      "Prioritize a wider shot that shows the character in relation to a new environment",
+      "If a close-up, focus on an action-in-progress (e.g., adjusting, holding, noticing) rather than a static object",
+      "Use natural, available light to create a different mood (e.g., soft dusk, artificial streetlight)",
+      "Character trace: a hand holding the list, edge of a sleeve or bag strap visible.",
+      "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces.",
+      "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs.",
+      "Action texture: thumb gently smoothing a crease, a pause in motion.",
+      "Object detail: list is slightly worn, one corner softened from being carried.",
+      "Presence mode: wide_scene_with_character_trace.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observant"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable",
+      "ordinary_object_with_secret_weight"
+    ],
+    "hooks": [
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from indoor, ritualistic pauses to a more open, observational moment that retains intimacy but feels spontaneously discovered.",
+    "draftSummary": "A folded shopping list becomes a small, tangible anchor during a brief wait at a station edge, turning an ordinary transit fragment into a quietly keepable moment.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "selectedSceneCandidate": "selected_scene_candidate_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    },
+    "affordanceHints": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "threshold_pause_window",
+      "indoor_reset_window"
+    ]
+  }
+}

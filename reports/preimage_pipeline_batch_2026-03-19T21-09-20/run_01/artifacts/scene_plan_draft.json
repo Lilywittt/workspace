@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:09:52.681Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening light of a small bookstore, a loose page from a planner is found tucked between the shelves. The simple act of smoothing its crease and slipping it back into its proper place becomes a tiny, forward-looking ritual—a quiet promise to a stranger's forgotten schedule.",
+  "microPlot": [
+    "A loose planner page, filled with someone else's neat, abandoned notes, is found on the floor of a bookstore aisle.",
+    "She picks it up, carefully smooths its folded corner, and slides it back into the planner on the shelf.",
+    "A small, quiet feeling of gentle order settles, as if the day has closed a tiny, borrowed loop."
+  ],
+  "sensoryFocus": "the soft rustle of paper and the faint, woody scent of old bookshelves",
+  "sceneNotes": [
+    "Hands in frame, gently holding the page, a small red hairclip visible at the edge of her hair.",
+    "Soft, warm light from a nearby lamp catching the texture of the paper and the grain of the wooden shelf.",
+    "The planner on the shelf is slightly worn, with other pages peeking out, suggesting a life briefly paused."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A quiet act of repair as a form of shy, forward-looking affection."
+  ],
+  "summary": "A found planner page in a bookstore becomes a small, gentle act of restoration, turning a stranger's forgotten note into a private moment of order.",
+  "errorMessage": ""
+}

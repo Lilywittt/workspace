@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:28:39.491Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening light of a small bookstore, a simple mechanical pencil becomes the focus of a tiny, restorative ritual. The act of repairing it and placing it back on its shelf isn't just tidying; it's a quiet gesture of care, a small, deliberate loop closed in the soft, drizzly atmosphere.",
+  "microPlot": [
+    "Finding a slightly broken mechanical pencil on a shelf feels like discovering a small, unfinished task.",
+    "Carefully fixing the lead mechanism and wiping it clean before returning it to its proper place.",
+    "Feeling a gentle, private satisfaction, as if putting a tiny piece of the world back in order."
+  ],
+  "sensoryFocus": "the faint, dry graphite scent on fingertips",
+  "sceneNotes": [
+    "Hands in frame, focused on the small pencil, with the soft, warm glow of bookstore aisle lighting.",
+    "A shallow depth of field, blurring the colorful spines of books into a soft background tapestry.",
+    "The character's small red hairclip catching a sliver of the overhead light."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet sound of a pencil click in a still space."
+  ],
+  "summary": "A late-evening bookstore pause turns into a quiet act of repair, finding gentle order in fixing a small, forgotten object.",
+  "errorMessage": ""
+}

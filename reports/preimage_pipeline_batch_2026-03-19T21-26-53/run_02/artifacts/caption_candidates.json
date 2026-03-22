@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:29:16.902Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-28-39",
+  "briefGoal": "Write a caption that feels like a private note to a future self, capturing the quiet satisfaction of fixing a small, broken pencil in a late-evening bookstore. Use short sentences with one longer breath to describe the sensory detail and the gentle, personal ritual of putting a tiny piece of the world back in order.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的归还",
+      "caption": "在书店的过道里，发现一支坏掉的自动铅笔。\n把它修好，擦干净，放回原处。\n指尖还留着一点石墨的干燥气味。\n像是完成了一个只有自己知道的、小小的归还仪式。",
+      "hashtags": [
+        "#书店日常",
+        "#手边的修復",
+        "#微小仪式",
+        "#生活记录",
+        "#月见璃音"
+      ],
+      "rationale": "紧扣归还与修复的核心程序，以短句叙事，用感官细节（石墨气味）将日常动作提升为私人仪式，符合轻微中二但克制的语气。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨夜的秩序",
+      "caption": "雨夜的书店，光线很温柔。\n手里是一支需要修理的铅笔——铅芯卡住了，笔杆有点脏。\n慢慢地拧开，清理，再装回去。\n当它被放回货架时，心里某个角落也跟着整齐了一点。",
+      "hashtags": [
+        "#上海小雨",
+        "#书店日常",
+        "#手边的修復",
+        "#生活记录",
+        "#月见璃音"
+      ],
+      "rationale": "以环境（雨夜、光线）开场，聚焦于修理的具体动作，并将外部秩序与内心感受并置，营造出安静、私密的满足感。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "铅笔的暗号",
+      "caption": "一支坏掉的自动铅笔，躺在书架上。\n我把它修好了。\n这个动作本身没有意义，但做完之后，世界好像悄悄对上了一格齿轮。\n窗外是沙沙的小雨声。",
+      "hashtags": [
+        "#微小仪式",
+        "#手边的修復",
+        "#生活记录",
+        "#月见璃音",
+        "#上海小雨"
+      ],
+      "rationale": "赋予平凡物件（铅笔）一种近乎暗号的轻微神秘感，用“对上一格齿轮”的比喻传达私人体悟，结尾以雨声收束，留下余韵。"
+    }
+  ]
+}

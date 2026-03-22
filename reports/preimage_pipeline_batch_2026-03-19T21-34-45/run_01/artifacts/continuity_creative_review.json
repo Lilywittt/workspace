@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:35:01.443Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'finding forgotten objects' to a small, intentional action with a new object family",
+    "Use weather as 'texture_modifier' to refresh the damp, reflective mood"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel",
+    "Avoid 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking, shy gesture rather than a memory return"
+  ],
+  "captionAdvice": [
+    "Use a 'private_omen' or 'soft_observation' ending, but avoid repetitive openings like '窗外的小雨'"
+  ],
+  "imageAdvice": [
+    "Frame a partial presence shot with hands or an object in motion, not a static desk corner"
+  ],
+  "summary": "Switch to life_record with a fresh action and object to maintain continuity while avoiding repetitive motifs.",
+  "errorMessage": ""
+}

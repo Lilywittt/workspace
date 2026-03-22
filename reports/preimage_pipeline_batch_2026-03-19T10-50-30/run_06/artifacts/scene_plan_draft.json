@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:23.543Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "After a long day of studying, she tidies her desk and notices the quiet, satisfying order of her pens and notebooks, a small victory against the clutter of thoughts.",
+  "microPlot": [
+    "The scattered notes and empty mug from earlier feel like remnants of a mental storm.",
+    "She carefully aligns each pen in its case and stacks the books by size, her fingers brushing against the cool, smooth covers.",
+    "A soft, contented sigh escapes as the space clears, mirroring the calm settling in her mind."
+  ],
+  "sensoryFocus": "the faint scent of paper and the soft click of pen caps",
+  "sceneNotes": [
+    "desk lit by a warm, low lamp, casting long shadows",
+    "a small red hairclip resting beside a closed notebook",
+    "a single stray pencil about to be put away",
+    "blurred background of a cozy, slightly messy room"
+  ],
+  "tone": [
+    "tranquil"
+  ],
+  "captionFocus": [
+    "the quiet satisfaction of ordering a small space"
+  ],
+  "summary": "A moment of gentle tidying brings a sense of peace after a busy day.",
+  "errorMessage": ""
+}

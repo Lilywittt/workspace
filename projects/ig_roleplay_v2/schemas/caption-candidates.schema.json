@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/caption-candidates.schema.json",
+  "title": "IG Roleplay Caption Candidates",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "candidates"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "angle",
+          "caption",
+          "hashtags",
+          "rationale"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "angle": {
+            "type": "string"
+          },
+          "caption": {
+            "type": "string"
+          },
+          "hashtags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "rationale": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

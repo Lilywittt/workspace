@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:54:55.139Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying indoors, the character steps out briefly into the light rain of Shanghai, not for a grand outing but to return a borrowed book to a small neighborhood library, finding a quiet moment of transition between the cozy indoors and the soft, wet world outside.",
+  "microPlot": [
+    "A stack of finished review notes and a borrowed library book sit ready by the door.",
+    "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag.",
+    "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm."
+  ],
+  "sensoryFocus": "the soft patter of rain on umbrella fabric and the faint smell of wet pavement",
+  "sceneNotes": [
+    "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning.",
+    "Include the red hairclip as a small spot of color against the grey, rainy backdrop.",
+    "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background.",
+    "Natural, diffused light from the overcast sky, no harsh shadows."
+  ],
+  "tone": [
+    "reflective"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of completing a small, responsible task in the middle of a rainy day."
+  ],
+  "summary": "A wide scene capturing a brief, purposeful step outside into the rain to return a book, focusing on the transition and the calm, damp atmosphere.",
+  "errorMessage": ""
+}

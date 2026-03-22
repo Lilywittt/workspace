@@ -1,0 +1,66 @@
+{
+  "candidateId": "event_02",
+  "lane": "life_record",
+  "eventSummaryZh": "收拾书包时，手指碰到夹层里一张被压得平平整整的、去年的电影票根。",
+  "hookWhyInterestingZh": "不是刻意收藏，只是忘了扔，今天却突然摸到了它的存在。",
+  "causalChainZh": [
+    "手伸进书包夹层找东西。",
+    "指尖触感不是要找的，而是一张光滑的纸片。",
+    "抽出来看，动作比思考快。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_after_class"
+    ],
+    "inferredDetailsZh": [
+      "日常整理动作中偶然触发的停顿。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "机械地执行整理动作，思绪在别处。",
+  "interiorShiftZh": "触觉先于视觉识别了那个物件，带来一个短暂的、纯粹的物理停顿。",
+  "whyTodayZh": "雨天的安静让触觉变得格外清晰。",
+  "whyShareableZh": "捕捉到了“发现”发生前那一瞬间的空白感。",
+  "visualEvidenceZh": [
+    "半抽出的手和票根一角",
+    "书包的局部和人物侧影",
+    "指尖与纸片接触的特写"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "雨声让触感更清晰"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T09:18:59.405Z",
+  "review": {
+    "candidateId": "event_02",
+    "personaTruthScore": 88,
+    "groundingScore": 82,
+    "postabilityScore": 85,
+    "coherenceScore": 87,
+    "characterPresenceFitScore": 88,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "触觉先于视觉的发现过程非常真实",
+      "事件支持从‘trace_led’到‘clear_character_presence’的多种构图",
+      "票根是‘被压得平平整整’的，细节顽固而普通"
+    ],
+    "risksZh": [
+      "需注意避免将‘去年的电影票根’解读为怀旧主题，保持触觉发现的纯粹性"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。",
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

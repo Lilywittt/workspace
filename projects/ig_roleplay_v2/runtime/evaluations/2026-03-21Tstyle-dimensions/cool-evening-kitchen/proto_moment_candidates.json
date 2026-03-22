@@ -1,0 +1,177 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是想把杯子放回架子上，但手指在杯沿上多停留了一秒。",
+      "hookWhyInterestingZh": "这个停顿本身没有意义，但今天傍晚的凉意让这个触感变得格外清晰。",
+      "causalChainZh": [
+        "她拿着刚喝完水的杯子走向厨房。",
+        "杯沿残留的水珠在指尖留下微凉的触感。",
+        "她没有立刻松手，而是让这个感觉多停留了一拍。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚的凉意让触觉细节变得突出。",
+          "这个动作发生在日常的归位流程中。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是在完成一个机械的归位动作。",
+      "interiorShiftZh": "指尖的凉意让她短暂地回到了此刻的身体感。",
+      "whyTodayZh": "今天傍晚的凉意让杯沿的温度差变得明显，触觉被放大了。",
+      "whyShareableZh": "这是一个具体的、有触感的停顿，能让人感受到那种微妙的在场感。",
+      "visualEvidenceZh": [
+        "拿着杯子的手停在半空",
+        "杯沿在室内光线下有细微反光",
+        "人物侧身站在厨房与房间的交界处"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "傍晚的凉意让触觉变得清晰，但没有直接导致这个动作。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "她整理桌面时，发现一枚发夹卡在了笔记本的活页环里。",
+      "hookWhyInterestingZh": "不是刻意的放置，而是日常使用中自然卡住的痕迹。",
+      "causalChainZh": [
+        "她开始整理散在桌上的文具和杂物。",
+        "拿起笔记本时感觉到轻微的阻力。",
+        "发现红色小发夹的一角卡在了活页环的缝隙里。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "发夹是日常佩戴的物品。",
+          "笔记本是常用的工具。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是想快速清理一下桌面。",
+      "interiorShiftZh": "这个小小的物理纠缠让她停顿了一下，想起今天早些时候随手取下它的动作。",
+      "whyTodayZh": "傍晚的整理时刻让这种被遗忘的日常痕迹显现出来。",
+      "whyShareableZh": "它记录了物品在真实使用中留下的、非刻意的空间关系。",
+      "visualEvidenceZh": [
+        "手指捏着发夹从活页环中轻轻抽出",
+        "笔记本摊开在桌面上",
+        "人物俯身的姿势，头发垂下"
+      ],
+      "ambientInfluence": {
+        "used": false,
+        "resonanceOnlyZh": [],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "她拉开窗帘想看看天色，却发现玻璃上有一小片水汽凝结的痕迹。",
+      "hookWhyInterestingZh": "不是完整的雾气，而是手指无意中划过留下的一小道清晰区域。",
+      "causalChainZh": [
+        "她走到窗边想确认外面的光线。",
+        "伸手去拉窗帘时，手掌侧面碰到了玻璃。",
+        "皮肤的温度在凉玻璃上留下了一小片短暂消雾的痕迹。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚室内外温差导致玻璃起雾。",
+          "这个动作发生在查看天气的日常意图中。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是想知道外面是不是完全暗了。",
+      "interiorShiftZh": "那片清晰的痕迹让她意识到自己的体温正在影响眼前的世界，哪怕只有一小块。",
+      "whyTodayZh": "凉爽的傍晚让玻璃起雾，为这个无意的接触创造了物理条件。",
+      "whyShareableZh": "它捕捉了一个体温与环境相互作用的微小证据。",
+      "visualEvidenceZh": [
+        "玻璃上一小道清晰的弧形痕迹",
+        "手掌还停留在玻璃附近",
+        "窗外模糊的暮色透过痕迹显得稍亮一些"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "傍晚的凉意让玻璃起雾，但没有直接导致她去触碰。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "她给手机充电时，发现充电线在插座旁绕成了一个不太规则的圈。",
+      "hookWhyInterestingZh": "不是整齐的收纳，而是上次拔下时自然形成的、带着使用痕迹的形状。",
+      "causalChainZh": [
+        "她拿起充电线准备给手机充电。",
+        "线身没有完全展开，在插座旁保持着某种松散的盘绕。",
+        "她看着那个圈，没有立刻把它拉直。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "充电是傍晚的日常动作之一。",
+          "线的形状记录了上一次使用的结束方式。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是要完成充电这个任务。",
+      "interiorShiftZh": "那个不规则的圈让她短暂地看到了自己上一次离开时的匆忙或随意。",
+      "whyTodayZh": "傍晚的充电时刻让这个日常物品的“使用后状态”进入了视野。",
+      "whyShareableZh": "它呈现了物品在真实生活中被对待的方式，而非理想化的收纳。",
+      "visualEvidenceZh": [
+        "手指捏着充电头悬在插座前",
+        "线身在地面或桌面上形成松散的圈",
+        "人物蹲下或弯腰的姿势"
+      ],
+      "ambientInfluence": {
+        "used": false,
+        "resonanceOnlyZh": [],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:03:17.973Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "Candidate 02 best balances the required life_record lane shift with a fresh narrative hook, weaving multiple concrete scene objects (mug, crane, hairclip) and the weather variable into a cohesive micro-plot that feels intimate and gently dramatic, directly supporting the 'bright and alive' continuity while avoiding recent opening patterns.",
+  "strengths": [
+    "Strong life_record pivot with rich environmental detail",
+    "Integrates multiple specific objects from the visual cues",
+    "Clear cause-action-feeling micro-plot structure",
+    "Natural, non-repetitive incorporation of the catchphrase"
+  ],
+  "risks": [
+    "Slightly more abstract '对抗倦怠' opening may feel less immediate",
+    "Hashtag #上海夜晚 is a minor continuity repetition"
+  ],
+  "errorMessage": ""
+}

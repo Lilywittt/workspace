@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:05:05.497Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift focus from self-portrait to a small object or scene detail",
+    "Introduce a subtle time-of-day change, like evening or dusk"
+  ],
+  "avoidMotifs": [
+    "Repeating the 'window + weather' opening sentence"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a small note left for a future self"
+  ],
+  "captionAdvice": [
+    "Use a short observation about texture or sound, not just sight"
+  ],
+  "imageAdvice": [
+    "Compose a shot where the persona is present but not the central focus"
+  ],
+  "summary": "Maintain the gentle, detail-sensitive voice but pivot from selfies to observing a quiet moment in the surroundings.",
+  "errorMessage": ""
+}

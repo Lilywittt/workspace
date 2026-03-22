@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:06:14.900Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-05-22",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by weaving the micro-plot of the pencil as a 'misplaced secret' with concrete sensory details (cool floor, dry wood scent) and a light chunibyo touch ('waiting to be picked up by dusk'). It maintains a gentle, observational tone that feels like a private note, cleanly pivots from the recent selfie streak to a life_record scene, and avoids any blocked phrases or theatrical fantasy.",
+  "caption": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\n它的影子被拉得很长，像一小段被遗忘的上午。\n手指碰到地板，凉凉的，还有一点木屑的干燥气味。\n原来一天里，总有些东西会悄悄掉队，等着被黄昏捡起来。",
+  "hashtags": [
+    "#生活碎片",
+    "#铅笔与黄昏",
+    "#安静时刻",
+    "#上海日常",
+    "#少女的观察日记"
+  ],
+  "candidateAngle": "黄昏的失物",
+  "candidateRationale": "以铅笔为线索，串联起从上午到黄昏的时间流逝，通过触觉和嗅觉细节将普通物件赋予‘掉队的秘密’的轻微仪式感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the brief by weaving the micro-plot of the pencil as a 'misplaced secret' with concrete sensory details (cool floor, dry wood scent) and a light chunibyo touch ('waiting to be picked up by dusk'). It maintains a gentle, observational tone that feels like a private note, cleanly pivots from the recent selfie streak to a life_record scene, and avoids any blocked phrases or theatrical fantasy.",
+    "strengths": [
+      "Strong narrative flow from fading light to object to personal reflection",
+      "Integrates sensory details (touch, scent) naturally",
+      "Light chunibyo turn feels intimate, not performative",
+      "Fits the lane shift to life_record with a quiet, scene-focused observation"
+    ],
+    "risks": [
+      "Slightly abstract final line could feel overly poetic to some",
+      "Does not explicitly mention a character trace, though presence is implied"
+    ]
+  }
+}

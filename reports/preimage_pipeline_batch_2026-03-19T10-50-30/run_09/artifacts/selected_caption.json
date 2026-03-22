@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:02:03.684Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-01-11",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best executes the lane pivot to life_record by fully rendering the micro-plot from studying to cozy rest with strong sensory immersion. It directly incorporates the required sensory detail (lamplight like honey on the hand), integrates the daily weather variable (light rain) subtly, and concludes naturally with the character's catchphrase. The tone is gentle, non-commercial, and has a light chunibyo flourish ('like a small piece of melted honey'), making it the most publishable and scene-faithful option.",
+  "caption": "合上最后一本书，疲惫感才真正涌上来。给自己泡了杯热奶茶，裹进软软的毯子里。台灯的光是暖黄色的，落在手背上，像一小块融化的蜂蜜。窗外的雨声很轻，世界缩成这个安静的角落。今天应该也还是明亮而鲜活的一天吧。",
+  "hashtags": [
+    "#StudyBreak",
+    "#CozyEvening",
+    "#LifeRecord",
+    "#RainyDay",
+    "#WarmDrink"
+  ],
+  "candidateAngle": "感官沉浸",
+  "candidateRationale": "遵循从原因到行动再到感受的微叙事结构，聚焦台灯光落在手背上的具体感官细节，融入雨天变量但不喧宾夺主，语气温柔、略带戏剧性，并以角色口头禅自然收尾。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best executes the lane pivot to life_record by fully rendering the micro-plot from studying to cozy rest with strong sensory immersion. It directly incorporates the required sensory detail (lamplight like honey on the hand), integrates the daily weather variable (light rain) subtly, and concludes naturally with the character's catchphrase. The tone is gentle, non-commercial, and has a light chunibyo flourish ('like a small piece of melted honey'), making it the most publishable and scene-faithful option.",
+    "strengths": [
+      "Strongest micro-plot execution: cause (closing book), action (making tea, wrapping in blanket), feeling (quiet corner of the world).",
+      "Vivid, original sensory detail ('light like melted honey') that aligns perfectly with the visual plan.",
+      "Seamlessly incorporates the 'light rain' freshness variable as ambient sound.",
+      "Natural, conversational flow that fits the character's voice and ends with the required catchphrase."
+    ],
+    "risks": [
+      "The metaphor 'like melted honey' is slightly poetic; must ensure it doesn't feel forced in the final tone.",
+      "Slightly more abstract than candidate 02's object-focused angle, but still grounded in the concrete scene."
+    ]
+  }
+}

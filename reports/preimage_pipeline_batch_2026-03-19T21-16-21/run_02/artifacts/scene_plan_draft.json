@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:00.990Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late evening of a drizzly Shanghai spring, a small, bent paper clip found on the floor of a familiar bookstore aisle becomes a tiny, necessary task. The act of carefully straightening it and placing it back on a shelf isn't just tidying; it's a quiet, forward-looking ritual of gentle order, a private way of closing a small loop in the day before heading home.",
+  "microPlot": [
+    "Noticing a single, bent paper clip on the floor between the shelves.",
+    "Picking it up and, with focused fingers, slowly working it back into its proper shape.",
+    "Feeling a quiet, satisfied click as the tiny repair is completed and the day settles."
+  ],
+  "sensoryFocus": "the faint metallic coolness and slight resistance of the wire under her fingertips",
+  "sceneNotes": [
+    "Focus on hands in frame, holding the small silver paper clip.",
+    "Soft, warm bookstore lighting from overhead, casting gentle shadows.",
+    "Blurred background of book spines, a familiar, cozy chaos.",
+    "A single droplet of rain traces a slow path down the windowpane outside the frame."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small act of repair as a quiet form of affection for the world."
+  ],
+  "summary": "A bent paper clip in a bookstore becomes the focus of a tiny, satisfying evening ritual of restoration.",
+  "errorMessage": ""
+}

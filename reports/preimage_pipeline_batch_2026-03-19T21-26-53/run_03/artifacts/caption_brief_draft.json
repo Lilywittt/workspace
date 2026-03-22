@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:30:19.070Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-30-01",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a quiet, private note to self, capturing the small ritual of buying a single tea sachet on a drizzly evening. It should translate the scene's gentle, forward-looking energy into a few short sentences, focusing on sensory details and the shy attachment to this ordinary object, making the mundane feel like a small, personal omen.",
+  "audienceFeeling": "a quiet, intimate sense of being let into a small, meaningful moment",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., the cool air, the crinkle of paper)",
+    "Mention the small, specific action (choosing, paying for, carrying the tea)",
+    "Hint at the private feeling or thought attached to the act"
+  ],
+  "mustInclude": [
+    "The tea sachet as the central object",
+    "The cool, damp evening and the covered walkway setting",
+    "The small, complete transaction (handing over coins/receiving the bag)",
+    "A subtle feeling of shy attachment or forward-looking energy",
+    "At least one concrete sensory cue (sound, touch, light)"
+  ],
+  "mustAvoid": [
+    "Explicitly calling it a 'ritual' or 'self-care'",
+    "Overly poetic or dramatic declarations",
+    "A fixed, slogan-like ending",
+    "Dialogue or lore exposition",
+    "Commercial or brand-like language"
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase",
+    "End with a soft, trailing tone or gentle self-address",
+    "Keep it light chunibyo—hint at secret meaning, don't theatricalize",
+    "Sound like a real person posting a fleeting thought, not writing a diary entry"
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#小雨的晚上",
+    "#一个人的小仪式",
+    "#茶包日记",
+    "#微小的前进感"
+  ],
+  "summary": "A shy, forward-leaning moment where buying a single tea sachet in the drizzle feels like a quiet promise to tomorrow.",
+  "errorMessage": ""
+}

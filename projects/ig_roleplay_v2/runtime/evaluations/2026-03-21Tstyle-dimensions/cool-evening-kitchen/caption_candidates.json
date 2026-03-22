@@ -1,0 +1,60 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_detail",
+      "caption": "拉开窗帘，玻璃上有一小道清晰的痕迹。",
+      "hashtags": [
+        "#daily_fragment",
+        "#evening_window"
+      ],
+      "rationale": "从具体细节开始，陈述事实，留下空白。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "cause_action_feeling",
+      "caption": "只是想看看天色，手掌却留下了一小块清晰的区域。",
+      "hashtags": [
+        "#daily_fragment",
+        "#trace_on_glass"
+      ],
+      "rationale": "展示一个“意图-动作-结果”的微小弧线，体温影响了世界。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_weight",
+      "caption": "玻璃上的雾气，被体温擦出了一小片自己的形状。",
+      "hashtags": [
+        "#daily_fragment",
+        "#private_shape"
+      ],
+      "rationale": "让普通物体获得私密重量，轻微中二感，但克制。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "implied_shift",
+      "caption": "暮色透过那片清晰的痕迹，显得稍微亮了一点。",
+      "hashtags": [
+        "#daily_fragment",
+        "#evening_light"
+      ],
+      "rationale": "聚焦于变化后的感知，暗示而非解释内心的微小偏移。"
+    },
+    {
+      "id": "caption_05",
+      "angle": "brief_pause",
+      "caption": "傍晚的凉意让玻璃起雾，而我的温度让它短暂地消失了一小块。",
+      "hashtags": [
+        "#daily_fragment",
+        "#cool_evening"
+      ],
+      "rationale": "稍长的呼吸感，连接环境与个人，像一条私密记录。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

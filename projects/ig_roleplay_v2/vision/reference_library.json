@@ -1,0 +1,29 @@
+{
+  "version": "3.0.0-alpha.1",
+  "identityAnchors": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "status": "placeholder",
+      "source": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "styleAnchors": [
+    {
+      "id": "legacy_selfie_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "legacyImageId": "selfie_001",
+      "style": "selfie"
+    },
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "legacyImageId": "daily_park_001",
+      "style": "daily-life"
+    }
+  ]
+}

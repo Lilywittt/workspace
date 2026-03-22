@@ -1,0 +1,385 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:21:02.469Z",
+  "source": "code",
+  "status": "novelty_ledger_ready",
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "historyWindow": 12,
+  "recentEntries": [
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T13:08:15Z",
+      "runId": "sceneplan-2026-03-19T13-07-10",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "convenience_counter",
+      "locationCluster": "micro_errand",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "mug of cocoa",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "In the late evening, after a long day, a small errand to the convenience store becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the cool, drizzly night as a private promise of a gentle reset."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T11:37:40Z",
+      "runId": "sceneplan-2026-03-19T11-36-19",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "wait_carry_pass_through",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "memory_return",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After the rain, the evening light filters into a quiet room, catching the edge of a forgotten notebook left open on the desk. The air holds the damp, clean scent of a city just washed, and for a moment, the ordinary page feels like a map to a quiet, secret afternoon."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T10:34:03Z",
+      "runId": "sceneplan-2026-03-19T10-32-54",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "paper_fragment",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "memory_return",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "quiet_completion",
+      "sceneSummary": "After a morning of studying, the quiet of the afternoon feels like a held breath. A small, forgotten object on the desk becomes a tiny anchor, a quiet point of focus in the soft, rainy light."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T06:15:26Z",
+      "runId": "sceneplan-2026-03-19T06-14-10",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "In a quiet corner of a small, dusty bookstore, she finds a forgotten bookmark tucked inside a secondhand novel, its faded ink holding a stranger's old thought."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T06:12:07Z",
+      "runId": "sceneplan-2026-03-19T06-10-56",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After a morning of studying, she steps out into the light rain, not for a walk, but to return a library book. The simple act of sliding it into the return slot feels like closing a small, quiet chapter."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T05:17:53Z",
+      "runId": "sceneplan-2026-03-19T05-16-51",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "laundry_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "quiet_completion",
+      "sceneSummary": "After a morning of studying, she finds a forgotten, half-finished paper crane tucked inside her textbook—a tiny relic from a past, more restless day. The soft rain outside makes the room feel like a quiet capsule, and she decides to finish folding it, turning a leftover scrap into a small, private completion."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-19T04:42:49Z",
+      "runId": "sceneplan-2026-03-19T04-41-46",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "memory_return",
+      "sceneSummary": "After a day of studying, the character tidies her desk, finding a forgotten, half-finished doodle in the corner of her notebook—a small, quiet moment of rediscovery that feels like a message from her past self."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-18T13:10:35Z",
+      "runId": "sceneplan-2026-03-18T13-09-29",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "memory_return",
+      "sceneSummary": "After a day of quiet study, the evening brings a moment of tidy completion, finding a small, forgotten charm while clearing the desk—a tiny reminder that even finished tasks leave little sparks of memory."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-18T11:20:38Z",
+      "runId": "sceneplan-2026-03-18T11-19-37",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After a day of studying, the character decides to tidy up her desk, finding an old, half-finished sketch tucked under a notebook—a forgotten doodle from a sunnier afternoon that brings a quiet smile."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-18T11:16:44Z",
+      "runId": "sceneplan-2026-03-18T11-15-44",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "kitchen_counter",
+      "locationCluster": "",
+      "actionKernel": "heat_hold_breathe",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After a day of studying and resting, the evening arrives with a quiet, cozy energy. The character decides to prepare a simple, warm drink, turning a small kitchen task into a moment of gentle focus and personal care, reflecting a transition from daytime weariness to a soft, intentional evening."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-18T11:13:09Z",
+      "runId": "sceneplan-2026-03-18T11-12-17",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "kitchen_counter",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After a long morning of studying, she's tidied up her desk and found a forgotten sketchbook tucked under a pile of notes, its pages filled with old, whimsical doodles from a brighter season."
+    },
+    {
+      "source": "run_bundle",
+      "createdAt": "2026-03-18T11:06:26Z",
+      "runId": "sceneplan-2026-03-18T11-05-23",
+      "lane": "life_record",
+      "sceneProgramId": "legacy_program",
+      "locationArchetype": "indoor_desk_corner",
+      "locationCluster": "",
+      "actionKernel": "find_unfold_notice_again",
+      "objectFamily": "accessory",
+      "objectBinding": "",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "wide_scene_with_character_trace",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "After a morning of studying, she steps out to a nearby park to clear her head, finding a quiet bench under a large tree where the light rain has left everything glistening and fresh."
+    }
+  ],
+  "counts": {
+    "sceneProgramId": [
+      {
+        "value": "legacy_program",
+        "count": 11
+      },
+      {
+        "value": "micro_purchase_program",
+        "count": 1
+      }
+    ],
+    "locationArchetype": [
+      {
+        "value": "indoor_desk_corner",
+        "count": 7
+      },
+      {
+        "value": "kitchen_counter",
+        "count": 2
+      },
+      {
+        "value": "bookstore_aisle",
+        "count": 1
+      },
+      {
+        "value": "convenience_counter",
+        "count": 1
+      },
+      {
+        "value": "laundry_corner",
+        "count": 1
+      }
+    ],
+    "locationCluster": [
+      {
+        "value": "micro_errand",
+        "count": 1
+      }
+    ],
+    "actionKernel": [
+      {
+        "value": "find_unfold_notice_again",
+        "count": 8
+      },
+      {
+        "value": "choose_pay_carry_back",
+        "count": 1
+      },
+      {
+        "value": "heat_hold_breathe",
+        "count": 1
+      },
+      {
+        "value": "return_fix_restore",
+        "count": 1
+      },
+      {
+        "value": "wait_carry_pass_through",
+        "count": 1
+      }
+    ],
+    "objectFamily": [
+      {
+        "value": "accessory",
+        "count": 10
+      },
+      {
+        "value": "comfort_item",
+        "count": 1
+      },
+      {
+        "value": "paper_fragment",
+        "count": 1
+      }
+    ],
+    "weatherRole": [
+      {
+        "value": "reflective_support",
+        "count": 11
+      },
+      {
+        "value": "texture_modifier",
+        "count": 1
+      }
+    ],
+    "emotionalLanding": [
+      {
+        "value": "quiet_completion",
+        "count": 4
+      },
+      {
+        "value": "tiny_reset",
+        "count": 3
+      },
+      {
+        "value": "memory_return",
+        "count": 2
+      },
+      {
+        "value": "private_omen",
+        "count": 2
+      },
+      {
+        "value": "shy_attachment",
+        "count": 1
+      }
+    ],
+    "presenceMode": [
+      {
+        "value": "wide_scene_with_character_trace",
+        "count": 8
+      },
+      {
+        "value": "partial_presence",
+        "count": 4
+      }
+    ],
+    "captionEndingFamily": [
+      {
+        "value": "soft_observation",
+        "count": 8
+      },
+      {
+        "value": "memory_return",
+        "count": 2
+      },
+      {
+        "value": "quiet_completion",
+        "count": 2
+      }
+    ]
+  },
+  "dominance": {
+    "scenePrograms": [
+      {
+        "value": "legacy_program",
+        "count": 11
+      }
+    ],
+    "locationArchetypes": [
+      {
+        "value": "indoor_desk_corner",
+        "count": 7
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "accessory",
+        "count": 10
+      }
+    ],
+    "weatherRoles": [
+      {
+        "value": "reflective_support",
+        "count": 11
+      }
+    ],
+    "sceneClusters": []
+  },
+  "fatigueFlags": {
+    "weatherPrimaryOveruse": false,
+    "indoorClusterOveruse": false,
+    "studyAftermathClusterOveruse": false
+  },
+  "suggestions": {
+    "coolDownScenePrograms": [
+      "legacy_program"
+    ],
+    "coolDownClusters": [],
+    "keepLanePressure": "life_record"
+  }
+}

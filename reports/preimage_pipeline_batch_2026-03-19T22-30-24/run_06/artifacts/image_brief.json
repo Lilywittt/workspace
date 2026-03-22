@@ -1,0 +1,135 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:39:56.869Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-38-55",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "In the cool, drizzly late evening, a quiet trip to the familiar bookstore aisle becomes a gentle act of putting things back in order. A loose planner page, found tucked between the shelves, isn't just a scrap of paper; it's a small, misplaced piece of the day that asks to be returned, turning a simple errand into a private ritual of mending a tiny, invisible tear in the evening's fabric.",
+    "microPlot": [
+      "A loose page from her planner, forgotten and slipped between the books during a previous visit, catches her eye in the quiet aisle.",
+      "She carefully smooths its creases, tucks it back into its proper section, and closes the cover with a soft press of her hand.",
+      "The small act of restoration, witnessed only by the soft glow of the bookstore lights and the sound of gentle rain outside, leaves a quiet, settled feeling, as if a minor discord has been resolved."
+    ],
+    "sensoryFocus": "the dry, slightly rough texture of the paper under her fingertips, contrasted with the soft, damp chill in the air.",
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "planner page"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "selectedCaptionOpening": "指尖抚过纸张粗糙的纹理，把它放回原本的位置。雨夜的书店，连空气都带着潮湿的凉意，但把一小片失序归位，心里就悄悄平整了。",
+    "selectedCaptionSummary": "指尖抚过纸张粗糙的纹理，把它放回原本的位置。雨夜的书店，连空气都带着潮湿的凉意，但把一小片失序归位，心里就悄悄平整了。",
+    "candidateAngle": "触觉修复"
+  },
+  "semanticBindings": {
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle",
+    "locationCluster": "bookish_pause",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "planner page"
+    ],
+    "actionKernel": "return_fix_restore",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "gentle_order",
+    "presencePolicy": "partial_presence"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "partial_presence",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"指尖抚过纸张粗糙的纹理，把它放回原本的位置。雨夜的书店，连空气都带着潮湿的凉意，但把一小片失序归位，心里就悄悄平整了。\"",
+    "Scene program: return_or_repair_program",
+    "Location archetype: bookstore_aisle",
+    "Object bindings: planner page",
+    "Weather role: texture_modifier",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the dry, slightly rough texture of the paper under her fingertips, contrasted with the soft, damp chill in the air.",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Focus on hands: one holding the planner, the other carefully aligning the page | The planner is well-used but cared for, with faint pencil notes and a small, star-shaped clip marking a page | Background is the soft blur of bookshelves, with warm, low lighting from overhead fixtures | A glimpse of a wet, dark window reflects the interior lights, hinting at the rainy evening outside | Scene location archetype: bookstore aisle | Object focus: planner page",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: partial_presence",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "hands fixing or returning an item",
+    "small before/after feeling",
+    "putting a small thing back where it belongs",
+    "repair as quiet affection",
+    "Include a hint of movement or preparation, like a hand placing an item into a bag",
+    "Use natural evening light with a touch of urban glow (e.g., streetlights, shop windows)",
+    "Focus on hands: one holding the planner, the other carefully aligning the page.",
+    "The planner is well-used but cared for, with faint pencil notes and a small, star-shaped clip marking a page.",
+    "Background is the soft blur of bookshelves, with warm, low lighting from overhead fixtures.",
+    "A glimpse of a wet, dark window reflects the interior lights, hinting at the rainy evening outside.",
+    "Presence mode: partial_presence.",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

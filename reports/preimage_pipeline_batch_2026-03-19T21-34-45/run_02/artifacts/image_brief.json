@@ -1,0 +1,137 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:37:57.432Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-36-57",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "In the cool, damp air of a late spring evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple tea sachet isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the drizzly night as a private promise of a gentle reset.",
+    "microPlot": [
+      "The evening is cool and damp after a long day, and she needs a small, tangible comfort.",
+      "She pauses at a small shop under a covered walkway, carefully choosing a single tea sachet from a crowded display.",
+      "The simple act of carrying this tiny purchase home feels like a shy, hopeful promise to her future self."
+    ],
+    "sensoryFocus": "the soft rustle of paper and the cool, damp air on her wrists",
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "tea sachet"
+      ],
+      "actionKernel": "choose_pay_carry_back",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ]
+    },
+    "selectedCaptionOpening": "雨夜的廊下，指尖在茶包间犹豫的几秒，世界好像暂停了。",
+    "selectedCaptionSummary": "雨夜的廊下，指尖在茶包间犹豫的几秒，世界好像暂停了。 最后选中的那包，会在明天的杯子里变成一小片晴朗吧。 此刻，手腕很凉，但手心是暖的。",
+    "candidateAngle": "凉意与暖意"
+  },
+  "semanticBindings": {
+    "sceneProgramId": "micro_purchase_program",
+    "locationArchetype": "covered_walkway",
+    "locationCluster": "shelter_pause",
+    "objectFamily": "comfort_item",
+    "objectBindings": [
+      "tea sachet"
+    ],
+    "actionKernel": "choose_pay_carry_back",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "shy_attachment",
+    "presencePolicy": "partial_presence"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "partial_presence",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"雨夜的廊下，指尖在茶包间犹豫的几秒，世界好像暂停了。\"",
+    "Scene program: micro_purchase_program",
+    "Location archetype: covered_walkway",
+    "Object bindings: tea sachet",
+    "Weather role: texture_modifier",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the soft rustle of paper and the cool, damp air on her wrists",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Frame focuses on hands holding the small paper bag, with the covered walkway's lights creating a soft, cool glow | The tea sachet's paper tag is slightly crooked, a small imperfection that makes the choice feel personal | Scene location archetype: covered walkway | Object focus: tea sachet | choose tea sachet | complete the tiny purchase",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: partial_presence",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "counter light",
+    "shopping bag detail",
+    "small object prominence",
+    "small purchase as a private rescue",
+    "carrying a tiny comfort back with her",
+    "Frame with partial presence, hands or object in focus",
+    "Use cool, damp lighting to match the rainy evening",
+    "Include subtle motion blur or texture to imply life in progress",
+    "Frame focuses on hands holding the small paper bag, with the covered walkway's lights creating a soft, cool glow.",
+    "Include a slight motion blur from a passing cyclist in the background, implying the quiet life of the city continuing around her.",
+    "The tea sachet's paper tag is slightly crooked, a small imperfection that makes the choice feel personal.",
+    "Presence mode: partial_presence.",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

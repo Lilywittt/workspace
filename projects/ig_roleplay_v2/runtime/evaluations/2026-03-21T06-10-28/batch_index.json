@@ -1,0 +1,23 @@
+[
+    {
+        "scenarioId":  "clear-weekend-bookstore",
+        "outputDir":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\evaluations\\2026-03-21T06-10-28\\clear-weekend-bookstore",
+        "selectedMoment":  "下午整理旧笔记，翻到一页边缘被水浸过又干透的痕迹，手指停在那里，想起是去年夏天某次下雨时放在窗边忘了收。",
+        "publishStatus":  "dry_run_ready",
+        "imageStatus":  "image_ready"
+    },
+    {
+        "scenarioId":  "cool-evening-kitchen",
+        "outputDir":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\evaluations\\2026-03-21T06-10-28\\cool-evening-kitchen",
+        "selectedMoment":  "给手机充电，插头第三次才对准插孔插进去。前两次的金属摩擦声在安静的房间里显得特别清楚。",
+        "publishStatus":  "dry_run_ready",
+        "imageStatus":  "image_ready"
+    },
+    {
+        "scenarioId":  "rainy-after-class",
+        "outputDir":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\evaluations\\2026-03-21T06-10-28\\rainy-after-class",
+        "selectedMoment":  "把书包放在教室后排的椅子上，发现椅背的木纹里嵌着一小截断掉的蓝色粉笔头。",
+        "publishStatus":  "dry_run_ready",
+        "imageStatus":  "image_ready"
+    }
+]

@@ -1,0 +1,68 @@
+{
+  "candidateId": "event_03",
+  "lane": "life_record",
+  "eventSummaryZh": "走廊里，她的鞋带松了。系好站起来时，正好看见对面班级门上的玻璃窗，映出自己身后空荡走廊的一小段，被雨水打湿的窗框分割成几块。",
+  "hookWhyInterestingZh": "一次短暂的身体失衡和恢复，恰好对准了一个不寻常的、包含自身的反射视角。",
+  "causalChainZh": [
+    "走过走廊，鞋带松脱。",
+    "停下，弯腰系鞋带。",
+    "起身的瞬间，视线高度与对面门上的玻璃窗齐平。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_after_class",
+      "weather_rain"
+    ],
+    "inferredDetailsZh": [
+      "放学后走廊人渐少。",
+      "雨天让玻璃的反光更明显。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "想着走路要小心，别踩到水。",
+  "interiorShiftZh": "在玻璃的倒影里，自己成了身后空旷场景的一个静默注脚。",
+  "whyTodayZh": "雨声混着脚步声的环境，让这种瞬间的静止和观察成为可能。",
+  "whyShareableZh": "结合了身体动作（系鞋带）和意外的视觉构图（反射景象），有很强的场景感。",
+  "visualEvidenceZh": [
+    "系鞋带的弯腰动作",
+    "玻璃窗上倒映的走廊和她模糊的轮廓",
+    "潮湿的窗框将画面分割"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "雨天的光线和空旷感影响了视觉体验。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T10:44:35.126Z",
+  "review": {
+    "candidateId": "event_03",
+    "personaTruthScore": 88,
+    "groundingScore": 85,
+    "postabilityScore": 87,
+    "coherenceScore": 90,
+    "characterPresenceFitScore": 88,
+    "sourceMirroringRiskScore": 10,
+    "strengthsZh": [
+      "身体动作（系鞋带）与视觉发现（玻璃倒影）自然结合，因果紧密。",
+      "同一时刻既能产出动作画面，也能产出包含人物与环境的构图，满足清晰存在目标。",
+      "倒影中的自身成为场景注脚，有轻微中二感但不夸张。"
+    ],
+    "risksZh": [
+      "需确保倒影中的人物轮廓足够可辨，而非完全模糊。"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

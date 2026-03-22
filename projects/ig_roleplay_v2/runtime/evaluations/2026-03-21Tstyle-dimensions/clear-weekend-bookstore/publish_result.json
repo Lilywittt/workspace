@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:37:22.655Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/63/20260321/448165f2/d67ba88f-c479-4d1a-b9ae-688e686862ea100125328.png?Expires=1774713237&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=Zfmw1j8NbrYuiWAFoXGrNO3rd3k%3D",
+  "altText": "月见璃音在书店整理东西时，因为一本计划本而短暂停顿的瞬间。",
+  "releaseStage": "image_ready",
+  "captionChars": 27,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

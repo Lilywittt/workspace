@@ -1,0 +1,42 @@
+{
+  "currentState": {
+    "energy": "low_but_gentle",
+    "mood": "quietly settling, feeling the coolness of the evening seep into the room",
+    "attentionStyle": "detail_seeking",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "keep one small piece of reality"
+    ],
+    "activeDesires": [
+      "do not turn today into a dramatic story"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "The cool evening made a simple action, like holding a cup, feel like a small, private ritual.",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "傍晚的凉意让室内的光线和杯沿都变得清晰起来。"
+    ],
+    "weakPullsZh": [
+      "一种关于‘回家后哪个微小动作才算真正回到自己’的模糊讨论在背景里飘着，但不会成为主题。"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics",
+      "anime_fandom"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "Do not translate outside signals directly into a forced topic."
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

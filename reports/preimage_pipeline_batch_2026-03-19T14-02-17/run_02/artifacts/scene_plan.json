@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T06-04-00",
+  "createdAt": "2026-03-19T06:04:00.573Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ]
+  },
+  "narrative": {
+    "premise": "After a morning of studying, she steps outside to clear her head, finding the light rain has left tiny, perfect droplets clinging to the iron railing of a quiet apartment stairwell. She pauses, noticing how each one holds a tiny, inverted world.",
+    "microPlot": [
+      "The morning's focus leaves her mind buzzing, needing a small reset.",
+      "She traces a finger along the cold railing, carefully avoiding the droplets, watching them tremble but not fall.",
+      "A quiet, private satisfaction settles in, as if she's successfully preserved a collection of tiny, temporary worlds."
+    ],
+    "sensoryFocus": "cold, wet iron under fingertips; the faint, clean scent of rain on concrete."
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Wide shot of a dim, concrete stairwell landing",
+      "Her hand and sleeve are visible, tracing the railing",
+      "Focus is on the railing and the clinging droplets, her face is out of frame or softly blurred in the background",
+      "Light is diffuse, grey, and cool from the overcast sky",
+      "A small, red hairclip is just visible at the edge of her hair",
+      "The morning's focus leaves her mind buzzing, needing a small reset"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a detail: hands, an object in soft light, or a small scene",
+      "Focus on an object or small action, not a face",
+      "Shift from indoor/reflective to a small outdoor scene or activity",
+      "Wide shot of a dim, concrete stairwell landing.",
+      "Her hand and sleeve are visible, tracing the railing.",
+      "Focus is on the railing and the clinging droplets, her face is out of frame or softly blurred in the background.",
+      "Light is diffuse, grey, and cool from the overcast sky.",
+      "A small, red hairclip is just visible at the edge of her hair.",
+      "A reflection on the fragile, perfect stillness found in a mundane, wet object after the rain.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_focused"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from selfies to a quiet, object-focused life record that maintains intimate tone.",
+    "draftSummary": "A life record of a quiet, post-study moment, finding a small, secret collection of worlds in the raindrops on a stairwell railing.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

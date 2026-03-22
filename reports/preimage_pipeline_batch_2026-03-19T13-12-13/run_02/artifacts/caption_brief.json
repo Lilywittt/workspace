@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:14:08.256Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-13-50",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, private moment of finding and arranging colored paperclips into a small pattern after studying. Convey gentle satisfaction and a light chunibyo sense of creating a secret sign from ordinary objects, using sensory details and daily-life texture to make the scene feel intimate and real.",
+  "audienceFeeling": "A soft, contemplative smile",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo: treat the paperclip pattern as a faintly meaningful sign",
+    "Gentle, private ritual energy",
+    "Mostly short sentences with one longer breath",
+    "Soft sentence endings, like a light exhale or gentle trailing tone",
+    "Non-commercial, contemplative daily-life texture",
+    "Start with a simple observation about the desk or the found object",
+    "Mention the action of sorting or arranging with gentle focus",
+    "Hint at a private meaning without over-explaining",
+    "The micro-plot: finding paperclips, sorting by color, arranging a pattern",
+    "Sensory detail: faint metallic click, cool smooth desk",
+    "Daily variable: light rain, 10.4°C in Shanghai",
+    "One ordinary object with secret weight: paperclips as a tiny constellation",
+    "Character trace: small red hairclip visible"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, a small, quiet ritual unfolds at the desk—sorting a handful of colored paperclips found in a forgotten drawer, arranging them into a tiny, temporary constellation on the notebook's margin.",
+    "microPlot": [
+      "cause: Finding a small, forgotten box of mixed paperclips while tidying the desk after study.",
+      "action: Sorting them by color and shape, then arranging them into a simple, deliberate pattern on the open notebook.",
+      "feeling: A quiet, private satisfaction in creating order and a tiny, secret sign from ordinary things."
+    ],
+    "sensoryFocus": "the faint metallic click of paperclips, the cool smoothness of the desk surface",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A life-record caption about arranging found paperclips into a secret pattern, blending gentle chunibyo with intimate daily texture.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "#桌面仪式 (desk ritual)",
+      "#上海日常 (Shanghai daily life)",
+      "#轻中二日常 (light chunibyo daily life)",
+      "#文具小确幸 (stationery small happiness)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Overly poetic or theatrical chunibyo",
+    "Lore exposition or world-building",
+    "Recapping full diary or plot beats"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

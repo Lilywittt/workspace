@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_action",
+      "caption": "手指停在计划本的边缘，整理的动作就断了半拍。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从具体动作开始，描述停顿的瞬间，不解释原因。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "object_weight",
+      "caption": "计划本比想象中重了一点，因为里面夹着那片压平的叶子。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "让普通物品获得私人重量，暗示而非说明。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "internal_pause",
+      "caption": "只是整理一下，却忽然被一个细节绊住了。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "描述内心被微小事物吸引的轻微偏移感。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "momentary_shift",
+      "caption": "午后，手指在计划本的边缘找到了一个停顿的理由。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "结合环境（午后），将停顿描述为一个被找到的理由，带轻微中二感。"
+    },
+    {
+      "id": "caption_05",
+      "angle": "trace_of_feeling",
+      "caption": "今天留下了一个小小的停顿，就在计划本的这一页。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "将情绪具象化为一个可以“留下”的痕迹，私密而克制。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

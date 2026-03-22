@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:45:28.538Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T15-41-51-rainy_after_class",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/df/20260321/448165f2/2720cece-396a-4df6-901a-034559e12184252339395.png?Expires=1774713723&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=mnJggzMEVT%2B5gNVIdVtjPZjD5WA%3D",
+  "altText": "月见璃音发现发夹背面沾上橡皮屑的瞬间。",
+  "releaseStage": "image_ready",
+  "captionChars": 35,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:33:05.659Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-32-45",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note left for oneself, capturing the quiet ritual of repairing a borrowed pencil in a rainy evening bookstore. It should convey a gentle sense of order restored through a small, focused act, blending daily-life texture with a light, intimate chunibyo touch—treating the ordinary object as a tiny secret with personal weight.",
+  "audienceFeeling": "A soft, focused warmth, like witnessing a small, perfect secret.",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., the sound, the scent, the damp air).",
+    "Frame the action as a small, discovered task or quiet moment of attention.",
+    "Use a gentle, self-addressed tone, as if thinking aloud."
+  ],
+  "mustInclude": [
+    "The mechanical pencil as the central object, with its worn lead and loose clip.",
+    "The act of tightening the clip and sharpening the lead as a focused, intimate gesture.",
+    "The sensory details: woody paper scent and metallic click of the clip.",
+    "The weather context: 小雨, cool early evening in Shanghai.",
+    "The feeling of leaving the space 'a little more ordered' as a small, forward-looking promise.",
+    "One ordinary object or gesture treated with faint symbolic weight (e.g., the pencil clip snap as a 'tiny loop closed')."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "Grand, theatrical declarations or overt world-building.",
+    "Fixed slogan endings or repeated signature phrases.",
+    "Explicit self-encouragement or moralizing.",
+    "Dialogue or lore exposition that breaks the Instagram post voice."
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath for rhythm.",
+    "Soft, trailing sentence endings, like a gentle exhale or self-address.",
+    "Light chunibyo flavor: intimate, not performative (e.g., 'a tiny shared secret').",
+    "Focus on micro-plot, sensory details, and daily variables.",
+    "Tone should feel like a private note to oneself or a future self."
+  ],
+  "hashtagAngles": [
+    "gentle order",
+    "rainy bookstore moments",
+    "small repair rituals",
+    "daily secret weight",
+    "Shanghai early evening",
+    "quiet restoration"
+  ],
+  "summary": "A gentle, rainy-evening caption about repairing a borrowed pencil in a bookstore, turning a small task into a private ritual of order and care.",
+  "errorMessage": ""
+}

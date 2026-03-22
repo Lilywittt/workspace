@@ -1,0 +1,23 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "指尖触碰到微小异物时，那一瞬间的停顿和淡淡的察觉。",
+  "whatToSayZh": "只说‘摸到发夹背面沾了橡皮屑’这个事实，不说为什么觉得它值得记录。",
+  "whatToLeaveUnsaidZh": "不解释‘原来它一直在这里’那种对时间流逝的轻微感知，也不展开关于‘携带物’的联想。",
+  "openingMovesZh": [
+    "从指尖的触感开始。",
+    "用‘想重新别好’作为动作引子。",
+    "直接描述‘摸到’和‘橡皮屑’这两个具体点。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片",
+    "触觉时刻"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

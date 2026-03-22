@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:53:34.256Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, she decides to tidy her desk, discovering a forgotten sketchbook tucked under a pile of notes. The soft rain outside creates a quiet, reflective atmosphere as she flips through the old drawings, each page a small memory from a brighter season.",
+  "microPlot": [
+    "Finding the sketchbook hidden under study materials sparks a moment of curiosity.",
+    "She carefully brushes off the cover and opens it to a page of summer flowers.",
+    "A gentle, nostalgic smile forms, mixing the comfort of memory with the cozy present."
+  ],
+  "sensoryFocus": "The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+  "sceneNotes": [
+    "Desk cluttered with textbooks and a half-empty mug.",
+    "Sketchbook slightly worn at the corners.",
+    "Window in background with raindrops tracing paths.",
+    "Hands gently holding the open sketchbook.",
+    "Small red hairclip visible in her hair."
+  ],
+  "tone": [
+    "nostalgic"
+  ],
+  "captionFocus": [
+    "The quiet joy of rediscovering a forgotten piece of yourself."
+  ],
+  "summary": "A quiet, rainy afternoon becomes a moment of gentle nostalgia as she rediscovers an old sketchbook.",
+  "errorMessage": ""
+}

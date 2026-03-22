@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:50:01.239Z",
+  "source": "code",
+  "status": "selected_scene_candidate_ready",
+  "selectedCandidateId": "scene_cand_02",
+  "selectionReason": "Selected rediscovery_program because it balanced novelty 89, feasibility 92, and persona fit 88.",
+  "selectedCandidate": {
+    "candidateId": "scene_cand_02",
+    "lane": "life_record",
+    "sceneProgramId": "rediscovery_program",
+    "affordanceId": "rediscovery_window",
+    "locationArchetype": "indoor_desk_corner",
+    "locationCluster": "indoor_reset",
+    "objectFamily": "paper_fragment",
+    "objectBindings": [
+      "dried petal"
+    ],
+    "weatherRole": "reflective_support",
+    "actionKernel": "find_unfold_notice_again",
+    "actionSequence": [
+      "spot dried petal while pausing",
+      "unfold or lift it into focus",
+      "attach a quiet private meaning to it again"
+    ],
+    "emotionalLanding": "private_omen",
+    "presenceMode": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "ordinary object gains secret weight",
+      "a tiny trace from an earlier self"
+    ],
+    "imageHooks": [
+      "close object detail",
+      "unfolding gesture",
+      "soft depth around the object"
+    ],
+    "premiseSeed": "dried petal becomes the center of a find unfold notice again moment at indoor desk corner.",
+    "scores": {
+      "total": 89,
+      "novelty": 89,
+      "feasibility": 92,
+      "personaFit": 88
+    }
+  },
+  "rankedCandidates": [
+    {
+      "candidateId": "scene_cand_02",
+      "sceneProgramId": "rediscovery_program",
+      "totalScore": 89,
+      "locationArchetype": "indoor_desk_corner",
+      "objectFamily": "paper_fragment",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen"
+    },
+    {
+      "candidateId": "scene_cand_03",
+      "sceneProgramId": "threshold_pause_program",
+      "totalScore": 87,
+      "locationArchetype": "campus_edge",
+      "objectFamily": "accessory",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen"
+    },
+    {
+      "candidateId": "scene_cand_04",
+      "sceneProgramId": "transit_fragment_program",
+      "totalScore": 80,
+      "locationArchetype": "campus_edge",
+      "objectFamily": "bag_contents",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    },
+    {
+      "candidateId": "scene_cand_09",
+      "sceneProgramId": "kitchen_comfort_program",
+      "totalScore": 78,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion"
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "sceneProgramId": "laundry_corner_program",
+      "totalScore": 71,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    }
+  ]
+}

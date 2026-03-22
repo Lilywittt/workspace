@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:08.316Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-57-23",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption best executes the lane pivot to life_record by focusing on the concrete, sensory actions of tidying, directly translating the micro-plot into a quiet, satisfying narrative. It integrates the required sensory detail (sound of pen caps, cool covers) and daily variable (light rain) subtly, maintains the gentle chunibyo tone, and naturally incorporates the character's catchphrase, making it the most cohesive and publishable option that feels like a natural diary entry.",
+  "strengths": [
+    "Strongest alignment with the scene's micro-plot and sensory focus",
+    "Seamlessly integrates the character's catchphrase for continuity",
+    "Clear, intimate daily-life texture without being overly poetic",
+    "Effective lane pivot from selfie to object-focused life record"
+  ],
+  "risks": [
+    "Opening line about organizing pens is straightforward and could be perceived as simple",
+    "Hashtag set is slightly generic but remains within the brief's angles"
+  ],
+  "errorMessage": ""
+}

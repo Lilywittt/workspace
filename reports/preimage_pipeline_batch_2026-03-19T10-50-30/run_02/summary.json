@@ -1,0 +1,269 @@
+{
+  "runIndex": 2,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-52-18",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Focus on objects, food, or environment instead of face",
+      "Show a small action or task in progress"
+    ],
+    "avoidMotifs": [
+      "Starting captions with weather observations",
+      "Using #上海, #日常, #自拍, #小确幸 hashtags"
+    ],
+    "captionAdvice": [
+      "Use a caption that describes a brief moment of action or discovery",
+      "Mention a specific object or sound instead of general mood"
+    ],
+    "imageAdvice": [
+      "Frame from a new angle (e.g., overhead, close-up on hands)",
+      "Include a prop like a book, mug, or plant to add context"
+    ],
+    "summary": "Maintain the intimate diary feel but pivot from selfies to hands-on moments to refresh the visual narrative."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "partial_presence",
+    "narrativePremise": "A quiet moment of discovery while organizing a small collection of keepsakes, where a forgotten item from a past outing resurfaces, bringing a soft smile and a flicker of memory.",
+    "microPlot": [
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view.",
+      "Fingers pause, pick it up, and turn it over in the palm, tracing its cool, water-worn surface.",
+      "A quiet, fond warmth spreads, remembering the sound of the water and the feeling of that sunny afternoon."
+    ],
+    "sceneNotes": [
+      "Overhead or close-up angle focused on hands and the small drawer contents.",
+      "Soft, diffused afternoon light from a nearby window, no direct sun.",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower.",
+      "Character's sleeve is slightly pushed up, showing a slender wrist.",
+      "The pebble is grey and smooth, about the size of a large coin."
+    ],
+    "captionFocus": [
+      "A small, forgotten treasure found in the quiet of the afternoon."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "partial_presence",
+    "premise": "A quiet moment of discovery while organizing a small collection of keepsakes, where a forgotten item from a past outing resurfaces, bringing a soft smile and a flicker of memory.",
+    "microPlot": [
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view.",
+      "Fingers pause, pick it up, and turn it over in the palm, tracing its cool, water-worn surface.",
+      "A quiet, fond warmth spreads, remembering the sound of the water and the feeling of that sunny afternoon."
+    ],
+    "sensoryFocus": "cool, smooth stone against warm palm",
+    "concreteSceneCues": [
+      "Overhead or close-up angle focused on hands and the small drawer contents",
+      "Soft, diffused afternoon light from a nearby window, no direct sun",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower",
+      "Character's sleeve is slightly pushed up, showing a slender wrist",
+      "The pebble is grey and smooth, about the size of a large coin",
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "nostalgic"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a gentle, nostalgic caption from a light chunibyo perspective, focused on the small discovery of a forgotten pebble while tidying. Convey the quiet warmth of the memory it sparks, using sensory details and daily-life texture to create an intimate, non-commercial diary-like feel for a Chinese Instagram audience.",
+    "audienceFeeling": "A soft, relatable smile of recognition",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo: slightly dramatic but grounded in real feeling"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Overly poetic or abstract language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉回忆",
+      "opening": "整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。",
+      "caption": "整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。\n握在手心，凉凉的触感瞬间把记忆拉回到那个河边的晴朗下午。\n窗外飘着细雨，但掌心的温度却让今天依然感觉明亮而鲜活。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#怀旧",
+        "#整理发现"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "时光信物",
+      "opening": "在发夹和干花之间，发现了它——来自某次漫步的“时光信物”。",
+      "caption": "在发夹和干花之间，发现了它——来自某次漫步的“时光信物”。\n指尖摩挲着被水流打磨过的表面，仿佛还能听见那天的水声。\n原来，一些小小的重量，足以让阴雨的午后变得轻盈。",
+      "hashtags": [
+        "#生活碎片",
+        "#上海日常",
+        "#怀旧",
+        "#治愈时刻"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静谧定格",
+      "opening": "世界在窗外落雨，而抽屉里藏着一个放晴的午后。",
+      "caption": "世界在窗外落雨，而抽屉里藏着一个放晴的午后。\n只是一颗普通的石子，却让整理的动作暂停，让呼吸变慢。\n这种突然的、安静的想起，大概就是生活给我们的温柔备注吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#整理发现",
+        "#怀旧"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉回忆",
+      "opening": "整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。",
+      "caption": "整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。\n握在手心，凉凉的触感瞬间把记忆拉回到那个河边的晴朗下午。\n窗外飘着细雨，但掌心的温度却让今天依然感觉明亮而鲜活。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#怀旧",
+        "#整理发现"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "时光信物",
+      "opening": "在发夹和干花之间，发现了它——来自某次漫步的“时光信物”。",
+      "caption": "在发夹和干花之间，发现了它——来自某次漫步的“时光信物”。\n指尖摩挲着被水流打磨过的表面，仿佛还能听见那天的水声。\n原来，一些小小的重量，足以让阴雨的午后变得轻盈。",
+      "hashtags": [
+        "#生活碎片",
+        "#上海日常",
+        "#怀旧",
+        "#治愈时刻"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静谧定格",
+      "opening": "世界在窗外落雨，而抽屉里藏着一个放晴的午后。",
+      "caption": "世界在窗外落雨，而抽屉里藏着一个放晴的午后。\n只是一颗普通的石子，却让整理的动作暂停，让呼吸变慢。\n这种突然的、安静的想起，大概就是生活给我们的温柔备注吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈时刻",
+        "#整理发现",
+        "#怀旧"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption most directly and effectively executes the scene plan by starting with the concrete action of tidying, immediately introducing the sensory detail of the cool, smooth pebble, and seamlessly weaving in the weather variable and the required catchphrase. Its first-person, diary-like flow feels natural and publishable, providing a clear cause-action-feeling micro-plot that aligns perfectly with the life_record lane's need for a grounded, hands-on moment after a streak of selfies.",
+    "strengths": [
+      "Perfectly follows the mandated micro-plot structure from the brief",
+      "Integrates the sensory focus ('凉凉的触感') and catchphrase naturally",
+      "Clear, simple language that matches the gentle, daily-life tone",
+      "Effectively pivots visual narrative from selfie to object-focused scene"
+    ],
+    "risks": [
+      "Slightly more literal and less poetic than other options, which may feel less distinctive",
+      "Direct mention of weather ('窗外飘着细雨') is required but could be seen as overt"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "触觉回忆",
+    "caption": "整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。\n握在手心，凉凉的触感瞬间把记忆拉回到那个河边的晴朗下午。\n窗外飘着细雨，但掌心的温度却让今天依然感觉明亮而鲜活。",
+    "hashtags": [
+      "#生活碎片",
+      "#治愈时刻",
+      "#怀旧",
+      "#整理发现"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption most directly and effectively executes the scene plan by starting with the concrete action of tidying, immediately introducing the sensory detail of the cool, smooth pebble, and seamlessly weaving in the weather variable and the required catchphrase. Its first-person, diary-like flow feels natural and publishable, providing a clear cause-action-feeling micro-plot that aligns perfectly with the life_record lane's need for a grounded, hands-on moment after a streak of selfies."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "partial_presence",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"整理抽屉时，一颗光滑的灰色鹅卵石滚了出来。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: cool, smooth stone against warm palm",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Overhead or close-up angle focused on hands and the small drawer contents | Soft, diffused afternoon light from a nearby window, no direct sun | A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower | Character's sleeve is slightly pushed up, showing a slender wrist | The pebble is grey and smooth, about the size of a large coin | While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_partial_presence_daily_record",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Overhead or close-up angle focused on hands and the small drawer contents, Soft, diffused afternoon light from a nearby window, no direct sun, A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower, Character's sleeve is slightly pushed up, showing a slender wrist, The pebble is grey and smooth, about the size of a large coin, While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view, everyday life in Shanghai",
+    "camera": "Camera: partial first-person presence",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, nostalgic, cool, smooth stone against warm palm",
+    "shotNotes": [
+      "Overhead or close-up angle focused on hands and the small drawer contents",
+      "Soft, diffused afternoon light from a nearby window, no direct sun",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower",
+      "Character's sleeve is slightly pushed up, showing a slender wrist",
+      "The pebble is grey and smooth, about the size of a large coin",
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "30c31c811ab2",
+    "selectedCaption": "d7b435895bfc",
+    "imageScene": "f8e3294ebf47",
+    "candidateAngles": "e2102cfc4d4c"
+  }
+}

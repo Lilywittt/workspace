@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:25:47.366Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-24-48",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best captures the scene's forward-looking, gentle-order essence by focusing on the 'future date page' and its blankness, turning the physical act of smoothing and returning into a quiet metaphor for possibility. It avoids overused indoor-desk semantics, fits the 'bookish_pause' location cluster, and delivers the required private-ritual texture with a light, publishable touch.",
+  "caption": "晚间的书店，找到一张未来的日期页。\n它被折过，又抚平了。\n放回去时，看到那一页还是空白的。\n一种很轻的、关于“可以重新开始”的感觉，和纸页的沙沙声一起落下了。",
+  "hashtags": [
+    "#给未来的小纸条",
+    "#书店碎片",
+    "#生活记录",
+    "#微小重启"
+  ],
+  "candidateAngle": "未来空白",
+  "candidateRationale": "从“未来日期页”和“空白”切入，赋予动作（抚平放回）一种隐喻性的“重启”意味，情感落脚于“轻柔的希望”，符合“gentle_order”的情感着陆点。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best captures the scene's forward-looking, gentle-order essence by focusing on the 'future date page' and its blankness, turning the physical act of smoothing and returning into a quiet metaphor for possibility. It avoids overused indoor-desk semantics, fits the 'bookish_pause' location cluster, and delivers the required private-ritual texture with a light, publishable touch.",
+    "strengths": [
+      "Strong forward-looking metaphor ('future date page', 'blank', 'can start over') that fits the scene's emotional landing of gentle_order",
+      "Fresh object focus (stationery/paper) avoids fatigued 'accessory' family",
+      "Concrete sensory detail ('rustle of paper') integrated naturally",
+      "Light chunibyo tone is present but subtle, avoiding theatrical fantasy",
+      "Ending feels like a soft, private observation, not a fixed slogan"
+    ],
+    "risks": [
+      "Slightly less direct action description compared to candidate 01's 'smoothing'",
+      "Metaphor could be read as overly poetic if the image doesn't clearly show the blank page"
+    ]
+  }
+}

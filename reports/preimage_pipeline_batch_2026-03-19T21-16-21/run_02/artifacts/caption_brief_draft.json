@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:19.375Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-18-01",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures the quiet, late-evening moment of finding and straightening a bent paper clip in a Shanghai bookstore. The text should feel like a private, gentle ritual, focusing on the small sensory details and the personal satisfaction of completing a tiny, forward-looking task, without making it sound like a commercial or overly poetic statement.",
+  "audienceFeeling": "A soft, intimate sense of calm and quiet recognition.",
+  "openingMoves": [
+    "Start with noticing the small object on the floor.",
+    "Describe the physical act of picking it up and working it back into shape.",
+    "Mention the surrounding atmosphere (lighting, rain, books)."
+  ],
+  "mustInclude": [
+    "The cool, metallic feel and slight resistance of the paper clip under fingertips.",
+    "The soft, warm bookstore lighting and blurred background of books.",
+    "A droplet of rain tracing down the windowpane.",
+    "The quiet, satisfied click of the repair completing.",
+    "The act framed as a private ritual, not just tidying."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "Overly dramatic or theatrical chunibyo declarations.",
+    "Fixed slogan or repeated signature sentence endings.",
+    "Forcing the moment into a grand life lesson or fateful declaration.",
+    "Explicitly mentioning AI, KPIs, or collaborations."
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with soft, trailing tones or light self-address.",
+    "Keep it intimate, like a note to oneself or a future self.",
+    "Let the paper clip briefly feel like a small, personal omen or secret weight.",
+    "Maintain a gentle, daily-life texture with light chunibyo undertones."
+  ],
+  "hashtagAngles": [
+    "#上海小雨",
+    "#书店日常",
+    "#微小仪式",
+    "#春日夜晚",
+    "#安静整理"
+  ],
+  "summary": "A gentle, late-evening caption about straightening a found paper clip in a rainy Shanghai bookstore, treating it as a private ritual of quiet order.",
+  "errorMessage": ""
+}

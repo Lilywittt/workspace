@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:37:20.257Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-36-57",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures a small, private moment of choosing a tea sachet on a damp Shanghai evening. Frame it as a shy, forward-looking ritual of self-care, where the ordinary act of carrying a small purchase home becomes a quiet promise to her future self. Focus on sensory details and the gentle, hopeful feeling of the scene.",
+  "audienceFeeling": "a quiet, shared understanding of small comforts",
+  "openingMoves": [
+    "Start with a sensory detail from the evening (e.g., cool air, sound of rain)",
+    "Mention the small, specific need or errand that led to the walkway",
+    "Frame the choice of the tea sachet as a small, deliberate act"
+  ],
+  "mustInclude": [
+    "The cool, damp air of the late spring evening (小雨, about 10.4C)",
+    "The act of carefully choosing a single tea sachet from a crowded display",
+    "The sensory focus: the soft rustle of paper and the cool air on her wrists",
+    "The tea sachet's slightly crooked paper tag as a personal, imperfect detail",
+    "Carrying the small paper bag home as a shy, hopeful promise"
+  ],
+  "mustAvoid": [
+    "Commercial language or sounding like an ad for tea",
+    "Grand, theatrical declarations or heavy world-building",
+    "A fixed, slogan-like ending or repeated signature phrase",
+    "Explicit self-encouragement or diary-style recap",
+    "Dialogue or script-like exposition"
+  ],
+  "voiceNotes": [
+    "Use mostly short sentences with one occasional longer, breath-like phrase",
+    "End sentences with soft, gentle, or trailing tones (light exhale, soft self-address)",
+    "Let the tea sachet briefly carry a private, symbolic weight—a small omen or secret meaning",
+    "Sound like a private note to herself or her future self, not a public performance",
+    "Keep the light chunibyo flavor intimate and faint, not theatrical"
+  ],
+  "hashtagAngles": [
+    "#上海小雨",
+    "#晚间散步",
+    "#一个人的小仪式",
+    "#茶包选择困难症",
+    "#给明天的小小承诺"
+  ],
+  "summary": "A shy, hopeful ritual of choosing a tea sachet on a damp Shanghai evening becomes a private promise of a gentle reset.",
+  "errorMessage": ""
+}

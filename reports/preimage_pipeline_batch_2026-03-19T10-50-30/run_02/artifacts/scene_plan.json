@@ -1,0 +1,127 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T02-52-18",
+  "createdAt": "2026-03-19T02:52:18.920Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "A quiet moment of discovery while organizing a small collection of keepsakes, where a forgotten item from a past outing resurfaces, bringing a soft smile and a flicker of memory.",
+    "microPlot": [
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view.",
+      "Fingers pause, pick it up, and turn it over in the palm, tracing its cool, water-worn surface.",
+      "A quiet, fond warmth spreads, remembering the sound of the water and the feeling of that sunny afternoon."
+    ],
+    "sensoryFocus": "cool, smooth stone against warm palm"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "partial_presence",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Overhead or close-up angle focused on hands and the small drawer contents",
+      "Soft, diffused afternoon light from a nearby window, no direct sun",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower",
+      "Character's sleeve is slightly pushed up, showing a slender wrist",
+      "The pebble is grey and smooth, about the size of a large coin",
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame from a new angle (e.g., overhead, close-up on hands)",
+      "Include a prop like a book, mug, or plant to add context",
+      "Focus on objects, food, or environment instead of face",
+      "Show a small action or task in progress",
+      "Overhead or close-up angle focused on hands and the small drawer contents.",
+      "Soft, diffused afternoon light from a nearby window, no direct sun.",
+      "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower.",
+      "Character's sleeve is slightly pushed up, showing a slender wrist.",
+      "The pebble is grey and smooth, about the size of a large coin.",
+      "A small, forgotten treasure found in the quiet of the afternoon.",
+      "Do not leave the frame as a pure empty scene; include one or two readable character traces",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "A hand holding a phone or drink, a sleeve edge, a reflection, or a hairclip is acceptable even if the full face is absent",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "nostalgic"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate diary feel but pivot from selfies to hands-on moments to refresh the visual narrative.",
+    "draftSummary": "A character finds a keepsake pebble while tidying, sparking a gentle moment of nostalgic warmth.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

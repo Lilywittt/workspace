@@ -1,0 +1,4 @@
+interface:
+  display_name: "Continuity Creative Reviewer"
+  short_description: "Review posting rhythm and propose fresh creative directions."
+  default_prompt: "Use $continuity-creative-reviewer to review recent posting rhythm and suggest fresh creative directions."

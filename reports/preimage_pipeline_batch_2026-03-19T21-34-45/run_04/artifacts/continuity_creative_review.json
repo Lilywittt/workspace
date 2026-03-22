@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:39:49.748Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'finding forgotten objects' to 'intentionally placing or arranging a small item'",
+    "Use weather as a 'texture_modifier' instead of 'reflective_support' for a more active, sensory feel"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel; it's overused (7 of last 12 scenes)"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking, gentle action (like preparing, placing, or gifting) rather than rediscovery"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense, immediate sensory detail (e.g., sound, texture) rather than a reflective opening"
+  ],
+  "imageAdvice": [
+    "Frame a partial-presence shot focusing on hands and object interaction, with soft, cool evening lighting"
+  ],
+  "summary": "Move from rediscovery to gentle, forward-looking action to refresh the intimate life_record lane.",
+  "errorMessage": ""
+}

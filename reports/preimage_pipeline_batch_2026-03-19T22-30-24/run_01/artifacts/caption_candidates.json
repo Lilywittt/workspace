@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:31:54.854Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-31-06",
+  "briefGoal": "Write a caption that feels like a private note to future self, capturing the quiet ritual of buying a soft pouch on a drizzly Shanghai evening. It should weave sensory detail (the fuzzy texture, cool air, string lights) with a light chunibyo whisper, turning a simple errand into a shy, forward-looking promise of a gentle reset, all in the voice of a girl leaving a trace of her day.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉仪式",
+      "caption": "指尖碰到它毛茸茸的表面时，雨声好像变轻了。\n在廊下的小摊选了这只软软的束口袋，像完成了一个只有自己知道的交接仪式。\n把它装进包里带回去，就是今晚最安静的救生圈。",
+      "hashtags": [
+        "#软袋仪式",
+        "#小雨夜晚",
+        "#廊下小摊",
+        "#微小自愈",
+        "#轻中二日记"
+      ],
+      "rationale": "以触觉细节开场，将购买行为描绘为私密仪式，赋予普通物件‘救生圈’的轻微中二隐喻，符合私人笔记与温柔前瞻的语气。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "未来信物",
+      "caption": "给明天的自己买了一个毛茸茸的信物。\n上海小雨的夜晚，廊下暖黄串灯的光刚好落在它身上。\n付钱，收好，离开——完成一次微小的、向前的打点。",
+      "hashtags": [
+        "#未来信物",
+        "#廊下微购",
+        "#春雨夜晚",
+        "#私密承诺",
+        "#生活切片"
+      ],
+      "rationale": "以‘给明天的自己’直接点题，将物件定义为‘信物’，行动定义为‘打点’，结合天气与灯光细节，营造含蓄而前瞻的私人感。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "静默交接",
+      "caption": "听见雨敲廊顶的笃笃声，和指尖掠过布袋纤维的沙沙声，合成了一个秘密频率。\n用一点零钱换回一小团柔软的锚。\n好了，现在可以安静地走回夜色里了。",
+      "hashtags": [
+        "#静默交接",
+        "#触觉细节",
+        "#微小舒适",
+        "#夜晚漫步",
+        "#私人频率"
+      ],
+      "rationale": "从两种声音的并置创造‘秘密频率’的轻微中二感，将普通布袋视为‘锚’，以完成动作后的平静收尾，体现害羞的依恋与重置感。"
+    }
+  ]
+}

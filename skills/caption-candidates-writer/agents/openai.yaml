@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caption Candidates Writer"
+  short_description: "Write distinct Chinese caption options that follow the brief."
+  default_prompt: "Use $caption-candidates-writer to write distinct Chinese caption options for the current brief."

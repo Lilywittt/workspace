@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:31:30.749Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-31-06",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to future self, capturing the quiet ritual of buying a soft pouch on a drizzly Shanghai evening. It should weave sensory detail (the fuzzy texture, cool air, string lights) with a light chunibyo whisper, turning a simple errand into a shy, forward-looking promise of a gentle reset, all in the voice of a girl leaving a trace of her day.",
+  "audienceFeeling": "A soft, intimate recognition of finding small comforts.",
+  "openingMoves": [
+    "Start with a sensory observation about the rain or the evening light.",
+    "Mention the hands—feeling the pouch's texture.",
+    "Frame the action as a small, deliberate choice."
+  ],
+  "mustInclude": [
+    "The soft, fuzzy texture of the pouch against cool fingertips.",
+    "The covered walkway, string lights, and the quiet hum of the evening market.",
+    "The act of tucking the pouch into her bag as carrying something home.",
+    "A light chunibyo turn—a private meaning or tiny omen attached to the object.",
+    "The small red hairclip or edge of jacket sleeve as a character trace.",
+    "A feeling of shy attachment or a quiet promise to herself."
+  ],
+  "mustAvoid": [
+    "Making it sound like a commercial ad or product endorsement.",
+    "Using fixed slogan endings or overt self-encouragement phrases.",
+    "Expanding into grand fate declarations or world-building lore.",
+    "Disclosing AI, KPIs, or marketing jargon.",
+    "Forgetting the daily-life texture for poetic abstraction."
+  ],
+  "voiceNotes": [
+    "Short sentences, with one occasional longer, breath-like phrase.",
+    "Soft sentence endings—gentle trailing tones or light exhales.",
+    "Self-address or talking to the object/weather quietly.",
+    "Micro-plot: choose, pay, carry back.",
+    "Let the pouch be an ordinary object with secret weight for a moment."
+  ],
+  "hashtagAngles": [
+    "soft pouch ritual",
+    "drizzle evening comfort",
+    "Shanghai covered walkway",
+    "tiny self care",
+    "light chunibyo diary",
+    "private promise object"
+  ],
+  "summary": "A gentle, sensory-rich caption about buying a soft pouch on a rainy evening, framing it as a shy, private ritual of comfort and forward-looking reset.",
+  "errorMessage": ""
+}

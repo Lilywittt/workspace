@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:01.228Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-56-12",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This caption best executes the lane pivot to life_record by focusing on the scene's objects and atmosphere with a gentle, immersive voice. It integrates the required sensory detail (light, sound), the character trace (red hairclip), and the daily variable (rain) seamlessly into a cohesive micro-plot about finding order. The tone is cozy and lightly whimsical without being commercial, and it naturally weaves in the catchphrase, making the ordinary moment feel special and publishable.",
+  "caption": "整理书桌像一种安静的仪式。\n红笔、蓝笔、黑笔…排成一列小小的彩虹。\n台灯的光晕温柔地罩着这一切，连肩上的红色发夹都显得格外乖巧。\n雨声细微，而心里的某个角落，已经放晴了。今天依然感觉明亮而生动。",
+  "hashtags": [
+    "#手帐女孩",
+    "#治愈瞬间",
+    "#生活碎片",
+    "#上海日常"
+  ],
+  "candidateAngle": "专注的仪式感",
+  "candidateRationale": "以‘仪式感’为切入点，聚焦于具体物件（笔、发夹）和光影，营造细腻的沉浸感，并将外部天气与内心状态形成诗意对照。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best executes the lane pivot to life_record by focusing on the scene's objects and atmosphere with a gentle, immersive voice. It integrates the required sensory detail (light, sound), the character trace (red hairclip), and the daily variable (rain) seamlessly into a cohesive micro-plot about finding order. The tone is cozy and lightly whimsical without being commercial, and it naturally weaves in the catchphrase, making the ordinary moment feel special and publishable.",
+    "strengths": [
+      "Strong object-focused immersion aligns perfectly with life_record lane",
+      "Elegantly integrates character trace (red hairclip) and sensory details",
+      "Poetic yet grounded tone fits light chunibyo and feels fresh",
+      "Naturally incorporates the required catchphrase and weather hint"
+    ],
+    "risks": [
+      "Slightly more abstract ('corner of the heart has cleared up') may feel less direct",
+      "Uses four hashtags, nearing the upper limit"
+    ]
+  }
+}

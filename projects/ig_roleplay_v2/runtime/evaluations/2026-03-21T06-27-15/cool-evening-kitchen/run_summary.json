@@ -1,0 +1,90 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:32:28.609Z",
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen",
+  "mode": "zero_memory_agent",
+  "scenarioId": "cool-evening-kitchen",
+  "dayContext": {
+    "isoDate": "2026-03-23",
+    "routineWindow": "evening_reset",
+    "weather": "微凉的多云傍晚",
+    "currentContext": "home_evening_reset"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "trending_topics",
+      "anime_fandom",
+      "weather",
+      "seasonal_culture",
+      "city_trivia"
+    ]
+  },
+  "characterState": {
+    "mood": "今天偏安静，但会被一个具体细节牵住",
+    "preferredLane": "life_record",
+    "whyPostToday": "有一个瞬间短暂地值得留下。"
+  },
+  "selectedMoment": {
+    "summaryZh": "从衣柜拿睡衣，发现最上面那件的标签翻出来了，硬硬地硌了一下手心。",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。"
+  },
+  "caption": {
+    "text": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+    "hashtags": [
+      "#日常切片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T06-32-23-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/53/20260321/448165f2/d3cca777-815c-4cf9-b034-d56587644660144164868.png?Expires=1774680542&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=y1lGLM6CIT9e5ySph9zBp9kbGUI%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

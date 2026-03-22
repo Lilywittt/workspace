@@ -1,0 +1,198 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:41:12.935Z",
+  "source": "code",
+  "status": "scene_plan_candidates_ready",
+  "sourceArtifacts": {
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "noveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json"
+  },
+  "candidateCount": 5,
+  "candidates": [
+    {
+      "candidateId": "scene_cand_07",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "sticky note"
+      ],
+      "weatherRole": "texture_modifier",
+      "actionKernel": "return_fix_restore",
+      "actionSequence": [
+        "pick up sticky note",
+        "repair, return, or put it back where it belongs",
+        "feel the day close a tiny loop"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ],
+      "premiseSeed": "sticky note becomes the center of a return fix restore moment at bookstore aisle.",
+      "scores": {
+        "total": 90,
+        "novelty": 90,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "lane": "life_record",
+      "sceneProgramId": "desk_reset_program",
+      "affordanceId": "indoor_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "planner page"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "sort_reset_arrange",
+      "actionSequence": [
+        "notice the slight disorder around window seat",
+        "sort or straighten planner page",
+        "let the act of arranging shift the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "restoring order through one small action",
+        "letting an object carry the mood"
+      ],
+      "imageHooks": [
+        "object-led composition",
+        "hand and desk texture",
+        "readable trace cues"
+      ],
+      "premiseSeed": "planner page becomes the center of a sort reset arrange moment at window seat.",
+      "scores": {
+        "total": 79,
+        "novelty": 79,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "lane": "life_record",
+      "sceneProgramId": "laundry_corner_program",
+      "affordanceId": "domestic_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "tea sachet"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "fold_sort_pause",
+      "actionSequence": [
+        "gather a few soft domestic pieces",
+        "fold or sort around tea sachet",
+        "let texture and repetition soften the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "soft textures changing the pace of the day",
+        "domestic order as a private ritual"
+      ],
+      "imageHooks": [
+        "fabric texture",
+        "folding gesture",
+        "domestic corner framing"
+      ],
+      "premiseSeed": "tea sachet becomes the center of a fold sort pause moment at window seat.",
+      "scores": {
+        "total": 71,
+        "novelty": 71,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_05",
+      "lane": "life_record",
+      "sceneProgramId": "bookstore_pause_program",
+      "affordanceId": "bookstore_pause_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "keepsake",
+      "objectBindings": [
+        "star-shaped clip"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "browse_pause_notice",
+      "actionSequence": [
+        "browse slowly near star-shaped clip",
+        "pause on one page or small trace",
+        "let the quiet public setting turn personal"
+      ],
+      "emotionalLanding": "private_omen",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "something left by a stranger feels personal",
+        "quiet public place, private feeling"
+      ],
+      "imageHooks": [
+        "shelf depth",
+        "paper texture",
+        "fingers touching a page"
+      ],
+      "premiseSeed": "star-shaped clip becomes the center of a browse pause notice moment at bookstore aisle.",
+      "scores": {
+        "total": 66,
+        "novelty": 66,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_04",
+      "lane": "life_record",
+      "sceneProgramId": "transit_fragment_program",
+      "affordanceId": "transit_fragment_window",
+      "locationArchetype": "campus_edge",
+      "locationCluster": "after_school_fragment",
+      "objectFamily": "bag_contents",
+      "objectBindings": [
+        "folded shopping list"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "wait_carry_pass_through",
+      "actionSequence": [
+        "carry folded shopping list through a short transition",
+        "pause while waiting or passing through",
+        "let an ordinary fragment become keepable"
+      ],
+      "emotionalLanding": "tiny_reset",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "ordinary transit becomes keepable",
+        "carrying a small thing through the city"
+      ],
+      "imageHooks": [
+        "platform edge",
+        "bag or hand detail",
+        "motion held briefly still"
+      ],
+      "premiseSeed": "folded shopping list becomes the center of a wait carry pass through moment at campus edge.",
+      "scores": {
+        "total": 66,
+        "novelty": 66,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    }
+  ]
+}

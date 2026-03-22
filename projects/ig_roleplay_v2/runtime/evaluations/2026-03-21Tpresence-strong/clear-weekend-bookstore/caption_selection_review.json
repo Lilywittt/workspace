@@ -1,0 +1,17 @@
+{
+  "selectedCandidateId": "caption_02",
+  "reasonZh": "这一条最像角色会真的发出来的话。",
+  "strengthsZh": [
+    "具体",
+    "自然",
+    "保留瞬间",
+    "有记忆点"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

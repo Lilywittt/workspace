@@ -1,0 +1,90 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:45:09.193Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-42-21-rainy_after_class",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable.",
+      "libraryStatus": "placeholder",
+      "librarySource": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "referencePlan": {
+    "identityReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "styleReferenceIds": [],
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ]
+  },
+  "referenceHandling": {
+    "requestedReferenceCount": 1,
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "deliveryMode": "pending_provider_selection"
+  },
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 系鞋带的弯腰动作, 玻璃窗上倒映的走廊和她模糊的轮廓, 潮湿的窗框将画面分割, the action of tying shoelaces or the hands just finishing tying the laces, the glass window on the classroom door opposite, reflecting a blurry view of the empty hallway behind, the rain-dampened window frame that segments the reflected view, 弯腰系鞋带的动作或刚系好鞋带的手部细节, 对面班级门上的玻璃窗，窗上倒映出身后空荡走廊的模糊景象, 被雨水打湿、将倒影画面分割成几块的窗框\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nIdentityLock: same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable\nComposition: moment-led framing rooted in the action of standing up from tying shoelaces, aligning the gaze with the glass window, 让构图跟随系鞋带后起身、视线与玻璃窗齐平的瞬间，保持动作与空间的连贯。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 雨天放学后，一个短暂失衡与恢复的瞬间，视线恰好捕捉到一个包含自身的反射视角。\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, generic aesthetic wallpaper, fashion editorial polish, rewriting the moment into an interaction with another person, empty scenery without character trace, turning the reflection into a dreamy scenic backdrop, 通用的美学壁纸, 时尚大片般的精致感, 将这一刻重写成与他人互动, 空无一人的风景，没有人物痕迹, 让倒影变成梦幻般的风景背景, tourism poster feeling, fashion editorial gloss, generic anime boy redesign, older-looking redesign, irrelevant bystanders drawing more attention than the protagonist, sunny outdoor field, bright outdoor meadow",
+    "shotNotes": [
+      "系鞋带的弯腰动作",
+      "玻璃窗上倒映的走廊和她模糊的轮廓",
+      "潮湿的窗框将画面分割",
+      "the action of tying shoelaces or the hands just finishing tying the laces",
+      "the glass window on the classroom door opposite, reflecting a blurry view of the empty hallway behind",
+      "the rain-dampened window frame that segments the reflected view",
+      "the hallway floor or wall",
+      "the rainy-day light coming from outside the window"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "系鞋带的弯腰动作, 玻璃窗上倒映的走廊和她模糊的轮廓, 潮湿的窗框将画面分割, the action of tying shoelaces or the hands just finishing tying the laces, the glass window on the classroom door opposite, reflecting a blurry view of the empty hallway behind, the rain-dampened window frame that segments the reflected view, 弯腰系鞋带的动作或刚系好鞋带的手部细节, 对面班级门上的玻璃窗，窗上倒映出身后空荡走廊的模糊景象, 被雨水打湿、将倒影画面分割成几块的窗框",
+      "context": "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "identityLock": "same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+      "composition": "moment-led framing rooted in the action of standing up from tying shoelaces, aligning the gaze with the glass window, 让构图跟随系鞋带后起身、视线与玻璃窗齐平的瞬间，保持动作与空间的连贯。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "雨天放学后，一个短暂失衡与恢复的瞬间，视线恰好捕捉到一个包含自身的反射视角。",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音在走廊系好鞋带起身时，看见对面班级门玻璃上倒映出的空荡走廊和自己模糊的轮廓。",
+    "needsFaceReview": false,
+    "needsIdentityReview": true,
+    "dryRunDefault": true
+  },
+  "reviewSignals": {
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": [],
+    "unresolvedIdentityReference": true,
+    "strongerIdentityLock": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

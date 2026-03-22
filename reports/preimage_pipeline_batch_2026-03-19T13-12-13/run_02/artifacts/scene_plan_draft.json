@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:50.218Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, a small, quiet ritual unfolds at the desk—sorting a handful of colored paperclips found in a forgotten drawer, arranging them into a tiny, temporary constellation on the notebook's margin.",
+  "microPlot": [
+    "cause: Finding a small, forgotten box of mixed paperclips while tidying the desk after study.",
+    "action: Sorting them by color and shape, then arranging them into a simple, deliberate pattern on the open notebook.",
+    "feeling: A quiet, private satisfaction in creating order and a tiny, secret sign from ordinary things."
+  ],
+  "sensoryFocus": "the faint metallic click of paperclips, the cool smoothness of the desk surface",
+  "sceneNotes": [
+    "Hands in frame, fingers gently placing paperclips.",
+    "Desk surface with open notebook, a closed textbook, a half-empty water glass.",
+    "Soft, indirect daylight from a window, casting gentle shadows.",
+    "Small red hairclip visible at the edge of hair.",
+    "Paperclips arranged in a loose star or wave shape on the notebook margin."
+  ],
+  "tone": [
+    "gentle",
+    "contemplative"
+  ],
+  "captionFocus": [
+    "A small, completed action—sorting and arranging—as a quiet moment of focus."
+  ],
+  "summary": "A life-record scene of a gentle, private ritual with found paperclips, shifting from passive observation to a subtle, completed action.",
+  "errorMessage": ""
+}

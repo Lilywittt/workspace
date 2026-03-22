@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:00:11.305Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "goal": "Write a short, intimate caption that shares the quiet moment of finding a forgotten childhood charm while tidying a desk, blending gentle nostalgia with the texture of daily life, and maintaining a light chunibyo voice that feels personal and non-commercial.",
+  "audienceFeeling": "a soft, relatable warmth",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo: slightly dramatic but grounded in daily life",
+    "Gentle and reflective, not overly energetic",
+    "First-person, diary-like intimacy",
+    "Chinese Instagram casual, with natural phrasing",
+    "Focus on a small turn of feeling, not a full recap",
+    "Start with a simple observation about the weather or the act of tidying",
+    "Mention the clutter or the feeling that prompted the clean-up",
+    "Introduce the discovery of the object naturally",
+    "Use a slight chunibyo turn to elevate the mundane",
+    "The found rabbit keychain as a specific object",
+    "A sensory detail like texture or scent",
+    "A hint of Shanghai through local texture if it fits naturally",
+    "The red hairclip as a character trace",
+    "The catchphrase 'Today should still feel bright and alive.' integrated subtly"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, she tidies her desk, finding a small, forgotten charm tucked under a notebook—a tiny, worn rabbit keychain from a childhood trip, its threadbare ears a sudden, soft anchor to a simpler time.",
+    "microPlot": [
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space.",
+      "action sentence: She carefully stacks her textbooks, wipes the desk with a soft cloth, and discovers the old keychain hidden beneath.",
+      "feeling sentence: A quiet warmth spreads through her chest, a mix of nostalgia and gentle surprise that something so small can still feel so comforting."
+    ],
+    "sensoryFocus": "soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle life-record caption about finding an old rabbit keychain while cleaning, blending nostalgia with daily texture in a light chunibyo voice.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "#怀旧小物 (nostalgic small object)",
+      "#上海日常 (Shanghai daily life)",
+      "#整理桌面 (tidying desk)",
+      "##动漫感日常 (anime-like daily life)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Full face selfie framing in the text",
+    "Overly poetic or abstract exposition",
+    "Inventing new plot beats outside the micro-plot",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

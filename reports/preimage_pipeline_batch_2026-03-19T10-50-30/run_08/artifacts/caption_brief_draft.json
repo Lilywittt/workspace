@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:00:11.099Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate caption that shares the quiet moment of finding a forgotten childhood charm while tidying a desk, blending gentle nostalgia with the texture of daily life, and maintaining a light chunibyo voice that feels personal and non-commercial.",
+  "audienceFeeling": "a soft, relatable warmth",
+  "openingMoves": [
+    "Start with a simple observation about the weather or the act of tidying",
+    "Mention the clutter or the feeling that prompted the clean-up",
+    "Introduce the discovery of the object naturally",
+    "Use a slight chunibyo turn to elevate the mundane"
+  ],
+  "mustInclude": [
+    "The found rabbit keychain as a specific object",
+    "A sensory detail like texture or scent",
+    "A hint of Shanghai through local texture if it fits naturally",
+    "The red hairclip as a character trace",
+    "The catchphrase 'Today should still feel bright and alive.' integrated subtly"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Full face selfie framing in the text",
+    "Overly poetic or abstract exposition",
+    "Inventing new plot beats outside the micro-plot",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: slightly dramatic but grounded in daily life",
+    "Gentle and reflective, not overly energetic",
+    "First-person, diary-like intimacy",
+    "Chinese Instagram casual, with natural phrasing",
+    "Focus on a small turn of feeling, not a full recap"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#怀旧小物 (nostalgic small object)",
+    "#上海日常 (Shanghai daily life)",
+    "#整理桌面 (tidying desk)",
+    "##动漫感日常 (anime-like daily life)"
+  ],
+  "summary": "A gentle life-record caption about finding an old rabbit keychain while cleaning, blending nostalgia with daily texture in a light chunibyo voice.",
+  "errorMessage": ""
+}

@@ -1,0 +1,67 @@
+{
+  "candidateId": "event_01",
+  "lane": "life_record",
+  "eventSummaryZh": "下午整理旧笔记，翻到一页边缘被水浸过又干透的痕迹，手指停在那里，想起是去年夏天某次下雨时放在窗边忘了收。",
+  "hookWhyInterestingZh": "它只是一个物理痕迹，但今天被看见了，像时间自己留下的一个标点。",
+  "causalChainZh": [
+    "只是想把散乱的笔记理一理。",
+    "翻到那一页，边缘的纸皱得有点特别。",
+    "手指摸上去，突然想起它为什么变成这样。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear"
+    ],
+    "inferredDetailsZh": [
+      "笔记是旧的，但今天才注意到这个细节。",
+      "天气是晴到多云，但想起的是过去的雨。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "只是想整理一下，让下午的时间有点事做。",
+  "interiorShiftZh": "那个皱痕突然把去年夏天的某个瞬间拉回来了半秒。",
+  "whyTodayZh": "今天的安静和节奏，让这种小小的、非刻意的回想刚好成立。",
+  "whyShareableZh": "它具体，有触感，但没有被解释成什么大道理，只是一块被注意到的过去。",
+  "visualEvidenceZh": [
+    "笔记本摊开的那一页",
+    "纸张边缘不规则的皱痕",
+    "手指停在皱痕上的瞬间"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "外界关于旧书纸张、微小日常的讨论，可能让今天更容易注意到这类细节"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T06:12:35.789Z",
+  "review": {
+    "candidateId": "event_01",
+    "personaTruthScore": 88,
+    "groundingScore": 85,
+    "postabilityScore": 87,
+    "coherenceScore": 89,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "物理触发明确（手指触摸皱痕）",
+      "情绪转变由具体细节驱动",
+      "图文同源性强（皱痕、手指、笔记本）",
+      "细节顽固且普通（旧笔记、水渍）"
+    ],
+    "risksZh": [
+      "需注意避免将皱痕解释为过度象征"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。",
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

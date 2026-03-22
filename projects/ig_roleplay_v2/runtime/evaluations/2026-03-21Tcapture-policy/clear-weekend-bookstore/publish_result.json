@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:52:12.619Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/b7/20260321/448165f2/c351323f-43fb-48c0-a851-4d0ca27c5163913777687.png?Expires=1774699725&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=xF1UVZUEfUxkXeAng6hJmjwT%2F6Y%3D",
+  "altText": "月见璃音路过书店时，注意到一本笔记本的封面颜色和她头发上的发卡几乎一模一样。",
+  "releaseStage": "image_ready",
+  "captionChars": 37,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:34:20.739Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from desk/bookstore to a new indoor micro-location like a hallway shelf or entryway nook",
+    "Try an action kernel like 'arrange_lightly' or 'pause_consider' instead of 'find_unfold_notice_again'",
+    "Use a weather role like 'ambient_mood' if possible, moving beyond 'reflective_support'"
+  ],
+  "avoidMotifs": [
+    "Repeating 'after studying' as scene setup",
+    "Using 'accessory' as the primary object family",
+    "Ending with 'soft_observation' caption family"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a small, forward-looking choice rather than a rediscovery of the past",
+    "Incorporate a subtle sound or texture detail (e.g., hum of appliance, fabric rustle) for sensory freshness"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense, immediate observation about a small action or sensation",
+    "Weave in a brief, whimsical thought that feels like a private note to self",
+    "End with a gentle, open-ended feeling rather than a conclusive 'completion'"
+  ],
+  "imageAdvice": [
+    "Focus on a partial, intimate composition (e.g., hands, object close-up, blurred background)",
+    "Use natural, diffused lighting to match the cool, drizzly early evening mood",
+    "Include a subtle environmental detail that hints at location without being repetitive"
+  ],
+  "summary": "Shift from retrospective rediscovery to a gentle, forward-looking micro-action in a fresh indoor nook, maintaining the intimate, rainy-day mood while avoiding overused patterns.",
+  "errorMessage": ""
+}

@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "concrete_detail",
+      "caption": "指尖碰到纸页边缘的时候，傍晚的空气好像也跟着停了一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体触感开始，连接环境氛围"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_shift",
+      "caption": "本来只是整理，却因为一个角落，让这个傍晚变得可以收起来。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "描述动作到情绪的小转变，不解释原因"
+    },
+    {
+      "id": "caption_04",
+      "angle": "moment_anchor",
+      "caption": "袖口擦过纸面，忽然觉得今天可以在这里停一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从衣物触觉切入，赋予日常物件私人重量"
+    },
+    {
+      "id": "caption_05",
+      "angle": "ambient_pause",
+      "caption": "暮色里的灯光落在手边，让这个整理的动作，轻轻定住了半秒。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将环境光与微小动作结合，营造安静瞬间"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen"
+}

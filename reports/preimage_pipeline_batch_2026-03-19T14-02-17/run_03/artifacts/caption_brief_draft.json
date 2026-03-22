@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:05:43.147Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-05-22",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a quiet note to self, observing the shift from day to dusk through the small, forgotten pencil on the floor. It should weave the micro-plot of finding this 'misplaced secret' with sensory details (dry wood scent, cool floor) and a light chunibyo touch, making the ordinary feel like a private ritual without being theatrical.",
+  "audienceFeeling": "A soft, intimate recognition of small daily poetry",
+  "openingMoves": [
+    "Start with the fading light or the quiet of the room settling in",
+    "Mention noticing the pencil as a small, still detail",
+    "Use a gentle, observational tone, like speaking softly to oneself"
+  ],
+  "mustInclude": [
+    "The pencil as a 'misplaced secret' or trace from the morning",
+    "Sensory detail: the faint scent of pencil wood or cool floor texture",
+    "A character trace (e.g., sleeve edge, red hairclip) to maintain presence",
+    "The shift to blue-gray dusk as a time marker",
+    "A light chunibyo turn, like reading a small omen in the ordinary"
+  ],
+  "mustAvoid": [
+    "Fixed slogan endings or repeated signature phrases",
+    "Commercial, KPI, or marketing language",
+    "Forbidden legacy phrases like 'bright and alive'",
+    "Grand, theatrical world-building or diary-style recap",
+    "Making the pencil a heavy symbolic metaphor"
+  ],
+  "voiceNotes": [
+    "Short sentences with one longer, breath-like phrase",
+    "Soft endings, gentle trailing tones, or light self-address",
+    "Light chunibyo flavor—intimate, not performative",
+    "Like leaving a private note for future self on Instagram",
+    "Avoid sounding poetic for poetry's sake; keep it believably daily"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#上海日常 (Shanghai daily)",
+    "#铅笔与黄昏 (pencil and dusk)",
+    "#少女的观察日记 (girl's observation diary)",
+    "#安静时刻 (quiet moment)"
+  ],
+  "summary": "A dusk scene where a forgotten pencil becomes a small, secretly meaningful trace of the day's end, observed with gentle, light-chunibyo intimacy.",
+  "errorMessage": ""
+}

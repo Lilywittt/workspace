@@ -1,0 +1,51 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore",
+  "createdAt": "2026-03-21T06:13:04.011Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "晴到多云",
+    "locationName": "Shanghai",
+    "routineWindow": "afternoon_pause"
+  },
+  "narrative": {
+    "premise": "下午整理旧笔记，翻到一页边缘被水浸过又干透的痕迹，手指停在那里，想起是去年夏天某次下雨时放在窗边忘了收。",
+    "microPlot": [
+      "只是想把散乱的笔记理一理。",
+      "翻到那一页，边缘的纸皱得有点特别。",
+      "手指摸上去，突然想起它为什么变成这样。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "那个皱痕突然把去年夏天的某个瞬间拉回来了半秒。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "concreteSceneCues": [
+      "笔记本摊开的那一页",
+      "纸张边缘不规则的皱痕",
+      "手指停在皱痕上的瞬间"
+    ],
+    "sceneNotes": [
+      "context: weekend_pause_window",
+      "weather: 晴到多云"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

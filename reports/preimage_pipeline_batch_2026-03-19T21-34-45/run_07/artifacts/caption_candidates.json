@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:44:46.910Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-44-07",
+  "briefGoal": "Write a caption that feels like a private note to oneself, capturing the quiet ritual of finding a misplaced mechanical pencil in a lamplit bookstore aisle, testing its click, and returning it. The text should convey a gentle, forward-looking satisfaction from restoring a small order, using short sentences with one longer breath, and letting the ordinary object briefly hold secret weight.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的修复仪式",
+      "caption": "在书店的暖黄灯光下，发现一支被遗忘的银色机械铅笔。\n轻轻按动，咔哒一声，铅芯探出头来。\n把它放回笔筒的瞬间，像是为今天补上了一个小小的句点。\n窗外小雨淅沥，但这里很安静。",
+      "hashtags": [
+        "#上海书店",
+        "#机械铅笔的轻响",
+        "#温柔秩序",
+        "#日常的微小仪式",
+        "#月见璃音的随手记"
+      ],
+      "rationale": "以发现物品为起点，通过感官细节（咔哒声）和动作（放回）构建微型叙事，结尾用天气作氛围衬托而不喧宾夺主，符合‘修复即安静情感’的钩子。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "秘密的归还信号",
+      "caption": "一支笔躺在书架上，像迷路了一样。\n捡起来，试了试它的机关——那声清脆的‘咔’，是它还在工作的证明。\n把它送回笔筒，这个动作轻得像一个暗号：今天也有好好把世界的一角摆正哦。",
+      "hashtags": [
+        "#小雨夜",
+        "#日常的微小仪式",
+        "#温柔秩序",
+        "#生活切片",
+        "#bookstorevibes"
+      ],
+      "rationale": "将普通物件（机械铅笔）和归还动作赋予‘暗号’般的私密仪式感，符合‘让寻常事物带有秘密意义’的要求，语气带有轻微中二但克制。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "闭合一个温柔的环",
+      "caption": "晚间的书店，空气里有纸和木头的味道。\n指尖碰到冰凉的金属笔杆，按下去，听到很轻的‘咔’。\n把它放回原处。一件小事完成了，心里某个地方也跟着平整了一点。\n早春的雨夜，适合做这种安静的小事。",
+      "hashtags": [
+        "#上海书店",
+        "#机械铅笔的轻响",
+        "#日常记录",
+        "#安静时刻",
+        "#earlyspring"
+      ],
+      "rationale": "从多感官（触觉、听觉、嗅觉）切入，强调动作完成带来的内在感受（心里平整），结尾自然融入天气与季节，形成完整的情感闭环。"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:43:09.605Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-42-51",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption from Tsukimi Rion's perspective, capturing the quiet, intentional feeling of buying a warm cup sleeve on a drizzly evening. The text should feel like a private note to herself, focusing on the sensory detail of the object and the small, shy promise of comfort it represents, without turning it into a grand statement.",
+  "audienceFeeling": "a quiet, shared understanding of finding small comforts",
+  "openingMoves": [
+    "Start with a simple observation about the weather or hands feeling cold",
+    "Mention the covered walkway and the stall's warm light",
+    "Describe the act of choosing or paying for the cup sleeve"
+  ],
+  "mustInclude": [
+    "The soft, damp texture of the cup sleeve against cool fingertips",
+    "The act of carrying the small comfort back with her",
+    "A light chunibyo touch, like a 'private rescue' or 'small promise'",
+    "The Shanghai setting and 小雨 weather",
+    "One ordinary detail (like the shopping bag) that feels faintly symbolic"
+  ],
+  "mustAvoid": [
+    "Commercial language or sounding like an ad",
+    "A fixed, slogan-like ending or repeated signature line",
+    "Forcing the moment into a grand fateful declaration",
+    "Wide, cinematic spectacle descriptions",
+    "Explicitly mentioning AI, KPIs, or collaborations"
+  ],
+  "voiceNotes": [
+    "Use mostly short sentences with one occasional longer breath",
+    "End with a soft, gentle trailing tone or light self-address",
+    "Keep it intimate, like a private dynamic posted publicly",
+    "Allow light chunibyo flavor but keep it grounded in daily texture",
+    "Focus on small actions, touch, light, and sound over big emotions"
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#小雨的晚上",
+    "#小小的治愈",
+    "#生活记录",
+    "#私人的仪式感"
+  ],
+  "summary": "A shy, intentional purchase of a warm cup sleeve becomes a private ritual of comfort against a drizzly Shanghai evening.",
+  "errorMessage": ""
+}

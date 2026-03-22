@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "concrete_detail",
+      "caption": "手指停在边缘，半秒。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体细节切入，短促而克制"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_ritual",
+      "caption": "整理到一半，被一个很小的细节定住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "描述动作与中断的因果，带轻微仪式感"
+    },
+    {
+      "id": "caption_04",
+      "angle": "slight_drama",
+      "caption": "本来只是顺过去的时间，被轻轻拉住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "赋予日常动作轻微的中二感，但保持真实"
+    },
+    {
+      "id": "caption_05",
+      "angle": "trace_led_feeling",
+      "caption": "衣袖口，半开的物件，和忽然停住的注意力。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "并列视觉痕迹，暗示情绪而非解释"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-19-54-cool_evening_kitchen"
+}

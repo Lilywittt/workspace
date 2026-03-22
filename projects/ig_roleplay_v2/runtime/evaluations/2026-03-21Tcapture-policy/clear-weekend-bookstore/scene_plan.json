@@ -1,0 +1,58 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore",
+  "createdAt": "2026-03-21T11:51:52.106Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "clear to lightly cloudy",
+    "locationName": "Shanghai",
+    "routineWindow": "afternoon_pause"
+  },
+  "narrative": {
+    "premise": "路过书店入口的临时陈列架时，她注意到一本笔记本的封面颜色，和她头发上的发卡几乎一模一样。",
+    "microPlot": [
+      "她自然地走过书店入口，目光扫过临时陈列架。",
+      "一本暗红色封面的笔记本跳入视线。",
+      "她下意识地抬手碰了碰自己头发上的红色发卡。"
+    ],
+    "sensoryFocus": "一个被保留的、关于外部世界与个人标识之间偶然对话的真实生活切片。",
+    "emotionalLanding": "颜色上的巧合像一个小小的、私人的玩笑，让她感到一丝微妙的愉悦。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "她的侧影正经过陈列架",
+      "目光短暂地落在暗红色笔记本上",
+      "手指正轻触自己头发上的红色发卡"
+    ],
+    "sceneNotes": [
+      "context: weekend_pause_window",
+      "weather: clear to lightly cloudy",
+      "world_state: A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+      "world_state: Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "capture: observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "external_bookstore_weekend_stationery_display",
+      "identity_stability"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": "",
+    "activeExternalEventIds": [
+      "bookstore_weekend_stationery_display"
+    ]
+  }
+}

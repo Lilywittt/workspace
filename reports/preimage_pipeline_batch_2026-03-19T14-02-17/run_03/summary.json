@@ -1,0 +1,270 @@
+{
+  "runIndex": 3,
+  "scenePlanRunId": "sceneplan-2026-03-19T06-05-22",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift focus from self-portrait to a small object or scene detail",
+      "Introduce a subtle time-of-day change, like evening or dusk"
+    ],
+    "avoidMotifs": [
+      "Repeating the 'window + weather' opening sentence"
+    ],
+    "captionAdvice": [
+      "Use a short observation about texture or sound, not just sight"
+    ],
+    "imageAdvice": [
+      "Compose a shot where the persona is present but not the central focus"
+    ],
+    "summary": "Maintain the gentle, detail-sensitive voice but pivot from selfies to observing a quiet moment in the surroundings."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a day of studying, the evening light in the room has shifted to a soft blue, and a forgotten pencil on the floor catches the eye, looking like a tiny, misplaced secret waiting to be found.",
+    "microPlot": [
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk.",
+      "A pencil that rolled off the desk earlier now lies perfectly still on the wooden floor, its shadow stretching long.",
+      "There's a small, quiet feeling of finding a piece of the day that was lost, like a note from the morning self."
+    ],
+    "sceneNotes": [
+      "The frame is wide, showing a corner of a desk, part of a chair, and the floor.",
+      "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair.",
+      "The small red hairclip is subtly present, catching a tiny bit of residual light.",
+      "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window.",
+      "A closed notebook sits on the desk, its cover slightly worn."
+    ],
+    "captionFocus": [
+      "A short observation about the sound of the evening settling in and the feel of the wooden floor."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a day of studying, the evening light in the room has shifted to a soft blue, and a forgotten pencil on the floor catches the eye, looking like a tiny, misplaced secret waiting to be found.",
+    "microPlot": [
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk.",
+      "A pencil that rolled off the desk earlier now lies perfectly still on the wooden floor, its shadow stretching long.",
+      "There's a small, quiet feeling of finding a piece of the day that was lost, like a note from the morning self."
+    ],
+    "sensoryFocus": "the faint, dry scent of pencil wood and the cool, smooth texture of the floorboards",
+    "concreteSceneCues": [
+      "The frame is wide, showing a corner of a desk, part of a chair, and the floor",
+      "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair",
+      "The small red hairclip is subtly present, catching a tiny bit of residual light",
+      "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window",
+      "A closed notebook sits on the desk, its cover slightly worn",
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observant"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a caption that feels like a quiet note to self, observing the shift from day to dusk through the small, forgotten pencil on the floor. It should weave the micro-plot of finding this 'misplaced secret' with sensory details (dry wood scent, cool floor) and a light chunibyo touch, making the ordinary feel like a private ritual without being theatrical.",
+    "audienceFeeling": "A soft, intimate recognition of small daily poetry",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "不要固定口号式收尾"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "黄昏的失物",
+      "opening": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。",
+      "caption": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\n它的影子被拉得很长，像一小段被遗忘的上午。\n手指碰到地板，凉凉的，还有一点木屑的干燥气味。\n原来一天里，总有些东西会悄悄掉队，等着被黄昏捡起来。",
+      "hashtags": [
+        "#生活碎片",
+        "#铅笔与黄昏",
+        "#安静时刻",
+        "#上海日常",
+        "#少女的观察日记"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "地板上的仪式",
+      "opening": "复习到天色转蓝。",
+      "caption": "复习到天色转蓝。\n低头，发现一支铅笔不知何时躺在了地板上。\n捡起它时，指尖传来木头微凉光滑的触感，窗外是10度的细雨声。\n这大概是一天结束时，世界递来的一个微小句号。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#上海日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "蓝调时刻的线索",
+      "opening": "房间浸入蓝灰色的寂静。",
+      "caption": "房间浸入蓝灰色的寂静。\n那支铅笔还在老地方，影子锋利地指向我。\n空气里有木头的淡香，和地板清冽的凉意。\n有些线索不必解开，光是存在，就足够让一个黄昏变得不同。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#少女的观察日记"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "黄昏的失物",
+      "opening": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。",
+      "caption": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\n它的影子被拉得很长，像一小段被遗忘的上午。\n手指碰到地板，凉凉的，还有一点木屑的干燥气味。\n原来一天里，总有些东西会悄悄掉队，等着被黄昏捡起来。",
+      "hashtags": [
+        "#生活碎片",
+        "#铅笔与黄昏",
+        "#安静时刻",
+        "#上海日常",
+        "#少女的观察日记"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "地板上的仪式",
+      "opening": "复习到天色转蓝。",
+      "caption": "复习到天色转蓝。\n低头，发现一支铅笔不知何时躺在了地板上。\n捡起它时，指尖传来木头微凉光滑的触感，窗外是10度的细雨声。\n这大概是一天结束时，世界递来的一个微小句号。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#上海日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "蓝调时刻的线索",
+      "opening": "房间浸入蓝灰色的寂静。",
+      "caption": "房间浸入蓝灰色的寂静。\n那支铅笔还在老地方，影子锋利地指向我。\n空气里有木头的淡香，和地板清冽的凉意。\n有些线索不必解开，光是存在，就足够让一个黄昏变得不同。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#少女的观察日记"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the brief by weaving the micro-plot of the pencil as a 'misplaced secret' with concrete sensory details (cool floor, dry wood scent) and a light chunibyo touch ('waiting to be picked up by dusk'). It maintains a gentle, observational tone that feels like a private note, cleanly pivots from the recent selfie streak to a life_record scene, and avoids any blocked phrases or theatrical fantasy.",
+    "strengths": [
+      "Strong narrative flow from fading light to object to personal reflection",
+      "Integrates sensory details (touch, scent) naturally",
+      "Light chunibyo turn feels intimate, not performative",
+      "Fits the lane shift to life_record with a quiet, scene-focused observation"
+    ],
+    "risks": [
+      "Slightly abstract final line could feel overly poetic to some",
+      "Does not explicitly mention a character trace, though presence is implied"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "黄昏的失物",
+    "caption": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\n它的影子被拉得很长，像一小段被遗忘的上午。\n手指碰到地板，凉凉的，还有一点木屑的干燥气味。\n原来一天里，总有些东西会悄悄掉队，等着被黄昏捡起来。",
+    "hashtags": [
+      "#生活碎片",
+      "#铅笔与黄昏",
+      "#安静时刻",
+      "#上海日常",
+      "#少女的观察日记"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by weaving the micro-plot of the pencil as a 'misplaced secret' with concrete sensory details (cool floor, dry wood scent) and a light chunibyo touch ('waiting to be picked up by dusk'). It maintains a gentle, observational tone that feels like a private note, cleanly pivots from the recent selfie streak to a life_record scene, and avoids any blocked phrases or theatrical fantasy."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the faint, dry scent of pencil wood and the cool, smooth texture of the floorboards",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: The frame is wide, showing a corner of a desk, part of a chair, and the floor | The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair | The small red hairclip is subtly present, catching a tiny bit of residual light | The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window | A closed notebook sits on the desk, its cover slightly worn | The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, The frame is wide, showing a corner of a desk, part of a chair, and the floor, The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair, The small red hairclip is subtly present, catching a tiny bit of residual light, The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window, A closed notebook sits on the desk, its cover slightly worn, The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, quietly_observant, the faint, dry scent of pencil wood and the cool, smooth texture of the floorboards",
+    "shotNotes": [
+      "The frame is wide, showing a corner of a desk, part of a chair, and the floor",
+      "The character is only partially visible, perhaps just a sleeve or the edge of a skirt resting on the chair",
+      "The small red hairclip is subtly present, catching a tiny bit of residual light",
+      "The pencil lies at a diagonal, its shadow sharp in the low-angle evening light from the window",
+      "A closed notebook sits on the desk, its cover slightly worn",
+      "The last bit of daylight fades, leaving the room in a quiet, blue-gray dusk",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "ba111545a34e",
+    "selectedCaption": "f68e9ca4fbf0",
+    "imageScene": "7990bce4e421",
+    "candidateAngles": "e8416395a1cd"
+  }
+}

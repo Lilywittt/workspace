@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:36:57.141Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from finding forgotten objects to a small, forward-looking action",
+    "Use weather as texture_modifier for a subtle change in atmosphere"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel",
+    "Avoid accessory object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a tiny, intentional gesture that feels like a promise to tomorrow"
+  ],
+  "captionAdvice": [
+    "Use a quiet, forward-looking observation instead of soft_observation ending",
+    "Incorporate a small sensory detail related to the cool, drizzly weather"
+  ],
+  "imageAdvice": [
+    "Frame a partial presence shot focusing on hands or an object in motion",
+    "Use cool, muted lighting to match the early evening drizzle"
+  ],
+  "summary": "Propose a gentle, forward-looking life_record scene that avoids repetitive discovery motifs and uses weather as atmospheric texture.",
+  "errorMessage": ""
+}

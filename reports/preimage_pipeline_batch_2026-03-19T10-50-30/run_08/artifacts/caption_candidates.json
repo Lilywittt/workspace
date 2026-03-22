@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:00:33.506Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "briefGoal": "Write a short, intimate caption that shares the quiet moment of finding a forgotten childhood charm while tidying a desk, blending gentle nostalgia with the texture of daily life, and maintaining a light chunibyo voice that feels personal and non-commercial.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉怀旧",
+      "caption": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#整理桌面",
+        "#动漫感日常",
+        "#上海"
+      ],
+      "rationale": "从触觉（软软、磨平）切入，串联微情节（整理-发现-感受），融入天气（雨声）但不喧宾夺主，结尾自然衔接角色口头禅。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物叙事",
+      "caption": "复习完的桌面堆满了书，决定彻底收拾一下。擦灰尘时，红色发卡的光晃了一下眼睛，然后就看见了它——一只被遗忘的、旧旧的兔子。原来有些东西不是丢了，只是悄悄睡在时间的褶皱里。今天，也要明亮地活着呢。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#上海日常",
+        "#整理桌面"
+      ],
+      "rationale": "以具体动作（擦灰尘）和场景线索（红色发卡）推进叙事，用“时间的褶皱”体现轻中二感的比喻，情感含蓄而私人。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "瞬间锚点",
+      "caption": "10.4度的雨天真适合整理回忆。一摞摞搬开书本，像揭开一层层过去。最后留在掌心的是这只兔子钥匙扣，线头都露出来了，却比任何崭新的东西都让人安心。原来最坚固的锚点，往往是最柔软的。今天，依然要明亮地活着。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#动漫感日常",
+        "#整理桌面"
+      ],
+      "rationale": "将天气（10.4度雨）作为氛围起点，用“锚点”隐喻呼应原文，通过新旧对比强化 nostalgia，保持日记般的私语感。"
+    }
+  ]
+}

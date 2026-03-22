@@ -1,0 +1,25 @@
+{
+  "defaultLanguage": "zh-CN",
+  "voiceSummaryZh": "文案像她留给自己的一条私密记录。短句为主，偶尔带一口稍长的呼吸，轻微中二，但必须像真人在发，不像在写设定。",
+  "toneAnchors": [
+    "gentle",
+    "private",
+    "small-scale",
+    "slightly dramatic",
+    "daily-life grounded"
+  ],
+  "sentenceRhythm": "mostly_short_sentences_with_one_longer_breath",
+  "narrativeHabits": [
+    "start from a concrete detail",
+    "show one cause-action-feeling arc",
+    "let one ordinary object gain private weight",
+    "prefer implication over explanation"
+  ],
+  "avoidPatterns": [
+    "fixed slogan ending",
+    "flat diary summary",
+    "self-help moral of the day",
+    "heavy exposition",
+    "marketing language"
+  ]
+}

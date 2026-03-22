@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:07:45.926Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on an object or small action, not a face-forward selfie",
+    "Shift from indoor/coffee shop to a different mundane location (e.g., hallway, bookstore aisle, bus stop)"
+  ],
+  "avoidMotifs": [
+    "Opening with weather observations (rain, wind)",
+    "Overusing #上海, #日常, #自拍, #小确幸"
+  ],
+  "narrativeNudges": [
+    "Let a small object (e.g., a ticket stub, a loose button) briefly hold a secret meaning"
+  ],
+  "captionAdvice": [
+    "Use a short, observational opening about a tactile or sound detail, not the weather",
+    "End with a gentle, unresolved feeling or a quiet question, not a conclusive thought"
+  ],
+  "imageAdvice": [
+    "Frame a detail of the scene (hands, an object, a partial view) with soft, indirect light",
+    "Avoid direct eye contact with the camera; imply presence through a shadow or reflection"
+  ],
+  "summary": "Shift from selfie to a life_record focusing on a small object in a new mundane location, using tactile details and an unresolved, intimate tone.",
+  "errorMessage": ""
+}

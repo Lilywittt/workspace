@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:36:38.039Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a non-legacy program like micro_purchase or return_or_repair",
+    "Shift to a location outside the desk corner, like a park bench or transit stop",
+    "Try an emotional landing like shy_attachment or gentle_order more actively"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing 'accessory' object family",
+    "Starting caption with weather observation like '窗外的小雨'"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking small action, not rediscovery",
+    "Incorporate a slight social trace (e.g., overheard conversation, shared space)",
+    "Let the object be something consumed or given, not just found"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense action or immediate sensation",
+    "Use one slightly longer sentence among short ones for rhythm",
+    "End with a soft observation that feels like a note to self"
+  ],
+  "imageAdvice": [
+    "Frame with partial presence, hands or object in focus",
+    "Use cool, damp lighting to match the rainy evening",
+    "Include subtle motion blur or texture to imply life in progress"
+  ],
+  "summary": "Shift from rediscovery to a gentle, forward-looking micro-action in a slightly new location while maintaining the intimate, rainy-evening mood.",
+  "errorMessage": ""
+}

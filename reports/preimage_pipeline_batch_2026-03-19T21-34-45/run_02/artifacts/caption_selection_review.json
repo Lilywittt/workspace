@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:37:57.000Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-36-57",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best captures the scene's shy, forward-looking ritual by focusing on the intimate, suspended moment of choice ('指尖在茶包间犹豫的几秒，世界好像暂停了'), then projecting a gentle, hopeful future ('会在明天的杯子里变成一小片晴朗吧'). It delivers the required sensory detail and daily variable through '雨夜的廊下' and '手腕很凉，但手心是暖的', while keeping the light chunibyo texture intimate and the ending fresh, avoiding a fixed slogan. It feels most like a private note to her future self.",
+  "strengths": [
+    "Intimate focus on the moment of hesitation, aligning with 'private ritual energy'",
+    "Gentle, hopeful projection ('一小片晴朗') that fits 'shy_attachment'",
+    "Strong sensory contrast (cool wrist, warm palm) grounds the scene",
+    "Avoids repetitive patterns; ending feels fresh and not slogan-like"
+  ],
+  "risks": [
+    "Metaphor ('一小片晴朗') is slightly more poetic, but stays within gentle, daily-life bounds",
+    "Slightly less direct on the 'carrying back' action compared to other candidates"
+  ],
+  "errorMessage": ""
+}

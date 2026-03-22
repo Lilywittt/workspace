@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持整理时那半秒停顿带来的微小偏移感",
+  "whatToSayZh": "只说手指停在计划本边缘这个具体动作，不解释为什么停",
+  "whatToLeaveUnsaidZh": "把计划本里夹着的那片压平的叶子当作空白空间里的私人重量",
+  "openingMovesZh": [
+    "从手指停在计划本边缘开始"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

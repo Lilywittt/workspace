@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:21:37.726Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late evening after a day of study, a small, forgotten errand leads her to a familiar bookstore aisle. There, a simple mechanical pencil, left behind or found out of place, becomes the focus of a tiny, deliberate act—not of purchase, but of quiet restoration, putting a small thing back where it belongs.",
+  "microPlot": [
+    "Noticing a mechanical pencil that had rolled to the edge of a shelf, out of its proper place.",
+    "Picking it up, testing its lead with a soft click, and carefully returning it to the stationery cup near the register.",
+    "Feeling the day settle, as if a tiny, unnoticed loop had been gently closed."
+  ],
+  "sensoryFocus": "the soft click of the pencil's mechanism and the cool, smooth weight of metal in the palm",
+  "sceneNotes": [
+    "Frame on hands: one holding the pencil, the other resting on the wooden shelf edge.",
+    "Soft, warm bookstore lighting from a nearby lamp, casting long shadows in the quiet aisle.",
+    "A glimpse of a sleeve cuff, slightly frayed, and the edge of a bookshelf filled with worn spines in the shallow depth of field."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small act of putting something back, feeling like a quiet, private promise to tomorrow."
+  ],
+  "summary": "A late-evening bookstore pause turns into a moment of gentle, forward-looking order as she returns a stray mechanical pencil to its place.",
+  "errorMessage": ""
+}

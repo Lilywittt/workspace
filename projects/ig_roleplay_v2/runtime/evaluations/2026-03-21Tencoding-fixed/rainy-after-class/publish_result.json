@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:45:54.603Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-42-21-rainy_after_class",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/6a/20260321/448165f2/dd3b294c-73c5-4ea8-aca3-1250554a788c210003950.png?Expires=1774695746&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=Cij5zWUIij4sLkaRg3CtlUCVxws%3D",
+  "altText": "月见璃音在走廊系好鞋带起身时，看见对面班级门玻璃上倒映出的空荡走廊和自己模糊的轮廓。",
+  "releaseStage": "image_ready",
+  "captionChars": 51,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:43:16.131Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-42-26",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best balances the required sensory detail, daily variable, and micro-plot with a natural, publishable flow. It opens with the cool, drizzly weather as a texture, grounds the action in the concrete choice of the soft pouch, and lands on the 'gentle order' emotional hook without sounding overwritten or melodramatic. It feels like a quiet, believable life_record entry that carries the private ritual energy and shy attachment requested, while avoiding the more abstract or declarative tone of the other options.",
+  "caption": "傍晚的小雨，给空气涂了一层薄薄的凉意。在廊下的小摊，手指划过一排软布包，最后选了这个。\n布料沙沙的，很轻。把它带回去，像给今晚的自己，留了一个小小的、温柔的秩序。",
+  "hashtags": [
+    "#上海小雨",
+    "#微小治愈",
+    "#触感记忆",
+    "#傍晚散步",
+    "#生活仪式"
+  ],
+  "candidateAngle": "触觉与承诺",
+  "candidateRationale": "从感官细节（布料的沙沙声、空气的凉意）切入，将选择软布包的动作描绘为一种为夜晚建立“温柔秩序”的私人仪式，符合“私密动态”和“轻微仪式感”的要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best balances the required sensory detail, daily variable, and micro-plot with a natural, publishable flow. It opens with the cool, drizzly weather as a texture, grounds the action in the concrete choice of the soft pouch, and lands on the 'gentle order' emotional hook without sounding overwritten or melodramatic. It feels like a quiet, believable life_record entry that carries the private ritual energy and shy attachment requested, while avoiding the more abstract or declarative tone of the other options.",
+    "strengths": [
+      "Strong sensory opening with weather and tactile detail ('薄薄的凉意', '布料沙沙的')",
+      "Clear micro-plot: from feeling to action to private meaning",
+      "Ends with a gentle, forward-looking '温柔的秩序' that fits the shy_attachment landing",
+      "Natural, short-sentence rhythm that feels like a real person posting",
+      "Avoids fixed slogan endings and overt self-encouragement"
+    ],
+    "risks": [
+      "The ending phrase '温柔的秩序' could feel slightly abstract if read quickly",
+      "Slightly less overt 'chunibyo' flavor than candidate 03, but this trades for better daily-life believability"
+    ]
+  }
+}

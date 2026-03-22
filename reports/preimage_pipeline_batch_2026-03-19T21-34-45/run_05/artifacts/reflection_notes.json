@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:41:00.434Z",
+  "source": "code",
+  "status": "reflection_notes_ready",
+  "sourceNoveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json",
+  "recurringObjects": [
+    "accessory",
+    "comfort_item"
+  ],
+  "familiarPlaces": [
+    "indoor_desk_corner",
+    "kitchen_counter"
+  ],
+  "stableEmotionalLandings": [
+    "quiet_completion",
+    "memory_return",
+    "private_omen",
+    "shy_attachment",
+    "tiny_reset"
+  ],
+  "recurringScenePrograms": [
+    "legacy_program",
+    "micro_purchase_program"
+  ],
+  "fatiguePatterns": [],
+  "guidanceNotes": [
+    "Keep recurring object families as memory texture, not default crutches: accessory, comfort_item",
+    "Use familiar places selectively so they feel lived-in instead of repetitive: indoor_desk_corner, kitchen_counter"
+  ]
+}

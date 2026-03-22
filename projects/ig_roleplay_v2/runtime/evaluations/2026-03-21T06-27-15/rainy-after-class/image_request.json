@@ -1,0 +1,53 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:34:15.106Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-32-30-rainy_after_class",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 皱了的电影票根一角从书包夹层露出, 手指捏着票根的瞬间, 窗外雨痕模糊的玻璃, a wrinkled movie ticket stub being pulled from the inner pocket of a school bag, fingertips pinching the edge of the ticket stub, rain-streaked window glass visible in the background, 皱了的电影票根一角从书包夹层露出, 手指捏着票根的瞬间, 窗外雨痕模糊的玻璃\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nComposition: close-up framing on the hand and the ticket stub being pulled from the bag's inner pocket, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, generic aesthetic wallpaper, fashion editorial polish, rewriting the moment into a different event, the ticket stub amplified into a dreamy scenic backdrop, the character posed for a portrait unrelated to the rummaging action, 通用美学壁纸, 时尚大片质感, 将瞬间重写成不同事件, 票根被放大成梦幻的风景背景, tourism poster feeling, fashion editorial gloss, empty scenery without character trace, sunny outdoor field, bright outdoor meadow",
+    "shotNotes": [
+      "皱了的电影票根一角从书包夹层露出",
+      "手指捏着票根的瞬间",
+      "窗外雨痕模糊的玻璃",
+      "a wrinkled movie ticket stub being pulled from the inner pocket of a school bag",
+      "fingertips pinching the edge of the ticket stub",
+      "rain-streaked window glass visible in the background"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "皱了的电影票根一角从书包夹层露出, 手指捏着票根的瞬间, 窗外雨痕模糊的玻璃, a wrinkled movie ticket stub being pulled from the inner pocket of a school bag, fingertips pinching the edge of the ticket stub, rain-streaked window glass visible in the background, 皱了的电影票根一角从书包夹层露出, 手指捏着票根的瞬间, 窗外雨痕模糊的玻璃",
+      "context": "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+      "composition": "close-up framing on the hand and the ticket stub being pulled from the bag's inner pocket, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "璃音收拾书包时，发现夹层里一张去年的电影票根。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:30:43.948Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a non-accessory object family like 'tool' or 'container'",
+    "Shift weather role to 'texture_modifier' for sensory change",
+    "Try a location outside the top three (e.g., 'park_bench', 'bus_stop')"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel",
+    "Avoid 'accessory' object family",
+    "Avoid starting caption with weather observation"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking action, not rediscovery",
+    "Incorporate a subtle sound or texture detail (e.g., rustling, warmth)",
+    "End with a gentle question or unfinished thought, not completion"
+  ],
+  "captionAdvice": [
+    "Start with a small action or sensation, not weather",
+    "Use one slightly longer sentence among short ones for rhythm",
+    "Include a private, soft self-address (e.g., '对吧')"
+  ],
+  "imageAdvice": [
+    "Frame with partial presence, focus on hands or object interaction",
+    "Use natural, dim evening light for mood",
+    "Include a subtle motion blur or depth-of-field for intimacy"
+  ],
+  "summary": "Shift from rediscovery to gentle forward action with a new object type and sensory detail.",
+  "errorMessage": ""
+}

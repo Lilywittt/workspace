@@ -1,0 +1,151 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "lane": "life_record",
+      "eventSummaryZh": "She was only tidying up for a second, then paused because of planner.",
+      "hookWhyInterestingZh": "It is tiny, but it feels like the sort of fragment a real day would leave behind.",
+      "causalChainZh": [
+        "She was only moving through an ordinary routine.",
+        "One specific detail briefly pulled her attention sideways.",
+        "The feeling did not grow into drama; it just settled for a moment."
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause",
+          "weather_clear",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "The detail was minor in itself, but today it happened to register."
+        ]
+      },
+      "placeRef": "bookstore_aisle",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_afternoon_pause",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "She was only trying to move through the moment normally.",
+      "interiorShiftZh": "A tiny detail made her pause internally for half a beat.",
+      "whyTodayZh": "Today's pacing and outside texture made that pause land a little more clearly.",
+      "whyShareableZh": "It is concrete and quiet at the same time, so it can become a believable post.",
+      "visualEvidenceZh": [
+        "finger paused at an edge",
+        "sleeve cuff",
+        "partially opened carried item"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "午后阳光穿过书店的玻璃，在书脊上投下一条清晰的光带。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "lane": "life_record",
+      "eventSummaryZh": "A very small adjustment suddenly made the moment feel visible enough to keep.",
+      "hookWhyInterestingZh": "The beat is concrete enough to post and quiet enough to leave mostly unexplained.",
+      "causalChainZh": [
+        "She was only moving through an ordinary routine.",
+        "One specific detail briefly pulled her attention sideways.",
+        "The feeling did not grow into drama; it just settled for a moment."
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause",
+          "weather_clear",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "The detail was minor in itself, but today it happened to register."
+        ]
+      },
+      "placeRef": "bookstore_aisle",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_afternoon_pause",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "She was only trying to move through the moment normally.",
+      "interiorShiftZh": "A tiny detail made her pause internally for half a beat.",
+      "whyTodayZh": "Today's pacing and outside texture made that pause land a little more clearly.",
+      "whyShareableZh": "It is concrete and quiet at the same time, so it can become a believable post.",
+      "visualEvidenceZh": [
+        "a recently touched small object",
+        "one corner of a desk or counter",
+        "clear trace of the protagonist nearby"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "午后阳光穿过书店的玻璃，在书脊上投下一条清晰的光带。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "lane": "life_record",
+      "eventSummaryZh": "While moving on with the day, one leftover trace gently caught her attention.",
+      "hookWhyInterestingZh": "It feels like life briefly offered a pause that could be kept without explanation.",
+      "causalChainZh": [
+        "She was only moving through an ordinary routine.",
+        "One specific detail briefly pulled her attention sideways.",
+        "The feeling did not grow into drama; it just settled for a moment."
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause",
+          "weather_clear",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "The detail was minor in itself, but today it happened to register."
+        ]
+      },
+      "placeRef": "bookstore_aisle",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_afternoon_pause",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "She was only trying to move through the moment normally.",
+      "interiorShiftZh": "A tiny detail made her pause internally for half a beat.",
+      "whyTodayZh": "Today's pacing and outside texture made that pause land a little more clearly.",
+      "whyShareableZh": "It is concrete and quiet at the same time, so it can become a believable post.",
+      "visualEvidenceZh": [
+        "object still in hand",
+        "edge of a passing environment",
+        "an action not fully finished yet"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "午后阳光穿过书店的玻璃，在书脊上投下一条清晰的光带。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "fallback",
+    "promptName": "moment-generator-agent",
+    "error": "Model response JSON block was incomplete."
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

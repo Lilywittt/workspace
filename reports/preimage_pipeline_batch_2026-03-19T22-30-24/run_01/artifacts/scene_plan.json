@@ -1,0 +1,379 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T14-31-06",
+  "createdAt": "2026-03-19T14:31:06.005Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "selectedSceneCandidatePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/selected_scene_candidate.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "小雨, about 10.4C",
+    "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "semanticFatigue": [
+      "legacy_program"
+    ],
+    "dominantSemantics": {
+      "scenePrograms": [
+        {
+          "value": "legacy_program",
+          "count": 10
+        },
+        {
+          "value": "micro_purchase_program",
+          "count": 1
+        },
+        {
+          "value": "return_or_repair_program",
+          "count": 1
+        }
+      ],
+      "locationArchetypes": [
+        {
+          "value": "indoor_desk_corner",
+          "count": 6
+        },
+        {
+          "value": "bookstore_aisle",
+          "count": 2
+        },
+        {
+          "value": "kitchen_counter",
+          "count": 2
+        },
+        {
+          "value": "convenience_counter",
+          "count": 1
+        },
+        {
+          "value": "laundry_corner",
+          "count": 1
+        }
+      ],
+      "actionKernels": [
+        {
+          "value": "find_unfold_notice_again",
+          "count": 7
+        },
+        {
+          "value": "return_fix_restore",
+          "count": 2
+        },
+        {
+          "value": "choose_pay_carry_back",
+          "count": 1
+        },
+        {
+          "value": "heat_hold_breathe",
+          "count": 1
+        },
+        {
+          "value": "wait_carry_pass_through",
+          "count": 1
+        }
+      ],
+      "objectFamilies": [
+        {
+          "value": "accessory",
+          "count": 9
+        },
+        {
+          "value": "comfort_item",
+          "count": 1
+        },
+        {
+          "value": "paper_fragment",
+          "count": 1
+        },
+        {
+          "value": "stationery",
+          "count": 1
+        }
+      ],
+      "weatherRoles": [
+        {
+          "value": "reflective_support",
+          "count": 10
+        },
+        {
+          "value": "texture_modifier",
+          "count": 2
+        }
+      ],
+      "emotionalLandings": [
+        {
+          "value": "quiet_completion",
+          "count": 4
+        },
+        {
+          "value": "memory_return",
+          "count": 2
+        },
+        {
+          "value": "private_omen",
+          "count": 2
+        },
+        {
+          "value": "tiny_reset",
+          "count": 2
+        },
+        {
+          "value": "gentle_order",
+          "count": 1
+        },
+        {
+          "value": "shy_attachment",
+          "count": 1
+        }
+      ],
+      "presenceModes": [
+        {
+          "value": "wide_scene_with_character_trace",
+          "count": 7
+        },
+        {
+          "value": "partial_presence",
+          "count": 5
+        }
+      ],
+      "captionEndingFamilies": [
+        {
+          "value": "soft_observation",
+          "count": 7
+        },
+        {
+          "value": "quiet_completion",
+          "count": 3
+        },
+        {
+          "value": "memory_return",
+          "count": 2
+        }
+      ],
+      "locationClusters": [
+        {
+          "value": "bookish_pause",
+          "count": 1
+        },
+        {
+          "value": "micro_errand",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "worldState": {
+    "timeContext": {
+      "timezone": "Asia/Shanghai",
+      "localDate": "2026-03-17",
+      "localHour": 22,
+      "daypart": "late_evening",
+      "weekdayMode": "school_day",
+      "seasonPhase": "early_spring",
+      "routineAnchors": [
+        "after_class_reset",
+        "short_errand",
+        "evening_reset",
+        "shelter_pause",
+        "indoor_reset",
+        "rediscovery_window"
+      ]
+    },
+    "environment": {
+      "city": "Shanghai",
+      "locationName": "Shanghai",
+      "weatherCode": 61,
+      "weatherSummary": "小雨",
+      "temperatureC": 10.4,
+      "windSpeedKmh": 10.8,
+      "temperatureBand": "cool",
+      "mobilityWindow": "short_walk_ok",
+      "weatherRoleDefault": "reflective_support"
+    },
+    "characterState": {
+      "lanePreference": "life_record",
+      "energy": "low",
+      "socialBandwidth": "solo_preferred",
+      "attentionShape": "detail_seeking",
+      "needState": [
+        "small_reset",
+        "private_meaning"
+      ],
+      "temperament": [
+        "light_chunibyo",
+        "gentle",
+        "occasionally_tsundere",
+        "sensitive_to_daily_details",
+        "playful",
+        "private_ritual_energy",
+        "quietly_reads_small_omens"
+      ]
+    },
+    "continuityPressure": {
+      "preferredLane": "life_record",
+      "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+      "sceneFatigue": [
+        "legacy_program"
+      ],
+      "objectFatigue": [
+        "accessory"
+      ],
+      "weatherOveruse": false,
+      "indoorOveruse": false,
+      "studyAftermathOveruse": false
+    }
+  },
+  "narrative": {
+    "premise": "In the cool, drizzly late evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a soft, simple pouch from a tiny stall isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset.",
+    "microPlot": [
+      "The soft, persistent drizzle and the quiet end of a long day create a need for a small, tangible comfort.",
+      "She carefully chooses a simple, soft pouch from a stall in a covered walkway, completes the tiny purchase, and tucks it into her bag.",
+      "Carrying this small, new object home feels like holding a quiet, shy promise to herself—a tiny anchor for the days ahead."
+    ],
+    "sensoryFocus": "the soft, slightly fuzzy texture of the pouch against cool fingertips",
+    "emotionalLanding": "shy_attachment"
+  },
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_06",
+    "sceneProgramId": "micro_purchase_program",
+    "affordanceId": "micro_purchase_window",
+    "locationArchetype": "covered_walkway",
+    "locationCluster": "shelter_pause",
+    "objectFamily": "comfort_item",
+    "objectBindings": [
+      "soft pouch"
+    ],
+    "actionKernel": "choose_pay_carry_back",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "shy_attachment",
+    "presencePolicy": "partial_presence",
+    "captionHooks": [
+      "small purchase as a private rescue",
+      "carrying a tiny comfort back with her"
+    ],
+    "imageHooks": [
+      "counter light",
+      "shopping bag detail",
+      "small object prominence"
+    ]
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "partial_presence",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneProgramId": "micro_purchase_program",
+      "objectBindings": [
+        "soft pouch"
+      ],
+      "weatherRole": "texture_modifier"
+    },
+    "concreteSceneCues": [
+      "Focus on hands: one holding the pouch, the other gently testing its fabric",
+      "Frame: counter-level view, with the stall's warm string lights creating a soft glow on the pouch and her sleeves",
+      "Background: shallow depth-of-field blurring the other market stalls and the misty evening light filtering through the covered walkway",
+      "Character trace: the edge of her jacket sleeve and a glimpse of her small, red hairclip",
+      "Atmosphere: the quiet hum of the evening market and the soft patter of rain on the walkway's roof",
+      "Scene location archetype: covered walkway"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "counter light",
+      "shopping bag detail",
+      "small object prominence",
+      "small purchase as a private rescue",
+      "carrying a tiny comfort back with her",
+      "Frame with partial presence, focus on hands or object interaction",
+      "Use natural, dim evening light for mood",
+      "Include a subtle motion blur or depth-of-field for intimacy",
+      "Focus on hands: one holding the pouch, the other gently testing its fabric.",
+      "Frame: counter-level view, with the stall's warm string lights creating a soft glow on the pouch and her sleeves.",
+      "Background: shallow depth-of-field blurring the other market stalls and the misty evening light filtering through the covered walkway.",
+      "Character trace: the edge of her jacket sleeve and a glimpse of her small, red hairclip.",
+      "Atmosphere: the quiet hum of the evening market and the soft patter of rain on the walkway's roof.",
+      "Presence mode: partial_presence.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "shyly_forward_looking"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable",
+      "ordinary_object_with_secret_weight"
+    ],
+    "hooks": [
+      "small purchase as a private rescue",
+      "carrying a tiny comfort back with her"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from rediscovery to gentle forward action with a new object type and sensory detail.",
+    "draftSummary": "A soft pouch becomes the center of a gentle, forward-looking micro-purchase in a drizzly covered walkway, a shy act of self-care carried home.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "selectedSceneCandidate": "selected_scene_candidate_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    },
+    "affordanceHints": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "domestic_reset_window",
+      "threshold_pause_window"
+    ]
+  }
+}

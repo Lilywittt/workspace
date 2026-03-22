@@ -1,0 +1,97 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:19:47.176Z",
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class",
+  "mode": "zero_memory_agent",
+  "scenarioId": "rainy-after-class",
+  "dayContext": {
+    "isoDate": "2026-03-21",
+    "routineWindow": "after_class",
+    "weather": "小雨",
+    "currentContext": "school_transition_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "weather",
+      "trending_topics",
+      "seasonal_culture",
+      "city_trivia",
+      "anime_fandom"
+    ]
+  },
+  "characterState": {
+    "mood": "被雨声包裹，有一点出神，但指尖碰到的东西会突然变得清晰",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨让世界变慢，有一个角落的细节突然变得可以触摸。"
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "收拾书包时，手指碰到夹层里一张被压得平平整整的、去年的电影票根。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。"
+  },
+  "caption": {
+    "text": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+    "hashtags": [
+      "#日常切片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T09-19-42-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/7f/20260321/448165f2/ee047f71-75fb-4f75-947c-95b43b5dd38d976572576.png?Expires=1774690581&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=ni0hzCMb42B3lv%2F%2BGDs1dS4MbMs%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

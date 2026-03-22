@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:11:37.823Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-11-18",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a late-evening bookstore caption where the simple act of picking up and returning a stray paper clip feels like a private, forward-leaning ritual. Convey a gentle sense of order restored through sensory details and light chunibyo self-address, avoiding diary recap or commercial tone.",
+  "audienceFeeling": "A quiet, intimate nod of recognition",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., cool metal, lamplight, dusty air)",
+    "Frame the action as a small, found task",
+    "Use a short, declarative sentence to establish the moment"
+  ],
+  "mustInclude": [
+    "The act of finding and straightening the paper clip",
+    "The ceramic dish on the shelf as its destination",
+    "The physical sensation of the clip against fingers",
+    "A subtle hint of the late hour and quiet bookstore atmosphere",
+    "One line where the object briefly feels like a small omen or promise"
+  ],
+  "mustAvoid": [
+    "Explicitly calling it 'cleaning' or 'chores'",
+    "Over-explaining the feeling or making it a grand metaphor",
+    "Using the words 'fate', 'destiny', or 'universe'",
+    "A fixed, slogan-like closing sentence",
+    "Mentioning the 'legacy program' or past posts directly"
+  ],
+  "voiceNotes": [
+    "Short sentences, with maybe one slightly longer, breath-like one",
+    "Gentle, trailing tone as if talking to oneself",
+    "Light chunibyo flavor: treat the ordinary clip as momentarily significant, but don't over-act",
+    "Tsundere hint: a tiny, soft denial of caring too much",
+    "End on a soft observation, not a lesson or recap"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragment)",
+    "#书店时刻 (bookstore moment)",
+    "#微小修复 (tiny repair)",
+    "#上海小雨 (Shanghai light rain)",
+    "#私仪式 (private ritual)"
+  ],
+  "summary": "A late-evening bookstore scene where returning a paper clip becomes a gentle, private act of ordering a small piece of the world.",
+  "errorMessage": ""
+}

@@ -1,0 +1,96 @@
+{
+  "openai-images": {
+    "apiStyle": "openai-images",
+    "endpoint": "https://api.openai.com/v1/images/generations",
+    "requiredEnv": [
+      "OPENAI_API_KEY"
+    ],
+    "defaultModel": "gpt-image-1",
+    "responseContract": {
+      "jobIdField": "id",
+      "requestIdField": "id",
+      "imageUrlField": "data[0].url or data[0].b64_json"
+    },
+    "referenceHandling": {
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "sizeByAspectRatio": {
+      "4:5": "1024x1536",
+      "1:1": "1024x1024",
+      "9:16": "1024x1792"
+    }
+  },
+  "zhipu-images": {
+    "apiStyle": "openai-compatible",
+    "endpoint": "https://open.bigmodel.cn/api/paas/v4/images/generations",
+    "requiredEnv": [
+      "ZHIPU_API_KEY"
+    ],
+    "defaultModel": "glm-image-v1",
+    "responseContract": {
+      "jobIdField": "id",
+      "requestIdField": "id",
+      "imageUrlField": "data[0].url or data[0].b64_json"
+    },
+    "referenceHandling": {
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "sizeByAspectRatio": {
+      "4:5": "1024x1536",
+      "1:1": "1024x1024",
+      "9:16": "1024x1792"
+    }
+  },
+  "aliyun-qwen-image": {
+    "apiStyle": "dashscope-multimodal",
+    "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "requiredEnv": [
+      "DASHSCOPE_API_KEY"
+    ],
+    "defaultModel": "qwen-image-2.0",
+    "dashScopeAsync": "disable",
+    "responseContract": {
+      "jobIdField": "request_id",
+      "requestIdField": "request_id",
+      "imageUrlField": "output.choices[0].message.content[?].image"
+    },
+    "referenceHandling": {
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "sizeByAspectRatio": {
+      "4:5": "1024*1280",
+      "1:1": "1024*1024",
+      "9:16": "720*1280"
+    }
+  },
+  "aliyun-z-image": {
+    "apiStyle": "dashscope-multimodal",
+    "endpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "requiredEnv": [
+      "DASHSCOPE_API_KEY"
+    ],
+    "defaultModel": "z-image-turbo",
+    "dashScopeAsync": "disable",
+    "responseContract": {
+      "jobIdField": "request_id",
+      "requestIdField": "request_id",
+      "imageUrlField": "output.choices[0].message.content[?].image"
+    },
+    "referenceHandling": {
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "sizeByAspectRatio": {
+      "4:5": "1024*1280",
+      "1:1": "1024*1024",
+      "9:16": "720*1280"
+    }
+  }
+}

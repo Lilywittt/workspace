@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:40:12.494Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from passive rediscovery to a small, forward-looking action",
+    "Use weather as active texture, not just reflective support"
+  ],
+  "avoidMotifs": [
+    "Finding forgotten accessories on a desk",
+    "Ending with a soft observation about memory"
+  ],
+  "narrativeNudges": [
+    "Frame a tiny errand as a promise to tomorrow's self"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense sensory detail from the cool, drizzly evening",
+    "End with a quiet, forward-looking thought, not a completed memory"
+  ],
+  "imageAdvice": [
+    "Show a hand performing a small, deliberate action in low evening light",
+    "Include a glimpse of the rainy street or window as context, not just an interior"
+  ],
+  "summary": "Move from rediscovering past traces to a small, intentional act that carries a quiet promise into the cool, drizzly night.",
+  "errorMessage": ""
+}

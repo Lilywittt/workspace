@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:38:56.045Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-38-33",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to a future self, capturing the quiet ritual of finding and returning a lost planner page in a cool, damp Shanghai bookstore. The focus is on the small, intentional act of restoring order, not on memory or completion, letting the ordinary object briefly carry a secret, forward-looking weight.",
+  "audienceFeeling": "A soft, intimate recognition of small, personal rituals.",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., the sound of paper, the cool air).",
+    "Mention the discovery of the object in a simple, observational way.",
+    "Frame the action as a small, natural thing done almost without thinking."
+  ],
+  "mustInclude": [
+    "The act of smoothing the page's crease with a thumb.",
+    "The sensory cue: the soft rustle of paper in the still, cool air.",
+    "The tiny star doodle on the planner page.",
+    "The location: a quiet bookstore aisle in Shanghai, late evening, light rain.",
+    "The feeling of closing a tiny, invisible loop or setting a secret intention."
+  ],
+  "mustAvoid": [
+    "Making it about completing a memory or a past task.",
+    "Using commercial, poetic, or brand-deck language.",
+    "Ending with a fixed, slogan-like phrase of self-encouragement.",
+    "Expanding into grand fate declarations or theatrical chunibyo.",
+    "Disclosing AI or marketing intent."
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Keep it light, intimate, and believably like a real person posting.",
+    "Let the planner page feel momentarily symbolic, a private omen, without forcing it.",
+    "Incorporate daily texture: weather, time, a small, precise action."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#书店碎片",
+    "#轻微中二病",
+    "#私人的小仪式",
+    "#计划本的一页"
+  ],
+  "summary": "A gentle, forward-looking ritual of finding and returning a lost planner page becomes a private promise in a cool Shanghai bookstore.",
+  "errorMessage": ""
+}

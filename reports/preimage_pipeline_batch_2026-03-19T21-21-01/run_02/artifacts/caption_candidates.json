@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:24:01.495Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-23-13",
+  "briefGoal": "Write a caption that feels like a quiet, private note to self about returning a borrowed mechanical pencil to a bookstore shelf on a drizzly Shanghai evening. Capture the small ritual of closing a tiny loop, focusing on the sensory details of the act and the gentle, settled feeling it brings, without making it a grand statement.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小闭环",
+      "caption": "把一支借来的自动铅笔，还回书店的架子。\n它笔尖的铅芯被磨平了一点点，是某个陌生人思考过的痕迹。\n放回去时，木头发出很轻的咔哒一声。\n像合上了一本没人读过的书的最后一页。\n上海的雨夜，又多了一条被悄悄缝好的线。",
+      "hashtags": [
+        "#物归原处",
+        "#书店日常",
+        "#微小仪式",
+        "#上海小雨",
+        "#生活记录"
+      ],
+      "rationale": "紧扣‘归还与修复’程序，以铅笔磨损的细节和放回的声音赋予日常动作隐秘的仪式感，用‘缝好的线’呼应‘温柔秩序’的情感落点。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物私语",
+      "caption": "在书架间完成一次秘密交接。\n主角是一支有凹痕的自动铅笔，从我的口袋回到它原本的队列。\n空气里有纸和灰尘的味道，袖口还沾着外面小雨的凉意。\n完成这件事，心里某个角落就变得整整齐齐。",
+      "hashtags": [
+        "#轻中二日常",
+        "#生活切片",
+        "#书店时光",
+        "#机械铅笔",
+        "#安静时刻"
+      ],
+      "rationale": "以‘秘密交接’和‘队列’的轻微中二视角描述归还，聚焦具体物件（凹痕）与感官（纸尘味、袖口凉意），将内心感受具象化为‘整齐的角落’。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "雨夜修复",
+      "caption": "10.4度的雨夜，适合做点微小修复。\n比如，让一支铅笔回到它的同类中间。\n动作很简单，但完成时，仿佛这一天自己收起了一个毛边。\n世界不会因此改变，但我的夜晚平整了一毫米。",
+      "hashtags": [
+        "#晚间日常",
+        "#物归原处",
+        "#轻中二日常",
+        "#生活记录",
+        "#上海小雨"
+      ],
+      "rationale": "以具体温度‘10.4度’和‘修复’开篇，将归还行为定义为对‘一天毛边’的整理，用‘平整一毫米’的克制比喻传达私密的满足感，避免宏大叙事。"
+    }
+  ]
+}

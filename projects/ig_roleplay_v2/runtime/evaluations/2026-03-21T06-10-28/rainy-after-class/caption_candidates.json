@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "木纹里藏着一小截蓝色的粉笔头。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体物件切入，赋予其私密重量"
+    },
+    {
+      "id": "caption_03",
+      "angle": "action_feeling_arc",
+      "caption": "放下书包时，指尖蹭到了不平整的触感。低头一看，心里顿了一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "展现一个因果-动作-感受的短弧，符合叙事习惯"
+    },
+    {
+      "id": "caption_04",
+      "angle": "private_ritual",
+      "caption": "一个被遗忘的标点，刚好在今天被看见。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "轻微中二地将普通物件视为私密仪式的一部分"
+    },
+    {
+      "id": "caption_05",
+      "angle": "brief_pause",
+      "caption": "这个普通的动作，因为一点坚硬的蓝色，有了具体的停顿。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "聚焦于瞬间的停顿感，符合分享触发点"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

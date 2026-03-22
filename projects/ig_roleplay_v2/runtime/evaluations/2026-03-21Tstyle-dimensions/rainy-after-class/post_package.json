@@ -1,0 +1,68 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:45:28.323Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T15-41-51-rainy_after_class",
+  "lane": "life_record",
+  "caption": "想重新别好发夹，指尖却摸到背面沾着一点橡皮屑。",
+  "hashtags": [
+    "#日常碎片",
+    "#触觉时刻"
+  ],
+  "fullCaptionText": "想重新别好发夹，指尖却摸到背面沾着一点橡皮屑。\n#日常碎片 #触觉时刻",
+  "captionSource": {
+    "selectedCandidateId": "caption_01",
+    "selectionReason": "这句最像一个真实的人在记录一个微小瞬间，从日常动作自然引向具体发现，没有过度解释或渲染。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "2720cece-396a-4df6-901a-034559e12184",
+    "altText": "月见璃音发现发夹背面沾上橡皮屑的瞬间。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/df/20260321/448165f2/2720cece-396a-4df6-901a-034559e12184252339395.png?Expires=1774713723&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=mnJggzMEVT%2B5gNVIdVtjPZjD5WA%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T15-45-24-aliyun-z-image.png",
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "reviewSignals": {},
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ],
+    "reviewWarnings": [
+      "identity_reference_metadata_only_manual_review_required",
+      "identity_anchor_placeholder_or_unregistered"
+    ]
+  },
+  "reviewContext": {
+    "selectedMomentSummaryZh": "想把发夹重新别好，指尖却摸到金属背面不知何时沾上的一点点橡皮屑。",
+    "characterPresenceTarget": "clear_character_presence",
+    "captureSummaryEn": "observational camera relation, close distance, half body coverage, readable face, balanced environment weight",
+    "renderStyleSummaryEn": "line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth",
+    "activeExternalEventIds": []
+  }
+}

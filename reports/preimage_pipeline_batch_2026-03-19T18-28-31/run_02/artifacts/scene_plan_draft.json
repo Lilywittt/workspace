@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:30:13.174Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, a small, deliberate act of tidying becomes a quiet ritual to clear the mind and reset the day's energy.",
+  "microPlot": [
+    "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk.",
+    "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup.",
+    "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts."
+  ],
+  "sensoryFocus": "the faint, clean scent of wood polish on a cloth",
+  "sceneNotes": [
+    "A red hairclip rests on the corner of the now-neat desk, catching the soft, diffuse light from the cloudy window.",
+    "The edge of a textbook is visible, closed, with a small, hand-drawn star in the corner of its cover.",
+    "Her hands are in frame, one holding a soft cloth, the other gently smoothing the page of a planner."
+  ],
+  "tone": [
+    "contemplative"
+  ],
+  "captionFocus": [
+    "The quiet ceremony of putting things back in their place."
+  ],
+  "summary": "A life_record scene of tidying a study space, turning a mundane task into a gentle, personal reset.",
+  "errorMessage": ""
+}

@@ -1,0 +1,172 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/image-request.schema.json",
+  "title": "IG Roleplay Image Request",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "lane",
+    "generationMode",
+    "sourceBriefCreatedAt",
+    "references",
+    "promptPackage",
+    "renderPlan",
+    "publishHints",
+    "status"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "lane": {
+      "type": "string"
+    },
+    "generationMode": {
+      "type": "string"
+    },
+    "sourceBriefCreatedAt": {
+      "type": "string"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "source",
+          "weight"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "weight": {
+            "type": "number"
+          },
+          "why": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "promptPackage": {
+      "type": "object",
+      "required": [
+        "positivePrompt",
+        "negativePrompt",
+        "shotNotes"
+      ],
+      "properties": {
+        "positivePrompt": {
+          "type": "string"
+        },
+        "negativePrompt": {
+          "type": "string"
+        },
+        "shotNotes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "promptBlocks": {
+          "type": "object",
+          "properties": {
+            "layeringStrategy": {
+              "type": "string"
+            },
+            "subject": {
+              "type": "string"
+            },
+            "scene": {
+              "type": "string"
+            },
+            "style": {
+              "type": "string"
+            },
+            "camera": {
+              "type": "string"
+            },
+            "mood": {
+              "type": "string"
+            },
+            "details": {
+              "type": "string"
+            },
+            "constraints": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "renderPlan": {
+      "type": "object",
+      "required": [
+        "aspectRatio",
+        "candidateCount",
+        "seedStrategy",
+        "consistencyPolicy"
+      ],
+      "properties": {
+        "aspectRatio": {
+          "type": "string"
+        },
+        "candidateCount": {
+          "type": "integer"
+        },
+        "seedStrategy": {
+          "type": "string"
+        },
+        "consistencyPolicy": {
+          "type": "string"
+        }
+      }
+    },
+    "publishHints": {
+      "type": "object",
+      "required": [
+        "platform",
+        "recommendedCrop",
+        "altText",
+        "needsFaceReview",
+        "dryRunDefault"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "recommendedCrop": {
+          "type": "string"
+        },
+        "altText": {
+          "type": "string"
+        },
+        "needsFaceReview": {
+          "type": "boolean"
+        },
+        "dryRunDefault": {
+          "type": "boolean"
+        }
+      }
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

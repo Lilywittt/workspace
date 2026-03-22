@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "concrete_detail",
+      "caption": "书包夹层里，去年的今天。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体物件切入，短促而私密"
+    },
+    {
+      "id": "caption_03",
+      "angle": "cause_action_feeling",
+      "caption": "拉链拉到一半，手碰到了它。然后，时间好像变慢了一点。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "展示一个完整的因果-动作-感受弧线"
+    },
+    {
+      "id": "caption_04",
+      "angle": "private_weight",
+      "caption": "一张皱了的票根，忽然变得有点沉。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "让普通物件获得私人的重量感"
+    },
+    {
+      "id": "caption_05",
+      "angle": "implied_coincidence",
+      "caption": "日期对上了。心里轻轻‘啊’了一声。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "暗示巧合，但不解释其意义"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

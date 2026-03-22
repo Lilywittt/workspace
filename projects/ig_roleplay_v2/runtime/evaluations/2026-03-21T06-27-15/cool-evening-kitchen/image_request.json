@@ -1,0 +1,53 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:32:15.652Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 打开的衣柜门和叠放的衣物, 手心朝上，托着那件浅色睡衣, 翻到外面的白色洗涤标签特写, hand palm-up holding a light-colored cotton pajama top, close-up of the white care label flipped outward and visible on the fabric, texture of the cotton pajama material, 手心朝上，托着那件浅色睡衣, 翻到外面的白色洗涤标签特写, 睡衣的棉质纹理\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nComposition: close-up of hand holding the pajama top, with the tag clearly visible against the fabric, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, fashion editorial lighting and posing, presenting the pajama like a product display, detached aesthetic scenery unrelated to the moment, 时尚大片般的打光和姿势, 将睡衣拍得像商品展示, 脱离瞬间的唯美空景, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, fashion editorial polish, empty scenery without character trace",
+    "shotNotes": [
+      "打开的衣柜门和叠放的衣物",
+      "手心朝上，托着那件浅色睡衣",
+      "翻到外面的白色洗涤标签特写",
+      "hand palm-up holding a light-colored cotton pajama top",
+      "close-up of the white care label flipped outward and visible on the fabric",
+      "texture of the cotton pajama material"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "打开的衣柜门和叠放的衣物, 手心朝上，托着那件浅色睡衣, 翻到外面的白色洗涤标签特写, hand palm-up holding a light-colored cotton pajama top, close-up of the white care label flipped outward and visible on the fabric, texture of the cotton pajama material, 手心朝上，托着那件浅色睡衣, 翻到外面的白色洗涤标签特写, 睡衣的棉质纹理",
+      "context": "ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset",
+      "composition": "close-up of hand holding the pajama top, with the tag clearly visible against the fabric, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音发现睡衣标签翻出来了。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

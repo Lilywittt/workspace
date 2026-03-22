@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caption Brief Writer"
+  short_description: "Turn a scene plan into a concise Chinese caption brief."
+  default_prompt: "Use $caption-brief-writer to turn the current scene plan into a concise Chinese caption brief."

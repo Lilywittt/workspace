@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:47:05.371Z",
+  "source": "code",
+  "status": "selected_scene_candidate_ready",
+  "selectedCandidateId": "scene_cand_03",
+  "selectionReason": "Selected threshold_pause_program because it balanced novelty 114, feasibility 92, and persona fit 88.",
+  "selectedCandidate": {
+    "candidateId": "scene_cand_03",
+    "lane": "life_record",
+    "sceneProgramId": "threshold_pause_program",
+    "affordanceId": "threshold_pause_window",
+    "locationArchetype": "stairwell_landing",
+    "locationCluster": "threshold_pause",
+    "objectFamily": "accessory",
+    "objectBindings": [
+      "small red hairclip"
+    ],
+    "weatherRole": "reflective_support",
+    "actionKernel": "pause_listen_hold",
+    "actionSequence": [
+      "pause at stairwell landing",
+      "hold or touch small red hairclip",
+      "listen to the day long enough for the mood to settle"
+    ],
+    "emotionalLanding": "tiny_reset",
+    "presenceMode": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "a pause that changes the texture of the day",
+      "being briefly held between places"
+    ],
+    "imageHooks": [
+      "edge framing",
+      "corridor depth",
+      "rain shelter texture"
+    ],
+    "premiseSeed": "small red hairclip becomes the center of a pause listen hold moment at stairwell landing.",
+    "scores": {
+      "total": 114,
+      "novelty": 114,
+      "feasibility": 92,
+      "personaFit": 88
+    }
+  },
+  "rankedCandidates": [
+    {
+      "candidateId": "scene_cand_03",
+      "sceneProgramId": "threshold_pause_program",
+      "totalScore": 114,
+      "locationArchetype": "stairwell_landing",
+      "objectFamily": "accessory",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    },
+    {
+      "candidateId": "scene_cand_04",
+      "sceneProgramId": "transit_fragment_program",
+      "totalScore": 114,
+      "locationArchetype": "station_edge",
+      "objectFamily": "bag_contents",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    },
+    {
+      "candidateId": "scene_cand_02",
+      "sceneProgramId": "rediscovery_program",
+      "totalScore": 92,
+      "locationArchetype": "indoor_desk_corner",
+      "objectFamily": "paper_fragment",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "memory_return"
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "sceneProgramId": "desk_reset_program",
+      "totalScore": 83,
+      "locationArchetype": "window_seat",
+      "objectFamily": "stationery",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion"
+    },
+    {
+      "candidateId": "scene_cand_09",
+      "sceneProgramId": "kitchen_comfort_program",
+      "totalScore": 83,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion"
+    }
+  ]
+}

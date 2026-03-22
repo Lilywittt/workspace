@@ -1,0 +1,32 @@
+﻿{
+  "location": {
+    "name": "Shanghai",
+    "country": "CN"
+  },
+  "language": "zh",
+  "timezone": "Asia/Shanghai",
+  "signals": {
+    "weather": { "enabled": true },
+    "news": {
+      "enabled": true,
+      "query": "Shanghai",
+      "maxrecords": 12,
+      "timespan": "1d",
+      "sort": "datedesc"
+    },
+    "trends": {
+      "enabled": true,
+      "maxKeywords": 8
+    }
+  },
+  "images": {
+    "style_preference": "selfie"
+  },
+  "instagram": {
+    "publish": false,
+    "default_image_url": ""
+  },
+  "history": {
+    "max_recent": 7
+  }
+}

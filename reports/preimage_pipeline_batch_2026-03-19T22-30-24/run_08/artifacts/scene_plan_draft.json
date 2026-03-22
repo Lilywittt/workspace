@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:42:27.512Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening lull of a small bookstore, a stray sticky note left on a shelf becomes a tiny, misplaced artifact. The act of smoothing its curled edge and tucking it back into a book isn't just tidying; it's a quiet, forward-looking gesture of putting a small piece of the world back in order, a private ritual that feels like closing a tiny, invisible loop.",
+  "microPlot": [
+    "Finding a forgotten, slightly curled sticky note with a stranger's faded pencil mark on a bookstore shelf.",
+    "Gently smoothing its corner and slipping it back between the pages of the nearest novel.",
+    "Feeling the cool, drizzly evening outside soften into a quiet sense of gentle order restored."
+  ],
+  "sensoryFocus": "the dry, papery texture of a curled sticky note corner",
+  "sceneNotes": [
+    "Hands in frame, focus on the small action of smoothing and placing.",
+    "Soft, warm bookstore lighting against the cool blue-grey of the rainy window.",
+    "A stack of secondhand novels in soft focus on the shelf, spines worn.",
+    "The faint, dusty scent of old paper implied by the warm light."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small act of repair as a form of quiet affection for the world."
+  ],
+  "summary": "A late-evening bookstore pause turns a found sticky note into a tiny ritual of restoration, leaving a small corner of the world neater.",
+  "errorMessage": ""
+}

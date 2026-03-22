@@ -1,0 +1,93 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:25:20.778Z",
+  "sourceCandidateId": "event_01",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "把书包侧袋里揉成一团的纸巾拿出来时，发现它被雨水洇湿的边缘刚好晕开了一小片模糊的蓝色，像是钢笔漏墨，又像是天空掉下来的一角。",
+    "hookWhyInterestingZh": "一个本该被直接扔掉的废品，因为雨水的偶然参与，变成了一小块可以被注视的、安静的意外。",
+    "causalChainZh": [
+      "放学后，在空荡的走廊里整理书包侧袋。",
+      "手指碰到一团湿软的旧纸巾，下意识想拿出来丢掉。",
+      "展开时，发现被雨水洇湿的边缘晕染开一小片不规则的淡蓝色痕迹。",
+      "动作停住了，盯着那团模糊的蓝色看了几秒。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "window_after_class",
+        "weather_rain"
+      ],
+      "inferredDetailsZh": [
+        "纸巾可能是早上或更早之前塞进去的。",
+        "雨水通过书包的缝隙或敞开的拉链渗入，造成了这次洇染。",
+        "蓝色来源不明，可能是蹭到了什么，但此刻不重要了。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "雨声提供了背景的细密感",
+        "走廊的空荡让这个停顿不被干扰"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "只是机械地清理杂物，让书包轻一点，心思是放空的。",
+    "after": "那片偶然的、安静的蓝色，让原本要被丢弃的瞬间，有了一点可以被记住的质地。",
+    "whyPostToday": "雨让一个普通的角落变得不一样了，想悄悄记住。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "school_transition_window",
+    "routineWindow": "after_class",
+    "weather": "小雨",
+    "minimalBounds": [
+      "context_school_transition_window",
+      "window_after_class",
+      "weather_rain",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "它具体、安静，没有结论，只是一次被雨改变的注视。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "捏着湿纸巾的指尖",
+      "纸巾上晕开的淡蓝色水痕",
+      "走廊窗边昏暗的天光映在侧脸上"
+    ],
+    "mayShow": [
+      "covered walkway is a plausible nearby anchor in this context.",
+      "station edge is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

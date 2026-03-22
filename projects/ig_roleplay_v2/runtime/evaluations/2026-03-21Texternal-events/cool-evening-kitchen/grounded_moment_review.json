@@ -1,0 +1,72 @@
+{
+  "recommendedCandidateId": "event_01_paper_pause",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "有具体的物理触发（planner）",
+        "因果链清晰，情绪变化有细节支撑",
+        "视觉证据具体（手指停在边缘）",
+        "可以做成图文同源"
+      ],
+      "risksZh": [
+        "当前presenceMode为partial_presence，需调整以满足clear_character_presence目标",
+        "如果planner和pencil的视觉呈现过于装饰性，可能掉入常见盆地"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 72,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "保留了日常停顿感",
+        "符合角色敏感细节的性格"
+      ],
+      "risksZh": [
+        "事件描述过于模糊（“很小的调整动作”）",
+        "视觉证据（“刚被碰过的小物件”）缺乏具体性，易沦为装饰",
+        "因果链与event_01完全重复，缺乏独特性",
+        "难以满足clear_character_presence目标"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "personaTruthScore": 76,
+      "groundingScore": 74,
+      "postabilityScore": 75,
+      "coherenceScore": 70,
+      "characterPresenceFitScore": 68,
+      "sourceMirroringRiskScore": 28,
+      "strengthsZh": [
+        "“被小痕迹轻轻拦了一下”的比喻符合角色轻微中二的感知方式"
+      ],
+      "risksZh": [
+        "事件总结（“原本要继续往下走的时间”）过于抽象，缺乏具体物理触发",
+        "视觉证据（“经过中的场景边缘”）模糊，易导致图像空洞",
+        "因果链与另两个候选完全一致，显示模板化风险",
+        "难以构建清晰的图文同源瞬间",
+        "难以满足clear_character_presence目标"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。event_01_paper_pause因有具体物理触发、清晰的视觉证据和较高的图文同源潜力被推荐，但需调整视觉呈现以满足clear_character_presence目标。event_02和event_03因事件描述模糊、视觉证据空洞及因果链模板化而被淘汰。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-19-54-cool_evening_kitchen"
+}

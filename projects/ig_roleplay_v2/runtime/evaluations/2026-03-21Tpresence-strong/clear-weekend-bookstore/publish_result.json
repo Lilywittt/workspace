@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:13:33.765Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/0a/20260321/448165f2/dfaeb920-0496-4eed-af7f-1b990c200f6156624666.png?Expires=1774690206&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=L8ITgwUdToKjldMgYnlEQIF4x18%3D",
+  "altText": "月见璃音在整理书架时，发现一张旧便签的瞬间。",
+  "releaseStage": "image_ready",
+  "captionChars": 24,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen",
+  "createdAt": "2026-03-21T15:41:36.876Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "cool cloudy evening",
+    "locationName": "Shanghai",
+    "routineWindow": "evening_reset"
+  },
+  "narrative": {
+    "premise": "她拉开窗帘想看看天色，却发现玻璃上有一小片水汽凝结的痕迹。",
+    "microPlot": [
+      "她走到窗边想确认外面的光线。",
+      "伸手去拉窗帘时，手掌侧面碰到了玻璃。",
+      "皮肤的温度在凉玻璃上留下了一小片短暂消雾的痕迹。"
+    ],
+    "sensoryFocus": "一个傍晚室内外温差导致的微小证据，被安静地见证。",
+    "emotionalLanding": "那片清晰的痕迹让她意识到自己的体温正在影响眼前的世界，哪怕只有一小块。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "玻璃上一小道清晰的弧形痕迹",
+      "手掌还停留在玻璃附近",
+      "窗外模糊的暮色透过痕迹显得稍亮一些"
+    ],
+    "sceneNotes": [
+      "context: home_evening_reset",
+      "weather: cool cloudy evening",
+      "capture: observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "window_evening_reset",
+      "weather_cloudy"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": "",
+    "activeExternalEventIds": []
+  }
+}

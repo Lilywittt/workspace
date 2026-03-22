@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:06:04.609Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-05-22",
+  "briefGoal": "Write a caption that feels like a quiet note to self, observing the shift from day to dusk through the small, forgotten pencil on the floor. It should weave the micro-plot of finding this 'misplaced secret' with sensory details (dry wood scent, cool floor) and a light chunibyo touch, making the ordinary feel like a private ritual without being theatrical.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "黄昏的失物",
+      "caption": "傍晚的光线变成蓝色，一支滚落的铅笔静静躺在地板上。\n它的影子被拉得很长，像一小段被遗忘的上午。\n手指碰到地板，凉凉的，还有一点木屑的干燥气味。\n原来一天里，总有些东西会悄悄掉队，等着被黄昏捡起来。",
+      "hashtags": [
+        "#生活碎片",
+        "#铅笔与黄昏",
+        "#安静时刻",
+        "#上海日常",
+        "#少女的观察日记"
+      ],
+      "rationale": "以铅笔为线索，串联起从上午到黄昏的时间流逝，通过触觉和嗅觉细节将普通物件赋予‘掉队的秘密’的轻微仪式感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "地板上的仪式",
+      "caption": "复习到天色转蓝。\n低头，发现一支铅笔不知何时躺在了地板上。\n捡起它时，指尖传来木头微凉光滑的触感，窗外是10度的细雨声。\n这大概是一天结束时，世界递来的一个微小句号。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#上海日常"
+      ],
+      "rationale": "从‘复习’这一日常动作切入，将捡铅笔与感知天气结合，赋予其‘世界递来的句号’这一私密而轻中二的解读，形成安静的收尾仪式。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "蓝调时刻的线索",
+      "caption": "房间浸入蓝灰色的寂静。\n那支铅笔还在老地方，影子锋利地指向我。\n空气里有木头的淡香，和地板清冽的凉意。\n有些线索不必解开，光是存在，就足够让一个黄昏变得不同。",
+      "hashtags": [
+        "#生活碎片",
+        "#安静时刻",
+        "#铅笔与黄昏",
+        "#少女的观察日记"
+      ],
+      "rationale": "聚焦于蓝调时刻的静止画面与感官氛围，将铅笔隐喻为‘不必解开的线索’，强化观察者的私人体悟，避免直白抒情，符合‘轻微秘密信号’的质感。"
+    }
+  ]
+}

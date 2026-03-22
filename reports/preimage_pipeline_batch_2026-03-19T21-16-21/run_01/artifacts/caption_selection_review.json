@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:35.520Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-16-48",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the scene's core 'return_or_repair' program with clear, publishable micro-plot steps and strong sensory grounding. It avoids the recent semantic fatigue of 'find_unfold_notice_again' by focusing on the active 'fix and return' kernel, introduces a fresh object family (stationery), and uses the weather as a subtle texture modifier. The tone is gentle and private, with a light chunibyo touch in the final line that feels earned and intimate rather than performative.",
+  "strengths": [
+    "Clear, sequential micro-plot: find, fix, return, feel.",
+    "Strong sensory details (cool-to-warm metal, light rain) that ground the moment.",
+    "Ending ('无人知晓的约定') provides a light, private-ritual texture without overwriting.",
+    "Avoids fatigued semantics and object families, offering freshness.",
+    "Fits the 'gentle_order' emotional landing and partial presence mode perfectly."
+  ],
+  "risks": [
+    "The ending, while gentle, could be perceived as slightly more poetic than the others.",
+    "Uses '好像' which is common, but the concrete action before it mitigates abstraction."
+  ],
+  "errorMessage": ""
+}

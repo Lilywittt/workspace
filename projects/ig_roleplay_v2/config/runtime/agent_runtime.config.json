@@ -1,0 +1,33 @@
+{
+  "version": "3.0.0-alpha.1",
+  "projectId": "ig_roleplay_v2_zero_memory_agent",
+  "paths": {
+    "runtimeDir": "../../runtime",
+    "legacySignalsPath": "../../../../data/ig_roleplay/signals.json",
+    "legacyDataDir": "../../../../data/ig_roleplay",
+    "characterEditableDir": "../../character/editable",
+    "characterCompiledDir": "../../character/compiled",
+    "worldFactsPath": "../world/world_facts.json",
+    "manualExternalEventsPath": "../world/manual_external_events.json",
+    "imageStyleProfilePath": "../render/image_style_profile.json",
+    "referenceLibraryPath": "../../vision/reference_library.json",
+    "generationPolicyPath": "../policies/agent_generation_policy.json",
+    "creativeModelPath": "../creative_model.json"
+  },
+  "caption": {
+    "candidateCount": 3,
+    "targetMaxChars": 180,
+    "minHashtags": 1,
+    "maxHashtags": 4,
+    "maxEmojis": 1
+  },
+  "image": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life"
+  },
+  "testing": {
+    "evaluationDir": "../../runtime/evaluations",
+    "defaultMode": "simulate"
+  }
+}

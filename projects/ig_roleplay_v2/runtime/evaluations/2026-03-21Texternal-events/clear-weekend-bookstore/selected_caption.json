@@ -1,0 +1,16 @@
+{
+  "selectedAt": "2026-03-21T10:19:21.766Z",
+  "selectedCandidateId": "caption_02",
+  "selectionReason": "这一条最像角色会真的发出来的话，它从一个具体的动作开始，省略了主语，保留了瞬间的停顿感，没有过度解释。",
+  "selectionStrengthsZh": [
+    "具体",
+    "自然",
+    "保留瞬间"
+  ],
+  "candidateAngle": "detail_led",
+  "caption": "手指停在planner边缘的半秒。",
+  "hashtags": [
+    "#日常切片"
+  ],
+  "runId": "zeromemory-2026-03-21T10-15-51-clear_weekend_bookstore"
+}

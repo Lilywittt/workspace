@@ -1,0 +1,4 @@
+interface:
+  display_name: "Scene Plan Creative Director"
+  short_description: "Draft the next post scene direction from continuity and signals."
+  default_prompt: "Use $scene-plan-creative-director to draft the next scene direction from continuity and daily signals."

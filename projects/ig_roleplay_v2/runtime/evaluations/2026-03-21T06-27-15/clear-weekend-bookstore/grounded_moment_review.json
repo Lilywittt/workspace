@@ -1,0 +1,79 @@
+{
+  "recommendedCandidateId": "event_02",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 82,
+      "groundingScore": 75,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "有物理触发（茶叶梗）",
+        "细节具体、粗糙"
+      ],
+      "risksZh": [
+        "洗碗机场景可能偏功能化，不够私密",
+        "视觉上可能变成厨房静物，失去人物痕迹"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 86,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "触感细节（金属凉）先于记忆",
+        "与身份锚点（发夹）自然关联",
+        "动作（翻找）和停顿感强"
+      ],
+      "risksZh": [
+        "需确保发夹不是红色发夹，避免身份锚点混淆"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 80,
+      "groundingScore": 72,
+      "postabilityScore": 75,
+      "coherenceScore": 78,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "细节具体（脱线针脚）"
+      ],
+      "risksZh": [
+        "擦桌子动作可能偏家务感，不够个人化",
+        "视觉上可能变成布料特写，人物存在感弱"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 83,
+      "groundingScore": 78,
+      "postabilityScore": 80,
+      "coherenceScore": 82,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "触觉细节（薄灰）优先",
+        "动作（挪盆栽）有生活感"
+      ],
+      "risksZh": [
+        "盆栽可能滑向装饰性符号",
+        "窗台场景可能偏氛围，缺乏不便感"
+      ],
+      "verdict": "acceptable"
+    }
+  ],
+  "summaryZh": "审查完成。event_02在角色真实性、现实贴合度、图文同源性和避免过拟合风险上表现最佳，其触感先行的细节和与身份的自然关联，最能体现“被细节牵住”的安静时刻。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}

@@ -1,0 +1,21 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那个微小停顿带来的陌生感。",
+  "whatToSayZh": "只说‘指尖碰到杯沿一处缺口’这个具体触感，不说为什么这个瞬间会停下来。",
+  "whatToLeaveUnsaidZh": "把‘为什么突然觉得这杯子陌生’留在空白里。",
+  "openingMovesZh": [
+    "从‘收拾桌子时’这个日常动作开始。",
+    "然后直接跳到‘指尖碰到’的触感细节。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

@@ -1,0 +1,104 @@
+{
+  "render_dashboard": false,
+  "platform": "win32",
+  "service_mode": true,
+  "auto_launch": false,
+  "update_helper": false,
+  "show_tray_speed": true,
+  "need_relogin": false,
+  "language": "zh-CN",
+  "system_info": {
+    "device": "Lilywit",
+    "os": "Windows 10.0.19045(x64)",
+    "ip": "183.173.228.149"
+  },
+  "email": "Skybluellw@qq.com",
+  "password": "979925523988559L",
+  "proxy_mode": "global",
+  "proxy_port": 7897,
+  "tun": true,
+  "latest_announcement": 1613551905,
+  "prefer_nodes": {
+    "🔰国外流量": "IEPL-D-日本-JP01",
+    "GLOBAL": "IEPL-D-日本-JP01"
+  },
+  "connected": true,
+  "telegram_group": "https://t.me/",
+  "has_shown_expiry_alert": false,
+  "has_shown_quota_alert": false,
+  "is_fake_ip_mode": true,
+  "config_hash": "2c9578ea",
+  "subscription_info": {
+    "plan_id": 3,
+    "plan_name": "3",
+    "email": "skybluellw@qq.com",
+    "quotaUsed": 106262220473,
+    "quotaTotal": 6442450944000,
+    "daysRemaining": 282,
+    "resetDay": 24,
+    "subscription_url": "https://64.186.227.22/client/subscribe/e8fecf845fabb5945486b443ff118f75?clash=1"
+  },
+  "order_list": {
+    "orders": [
+      {
+        "order_number": 381430,
+        "created_at": 1766552725,
+        "status": 1,
+        "total_amount": 480,
+        "discount_amount": 0,
+        "balance_amount": 0,
+        "plan_id": 13,
+        "plan_name": "旗舰一年",
+        "plan": {},
+        "period": "",
+        "ssp_id": "381430"
+      },
+      {
+        "order_number": "054DC549",
+        "created_at": 1766552709,
+        "status": 1,
+        "total_amount": 480,
+        "discount_amount": 0,
+        "balance_amount": 0,
+        "plan_id": 0,
+        "plan_name": "购买【旗舰一年】",
+        "plan": {},
+        "period": "",
+        "ssp_id": "480867"
+      },
+      {
+        "order_number": 355186,
+        "created_at": 1758859451,
+        "status": 1,
+        "total_amount": 80,
+        "discount_amount": 0,
+        "balance_amount": 0,
+        "plan_id": 5,
+        "plan_name": "高级季度",
+        "plan": {},
+        "period": "",
+        "ssp_id": "355186"
+      },
+      {
+        "order_number": "AAA8DA5E",
+        "created_at": 1758859418,
+        "status": 1,
+        "total_amount": 80,
+        "discount_amount": 0,
+        "balance_amount": 0,
+        "plan_id": 0,
+        "plan_name": "购买【高级季度】",
+        "plan": {},
+        "period": "",
+        "ssp_id": "449072"
+      }
+    ],
+    "status": 200
+  },
+  "user_info": {
+    "balance": 0,
+    "commission_balance": 0,
+    "email": "skybluellw@qq.com",
+    "status": 200
+  }
+}

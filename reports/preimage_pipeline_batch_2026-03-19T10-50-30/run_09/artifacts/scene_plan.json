@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T03-01-11",
+  "createdAt": "2026-03-19T03:01:11.519Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After a long day of studying, she's finally taking a moment for herself, curled up in a cozy corner of her room with a warm drink, letting the soft glow of a desk lamp and the quiet patter of rain outside create a private, comforting world.",
+    "microPlot": [
+      "The last textbook is closed, and the mental fatigue from hours of review settles in.",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows.",
+      "A deep, contented sigh escapes as she feels the day's tension melt away, replaced by a quiet, earned peace."
+    ],
+    "sensoryFocus": "warm lamplight on hands, soft blanket texture, faint scent of tea"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Character trace: her small red hairclip resting on the edge of a closed notebook",
+      "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur",
+      "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window",
+      "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session",
+      "The last textbook is closed, and the mental fatigue from hours of review settles in",
+      "She makes a cup of hot milk tea, wraps herself in a soft blanket, and turns on her favorite small lamp, its light casting gentle shadows"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a detail of the environment, not just the face",
+      "Use warmer, artificial lighting if indoors",
+      "Shift from selfie close-ups to wider scene or object focus",
+      "Introduce a new indoor or evening setting",
+      "Character trace: her small red hairclip resting on the edge of a closed notebook.",
+      "Frame: low-angle shot focusing on her hands cradling a warm mug, with her legs curled up on a chair in the background blur.",
+      "Lighting: warm, artificial glow from a single desk lamp, contrasting with the cool blue-grey of the rainy window.",
+      "Detail: a few stray highlighters and a crumpled snack wrapper on the desk, hinting at the earlier study session.",
+      "Reflecting on the quiet satisfaction of finishing a task and rewarding oneself.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "cozy"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate diary feel but pivot to life_record with a focus on environment and activity to refresh the visual and narrative tone.",
+    "draftSummary": "A cozy, intimate evening scene where she transitions from studying to a warm, private moment of rest.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

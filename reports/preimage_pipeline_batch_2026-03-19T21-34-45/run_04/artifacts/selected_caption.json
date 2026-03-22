@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:40:58.072Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-40-07",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best captures the scene's core emotional landing of 'shy_attachment' and the directive for a 'quiet, private note to her future self.' It cleanly executes the micro-plot (buying, sensory detail, carrying as a promise) with short, intimate sentences that avoid diary summary. The '小小暗号' (little secret signal) metaphor provides the light chunibyo texture and private-ritual weight without overwriting, and the ending feels like a gentle, trailing self-address, not a fixed slogan.",
+  "caption": "买了一个茶包。\n纸袋的窸窣声，和雨声混在一起。\n带它回去，像带一个给明天的小小暗号。",
+  "hashtags": [
+    "#小雨的晚上",
+    "#一个人的小仪式",
+    "#茶包与私密承诺",
+    "#上海日常",
+    "#生活切片"
+  ],
+  "candidateAngle": "私密承诺",
+  "candidateRationale": "以微小动作为核心，将购买行为转化为给未来的私密暗号，符合‘害羞的依恋’情绪和‘私人仪式’基调。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best captures the scene's core emotional landing of 'shy_attachment' and the directive for a 'quiet, private note to her future self.' It cleanly executes the micro-plot (buying, sensory detail, carrying as a promise) with short, intimate sentences that avoid diary summary. The '小小暗号' (little secret signal) metaphor provides the light chunibyo texture and private-ritual weight without overwriting, and the ending feels like a gentle, trailing self-address, not a fixed slogan.",
+    "strengths": [
+      "Perfectly matches the 'shy_attachment' emotional landing and 'private ritual' tone",
+      "Clean three-line structure follows the cause-action-feeling micro-plot",
+      "Integrates sensory detail (rustle of paper, rain) naturally",
+      "Metaphor ('小小暗号') is light, intimate, and persona-appropriate",
+      "Ending is soft and forward-looking, avoiding a repetitive or self-encouraging slogan"
+    ],
+    "risks": [
+      "Slightly more abstract than the tactile contrast in candidate 02",
+      "The metaphor, while gentle, edges toward the 'tiny omen' semantic used recently"
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:41:49.324Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen",
+  "lane": "life_record",
+  "caption": "拉开窗帘，玻璃上有一小道清晰的痕迹。",
+  "hashtags": [
+    "#daily_fragment",
+    "#evening_window"
+  ],
+  "fullCaptionText": "拉开窗帘，玻璃上有一小道清晰的痕迹。\n#daily_fragment #evening_window",
+  "captionSource": {
+    "selectedCandidateId": "caption_01",
+    "selectionReason": "这条最像真人会发的文字，保留了具体细节，没有过度解释，让瞬间自己说话。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "92bca9f2-cfe7-4e27-8538-8a950a74007b",
+    "altText": "璃音在傍晚拉开窗帘时，手掌在起雾的玻璃上留下了一道清晰的痕迹。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/85/20260321/448165f2/92bca9f2-cfe7-4e27-8538-8a950a74007b326875421.png?Expires=1774713504&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=6nU4Rmko7Kekd9rN497%2BQJy0JjE%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T15-41-45-aliyun-z-image.png",
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "reviewSignals": {},
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ],
+    "reviewWarnings": [
+      "identity_reference_metadata_only_manual_review_required",
+      "identity_anchor_placeholder_or_unregistered"
+    ]
+  },
+  "reviewContext": {
+    "selectedMomentSummaryZh": "她拉开窗帘想看看天色，却发现玻璃上有一小片水汽凝结的痕迹。",
+    "characterPresenceTarget": "clear_character_presence",
+    "captureSummaryEn": "observational camera relation, medium distance, three-quarter body coverage, readable face, balanced environment weight",
+    "renderStyleSummaryEn": "line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth",
+    "activeExternalEventIds": []
+  }
+}

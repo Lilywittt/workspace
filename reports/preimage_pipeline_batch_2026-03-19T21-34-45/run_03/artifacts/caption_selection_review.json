@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:39:33.321Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-38-33",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "This caption best balances the required scene elements with a fresh, publishable voice. It directly incorporates the sensory detail (thumb smoothing a crease) and weather (10-degree rainy night) into a cohesive micro-plot, framing the action as a 'private code word about order' which perfectly captures the 'gentle_order' emotional landing and the persona's light chunibyo tendency to read small omens. It avoids the overused 'soft observation' ending family and feels more like a private note than a generic observation, providing a stronger pivot from recent repetitive semantics.",
+  "strengths": [
+    "Strong persona fit: 'code word for order' is a precise, lightly dramatic interpretation of a private ritual.",
+    "Excellent scene integration: Weaves object, action, and weather into a single, coherent thought.",
+    "Fresh ending: Avoids common 'soft observation' cadence, offering a more intimate, self-directed closure.",
+    "Publishable concision: Short, evocative sentences that feel believably human."
+  ],
+  "risks": [
+    "Slightly abstract: The phrase 'code word for order' could feel mildly conceptual versus purely sensory.",
+    "Lower explicit 'forward-looking' emphasis compared to candidate 03's 'bookmark' metaphor."
+  ],
+  "errorMessage": ""
+}

@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen",
+  "createdAt": "2026-03-21T06:32:15.640Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "微凉的多云傍晚",
+    "locationName": "Shanghai",
+    "routineWindow": "evening_reset"
+  },
+  "narrative": {
+    "premise": "从衣柜拿睡衣，发现最上面那件的标签翻出来了，硬硬地硌了一下手心。",
+    "microPlot": [
+      "打开衣柜门，手伸向叠好的那摞睡衣。",
+      "抓住最上面那件棉质T恤的瞬间，手心感觉到一小块方形硬物。",
+      "翻过来看，是缝在后领的洗涤标签，不知何时翻到了外面。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "触觉上的意外打断，让拿衣服这个动作从流程中独立了出来。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "concreteSceneCues": [
+      "打开的衣柜门和叠放的衣物",
+      "手心朝上，托着那件浅色睡衣",
+      "翻到外面的白色洗涤标签特写"
+    ],
+    "sceneNotes": [
+      "context: home_evening_reset",
+      "weather: 微凉的多云傍晚"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_home_evening_reset",
+      "window_evening_reset"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

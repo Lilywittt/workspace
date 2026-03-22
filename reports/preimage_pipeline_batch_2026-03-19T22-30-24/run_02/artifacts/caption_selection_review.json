@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:33:33.648Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-32-38",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption best balances the scene's concrete sensory detail with a light, private-ritual texture, avoiding the overtly metaphorical language of candidate 02 and the slightly overwrought internal reflection of candidate 03. It cleanly executes the micro-plot, grounds the action in the cool metal feel and distant rain, and lands with a gentle, forward-leaning observation ('像给今天一个微小的、向前的结') that fits the 'gentle_order' emotional landing without sounding like a fixed slogan. The hashtags are well-aligned and support the lane switch to life_record with fresh angles.",
+  "strengths": [
+    "Strong sensory grounding with '金属在指尖变回原来的形状' and '雨声在窗外'",
+    "Clean three-part micro-plot: find, fix, feel",
+    "Ending line is a subtle, publishable omen that fits the 'light chunibyo' tone",
+    "Avoids over-explaining the ritual or making it a grand statement",
+    "Hashtags are fresh and support the scene's mood without repetition fatigue"
+  ],
+  "risks": [
+    "The final line is slightly abstract, but its brevity and connection to the physical action keep it believable",
+    "Slightly shorter than other options, but meets all required elements efficiently"
+  ],
+  "errorMessage": ""
+}

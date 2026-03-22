@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:50:42.126Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from selfie close-ups to wider environmental shots",
+    "Introduce a new activity or small task as a subject"
+  ],
+  "avoidMotifs": [
+    "Repeating '窗外' (outside the window) openings or rainy day themes",
+    "Overusing location hashtags like #上海"
+  ],
+  "narrativeNudges": [
+    "Frame the moment around a small, completed action or observation"
+  ],
+  "captionAdvice": [
+    "Start with a simple statement of doing or noticing something new",
+    "Mention a specific object or sound instead of general weather"
+  ],
+  "imageAdvice": [
+    "Use a medium shot showing hands and an object or part of a room",
+    "Incorporate a different time of day (e.g., evening) if possible"
+  ],
+  "summary": "Maintain the intimate diary feel but pivot from selfie reflections to a recorded moment of a simple activity or environmental detail.",
+  "errorMessage": ""
+}

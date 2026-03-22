@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:16.286Z",
+  "source": "code",
+  "status": "reflection_notes_ready",
+  "sourceNoveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json",
+  "recurringObjects": [
+    "comfort_item",
+    "stationery"
+  ],
+  "familiarPlaces": [
+    "covered_walkway",
+    "bookstore_aisle"
+  ],
+  "stableEmotionalLandings": [
+    "shy_attachment",
+    "gentle_order"
+  ],
+  "recurringScenePrograms": [
+    "micro_purchase_program",
+    "return_or_repair_program"
+  ],
+  "fatiguePatterns": [
+    "Indoor clusters have become dominant enough to flatten the world.",
+    "Study-adjacent scenes are starting to feel over-represented.",
+    "Cooldown scene cluster: shelter_pause",
+    "Cooldown scene cluster: bookish_pause"
+  ],
+  "guidanceNotes": [
+    "Keep recurring object families as memory texture, not default crutches: comfort_item, stationery",
+    "Use familiar places selectively so they feel lived-in instead of repetitive: covered_walkway, bookstore_aisle",
+    "Indoor clusters have become dominant enough to flatten the world.",
+    "Study-adjacent scenes are starting to feel over-represented.",
+    "Cooldown scene cluster: shelter_pause",
+    "Cooldown scene cluster: bookish_pause"
+  ]
+}

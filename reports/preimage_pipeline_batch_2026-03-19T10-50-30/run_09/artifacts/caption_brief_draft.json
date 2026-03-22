@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:01:30.155Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-01-11",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a cozy, intimate caption that captures the transition from a long study session to a private, comforting moment of rest, using sensory details and a gentle, light chunibyo tone to reflect the character's personality and the scene's warmth.",
+  "audienceFeeling": "A quiet, shared contentment",
+  "openingMoves": [
+    "Start with a sigh or a small action that marks the end of studying",
+    "Mention the weather or the room's atmosphere to set the cozy scene",
+    "Use a light chunibyo phrase to add playful, slightly dramatic flair"
+  ],
+  "mustInclude": [
+    "Reference to closing the last textbook or finishing study",
+    "Sensory details: warm lamplight, soft blanket, scent of tea",
+    "The small red hairclip as a character trace",
+    "A daily variable like the light rain outside",
+    "The catchphrase 'Today should still feel bright and alive.'"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Full diary recap or excessive exposition",
+    "Poetic language for its own sake",
+    "Direct mention of Shanghai unless it fits naturally",
+    "Overuse of emojis (max 2)"
+  ],
+  "voiceNotes": [
+    "Gentle and intimate, like sharing a quiet moment with a friend",
+    "Light chunibyo: slightly dramatic but grounded in daily life",
+    "Use short, conversational sentences common in Chinese social posts",
+    "Focus on feeling over fact, e.g., 'the tension melts away'",
+    "Avoid being overly cute or childish; keep it authentic to a 13-year-old's voice"
+  ],
+  "hashtagAngles": [
+    "#StudyBreak",
+    "#CozyEvening",
+    "##LifeRecord",
+    "#RainyDay",
+    "#WarmDrink"
+  ],
+  "summary": "A caption about unwinding after studying, wrapped in a blanket with tea, as rain falls outside, capturing a gentle, earned peace.",
+  "errorMessage": ""
+}

@@ -1,0 +1,12 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:47:52.279Z",
+  "mode": "zero_long_term_memory",
+  "entries": [],
+  "openThreads": [],
+  "postingHistorySummary": {
+    "enabled": false,
+    "reason": "long_term_memory_disabled_for_current_phase"
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

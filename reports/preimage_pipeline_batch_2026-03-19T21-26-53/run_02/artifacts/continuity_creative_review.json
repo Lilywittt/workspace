@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:28:24.744Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'find_unfold_notice_again' to a different action kernel like 'place_leave_for_later' or 'adjust_share_light'",
+    "Choose a location archetype outside the top two: e.g., 'window_seat', 'park_bench', or 'bus_stop_shelter'"
+  ],
+  "avoidMotifs": [
+    "Avoid 'accessory' object family; try 'tool', 'container', or 'natural_object' instead"
+  ],
+  "narrativeNudges": [
+    "Let the emotional landing be 'gentle_anticipation' or 'quiet_amusement' instead of quiet_completion/memory_return"
+  ],
+  "captionAdvice": [
+    "Start caption with a small sound or tactile detail, not a weather observation"
+  ],
+  "imageAdvice": [
+    "Frame to show a bit more of the surrounding environment, not just a close-up corner"
+  ],
+  "summary": "Shift from rediscovering forgotten items to placing or preparing something for a near future, in a slightly different indoor-outdoor threshold space.",
+  "errorMessage": ""
+}

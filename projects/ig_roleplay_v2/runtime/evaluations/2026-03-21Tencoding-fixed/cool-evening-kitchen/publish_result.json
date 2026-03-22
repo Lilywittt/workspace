@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:42:18.762Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/fe/20260321/448165f2/b46138c1-db54-40bb-8bf9-55f1bbbf707d256382216.png?Expires=1774695532&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=26lhv7nTItF08fnk9RFJOSBJGQA%3D",
+  "altText": "月见璃音在放回杯子时，因杯沿的水痕停顿了一下。",
+  "releaseStage": "image_ready",
+  "captionChars": 21,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

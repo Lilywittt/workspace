@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:40:37.462Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-39-51",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by framing the errand as a shy, intentional act of self-care with a distinct 'light chunibyo' flavor. The 'secret mission' metaphor is a fresh, playful take on the 'private rescue' hook that avoids recent opening patterns and feels like a genuine, intimate note. It cleanly executes the micro-purchase program, carries the object back as a completed ritual, and lands on a 'shy_attachment' emotional tone without being melodramatic or slogan-like.",
+  "caption": "一项秘密任务：在傍晚的廊下，用一杯热可可，打捞沉没了一整天的注意力。\n任务完成，正在返航。",
+  "hashtags": [
+    "#秘密任务",
+    "#傍晚采购",
+    "#注意力打捞",
+    "#生活切片",
+    "#舒适物品"
+  ],
+  "candidateAngle": "quiet errand as rescue",
+  "candidateRationale": "使用“秘密任务”的轻中二比喻，将日常差事戏剧化为一次私人救援行动，开头与避免列表明显不同，且保持了害羞的、内向的叙事感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This caption best fulfills the brief by framing the errand as a shy, intentional act of self-care with a distinct 'light chunibyo' flavor. The 'secret mission' metaphor is a fresh, playful take on the 'private rescue' hook that avoids recent opening patterns and feels like a genuine, intimate note. It cleanly executes the micro-purchase program, carries the object back as a completed ritual, and lands on a 'shy_attachment' emotional tone without being melodramatic or slogan-like.",
+    "strengths": [
+      "Fresh 'secret mission' metaphor aligns perfectly with light chunibyo and private ritual energy",
+      "Concisely executes the full micro-plot: cause (drowned attention), action (purchase), feeling (returning)",
+      "Avoids repetition of recent openings and overused semantic patterns like 'soft_observation' endings",
+      "Feels like a believable, intimate social media note rather than a crafted statement"
+    ],
+    "risks": [
+      "The metaphor is slightly more overt than other candidates, though it stays within the shy, personal scale",
+      "Less direct sensory detail than candidate 01, relying more on the conceptual hook"
+    ]
+  }
+}

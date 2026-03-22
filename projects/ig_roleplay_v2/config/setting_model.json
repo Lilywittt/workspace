@@ -1,0 +1,196 @@
+{
+  "version": "2.0.0-alpha.1",
+  "worldProfile": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "schoolLifeMode": "middle_school_slice_of_life"
+  },
+  "placeArchetypes": {
+    "indoor_desk_corner": {
+      "kind": "indoor",
+      "sceneCluster": "indoor_reset",
+      "tags": [
+        "desk",
+        "study",
+        "private",
+        "reset"
+      ]
+    },
+    "window_seat": {
+      "kind": "indoor",
+      "sceneCluster": "indoors_light_edge",
+      "tags": [
+        "window",
+        "pause",
+        "weather",
+        "private"
+      ]
+    },
+    "bookstore_aisle": {
+      "kind": "public_indoor",
+      "sceneCluster": "bookish_pause",
+      "tags": [
+        "bookstore",
+        "quiet",
+        "browse",
+        "anonymous_public"
+      ]
+    },
+    "convenience_counter": {
+      "kind": "public_indoor",
+      "sceneCluster": "micro_errand",
+      "tags": [
+        "errand",
+        "small_purchase",
+        "bright_light"
+      ]
+    },
+    "station_edge": {
+      "kind": "public_transit",
+      "sceneCluster": "transit_fragment",
+      "tags": [
+        "transit",
+        "waiting",
+        "passing_through"
+      ]
+    },
+    "stairwell_landing": {
+      "kind": "liminal_indoor",
+      "sceneCluster": "threshold_pause",
+      "tags": [
+        "threshold",
+        "pause",
+        "in_between"
+      ]
+    },
+    "covered_walkway": {
+      "kind": "semi_outdoor",
+      "sceneCluster": "shelter_pause",
+      "tags": [
+        "rain_shelter",
+        "passing_through",
+        "edge"
+      ]
+    },
+    "campus_edge": {
+      "kind": "outdoor_light",
+      "sceneCluster": "after_school_fragment",
+      "tags": [
+        "campus",
+        "after_school",
+        "walk"
+      ]
+    },
+    "laundry_corner": {
+      "kind": "indoor_domestic",
+      "sceneCluster": "domestic_reset",
+      "tags": [
+        "domestic",
+        "folding",
+        "soft_texture"
+      ]
+    },
+    "kitchen_counter": {
+      "kind": "indoor_domestic",
+      "sceneCluster": "comfort_reset",
+      "tags": [
+        "warm_drink",
+        "late_evening",
+        "small_care"
+      ]
+    }
+  },
+  "routineAnchors": {
+    "school_day": [
+      "after_class_reset",
+      "short_errand",
+      "evening_reset"
+    ],
+    "weekend": [
+      "slow_sorting",
+      "bookstore_pause",
+      "micro_purchase"
+    ],
+    "rainy_day": [
+      "shelter_pause",
+      "indoor_reset",
+      "rediscovery_window"
+    ],
+    "cool_evening": [
+      "kitchen_comfort",
+      "corridor_pause",
+      "desk_reset"
+    ]
+  },
+  "ownedObjectPools": {
+    "paper_fragment": [
+      "dried petal",
+      "folded paper crane",
+      "old movie stub",
+      "pressed leaf",
+      "tiny receipt corner"
+    ],
+    "stationery": [
+      "mechanical pencil",
+      "planner page",
+      "sticky note",
+      "colored pen",
+      "paper clip"
+    ],
+    "keepsake": [
+      "bookmark",
+      "star-shaped clip",
+      "small charm",
+      "old note",
+      "ticket stub"
+    ],
+    "comfort_item": [
+      "mug of cocoa",
+      "tea sachet",
+      "small blanket",
+      "soft pouch",
+      "warm cup sleeve"
+    ],
+    "accessory": [
+      "small red hairclip",
+      "star hairpin",
+      "ribbon tie",
+      "keychain charm",
+      "clip-on badge"
+    ],
+    "bag_contents": [
+      "coin pouch",
+      "lip balm",
+      "library card",
+      "folded shopping list",
+      "earphone case"
+    ]
+  },
+  "emotionalLandingFamilies": {
+    "quiet_completion": [
+      "closing a small loop",
+      "finishing a private gesture"
+    ],
+    "memory_return": [
+      "finding a trace from a past self",
+      "soft recall without full nostalgia"
+    ],
+    "tiny_reset": [
+      "small emotional recalibration",
+      "resetting the day softly"
+    ],
+    "private_omen": [
+      "ordinary thing with secret-sign energy",
+      "tiny omen without lore"
+    ],
+    "gentle_order": [
+      "putting small things back into place",
+      "restoring a little order"
+    ],
+    "shy_attachment": [
+      "keeping a tiny fondness private",
+      "quietly liking something small"
+    ]
+  }
+}

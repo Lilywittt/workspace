@@ -1,0 +1,321 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-20T10-47-20",
+  "createdAt": "2026-03-20T10:47:20.906Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "selectedSceneCandidatePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/selected_scene_candidate.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "小雨, about 10.4C",
+    "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "semanticFatigue": [
+      "micro_purchase_program",
+      "return_or_repair_program",
+      "bookish_pause",
+      "shelter_pause"
+    ],
+    "dominantSemantics": {
+      "scenePrograms": [
+        {
+          "value": "micro_purchase_program",
+          "count": 6
+        },
+        {
+          "value": "return_or_repair_program",
+          "count": 6
+        }
+      ],
+      "locationArchetypes": [
+        {
+          "value": "bookstore_aisle",
+          "count": 6
+        },
+        {
+          "value": "covered_walkway",
+          "count": 6
+        }
+      ],
+      "actionKernels": [
+        {
+          "value": "choose_pay_carry_back",
+          "count": 6
+        },
+        {
+          "value": "return_fix_restore",
+          "count": 6
+        }
+      ],
+      "objectFamilies": [
+        {
+          "value": "comfort_item",
+          "count": 6
+        },
+        {
+          "value": "stationery",
+          "count": 6
+        }
+      ],
+      "weatherRoles": [
+        {
+          "value": "texture_modifier",
+          "count": 12
+        }
+      ],
+      "emotionalLandings": [
+        {
+          "value": "gentle_order",
+          "count": 6
+        },
+        {
+          "value": "shy_attachment",
+          "count": 6
+        }
+      ],
+      "presenceModes": [
+        {
+          "value": "partial_presence",
+          "count": 12
+        }
+      ],
+      "captionEndingFamilies": [
+        {
+          "value": "unknown",
+          "count": 11
+        },
+        {
+          "value": "soft_observation",
+          "count": 1
+        }
+      ],
+      "locationClusters": [
+        {
+          "value": "bookish_pause",
+          "count": 6
+        },
+        {
+          "value": "shelter_pause",
+          "count": 6
+        }
+      ]
+    }
+  },
+  "worldState": {
+    "timeContext": {
+      "timezone": "Asia/Shanghai",
+      "localDate": "2026-03-17",
+      "localHour": 18,
+      "daypart": "early_evening",
+      "weekdayMode": "school_day",
+      "seasonPhase": "early_spring",
+      "routineAnchors": [
+        "after_class_reset",
+        "short_errand",
+        "evening_reset",
+        "shelter_pause",
+        "indoor_reset",
+        "rediscovery_window"
+      ]
+    },
+    "environment": {
+      "city": "Shanghai",
+      "locationName": "Shanghai",
+      "weatherCode": 61,
+      "weatherSummary": "小雨",
+      "temperatureC": 10.4,
+      "windSpeedKmh": 10.8,
+      "temperatureBand": "cool",
+      "mobilityWindow": "short_walk_ok",
+      "weatherRoleDefault": "reflective_support"
+    },
+    "characterState": {
+      "lanePreference": "life_record",
+      "energy": "medium_low",
+      "socialBandwidth": "solo_preferred",
+      "attentionShape": "pattern_breaking",
+      "needState": [
+        "small_reset",
+        "private_meaning",
+        "mobility_shift",
+        "non_study_relief"
+      ],
+      "temperament": [
+        "light_chunibyo",
+        "gentle",
+        "occasionally_tsundere",
+        "sensitive_to_daily_details",
+        "playful",
+        "private_ritual_energy",
+        "quietly_reads_small_omens"
+      ]
+    },
+    "continuityPressure": {
+      "preferredLane": "life_record",
+      "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+      "sceneFatigue": [
+        "bookish_pause",
+        "shelter_pause",
+        "micro_purchase_program",
+        "return_or_repair_program"
+      ],
+      "objectFatigue": [
+        "comfort_item",
+        "stationery"
+      ],
+      "weatherOveruse": false,
+      "indoorOveruse": true,
+      "studyAftermathOveruse": true
+    }
+  },
+  "narrative": {
+    "premise": "In the cool, drizzly early evening, a pause on a stairwell landing becomes a tiny, private reset. The small red hairclip, held in hand, isn't just an accessory; it's a momentary anchor, a quiet point of focus that briefly holds the day's scattered energy before letting it settle into a softer, more manageable shape.",
+    "microPlot": [
+      "The day's soft rain and the transition between places create a liminal, in-between feeling.",
+      "Pausing on the landing, she takes out the small red hairclip, holding it in her palm and listening to the quiet sounds of the building and the distant drizzle.",
+      "For a moment, the clip feels like a tiny, solid secret—a private point of stillness that resets the texture of the hour without needing to move forward or back."
+    ],
+    "sensoryFocus": "the cool, smooth metal of the hairclip against warm palm",
+    "emotionalLanding": "tiny_reset"
+  },
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_03",
+    "sceneProgramId": "threshold_pause_program",
+    "affordanceId": "threshold_pause_window",
+    "locationArchetype": "stairwell_landing",
+    "locationCluster": "threshold_pause",
+    "objectFamily": "accessory",
+    "objectBindings": [
+      "small red hairclip"
+    ],
+    "actionKernel": "pause_listen_hold",
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "tiny_reset",
+    "presencePolicy": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "a pause that changes the texture of the day",
+      "being briefly held between places"
+    ],
+    "imageHooks": [
+      "edge framing",
+      "corridor depth",
+      "rain shelter texture"
+    ]
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneProgramId": "threshold_pause_program",
+      "objectBindings": [
+        "small red hairclip"
+      ],
+      "weatherRole": "reflective_support"
+    },
+    "concreteSceneCues": [
+      "Frame emphasizes the corridor's depth and the soft, diffused light from a window at the end of the hall",
+      "Character is a small, still figure against the architectural lines of the stairwell, suggesting a pause between spaces",
+      "A trace of rain streaks on a nearby windowpane, blurring the outside world into soft, grey shapes",
+      "Scene location archetype: stairwell landing",
+      "Object focus: small red hairclip",
+      "pause at stairwell landing"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "edge framing",
+      "corridor depth",
+      "rain shelter texture",
+      "a pause that changes the texture of the day",
+      "being briefly held between places",
+      "Frame should include more environmental context, like a bit of sky or street",
+      "Keep the focus on a small action or object, but with natural, diffused light",
+      "Frame emphasizes the corridor's depth and the soft, diffused light from a window at the end of the hall.",
+      "Character is a small, still figure against the architectural lines of the stairwell, suggesting a pause between spaces.",
+      "A trace of rain streaks on a nearby windowpane, blurring the outside world into soft, grey shapes.",
+      "Presence mode: wide_scene_with_character_trace.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quiet_wonder"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable",
+      "ordinary_object_with_secret_weight"
+    ],
+    "hooks": [
+      "a pause that changes the texture of the day",
+      "being briefly held between places"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Switch to life_record with an outdoor, non-ritual scene to refresh the rhythm while staying intimate.",
+    "draftSummary": "A quiet pause on a stairwell landing turns a small red hairclip into a momentary anchor for a soft, private reset.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "selectedSceneCandidate": "selected_scene_candidate_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    },
+    "affordanceHints": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "threshold_pause_window",
+      "indoor_reset_window"
+    ]
+  }
+}

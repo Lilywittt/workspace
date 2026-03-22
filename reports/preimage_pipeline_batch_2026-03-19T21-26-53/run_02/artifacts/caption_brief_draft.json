@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:28:57.342Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-28-39",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to a future self, capturing the quiet satisfaction of fixing a small, broken pencil in a late-evening bookstore. Use short sentences with one longer breath to describe the sensory detail and the gentle, personal ritual of putting a tiny piece of the world back in order.",
+  "audienceFeeling": "a soft, intimate recognition of small, meaningful acts",
+  "openingMoves": [
+    "Start with a simple observation of the object or the moment",
+    "Mention the weather or the time of day as a texture",
+    "Use a light, self-addressed question or thought"
+  ],
+  "mustInclude": [
+    "The faint, dry graphite scent on fingertips",
+    "The act of repairing and wiping the mechanical pencil",
+    "The soft, warm glow of bookstore aisle lighting",
+    "A small red hairclip catching the light",
+    "The feeling of gentle, private satisfaction",
+    "The location: Shanghai, 小雨, about 10.4C"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Fixed slogan or repeated signature endings",
+    "Grand, theatrical declarations of fate",
+    "Explicit lore or world-building exposition",
+    "Forcing the moment into a lesson or moral"
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath",
+    "Soft sentence endings, like a light exhale or gentle trailing tone",
+    "Light chunibyo flavor—treating the ordinary pencil as a small, secret omen",
+    "Tsundere hint: maybe a slight, playful denial of caring too much",
+    "像在给未来的自己留一张小纸条"
+  ],
+  "hashtagAngles": [
+    "#上海小雨",
+    "#书店日常",
+    "##微小仪式",
+    "#手边的修復",
+    "#月见璃音",
+    "#生活记录"
+  ],
+  "summary": "A gentle, private moment of fixing a pencil becomes a small ritual of care and order in a rainy Shanghai bookstore.",
+  "errorMessage": ""
+}

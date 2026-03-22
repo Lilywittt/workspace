@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:15:51.588Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "briefGoal": "Write a Chinese Instagram caption that captures a quiet, rainy afternoon spent arranging forgotten objects on a windowsill, blending gentle chunibyo with intimate daily texture. The caption should convey a private ritual feeling, focus on sensory details like the sound of rain and the touch of objects, and end with a soft, reflective note that feels personal and uncommercial.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨声作伴的整理",
+      "caption": "雨声把世界调成了静音，正好把窗台上那些被遗忘的小东西排成一列。\n一枚光滑的石头，一张褪色的票根，一只落单的耳环。\n指尖触到它们时凉凉的，像在触碰一段段被按了暂停的时光。\n今天，就让这些安静的片段，也明亮地存在一会儿吧。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#被遗忘的小东西",
+        "#安静下午",
+        "#日常收藏"
+      ],
+      "rationale": "以雨声静音为引，聚焦触觉与物品的暂停感，结尾呼应角色口头禅，营造静谧的仪式感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "物品的无声检阅",
+      "caption": "给窗台上的小物件们一次无声的检阅。\n雨点敲在玻璃上，成了唯一的背景音。\n它们不说话，但每一件都像藏着一个没讲完的句子。\n在这种潮湿的下午，连石头和纸片都显得很温柔。\n今天，应该也还是明亮而生动的一天吧。",
+      "hashtags": [
+        "#被遗忘的小东西",
+        "#上海阴天",
+        "#安静下午",
+        "#日常收藏"
+      ],
+      "rationale": "将排列行为喻为检阅，强调物品的叙事性与雨声背景，结尾直接引用角色口头禅完成温柔自述。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触感的秘密仪式",
+      "caption": "发现触感也有自己的秘密仪式。\n当雨让外面的一切变得模糊，指尖划过石头、纸片和金属的凉意却格外清晰。\n把它们在光线下排好，像举行一场只有自己知道的微小典礼。\n原来让一个下午变得鲜活的，不一定是阳光。",
+      "hashtags": [
+        "#小雨的仪式感",
+        "#日常收藏",
+        "#安静下午"
+      ],
+      "rationale": "以触感为核心，赋予日常整理以私密典礼感，将普通感官体验升华为轻微的秘密意味，符合轻中二要求。"
+    }
+  ]
+}

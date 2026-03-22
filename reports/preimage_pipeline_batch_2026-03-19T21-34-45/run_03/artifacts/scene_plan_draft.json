@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:38:33.573Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, damp air of a late spring evening, a small, forgotten planner page found in a quiet bookstore aisle becomes the focus of a quiet, forward-looking ritual. The simple act of smoothing its crease and tucking it back into its proper place isn't about memory or completion, but a tiny, intentional act of gentle order—a private promise to the future self.",
+  "microPlot": [
+    "Finding a loose, slightly crumpled planner page tucked between two old novels in a quiet bookstore aisle.",
+    "Carefully smoothing its crease with a thumb and slipping it back into the planner it escaped from.",
+    "Feeling the quiet satisfaction of closing a tiny, invisible loop, as if setting a small, secret intention for tomorrow."
+  ],
+  "sensoryFocus": "the soft, dry rustle of paper against paper in the still, cool air",
+  "sceneNotes": [
+    "Hands in focus, one holding the planner page, the other gently smoothing a crease.",
+    "Blurred background of dark wood bookshelves and the soft, muted glow of evening store lights.",
+    "A faint, cool draft carrying the scent of old paper and damp pavement from outside.",
+    "The planner page is a simple grid, with a single, tiny star doodled in the corner of one square."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A soft observation about the quiet satisfaction of putting a small thing back where it belongs."
+  ],
+  "summary": "A quiet, late-evening moment in a bookstore where repairing and returning a forgotten planner page becomes a tiny, forward-looking ritual of gentle order.",
+  "errorMessage": ""
+}

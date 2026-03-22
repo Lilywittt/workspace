@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:28:59.407Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "A quiet evening at home after a day of study, where a small, ordinary object on the desk briefly feels like a tiny, personal omen for tomorrow.",
+  "microPlot": [
+    "The last bit of daylight fades, leaving the room in the glow of a single desk lamp.",
+    "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark.",
+    "A soft, private thought forms—a quiet wish for the morning, sealed with this tiny ritual."
+  ],
+  "sensoryFocus": "the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+  "sceneNotes": [
+    "Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow.",
+    "Notebook is slightly worn at the edges, with a few loose pages visible.",
+    "The small red hairclip rests precisely on the open page, catching a glint of the lamplight.",
+    "A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie."
+  ],
+  "tone": [
+    "contemplative"
+  ],
+  "captionFocus": [
+    "A quiet, sensory detail that anchors the private moment"
+  ],
+  "summary": "A gentle life-record scene focusing on a small desk object that briefly carries personal weight in the evening quiet.",
+  "errorMessage": ""
+}

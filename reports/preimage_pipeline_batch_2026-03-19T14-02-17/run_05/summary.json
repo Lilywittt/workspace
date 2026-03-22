@@ -1,0 +1,280 @@
+{
+  "runIndex": 5,
+  "scenePlanRunId": "sceneplan-2026-03-19T06-08-03",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Focus on an object or small action, not a face-forward selfie",
+      "Shift from indoor/coffee shop to a different mundane location (e.g., hallway, bookstore aisle, bus stop)"
+    ],
+    "avoidMotifs": [
+      "Opening with weather observations (rain, wind)",
+      "Overusing #上海, #日常, #自拍, #小确幸"
+    ],
+    "captionAdvice": [
+      "Use a short, observational opening about a tactile or sound detail, not the weather",
+      "End with a gentle, unresolved feeling or a quiet question, not a conclusive thought"
+    ],
+    "imageAdvice": [
+      "Frame a detail of the scene (hands, an object, a partial view) with soft, indirect light",
+      "Avoid direct eye contact with the camera; imply presence through a shadow or reflection"
+    ],
+    "summary": "Shift from selfie to a life_record focusing on a small object in a new mundane location, using tactile details and an unresolved, intimate tone."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "In the quiet, fluorescent-lit hallway of a library after hours, a loose button found on the floor becomes a tiny, misplaced artifact. For a moment, it feels like a secret message left behind, a small weight in the palm that connects to no one and everyone.",
+    "microPlot": [
+      "Finding a single, pale blue button on the linoleum near the water cooler.",
+      "Picking it up and rolling it between thumb and forefinger, feeling its cool, smooth surface.",
+      "A quiet, unnamed feeling of holding a story that isn't hers, a small secret the hallway kept."
+    ],
+    "sceneNotes": [
+      "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow.",
+      "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button.",
+      "The button is pale blue, slightly worn, resting on speckled grey linoleum.",
+      "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude.",
+      "A red hairclip is just visible at the very edge of the frame, a signature trace."
+    ],
+    "captionFocus": [
+      "A tactile detail (the button's texture) opens the thought.",
+      "Ends with a gentle, unanswered question about where small lost things belong."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "In the quiet, fluorescent-lit hallway of a library after hours, a loose button found on the floor becomes a tiny, misplaced artifact. For a moment, it feels like a secret message left behind, a small weight in the palm that connects to no one and everyone.",
+    "microPlot": [
+      "Finding a single, pale blue button on the linoleum near the water cooler.",
+      "Picking it up and rolling it between thumb and forefinger, feeling its cool, smooth surface.",
+      "A quiet, unnamed feeling of holding a story that isn't hers, a small secret the hallway kept."
+    ],
+    "sensoryFocus": "the cool, smooth ceramic of the button; the faint hum of the water cooler; the sharp, clean scent of floor cleaner.",
+    "concreteSceneCues": [
+      "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow",
+      "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button",
+      "The button is pale blue, slightly worn, resting on speckled grey linoleum",
+      "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude",
+      "A red hairclip is just visible at the very edge of the frame, a signature trace",
+      "Finding a single, pale blue button on the linoleum near the water cooler"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observational",
+      "intimate",
+      "slightly_unresolved"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a Chinese Instagram caption that captures a quiet, private moment in a library hallway after hours. The focus is on finding a lost button, treating it as a small, secret artifact that briefly holds the weight of an unknown story. The caption should feel like a soft, observational note to self, blending tactile details with a light chunibyo sense of mystery, without resolving the feeling.",
+    "audienceFeeling": "A gentle, lingering curiosity about small, lost things.",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "不要固定口号式收尾"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉与秘密",
+      "opening": "在图书馆闭馆后的走廊，捡到一颗掉落的浅蓝色纽扣。",
+      "caption": "在图书馆闭馆后的走廊，捡到一颗掉落的浅蓝色纽扣。\n指尖是它微凉光滑的陶瓷触感，远处饮水机发出低沉的嗡鸣。\n它不属于我，却像一句无人认领的暗语，短暂地停在了手心。\n外面下着小雨，10.4度。",
+      "hashtags": [
+        "#生活碎片",
+        "#纽扣",
+        "#图书馆时刻",
+        "#小雨日记",
+        "#小小暗号"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物与影子",
+      "opening": "影子先碰到了它——一颗躺在斑点水磨石地上的纽扣。",
+      "caption": "影子先碰到了它——一颗躺在斑点水磨石地上的纽扣。\n拾起的动作很轻，像完成一个短暂的仪式。\n走廊空旷，只有清洁剂干净的气味和荧光灯均匀的光。\n它曾是谁故事里的一小片呢？没有答案，但问题本身让这个夜晚变得有点不同。",
+      "hashtags": [
+        "#生活记录",
+        "#静物",
+        "#图书馆",
+        "#夜间独处",
+        "#碎片叙事"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "微小遗物",
+      "opening": "发现一颗被遗落的纽扣。",
+      "caption": "发现一颗被遗落的纽扣。\n浅蓝色，边缘有一点磨损。\n握在手里时，突然觉得它很像某个漫长故事里，偶然掉出来的一枚标点。\n饮水机在哼歌，雨声是细微的背景音。今晚的走廊，保管着一个温柔的、无人知晓的秘密。",
+      "hashtags": [
+        "#微小事物",
+        "#生活切片",
+        "#观察日记",
+        "#雨夜",
+        "#物语"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉与秘密",
+      "opening": "在图书馆闭馆后的走廊，捡到一颗掉落的浅蓝色纽扣。",
+      "caption": "在图书馆闭馆后的走廊，捡到一颗掉落的浅蓝色纽扣。\n指尖是它微凉光滑的陶瓷触感，远处饮水机发出低沉的嗡鸣。\n它不属于我，却像一句无人认领的暗语，短暂地停在了手心。\n外面下着小雨，10.4度。",
+      "hashtags": [
+        "#生活碎片",
+        "#纽扣",
+        "#图书馆时刻",
+        "#小雨日记",
+        "#小小暗号"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物与影子",
+      "opening": "影子先碰到了它——一颗躺在斑点水磨石地上的纽扣。",
+      "caption": "影子先碰到了它——一颗躺在斑点水磨石地上的纽扣。\n拾起的动作很轻，像完成一个短暂的仪式。\n走廊空旷，只有清洁剂干净的气味和荧光灯均匀的光。\n它曾是谁故事里的一小片呢？没有答案，但问题本身让这个夜晚变得有点不同。",
+      "hashtags": [
+        "#生活记录",
+        "#静物",
+        "#图书馆",
+        "#夜间独处",
+        "#碎片叙事"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "微小遗物",
+      "opening": "发现一颗被遗落的纽扣。",
+      "caption": "发现一颗被遗落的纽扣。\n浅蓝色，边缘有一点磨损。\n握在手里时，突然觉得它很像某个漫长故事里，偶然掉出来的一枚标点。\n饮水机在哼歌，雨声是细微的背景音。今晚的走廊，保管着一个温柔的、无人知晓的秘密。",
+      "hashtags": [
+        "#微小事物",
+        "#生活切片",
+        "#观察日记",
+        "#雨夜",
+        "#物语"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best balances the required intimate, observational tone with a light chunibyo touch. It transforms the found button into a '标点' (punctuation mark) from a longer story, creating a private, meaningful ritual without over-dramatization. It seamlessly integrates sensory details (the hum of the water cooler, the sound of rain) and the daily weather variable, while ending with a gentle, unresolved note ('无人知晓的秘密') that fits the scene's quiet mystery and avoids a fixed, slogan-like conclusion.",
+    "strengths": [
+      "Strong, publishable metaphor ('掉出来的一枚标点') that feels intimate, not theatrical",
+      "Elegantly weaves multiple sensory details (touch, sound) and the weather variable",
+      "Ending is softly unresolved, matching the desired 'private note to self' tone",
+      "Avoids blocked phrases and repetitive openings from recent history"
+    ],
+    "risks": [
+      "Slightly more abstract than other options, though still grounded in the concrete object",
+      "Metaphor could be perceived as mildly poetic, but remains within the persona's light chunibyo range"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_03",
+    "candidateAngle": "微小遗物",
+    "caption": "发现一颗被遗落的纽扣。\n浅蓝色，边缘有一点磨损。\n握在手里时，突然觉得它很像某个漫长故事里，偶然掉出来的一枚标点。\n饮水机在哼歌，雨声是细微的背景音。今晚的走廊，保管着一个温柔的、无人知晓的秘密。",
+    "hashtags": [
+      "#微小事物",
+      "#生活切片",
+      "#观察日记",
+      "#雨夜",
+      "#物语"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best balances the required intimate, observational tone with a light chunibyo touch. It transforms the found button into a '标点' (punctuation mark) from a longer story, creating a private, meaningful ritual without over-dramatization. It seamlessly integrates sensory details (the hum of the water cooler, the sound of rain) and the daily weather variable, while ending with a gentle, unresolved note ('无人知晓的秘密') that fits the scene's quiet mystery and avoids a fixed, slogan-like conclusion."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"发现一颗被遗落的纽扣。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the cool, smooth ceramic of the button; the faint hum of the water cooler; the sharp, clean scent of floor cleaner.",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow | Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button | The button is pale blue, slightly worn, resting on speckled grey linoleum | Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude | A red hairclip is just visible at the very edge of the frame, a signature trace | Finding a single, pale blue button on the linoleum near the water cooler"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow, Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button, The button is pale blue, slightly worn, resting on speckled grey linoleum, Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude, A red hairclip is just visible at the very edge of the frame, a signature trace, Finding a single, pale blue button on the linoleum near the water cooler, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, quietly_observational, intimate, slightly_unresolved, the cool, smooth ceramic of the button  the faint hum of the water cooler  the sharp, clean scent of floor cleaner.",
+    "shotNotes": [
+      "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow",
+      "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button",
+      "The button is pale blue, slightly worn, resting on speckled grey linoleum",
+      "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude",
+      "A red hairclip is just visible at the very edge of the frame, a signature trace",
+      "Finding a single, pale blue button on the linoleum near the water cooler",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "2f9f4fb3ccf1",
+    "selectedCaption": "97058a29e7f8",
+    "imageScene": "94d67e127f65",
+    "candidateAngles": "09d3bb41bfeb"
+  }
+}

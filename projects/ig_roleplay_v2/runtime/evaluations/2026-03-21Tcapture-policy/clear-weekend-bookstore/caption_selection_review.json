@@ -1,0 +1,16 @@
+{
+  "selectedCandidateId": "caption_02",
+  "reasonZh": "这个选项通过动作暗示了颜色巧合的联系，保留了瞬间的私密感，没有过度解释，最像真人会发的帖子。",
+  "strengthsZh": [
+    "具体动作",
+    "自然含蓄",
+    "保留瞬间"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

@@ -1,0 +1,46 @@
+{
+  "version": "3.0.0-alpha.1",
+  "profileId": "default_neutral_anime_render",
+  "styleIntentZh": "只调整最终生图的画工与渲染表现，不改变人物设定、叙事事件、道具关系、场景事实或构图语义。",
+  "styleDimensions": {
+    "lineCrispness": "clean_crisp",
+    "contrastDepth": "controlled_clear",
+    "colorRichness": "balanced_rich",
+    "colorSeparation": "clear_local",
+    "edgeReadability": "clear_edges",
+    "depthSeparation": "layered_depth"
+  },
+  "styleSummaryEn": "line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth",
+  "styleDimensionPositiveEn": [
+    "clean crisp anime linework",
+    "controlled clear contrast",
+    "balanced color richness",
+    "clear local color separation",
+    "clear clothing seam and object edge readability",
+    "layered subject-background separation"
+  ],
+  "styleDimensionNegativeEn": [
+    "blurry linework",
+    "washed out contrast",
+    "muddy clothing colors",
+    "color regions collapsing into flat mud",
+    "flat fabric rendering",
+    "flat depth with no foreground-background hierarchy"
+  ],
+  "stylePositiveEn": [
+    "anime daily-life rendering with stable local color blocks",
+    "clear silhouette readability without poster-like exaggeration"
+  ],
+  "styleNegativeEn": [
+    "muddy clothing colors",
+    "washed out contrast",
+    "blurry linework",
+    "flat fabric rendering"
+  ],
+  "guardrailsEn": [
+    "adjust rendering craft only",
+    "do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing",
+    "do not add new objects, remove required evidence, or rewrite the selected moment"
+  ],
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

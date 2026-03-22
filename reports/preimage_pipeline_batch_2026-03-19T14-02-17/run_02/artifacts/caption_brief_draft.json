@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:04:21.490Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-04-00",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption for a life-record post showing a quiet moment after studying, where she finds and preserves tiny raindrop worlds on a cold stairwell railing. The text should feel like a private note to herself, blending gentle chunibyo with tangible sensory details, and convey a small, personal ritual without being theatrical.",
+  "audienceFeeling": "A quiet, shared intimacy in noticing a fragile, hidden beauty.",
+  "openingMoves": [
+    "Start with a short, sensory observation about the rain or the railing.",
+    "Mention the transition from studying to this small break.",
+    "Introduce the droplets as a discovered collection."
+  ],
+  "mustInclude": [
+    "The cold, wet iron under fingertips.",
+    "The act of tracing the railing but avoiding the droplets.",
+    "The red hairclip as a trace of her presence.",
+    "A feeling of private satisfaction in preserving something temporary.",
+    "At least one concrete daily variable (e.g., light rain, 10.4°C, Shanghai stairwell)."
+  ],
+  "mustAvoid": [
+    "Fixed slogan endings or repeated signature sentences.",
+    "Grand, theatrical declarations or world-building lore.",
+    "Commercial, KPI, or AI-disclosure language.",
+    "The phrase 'bright and alive' or its Chinese equivalents.",
+    "Making the moment feel like a brand deck or poetic exercise."
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer breath.",
+    "End with a soft, gentle trailing tone or light self-address.",
+    "Keep chunibyo flavor light and intimate, not performative.",
+    "Sound like a real person posting a private, believable IG update.",
+    "Let the raindrops feel like a small, secret omen without over-explaining."
+  ],
+  "hashtagAngles": [
+    "A life-record or slice-of-life tag in Chinese.",
+    "A weather or mood tag related to rain and quiet.",
+    "A subtle chunibyo or private ritual tag.",
+    "A location tag if Shanghai naturally fits.",
+    "An object-focus tag (e.g., #细节日常)."
+  ],
+  "summary": "A gentle, sensory caption about preserving raindrop worlds on a stairwell railing after studying, voiced as a private ritual with light chunibyo.",
+  "errorMessage": ""
+}

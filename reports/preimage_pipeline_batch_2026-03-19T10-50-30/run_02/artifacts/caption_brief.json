@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:52:37.665Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-52-18",
+  "goal": "Write a gentle, nostalgic caption from a light chunibyo perspective, focused on the small discovery of a forgotten pebble while tidying. Convey the quiet warmth of the memory it sparks, using sensory details and daily-life texture to create an intimate, non-commercial diary-like feel for a Chinese Instagram audience.",
+  "audienceFeeling": "A soft, relatable smile of recognition",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo: slightly dramatic but grounded in real feeling",
+    "Gentle and introspective, not loud or energetic",
+    "First-person, diary-like intimacy",
+    "Chinese social-post natural flow, not translated prose",
+    "Tsundere hint: warmth wrapped in casual observation",
+    "Start with a simple observation about the action (tidying, finding)",
+    "Directly mention the discovered object (the pebble)",
+    "Use a short, reflective phrase about time or memory",
+    "The cool, smooth sensation of the pebble in hand",
+    "Reference to the past weekend walk by the river",
+    "The character's gentle, fond emotional response",
+    "At least one concrete daily detail (e.g., the drawer, the light, other small objects)",
+    "The catchphrase 'Today should still feel bright and alive.' integrated naturally"
+  ],
+  "contentBlocks": {
+    "premise": "A quiet moment of discovery while organizing a small collection of keepsakes, where a forgotten item from a past outing resurfaces, bringing a soft smile and a flicker of memory.",
+    "microPlot": [
+      "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view.",
+      "Fingers pause, pick it up, and turn it over in the palm, tracing its cool, water-worn surface.",
+      "A quiet, fond warmth spreads, remembering the sound of the water and the feeling of that sunny afternoon."
+    ],
+    "sensoryFocus": "cool, smooth stone against warm palm",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "nostalgic"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A character shares a quiet moment of nostalgic warmth after finding a forgotten pebble while tidying a drawer.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "#上海日常 (Shanghai daily life)",
+      "#治愈时刻 (healing moment)",
+      "#怀旧 (nostalgia)",
+      "#整理发现 (tidying discovery)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Overly poetic or abstract language",
+    "Commercial or promotional phrasing",
+    "Full lore exposition or backstory dumping",
+    "Dialogue or script format",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

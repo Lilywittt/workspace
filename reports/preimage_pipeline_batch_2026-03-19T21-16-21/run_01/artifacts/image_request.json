@@ -1,0 +1,90 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:36.160Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-16-48",
+  "lane": "life_record",
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_07",
+    "sceneProgramId": "return_or_repair_program",
+    "affordanceId": "return_or_repair_window",
+    "locationArchetype": "bookstore_aisle",
+    "locationCluster": "bookish_pause",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "paper clip"
+    ],
+    "actionKernel": "return_fix_restore",
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "gentle_order",
+    "presencePolicy": "partial_presence",
+    "captionHooks": [
+      "putting a small thing back where it belongs",
+      "repair as quiet affection"
+    ],
+    "imageHooks": [
+      "hands fixing or returning an item",
+      "small before/after feeling"
+    ]
+  },
+  "generationMode": "anime_partial_presence_daily_record",
+  "sourceBriefCreatedAt": "2026-03-19T13:17:35.951Z",
+  "references": [
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "weight": 0.55,
+      "why": "Carry forward scene or platform style cues without locking the composition."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her\nScene: a quiet bookstore aisle, shelf depth and paper texture, paper clip, repairing or returning paper clip to its place, weather appears mainly through texture and air, slightly chilly, Hands in frame, focused on the small metal object, Soft, warm light from a nearby reading lamp pooling on the wooden floorboards, The quiet, dusty scent of old paper and polished wood in the still air, A faint, distant sound of light rain tapping against the high bookstore windows, Scene location archetype: bookstore aisle, Object focus: paper clip, everyday life in Shanghai\nStyle: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood\nCamera: partial first-person presence, shelf depth framing\nMood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, gentle_order, restoring a little order, the cool, smooth metal of the paper clip warming against her fingertips\nDetails: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint\nHard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay",
+    "negativePrompt": "ad poster, glossy editorial, text, watermark, platform UI overlay, extra fingers, bad anatomy, duplicate objects, chaotic clutter, irrelevant fantasy props, tourism poster, empty aesthetic wallpaper, staged look, over-symmetry, over-polished look, text, subtitle, watermark, logo, UI overlay, extra fingers, bad hands, broken anatomy, duplicate objects, identity drift, empty scenery without character trace, tourism poster, ad poster, glossy editorial, photoreal live action",
+    "shotNotes": [
+      "Hands in frame, focused on the small metal object",
+      "Soft, warm light from a nearby reading lamp pooling on the wooden floorboards",
+      "The quiet, dusty scent of old paper and polished wood in the still air",
+      "A faint, distant sound of light rain tapping against the high bookstore windows",
+      "Scene location archetype: bookstore aisle",
+      "Object focus: paper clip",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "hands fixing or returning an item",
+      "small before/after feeling",
+      "putting a small thing back where it belongs",
+      "repair as quiet affection",
+      "Focus on a hand or partial presence interacting with a new object family",
+      "Hands in frame, focused on the small metal object.",
+      "Soft, warm light from a nearby reading lamp pooling on the wooden floorboards.",
+      "The quiet, dusty scent of old paper and polished wood in the still air.",
+      "A faint, distant sound of light rain tapping against the high bookstore windows.",
+      "Presence mode: partial_presence.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ],
+    "promptBlocks": {
+      "layeringStrategy": "global_style + character_core + scene + camera + mood + detail + hard_constraints",
+      "subject": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, not necessarily fully visible, but clearly her",
+      "scene": "Scene: a quiet bookstore aisle, shelf depth and paper texture, paper clip, repairing or returning paper clip to its place, weather appears mainly through texture and air, slightly chilly, Hands in frame, focused on the small metal object, Soft, warm light from a nearby reading lamp pooling on the wooden floorboards, The quiet, dusty scent of old paper and polished wood in the still air, A faint, distant sound of light rain tapping against the high bookstore windows, Scene location archetype: bookstore aisle, Object focus: paper clip, everyday life in Shanghai",
+      "style": "Style: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood",
+      "camera": "Camera: partial first-person presence, shelf depth framing",
+      "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, gentle_order, restoring a little order, the cool, smooth metal of the paper clip warming against her fingertips",
+      "details": "Details: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint",
+      "constraints": "Hard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "seedStrategy": "diversified_candidates",
+    "consistencyPolicy": "scene_first_style_guided"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "A Japanese-anime slice-of-life image with readable character presence.",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready"
+}

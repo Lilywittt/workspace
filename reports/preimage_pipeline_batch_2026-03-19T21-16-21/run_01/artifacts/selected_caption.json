@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:35.750Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-16-48",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the scene's core 'return_or_repair' program with clear, publishable micro-plot steps and strong sensory grounding. It avoids the recent semantic fatigue of 'find_unfold_notice_again' by focusing on the active 'fix and return' kernel, introduces a fresh object family (stationery), and uses the weather as a subtle texture modifier. The tone is gentle and private, with a light chunibyo touch in the final line that feels earned and intimate rather than performative.",
+  "caption": "在书店的过道，捡起一枚被踩弯的回形针。\n指尖把它一点点掰直，放回书架边缘。\n金属从冰凉到温热，窗外的雨声很轻。\n好像完成了一个无人知晓的约定。",
+  "hashtags": [
+    "#书店碎片",
+    "#生活记录",
+    "#微小仪式感",
+    "#阴雨天的安静",
+    "#上海日常"
+  ],
+  "candidateAngle": "微小的修复",
+  "candidateRationale": "紧扣“修复”核心，以具体动作和感官细节（金属温度、雨声）构建私密仪式感，结尾留下轻柔的余味。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the scene's core 'return_or_repair' program with clear, publishable micro-plot steps and strong sensory grounding. It avoids the recent semantic fatigue of 'find_unfold_notice_again' by focusing on the active 'fix and return' kernel, introduces a fresh object family (stationery), and uses the weather as a subtle texture modifier. The tone is gentle and private, with a light chunibyo touch in the final line that feels earned and intimate rather than performative.",
+    "strengths": [
+      "Clear, sequential micro-plot: find, fix, return, feel.",
+      "Strong sensory details (cool-to-warm metal, light rain) that ground the moment.",
+      "Ending ('无人知晓的约定') provides a light, private-ritual texture without overwriting.",
+      "Avoids fatigued semantics and object families, offering freshness.",
+      "Fits the 'gentle_order' emotional landing and partial presence mode perfectly."
+    ],
+    "risks": [
+      "The ending, while gentle, could be perceived as slightly more poetic than the others.",
+      "Uses '好像' which is common, but the concrete action before it mitigates abstraction."
+    ]
+  }
+}

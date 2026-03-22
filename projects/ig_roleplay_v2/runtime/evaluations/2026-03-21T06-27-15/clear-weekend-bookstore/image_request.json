@@ -1,0 +1,53 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:29:40.471Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手边的小物件, 动作停住的一瞬间, 人物存在的痕迹, hand holding a hairpin, fingers touching the cool metal part, drawer corner where the hairpin was found, slightly open\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause\nComposition: moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, generic aesthetic wallpaper, fashion editorial polish, rewriting the moment into a different event, dramatic lighting that makes the hairpin look like a treasure, empty hand posing without the drawer context, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, empty scenery without character trace",
+    "shotNotes": [
+      "手边的小物件",
+      "动作停住的一瞬间",
+      "人物存在的痕迹",
+      "hand holding a hairpin, fingers touching the cool metal part",
+      "drawer corner where the hairpin was found, slightly open",
+      "sleeve edge of the character's arm"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "手边的小物件, 动作停住的一瞬间, 人物存在的痕迹, hand holding a hairpin, fingers touching the cool metal part, drawer corner where the hairpin was found, slightly open",
+      "context": "ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause",
+      "composition": "moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "翻找充电线时，在抽屉角落摸到一枚很久没用的发夹，金属部分有点凉。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}

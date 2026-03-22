@@ -1,0 +1,87 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 75,
+      "postabilityScore": 80,
+      "coherenceScore": 82,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "具体物理触发（顽固折角）",
+        "情感转变由细节驱动，符合人物叙事习惯"
+      ],
+      "risksZh": [
+        "视觉证据描述为“手持笔记本，目光落在折角上”，在“clear_character_presence”目标下，可能无法确保主角清晰可读",
+        "事件与外部现实（书店临时陈列）的锚定较弱，可能感觉过于内省和通用"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 80,
+      "groundingScore": 70,
+      "postabilityScore": 75,
+      "coherenceScore": 78,
+      "characterPresenceFitScore": 60,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "捕捉转瞬即逝的物理现象，具有诗意",
+        "情感弧线清晰（从机械动作到出神）"
+      ],
+      "risksZh": [
+        "视觉焦点是水渍，主角可能只是模糊的手部或躯干，难以满足“clear_character_presence”目标",
+        "事件与给定现实背景（书店、周末陈列）几乎无关，感觉像是从通用池中拖出的装饰性瞬间",
+        "有滑向“氛围场景”的风险，缺乏坚实的触发点"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 88,
+      "groundingScore": 90,
+      "postabilityScore": 85,
+      "coherenceScore": 87,
+      "characterPresenceFitScore": 88,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "巧妙地将外部事件（临时陈列）作为背景现实，而非指定主题",
+        "利用身份锚点（红色发卡）建立私人的、偶然的联系",
+        "视觉证据（侧影、目光、触碰发卡）自然地支持“clear_character_presence”目标",
+        "情感转变微小、具体，且由视觉巧合驱动"
+      ],
+      "risksZh": [
+        "需确保“路过”的动作在画面中清晰，而非变成静态肖像"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 82,
+      "groundingScore": 72,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "非常具体、私人的细节（磨损的鞋带）",
+        "从日常动作到沉思的转变符合人物性格"
+      ],
+      "risksZh": [
+        "视觉上可能过于侧重手部特写，在“clear_character_presence”目标下，面部或整体姿态可能不够清晰",
+        "事件再次与外部现实（书店环境）脱节，可能感觉像是另一个通用内省时刻",
+        "有被拉入类似“观察旧物”重复模式的风险"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对候选人的人格真实性、现实基础、可发布性、图文一致性及角色呈现匹配度的评审。event_03 在利用外部现实作为背景、自然满足角色清晰呈现要求，以及保持具体、私人的情感触发方面表现最佳。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

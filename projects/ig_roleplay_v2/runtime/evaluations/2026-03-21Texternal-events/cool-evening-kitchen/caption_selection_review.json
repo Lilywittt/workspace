@@ -1,0 +1,17 @@
+{
+  "selectedCandidateId": "caption_02",
+  "reasonZh": "这一条最像角色会真的发出来的话，保留了被具体细节定住的瞬间，没有过度解释。",
+  "strengthsZh": [
+    "具体",
+    "自然",
+    "短促克制",
+    "保留了被定住的瞬间"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-19-54-cool_evening_kitchen"
+}

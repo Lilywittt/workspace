@@ -1,0 +1,266 @@
+{
+  "runIndex": 1,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift from selfie close-ups to wider environmental shots",
+      "Introduce a new activity or small task as a subject"
+    ],
+    "avoidMotifs": [
+      "Repeating '窗外' (outside the window) openings or rainy day themes",
+      "Overusing location hashtags like #上海"
+    ],
+    "captionAdvice": [
+      "Start with a simple statement of doing or noticing something new",
+      "Mention a specific object or sound instead of general weather"
+    ],
+    "imageAdvice": [
+      "Use a medium shot showing hands and an object or part of a room",
+      "Incorporate a different time of day (e.g., evening) if possible"
+    ],
+    "summary": "Maintain the intimate diary feel but pivot from selfie reflections to a recorded moment of a simple activity or environmental detail."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a day of light rain, the evening finds her in her room, carefully sorting through a small collection of colorful stickers she's been saving, each one a tiny memory or a future promise.",
+    "microPlot": [
+      "The quiet, damp evening after the rain makes indoor activities feel cozy and intentional.",
+      "She spreads the stickers on her desk, organizing them by color and theme under the warm glow of her desk lamp.",
+      "A small, satisfied smile forms as she picks out a favorite—a tiny star—and presses it onto the corner of her notebook."
+    ],
+    "sceneNotes": [
+      "Medium shot focused on hands and desk surface",
+      "Desk lamp casting a warm, focused pool of light",
+      "Scatter of colorful stickers, some partially peeled",
+      "Notebook with a few already-placed stickers visible",
+      "Faint reflection of window with raindrops in background",
+      "Small red hairclip catching the light"
+    ],
+    "captionFocus": [
+      "The quiet pleasure of organizing small, beautiful things"
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a day of light rain, the evening finds her in her room, carefully sorting through a small collection of colorful stickers she's been saving, each one a tiny memory or a future promise.",
+    "microPlot": [
+      "The quiet, damp evening after the rain makes indoor activities feel cozy and intentional.",
+      "She spreads the stickers on her desk, organizing them by color and theme under the warm glow of her desk lamp.",
+      "A small, satisfied smile forms as she picks out a favorite—a tiny star—and presses it onto the corner of her notebook."
+    ],
+    "sensoryFocus": "warm lamplight on glossy paper, the soft peel-and-stick sound",
+    "concreteSceneCues": [
+      "Medium shot focused on hands and desk surface",
+      "Desk lamp casting a warm, focused pool of light",
+      "Scatter of colorful stickers, some partially peeled",
+      "Notebook with a few already-placed stickers visible",
+      "Faint reflection of window with raindrops in background",
+      "Small red hairclip catching the light"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "focused",
+      "playful"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Create a caption that captures a cozy, intimate evening moment of sorting stickers after light rain, conveying a gentle, playful satisfaction through sensory details and the small joy of organizing beautiful things, while maintaining a light chunibyo tone and diary-like intimacy.",
+    "audienceFeeling": "A quiet, warm sense of shared contentment",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo with gentle, playful undertones"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "感官沉浸",
+      "opening": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+      "caption": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活记录",
+        "#手帐贴纸",
+        "#雨夜",
+        "#治愈时刻",
+        "#日常动漫风"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "微小仪式",
+      "opening": "给潮湿的傍晚一点干燥的仪式感。把星星、云朵和花朵形状的回忆铺满桌面，再挑一颗最喜欢的小星星，轻轻按在笔记本的角落。完成这个动作的瞬间，心里好像也亮了一下。",
+      "caption": "给潮湿的傍晚一点干燥的仪式感。把星星、云朵和花朵形状的回忆铺满桌面，再挑一颗最喜欢的小星星，轻轻按在笔记本的角落。完成这个动作的瞬间，心里好像也亮了一下。",
+      "hashtags": [
+        "#生活切片",
+        "#文具控",
+        "#晚间日常",
+        "#治愈系",
+        "#小仪式"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "色彩与温度",
+      "opening": "台灯是今晚的小太阳。光晕暖暖地罩住这些彩色的碎片，每一张都是一个等待发生的故事。10.4度的雨夜，手边却是春天般的温度。今天，也收集到了一点光亮呢。",
+      "caption": "台灯是今晚的小太阳。光晕暖暖地罩住这些彩色的碎片，每一张都是一个等待发生的故事。10.4度的雨夜，手边却是春天般的温度。今天，也收集到了一点光亮呢。",
+      "hashtags": []
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "感官沉浸",
+      "opening": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+      "caption": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活记录",
+        "#手帐贴纸",
+        "#雨夜",
+        "#治愈时刻",
+        "#日常动漫风"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "微小仪式",
+      "opening": "给潮湿的傍晚一点干燥的仪式感。把星星、云朵和花朵形状的回忆铺满桌面，再挑一颗最喜欢的小星星，轻轻按在笔记本的角落。完成这个动作的瞬间，心里好像也亮了一下。",
+      "caption": "给潮湿的傍晚一点干燥的仪式感。把星星、云朵和花朵形状的回忆铺满桌面，再挑一颗最喜欢的小星星，轻轻按在笔记本的角落。完成这个动作的瞬间，心里好像也亮了一下。",
+      "hashtags": [
+        "#生活切片",
+        "#文具控",
+        "#晚间日常",
+        "#治愈系",
+        "#小仪式"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "色彩与温度",
+      "opening": "台灯是今晚的小太阳。光晕暖暖地罩住这些彩色的碎片，每一张都是一个等待发生的故事。10.4度的雨夜，手边却是春天般的温度。今天，也收集到了一点光亮呢。",
+      "caption": "台灯是今晚的小太阳。光晕暖暖地罩住这些彩色的碎片，每一张都是一个等待发生的故事。10.4度的雨夜，手边却是春天般的温度。今天，也收集到了一点光亮呢。",
+      "hashtags": []
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the life_record lane's pivot from selfies by fully immersing in the sensory and intimate scene. It directly incorporates the required sensory detail ('撕下背胶时那一声细微的“嘶啦”') and daily variable ('雨后的夜晚'), weaves a complete micro-plot from cause to feeling, and naturally integrates the catchphrase. Its tone is gentle, focused, and diary-like, avoiding commercial language while maintaining a light chunibyo sensibility through its quiet observation.",
+    "strengths": [
+      "Strong sensory immersion aligns perfectly with the brief's focus",
+      "Naturally integrates the required catchphrase as a closing thought",
+      "Provides a complete, quiet micro-plot from setting to action to reflection",
+      "Uses fresh, lane-appropriate hashtags that avoid recent overuse"
+    ],
+    "risks": [
+      "Opening line about quiet rain could feel slightly similar to recent '窗外的小雨' posts, though the context is distinct",
+      "Slightly less overtly playful than other options, leaning more into gentle focus"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "感官沉浸",
+    "caption": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+    "hashtags": [
+      "#生活记录",
+      "#手帐贴纸",
+      "#雨夜",
+      "#治愈时刻",
+      "#日常动漫风"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the life_record lane's pivot from selfies by fully immersing in the sensory and intimate scene. It directly incorporates the required sensory detail ('撕下背胶时那一声细微的“嘶啦”') and daily variable ('雨后的夜晚'), weaves a complete micro-plot from cause to feeling, and naturally integrates the catchphrase. Its tone is gentle, focused, and diary-like, avoiding commercial language while maintaining a light chunibyo sensibility through its quiet observation."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: warm lamplight on glossy paper, the soft peel-and-stick sound",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Medium shot focused on hands and desk surface | Desk lamp casting a warm, focused pool of light | Scatter of colorful stickers, some partially peeled | Notebook with a few already-placed stickers visible | Faint reflection of window with raindrops in background | Small red hairclip catching the light"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Medium shot focused on hands and desk surface, Desk lamp casting a warm, focused pool of light, Scatter of colorful stickers, some partially peeled, Notebook with a few already-placed stickers visible, Faint reflection of window with raindrops in background, Small red hairclip catching the light, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, focused, playful, warm lamplight on glossy paper, the soft peel-and-stick sound",
+    "shotNotes": [
+      "Medium shot focused on hands and desk surface",
+      "Desk lamp casting a warm, focused pool of light",
+      "Scatter of colorful stickers, some partially peeled",
+      "Notebook with a few already-placed stickers visible",
+      "Faint reflection of window with raindrops in background",
+      "Small red hairclip catching the light",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "4e7f07175d57",
+    "selectedCaption": "ff8b50a0e926",
+    "imageScene": "5ba28a518630",
+    "candidateAngles": "951457b91d09"
+  }
+}

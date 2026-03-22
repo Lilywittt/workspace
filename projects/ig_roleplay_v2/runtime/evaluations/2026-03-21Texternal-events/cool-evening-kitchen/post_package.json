@@ -1,0 +1,65 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:23:59.962Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-19-54-cool_evening_kitchen",
+  "lane": "life_record",
+  "caption": "手指停在边缘，半秒。",
+  "hashtags": [
+    "#日常切片"
+  ],
+  "fullCaptionText": "手指停在边缘，半秒。\n#日常切片",
+  "captionSource": {
+    "selectedCandidateId": "caption_02",
+    "selectionReason": "这一条最像角色会真的发出来的话，保留了被具体细节定住的瞬间，没有过度解释。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "6017d1c6-e800-4a78-bfe2-b90982651afa",
+    "altText": "月见璃音整理东西时，手指因为一个小细节而停住的瞬间。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/29/20260321/448165f2/6017d1c6-e800-4a78-bfe2-b90982651afa1393699099.png?Expires=1774694433&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=OmNekmTD35kwlu6kYXe%2BbarFXLM%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T10-23-55-aliyun-z-image.png",
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "reviewSignals": {},
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ],
+    "reviewWarnings": [
+      "identity_reference_metadata_only_manual_review_required",
+      "identity_anchor_placeholder_or_unregistered"
+    ]
+  },
+  "reviewContext": {
+    "selectedMomentSummaryZh": "本来只是顺手整理一下，结果因为planner停住了半秒。",
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": []
+  }
+}

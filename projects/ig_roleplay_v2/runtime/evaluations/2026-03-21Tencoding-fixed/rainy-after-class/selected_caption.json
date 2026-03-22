@@ -1,0 +1,16 @@
+{
+  "selectedAt": "2026-03-21T10:44:56.208Z",
+  "selectedCandidateId": "caption_01",
+  "selectionReason": "这句最像角色会真实发布的内容，从具体动作开始，平实地描述了事件链条，将感受隐含在景象描述中，完全符合“只说鞋带松了、玻璃窗、倒影和潮湿的窗框，不解释为什么这个视角会让人停留”的意图。",
+  "selectionStrengthsZh": [
+    "Concrete",
+    "Natural",
+    "Preserves the selected moment"
+  ],
+  "candidateAngle": "concrete_action_start",
+  "caption": "鞋带松了。系好起身时，正好看见对面玻璃窗里，倒映着身后空荡的走廊，被雨天的窗框分割成几块。",
+  "hashtags": [
+    "#日常碎片"
+  ],
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

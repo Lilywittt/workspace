@@ -1,0 +1,75 @@
+{
+  "version": "2.0.0-alpha.1",
+  "projectId": "ig_roleplay_v2",
+  "paths": {
+    "legacyDataDir": "../../../data/ig_roleplay",
+    "runtimeDir": "../runtime",
+    "identityProfile": "../character/identity_profile.json",
+    "referenceLibrary": "../vision/reference_library.json"
+  },
+  "planner": {
+    "historyWindow": 7,
+    "primaryLane": "selfie",
+    "secondaryLane": "life_record",
+    "maxConsecutivePrimaryLane": 2
+  },
+  "caption": {
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2,
+    "targetMaxChars": 180
+  },
+  "history": {
+    "runBundleIndexLimit": 20,
+    "keepLatestRunBundles": 30,
+    "autoPruneRunBundles": false
+  },
+  "vision": {
+    "selfie": {
+      "requiredIdentityAnchors": [
+        "rion_core_face_01"
+      ],
+      "variationBudget": {
+        "expression": [
+          "soft_smile",
+          "shy_smile",
+          "thoughtful"
+        ],
+        "hairAccessory": [
+          "red_hairclip",
+          "star_hairpin",
+          "small_ribbon"
+        ],
+        "outfitAccent": [
+          "cream_knit",
+          "navy_hoodie",
+          "soft_red_cardigan"
+        ],
+        "cameraAngle": [
+          "slightly_high",
+          "mirror_half_body",
+          "close_up_phone_selfie"
+        ]
+      }
+    },
+    "life_record": {
+      "preferredPresenceMode": "partial_presence",
+      "presenceModes": [
+        "partial_presence",
+        "wide_scene_with_character_trace"
+      ],
+      "requiredTraceCues": [
+        "hand_with_phone_or_drink",
+        "sleeve_or_outfit_edge",
+        "hair_tip_or_red_hairclip",
+        "reflection_shadow_or_mirror_hint"
+      ],
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+    "version":  "2.0.0-alpha.1",
+    "createdAt":  "2026-03-21T06:19:26Z",
+    "scenePlanRunId":  "zeromemory-2026-03-21T06-16-20-rainy_after_class",
+    "sourceRequestCreatedAt":  "2026-03-21T06:19:14.577Z",
+    "provider":  "aliyun-z-image",
+    "model":  "z-image-turbo",
+    "imageUrl":  "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/1c/20260321/448165f2/4813be4c-344b-4355-af85-777b70889225573041491.png?Expires=1774679761\u0026OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1\u0026Signature=5ZiuYcfAsHU40xPOCI3h%2F2F%2BsUk%3D",
+    "assetId":  null,
+    "remoteJobId":  null,
+    "providerRequestId":  "4813be4c-344b-4355-af85-777b70889225",
+    "requestSummary":  {
+                           "generationMode":  "anime_close_crop_trace_lived_moment",
+                           "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                           "aspectRatio":  "4:5",
+                           "candidateCount":  1,
+                           "altText":  "璃音发现教室椅背木纹里嵌着一小截蓝色粉笔头的瞬间",
+                           "referenceIds":  [
+                                                "rion_core_face_01"
+                                            ],
+                           "promptPackage":  {
+                                                 "positivePrompt":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子, texture of dark wooden chair back, small broken blue chalk piece embedded in wood grain, school bag strap draped over the chair back, 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nComposition: close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+                                                 "negativePrompt":  "fashion editorial polish, empty scenic wallpaper, rewriting the moment into a person interacting, 时尚杂志般的抛光感, 空荡的风景壁纸, 将瞬间重写成人物互动, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, empty scenery without character trace, sunny outdoor field, bright outdoor meadow",
+                                                 "shotNotes":  [
+                                                                   "深色木椅的纹理",
+                                                                   "嵌在缝隙里的蓝色粉笔头",
+                                                                   "搭在椅背上的书包带子",
+                                                                   "texture of dark wooden chair back",
+                                                                   "small broken blue chalk piece embedded in wood grain",
+                                                                   "school bag strap draped over the chair back"
+                                                               ],
+                                                 "promptBlocks":  {
+                                                                      "subject":  "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+                                                                      "moment":  "深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子, texture of dark wooden chair back, small broken blue chalk piece embedded in wood grain, school bag strap draped over the chair back, 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子",
+                                                                      "context":  "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+                                                                      "composition":  "close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+                                                                      "atmosphere":  "像顺手留下的一段真实生活",
+                                                                      "constraints":  "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+                                                                  }
+                                             }
+                       },
+    "providerRequest":  {
+                            "provider":  "aliyun-z-image",
+                            "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                            "submissionMode":  "host_executed_sync",
+                            "requiredEnv":  [
+                                                "DASHSCOPE_API_KEY"
+                                            ],
+                            "model":  "z-image-turbo",
+                            "assetFilenameHint":  "2026-03-21T06-19-22-aliyun-z-image.png",
+                            "requestBody":  {
+                                                "model":  "z-image-turbo",
+                                                "parameters":  {
+                                                                   "size":  "1024*1280",
+                                                                   "prompt_extend":  false,
+                                                                   "watermark":  false
+                                                               },
+                                                "input":  {
+                                                              "messages":  [
+                                                                               {
+                                                                                   "role":  "user",
+                                                                                   "content":  [
+                                                                                                   {
+                                                                                                       "text":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子, texture of dark wooden chair back, small broken blue chalk piece embedded in wood grain, school bag strap draped over the chair back, 深色木椅的纹理, 嵌在缝隙里的蓝色粉笔头, 搭在椅背上的书包带子\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nComposition: close-up of the chair back, showing the hand placing the bag strap and the discovered chalk piece in the wood grain, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5\n\nAvoid: fashion editorial polish, empty scenic wallpaper, rewriting the moment into a person interacting, 时尚杂志般的抛光感, 空荡的风景壁纸, 将瞬间重写成人物互动, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, empty scenery without character trace, sunny outdoor field, bright outdoor meadow"
+                                                                                                   }
+                                                                                               ]
+                                                                               }
+                                                                           ]
+                                                          }
+                                            },
+                            "responseContract":  {
+                                                     "jobIdField":  "request_id",
+                                                     "requestIdField":  "request_id",
+                                                     "imageUrlField":  "output.choices[0].message.content[?].image"
+                                                 }
+                        },
+    "notes":  [
+                  "Host executor generated a real image file from the current image_request.json using aliyun-z-image."
+              ],
+    "status":  "image_ready",
+    "outputFormat":  "png",
+    "localFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T06-19-22-aliyun-z-image.png",
+    "latestFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\current\\latest-aliyun-z-image.png",
+    "failureReason":  ""
+}

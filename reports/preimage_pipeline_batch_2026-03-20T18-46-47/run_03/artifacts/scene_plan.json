@@ -1,0 +1,373 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-20T10-50-16",
+  "createdAt": "2026-03-20T10:50:16.908Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "selectedSceneCandidatePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/selected_scene_candidate.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "小雨, about 10.4C",
+    "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "semanticFatigue": [
+      "micro_purchase_program",
+      "return_or_repair_program",
+      "bookish_pause",
+      "shelter_pause"
+    ],
+    "dominantSemantics": {
+      "scenePrograms": [
+        {
+          "value": "micro_purchase_program",
+          "count": 5
+        },
+        {
+          "value": "return_or_repair_program",
+          "count": 5
+        },
+        {
+          "value": "threshold_pause_program",
+          "count": 1
+        },
+        {
+          "value": "transit_fragment_program",
+          "count": 1
+        }
+      ],
+      "locationArchetypes": [
+        {
+          "value": "bookstore_aisle",
+          "count": 5
+        },
+        {
+          "value": "covered_walkway",
+          "count": 5
+        },
+        {
+          "value": "stairwell_landing",
+          "count": 1
+        },
+        {
+          "value": "station_edge",
+          "count": 1
+        }
+      ],
+      "actionKernels": [
+        {
+          "value": "choose_pay_carry_back",
+          "count": 5
+        },
+        {
+          "value": "return_fix_restore",
+          "count": 5
+        },
+        {
+          "value": "pause_listen_hold",
+          "count": 1
+        },
+        {
+          "value": "wait_carry_pass_through",
+          "count": 1
+        }
+      ],
+      "objectFamilies": [
+        {
+          "value": "comfort_item",
+          "count": 5
+        },
+        {
+          "value": "stationery",
+          "count": 5
+        },
+        {
+          "value": "accessory",
+          "count": 1
+        },
+        {
+          "value": "bag_contents",
+          "count": 1
+        }
+      ],
+      "weatherRoles": [
+        {
+          "value": "texture_modifier",
+          "count": 10
+        },
+        {
+          "value": "reflective_support",
+          "count": 2
+        }
+      ],
+      "emotionalLandings": [
+        {
+          "value": "gentle_order",
+          "count": 5
+        },
+        {
+          "value": "shy_attachment",
+          "count": 5
+        },
+        {
+          "value": "tiny_reset",
+          "count": 2
+        }
+      ],
+      "presenceModes": [
+        {
+          "value": "partial_presence",
+          "count": 10
+        },
+        {
+          "value": "wide_scene_with_character_trace",
+          "count": 2
+        }
+      ],
+      "captionEndingFamilies": [
+        {
+          "value": "unknown",
+          "count": 11
+        },
+        {
+          "value": "soft_observation",
+          "count": 1
+        }
+      ],
+      "locationClusters": [
+        {
+          "value": "bookish_pause",
+          "count": 5
+        },
+        {
+          "value": "shelter_pause",
+          "count": 5
+        },
+        {
+          "value": "threshold_pause",
+          "count": 1
+        },
+        {
+          "value": "transit_fragment",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "worldState": {
+    "timeContext": {
+      "timezone": "Asia/Shanghai",
+      "localDate": "2026-03-17",
+      "localHour": 18,
+      "daypart": "early_evening",
+      "weekdayMode": "school_day",
+      "seasonPhase": "early_spring",
+      "routineAnchors": [
+        "after_class_reset",
+        "short_errand",
+        "evening_reset",
+        "shelter_pause",
+        "indoor_reset",
+        "rediscovery_window"
+      ]
+    },
+    "environment": {
+      "city": "Shanghai",
+      "locationName": "Shanghai",
+      "weatherCode": 61,
+      "weatherSummary": "小雨",
+      "temperatureC": 10.4,
+      "windSpeedKmh": 10.8,
+      "temperatureBand": "cool",
+      "mobilityWindow": "short_walk_ok",
+      "weatherRoleDefault": "reflective_support"
+    },
+    "characterState": {
+      "lanePreference": "life_record",
+      "energy": "medium_low",
+      "socialBandwidth": "solo_preferred",
+      "attentionShape": "pattern_breaking",
+      "needState": [
+        "small_reset",
+        "private_meaning",
+        "mobility_shift",
+        "non_study_relief"
+      ],
+      "temperament": [
+        "light_chunibyo",
+        "gentle",
+        "occasionally_tsundere",
+        "sensitive_to_daily_details",
+        "playful",
+        "private_ritual_energy",
+        "quietly_reads_small_omens"
+      ]
+    },
+    "continuityPressure": {
+      "preferredLane": "life_record",
+      "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+      "sceneFatigue": [
+        "bookish_pause",
+        "shelter_pause",
+        "micro_purchase_program",
+        "return_or_repair_program"
+      ],
+      "objectFatigue": [
+        "comfort_item",
+        "stationery"
+      ],
+      "weatherOveruse": false,
+      "indoorOveruse": true,
+      "studyAftermathOveruse": true
+    }
+  },
+  "narrative": {
+    "premise": "In the cool, drizzly early evening, a quiet pause at a familiar desk corner becomes a moment of private rediscovery. A dried petal, tucked away and forgotten, is found again—not just a piece of paper, but a tiny, tangible whisper from an earlier self, briefly holding the day's scattered energy in its fragile shape.",
+    "microPlot": [
+      "While tidying the desk corner, a small, dried petal falls from between the pages of a notebook.",
+      "She picks it up, unfolds its delicate form in her palm, and holds it to the soft, grey window light.",
+      "For a moment, the petal feels like a quiet, secret omen—a tiny, keepable trace of a past spring, carried forward into the present evening."
+    ],
+    "sensoryFocus": "the papery rustle of a dried petal",
+    "emotionalLanding": "private_omen"
+  },
+  "sceneSemantics": {
+    "selectedCandidateId": "scene_cand_02",
+    "sceneProgramId": "rediscovery_program",
+    "affordanceId": "rediscovery_window",
+    "locationArchetype": "indoor_desk_corner",
+    "locationCluster": "indoor_reset",
+    "objectFamily": "paper_fragment",
+    "objectBindings": [
+      "dried petal"
+    ],
+    "actionKernel": "find_unfold_notice_again",
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "private_omen",
+    "presencePolicy": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "ordinary object gains secret weight",
+      "a tiny trace from an earlier self"
+    ],
+    "imageHooks": [
+      "close object detail",
+      "unfolding gesture",
+      "soft depth around the object"
+    ]
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneProgramId": "rediscovery_program",
+      "objectBindings": [
+        "dried petal"
+      ],
+      "weatherRole": "reflective_support"
+    },
+    "concreteSceneCues": [
+      "Desk corner cluttered with soft shadows and a single notebook",
+      "Grey, diffuse window light catching the petal's delicate veins",
+      "Hands cradling the petal gently, as if holding a small secret",
+      "Scene location archetype: indoor desk corner",
+      "Object focus: dried petal",
+      "spot dried petal while pausing"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "close object detail",
+      "unfolding gesture",
+      "soft depth around the object",
+      "ordinary object gains secret weight",
+      "a tiny trace from an earlier self",
+      "Prioritize 'wide_scene_with_character_trace' presence mode to show environment context",
+      "Frame to include a hint of movement or transition, not a static shelter pause",
+      "Desk corner cluttered with soft shadows and a single notebook.",
+      "Grey, diffuse window light catching the petal's delicate veins.",
+      "Hands cradling the petal gently, as if holding a small secret.",
+      "Presence mode: wide_scene_with_character_trace.",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_omen-like"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable",
+      "ordinary_object_with_secret_weight"
+    ],
+    "hooks": [
+      "ordinary object gains secret weight",
+      "a tiny trace from an earlier self"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Switch lanes to life_record with an outdoor, observational scene that breaks the indoor purchase/repair cycle while maintaining gentle, detail-sensitive intimacy.",
+    "draftSummary": "A dried petal, rediscovered at a desk corner, becomes a tiny, private omen that holds a quiet moment of connection between past and present.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "selectedSceneCandidate": "selected_scene_candidate_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    },
+    "affordanceHints": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "threshold_pause_window",
+      "indoor_reset_window"
+    ]
+  }
+}

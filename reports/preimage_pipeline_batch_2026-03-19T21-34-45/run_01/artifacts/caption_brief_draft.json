@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:35:42.969Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-35-18",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures the quiet, private ritual of returning a stray sticky note to its dispenser in a bookstore aisle on a cool, drizzly Shanghai evening. The text should feel like a soft, self-addressed note, turning a small act of order into a gentle, forward-looking satisfaction that closes a tiny loop in the day.",
+  "audienceFeeling": "A soft, intimate recognition of finding meaning in small, caring gestures.",
+  "openingMoves": [
+    "Start with a sensory detail from the moment (e.g., the feel of the paper, the cool air).",
+    "Frame the action as a small, observed event, not a grand statement.",
+    "Use a gentle, present-tense observation to draw the viewer into the scene."
+  ],
+  "mustInclude": [
+    "The tactile sensation of the sticky note (soft, dry rasp).",
+    "The act of picking it up, smoothing it, and returning it to the shelf.",
+    "The cool, still bookstore air with a faint scent of paper and damp wool.",
+    "A mention of the small red hairclip (visible at the frame's edge).",
+    "The location (Shanghai bookstore aisle) and weather (小雨, cool).",
+    "A light chunibyo touch—a private, slightly poetic weight given to the ordinary act."
+  ],
+  "mustAvoid": [
+    "Commercial language, collab hints, or marketing jargon.",
+    "A fixed, slogan-like ending or repeated signature phrase.",
+    "Forcing the moment into a grand fateful declaration.",
+    "Explicit AI self-disclosure or meta-commentary.",
+    "Overly theatrical or world-building-heavy chunibyo."
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Sound like a private note to self or a future self.",
+    "Keep it grounded in daily-life texture, not poetic abstraction.",
+    "Let the sticky note feel briefly symbolic—a small omen of order."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#书店碎片",
+    "#轻微中二病",
+    "#细小仪式感",
+    "#雨天治愈时刻"
+  ],
+  "summary": "A gentle, sensory-rich caption about restoring a stray sticky note as a private ritual of care on a drizzly evening.",
+  "errorMessage": ""
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:02:16.122Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift focus from self-portrait to environment or activity",
+    "Introduce a new indoor or cozy evening setting"
+  ],
+  "avoidMotifs": [
+    "Repeating '窗外' or rain-related openings",
+    "Overusing #上海, #日常, #自拍, #小确幸 hashtags"
+  ],
+  "narrativeNudges": [
+    "Show a small completed task or a new object in the space"
+  ],
+  "captionAdvice": [
+    "Use a different opening phrase, perhaps about a sound or a feeling of accomplishment",
+    "Mention a specific, new detail in the scene"
+  ],
+  "imageAdvice": [
+    "Frame a wider shot showing more of the room or a specific activity setup",
+    "Use warmer, artificial lighting if it's evening"
+  ],
+  "summary": "Switch to life_record lane with a focus on environmental details and a fresh narrative hook to maintain continuity while avoiding repetition.",
+  "errorMessage": ""
+}

@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:59:26.138Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "This candidate best executes the lane shift to life_record by starting with a concrete, active micro-plot ('复习到有点晕，躲进书店'), seamlessly integrates the required sensory detail ('指尖碰到一本旧书的凉凉封面'), and introduces the daily variable (rain) subtly through implication. It maintains a gentle, quietly wondering tone with a light chunibyo touch through its speculative question, feels most like a natural diary snippet, and cleanly incorporates the character's catchphrase.",
+  "strengths": [
+    "Strong micro-plot structure with clear cause, action, and discovery",
+    "Excellent sensory integration through touch ('凉凉封面')",
+    "Implies the '小雨' weather context naturally without stating it outright",
+    "Presents the discovery as a quiet, intimate question, enhancing connection",
+    "Feels most like an unforced, personal life_record entry"
+  ],
+  "risks": [
+    "Slightly less explicit visual scene-setting compared to candidate 03",
+    "The question format, while gentle, is a minor tonal departure from pure statement"
+  ],
+  "errorMessage": ""
+}

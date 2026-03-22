@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:46:25.829Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-45-34",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best captures the scene's quiet, forward-looking ritual with a publishable, grounded tone. It opens with the concrete action, includes the required sensory detail (the soft clink of the ceramic mug), and frames the purchase as a private punctuation for the day. The ending—'carrying this small, shy warmth back into the rain'—naturally embodies the 'shy_attachment' emotional landing without sounding overwritten or melodramatic. It avoids the more explicit 'secret code' or 'promise' language of the others, which feels fresher and less repetitive against recent semantic history.",
+  "strengths": [
+    "Strong opening with concrete action and sensory detail",
+    "Clean micro-plot: purchase -> sensory moment -> carrying comfort back",
+    "Light chunibyo touch ('like a period for the day') feels natural",
+    "Ends with a gentle, forward-looking action, not a fixed slogan",
+    "Fits the 'partial_presence' visual mode and life_record lane"
+  ],
+  "risks": [
+    "Slightly shorter than others, but meets all brief requirements",
+    "Metaphor ('period for the day') is subtle but could be missed"
+  ],
+  "errorMessage": ""
+}

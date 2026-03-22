@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:39:36.736Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'find_unfold_notice_again' to a forward-looking action like 'choose_pay_carry_back' or 'heat_hold_breathe'",
+    "Use a location outside the desk corner, like a park bench or a small grocery aisle, to break indoor monotony"
+  ],
+  "avoidMotifs": [
+    "Avoid 'accessory' object family; try 'comfort_item' or 'stationery' with a specific binding"
+  ],
+  "narrativeNudges": [
+    "Focus on a small, intentional act of care rather than rediscovery of forgotten items"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense observation of a new small action, not a past discovery"
+  ],
+  "imageAdvice": [
+    "Frame a partial presence shot focusing on hands and the object, with soft evening light"
+  ],
+  "summary": "Switch from rediscovery to a gentle, forward-looking ritual in a slightly new location to maintain continuity while refreshing the mood.",
+  "errorMessage": ""
+}

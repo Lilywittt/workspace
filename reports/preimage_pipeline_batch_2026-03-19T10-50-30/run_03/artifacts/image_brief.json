@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:54:28.947Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-53-34",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "After a morning of studying, she decides to tidy her desk, discovering a forgotten sketchbook tucked under a pile of notes. The soft rain outside creates a quiet, reflective atmosphere as she flips through the old drawings, each page a small memory from a brighter season.",
+    "microPlot": [
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity.",
+      "She carefully brushes off the cover and opens it to a page of summer flowers.",
+      "A gentle, nostalgic smile forms, mixing the comfort of memory with the cozy present."
+    ],
+    "sensoryFocus": "The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+    "selectedCaptionOpening": "发现了一个时间胶囊。",
+    "selectedCaptionSummary": "发现了一个时间胶囊。 是藏在论文下面的速写本，角都磨软了。 里面夹着某个夏天画的花，还有当时用的红色发夹。 原来记忆不需要刻意保存，它只是安静地等着被再次翻开。 今天，也要明亮地活着哦。",
+    "candidateAngle": "被存档的夏日"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"发现了一个时间胶囊。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Desk cluttered with textbooks and a half-empty mug | Sketchbook slightly worn at the corners | Window in background with raindrops tracing paths | Hands gently holding the open sketchbook | Small red hairclip visible in her hair | Finding the sketchbook hidden under study materials sparks a moment of curiosity",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Frame to include hands interacting with something",
+    "Use natural light but from a new angle (e.g., overhead, low)",
+    "Shift from selfie close-ups to wider environmental shots",
+    "Focus on an activity or object, not just a mood",
+    "Desk cluttered with textbooks and a half-empty mug.",
+    "Sketchbook slightly worn at the corners.",
+    "Window in background with raindrops tracing paths.",
+    "Hands gently holding the open sketchbook.",
+    "Small red hairclip visible in her hair.",
+    "The quiet joy of rediscovering a forgotten piece of yourself.",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

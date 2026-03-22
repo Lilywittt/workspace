@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:22:53.109Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'find_unfold_notice_again' to a more active or forward-looking action kernel",
+    "Explore a location outside the home, like a park bench, bus stop, or small shop, to break the indoor_desk_corner pattern"
+  ],
+  "avoidMotifs": [
+    "Repeating 'accessory' object family; try comfort_item, paper_fragment, or a new family",
+    "Overusing 'reflective_support' weather role; consider 'texture_modifier' or a subtle shift"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a small, intentional choice rather than a passive discovery",
+    "Let the emotional landing lean into 'shy_attachment' or 'private_omen' for a forward tilt"
+  ],
+  "captionAdvice": [
+    "Start with a concrete action or observation, not a weather description",
+    "End with a soft observation that feels like a note to future self, not a completed thought"
+  ],
+  "imageAdvice": [
+    "Prioritize a scene with partial_presence to focus on object and environment",
+    "Use cool, damp lighting to match the late evening and light rain mood"
+  ],
+  "summary": "Shift from passive rediscovery to a gentle, intentional act in a slightly new location, maintaining the quiet, private tone but with a forward-looking breath.",
+  "errorMessage": ""
+}

@@ -1,0 +1,102 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:34:49.810Z",
+  "sourceSignalsDate": "2026-03-17",
+  "timeContext": {
+    "timezone": "Asia/Shanghai",
+    "localDate": "2026-03-17",
+    "localHour": 21,
+    "daypart": "late_evening",
+    "weekdayMode": "school_day",
+    "seasonPhase": "early_spring",
+    "routineAnchors": [
+      "after_class_reset",
+      "short_errand",
+      "evening_reset",
+      "shelter_pause",
+      "indoor_reset",
+      "rediscovery_window"
+    ]
+  },
+  "environment": {
+    "city": "Shanghai",
+    "locationName": "Shanghai",
+    "weatherCode": 61,
+    "weatherSummary": "小雨",
+    "temperatureC": 10.4,
+    "windSpeedKmh": 10.8,
+    "temperatureBand": "cool",
+    "mobilityWindow": "short_walk_ok",
+    "weatherRoleDefault": "reflective_support"
+  },
+  "characterState": {
+    "lanePreference": "life_record",
+    "energy": "low",
+    "socialBandwidth": "solo_preferred",
+    "attentionShape": "detail_seeking",
+    "needState": [
+      "small_reset",
+      "private_meaning"
+    ],
+    "temperament": [
+      "light_chunibyo",
+      "gentle",
+      "occasionally_tsundere",
+      "sensitive_to_daily_details",
+      "playful",
+      "private_ritual_energy",
+      "quietly_reads_small_omens"
+    ]
+  },
+  "worldMemoryRefs": {
+    "recurringObjects": [
+      "accessory",
+      "comfort_item",
+      "small red hairclip",
+      "star hairpin",
+      "bookmark",
+      "star-shaped clip"
+    ],
+    "familiarPlaces": [
+      "indoor_desk_corner",
+      "kitchen_counter",
+      "window_seat",
+      "bookstore_aisle"
+    ],
+    "emotionalThreads": [
+      "quiet_completion",
+      "memory_return",
+      "private_omen",
+      "shy_attachment",
+      "tiny_reset"
+    ]
+  },
+  "continuityPressure": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "sceneFatigue": [
+      "legacy_program",
+      "micro_purchase_program"
+    ],
+    "objectFatigue": [
+      "accessory"
+    ],
+    "weatherOveruse": false,
+    "indoorOveruse": false,
+    "studyAftermathOveruse": false
+  },
+  "personaGuidance": {
+    "sceneBiasZh": [
+      "普通物件可以短暂带上一点私人的意义",
+      "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+      "像在给过去或未来的自己留一张小纸条"
+    ],
+    "avoidPatternsZh": [
+      "不要固定口号式收尾",
+      "不要每条都落在自我鼓励句",
+      "不要把日常强行拔高成命运宣言"
+    ]
+  },
+  "source": "code",
+  "status": "world_state_snapshot_ready"
+}

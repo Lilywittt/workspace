@@ -1,0 +1,33 @@
+{
+  "scenarioId": "rainy-after-class",
+  "timestamp": "2026-03-21T16:35:00+08:00",
+  "forceRoutineWindow": "after_class",
+  "weather": {
+    "summary": "light rain",
+    "bucket": "rain",
+    "temperatureC": 11.6,
+    "precipitationMm": 0.4
+  },
+  "location": {
+    "city": "Shanghai",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "school_transition_window"
+  },
+  "contentIntent": {
+    "characterPresenceTarget": "clear_character_presence"
+  },
+  "ambient": {
+    "cityTrivia": [
+      "People keep saying rainy school days make overlooked corners feel more noticeable than usual."
+    ],
+    "trendingTopics": [
+      "There is light discussion about suddenly wanting to sort old paper scraps and tiny receipts again."
+    ],
+    "animeFandom": [
+      "Recent episodes sparked discussion around restrained character entrances built from small details instead of spectacle."
+    ]
+  },
+  "notes": [
+    "Test whether a rainy after-class setup still yields a concrete lived moment without becoming template-heavy."
+  ]
+}

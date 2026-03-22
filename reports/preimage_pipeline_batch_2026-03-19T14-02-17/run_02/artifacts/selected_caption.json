@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:04:55.067Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-04-00",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best balances the required 'light chunibyo' and 'private ritual energy' by framing the ordinary scene as a '结界' (barrier/ward), creating an immediate sense of personal, intimate discovery. It cleanly executes the micro-plot (discovery -> observation -> defined ritual) and integrates the sensory detail of the '冰冷栏杆' (cold railing) without over-explaining. The tone is gently dramatic, feels like a private note, and avoids the theatrical fantasy or fixed slogans the brief warns against, making it the most publishable and persona-fitting option.",
+  "caption": "发现一个不需要魔法的结界。\n只是雨后，一个普通的楼梯转角，和一根挂满水滴的冰冷栏杆。\n每个水珠里都有一座倒过来的楼，和一片缩小的、灰色的天空。\n我的仪式是：只看，不碰。",
+  "hashtags": [
+    "#轻微中二",
+    "#日常结界",
+    "#雨天碎片",
+    "#观察者",
+    "#生活仪式"
+  ],
+  "candidateAngle": "倒置的仪式",
+  "candidateRationale": "以‘结界’这一轻微中二的概念开场，将普通场景瞬间私人化。核心是将‘只看不碰’定义为一种明确的个人仪式，完美呼应‘让普通手势带上意义’的要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This caption best balances the required 'light chunibyo' and 'private ritual energy' by framing the ordinary scene as a '结界' (barrier/ward), creating an immediate sense of personal, intimate discovery. It cleanly executes the micro-plot (discovery -> observation -> defined ritual) and integrates the sensory detail of the '冰冷栏杆' (cold railing) without over-explaining. The tone is gently dramatic, feels like a private note, and avoids the theatrical fantasy or fixed slogans the brief warns against, making it the most publishable and persona-fitting option.",
+    "strengths": [
+      "Strongest 'light chunibyo' voice with '结界' (barrier), feeling intimate, not performative.",
+      "Clearly defines the '只看，不碰' (look, don't touch) action as a personal ritual.",
+      "Cleanly follows the micro-plot structure and includes concrete sensory detail.",
+      "Avoids repetitive openings or blocked phrases from recent history."
+    ],
+    "risks": [
+      "Slightly more abstract than other candidates, though still grounded in the scene.",
+      "The '倒过来的楼' (upside-down building) metaphor is poetic but remains within daily-life bounds."
+    ]
+  }
+}

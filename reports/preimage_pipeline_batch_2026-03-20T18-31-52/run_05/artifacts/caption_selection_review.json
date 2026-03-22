@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:39:21.767Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-38-34",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best balances the required daily-life texture with the character's light chunibyo and private ritual energy. It transforms the tactile repair into a personal 'secret code,' delivering the 'gentle_order' emotional landing without sounding like a generic diary entry or a forced slogan. The focus on mechanical sensation ('metal's slight coolness,' 'spring's subtle resistance') grounds it in concrete detail, while the ending line feels like a quiet, forward-looking thought for herself, avoiding the overused 'soft_observation' pattern.",
+  "strengths": [
+    "Strong persona fit: 'secret code' phrasing captures light chunibyo and private ritual energy perfectly.",
+    "Excellent sensory grounding: focuses on specific, believable tactile details (metal, spring).",
+    "Fresh emotional landing: 'everything returns to its proper place' supports 'gentle_order' without being a cliché completion.",
+    "Avoids repetition: does not reuse recent opening styles or overused caption ending families."
+  ],
+  "risks": [
+    "Slightly more abstract than other options; the 'secret code' metaphor must feel earned by the concrete details.",
+    "The hashtag '#秘密暗号' (secret code) is new and could be less discoverable, but it fits the angle."
+  ],
+  "errorMessage": ""
+}

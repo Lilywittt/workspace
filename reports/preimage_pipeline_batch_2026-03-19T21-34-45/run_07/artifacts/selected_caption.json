@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:45:00.003Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-44-07",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate 02 best balances the required private ritual energy and light chunibyo tone with a fresh, publishable voice. It frames the simple act of returning a pencil as a 'secret signal,' which fits the character's tendency to read small omens and aligns with the 'repair as quiet affection' hook. The language is intimate and slightly dramatic without being theatrical, and it avoids the more common sensory-heavy or weather-focused endings of the other options, offering better novelty against recent semantic history.",
+  "caption": "一支笔躺在书架上，像迷路了一样。\n捡起来，试了试它的机关——那声清脆的‘咔’，是它还在工作的证明。\n把它送回笔筒，这个动作轻得像一个暗号：今天也有好好把世界的一角摆正哦。",
+  "hashtags": [
+    "#小雨夜",
+    "#日常的微小仪式",
+    "#温柔秩序",
+    "#生活切片",
+    "#bookstorevibes"
+  ],
+  "candidateAngle": "秘密的归还信号",
+  "candidateRationale": "将普通物件（机械铅笔）和归还动作赋予‘暗号’般的私密仪式感，符合‘让寻常事物带有秘密意义’的要求，语气带有轻微中二但克制。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "Candidate 02 best balances the required private ritual energy and light chunibyo tone with a fresh, publishable voice. It frames the simple act of returning a pencil as a 'secret signal,' which fits the character's tendency to read small omens and aligns with the 'repair as quiet affection' hook. The language is intimate and slightly dramatic without being theatrical, and it avoids the more common sensory-heavy or weather-focused endings of the other options, offering better novelty against recent semantic history.",
+    "strengths": [
+      "Persona fit: 'light chunibyo' tone with 'private ritual energy' is clear and natural.",
+      "Freshness: '暗号' (secret signal) concept is a novel, character-appropriate twist on the return action.",
+      "Publishability: Short, conversational lines with a clear micro-plot and a satisfying, intimate closure.",
+      "Continuity: Uses 'texture_modifier' weather subtly without letting it dominate the scene."
+    ],
+    "risks": [
+      "Slightly less sensory detail than candidate 03, though the '清脆的‘咔’' still delivers the required focus.",
+      "The '暗号' metaphor could feel slightly forced if not read in the character's gentle, playful voice."
+    ]
+  }
+}

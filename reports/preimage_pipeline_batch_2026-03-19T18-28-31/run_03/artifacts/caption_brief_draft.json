@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:31:41.482Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-31-25",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures a quiet, post-study moment where untangling earbuds becomes a small, focused ritual. Convey the gentle, tactile satisfaction of the task and the shift from mental clutter to calm, using light chunibyo flavor to hint at private meaning without theatricality.",
+  "audienceFeeling": "A soft, relatable sense of quiet focus and minor catharsis.",
+  "openingMoves": [
+    "Start with a simple observation of the scene or object.",
+    "Mention the transition from studying to this small manual task.",
+    "Use a sensory detail (like sound or touch) to ground the moment."
+  ],
+  "mustInclude": [
+    "The micro-plot: studying ended, earbuds tangled, untangling them.",
+    "A sensory detail: the faint plastic squeak of wires separating.",
+    "A daily variable: the light rain and cool Shanghai evening outside.",
+    "One ordinary object (the earbuds or hairclip) treated with a hint of private, symbolic weight."
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language.",
+    "Fixed slogan endings or repeated signature phrases.",
+    "Grand, theatrical declarations or world-building lore.",
+    "Explicitly explaining the 'secret meaning' of the ritual."
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer, breath-like phrase.",
+    "Soft, trailing endings or gentle self-address.",
+    "Light chunibyo tone: intimate, not performative.",
+    "Like leaving a private note for oneself or a future self."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#解压小仪式",
+    "##耳机线整理",
+    "#雨夜独处",
+    "#生活碎片"
+  ],
+  "summary": "A gentle life-record caption about untangling earbuds as a quiet, settling ritual after studying, blending daily texture with light, intimate chunibyo.",
+  "errorMessage": ""
+}

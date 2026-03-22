@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": "selfie_001",
+    "style": "selfie",
+    "tags": ["morning", "cafe", "smile"],
+    "public_url": ""
+  },
+  {
+    "id": "daily_park_001",
+    "style": "daily-life",
+    "tags": ["park", "sunset", "walk"],
+    "public_url": ""
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "moment-led framing rooted in the same lived action",
+  "mustShowZh": [],
+  "mustShowEn": [
+    "hand holding a hairpin, fingers touching the cool metal part",
+    "drawer corner where the hairpin was found, slightly open"
+  ],
+  "mayShowZh": [],
+  "mayShowEn": [
+    "sleeve edge of the character's arm",
+    "hint of the red hairclip in the character's hair",
+    "other ordinary items inside the drawer"
+  ],
+  "mustAvoidZh": [
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look",
+    "advertisement feeling"
+  ],
+  "mustAvoidEn": [
+    "generic aesthetic wallpaper",
+    "fashion editorial polish",
+    "rewriting the moment into a different event",
+    "dramatic lighting that makes the hairpin look like a treasure",
+    "empty hand posing without the drawer context"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "翻找充电线时，在抽屉角落摸到一枚很久没用的发夹，金属部分有点凉。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}

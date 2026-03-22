@@ -1,0 +1,49 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "close-up of hand holding the pajama top, with the tag clearly visible against the fabric",
+  "mustShowZh": [
+    "手心朝上，托着那件浅色睡衣",
+    "翻到外面的白色洗涤标签特写",
+    "睡衣的棉质纹理"
+  ],
+  "mustShowEn": [
+    "hand palm-up holding a light-colored cotton pajama top",
+    "close-up of the white care label flipped outward and visible on the fabric",
+    "texture of the cotton pajama material"
+  ],
+  "mayShowZh": [
+    "打开的衣柜门边缘",
+    "衣柜内其他叠放衣物的模糊背景",
+    "一小缕头发或红色发夹的影子"
+  ],
+  "mayShowEn": [
+    "edge of an open wardrobe door",
+    "blurred background of other folded clothes inside the wardrobe",
+    "shadow of a strand of hair or the small red hairclip"
+  ],
+  "mustAvoidZh": [
+    "时尚大片般的打光和姿势",
+    "将睡衣拍得像商品展示",
+    "脱离瞬间的唯美空景",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look",
+    "advertisement feeling"
+  ],
+  "mustAvoidEn": [
+    "fashion editorial lighting and posing",
+    "presenting the pajama like a product display",
+    "detached aesthetic scenery unrelated to the moment"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "月见璃音发现睡衣标签翻出来了。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

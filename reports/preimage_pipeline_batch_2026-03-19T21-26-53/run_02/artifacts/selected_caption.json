@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:29:28.599Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-28-39",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best balances the required scene program and persona tone with freshness. It treats the ordinary pencil as a 'secret gear' aligning the world, delivering the light chunibyo and private ritual energy without being overwritten. The short, breath-like sentences and the soft, environmental ending with the rain sound avoid recent semantic fatigue (like 'quiet completion' endings) and feel most like a private note to a future self.",
+  "caption": "一支坏掉的自动铅笔，躺在书架上。\n我把它修好了。\n这个动作本身没有意义，但做完之后，世界好像悄悄对上了一格齿轮。\n窗外是沙沙的小雨声。",
+  "hashtags": [
+    "#微小仪式",
+    "#手边的修復",
+    "#生活记录",
+    "#月见璃音",
+    "#上海小雨"
+  ],
+  "candidateAngle": "铅笔的暗号",
+  "candidateRationale": "赋予平凡物件（铅笔）一种近乎暗号的轻微神秘感，用“对上一格齿轮”的比喻传达私人体悟，结尾以雨声收束，留下余韵。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the required scene program and persona tone with freshness. It treats the ordinary pencil as a 'secret gear' aligning the world, delivering the light chunibyo and private ritual energy without being overwritten. The short, breath-like sentences and the soft, environmental ending with the rain sound avoid recent semantic fatigue (like 'quiet completion' endings) and feel most like a private note to a future self.",
+    "strengths": [
+      "Strong persona fit: 'world seems to align a gear' is perfect light chunibyo without melodrama.",
+      "Excellent freshness: avoids overused 'gentle order' phrasing, uses a novel mechanical metaphor.",
+      "Scene integrity: clearly conveys the return_or_repair_program and the sensory detail (rain sound).",
+      "Publishable brevity: short, impactful lines that read as a genuine, intimate moment."
+    ],
+    "risks": [
+      "Slightly abstract: 'action itself has no meaning' could feel overly philosophical to some readers.",
+      "Less explicit sensory detail: relies on the rain sound rather than the specified graphite scent."
+    ]
+  }
+}

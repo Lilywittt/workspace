@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:42:10.954Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a non-accessory object family (e.g., tool, garment, container)",
+    "Shift emotional landing to shy_attachment or gentle_order",
+    "Try a location outside the top three (e.g., park bench, bus stop, market stall)"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing 'reflective_support' weather role",
+    "Starting caption with window/weather observation"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking small action, not rediscovery",
+    "Incorporate a subtle sound or texture detail (e.g., rustle, click, warmth)",
+    "Let the object be a tool for a tiny, intentional next step"
+  ],
+  "captionAdvice": [
+    "Use a short, concrete opening about a small decision or movement",
+    "End with a soft observation about the action's gentle effect, not a completion",
+    "Avoid #上海 and #自拍; try a location or mood tag like #傍晚 or #小仪式"
+  ],
+  "imageAdvice": [
+    "Frame for partial presence (hands, object, corner of scene)",
+    "Use cool, drizzly light as texture, not just reflective support",
+    "Include a hint of movement or preparation, not static contemplation"
+  ],
+  "summary": "Shift from rediscovery to a gentle, forward-looking micro-action in a slightly new location, maintaining intimate continuity while refreshing object and emotional tone.",
+  "errorMessage": ""
+}

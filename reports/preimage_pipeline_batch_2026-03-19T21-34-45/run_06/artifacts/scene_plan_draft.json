@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:42:51.646Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, damp light of a late spring evening, a small errand to a covered walkway becomes a quiet, forward-looking choice. Selecting a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the drizzly night as a private promise of gentle warmth.",
+  "microPlot": [
+    "The evening drizzle makes her hands feel a little cold after a long day.",
+    "She chooses a warm cup sleeve from a small stall in a covered walkway, completing the tiny purchase.",
+    "Carrying the small comfort back with her feels like a shy, private rescue from the chill."
+  ],
+  "sensoryFocus": "the soft, slightly damp texture of the cup sleeve against cool fingertips",
+  "sceneNotes": [
+    "Focus on hands holding the cup sleeve, with the stall's counter light creating a warm glow.",
+    "Incorporate the cool, damp light of early spring evening filtering through the covered walkway.",
+    "Show a small shopping bag detail, with the cup sleeve prominently visible.",
+    "Capture the quiet, intentional energy of the moment, avoiding wide cinematic spectacle."
+  ],
+  "tone": [
+    "gentle",
+    "shyly intentional",
+    "quietly meaningful"
+  ],
+  "captionFocus": [
+    "Start with a present-tense sensory detail about the action, not a past recap.",
+    "End with a soft observation about the choice itself, not the object."
+  ],
+  "summary": "A small, intentional purchase of a warm cup sleeve in a covered walkway becomes a private ritual of self-care against the evening drizzle.",
+  "errorMessage": ""
+}

@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:39:18.251Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-38-33",
+  "briefGoal": "Write a caption that feels like a private note to a future self, capturing the quiet ritual of finding and returning a lost planner page in a cool, damp Shanghai bookstore. The focus is on the small, intentional act of restoring order, not on memory or completion, letting the ordinary object briefly carry a secret, forward-looking weight.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的修复",
+      "caption": "在书店的过道里，捡到一张被遗忘的计划内页。\n把它抚平，放回原来的位置。\n纸张摩擦的沙沙声，在傍晚的凉意里，像完成了一个对明天的小小承诺。",
+      "hashtags": [
+        "#书店碎片",
+        "#轻微中二病",
+        "#私人的小仪式",
+        "#计划本的一页",
+        "#上海生活"
+      ],
+      "rationale": "聚焦于“修复”这一微小动作，将纸张的声音与对未来的承诺联结，符合‘安静仪式’和‘轻中二’的基调。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "秩序的暗号",
+      "caption": "一张计划表的内页，夹在两本旧书之间。\n把它归位，褶皱被拇指轻轻抹去。\n10度的雨夜，这个动作本身，就是一句只对自己说的、关于秩序的暗语。",
+      "hashtags": [
+        "#轻微中二病",
+        "#私人的小仪式",
+        "#秩序感",
+        "#生活切片",
+        "#春夜"
+      ],
+      "rationale": "将修复行为解读为“秩序的暗语”，赋予日常动作隐秘的仪式感，同时自然融入天气细节。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "未来的书签",
+      "caption": "找到它时，它正蜷缩在书架深处。\n抚平，放回。\n这个微小的‘返回’动作，在潮湿的空气里，像为某个尚未到来的日子，悄悄夹入了一枚书签。",
+      "hashtags": [
+        "#书店碎片",
+        "#计划本的一页",
+        "#未来感",
+        "#日常仪式",
+        "#记录"
+      ],
+      "rationale": "使用“未来的书签”这一隐喻，将具体场景与“向前看”的意图结合，避免怀旧，符合‘秘密的、前瞻性的重量’的要求。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:59:53.068Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "After a morning of studying, she tidies her desk, finding a small, forgotten charm tucked under a notebook—a tiny, worn rabbit keychain from a childhood trip, its threadbare ears a sudden, soft anchor to a simpler time.",
+  "microPlot": [
+    "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space.",
+    "action sentence: She carefully stacks her textbooks, wipes the desk with a soft cloth, and discovers the old keychain hidden beneath.",
+    "feeling sentence: A quiet warmth spreads through her chest, a mix of nostalgia and gentle surprise that something so small can still feel so comforting."
+  ],
+  "sensoryFocus": "soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+  "sceneNotes": [
+    "Desk lit by a warm, low desk lamp, casting soft shadows.",
+    "Textbooks stacked neatly, one slightly askew with a pencil tucked in.",
+    "The red hairclip visible at the edge of her hair, catching the light.",
+    "Her hands in frame, one holding the cloth, the other cradling the keychain.",
+    "A faint, blurred background of a bedroom shelf with a few trinkets."
+  ],
+  "tone": [
+    "reflective"
+  ],
+  "captionFocus": [
+    "A quiet moment of rediscovery in the midst of tidying up."
+  ],
+  "summary": "She finds an old charm while cleaning her desk, sparking a gentle, nostalgic pause in her day.",
+  "errorMessage": ""
+}

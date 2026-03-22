@@ -1,0 +1,66 @@
+{
+  "candidateId": "event_01",
+  "lane": "life_record",
+  "eventSummaryZh": "收拾书包时，发现夹层里一张去年的电影票根，上面的日期刚好是今天。",
+  "hookWhyInterestingZh": "它只是被遗忘的纸片，但日期重合的巧合让动作停了一拍。",
+  "causalChainZh": [
+    "准备拉上书包拉链，手碰到夹层里一个硬角。",
+    "抽出来发现是张旧票根，下意识看了一眼日期。",
+    "发现是去年的同一天，心里轻轻‘啊’了一下。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_after_class",
+      "weather_rain"
+    ],
+    "inferredDetailsZh": [
+      "雨天收拾东西的动作比平时慢一点。",
+      "票根可能是在某个雨天看完电影后随手塞进去的。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "想着快点收好东西离开教室。",
+  "interiorShiftZh": "一个无关紧要的巧合，却让时间感变得有点具体。",
+  "whyTodayZh": "雨天的节奏和安静，让这种偶然的发现更容易被注意到。",
+  "whyShareableZh": "它很小，不沉重，但有一个具体的触点和停顿。",
+  "visualEvidenceZh": [
+    "皱了的电影票根一角从书包夹层露出",
+    "手指捏着票根的瞬间",
+    "窗外雨痕模糊的玻璃"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "雨天容易让人留意到被遗忘的角落"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T06:33:45.283Z",
+  "review": {
+    "candidateId": "event_01",
+    "personaTruthScore": 85,
+    "groundingScore": 80,
+    "postabilityScore": 82,
+    "coherenceScore": 84,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "物理触发清晰（手碰到硬角）",
+      "情感转折由具体日期巧合驱动",
+      "图文同源性强（票根、手指、雨窗）",
+      "细节顽固且普通（皱票根）"
+    ],
+    "risksZh": [
+      "需确保视觉细节不滑向唯美摆拍"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。",
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

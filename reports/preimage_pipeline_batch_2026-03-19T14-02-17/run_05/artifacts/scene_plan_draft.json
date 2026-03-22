@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:08:02.928Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "In the quiet, fluorescent-lit hallway of a library after hours, a loose button found on the floor becomes a tiny, misplaced artifact. For a moment, it feels like a secret message left behind, a small weight in the palm that connects to no one and everyone.",
+  "microPlot": [
+    "Finding a single, pale blue button on the linoleum near the water cooler.",
+    "Picking it up and rolling it between thumb and forefinger, feeling its cool, smooth surface.",
+    "A quiet, unnamed feeling of holding a story that isn't hers, a small secret the hallway kept."
+  ],
+  "sensoryFocus": "the cool, smooth ceramic of the button; the faint hum of the water cooler; the sharp, clean scent of floor cleaner.",
+  "sceneNotes": [
+    "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow.",
+    "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button.",
+    "The button is pale blue, slightly worn, resting on speckled grey linoleum.",
+    "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude.",
+    "A red hairclip is just visible at the very edge of the frame, a signature trace."
+  ],
+  "tone": [
+    "quietly_observational",
+    "intimate",
+    "slightly_unresolved"
+  ],
+  "captionFocus": [
+    "A tactile detail (the button's texture) opens the thought.",
+    "Ends with a gentle, unanswered question about where small lost things belong."
+  ],
+  "summary": "A life_record scene in a library hallway where finding a lost button becomes a brief, private ritual of connection and release.",
+  "errorMessage": ""
+}

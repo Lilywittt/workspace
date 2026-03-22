@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/scene-plan.schema.json",
+  "title": "IG Roleplay Scene Plan",
+  "type": "object",
+  "required": [
+    "version",
+    "runId",
+    "createdAt",
+    "lane",
+    "freshness",
+    "narrative",
+    "visual",
+    "caption",
+    "publish"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "runId": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "lane": {
+      "type": "string",
+      "enum": [
+        "selfie",
+        "life_record"
+      ]
+    },
+    "laneReason": {
+      "type": "string"
+    },
+    "freshness": {
+      "type": "object",
+      "required": [
+        "weatherSignal",
+        "trendSignal",
+        "noveltyGuard"
+      ],
+      "properties": {
+        "weatherSignal": {
+          "type": "string"
+        },
+        "trendSignal": {
+          "type": "string"
+        },
+        "noveltyGuard": {
+          "type": "string"
+        }
+      }
+    },
+    "narrative": {
+      "type": "object",
+      "required": [
+        "premise",
+        "microPlot",
+        "sensoryFocus"
+      ],
+      "properties": {
+        "premise": {
+          "type": "string"
+        },
+        "microPlot": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 3
+        },
+        "sensoryFocus": {
+          "type": "string"
+        }
+      }
+    },
+    "visual": {
+      "type": "object",
+      "required": [
+        "mode",
+        "identityAnchors",
+        "allowedVariation"
+      ],
+      "properties": {
+        "mode": {
+          "type": "string"
+        },
+        "identityAnchors": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "allowedVariation": {
+          "type": "object"
+        },
+        "sceneNotes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "caption": {
+      "type": "object",
+      "required": [
+        "tone",
+        "requiredElements",
+        "limits"
+      ],
+      "properties": {
+        "tone": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "requiredElements": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limits": {
+          "type": "object"
+        }
+      }
+    },
+    "publish": {
+      "type": "object",
+      "required": [
+        "platform",
+        "dryRunDefault"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "dryRunDefault": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}

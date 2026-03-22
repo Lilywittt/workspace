@@ -1,0 +1,42 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:07:01.085Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-06-42",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a Chinese Instagram caption where tidying her desk after studying becomes a quiet, personal ritual. The text should feel like a private note to herself, using short sentences to describe the small action and the calm it brings, with one slightly longer breath for a gentle, faintly symbolic observation.",
+  "audienceFeeling": "A quiet, shared recognition of finding order in small things.",
+  "openingMoves": [
+    "Start with a simple observation of the scene or the task.",
+    "Mention a specific sensory detail (sound, texture, scent).",
+    "Connect the physical action to a slight internal shift."
+  ],
+  "mustInclude": [
+    "The micro-plot: scattered notes to aligned notebook to quiet satisfaction.",
+    "The sensory focus: the faint scent of paper or soft scrape of movement.",
+    "The daily variable: the light rain or 10.4C weather as ambient context.",
+    "One ordinary object (e.g., the red hairclip, the water glass) treated with a hint of private meaning."
+  ],
+  "mustAvoid": [
+    "Commercial, poetic-for-its-own-sake, or brand-deck language.",
+    "The legacy blocked phrases (e.g., 'bright and alive' variants).",
+    "Fixed slogan endings or repeated signature sentences.",
+    "Grand declarations of fate or forced self-encouragement."
+  ],
+  "voiceNotes": [
+    "Light chunibyo flavor: intimate, not theatrical.",
+    "Gentle, contemplative tone with private ritual energy.",
+    "Mostly short sentences with one longer, breath-like phrase.",
+    "Soft sentence endings (light exhale, gentle trailing tone).",
+    "Like a small note left for her future self."
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#桌面整理 (desk tidying)",
+    "#上海日常 (Shanghai daily life)",
+    "#独处时刻 (solitude moment)",
+    "#仪式感 (sense of ritual)"
+  ],
+  "summary": "A caption about finding mental calm through the small, deliberate ritual of tidying a study desk on a rainy Shanghai day.",
+  "errorMessage": ""
+}

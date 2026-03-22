@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:38:14.921Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from reflective support to a weather role like texture_modifier or ambient_mood",
+    "Explore a location archetype not recently used, like park_bench or bus_stop_shelter"
+  ],
+  "avoidMotifs": [
+    "Avoid find_unfold_notice_again action kernel",
+    "Avoid accessory object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking, anticipatory moment rather than memory or completion"
+  ],
+  "captionAdvice": [
+    "Use a caption ending family like soft_observation or quiet_completion, but avoid memory_return",
+    "Incorporate sensory details of the cool, drizzly evening without overusing rain motifs"
+  ],
+  "imageAdvice": [
+    "Consider partial_presence or wide_scene_with_character_trace to vary visual framing",
+    "Include subtle environmental textures like wet pavement or soft indoor lighting"
+  ],
+  "summary": "Propose a life_record scene with a fresh location and forward-looking emotion, avoiding overused patterns while maintaining the character's intimate, detail-sensitive voice.",
+  "errorMessage": ""
+}

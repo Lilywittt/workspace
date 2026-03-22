@@ -1,0 +1,65 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 89,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理触发明确（手指触摸皱痕）",
+        "情绪转变由具体细节驱动",
+        "图文同源性强（皱痕、手指、笔记本）",
+        "细节顽固且普通（旧笔记、水渍）"
+      ],
+      "risksZh": [
+        "需注意避免将皱痕解释为过度象征"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 82,
+      "groundingScore": 80,
+      "postabilityScore": 78,
+      "coherenceScore": 83,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "动作具体（指甲刮糖渍）",
+        "日常琐碎感强"
+      ],
+      "risksZh": [
+        "糖渍可能被处理成装饰性甜点美学",
+        "视觉证据（透明杯、糖渍）易滑向常见静物构图"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 75,
+      "groundingScore": 70,
+      "postabilityScore": 72,
+      "coherenceScore": 68,
+      "sourceMirroringRiskScore": 35,
+      "strengthsZh": [
+        "感知细腻（气味痕迹）",
+        "符合“被外界轻轻擦过”的共振"
+      ],
+      "risksZh": [
+        "触发较弱（闻到气味），更像氛围而非动作",
+        "视觉证据模糊（袖口轮廓），易沦为装饰性构图",
+        "气味来源的猜测（公交车、面包店）有微弱命题感"
+      ],
+      "verdict": "needs_repair"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。推荐event_01，因其物理触发明确、情绪转变由细节驱动、图文同源性强且细节顽固普通。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore"
+}

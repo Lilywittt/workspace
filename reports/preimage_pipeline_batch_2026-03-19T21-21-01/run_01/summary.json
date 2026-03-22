@@ -1,0 +1,216 @@
+{
+  "runIndex": 1,
+  "scenePlanRunId": "sceneplan-2026-03-19T13-21-37",
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "sceneFatigue": [
+      "legacy_program"
+    ]
+  },
+  "noveltyLedger": {
+    "scenePrograms": [
+      {
+        "value": "legacy_program",
+        "count": 11
+      },
+      {
+        "value": "micro_purchase_program",
+        "count": 1
+      }
+    ],
+    "locations": [
+      {
+        "value": "indoor_desk_corner",
+        "count": 7
+      },
+      {
+        "value": "kitchen_counter",
+        "count": 2
+      },
+      {
+        "value": "bookstore_aisle",
+        "count": 1
+      },
+      {
+        "value": "convenience_counter",
+        "count": 1
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "accessory",
+        "count": 10
+      },
+      {
+        "value": "comfort_item",
+        "count": 1
+      },
+      {
+        "value": "paper_fragment",
+        "count": 1
+      }
+    ],
+    "fatigueFlags": {
+      "weatherPrimaryOveruse": false,
+      "indoorClusterOveruse": false,
+      "studyAftermathClusterOveruse": false
+    }
+  },
+  "reflectionNotes": {
+    "recurringObjects": [
+      "accessory"
+    ],
+    "familiarPlaces": [
+      "indoor_desk_corner",
+      "kitchen_counter"
+    ],
+    "fatiguePatterns": []
+  },
+  "worldState": {
+    "daypart": "late_evening",
+    "weekdayMode": "school_day",
+    "seasonPhase": "early_spring",
+    "mobilityWindow": "short_walk_ok",
+    "needState": [
+      "small_reset",
+      "private_meaning"
+    ],
+    "preferredLane": "life_record"
+  },
+  "affordancePool": {
+    "primaryAffordanceIds": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "domestic_reset_window",
+      "threshold_pause_window"
+    ],
+    "topAffordances": [
+      {
+        "id": "kitchen_comfort_window",
+        "score": 0.84,
+        "reasons": [
+          "Temperature and energy support a tiny comfort scene.",
+          "Hand-to-object intimacy is plausible in the current state."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic",
+          "indoor"
+        ]
+      },
+      {
+        "id": "transit_fragment_window",
+        "score": 0.82,
+        "reasons": [
+          "Mobility window allows a short transit fragment.",
+          "School-day rhythm naturally creates transit micro-scenes."
+        ],
+        "preferredLocationKinds": [
+          "public_transit",
+          "semi_outdoor",
+          "outdoor_light"
+        ]
+      },
+      {
+        "id": "domestic_reset_window",
+        "score": 0.8,
+        "reasons": [
+          "Domestic corners fit the slower end of the day.",
+          "Soft household action keeps life_record grounded."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic"
+        ]
+      },
+      {
+        "id": "threshold_pause_window",
+        "score": 0.78,
+        "reasons": [
+          "The day has in-between energy that suits a threshold pause.",
+          "Weather can support a liminal pause without taking over."
+        ],
+        "preferredLocationKinds": [
+          "liminal_indoor",
+          "semi_outdoor"
+        ]
+      }
+    ]
+  },
+  "sceneCandidates": {
+    "count": 5,
+    "topCandidateIds": [
+      "scene_cand_07",
+      "scene_cand_01",
+      "scene_cand_06",
+      "scene_cand_08",
+      "scene_cand_05"
+    ],
+    "programs": [
+      "return_or_repair_program",
+      "desk_reset_program",
+      "micro_purchase_program",
+      "laundry_corner_program",
+      "bookstore_pause_program"
+    ]
+  },
+  "selectedSceneCandidate": {
+    "selectedCandidateId": "scene_cand_07",
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "mechanical pencil"
+    ],
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "gentle_order"
+  },
+  "scenePlanDraft": {
+    "premise": "In the quiet, late evening after a day of study, a small, forgotten errand leads her to a familiar bookstore aisle. There, a simple mechanical pencil, left behind or found out of place, becomes the focus of a tiny, deliberate act—not of purchase, but of quiet restoration, putting a small thing back where it belongs.",
+    "microPlot": [
+      "Noticing a mechanical pencil that had rolled to the edge of a shelf, out of its proper place.",
+      "Picking it up, testing its lead with a soft click, and carefully returning it to the stationery cup near the register.",
+      "Feeling the day settle, as if a tiny, unnoticed loop had been gently closed."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "partial_presence",
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle",
+    "objectFamily": "stationery",
+    "emotionalLanding": "gentle_order",
+    "premise": "In the quiet, late evening after a day of study, a small, forgotten errand leads her to a familiar bookstore aisle. There, a simple mechanical pencil, left behind or found out of place, becomes the focus of a tiny, deliberate act—not of purchase, but of quiet restoration, putting a small thing back where it belongs."
+  },
+  "captionBrief": {
+    "goal": "写一条深夜在书店过道里，把一支滚落的自动铅笔放回原处的动态。捕捉这个微小、安静的修复动作带来的私密仪式感，让一支普通的笔短暂地带上一点个人意义，但叙述必须保持日常生活的质感和呼吸。",
+    "sceneProgramId": "return_or_repair_program"
+  },
+  "selectedCaption": {
+    "candidateAngle": "秩序的触感",
+    "caption": "发现它的时候，它正躺在书架边缘，像一句没写完的句子。\n金属的凉意停在掌心，轻轻一按，笔芯回应了咔哒的轻响。\n把它送回该在的地方，这个动作本身，就成了今晚一个安静的句号。"
+  },
+  "imageBrief": {
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle"
+  },
+  "imageRequest": {
+    "sceneProgramId": "return_or_repair_program",
+    "scene": "Scene: a quiet bookstore aisle, shelf depth and paper texture, mechanical pencil, repairing or returning mechanical pencil to its place, weather appears mainly through texture and air, slightly chilly, Frame on hands: one holding the pencil, the other resting on the wooden shelf edge, Soft, warm bookstore lighting from a nearby lamp, casting long shadows in the quiet aisle, A glimpse of a sleeve cuff, slightly frayed, and the edge of a bookshelf filled with worn spines in the shallow depth of field, Scene location archetype: bookstore aisle, Object focus: mechanical pencil, pick up mechanical pencil, everyday life in Shanghai",
+    "camera": "Camera: partial first-person presence, shelf depth framing",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, gentle_order, restoring a little order, the soft click of the pencil's mechanism and the cool, smooth weight of metal in the palm"
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 95,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "114173d99718",
+    "sceneProgram": "02efc0825691",
+    "locationArchetype": "4b69f37b09e6",
+    "objectFamily": "3b12ea31d545",
+    "selectedCaption": "95ebb4a55d82",
+    "imageScene": "a4bb1cd2d640"
+  }
+}

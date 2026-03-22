@@ -1,0 +1,362 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:46:50.640Z",
+  "source": "code",
+  "status": "novelty_ledger_ready",
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "historyWindow": 12,
+  "recentEntries": [
+    {
+      "source": "current",
+      "createdAt": "2026-03-20T10:42:26.587Z",
+      "runId": "sceneplan-2026-03-20T10-42-26",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "soft pouch",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "soft_observation",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple soft pouch isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of gentle order."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:41:05.420Z",
+      "runId": "sceneplan-2026-03-20T10-41-05",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "mechanical pencil",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a familiar bookstore becomes a quiet act of restoration. Fixing a borrowed mechanical pencil isn't just about the object; it's a tiny, forward-looking ritual of putting a small thing back in order, a private gesture of gentle care that closes a quiet loop in the day."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:39:51.863Z",
+      "runId": "sceneplan-2026-03-20T10-39-51",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "mug of cocoa",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:38:34.894Z",
+      "runId": "sceneplan-2026-03-20T10-38-34",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "mechanical pencil",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a quiet bookstore becomes a moment of gentle order. Repairing a borrowed mechanical pencil isn't just a task; it's a quiet, forward-looking ritual of putting a small thing back where it belongs, a tiny act of care that closes a quiet loop in the day."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:37:13.405Z",
+      "runId": "sceneplan-2026-03-20T10-37-13",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "warm cup sleeve",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:35:54.834Z",
+      "runId": "sceneplan-2026-03-20T10-35-54",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "planner page",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small, torn page from a planner is found tucked between books in a quiet bookstore aisle. The act of carefully smoothing its crease and slipping it back into its proper place becomes a tiny, forward-looking ritual—a quiet promise to tomorrow, made with gentle hands."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:34:37.271Z",
+      "runId": "sceneplan-2026-03-20T10-34-37",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "soft pouch",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a short errand to a covered walkway becomes a tiny, forward-looking ritual. Choosing a small, soft pouch isn't just a purchase; it's a shy act of self-care, carrying a small, tactile comfort back into the day as a private promise of gentle shelter."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-20T10:32:45.953Z",
+      "runId": "sceneplan-2026-03-20T10-32-45",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "mechanical pencil",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly early evening, a small errand to a quiet bookstore aisle becomes a gentle act of restoration. Repairing a borrowed mechanical pencil isn't just a task; it's a tiny, forward-looking ritual of putting a small thing back in order, a quiet promise to the day that even borrowed objects deserve a little care before they're returned."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-19T14:44:18.169Z",
+      "runId": "sceneplan-2026-03-19T14-44-18",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "soft pouch",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly late evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a soft, warm pouch isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-19T14:42:27.731Z",
+      "runId": "sceneplan-2026-03-19T14-42-27",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "sticky note",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the quiet, late-evening lull of a small bookstore, a stray sticky note left on a shelf becomes a tiny, misplaced artifact. The act of smoothing its curled edge and tucking it back into a book isn't just tidying; it's a quiet, forward-looking gesture of putting a small piece of the world back in order, a private ritual that feels like closing a tiny, invisible loop."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-19T14:40:31.052Z",
+      "runId": "sceneplan-2026-03-19T14-40-31",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "actionKernel": "choose_pay_carry_back",
+      "objectFamily": "comfort_item",
+      "objectBinding": "warm cup sleeve",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly late evening, a short errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the night as a private promise of a gentle reset for tomorrow."
+    },
+    {
+      "source": "runtime_run",
+      "createdAt": "2026-03-19T14:38:55.316Z",
+      "runId": "sceneplan-2026-03-19T14-38-55",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "actionKernel": "return_fix_restore",
+      "objectFamily": "stationery",
+      "objectBinding": "planner page",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionEndingFamily": "unknown",
+      "sceneSummary": "In the cool, drizzly late evening, a quiet trip to the familiar bookstore aisle becomes a gentle act of putting things back in order. A loose planner page, found tucked between the shelves, isn't just a scrap of paper; it's a small, misplaced piece of the day that asks to be returned, turning a simple errand into a private ritual of mending a tiny, invisible tear in the evening's fabric."
+    }
+  ],
+  "counts": {
+    "sceneProgramId": [
+      {
+        "value": "micro_purchase_program",
+        "count": 6
+      },
+      {
+        "value": "return_or_repair_program",
+        "count": 6
+      }
+    ],
+    "locationArchetype": [
+      {
+        "value": "bookstore_aisle",
+        "count": 6
+      },
+      {
+        "value": "covered_walkway",
+        "count": 6
+      }
+    ],
+    "locationCluster": [
+      {
+        "value": "bookish_pause",
+        "count": 6
+      },
+      {
+        "value": "shelter_pause",
+        "count": 6
+      }
+    ],
+    "actionKernel": [
+      {
+        "value": "choose_pay_carry_back",
+        "count": 6
+      },
+      {
+        "value": "return_fix_restore",
+        "count": 6
+      }
+    ],
+    "objectFamily": [
+      {
+        "value": "comfort_item",
+        "count": 6
+      },
+      {
+        "value": "stationery",
+        "count": 6
+      }
+    ],
+    "weatherRole": [
+      {
+        "value": "texture_modifier",
+        "count": 12
+      }
+    ],
+    "emotionalLanding": [
+      {
+        "value": "gentle_order",
+        "count": 6
+      },
+      {
+        "value": "shy_attachment",
+        "count": 6
+      }
+    ],
+    "presenceMode": [
+      {
+        "value": "partial_presence",
+        "count": 12
+      }
+    ],
+    "captionEndingFamily": [
+      {
+        "value": "unknown",
+        "count": 11
+      },
+      {
+        "value": "soft_observation",
+        "count": 1
+      }
+    ]
+  },
+  "dominance": {
+    "scenePrograms": [
+      {
+        "value": "micro_purchase_program",
+        "count": 6
+      },
+      {
+        "value": "return_or_repair_program",
+        "count": 6
+      }
+    ],
+    "locationArchetypes": [
+      {
+        "value": "bookstore_aisle",
+        "count": 6
+      },
+      {
+        "value": "covered_walkway",
+        "count": 6
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "comfort_item",
+        "count": 6
+      },
+      {
+        "value": "stationery",
+        "count": 6
+      }
+    ],
+    "weatherRoles": [
+      {
+        "value": "texture_modifier",
+        "count": 12
+      }
+    ],
+    "sceneClusters": [
+      {
+        "value": "bookish_pause",
+        "count": 6
+      },
+      {
+        "value": "shelter_pause",
+        "count": 6
+      }
+    ]
+  },
+  "fatigueFlags": {
+    "weatherPrimaryOveruse": false,
+    "indoorClusterOveruse": true,
+    "studyAftermathClusterOveruse": true
+  },
+  "suggestions": {
+    "coolDownScenePrograms": [
+      "micro_purchase_program",
+      "return_or_repair_program"
+    ],
+    "coolDownClusters": [
+      "bookish_pause",
+      "shelter_pause"
+    ],
+    "keepLanePressure": "life_record"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:27:04.848Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Try a scene program other than legacy_program",
+    "Use weather as texture_modifier, not just reflective_support"
+  ],
+  "avoidMotifs": [
+    "Finding forgotten accessories on desk"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking action, not rediscovery"
+  ],
+  "captionAdvice": [
+    "Use a caption ending other than soft_observation"
+  ],
+  "imageAdvice": [
+    "Show a small, intentional action in a new location"
+  ],
+  "summary": "Shift from rediscovery to a gentle, forward-looking action in a fresh setting.",
+  "errorMessage": ""
+}

@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:45:19.814Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use a non-legacy scene program (e.g., micro_purchase, return_or_repair)",
+    "Shift location away from indoor_desk_corner to a less used archetype like park_bench or transit_stop",
+    "Choose an object family other than accessory, like snack_item or textile"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Overusing reflective_support weather role; try texture_modifier or ambient_sound",
+    "Ending caption with soft_observation; experiment with private_omen or quiet_completion"
+  ],
+  "narrativeNudges": [
+    "Focus on a forward-looking small action rather than rediscovery of past items",
+    "Incorporate a subtle interaction with the environment (e.g., sound, texture change)",
+    "Keep emotional landing gentle but with a hint of shy_attachment or tiny_reset"
+  ],
+  "captionAdvice": [
+    "Start with a present-moment sensory detail (e.g., sound, touch) not related to rain or wind",
+    "Use short sentences with one slightly longer breath for rhythm",
+    "End with a private, forward-looking thought rather than a general observation"
+  ],
+  "imageAdvice": [
+    "Frame to show partial presence with focus on hands or object interaction",
+    "Use natural, soft lighting to match late_evening mood",
+    "Avoid cluttered backgrounds; keep scene simple and intimate"
+  ],
+  "summary": "Shift from repetitive selfie streak and legacy indoor rediscovery to a gentle, forward-looking life_record scene with a fresh location and object, maintaining intimate tone while avoiding overused motifs.",
+  "errorMessage": ""
+}

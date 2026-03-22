@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:43:38.973Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-42-51",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best balances the required daily-life texture with a light chunibyo touch, directly incorporating the weather variable (10.4°C) and framing the object as a '毛茸茸的防御' and '无声的暗号,' which aligns perfectly with the character's tendency to read small omens and the scene's emotional landing of 'shy_attachment.' It feels like a private, publishable note that is fresh against recent history, avoiding the overused 'indoor_desk_corner' and 'legacy_program' semantics while staying grounded in the concrete action of the micro-purchase.",
+  "strengths": [
+    "Integrates the specific weather detail naturally, fulfilling the daily-variable requirement",
+    "Uses '防御' and '暗号' to give the ordinary object secret weight without sounding overwritten",
+    "Matches the 'partial_presence' visual with focus on the counter light and the act of paying",
+    "Avoids repetitive opening lines and feels distinct from recent 'soft_observation' endings"
+  ],
+  "risks": [
+    "The phrase '无声的暗号' could be slightly abstract for some readers, though it fits the persona",
+    "Slightly less direct sensory focus on touch compared to candidate 01, but still evokes texture"
+  ],
+  "errorMessage": ""
+}

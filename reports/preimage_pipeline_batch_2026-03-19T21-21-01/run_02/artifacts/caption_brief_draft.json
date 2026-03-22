@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:23:36.391Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-23-13",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a quiet, private note to self about returning a borrowed mechanical pencil to a bookstore shelf on a drizzly Shanghai evening. Capture the small ritual of closing a tiny loop, focusing on the sensory details of the act and the gentle, settled feeling it brings, without making it a grand statement.",
+  "audienceFeeling": "a soft, intimate recognition of small, meaningful acts",
+  "openingMoves": [
+    "Start with a sensory detail from the scene (e.g., the sound, the light, the damp sleeve)",
+    "Mention the object (the pencil) and its simple journey",
+    "Frame the action as a small, personal task or moment of quiet"
+  ],
+  "mustInclude": [
+    "The mechanical pencil, slightly worn, being placed back on the wooden shelf",
+    "The warm, hushed light and paper-dust scent of the bookstore aisle",
+    "The cool, damp texture from the light rain (小雨) on a coat sleeve",
+    "The feeling of mending a tiny, frayed thread or closing a small loop",
+    "A light chunibyo touch—treating the ordinary pencil as holding a stranger's thoughts or as a small omen"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "A fixed, slogan-like ending or repeated signature line",
+    "Forcing the moment into a grand fateful declaration",
+    "Explicitly explaining the 'secret meaning'—let it linger",
+    "Dialogue or lore exposition"
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase",
+    "End with a soft, trailing tone or gentle self-address",
+    "Sound like a real person posting a private, momentary thought",
+    "Let the pencil briefly feel like an object with secret weight, but keep it grounded in daily texture",
+    "Incorporate the light chunibyo energy as a faint, intimate layer, not theatrical表演"
+  ],
+  "hashtagAngles": [
+    "#上海小雨",
+    "#书店日常",
+    "##微小仪式",
+    "#物归原处",
+    "#轻中二日常",
+    "#生活记录"
+  ],
+  "summary": "A quiet, late-evening moment in a Shanghai bookstore where returning a borrowed mechanical pencil becomes a gentle, private ritual of order.",
+  "errorMessage": ""
+}

@@ -1,0 +1,68 @@
+{
+  "candidateId": "event_01",
+  "lane": "life_record",
+  "eventSummaryZh": "下午整理书架时，发现一本旧书里夹着一张几年前随手写的便签，上面的字迹已经有点晕开了。",
+  "hookWhyInterestingZh": "它足够小，但像一天里会被真实留下来的那一块。",
+  "causalChainZh": [
+    "原本只是继续往下做日常动作。",
+    "某个具体细节突然把注意力拉住。",
+    "心里的重量轻轻偏了一下。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause"
+    ],
+    "inferredDetailsZh": [
+      "这个细节原本不重要，但今天被注意到了。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+  "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+  "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+  "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+  "visualEvidenceZh": [
+    "手边的小物件",
+    "动作停住的一瞬间",
+    "人物存在的痕迹"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "只是形成一点点今日气压"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T09:12:44.776Z",
+  "review": {
+    "candidateId": "event_01",
+    "personaTruthScore": 85,
+    "groundingScore": 80,
+    "postabilityScore": 82,
+    "coherenceScore": 84,
+    "characterPresenceFitScore": 78,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "物理细节（字迹晕开）触发情感停顿",
+      "图文同源：手与旧书、便签的痕迹",
+      "符合角色对微小征兆的敏感"
+    ],
+    "risksZh": [
+      "需避免画面变成装饰性书桌静物",
+      "需确保人物存在痕迹清晰，以匹配clear_character_presence"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。",
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

@@ -1,0 +1,95 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:29:50.448Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-28-59",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "A quiet evening at home after a day of study, where a small, ordinary object on the desk briefly feels like a tiny, personal omen for tomorrow.",
+    "microPlot": [
+      "The last bit of daylight fades, leaving the room in the glow of a single desk lamp.",
+      "Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark.",
+      "A soft, private thought forms—a quiet wish for the morning, sealed with this tiny ritual."
+    ],
+    "sensoryFocus": "the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+    "selectedCaptionOpening": "雨让夜晚变得很软。",
+    "selectedCaptionSummary": "雨让夜晚变得很软。 翻开的笔记本，页角有点毛了，一枚红色发夹静静地压着字迹。 摸了摸它，凉凉的，滑滑的——忽然希望明天也能被这样轻轻按住，不要散掉。 10.4度的空气里，有一点纸的暖香。",
+    "candidateAngle": "感官切片"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"雨让夜晚变得很软。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the faint, warm scent of paper and the cool, smooth touch of the hairclip",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow | Notebook is slightly worn at the edges, with a few loose pages visible | The small red hairclip rests precisely on the open page, catching a glint of the lamplight | A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie | The last bit of daylight fades, leaving the room in the glow of a single desk lamp | Her finger traces the worn corner of a notebook, a small red hairclip resting on its open page like a bookmark",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Compose a still-life or detail shot (e.g., a book, a cup, a shadow)",
+    "Use softer, indirect lighting to match a contemplative mood",
+    "Shift focus from self-portrait to a detailed object or small scene",
+    "Introduce a subtle indoor or nighttime setting to contrast recent daytime/outdoor posts",
+    "Desk lamp casts a soft, warm pool of light, leaving the rest of the room in gentle shadow.",
+    "Notebook is slightly worn at the edges, with a few loose pages visible.",
+    "The small red hairclip rests precisely on the open page, catching a glint of the lamplight.",
+    "A faint, blurred reflection of her face might be visible in the dark window behind the desk, tying her presence to the scene without a direct selfie.",
+    "A quiet, sensory detail that anchors the private moment",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

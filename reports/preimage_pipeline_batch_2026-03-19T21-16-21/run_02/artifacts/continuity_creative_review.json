@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:46.465Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from indoor desk corners to a different indoor or sheltered outdoor spot",
+    "Use an action kernel other than 'find_unfold_notice_again'"
+  ],
+  "avoidMotifs": [
+    "Repeating 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a small, forward-looking action rather than rediscovery"
+  ],
+  "captionAdvice": [
+    "End with a gentle forward-looking note instead of soft observation"
+  ],
+  "imageAdvice": [
+    "Frame a scene with partial presence, focusing on hands or an object in use"
+  ],
+  "summary": "Maintain the cozy, reflective mood but pivot from rediscovery to a small, intentional evening action.",
+  "errorMessage": ""
+}

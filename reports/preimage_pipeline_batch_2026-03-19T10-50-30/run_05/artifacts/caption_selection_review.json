@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:01.008Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-56-12",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This caption best executes the lane pivot to life_record by focusing on the scene's objects and atmosphere with a gentle, immersive voice. It integrates the required sensory detail (light, sound), the character trace (red hairclip), and the daily variable (rain) seamlessly into a cohesive micro-plot about finding order. The tone is cozy and lightly whimsical without being commercial, and it naturally weaves in the catchphrase, making the ordinary moment feel special and publishable.",
+  "strengths": [
+    "Strong object-focused immersion aligns perfectly with life_record lane",
+    "Elegantly integrates character trace (red hairclip) and sensory details",
+    "Poetic yet grounded tone fits light chunibyo and feels fresh",
+    "Naturally incorporates the required catchphrase and weather hint"
+  ],
+  "risks": [
+    "Slightly more abstract ('corner of the heart has cleared up') may feel less direct",
+    "Uses four hashtags, nearing the upper limit"
+  ],
+  "errorMessage": ""
+}

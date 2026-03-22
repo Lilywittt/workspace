@@ -1,0 +1,91 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:17:47.175Z",
+  "source": "code",
+  "status": "selected_scene_candidate_ready",
+  "selectedCandidateId": "scene_cand_07",
+  "selectionReason": "Selected return_or_repair_program because it balanced novelty 94, feasibility 92, and persona fit 88.",
+  "selectedCandidate": {
+    "candidateId": "scene_cand_07",
+    "lane": "life_record",
+    "sceneProgramId": "return_or_repair_program",
+    "affordanceId": "return_or_repair_window",
+    "locationArchetype": "bookstore_aisle",
+    "locationCluster": "bookish_pause",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "paper clip"
+    ],
+    "weatherRole": "texture_modifier",
+    "actionKernel": "return_fix_restore",
+    "actionSequence": [
+      "pick up paper clip",
+      "repair, return, or put it back where it belongs",
+      "feel the day close a tiny loop"
+    ],
+    "emotionalLanding": "gentle_order",
+    "presenceMode": "partial_presence",
+    "captionHooks": [
+      "putting a small thing back where it belongs",
+      "repair as quiet affection"
+    ],
+    "imageHooks": [
+      "hands fixing or returning an item",
+      "small before/after feeling"
+    ],
+    "premiseSeed": "paper clip becomes the center of a return fix restore moment at bookstore aisle.",
+    "scores": {
+      "total": 94,
+      "novelty": 94,
+      "feasibility": 92,
+      "personaFit": 88
+    }
+  },
+  "rankedCandidates": [
+    {
+      "candidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "totalScore": 94,
+      "locationArchetype": "bookstore_aisle",
+      "objectFamily": "stationery",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "sceneProgramId": "desk_reset_program",
+      "totalScore": 77,
+      "locationArchetype": "window_seat",
+      "objectFamily": "stationery",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_06",
+      "sceneProgramId": "micro_purchase_program",
+      "totalScore": 77,
+      "locationArchetype": "covered_walkway",
+      "objectFamily": "comfort_item",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "shy_attachment"
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "sceneProgramId": "laundry_corner_program",
+      "totalScore": 73,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "gentle_order"
+    },
+    {
+      "candidateId": "scene_cand_05",
+      "sceneProgramId": "bookstore_pause_program",
+      "totalScore": 62,
+      "locationArchetype": "bookstore_aisle",
+      "objectFamily": "keepsake",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "shy_attachment"
+    }
+  ]
+}

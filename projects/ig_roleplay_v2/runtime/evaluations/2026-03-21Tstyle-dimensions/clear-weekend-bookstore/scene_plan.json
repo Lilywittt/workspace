@@ -1,0 +1,63 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore",
+  "createdAt": "2026-03-21T15:37:08.124Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "clear to lightly cloudy",
+    "locationName": "Shanghai",
+    "routineWindow": "afternoon_pause"
+  },
+  "narrative": {
+    "premise": "She was only tidying up for a second, then paused because of planner.",
+    "microPlot": [
+      "She was only moving through an ordinary routine.",
+      "One specific detail briefly pulled her attention sideways.",
+      "The feeling did not grow into drama; it just settled for a moment."
+    ],
+    "sensoryFocus": "一个真实的生活片段，在路过时被捕捉。",
+    "emotionalLanding": "A tiny detail made her pause internally for half a beat."
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "finger paused at an edge",
+      "sleeve cuff",
+      "partially opened carried item"
+    ],
+    "sceneNotes": [
+      "context: weekend_pause_window",
+      "weather: clear to lightly cloudy",
+      "world_state: A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+      "world_state: Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "capture: observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear",
+      "identity_stability"
+    ],
+    "supportObjectRefs": [
+      "planner",
+      "mechanical_pencil"
+    ],
+    "supportPlaceRef": "bookstore_aisle",
+    "supportRoutineRef": "window_afternoon_pause",
+    "activeExternalEventIds": [
+      "bookstore_weekend_stationery_display"
+    ]
+  }
+}

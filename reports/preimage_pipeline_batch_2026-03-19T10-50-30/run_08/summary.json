@@ -1,0 +1,273 @@
+{
+  "runIndex": 8,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-59-53",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor setting or a different time of day"
+    ],
+    "avoidMotifs": [
+      "Avoid opening captions about rain or wind",
+      "Avoid overusing #上海, #日常, #自拍, #小确幸"
+    ],
+    "captionAdvice": [
+      "Use a caption about a specific object or a quiet observation",
+      "Keep tone reflective but slightly more active than previous"
+    ],
+    "imageAdvice": [
+      "Frame a scene with hands or objects, not a face-forward selfie",
+      "Use warmer indoor lighting if possible"
+    ],
+    "summary": "Maintain the intimate diary feel but pivot from selfies to a simple life-record scene to refresh the visual rhythm."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "partial_presence",
+    "narrativePremise": "After a morning of studying, she tidies her desk, finding a small, forgotten charm tucked under a notebook—a tiny, worn rabbit keychain from a childhood trip, its threadbare ears a sudden, soft anchor to a simpler time.",
+    "microPlot": [
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space.",
+      "action sentence: She carefully stacks her textbooks, wipes the desk with a soft cloth, and discovers the old keychain hidden beneath.",
+      "feeling sentence: A quiet warmth spreads through her chest, a mix of nostalgia and gentle surprise that something so small can still feel so comforting."
+    ],
+    "sceneNotes": [
+      "Desk lit by a warm, low desk lamp, casting soft shadows.",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in.",
+      "The red hairclip visible at the edge of her hair, catching the light.",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain.",
+      "A faint, blurred background of a bedroom shelf with a few trinkets."
+    ],
+    "captionFocus": [
+      "A quiet moment of rediscovery in the midst of tidying up."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "partial_presence",
+    "premise": "After a morning of studying, she tidies her desk, finding a small, forgotten charm tucked under a notebook—a tiny, worn rabbit keychain from a childhood trip, its threadbare ears a sudden, soft anchor to a simpler time.",
+    "microPlot": [
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space.",
+      "action sentence: She carefully stacks her textbooks, wipes the desk with a soft cloth, and discovers the old keychain hidden beneath.",
+      "feeling sentence: A quiet warmth spreads through her chest, a mix of nostalgia and gentle surprise that something so small can still feel so comforting."
+    ],
+    "sensoryFocus": "soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+    "concreteSceneCues": [
+      "Desk lit by a warm, low desk lamp, casting soft shadows",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in",
+      "The red hairclip visible at the edge of her hair, catching the light",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain",
+      "A faint, blurred background of a bedroom shelf with a few trinkets",
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a short, intimate caption that shares the quiet moment of finding a forgotten childhood charm while tidying a desk, blending gentle nostalgia with the texture of daily life, and maintaining a light chunibyo voice that feels personal and non-commercial.",
+    "audienceFeeling": "a soft, relatable warmth",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo: slightly dramatic but grounded in daily life"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉怀旧",
+      "opening": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+      "caption": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#整理桌面",
+        "#动漫感日常",
+        "#上海"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物叙事",
+      "opening": "复习完的桌面堆满了书，决定彻底收拾一下。擦灰尘时，红色发卡的光晃了一下眼睛，然后就看见了它——一只被遗忘的、旧旧的兔子。原来有些东西不是丢了，只是悄悄睡在时间的褶皱里。今天，也要明亮地活着呢。",
+      "caption": "复习完的桌面堆满了书，决定彻底收拾一下。擦灰尘时，红色发卡的光晃了一下眼睛，然后就看见了它——一只被遗忘的、旧旧的兔子。原来有些东西不是丢了，只是悄悄睡在时间的褶皱里。今天，也要明亮地活着呢。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#上海日常",
+        "#整理桌面"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "瞬间锚点",
+      "opening": "10.4度的雨天真适合整理回忆。一摞摞搬开书本，像揭开一层层过去。最后留在掌心的是这只兔子钥匙扣，线头都露出来了，却比任何崭新的东西都让人安心。原来最坚固的锚点，往往是最柔软的。今天，依然要明亮地活着。",
+      "caption": "10.4度的雨天真适合整理回忆。一摞摞搬开书本，像揭开一层层过去。最后留在掌心的是这只兔子钥匙扣，线头都露出来了，却比任何崭新的东西都让人安心。原来最坚固的锚点，往往是最柔软的。今天，依然要明亮地活着。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#动漫感日常",
+        "#整理桌面"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "触觉怀旧",
+      "opening": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+      "caption": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#整理桌面",
+        "#动漫感日常",
+        "#上海"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "静物叙事",
+      "opening": "复习完的桌面堆满了书，决定彻底收拾一下。擦灰尘时，红色发卡的光晃了一下眼睛，然后就看见了它——一只被遗忘的、旧旧的兔子。原来有些东西不是丢了，只是悄悄睡在时间的褶皱里。今天，也要明亮地活着呢。",
+      "caption": "复习完的桌面堆满了书，决定彻底收拾一下。擦灰尘时，红色发卡的光晃了一下眼睛，然后就看见了它——一只被遗忘的、旧旧的兔子。原来有些东西不是丢了，只是悄悄睡在时间的褶皱里。今天，也要明亮地活着呢。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#上海日常",
+        "#整理桌面"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "瞬间锚点",
+      "opening": "10.4度的雨天真适合整理回忆。一摞摞搬开书本，像揭开一层层过去。最后留在掌心的是这只兔子钥匙扣，线头都露出来了，却比任何崭新的东西都让人安心。原来最坚固的锚点，往往是最柔软的。今天，依然要明亮地活着。",
+      "caption": "10.4度的雨天真适合整理回忆。一摞摞搬开书本，像揭开一层层过去。最后留在掌心的是这只兔子钥匙扣，线头都露出来了，却比任何崭新的东西都让人安心。原来最坚固的锚点，往往是最柔软的。今天，依然要明亮地活着。",
+      "hashtags": [
+        "#生活碎片",
+        "#怀旧小物",
+        "#动漫感日常",
+        "#整理桌面"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the life_record pivot by grounding the scene in immediate sensory discovery ('摸到一个软软的小东西', '指尖却突然触到'), cleanly executes the required micro-plot, and integrates the weather ('窗外的雨声细细的') and catchphrase with natural, non-dominant flow. Its gentle chunibyo turn ('干燥温暖的旧时光') feels intimate and publishable, avoiding the slightly more abstract metaphors of the other options which carry higher tonal risk.",
+    "strengths": [
+      "Strong sensory lead with tactile discovery aligning with the brief",
+      "Clean, linear micro-plot execution from cause to feeling",
+      "Weather and catchphrase integrated subtly without dominating",
+      "Maintains intimate, diary-like first-person voice",
+      "Effective lane pivot from selfie to environment-focused life_record"
+    ],
+    "risks": [
+      "Mild repetition of 'soft' texture concepts",
+      "Hashtag #上海 is frequent in recent history but fits the scene"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "触觉怀旧",
+    "caption": "整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。",
+    "hashtags": [
+      "#生活碎片",
+      "#怀旧小物",
+      "#整理桌面",
+      "#动漫感日常",
+      "#上海"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=105. review=This caption best fulfills the life_record pivot by grounding the scene in immediate sensory discovery ('摸到一个软软的小东西', '指尖却突然触到'), cleanly executes the required micro-plot, and integrates the weather ('窗外的雨声细细的') and catchphrase with natural, non-dominant flow. Its gentle chunibyo turn ('干燥温暖的旧时光') feels intimate and publishable, avoiding the slightly more abstract metaphors of the other options which carry higher tonal risk."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "partial_presence",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"整理书桌时，在笔记本下摸到一个软软的小东西。是小时候旅行带回来的兔子挂件，绒毛都磨平了，耳朵也软塌塌的。窗外的雨声细细的，指尖却突然触到一段干燥温暖的旧时光。今天应该也明亮地活着吧。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Desk lit by a warm, low desk lamp, casting soft shadows | Textbooks stacked neatly, one slightly askew with a pencil tucked in | The red hairclip visible at the edge of her hair, catching the light | Her hands in frame, one holding the cloth, the other cradling the keychain | A faint, blurred background of a bedroom shelf with a few trinkets | cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_partial_presence_daily_record",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk lit by a warm, low desk lamp, casting soft shadows, Textbooks stacked neatly, one slightly askew with a pencil tucked in, The red hairclip visible at the edge of her hair, catching the light, Her hands in frame, one holding the cloth, the other cradling the keychain, A faint, blurred background of a bedroom shelf with a few trinkets, cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space, everyday life in Shanghai",
+    "camera": "Camera: partial first-person presence",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, reflective, soft cloth texture, faint paper-dust scent, worn plush under fingertips",
+    "shotNotes": [
+      "Desk lit by a warm, low desk lamp, casting soft shadows",
+      "Textbooks stacked neatly, one slightly askew with a pencil tucked in",
+      "The red hairclip visible at the edge of her hair, catching the light",
+      "Her hands in frame, one holding the cloth, the other cradling the keychain",
+      "A faint, blurred background of a bedroom shelf with a few trinkets",
+      "cause sentence: The clutter of books and notes from her review session feels overwhelming, prompting a need to clear space",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "db14d85a1710",
+    "selectedCaption": "5a1265cbd164",
+    "imageScene": "1f47ea1298fd",
+    "candidateAngles": "9eda39fe7f5d"
+  }
+}

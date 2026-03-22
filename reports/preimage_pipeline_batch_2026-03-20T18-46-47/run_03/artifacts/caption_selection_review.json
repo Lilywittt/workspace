@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:51:12.145Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-50-16",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the scene brief by delivering a complete, sensory micro-plot (sliding out, unfolding, receiving) that feels like a private note to oneself. It integrates the weather naturally as atmosphere, directly lands the 'private omen' emotional beat, and avoids the repetitive indoor/study fatigue by focusing on a fresh rediscovery moment. The language is gentle, believably chunibyo in its 'secret code' framing, and matches the required daily-life texture without sounding overwritten.",
+  "strengths": [
+    "Complete, three-part micro-plot that mirrors the scene plan's action kernel.",
+    "Strong integration of sensory detail (veins in grey window light) and weather (drizzly evening).",
+    "Perfectly captures the 'private omen' and 'tiny trace from an earlier self' hooks.",
+    "Feels most like a real, intimate memo with a soft, breath-like ending.",
+    "Avoids fatigue from recent indoor/purchase/repair semantics by centering a paper fragment discovery."
+  ],
+  "risks": [
+    "Slightly more abstract than candidate 02's concrete temperature mention.",
+    "The 'secret code' metaphor, while fitting, edges close to being a tiny bit theatrical."
+  ],
+  "errorMessage": ""
+}

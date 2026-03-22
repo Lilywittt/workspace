@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:24:47.865Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening light of a small bookstore, a loose page from a planner is found tucked between the shelves. The simple act of smoothing its crease and slipping it back into its proper place becomes a tiny, forward-looking gesture—a quiet promise to the future self that even small things can be returned to order.",
+  "microPlot": [
+    "A loose, folded page from a daily planner is discovered nestled between two books in a quiet aisle.",
+    "She carefully unfolds it, smooths the crease with her thumb, and tucks it back into the planner on a nearby display.",
+    "A quiet sense of gentle order settles, as if a tiny, unseen loop has been neatly closed."
+  ],
+  "sensoryFocus": "the soft rustle of paper and the faint, woody scent of old shelves",
+  "sceneNotes": [
+    "Focus on hands: thumb smoothing a crease on a slightly worn planner page.",
+    "Ambient light from a warm, low-wattage bulb catching the edge of the paper.",
+    "The planner on display is open to a future date, blank and waiting.",
+    "A small, red hairclip is just visible at the edge of the frame."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small act of repair as a quiet form of affection for the coming days."
+  ],
+  "summary": "A found planner page in a bookstore becomes the focus of a quiet, restorative act, turning a minor disorder into a forward-looking promise.",
+  "errorMessage": ""
+}

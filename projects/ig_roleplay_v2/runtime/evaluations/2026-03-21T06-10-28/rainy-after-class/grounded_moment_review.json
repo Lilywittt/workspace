@@ -1,0 +1,84 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 82,
+      "postabilityScore": 88,
+      "coherenceScore": 86,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理触发清晰（手指蹭到不平整触感）",
+        "细节顽固且普通（嵌在木缝里的粉笔头）",
+        "图文同源潜力高（椅背、木纹、粉笔、书包带）",
+        "符合“被外界轻轻擦过”的气压"
+      ],
+      "risksZh": [
+        "需确保视觉上木纹和粉笔的质感真实，避免装饰感"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 72,
+      "coherenceScore": 70,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "感官细节具体（水流声变化）",
+        "有因果链（水压不稳导致声音变化）"
+      ],
+      "risksZh": [
+        "视觉证据（细水流、悬空的手）可能流于常见静物构图",
+        "对“雨天”的依赖稍显直接，有装饰风险",
+        "情绪触发点（“数什么”）稍显刻意"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 80,
+      "groundingScore": 78,
+      "postabilityScore": 75,
+      "coherenceScore": 78,
+      "sourceMirroringRiskScore": 30,
+      "strengthsZh": [
+        "符合“对痕迹敏感”的气质",
+        "细节私人（自己折的角却忘了）"
+      ],
+      "risksZh": [
+        "事件总结（“翻开笔记本发现折角”）本身是常见叙事模板",
+        "容易滑入“怀旧/时光”的通用盆地",
+        "视觉上（手指捏折角）可能显得摆拍"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 82,
+      "groundingScore": 80,
+      "postabilityScore": 80,
+      "coherenceScore": 83,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "预期落空的转折生动（灯不亮但有影子）",
+        "光影细节具体，视觉化强",
+        "环境氛围（雨天傍晚）融合自然"
+      ],
+      "risksZh": [
+        "“影子”作为意象有被过度解读或符号化的风险",
+        "对“存在”的轻微中二解读需克制，避免偏离私人观察"
+      ],
+      "verdict": "backup"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。event_01 因物理触发明确、细节顽固普通、图文同源度高且风险最低被推荐。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

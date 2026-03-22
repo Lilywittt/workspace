@@ -1,0 +1,16 @@
+{
+  "selectedCandidateId": "caption_01",
+  "reasonZh": "这个选项最符合“只说手指停在纸页边缘这个动作，不提为什么停下”的意图，用一个具体、可感的比喻（安静的开关）捕捉了那个微小停顿的质地，听起来像一个真实的人会分享的私人观察。",
+  "strengthsZh": [
+    "Concrete",
+    "Natural",
+    "Preserves the selected moment"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

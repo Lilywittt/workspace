@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:25:47.100Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-24-48",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best captures the scene's forward-looking, gentle-order essence by focusing on the 'future date page' and its blankness, turning the physical act of smoothing and returning into a quiet metaphor for possibility. It avoids overused indoor-desk semantics, fits the 'bookish_pause' location cluster, and delivers the required private-ritual texture with a light, publishable touch.",
+  "strengths": [
+    "Strong forward-looking metaphor ('future date page', 'blank', 'can start over') that fits the scene's emotional landing of gentle_order",
+    "Fresh object focus (stationery/paper) avoids fatigued 'accessory' family",
+    "Concrete sensory detail ('rustle of paper') integrated naturally",
+    "Light chunibyo tone is present but subtle, avoiding theatrical fantasy",
+    "Ending feels like a soft, private observation, not a fixed slogan"
+  ],
+  "risks": [
+    "Slightly less direct action description compared to candidate 01's 'smoothing'",
+    "Metaphor could be read as overly poetic if the image doesn't clearly show the blank page"
+  ],
+  "errorMessage": ""
+}

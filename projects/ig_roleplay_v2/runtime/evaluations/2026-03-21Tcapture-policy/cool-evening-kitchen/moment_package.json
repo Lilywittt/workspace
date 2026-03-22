@@ -1,0 +1,140 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:53:32.094Z",
+  "sourceCandidateId": "event_01",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "她只是想把桌上那杯凉掉的水倒掉，却在拿起杯子时，指尖碰到了杯沿一处几乎看不见的细小缺口。",
+    "hookWhyInterestingZh": "一个微小的、几乎被遗忘的瑕疵，在某个瞬间突然被重新感知。",
+    "causalChainZh": [
+      "她准备清理桌面，结束一天。",
+      "拿起水杯时，指尖意外地擦过一处平时从未注意的缺口。",
+      "触感带来的短暂停顿，让她对这件日常物品产生了一瞬间的陌生感。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_home_evening_reset",
+        "weather_cloudy"
+      ],
+      "inferredDetailsZh": [
+        "傍晚的凉意让杯子的触感更明显。",
+        "在家中的日常整理场景下，这种微小的发现才可能发生。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "城市信号中提到的‘杯沿在天气转凉时变得更可感知’，为这个瞬间提供了微弱的环境底色，但没有直接导致事件。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "她只是机械地执行着收尾的动作，思绪放空。",
+    "after": "指尖传来的异样触感，让她从自动导航的状态里短暂地抽离了半秒。",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "home_evening_reset",
+    "routineWindow": "evening_reset",
+    "weather": "cool cloudy evening",
+    "minimalBounds": [
+      "context_home_evening_reset",
+      "window_evening_reset",
+      "weather_cloudy",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "这是一个非常具体、有触感的瞬间，没有戏剧性，却真实地捕捉了日常生活中的一个微小断层。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "captureIntent": {
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    },
+    "allowances": {
+      "cameraRelation": [
+        "observational",
+        "companion_like",
+        "ambiguous",
+        "self_held",
+        "mirror_mediated"
+      ],
+      "faceReadability": [
+        "not_required",
+        "glimpse",
+        "readable"
+      ],
+      "bodyCoverage": [
+        "hand_only",
+        "partial",
+        "half",
+        "three_quarter",
+        "full"
+      ],
+      "distance": [
+        "macro",
+        "close",
+        "medium",
+        "wide"
+      ],
+      "environmentWeight": [
+        "low",
+        "balanced",
+        "high"
+      ]
+    },
+    "guidanceEn": [
+      "the frame should feel witnessed from the outside, not automatically self-held",
+      "a brief or partial face glimpse is enough; do not force portrait dominance",
+      "partial body coverage is enough when it keeps the moment concrete",
+      "medium distance is a stable everyday framing for ordinary daily-life moments",
+      "balance the protagonist and environment so they support the same lived beat together"
+    ]
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "她拿着杯子的手部特写，可以看清手指与杯沿的接触点。",
+      "她的侧脸或上半身，表情是专注而略带疑惑的停顿。",
+      "背景是家中桌面的局部，光线偏冷，符合傍晚氛围。"
+    ],
+    "mayShow": [
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context.",
+      "pressed leaf is a plausible object anchor in this context.",
+      "bookmark is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

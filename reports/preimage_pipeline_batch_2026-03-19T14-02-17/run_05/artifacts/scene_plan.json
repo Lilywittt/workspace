@@ -1,0 +1,129 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T06-08-03",
+  "createdAt": "2026-03-19T06:08:03.175Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ]
+  },
+  "narrative": {
+    "premise": "In the quiet, fluorescent-lit hallway of a library after hours, a loose button found on the floor becomes a tiny, misplaced artifact. For a moment, it feels like a secret message left behind, a small weight in the palm that connects to no one and everyone.",
+    "microPlot": [
+      "Finding a single, pale blue button on the linoleum near the water cooler.",
+      "Picking it up and rolling it between thumb and forefinger, feeling its cool, smooth surface.",
+      "A quiet, unnamed feeling of holding a story that isn't hers, a small secret the hallway kept."
+    ],
+    "sensoryFocus": "the cool, smooth ceramic of the button; the faint hum of the water cooler; the sharp, clean scent of floor cleaner."
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow",
+      "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button",
+      "The button is pale blue, slightly worn, resting on speckled grey linoleum",
+      "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude",
+      "A red hairclip is just visible at the very edge of the frame, a signature trace",
+      "Finding a single, pale blue button on the linoleum near the water cooler"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a detail of the scene (hands, an object, a partial view) with soft, indirect light",
+      "Avoid direct eye contact with the camera; imply presence through a shadow or reflection",
+      "Focus on an object or small action, not a face-forward selfie",
+      "Shift from indoor/coffee shop to a different mundane location (e.g., hallway, bookstore aisle, bus stop)",
+      "Wide shot of an empty library hallway, fluorescent lights casting a pale, even glow.",
+      "Character's shadow falls across the floor, only her hand and forearm visible in frame as she picks up the button.",
+      "The button is pale blue, slightly worn, resting on speckled grey linoleum.",
+      "Focus is on the hand and the object, the rest of the scene softly out of focus, implying solitude.",
+      "A red hairclip is just visible at the very edge of the frame, a signature trace.",
+      "A tactile detail (the button's texture) opens the thought.",
+      "Ends with a gentle, unanswered question about where small lost things belong.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_observational",
+      "intimate",
+      "slightly_unresolved"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from selfie to a life_record focusing on a small object in a new mundane location, using tactile details and an unresolved, intimate tone.",
+    "draftSummary": "A life_record scene in a library hallway where finding a lost button becomes a brief, private ritual of connection and release.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

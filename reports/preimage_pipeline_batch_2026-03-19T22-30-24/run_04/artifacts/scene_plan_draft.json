@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:35:33.363Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening lull of a small bookstore, a loose page from a planner is found, not as a forgotten relic to be kept, but as a small object that needs to be put right. The act of carefully smoothing its crease and slipping it back into its proper section becomes a tiny, forward-looking ritual of gentle order.",
+  "microPlot": [
+    "A loose, slightly crumpled page from a daily planner is found tucked between two books in a quiet aisle.",
+    "She carefully smooths the page flat against the book's cover, then slides it back into the planner's rings where it belongs.",
+    "A quiet, satisfied feeling settles in, as if a tiny, invisible loop in the day has been neatly closed."
+  ],
+  "sensoryFocus": "the soft, dry rustle of paper being smoothed",
+  "sceneNotes": [
+    "Focus on hands: one holding the planner open, the other gently pressing the page flat.",
+    "The planner is a simple, well-used one, with faint pencil notes in the margins.",
+    "Ambient light from a nearby warm lamp catches the edge of the page and her wrist.",
+    "The background is softly blurred shelves, suggesting the quiet depth of the bookstore."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of putting a small thing back where it belongs."
+  ],
+  "summary": "A late-evening bookstore pause turns into a quiet act of restoration, as a stray planner page is carefully returned to its place.",
+  "errorMessage": ""
+}

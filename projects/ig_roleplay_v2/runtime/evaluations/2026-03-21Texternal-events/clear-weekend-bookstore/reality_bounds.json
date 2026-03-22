@@ -1,0 +1,188 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:16:00.577Z",
+  "mode": "weak_bounds_and_repair_context",
+  "minimalBounds": [
+    {
+      "boundId": "context_weekend_pause_window",
+      "kind": "context",
+      "statement": "Current context is weekend_pause_window."
+    },
+    {
+      "boundId": "window_afternoon_pause",
+      "kind": "time_window",
+      "statement": "Current routine window is afternoon_pause."
+    },
+    {
+      "boundId": "weather_clear",
+      "kind": "weather",
+      "statement": "Weather reads as 晴到多云."
+    },
+    {
+      "boundId": "identity_stability",
+      "kind": "identity",
+      "statement": "Core identity anchors must remain stable: soft_anime_face, youthful_presence, small_red_hairclip."
+    },
+    {
+      "boundId": "external_bookstore_weekend_stationery_display",
+      "kind": "external_event",
+      "statement": "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance."
+    }
+  ],
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "被外界轻轻擦过的感觉"
+    ],
+    "weakPullsZh": [
+      "只形成气压，不形成命题"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "repairFacts": [
+    {
+      "factId": "place_bookstore_aisle",
+      "kind": "place",
+      "refId": "bookstore_aisle",
+      "statement": "quiet bookstore aisle is a plausible nearby anchor in this context.",
+      "traits": [
+        "paper texture",
+        "shelf depth",
+        "quiet indoor browsing space"
+      ]
+    },
+    {
+      "factId": "object_planner",
+      "kind": "object",
+      "refId": "planner",
+      "statement": "planner is a plausible object anchor in this context.",
+      "traits": [
+        "paper cover",
+        "pocket or insert pages",
+        "carried as a daily item"
+      ]
+    },
+    {
+      "factId": "object_mechanical_pencil",
+      "kind": "object",
+      "refId": "mechanical_pencil",
+      "statement": "mechanical pencil is a plausible object anchor in this context.",
+      "traits": [
+        "small hand-held writing tool",
+        "click adjustment",
+        "easy to carry"
+      ]
+    },
+    {
+      "factId": "object_receipt_corner",
+      "kind": "object",
+      "refId": "receipt_corner",
+      "statement": "receipt corner is a plausible object anchor in this context.",
+      "traits": [
+        "thin folded paper",
+        "easy to leave inside pockets or pages",
+        "small enough to be overlooked"
+      ]
+    },
+    {
+      "factId": "object_pressed_leaf",
+      "kind": "object",
+      "refId": "pressed_leaf",
+      "statement": "pressed leaf is a plausible object anchor in this context.",
+      "traits": [
+        "fragile flat leaf",
+        "kept inside paper or books",
+        "visually delicate"
+      ]
+    },
+    {
+      "factId": "object_bookmark",
+      "kind": "object",
+      "refId": "bookmark",
+      "statement": "bookmark is a plausible object anchor in this context.",
+      "traits": [
+        "thin page marker",
+        "paper or card texture",
+        "fits in books or planners"
+      ]
+    },
+    {
+      "factId": "object_small_red_hairclip",
+      "kind": "object",
+      "refId": "small_red_hairclip",
+      "statement": "small red hairclip is a plausible object anchor in this context.",
+      "traits": [
+        "small red clip",
+        "near hairline when worn",
+        "easy to show as a trace cue"
+      ]
+    },
+    {
+      "factId": "external_event_bookstore_weekend_stationery_display_01",
+      "kind": "external_event",
+      "refId": "bookstore_weekend_stationery_display",
+      "statement": "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance."
+    },
+    {
+      "factId": "external_event_bookstore_weekend_stationery_display_02",
+      "kind": "external_event",
+      "refId": "bookstore_weekend_stationery_display",
+      "statement": "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday."
+    },
+    {
+      "factId": "external_place_bookstore_weekend_stationery_display_01",
+      "kind": "place_state",
+      "refId": "bookstore_aisle",
+      "statement": "quiet bookstore aisle: The aisle now has a temporary display edge with extra notebook stacks and binder clips near the entrance.",
+      "traits": [
+        "The aisle now has a temporary display edge with extra notebook stacks and binder clips near the entrance.",
+        "temporary display edge",
+        "extra notebook stacks",
+        "small stationery trays"
+      ]
+    },
+    {
+      "factId": "external_object_bookstore_weekend_stationery_display_01",
+      "kind": "object_state",
+      "refId": "binder_clip_tray",
+      "statement": "binder clip tray: A small tray of binder clips is plausibly visible near the temporary display.",
+      "traits": [
+        "A small tray of binder clips is plausibly visible near the temporary display.",
+        "small metal clips",
+        "tray beside notebook stacks"
+      ]
+    }
+  ],
+  "uncertainties": [
+    "Exact micro-location is not fixed at generation time.",
+    "Small carried details may exist without being predetermined."
+  ],
+  "guardrails": [
+    "Use this layer to avoid contradiction, not to choose a topic.",
+    "Prefer grounding repair after exploration over strong early steering.",
+    "Manual external events may change factual world state, but they must not assign a post topic by themselves.",
+    "Treat active events as environmental reality and availability facts, not as a required moment.",
+    "Do not force the temporary display into the protagonist's moment unless she truly notices or touches it.",
+    "Treat the extra traffic as background world state, not as a required interaction."
+  ],
+  "visualTraceCues": [
+    "hand_with_object",
+    "sleeve_edge",
+    "hair_tip_or_red_hairclip",
+    "reflection_or_shadow_hint"
+  ],
+  "activeExternalEvents": [
+    {
+      "eventId": "bookstore_weekend_stationery_display",
+      "title": "Temporary stationery display near the bookstore aisle entrance",
+      "activationMode": "time_window_match",
+      "factStatements": [
+        "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+        "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday."
+      ]
+    }
+  ],
+  "runId": "zeromemory-2026-03-21T10-15-51-clear_weekend_bookstore"
+}

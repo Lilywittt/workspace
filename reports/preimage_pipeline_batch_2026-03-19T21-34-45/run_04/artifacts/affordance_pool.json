@@ -1,0 +1,135 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:39:37.403Z",
+  "sourceWorldStateCreatedAt": "2026-03-19T13:39:37.178Z",
+  "primaryAffordanceIds": [
+    "kitchen_comfort_window",
+    "transit_fragment_window",
+    "domestic_reset_window",
+    "threshold_pause_window"
+  ],
+  "affordances": [
+    {
+      "id": "kitchen_comfort_window",
+      "score": 0.84,
+      "reasons": [
+        "Temperature and energy support a tiny comfort scene.",
+        "Hand-to-object intimacy is plausible in the current state."
+      ],
+      "preferredLocationKinds": [
+        "indoor_domestic",
+        "indoor"
+      ]
+    },
+    {
+      "id": "transit_fragment_window",
+      "score": 0.82,
+      "reasons": [
+        "Mobility window allows a short transit fragment.",
+        "School-day rhythm naturally creates transit micro-scenes."
+      ],
+      "preferredLocationKinds": [
+        "public_transit",
+        "semi_outdoor",
+        "outdoor_light"
+      ]
+    },
+    {
+      "id": "domestic_reset_window",
+      "score": 0.8,
+      "reasons": [
+        "Domestic corners fit the slower end of the day.",
+        "Soft household action keeps life_record grounded."
+      ],
+      "preferredLocationKinds": [
+        "indoor_domestic"
+      ]
+    },
+    {
+      "id": "threshold_pause_window",
+      "score": 0.78,
+      "reasons": [
+        "The day has in-between energy that suits a threshold pause.",
+        "Weather can support a liminal pause without taking over."
+      ],
+      "preferredLocationKinds": [
+        "liminal_indoor",
+        "semi_outdoor"
+      ]
+    },
+    {
+      "id": "indoor_reset_window",
+      "score": 0.72,
+      "reasons": [
+        "Current mobility and energy favor a contained indoor scene.",
+        "Character state is asking for a small reset.",
+        "Evening timing naturally supports reset energy."
+      ],
+      "preferredLocationKinds": [
+        "indoor",
+        "indoor_domestic"
+      ]
+    },
+    {
+      "id": "return_or_repair_window",
+      "score": 0.71,
+      "reasons": [
+        "Current state supports restoring, fixing, or returning a small thing.",
+        "This keeps action texture different from pure observation."
+      ],
+      "preferredLocationKinds": [
+        "indoor",
+        "public_indoor"
+      ]
+    },
+    {
+      "id": "rediscovery_window",
+      "score": 0.7,
+      "reasons": [
+        "Recurring small objects make rediscovery scenes plausible.",
+        "Need state supports a found object carrying private meaning."
+      ],
+      "preferredLocationKinds": [
+        "indoor",
+        "public_indoor"
+      ]
+    },
+    {
+      "id": "micro_purchase_window",
+      "score": 0.68,
+      "reasons": [
+        "A low-stakes errand is plausible today.",
+        "Weather can stay secondary while the errand leads."
+      ],
+      "preferredLocationKinds": [
+        "public_indoor",
+        "semi_outdoor"
+      ]
+    },
+    {
+      "id": "bookstore_pause_window",
+      "score": 0.66,
+      "reasons": [
+        "Quiet public indoor space fits the current social bandwidth.",
+        "Bookish pause scenes widen the world without breaking persona."
+      ],
+      "preferredLocationKinds": [
+        "public_indoor"
+      ]
+    }
+  ],
+  "placeArchetypes": [
+    "indoor_desk_corner",
+    "window_seat",
+    "bookstore_aisle",
+    "convenience_counter",
+    "station_edge",
+    "stairwell_landing",
+    "covered_walkway",
+    "campus_edge",
+    "laundry_corner",
+    "kitchen_counter"
+  ],
+  "source": "code",
+  "status": "affordance_pool_ready"
+}

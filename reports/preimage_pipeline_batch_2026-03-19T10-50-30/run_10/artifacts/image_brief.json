@@ -1,0 +1,96 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:03:18.387Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "After a day of studying, the character has just finished organizing her desk, creating a small, tidy corner that feels like a personal victory against the lingering drizzle outside.",
+    "microPlot": [
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered.",
+      "She carefully stacks the books, aligns her pens in a mug, and places a small, newly finished origami crane beside the lamp.",
+      "A quiet sense of order and calm settles in, making the cozy, lamplit room feel like a perfect little world."
+    ],
+    "sensoryFocus": "warm lamplight on wood grain",
+    "selectedCaptionOpening": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。",
+    "selectedCaptionSummary": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。 笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。 嗯，今天也是明亮的一天。",
+    "candidateAngle": "雨夜角落"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: warm lamplight on wood grain",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Desk corner with a warm, vintage-style desk lamp as the main light source | Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately | Window in the background, dark with evening rain, reflecting a soft blur of the indoor light | A red hairclip resting on the edge of an open notebook | Framing is slightly wide to show the organized space and the character's hand adjusting the crane | The scattered notes and textbooks from the morning's review session left the desk feeling cluttered",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Frame a wider shot showing more of the room or a specific activity setup",
+    "Use warmer, artificial lighting if it's evening",
+    "Shift focus from self-portrait to environment or activity",
+    "Introduce a new indoor or cozy evening setting",
+    "Desk corner with a warm, vintage-style desk lamp as the main light source.",
+    "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately.",
+    "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light.",
+    "A red hairclip resting on the edge of an open notebook.",
+    "Framing is slightly wide to show the organized space and the character's hand adjusting the crane.",
+    "The quiet satisfaction of tidying a small space after work.",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

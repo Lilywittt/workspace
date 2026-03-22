@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:19:33.746Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T09-17-36-rainy_after_class",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 半抽出的手和票根一角, 书包的局部和人物侧影, 指尖与纸片接触的特写, a hand pulling a movie ticket stub from a backpack compartment, fingertips pinching it, a partial view of the backpack showing the compartment opening, the character's silhouette or upper body, showing her looking down at the ticket stub in her hand, 一只手从书包夹层里抽出一张电影票根，指尖正捏着它, 书包的局部，能看到夹层开口, 人物的侧影或上半身，能看出她正低头看着手中的票根\nContext: indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nComposition: moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, fashion editorial polish, the ticket stub looking like an art exhibit piece, background being generic aesthetic wallpaper, other people interacting in the frame unless the moment is actually about that interaction, 像时尚大片一样摆拍, 把票根拍得像艺术展品, 背景是空荡的唯美壁纸, 画面里出现其他互动的人，除非这个瞬间本来就是关于互动的, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, empty scenery without character trace, sunny outdoor field",
+    "shotNotes": [
+      "半抽出的手和票根一角",
+      "书包的局部和人物侧影",
+      "指尖与纸片接触的特写",
+      "a hand pulling a movie ticket stub from a backpack compartment, fingertips pinching it",
+      "a partial view of the backpack showing the compartment opening",
+      "the character's silhouette or upper body, showing her looking down at the ticket stub in her hand"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "半抽出的手和票根一角, 书包的局部和人物侧影, 指尖与纸片接触的特写, a hand pulling a movie ticket stub from a backpack compartment, fingertips pinching it, a partial view of the backpack showing the compartment opening, the character's silhouette or upper body, showing her looking down at the ticket stub in her hand, 一只手从书包夹层里抽出一张电影票根，指尖正捏着它, 书包的局部，能看到夹层开口, 人物的侧影或上半身，能看出她正低头看着手中的票根",
+      "context": "indoor classroom or school transition space after class, school bag and desk nearby, rainy light, damp air, wet weather outside, routine after_class",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "composition": "moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音收拾书包时，手指碰到一张去年的电影票根。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

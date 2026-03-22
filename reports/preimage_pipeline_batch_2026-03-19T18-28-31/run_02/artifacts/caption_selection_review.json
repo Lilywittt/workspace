@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:31:02.586Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-30-13",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the brief by grounding the private ritual in a specific sensory detail (the clean scent of wood polish on a cloth) and weaving the micro-plot from clutter to action to a gentle, internal feeling of reset. It avoids a fixed slogan ending, instead trailing off with a light chunibyo touch ('a corner of the heart was gently wiped clean') that feels intimate and publishable, fitting the shift from a selfie streak to a contemplative life_record.",
+  "strengths": [
+    "Strong sensory anchor with the wood polish scent directly from the brief",
+    "Clear micro-plot progression (clutter -> tidying actions -> internal feeling)",
+    "Light chunibyo touch feels natural and intimate, not overwritten",
+    "Integrates the weather (light rain) subtly without dominating",
+    "Avoids repetitive openings and fixed, motivational endings"
+  ],
+  "risks": [
+    "The final metaphor ('wiped clean') is slightly abstract, though grounded by the preceding actions",
+    "Hashtag #上海 is frequent in recent history, but its use here is contextually appropriate"
+  ],
+  "errorMessage": ""
+}

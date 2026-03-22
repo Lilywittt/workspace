@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:31:25.256Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "A quiet evening after studying, where the simple act of untangling a pair of earbuds becomes a small, focused ritual to clear the mind.",
+  "microPlot": [
+    "After hours of focused review, a tangled mess of white earbuds sits coiled on the desk.",
+    "Fingers work slowly, patiently following each loop and knot in the dim lamplight.",
+    "There's a quiet satisfaction in the untangling, like sorting out a day's scattered thoughts."
+  ],
+  "sensoryFocus": "the faint plastic squeak of wires being separated",
+  "sceneNotes": [
+    "Desk lit by a single warm lamp, casting long shadows.",
+    "Textbooks and a half-empty mug pushed slightly out of frame.",
+    "A small red hairclip resting on the edge of an open notebook.",
+    "The earbuds are almost, but not quite, fully untangled."
+  ],
+  "tone": [
+    "contemplative"
+  ],
+  "captionFocus": [
+    "The quiet, tactile focus of a simple task after mental work."
+  ],
+  "summary": "A moment of quiet, manual focus after studying, where untangling earbuds becomes a private, settling ritual.",
+  "errorMessage": ""
+}

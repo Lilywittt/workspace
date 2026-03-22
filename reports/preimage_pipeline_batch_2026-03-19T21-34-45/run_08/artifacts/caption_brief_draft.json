@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:45:52.682Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-45-34",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption from Tsukimi Rion's perspective, capturing the quiet, forward-looking ritual of buying a mug of cocoa on a drizzly Shanghai evening. Focus on the small, shy act of self-care—the warmth of the mug, the soft clink on the counter, the light from the shop—as a private promise to her future self, without making it sound like a commercial or a grand declaration.",
+  "audienceFeeling": "a quiet, gentle resonance, like overhearing a soft secret",
+  "openingMoves": [
+    "Start with a sensory detail from the moment (e.g., the sound, the light, the feel of the mug)",
+    "Frame the action as a small, almost secret decision",
+    "Connect the physical object to a faint internal feeling"
+  ],
+  "mustInclude": [
+    "The soft clink of the ceramic mug on the counter",
+    "The covered walkway and the light rain just beyond",
+    "Carrying the small warmth back as a private promise",
+    "A light chunibyo touch—treating the ordinary mug as a tiny, shy omen or ritual object",
+    "Hands holding the mug carefully"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "A fixed, slogan-like ending",
+    "Forcing the moment into a grand fate declaration",
+    "Explicitly explaining the 'meaning' of the ritual",
+    "Dialogue or lore exposition"
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer, breath-like phrase",
+    "Soft, trailing endings or gentle self-address",
+    "Light, intimate chunibyo—like a small secret meaning assigned to a daily object",
+    "Feels like a private note to herself or her future self",
+    "Focus on texture, small actions, and subtle omens over big emotions"
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#小雨夜",
+    "#微小的仪式感",
+    "#可可杯",
+    "#给自己留的暗号"
+  ],
+  "summary": "A late-evening cocoa purchase becomes a shy, private ritual of self-care and a gentle promise for tomorrow.",
+  "errorMessage": ""
+}

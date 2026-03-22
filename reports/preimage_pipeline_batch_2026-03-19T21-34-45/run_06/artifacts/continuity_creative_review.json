@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:42:33.967Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from finding forgotten objects to a small, intentional action in a new location",
+    "Use weather as active texture (drizzle on surfaces) rather than just reflective support"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel and 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a tiny, forward-looking choice rather than a rediscovery"
+  ],
+  "captionAdvice": [
+    "Start with a present-tense sensory detail about the action, not a past recap",
+    "End with a soft observation about the choice itself, not the object"
+  ],
+  "imageAdvice": [
+    "Focus on hands or a partial view performing the action, not a wide scene",
+    "Incorporate the cool, damp light of early spring evening"
+  ],
+  "summary": "Propose a gentle, intentional micro-action in a fresh setting to maintain continuity while pivoting from repetitive discovery motifs.",
+  "errorMessage": ""
+}

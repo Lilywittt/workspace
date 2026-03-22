@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:07:31.995Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-06-42",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best fulfills the brief by weaving the micro-plot, sensory detail, and daily variable into a cohesive, gentle private ritual. It starts with the concrete action of aligning the notebook, incorporates the sensory detail of paper's dry scent, and subtly references the light rain as ambient accompaniment. The final line connects the physical order to mental clarity without overstatement, perfectly capturing the contemplative, slightly chunibyo tone of a note to oneself.",
+  "caption": "整理完书桌，把笔记本的边缘对齐桌角。\n指尖扫掉橡皮屑时，听见纸张干燥的气味。\n窗外的雨声很轻，像在给这个小小的秩序仪式伴奏。\n心里那些散落的念头，好像也跟着归位了。",
+  "hashtags": [
+    "#生活碎片",
+    "#桌面整理",
+    "#独处时刻",
+    "#仪式感"
+  ],
+  "candidateAngle": "秩序仪式",
+  "candidateRationale": "以对齐桌角的动作为核心，将声音、气味与秩序感结合，赋予整理行为一种安静的仪式性，符合私密笔记的语调。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the brief by weaving the micro-plot, sensory detail, and daily variable into a cohesive, gentle private ritual. It starts with the concrete action of aligning the notebook, incorporates the sensory detail of paper's dry scent, and subtly references the light rain as ambient accompaniment. The final line connects the physical order to mental clarity without overstatement, perfectly capturing the contemplative, slightly chunibyo tone of a note to oneself.",
+    "strengths": [
+      "Strong narrative flow from action to internal feeling",
+      "Integrates sensory detail (scent, sound) and weather naturally",
+      "Embodies 'private ritual energy' with quiet, meaningful closure",
+      "Avoids blocked phrases and fixed slogan endings"
+    ],
+    "risks": [
+      "Slight risk the 'accompaniment' metaphor feels slightly poetic",
+      "Must ensure visual clearly shows the notebook alignment action"
+    ]
+  }
+}

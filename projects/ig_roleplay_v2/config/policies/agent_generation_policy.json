@@ -1,0 +1,48 @@
+{
+  "version": "3.0.0-alpha.1",
+  "momentGeneration": {
+    "candidateCount": 4,
+    "allowedLanes": ["selfie", "life_record"],
+    "allowedPresenceModes": ["full_selfie", "partial_presence", "wide_scene_with_character_trace"]
+  },
+  "ambientSignals": {
+    "enabled": true,
+    "categories": [
+      "weather",
+      "city_trivia",
+      "trending_topics",
+      "seasonal_culture",
+      "anime_fandom"
+    ],
+    "maxItems": 8,
+    "maxItemsPerCategory": 2,
+    "minimumCategoriesWhenAvailable": 3,
+    "shuffleRequired": true,
+    "directMappingForbidden": true,
+    "mustFlowThroughResonance": true
+  },
+  "momentSelection": {
+    "minimumPersonaTruthScore": 72,
+    "minimumGroundingScore": 70,
+    "minimumPostabilityScore": 68,
+    "minimumCoherenceScore": 70,
+    "minimumCharacterPresenceFitScore": 68,
+    "maximumSourceMirroringRisk": 35
+  },
+  "caption": {
+    "candidateCount": 3,
+    "targetMaxChars": 180,
+    "maxHashtags": 4
+  },
+  "image": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "tourism poster feeling",
+      "fashion editorial gloss",
+      "photoreal live-action look",
+      "advertisement feeling"
+    ]
+  }
+}

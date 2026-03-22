@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:04:00.348Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a morning of studying, she steps outside to clear her head, finding the light rain has left tiny, perfect droplets clinging to the iron railing of a quiet apartment stairwell. She pauses, noticing how each one holds a tiny, inverted world.",
+  "microPlot": [
+    "The morning's focus leaves her mind buzzing, needing a small reset.",
+    "She traces a finger along the cold railing, carefully avoiding the droplets, watching them tremble but not fall.",
+    "A quiet, private satisfaction settles in, as if she's successfully preserved a collection of tiny, temporary worlds."
+  ],
+  "sensoryFocus": "cold, wet iron under fingertips; the faint, clean scent of rain on concrete.",
+  "sceneNotes": [
+    "Wide shot of a dim, concrete stairwell landing.",
+    "Her hand and sleeve are visible, tracing the railing.",
+    "Focus is on the railing and the clinging droplets, her face is out of frame or softly blurred in the background.",
+    "Light is diffuse, grey, and cool from the overcast sky.",
+    "A small, red hairclip is just visible at the edge of her hair."
+  ],
+  "tone": [
+    "quietly_focused"
+  ],
+  "captionFocus": [
+    "A reflection on the fragile, perfect stillness found in a mundane, wet object after the rain."
+  ],
+  "summary": "A life record of a quiet, post-study moment, finding a small, secret collection of worlds in the raindrops on a stairwell railing.",
+  "errorMessage": ""
+}

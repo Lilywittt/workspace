@@ -1,0 +1,218 @@
+{
+  "runIndex": 1,
+  "scenePlanRunId": "sceneplan-2026-03-19T13-35-18",
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "sceneFatigue": [
+      "legacy_program",
+      "micro_purchase_program"
+    ]
+  },
+  "noveltyLedger": {
+    "scenePrograms": [
+      {
+        "value": "legacy_program",
+        "count": 10
+      },
+      {
+        "value": "micro_purchase_program",
+        "count": 2
+      }
+    ],
+    "locations": [
+      {
+        "value": "indoor_desk_corner",
+        "count": 6
+      },
+      {
+        "value": "kitchen_counter",
+        "count": 2
+      },
+      {
+        "value": "bookstore_aisle",
+        "count": 1
+      },
+      {
+        "value": "convenience_counter",
+        "count": 1
+      }
+    ],
+    "objectFamilies": [
+      {
+        "value": "accessory",
+        "count": 9
+      },
+      {
+        "value": "comfort_item",
+        "count": 2
+      },
+      {
+        "value": "paper_fragment",
+        "count": 1
+      }
+    ],
+    "fatigueFlags": {
+      "weatherPrimaryOveruse": false,
+      "indoorClusterOveruse": false,
+      "studyAftermathClusterOveruse": false
+    }
+  },
+  "reflectionNotes": {
+    "recurringObjects": [
+      "accessory",
+      "comfort_item"
+    ],
+    "familiarPlaces": [
+      "indoor_desk_corner",
+      "kitchen_counter"
+    ],
+    "fatiguePatterns": []
+  },
+  "worldState": {
+    "daypart": "late_evening",
+    "weekdayMode": "school_day",
+    "seasonPhase": "early_spring",
+    "mobilityWindow": "short_walk_ok",
+    "needState": [
+      "small_reset",
+      "private_meaning"
+    ],
+    "preferredLane": "life_record"
+  },
+  "affordancePool": {
+    "primaryAffordanceIds": [
+      "kitchen_comfort_window",
+      "transit_fragment_window",
+      "domestic_reset_window",
+      "threshold_pause_window"
+    ],
+    "topAffordances": [
+      {
+        "id": "kitchen_comfort_window",
+        "score": 0.84,
+        "reasons": [
+          "Temperature and energy support a tiny comfort scene.",
+          "Hand-to-object intimacy is plausible in the current state."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic",
+          "indoor"
+        ]
+      },
+      {
+        "id": "transit_fragment_window",
+        "score": 0.82,
+        "reasons": [
+          "Mobility window allows a short transit fragment.",
+          "School-day rhythm naturally creates transit micro-scenes."
+        ],
+        "preferredLocationKinds": [
+          "public_transit",
+          "semi_outdoor",
+          "outdoor_light"
+        ]
+      },
+      {
+        "id": "domestic_reset_window",
+        "score": 0.8,
+        "reasons": [
+          "Domestic corners fit the slower end of the day.",
+          "Soft household action keeps life_record grounded."
+        ],
+        "preferredLocationKinds": [
+          "indoor_domestic"
+        ]
+      },
+      {
+        "id": "threshold_pause_window",
+        "score": 0.78,
+        "reasons": [
+          "The day has in-between energy that suits a threshold pause.",
+          "Weather can support a liminal pause without taking over."
+        ],
+        "preferredLocationKinds": [
+          "liminal_indoor",
+          "semi_outdoor"
+        ]
+      }
+    ]
+  },
+  "sceneCandidates": {
+    "count": 5,
+    "topCandidateIds": [
+      "scene_cand_07",
+      "scene_cand_01",
+      "scene_cand_08",
+      "scene_cand_05",
+      "scene_cand_04"
+    ],
+    "programs": [
+      "return_or_repair_program",
+      "desk_reset_program",
+      "laundry_corner_program",
+      "bookstore_pause_program",
+      "transit_fragment_program"
+    ]
+  },
+  "selectedSceneCandidate": {
+    "selectedCandidateId": "scene_cand_07",
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle",
+    "objectFamily": "stationery",
+    "objectBindings": [
+      "sticky note"
+    ],
+    "weatherRole": "texture_modifier",
+    "emotionalLanding": "gentle_order"
+  },
+  "scenePlanDraft": {
+    "premise": "In the quiet, damp air of a late spring evening, a small errand to a familiar bookstore aisle becomes a quiet act of gentle order. Finding a stray sticky note isn't just clutter; it's a tiny, intentional gesture of repair, putting a small thing back where it belongs as a private ritual of care for the quiet space.",
+    "microPlot": [
+      "A stray sticky note, fallen and forgotten in the aisle, catches her eye.",
+      "She picks it up, smooths its curled edge, and carefully returns it to the shelf's small dispenser.",
+      "A quiet, forward-looking satisfaction settles in, as if the day closed a tiny, perfect loop."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "partial_presence",
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle",
+    "objectFamily": "stationery",
+    "emotionalLanding": "gentle_order",
+    "premise": "In the quiet, damp air of a late spring evening, a small errand to a familiar bookstore aisle becomes a quiet act of gentle order. Finding a stray sticky note isn't just clutter; it's a tiny, intentional gesture of repair, putting a small thing back where it belongs as a private ritual of care for the quiet space."
+  },
+  "captionBrief": {
+    "goal": "Write a caption that captures the quiet, private ritual of returning a stray sticky note to its dispenser in a bookstore aisle on a cool, drizzly Shanghai evening. The text should feel like a soft, self-addressed note, turning a small act of order into a gentle, forward-looking satisfaction that closes a tiny loop in the day.",
+    "sceneProgramId": "return_or_repair_program"
+  },
+  "selectedCaption": {
+    "candidateAngle": "私密仪式",
+    "caption": "在书店的过道里，捡起一张掉落的便利贴。指尖抚平它卷起的边角，再轻轻放回架子上的小盒。纸张干燥的沙沙声，像给这个潮湿的夜晚打了个小小的结。"
+  },
+  "imageBrief": {
+    "sceneProgramId": "return_or_repair_program",
+    "locationArchetype": "bookstore_aisle"
+  },
+  "imageRequest": {
+    "sceneProgramId": "return_or_repair_program",
+    "scene": "Scene: a quiet bookstore aisle, shelf depth and paper texture, sticky note, repairing or returning sticky note to its place, weather appears mainly through texture and air, slightly chilly, Hands in motion, one holding the note, the other gently pressing it flat against the shelf, The cool, still air of the bookstore, carrying the faint scent of paper and damp wool from outside, A single, small red hairclip visible at the edge of the frame, catching the soft overhead light, Scene location archetype: bookstore aisle, Object focus: sticky note, pick up sticky note, everyday life in Shanghai",
+    "camera": "Camera: partial first-person presence, shelf depth framing",
+    "mood": "Mood: slightly chunibyo, gentle, private ritual energy, lived-in daily texture, non-commercial, gentle_order, restoring a little order, the soft, dry rasp of paper under fingertips"
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 95,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "98529ee10eab",
+    "sceneProgram": "02efc0825691",
+    "locationArchetype": "4b69f37b09e6",
+    "objectFamily": "3b12ea31d545",
+    "selectedCaption": "916f9948c266",
+    "imageScene": "d174ee8758ee"
+  }
+}

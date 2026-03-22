@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:33:45.391Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-32-45",
+  "briefGoal": "Write a caption that feels like a private note left for oneself, capturing the quiet ritual of repairing a borrowed pencil in a rainy evening bookstore. It should convey a gentle sense of order restored through a small, focused act, blending daily-life texture with a light, intimate chunibyo touch—treating the ordinary object as a tiny secret with personal weight.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小的归还仪式",
+      "caption": "借来的自动铅笔，笔夹有点松了。在书店安静的角落把它拧紧，铅芯也削尖。放回书架时，听到咔哒一声轻响，像给这个雨夜盖上一个微小的印章。",
+      "hashtags": [
+        "#文具修复",
+        "#书店时光",
+        "#小雨的傍晚",
+        "#安静的秩序"
+      ],
+      "rationale": "聚焦于修复与归还的具体动作，将‘咔哒’声赋予仪式感，符合‘将普通声音视为秘密符号’的要求。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨与秩序的切片",
+      "caption": "10.4度的雨让书店成了避风港。手指在做一件很小的事：把一支笔修好，然后物归原处。空气里有旧纸的木头味，完成时，窗上的雨滴正好滑到底部。一种很轻的秩序感。",
+      "hashtags": [
+        "#生活切片",
+        "#春日微寒",
+        "#物归原处",
+        "#细节仪式"
+      ],
+      "rationale": "整合了天气、感官细节和微情节（雨滴计时），将日常修复提升为一种‘轻秩序感’，避免夸张。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "私人的修复契约",
+      "caption": "总觉得，修好一件借来的东西再还回去，像完成一个秘密契约。今天契约的对象是书店里一支银色自动铅笔。指尖传来金属轻微的阻力，然后一切归位。雨还在下，但心里某个小齿轮，悄悄对准了。",
+      "hashtags": [
+        "#秘密契约",
+        "#机械铅笔",
+        "#温柔修复",
+        "#内心秩序"
+      ],
+      "rationale": "采用‘秘密契约’的轻中二视角，将对象人格化，并以‘心里的小齿轮’作结，营造私密而富有想象力的收尾。"
+    }
+  ]
+}

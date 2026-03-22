@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T02-54-55",
+  "createdAt": "2026-03-19T02:54:55.391Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After a morning of studying indoors, the character steps out briefly into the light rain of Shanghai, not for a grand outing but to return a borrowed book to a small neighborhood library, finding a quiet moment of transition between the cozy indoors and the soft, wet world outside.",
+    "microPlot": [
+      "A stack of finished review notes and a borrowed library book sit ready by the door.",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag.",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm."
+    ],
+    "sensoryFocus": "the soft patter of rain on umbrella fabric and the faint smell of wet pavement"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning",
+      "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background",
+      "Natural, diffused light from the overcast sky, no harsh shadows",
+      "A stack of finished review notes and a borrowed library book sit ready by the door",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame to include hands interacting with an object in the environment",
+      "Use natural, diffused light from the overcast sky",
+      "Shift from selfie close-ups to wider environmental shots",
+      "Focus on a small action or task, not just a mood",
+      "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning.",
+      "Include the red hairclip as a small spot of color against the grey, rainy backdrop.",
+      "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background.",
+      "Natural, diffused light from the overcast sky, no harsh shadows.",
+      "The quiet satisfaction of completing a small, responsible task in the middle of a rainy day.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate, reflective tone but pivot from self-portraits to documenting a simple life moment in the same rainy Shanghai context.",
+    "draftSummary": "A wide scene capturing a brief, purposeful step outside into the rain to return a book, focusing on the transition and the calm, damp atmosphere.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

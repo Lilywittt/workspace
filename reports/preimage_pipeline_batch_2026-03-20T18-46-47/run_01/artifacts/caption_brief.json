@@ -1,0 +1,186 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:47:41.466Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-47-20",
+  "goal": "Write a short, intimate Instagram caption from Tsukimi Rion's perspective, capturing a quiet moment of reset on a stairwell landing in the cool, drizzly early evening. The focus is on the small red hairclip held in her palm as a private anchor, turning an ordinary pause into a tiny ritual that settles the day's scattered energy. The text should feel like a soft, personal note to herself, blending daily-life texture with a light, private sense of wonder.",
+  "audienceFeeling": "A quiet, shared recognition of small, personal resets.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: threshold_pause_program.",
+    "Keep the location archetype and object binding legible: stairwell_landing / small red hairclip.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Use mostly short sentences with one occasional, slightly longer breath.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Keep it intimate, like a private note or whisper.",
+    "Allow for light chunibyo flavor—a faint, personal symbolism—but keep it grounded in daily reality.",
+    "Focus on sensory details and small actions over abstract reflection.",
+    "Start with a simple observation of the setting (e.g., the rain, the stairwell, the light).",
+    "Mention the pause or the feeling of being between places.",
+    "Introduce the hairclip as a natural, physical detail in her hand.",
+    "The cool, smooth metal of the hairclip against a warm palm.",
+    "The soft sounds of the building and distant drizzle.",
+    "The hairclip as a 'tiny, solid secret' or private point of stillness.",
+    "A sense of reset or settling without moving forward or back.",
+    "Location context: Shanghai, early evening, light rain (~10.4°C)."
+  ],
+  "contentBlocks": {
+    "premise": "In the cool, drizzly early evening, a pause on a stairwell landing becomes a tiny, private reset. The small red hairclip, held in hand, isn't just an accessory; it's a momentary anchor, a quiet point of focus that briefly holds the day's scattered energy before letting it settle into a softer, more manageable shape.",
+    "microPlot": [
+      "The day's soft rain and the transition between places create a liminal, in-between feeling.",
+      "Pausing on the landing, she takes out the small red hairclip, holding it in her palm and listening to the quiet sounds of the building and the distant drizzle.",
+      "For a moment, the clip feels like a tiny, solid secret—a private point of stillness that resets the texture of the hour without needing to move forward or back."
+    ],
+    "sensoryFocus": "the cool, smooth metal of the hairclip against warm palm",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_03",
+      "sceneProgramId": "threshold_pause_program",
+      "affordanceId": "threshold_pause_window",
+      "locationArchetype": "stairwell_landing",
+      "locationCluster": "threshold_pause",
+      "objectFamily": "accessory",
+      "objectBindings": [
+        "small red hairclip"
+      ],
+      "actionKernel": "pause_listen_hold",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset",
+      "presencePolicy": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "a pause that changes the texture of the day",
+        "being briefly held between places"
+      ],
+      "imageHooks": [
+        "edge framing",
+        "corridor depth",
+        "rain shelter texture"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 18,
+        "daypart": "early_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "medium_low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "pattern_breaking",
+        "needState": [
+          "small_reset",
+          "private_meaning",
+          "mobility_shift",
+          "non_study_relief"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "bookish_pause",
+          "shelter_pause",
+          "micro_purchase_program",
+          "return_or_repair_program"
+        ],
+        "objectFatigue": [
+          "comfort_item",
+          "stationery"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": true,
+        "studyAftermathOveruse": true
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "quiet_wonder"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, sensory-focused caption about finding a small, private reset by pausing on a stairwell landing and holding a red hairclip as the cool evening rain falls in Shanghai.",
+    "hashtagAngles": [
+      "stairwell moments",
+      "rainy day reset",
+      "tiny rituals",
+      "daily anchor objects",
+      "Shanghai drizzle",
+      "quiet wonder"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial language, slogans, or self-promotion.",
+    "Forced poetic declarations or grand fate statements.",
+    "A fixed, signature closing line or overt self-encouragement.",
+    "Exposing the scene as AI-generated or roleplay.",
+    "Expanding into lore or world-building beyond the immediate moment."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

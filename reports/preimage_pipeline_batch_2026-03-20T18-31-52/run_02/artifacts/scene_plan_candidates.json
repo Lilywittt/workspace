@@ -1,0 +1,198 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:34:21.416Z",
+  "source": "code",
+  "status": "scene_plan_candidates_ready",
+  "sourceArtifacts": {
+    "worldStateSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/world_state_snapshot.json",
+    "affordancePoolPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/affordance_pool.json",
+    "noveltyLedgerPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/novelty_ledger.json"
+  },
+  "candidateCount": 5,
+  "candidates": [
+    {
+      "candidateId": "scene_cand_06",
+      "lane": "life_record",
+      "sceneProgramId": "micro_purchase_program",
+      "affordanceId": "micro_purchase_window",
+      "locationArchetype": "covered_walkway",
+      "locationCluster": "shelter_pause",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "soft pouch"
+      ],
+      "weatherRole": "texture_modifier",
+      "actionKernel": "choose_pay_carry_back",
+      "actionSequence": [
+        "choose soft pouch",
+        "complete the tiny purchase",
+        "carry the small comfort back into the day"
+      ],
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "small purchase as a private rescue",
+        "carrying a tiny comfort back with her"
+      ],
+      "imageHooks": [
+        "counter light",
+        "shopping bag detail",
+        "small object prominence"
+      ],
+      "premiseSeed": "soft pouch becomes the center of a choose pay carry back moment at covered walkway.",
+      "scores": {
+        "total": 73,
+        "novelty": 73,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_01",
+      "lane": "life_record",
+      "sceneProgramId": "desk_reset_program",
+      "affordanceId": "indoor_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "mechanical pencil"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "sort_reset_arrange",
+      "actionSequence": [
+        "notice the slight disorder around window seat",
+        "sort or straighten mechanical pencil",
+        "let the act of arranging shift the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "restoring order through one small action",
+        "letting an object carry the mood"
+      ],
+      "imageHooks": [
+        "object-led composition",
+        "hand and desk texture",
+        "readable trace cues"
+      ],
+      "premiseSeed": "mechanical pencil becomes the center of a sort reset arrange moment at window seat.",
+      "scores": {
+        "total": 71,
+        "novelty": 71,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "lane": "life_record",
+      "sceneProgramId": "laundry_corner_program",
+      "affordanceId": "domestic_reset_window",
+      "locationArchetype": "window_seat",
+      "locationCluster": "indoors_light_edge",
+      "objectFamily": "comfort_item",
+      "objectBindings": [
+        "warm cup sleeve"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "fold_sort_pause",
+      "actionSequence": [
+        "gather a few soft domestic pieces",
+        "fold or sort around warm cup sleeve",
+        "let texture and repetition soften the mood"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "soft textures changing the pace of the day",
+        "domestic order as a private ritual"
+      ],
+      "imageHooks": [
+        "fabric texture",
+        "folding gesture",
+        "domestic corner framing"
+      ],
+      "premiseSeed": "warm cup sleeve becomes the center of a fold sort pause moment at window seat.",
+      "scores": {
+        "total": 71,
+        "novelty": 71,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_07",
+      "lane": "life_record",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "convenience_counter",
+      "locationCluster": "micro_errand",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "sticky note"
+      ],
+      "weatherRole": "texture_modifier",
+      "actionKernel": "return_fix_restore",
+      "actionSequence": [
+        "pick up sticky note",
+        "repair, return, or put it back where it belongs",
+        "feel the day close a tiny loop"
+      ],
+      "emotionalLanding": "gentle_order",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ],
+      "premiseSeed": "sticky note becomes the center of a return fix restore moment at convenience counter.",
+      "scores": {
+        "total": 65,
+        "novelty": 65,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    },
+    {
+      "candidateId": "scene_cand_04",
+      "lane": "life_record",
+      "sceneProgramId": "transit_fragment_program",
+      "affordanceId": "transit_fragment_window",
+      "locationArchetype": "campus_edge",
+      "locationCluster": "after_school_fragment",
+      "objectFamily": "bag_contents",
+      "objectBindings": [
+        "lip balm"
+      ],
+      "weatherRole": "reflective_support",
+      "actionKernel": "wait_carry_pass_through",
+      "actionSequence": [
+        "carry lip balm through a short transition",
+        "pause while waiting or passing through",
+        "let an ordinary fragment become keepable"
+      ],
+      "emotionalLanding": "shy_attachment",
+      "presenceMode": "partial_presence",
+      "captionHooks": [
+        "ordinary transit becomes keepable",
+        "carrying a small thing through the city"
+      ],
+      "imageHooks": [
+        "platform edge",
+        "bag or hand detail",
+        "motion held briefly still"
+      ],
+      "premiseSeed": "lip balm becomes the center of a wait carry pass through moment at campus edge.",
+      "scores": {
+        "total": 64,
+        "novelty": 64,
+        "feasibility": 92,
+        "personaFit": 88
+      }
+    }
+  ]
+}

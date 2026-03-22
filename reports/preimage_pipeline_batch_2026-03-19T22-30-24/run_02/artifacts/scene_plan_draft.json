@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:32:38.307Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, drizzly late evening, a small, bent paper clip found on a bookstore aisle floor becomes a tiny, forward-looking ritual. Straightening it isn't just tidying; it's a quiet act of gentle order, a private promise to put one small thing back where it belongs before the day closes.",
+  "microPlot": [
+    "Finding a bent paper clip on the floor of a quiet bookstore aisle.",
+    "Carefully straightening it between her fingers, feeling the cool metal yield.",
+    "Feeling the quiet satisfaction of closing a tiny, invisible loop in the world."
+  ],
+  "sensoryFocus": "cool metal yielding under fingertips",
+  "sceneNotes": [
+    "Focus on hands, the paper clip, and the worn wooden floorboards of the aisle.",
+    "Soft, warm light from a nearby bookshelf lamp, casting long shadows.",
+    "The distant, muffled sound of light rain on the bookstore's window."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small repair as a quiet form of affection for the world."
+  ],
+  "summary": "A quiet moment of restoring order by fixing a found paper clip in a late-evening bookstore.",
+  "errorMessage": ""
+}

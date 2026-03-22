@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:30:29.946Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-30-13",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that turns the small act of tidying a study desk after morning work into a gentle, personal reset. Convey the quiet satisfaction of ordering physical space to clear mental clutter, using sensory details and a light chunibyo touch to make the mundane feel faintly meaningful, like a private ritual.",
+  "audienceFeeling": "A quiet, shared recognition of small comforts.",
+  "openingMoves": [
+    "Start with a simple observation of the post-study clutter.",
+    "Mention the physical action of tidying with a specific detail.",
+    "Let the feeling of reset emerge naturally, not declared."
+  ],
+  "mustInclude": [
+    "The faint scent of wood polish on a cloth.",
+    "The red hairclip resting on the neat desk.",
+    "The hand-drawn star on the textbook cover.",
+    "A sense that ordering the space also tidied a thought."
+  ],
+  "mustAvoid": [
+    "Explicit self-help or motivational slogans.",
+    "Overly poetic or world-building exposition.",
+    "Commercial or brand-like language.",
+    "A fixed, repeated signature ending line."
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Keep it intimate, like a note to herself or a future self.",
+    "Let the 'ordinary object with secret weight' be subtle (e.g., the hairclip or the star)."
+  ],
+  "hashtagAngles": [
+    "#生活碎片",
+    "#整理心情",
+    "#上海日常",
+    "#书桌日记",
+    "#小仪式感"
+  ],
+  "summary": "A life_record caption about tidying a desk, where a simple task becomes a gentle reset, shared with light chunibyo intimacy.",
+  "errorMessage": ""
+}

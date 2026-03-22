@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:53:07.677Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-52-18",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This caption most directly and effectively executes the scene plan by starting with the concrete action of tidying, immediately introducing the sensory detail of the cool, smooth pebble, and seamlessly weaving in the weather variable and the required catchphrase. Its first-person, diary-like flow feels natural and publishable, providing a clear cause-action-feeling micro-plot that aligns perfectly with the life_record lane's need for a grounded, hands-on moment after a streak of selfies.",
+  "strengths": [
+    "Perfectly follows the mandated micro-plot structure from the brief",
+    "Integrates the sensory focus ('凉凉的触感') and catchphrase naturally",
+    "Clear, simple language that matches the gentle, daily-life tone",
+    "Effectively pivots visual narrative from selfie to object-focused scene"
+  ],
+  "risks": [
+    "Slightly more literal and less poetic than other options, which may feel less distinctive",
+    "Direct mention of weather ('窗外飘着细雨') is required but could be seen as overt"
+  ],
+  "errorMessage": ""
+}

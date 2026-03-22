@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_detail",
+      "caption": "收拾桌子时，指尖碰到杯沿一处几乎看不见的缺口。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从日常动作开始，直接聚焦于具体的触感细节。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "sensory_pause",
+      "caption": "杯沿的触感，和平时不太一样。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "以模糊的感官对比开场，暗示了微小的异样感。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_discovery",
+      "caption": "原来它在这里，有一个小小的缺口。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "像是对自己低语，将日常物品的微小瑕疵转化为私密发现。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "momentary_break",
+      "caption": "拿起杯子的动作，在半秒里停顿了一下。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "描述动作的微小中断，将内在的停顿外化为可感知的瞬间。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

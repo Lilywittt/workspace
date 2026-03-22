@@ -1,0 +1,75 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresencePlanEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary; achieve this through a side or three-quarter view of the face and upper body as she reaches for the curtain, making her identity and action legible without turning it into a portrait",
+  "cameraRelation": "observational",
+  "faceReadability": "readable",
+  "bodyCoverage": "three_quarter",
+  "distance": "medium",
+  "environmentWeight": "balanced",
+  "captureSummaryEn": "observational camera relation, medium distance, three-quarter body coverage, readable face, balanced environment weight",
+  "captureGuidanceEn": [
+    "the frame should feel witnessed from the outside, not automatically self-held",
+    "a brief or partial face glimpse is enough; do not force portrait dominance",
+    "partial body coverage is enough when it keeps the moment concrete",
+    "medium distance is a stable everyday framing for ordinary daily-life moments",
+    "balance the protagonist and environment so they support the same lived beat together",
+    "the face should be readable from a side or three-quarter angle as part of the action, not forced into a front-facing portrait",
+    "three-quarter body coverage helps show the reaching posture and the window context clearly",
+    "medium distance keeps the action and the window trace both in frame"
+  ],
+  "framingZh": "让构图跟随拉开窗帘查看天色这个动作，使人物姿态、手部动作和玻璃上的痕迹保持连贯。",
+  "framingEn": "moment-led framing rooted in the action of pulling the curtain to check the sky, showing the posture, the hand near the glass, and the resulting trace",
+  "mustShowZh": [
+    "玻璃窗上一小道因手掌温度而消雾的清晰弧形痕迹",
+    "一只手还停留在窗帘或玻璃附近，显示动作刚发生",
+    "窗外模糊的、带着暮色的云层光线",
+    "人物的侧脸或四分之三侧脸，显示出专注查看的神情",
+    "人物上半身及手臂，呈现出伸手去拉窗帘的姿态"
+  ],
+  "mustShowEn": [
+    "a small, clear, arc-shaped trace on the foggy window glass where skin contact cleared the condensation",
+    "a hand still lingering near the curtain or the glass, showing the action just happened",
+    "the blurred, cloudy evening sky visible through the window",
+    "the protagonist's face in profile or three-quarter view, showing a focused, observing expression",
+    "the protagonist's upper body and arm, posed in the act of reaching to pull the curtain"
+  ],
+  "mayShowZh": [
+    "窗帘被拉开一部分的状态",
+    "室内昏暗的灯光在玻璃上的微弱反光",
+    "人物头发上的红色小发夹（如果视角自然）",
+    "人物衣袖的边缘"
+  ],
+  "mayShowEn": [
+    "the curtain partially pulled open",
+    "a faint reflection of dim indoor lighting on the glass",
+    "the small red hairclip in the protagonist's hair (if naturally visible from the angle)",
+    "the edge of the protagonist's sleeve"
+  ],
+  "mustAvoidZh": [
+    "将玻璃痕迹美化或放大成梦幻的图案",
+    "人物摆出与查看天色无关的时尚姿势",
+    "窗外变成风景明信片般的清晰美景",
+    "画面看起来像精心布置的摄影作品而非生活片段",
+    "引入另一个互动人物或交换物品",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss"
+  ],
+  "mustAvoidEn": [
+    "turning the glass trace into a decorative or dreamy pattern",
+    "the protagonist posing in a fashion-editorial stance unrelated to checking the sky",
+    "the outside window view becoming a clear, picturesque landscape",
+    "the frame looking like a staged photoshoot instead of a slice of life",
+    "introducing another person interacting or exchanging an object"
+  ],
+  "atmosphereZh": "一个傍晚室内外温差导致的微小证据，被安静地见证。",
+  "altTextZh": "璃音在傍晚拉开窗帘时，手掌在起雾的玻璃上留下了一道清晰的痕迹。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

@@ -1,0 +1,140 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:57:29.252Z",
+  "sourceCandidateId": "event_03",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+    "hookWhyInterestingZh": "一个功能性物品上出现的微小破损，在重复了无数次的系鞋带动作中，第一次被真正“看见”。",
+    "causalChainZh": [
+      "她感觉到鞋带松了，很自然地停下脚步或坐下处理。",
+      "在手指穿梭打结的过程中，视觉和触觉同时捕捉到了那个裂口。",
+      "系鞋带的动作没有停止，但完成后的那一两秒，她的注意力还停留在那个裂口上。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "window_after_class",
+        "identity_stability"
+      ],
+      "inferredDetailsZh": [
+        "鞋带松动是日常高频事件。",
+        "物品的日常磨损非常真实，符合生活记录。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "城市闲谈中“雨天让被忽视的角落更显眼”的弱信号，可能以非常间接的方式，让她对脚下这个“角落”多看了一眼。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "她只是机械地处理一个日常小麻烦，心里想着别的事，或者什么都没想。",
+    "after": "那个小小的裂口，像是一个确凿的、关于“使用”和“损耗”的证据，让她在完成动作后，心里产生了一瞬间非常具体的“哦，是这样啊”的认知。",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "school_transition_window",
+    "routineWindow": "after_class",
+    "weather": "light rain",
+    "minimalBounds": [
+      "context_school_transition_window",
+      "window_after_class",
+      "weather_rain",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "它捕捉到了人与日常物品之间那种沉默的、逐渐累积的互动关系，非常具象。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "captureIntent": {
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    },
+    "allowances": {
+      "cameraRelation": [
+        "observational",
+        "companion_like",
+        "ambiguous",
+        "self_held",
+        "mirror_mediated"
+      ],
+      "faceReadability": [
+        "not_required",
+        "glimpse",
+        "readable"
+      ],
+      "bodyCoverage": [
+        "hand_only",
+        "partial",
+        "half",
+        "three_quarter",
+        "full"
+      ],
+      "distance": [
+        "macro",
+        "close",
+        "medium",
+        "wide"
+      ],
+      "environmentWeight": [
+        "low",
+        "balanced",
+        "high"
+      ]
+    },
+    "guidanceEn": [
+      "the frame should feel witnessed from the outside, not automatically self-held",
+      "a brief or partial face glimpse is enough; do not force portrait dominance",
+      "partial body coverage is enough when it keeps the moment concrete",
+      "medium distance is a stable everyday framing for ordinary daily-life moments",
+      "balance the protagonist and environment so they support the same lived beat together"
+    ]
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。",
+      "她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。",
+      "画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。"
+    ],
+    "mayShow": [
+      "covered walkway is a plausible nearby anchor in this context.",
+      "station edge is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

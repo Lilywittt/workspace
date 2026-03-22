@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:40:30.847Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly late evening, a short errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the night as a private promise of a gentle reset for tomorrow.",
+  "microPlot": [
+    "The cool evening drizzle makes her hands feel a little cold and empty after a long day.",
+    "She steps into a covered walkway, chooses a simple warm cup sleeve from a small stall, and completes the tiny purchase.",
+    "Carrying the small, soft object back, she feels a shy attachment to this tiny comfort, a quiet promise to her future self."
+  ],
+  "sensoryFocus": "the soft, slightly fuzzy texture of the cup sleeve against cool fingertips",
+  "sceneNotes": [
+    "Low, warm light from the stall counter casting soft shadows on her hand.",
+    "A glimpse of the rainy street and blurred city lights through the walkway's open side.",
+    "The cup sleeve held carefully, not yet used, a small object of potential comfort."
+  ],
+  "tone": [
+    "shyly_forward-looking"
+  ],
+  "captionFocus": [
+    "A small purchase as a private rescue from the evening's chill."
+  ],
+  "summary": "A tiny, intentional purchase on a drizzly night becomes a quiet promise of warmth for tomorrow.",
+  "errorMessage": ""
+}

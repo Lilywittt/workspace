@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:30:23.633Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore",
+  "lane": "life_record",
+  "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+  "hashtags": [
+    "#日常切片"
+  ],
+  "fullCaptionText": "只是碰到一下，今天就忽然有了一个能停一停的地方。\n#日常切片",
+  "captionSource": {
+    "selectedCandidateId": "caption_01",
+    "selectionReason": "这一条最像角色会真的发出来的话。"
+  },
+  "image": {
+    "source": "v2_generated_image",
+    "provider": "aliyun-z-image",
+    "model": "z-image-turbo",
+    "assetId": null,
+    "requestStatus": "image_ready",
+    "remoteJobId": null,
+    "providerRequestId": "383afefd-7c6b-4723-bf6d-7b8a80de7429",
+    "altText": "翻找充电线时，在抽屉角落摸到一枚很久没用的发夹，金属部分有点凉。",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/ba/20260321/448165f2/383afefd-7c6b-4723-bf6d-7b8a80de74292040388983.png?Expires=1774680387&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=tBKrBQLRtnXMQ8BnUJ0Q%2FSyzbzM%3D",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+    "assetFilenameHint": "2026-03-21T06-29-48-aliyun-z-image.png",
+    "note": "A final image URL has been registered for the current V2 post package."
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true,
+    "readiness": "ready_for_dry_run_or_publish",
+    "releaseStage": "image_ready",
+    "blockers": [],
+    "releaseChecklist": [
+      "caption_selected",
+      "image_ready",
+      "alt_text_ready",
+      "image_provider_attached",
+      "image_request_tracked"
+    ]
+  }
+}

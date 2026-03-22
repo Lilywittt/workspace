@@ -1,0 +1,17 @@
+{
+  "selectedCandidateId": "caption_01",
+  "reasonZh": "这个候选最像一个真实的人会发布的内容，它从日常动作自然地过渡到具体的触感细节，没有过度解释，保留了瞬间的陌生感。",
+  "strengthsZh": [
+    "具体",
+    "自然",
+    "保留了瞬间的停顿感",
+    "不过度解释"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

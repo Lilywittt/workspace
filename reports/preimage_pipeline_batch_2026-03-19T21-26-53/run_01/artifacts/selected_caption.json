@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:28:10.383Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-27-22",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=Candidate 01 best captures the scene's micro-plot and required sensory detail with a gentle, forward-looking tone. It opens with a concrete action ('在雨棚下的小小采购'), includes the specified sensory focus ('纸袋发出轻微的沙沙声'), and lands on a shy, future-oriented promise ('像是给明天，偷偷存了一点温度') that perfectly matches the 'shy_attachment' emotional landing. Its short, breath-like sentences feel like a real person's private note, avoiding the more abstract '暗号' metaphor of Candidate 02 and the slightly more declarative '行动纲领' of Candidate 03, making it the most publishable and persona-aligned choice.",
+  "caption": "在雨棚下的小小采购。\n选了一个暖杯套，纸袋发出轻微的沙沙声。\n像是给明天，偷偷存了一点温度。",
+  "hashtags": [
+    "#小小仪式感",
+    "#便利店治愈时刻",
+    "#小雨的晚上",
+    "#给明天的小温暖"
+  ],
+  "candidateAngle": "私密仪式",
+  "candidateRationale": "聚焦于购买行为作为私密仪式，用感官细节（沙沙声）和未来指向（给明天）营造轻柔的中二感。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "Candidate 01 best captures the scene's micro-plot and required sensory detail with a gentle, forward-looking tone. It opens with a concrete action ('在雨棚下的小小采购'), includes the specified sensory focus ('纸袋发出轻微的沙沙声'), and lands on a shy, future-oriented promise ('像是给明天，偷偷存了一点温度') that perfectly matches the 'shy_attachment' emotional landing. Its short, breath-like sentences feel like a real person's private note, avoiding the more abstract '暗号' metaphor of Candidate 02 and the slightly more declarative '行动纲领' of Candidate 03, making it the most publishable and persona-aligned choice.",
+    "strengths": [
+      "Clear micro-plot structure: purchase -> sensory detail -> future feeling",
+      "Integrates the required sensory detail (papery rustle) naturally",
+      "Light chunibyo tone is intimate, not performative",
+      "Ending is a soft, forward-looking promise that fits 'shy_attachment'",
+      "Uses fresh hashtags that avoid recent overuse"
+    ],
+    "risks": [
+      "The phrase '给明天' could feel slightly predictable if overused in future posts",
+      "Slightly shorter than other options, but still meets all brief requirements"
+    ]
+  }
+}

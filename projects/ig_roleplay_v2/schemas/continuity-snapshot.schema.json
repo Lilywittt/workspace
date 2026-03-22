@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/continuity-snapshot.schema.json",
+  "title": "IG Roleplay Continuity Snapshot",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "historyWindow",
+    "recentPosts",
+    "laneStats",
+    "duplicateGuards",
+    "recommendation"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "historyWindow": {
+      "type": "integer"
+    },
+    "recentPosts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "at",
+          "lane",
+          "captionPreview",
+          "hashtags"
+        ],
+        "properties": {
+          "at": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "lane": {
+            "type": "string"
+          },
+          "captionPreview": {
+            "type": "string"
+          },
+          "hashtags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "laneStats": {
+      "type": "object"
+    },
+    "duplicateGuards": {
+      "type": "object"
+    },
+    "recommendation": {
+      "type": "object"
+    }
+  }
+}

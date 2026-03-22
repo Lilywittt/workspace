@@ -1,0 +1,276 @@
+{
+  "runIndex": 4,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-54-55",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift from selfie close-ups to wider environmental shots",
+      "Focus on a small action or task, not just a mood"
+    ],
+    "avoidMotifs": [
+      "Repeating '窗外' (outside the window) openings",
+      "Overusing #上海 and #日常 hashtags"
+    ],
+    "captionAdvice": [
+      "Use a more active, observational voice about surroundings",
+      "Mention a specific object or sound from the rainy day"
+    ],
+    "imageAdvice": [
+      "Frame to include hands interacting with an object in the environment",
+      "Use natural, diffused light from the overcast sky"
+    ],
+    "summary": "Maintain the intimate, reflective tone but pivot from self-portraits to documenting a simple life moment in the same rainy Shanghai context."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a morning of studying indoors, the character steps out briefly into the light rain of Shanghai, not for a grand outing but to return a borrowed book to a small neighborhood library, finding a quiet moment of transition between the cozy indoors and the soft, wet world outside.",
+    "microPlot": [
+      "A stack of finished review notes and a borrowed library book sit ready by the door.",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag.",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm."
+    ],
+    "sceneNotes": [
+      "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning.",
+      "Include the red hairclip as a small spot of color against the grey, rainy backdrop.",
+      "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background.",
+      "Natural, diffused light from the overcast sky, no harsh shadows."
+    ],
+    "captionFocus": [
+      "The quiet satisfaction of completing a small, responsible task in the middle of a rainy day."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a morning of studying indoors, the character steps out briefly into the light rain of Shanghai, not for a grand outing but to return a borrowed book to a small neighborhood library, finding a quiet moment of transition between the cozy indoors and the soft, wet world outside.",
+    "microPlot": [
+      "A stack of finished review notes and a borrowed library book sit ready by the door.",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag.",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm."
+    ],
+    "sensoryFocus": "the soft patter of rain on umbrella fabric and the faint smell of wet pavement",
+    "concreteSceneCues": [
+      "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning",
+      "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background",
+      "Natural, diffused light from the overcast sky, no harsh shadows",
+      "A stack of finished review notes and a borrowed library book sit ready by the door",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a caption that captures the quiet, reflective moment of stepping out into a rainy Shanghai afternoon to return a borrowed book, blending light chunibyo whimsy with the gentle texture of daily life to make a simple, responsible task feel like a small, meaningful reset.",
+    "audienceFeeling": "A soft, relatable sense of calm transition",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo: slightly poetic, playful self-awareness"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Grand adventure or dramatic plot"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨日仪式",
+      "opening": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+      "caption": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+      "hashtags": [
+        "#上海雨天",
+        "#还书日记",
+        "#轻中二日常",
+        "#生活记录",
+        "#日常碎片"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "片刻重置",
+      "opening": "在屋檐下停了一会儿，看雨珠在伞面上滚来滚去。然后走进雨里，去完成一件很小、很确定的事——把借来的故事还回去。潮湿的街道，图书馆的暖光，这一刻像呼吸之间的停顿。",
+      "caption": "在屋檐下停了一会儿，看雨珠在伞面上滚来滚去。然后走进雨里，去完成一件很小、很确定的事——把借来的故事还回去。潮湿的街道，图书馆的暖光，这一刻像呼吸之间的停顿。",
+      "hashtags": [
+        "#生活记录",
+        "#日常碎片",
+        "#轻中二日常",
+        "#雨天漫步",
+        "#片刻重置"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书与雨的契约",
+      "opening": "和一本陪伴过的书道别，最好的方式就是亲手送它回家。细雨是安静的背景音，脚步不匆忙。完成这个小小的约定，仿佛也为自己的节奏按下了一次轻柔的刷新键。",
+      "caption": "和一本陪伴过的书道别，最好的方式就是亲手送它回家。细雨是安静的背景音，脚步不匆忙。完成这个小小的约定，仿佛也为自己的节奏按下了一次轻柔的刷新键。",
+      "hashtags": [
+        "#还书日记",
+        "#生活记录",
+        "#轻中二日常",
+        "#雨天小事",
+        "#日常仪式"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨日仪式",
+      "opening": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+      "caption": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+      "hashtags": [
+        "#上海雨天",
+        "#还书日记",
+        "#轻中二日常",
+        "#生活记录",
+        "#日常碎片"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "片刻重置",
+      "opening": "在屋檐下停了一会儿，看雨珠在伞面上滚来滚去。然后走进雨里，去完成一件很小、很确定的事——把借来的故事还回去。潮湿的街道，图书馆的暖光，这一刻像呼吸之间的停顿。",
+      "caption": "在屋檐下停了一会儿，看雨珠在伞面上滚来滚去。然后走进雨里，去完成一件很小、很确定的事——把借来的故事还回去。潮湿的街道，图书馆的暖光，这一刻像呼吸之间的停顿。",
+      "hashtags": [
+        "#生活记录",
+        "#日常碎片",
+        "#轻中二日常",
+        "#雨天漫步",
+        "#片刻重置"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书与雨的契约",
+      "opening": "和一本陪伴过的书道别，最好的方式就是亲手送它回家。细雨是安静的背景音，脚步不匆忙。完成这个小小的约定，仿佛也为自己的节奏按下了一次轻柔的刷新键。",
+      "caption": "和一本陪伴过的书道别，最好的方式就是亲手送它回家。细雨是安静的背景音，脚步不匆忙。完成这个小小的约定，仿佛也为自己的节奏按下了一次轻柔的刷新键。",
+      "hashtags": [
+        "#还书日记",
+        "#生活记录",
+        "#轻中二日常",
+        "#雨天小事",
+        "#日常仪式"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the lane pivot to life_record by centering the concrete micro-plot of returning a book, directly incorporates the required sensory detail of rain on an umbrella, and cleanly integrates the character's catchphrase for continuity. Its structure moves from action to feeling, providing a clear, publishable slice-of-life moment that feels fresh after a streak of selfies.",
+    "strengths": [
+      "Strong micro-plot: action (packing book, stepping out) leads clearly to feeling (soft reset).",
+      "Integrates sensory detail ('雨点敲在伞布上的声音') and the daily weather variable naturally.",
+      "Explicitly uses the character's catchphrase, aligning with continuity pressure.",
+      "Tone is gently reflective with light chunibyo ('柔软的句号'), fitting the brief.",
+      "Hashtag set is appropriate and avoids overused tags from recent history."
+    ],
+    "risks": [
+      "The opening line about packing a book is functional but could be perceived as slightly plain.",
+      "Must ensure the visual clearly shows the described action (book in bag, umbrella) to match."
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_01",
+    "candidateAngle": "雨日仪式",
+    "caption": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+    "hashtags": [
+      "#上海雨天",
+      "#还书日记",
+      "#轻中二日常",
+      "#生活记录",
+      "#日常碎片"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the lane pivot to life_record by centering the concrete micro-plot of returning a book, directly incorporates the required sensory detail of rain on an umbrella, and cleanly integrates the character's catchphrase for continuity. Its structure moves from action to feeling, providing a clear, publishable slice-of-life moment that feels fresh after a streak of selfies."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: the soft patter of rain on umbrella fabric and the faint smell of wet pavement",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning | Frame to show the wet street and a glimpse of the small library's warm-lit window in the background | Natural, diffused light from the overcast sky, no harsh shadows | A stack of finished review notes and a borrowed library book sit ready by the door | She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag | The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, wet pavement reflections, window droplets, cool damp air, slightly chilly, Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning, Frame to show the wet street and a glimpse of the small library's warm-lit window in the background, Natural, diffused light from the overcast sky, no harsh shadows, A stack of finished review notes and a borrowed library book sit ready by the door, She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag, The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, reflective, the soft patter of rain on umbrella fabric and the faint smell of wet pavement",
+    "shotNotes": [
+      "Shot from a low angle, focusing on her hand adjusting the strap of her bag under the awning",
+      "Frame to show the wet street and a glimpse of the small library's warm-lit window in the background",
+      "Natural, diffused light from the overcast sky, no harsh shadows",
+      "A stack of finished review notes and a borrowed library book sit ready by the door",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "c8962c60ffcf",
+    "selectedCaption": "b64a2bb4db0b",
+    "imageScene": "d8b7db48cc48",
+    "candidateAngles": "545ef42e2f75"
+  }
+}

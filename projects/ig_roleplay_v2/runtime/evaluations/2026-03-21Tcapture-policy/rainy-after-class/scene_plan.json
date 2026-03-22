@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class",
+  "createdAt": "2026-03-21T11:58:13.748Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "light rain",
+    "locationName": "Shanghai",
+    "routineWindow": "after_class"
+  },
+  "narrative": {
+    "premise": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+    "microPlot": [
+      "她感觉到鞋带松了，很自然地停下脚步或坐下处理。",
+      "在手指穿梭打结的过程中，视觉和触觉同时捕捉到了那个裂口。",
+      "系鞋带的动作没有停止，但完成后的那一两秒，她的注意力还停留在那个裂口上。"
+    ],
+    "sensoryFocus": "一个真实的生活切片，在弯腰的短暂停顿中被捕捉。",
+    "emotionalLanding": "那个小小的裂口，像是一个确凿的、关于“使用”和“损耗”的证据，让她在完成动作后，心里产生了一瞬间非常具体的“哦，是这样啊”的认知。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。",
+      "她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。",
+      "画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。"
+    ],
+    "sceneNotes": [
+      "context: school_transition_window",
+      "weather: light rain",
+      "capture: observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "window_after_class",
+      "identity_stability"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": "",
+    "activeExternalEventIds": []
+  }
+}

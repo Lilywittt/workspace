@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:39:33.533Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-38-33",
+  "selectedCandidateId": "ai_cand_02",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best balances the required scene elements with a fresh, publishable voice. It directly incorporates the sensory detail (thumb smoothing a crease) and weather (10-degree rainy night) into a cohesive micro-plot, framing the action as a 'private code word about order' which perfectly captures the 'gentle_order' emotional landing and the persona's light chunibyo tendency to read small omens. It avoids the overused 'soft observation' ending family and feels more like a private note than a generic observation, providing a stronger pivot from recent repetitive semantics.",
+  "caption": "一张计划表的内页，夹在两本旧书之间。\n把它归位，褶皱被拇指轻轻抹去。\n10度的雨夜，这个动作本身，就是一句只对自己说的、关于秩序的暗语。",
+  "hashtags": [
+    "#轻微中二病",
+    "#私人的小仪式",
+    "#秩序感",
+    "#生活切片",
+    "#春夜"
+  ],
+  "candidateAngle": "秩序的暗号",
+  "candidateRationale": "将修复行为解读为“秩序的暗语”，赋予日常动作隐秘的仪式感，同时自然融入天气细节。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "This caption best balances the required scene elements with a fresh, publishable voice. It directly incorporates the sensory detail (thumb smoothing a crease) and weather (10-degree rainy night) into a cohesive micro-plot, framing the action as a 'private code word about order' which perfectly captures the 'gentle_order' emotional landing and the persona's light chunibyo tendency to read small omens. It avoids the overused 'soft observation' ending family and feels more like a private note than a generic observation, providing a stronger pivot from recent repetitive semantics.",
+    "strengths": [
+      "Strong persona fit: 'code word for order' is a precise, lightly dramatic interpretation of a private ritual.",
+      "Excellent scene integration: Weaves object, action, and weather into a single, coherent thought.",
+      "Fresh ending: Avoids common 'soft observation' cadence, offering a more intimate, self-directed closure.",
+      "Publishable concision: Short, evocative sentences that feel believably human."
+    ],
+    "risks": [
+      "Slightly abstract: The phrase 'code word for order' could feel mildly conceptual versus purely sensory.",
+      "Lower explicit 'forward-looking' emphasis compared to candidate 03's 'bookmark' metaphor."
+    ]
+  }
+}

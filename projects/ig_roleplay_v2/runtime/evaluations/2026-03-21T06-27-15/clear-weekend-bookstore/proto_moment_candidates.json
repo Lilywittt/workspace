@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把杯子放进洗碗机时，发现杯底还粘着一小片没化开的茶叶梗。",
+      "hookWhyInterestingZh": "它足够小，但像一天里会被真实留下来的那一块。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_afternoon_pause",
+          "weather_clear"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "翻找充电线时，在抽屉角落摸到一枚很久没用的发夹，金属部分有点凉。",
+      "hookWhyInterestingZh": "触感比记忆更先一步抵达。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "identity_stability",
+          "context_weekend_pause_window"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "擦桌子时，发现桌布边缘有一处针脚脱线了，线头翘着，颜色和布料几乎一样。",
+      "hookWhyInterestingZh": "它足够小，但像一天里会被真实留下来的那一块。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_afternoon_pause",
+          "context_weekend_pause_window"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "想把窗台上的盆栽挪个位置，手指碰到叶子背面，沾了一层薄薄的、几乎看不见的灰。",
+      "hookWhyInterestingZh": "触感比视觉更先确认了它的存在。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "weather_clear",
+          "context_weekend_pause_window"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}

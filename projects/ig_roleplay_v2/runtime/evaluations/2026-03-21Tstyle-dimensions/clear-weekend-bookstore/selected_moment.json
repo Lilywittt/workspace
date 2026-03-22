@@ -1,0 +1,75 @@
+{
+  "candidateId": "event_01_paper_pause",
+  "lane": "life_record",
+  "eventSummaryZh": "She was only tidying up for a second, then paused because of planner.",
+  "hookWhyInterestingZh": "It is tiny, but it feels like the sort of fragment a real day would leave behind.",
+  "causalChainZh": [
+    "She was only moving through an ordinary routine.",
+    "One specific detail briefly pulled her attention sideways.",
+    "The feeling did not grow into drama; it just settled for a moment."
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear",
+      "identity_stability"
+    ],
+    "inferredDetailsZh": [
+      "The detail was minor in itself, but today it happened to register."
+    ]
+  },
+  "placeRef": "bookstore_aisle",
+  "objectRefs": [
+    "planner",
+    "mechanical_pencil"
+  ],
+  "routineRef": "window_afternoon_pause",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "She was only trying to move through the moment normally.",
+  "interiorShiftZh": "A tiny detail made her pause internally for half a beat.",
+  "whyTodayZh": "Today's pacing and outside texture made that pause land a little more clearly.",
+  "whyShareableZh": "It is concrete and quiet at the same time, so it can become a believable post.",
+  "visualEvidenceZh": [
+    "finger paused at an edge",
+    "sleeve cuff",
+    "partially opened carried item"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "下午三点，书店里很安静。",
+      "阳光透过窗，在书页上投下淡淡的影子。",
+      "空气里有旧纸和油墨的味道。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T15:36:23.043Z",
+  "review": {
+    "candidateId": "event_01_paper_pause",
+    "personaTruthScore": 85,
+    "groundingScore": 80,
+    "postabilityScore": 82,
+    "coherenceScore": 84,
+    "characterPresenceFitScore": 78,
+    "sourceMirroringRiskScore": 20,
+    "strengthsZh": [
+      "具体物理触发：手指在边缘暂停。",
+      "因果链清晰，情感转变有实物依托。",
+      "视觉证据（手指、袖口、打开的物品）与文案可来自同一上游事实。"
+    ],
+    "risksZh": [
+      "若细节描述过于模糊，可能滑回熟悉的、安全的通用模式。",
+      "为满足'clear_character_presence'目标，可能需要调整构图，但事件本身支持。"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

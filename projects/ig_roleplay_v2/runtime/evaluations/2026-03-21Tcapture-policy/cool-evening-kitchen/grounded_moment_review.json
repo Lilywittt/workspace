@@ -1,0 +1,67 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 87,
+      "coherenceScore": 90,
+      "characterPresenceFitScore": 85,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理细节（缺口）直接触发情感转变，符合‘从具体细节开始’的叙事习惯。",
+        "瞬间安静、略带凉意的氛围与人物‘敏感、克制’的气质高度契合。",
+        "视觉证据（手部特写、侧脸）能自然满足‘clear_character_presence’目标，无需强行修正。"
+      ],
+      "risksZh": [
+        "若视觉处理不当，可能滑向单纯的‘手拿杯子’装饰图，失去‘缺口’这一核心触感。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 82,
+      "groundingScore": 80,
+      "postabilityScore": 78,
+      "coherenceScore": 75,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "事件因果链清晰（凉意-关窗-被绊），动作感强。",
+        "‘自我制造的障碍’带有轻微的、私人的幽默感，符合人物性格。"
+      ],
+      "risksZh": [
+        "为满足‘clear_character_presence’，可能需要更完整的身体动作捕捉，可能使画面重心偏向动态姿势而非细腻停顿。",
+        "视觉证据描述（‘身体微微失去平衡的瞬间’）对构图要求较高，易流于普通动作快照。"
+      ],
+      "verdict": "viable_but_weaker"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 80,
+      "groundingScore": 78,
+      "postabilityScore": 75,
+      "coherenceScore": 72,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "事件极其微小，符合‘不想把日子过成戏剧故事’的当前状态。",
+        "包含听觉（轻响）与触觉（对准）的多感官细节。"
+      ],
+      "risksZh": [
+        "容易被视为对‘哪个微小动作算真正回家’趋势信号的直接回应，违反‘ambient_can_color_but_not_direct’护栏。",
+        "核心动作（插充电器）过于常见，视觉上易沦为模板化的‘手与插座’特写，缺乏独特性。",
+        "为展示‘clear_character_presence’，可能需强行将脸部纳入构图，破坏‘trace-led’的自然感。"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "已完成对候选人设真实性、现实贴合度、可发布性、图文一致性及角色呈现目标契合度的评审。event_01因具体物理触发、情感转变自然、且能无缝支持要求的清晰角色呈现目标而获推荐。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

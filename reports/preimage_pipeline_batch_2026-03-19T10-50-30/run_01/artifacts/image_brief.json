@@ -1,0 +1,97 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:51.249Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "After a day of light rain, the evening finds her in her room, carefully sorting through a small collection of colorful stickers she's been saving, each one a tiny memory or a future promise.",
+    "microPlot": [
+      "The quiet, damp evening after the rain makes indoor activities feel cozy and intentional.",
+      "She spreads the stickers on her desk, organizing them by color and theme under the warm glow of her desk lamp.",
+      "A small, satisfied smile forms as she picks out a favorite—a tiny star—and presses it onto the corner of her notebook."
+    ],
+    "sensoryFocus": "warm lamplight on glossy paper, the soft peel-and-stick sound",
+    "selectedCaptionOpening": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+    "selectedCaptionSummary": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+    "candidateAngle": "感官沉浸"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。\"",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: warm lamplight on glossy paper, the soft peel-and-stick sound",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Medium shot focused on hands and desk surface | Desk lamp casting a warm, focused pool of light | Scatter of colorful stickers, some partially peeled | Notebook with a few already-placed stickers visible | Faint reflection of window with raindrops in background | Small red hairclip catching the light",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "Use a medium shot showing hands and an object or part of a room",
+    "Incorporate a different time of day (e.g., evening) if possible",
+    "Shift from selfie close-ups to wider environmental shots",
+    "Introduce a new activity or small task as a subject",
+    "Medium shot focused on hands and desk surface",
+    "Desk lamp casting a warm, focused pool of light",
+    "Scatter of colorful stickers, some partially peeled",
+    "Notebook with a few already-placed stickers visible",
+    "Faint reflection of window with raindrops in background",
+    "Small red hairclip catching the light",
+    "The quiet pleasure of organizing small, beautiful things",
+    "A wider scene is allowed, but at least one character trace must still be visible and readable",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:39:21.957Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-38-34",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required daily-life texture with the character's light chunibyo and private ritual energy. It transforms the tactile repair into a personal 'secret code,' delivering the 'gentle_order' emotional landing without sounding like a generic diary entry or a forced slogan. The focus on mechanical sensation ('metal's slight coolness,' 'spring's subtle resistance') grounds it in concrete detail, while the ending line feels like a quiet, forward-looking thought for herself, avoiding the overused 'soft_observation' pattern.",
+  "caption": "修理一支笔。\n指尖感受金属的微凉，和弹簧细微的阻力。\n这个动作本身，就像一句只有自己懂的暗号——‘一切都会回到应有的位置’。",
+  "hashtags": [
+    "#触感仪式",
+    "#秘密暗号",
+    "#日常修复学",
+    "#轻柔秩序"
+  ],
+  "candidateAngle": "秘密符号",
+  "candidateRationale": "赋予普通修理动作以‘秘密暗号’的轻微中二感，让机械触感承载私人意义，满足‘让普通事物有秘密感’的要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the required daily-life texture with the character's light chunibyo and private ritual energy. It transforms the tactile repair into a personal 'secret code,' delivering the 'gentle_order' emotional landing without sounding like a generic diary entry or a forced slogan. The focus on mechanical sensation ('metal's slight coolness,' 'spring's subtle resistance') grounds it in concrete detail, while the ending line feels like a quiet, forward-looking thought for herself, avoiding the overused 'soft_observation' pattern.",
+    "strengths": [
+      "Strong persona fit: 'secret code' phrasing captures light chunibyo and private ritual energy perfectly.",
+      "Excellent sensory grounding: focuses on specific, believable tactile details (metal, spring).",
+      "Fresh emotional landing: 'everything returns to its proper place' supports 'gentle_order' without being a cliché completion.",
+      "Avoids repetition: does not reuse recent opening styles or overused caption ending families."
+    ],
+    "risks": [
+      "Slightly more abstract than other options; the 'secret code' metaphor must feel earned by the concrete details.",
+      "The hashtag '#秘密暗号' (secret code) is new and could be less discoverable, but it fits the angle."
+    ]
+  }
+}

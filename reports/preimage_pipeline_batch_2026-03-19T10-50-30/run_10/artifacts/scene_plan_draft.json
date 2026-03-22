@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T03:02:30.993Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "After a day of studying, the character has just finished organizing her desk, creating a small, tidy corner that feels like a personal victory against the lingering drizzle outside.",
+  "microPlot": [
+    "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered.",
+    "She carefully stacks the books, aligns her pens in a mug, and places a small, newly finished origami crane beside the lamp.",
+    "A quiet sense of order and calm settles in, making the cozy, lamplit room feel like a perfect little world."
+  ],
+  "sensoryFocus": "warm lamplight on wood grain",
+  "sceneNotes": [
+    "Desk corner with a warm, vintage-style desk lamp as the main light source.",
+    "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately.",
+    "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light.",
+    "A red hairclip resting on the edge of an open notebook.",
+    "Framing is slightly wide to show the organized space and the character's hand adjusting the crane."
+  ],
+  "tone": [
+    "cozy_accomplishment"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of tidying a small space after work."
+  ],
+  "summary": "A life_record scene showing a freshly organized desk corner in the evening, capturing a moment of quiet, personal order.",
+  "errorMessage": ""
+}

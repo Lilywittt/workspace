@@ -1,0 +1,53 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "close-up framing on the hand and the ticket stub being pulled from the bag's inner pocket",
+  "mustShowZh": [
+    "皱了的电影票根一角从书包夹层露出",
+    "手指捏着票根的瞬间",
+    "窗外雨痕模糊的玻璃"
+  ],
+  "mustShowEn": [
+    "a wrinkled movie ticket stub being pulled from the inner pocket of a school bag",
+    "fingertips pinching the edge of the ticket stub",
+    "rain-streaked window glass visible in the background"
+  ],
+  "mayShowZh": [
+    "书包拉链拉开一半的状态",
+    "课桌一角或教室窗台",
+    "袖口边缘",
+    "红色小发夹的一角"
+  ],
+  "mayShowEn": [
+    "school bag with its zipper half-open",
+    "corner of a classroom desk or windowsill",
+    "edge of a sleeve cuff",
+    "a glimpse of the small red hairclip"
+  ],
+  "mustAvoidZh": [
+    "通用美学壁纸",
+    "时尚大片质感",
+    "将瞬间重写成不同事件",
+    "票根被放大成梦幻的风景背景",
+    "角色摆出与翻找动作无关的肖像姿势",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss"
+  ],
+  "mustAvoidEn": [
+    "generic aesthetic wallpaper",
+    "fashion editorial polish",
+    "rewriting the moment into a different event",
+    "the ticket stub amplified into a dreamy scenic backdrop",
+    "the character posed for a portrait unrelated to the rummaging action"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "璃音收拾书包时，发现夹层里一张去年的电影票根。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

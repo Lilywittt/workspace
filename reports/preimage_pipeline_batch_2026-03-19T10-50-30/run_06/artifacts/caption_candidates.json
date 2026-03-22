@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:59.452Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-57-23",
+  "briefGoal": "Write a short, intimate caption that captures the quiet satisfaction of tidying a desk after studying, focusing on sensory details and the small victory of creating order, to refresh the feed with a cozy life-record post.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "秩序带来的宁静",
+      "caption": "把散落的笔一支支收好，笔记本按大小摞齐。指尖划过微凉的封面，听见笔帽合上的轻响。\n整理完书桌，心里的毛线团好像也被理清了。窗外的雨声很轻，今天应该还是明亮而鲜活的一天吧。",
+      "hashtags": [
+        "#生活碎片",
+        "#治愈系整理",
+        "#书桌日记",
+        "#雨天的宁静"
+      ],
+      "rationale": "聚焦整理动作与感官细节（笔帽轻响、封面触感），以整理隐喻内心平静，自然融入角色口头禅和雨天变量，营造安静治愈的日常感。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "与杂乱思绪和解",
+      "caption": "一场学习的风暴过后，桌上留下了笔记的残骸和空杯子。\n现在，风暴眼是这支即将被收起的铅笔，和一枚安静的红发夹。让一切归位，也是一种温柔的胜利。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日记",
+        "#治愈系整理",
+        "#上海日常"
+      ],
+      "rationale": "以‘风暴’比喻学习后的杂乱，用具体物件（铅笔、发夹）作为‘风暴眼’，突出从混乱到有序的转变与‘温柔的胜利’这一核心情绪。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "触感与气息的片刻",
+      "caption": "能闻到纸页的味道，和雨后空气里微凉的10.4度。\n在台灯长长的影子里，给今天画一个整洁的句号。心满意足地叹口气，这样就很好了。",
+      "hashtags": [
+        "#生活碎片",
+        "#雨天的宁静",
+        "#治愈系整理",
+        "#上海日常"
+      ],
+      "rationale": "强调嗅觉与温度等感官细节，将整理书桌喻为‘画句号’，传递出满足与安宁的收尾感，巧妙融合天气变量而不喧宾夺主。"
+    }
+  ]
+}

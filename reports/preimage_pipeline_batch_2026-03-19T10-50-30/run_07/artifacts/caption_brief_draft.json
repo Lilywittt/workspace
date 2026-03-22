@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:54.590Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures a quiet, intimate moment of discovery in a Shanghai bookstore, where finding a pressed flower in an old book sparks gentle curiosity and a feeling of shared secret with a stranger, blending the day's light rain with a sense of wonder.",
+  "audienceFeeling": "A soft, wondering connection to a small, beautiful detail.",
+  "openingMoves": [
+    "Start with a sensory detail (e.g., the smell of old paper, the feel of rain)",
+    "Mention the action of taking a walk to clear a tired mind",
+    "Introduce the discovery of the flower as a found secret"
+  ],
+  "mustInclude": [
+    "The pressed flower as a discovered object",
+    "Sensory detail (dusty paper scent, cool book cover)",
+    "The light rain ('小雨') weather context",
+    "A trace of the character (e.g., hand with red hairclip, sleeve)",
+    "A wondering thought about the flower's past owner"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Overly poetic or abstract phrasing",
+    "Exposition of lore or backstory",
+    "Direct dialogue or script-like lines",
+    "Mood without concrete action or object"
+  ],
+  "voiceNotes": [
+    "Light chunibyo tone: slightly dramatic but gentle",
+    "Daily-life texture: casual, intimate, like a diary snippet",
+    "Quietly wondering: curious, soft, not overly emotional",
+    "Use simple, concise Chinese sentences",
+    "Max 2 emojis, keep them subtle (e.g., 🌧️, 📖)"
+  ],
+  "hashtagAngles": [
+    "#上海日记 (Shanghai diary)",
+    "#小雨中的发现 (Discovery in light rain)",
+    "#旧书与花 (Old book and flower)",
+    "#生活碎片 (Life fragment)",
+    "#二次元日常 (Anime daily life)"
+  ],
+  "summary": "A life_record caption about finding a pressed flower in a Shanghai bookstore, blending rain, sensory details, and quiet curiosity in a gentle, chunibyo-tinged voice.",
+  "errorMessage": ""
+}

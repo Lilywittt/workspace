@@ -1,0 +1,92 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:54:11.157Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable.",
+      "libraryStatus": "placeholder",
+      "librarySource": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "referencePlan": {
+    "identityReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "styleReferenceIds": [],
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ]
+  },
+  "referenceHandling": {
+    "requestedReferenceCount": 1,
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "deliveryMode": "pending_provider_selection"
+  },
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 她拿着杯子的手部特写，可以看清手指与杯沿的接触点。, 她的侧脸或上半身，表情是专注而略带疑惑的停顿。, 背景是家中桌面的局部，光线偏冷，符合傍晚氛围。, her hand holding the cup, with a clear view of the fingertip touching the small chip on the rim, her profile or upper body, with an expression of focused, slightly puzzled pause, partial view of a home desk surface in the background, with cool-toned evening light, 她拿着杯子的手部特写，可以看清手指与杯沿的接触点, 她的侧脸或上半身，表情是专注而略带疑惑的停顿, 背景是家中桌面的局部，光线偏冷，符合傍晚氛围\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nCapturePlan: observational camera relation, close distance, half body coverage, readable face, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, the face should be readable, but the lived event may still stay primary, half-body coverage is allowed when it helps the action read cleanly, close framing is allowed when it helps the lived beat read more clearly\nIdentityLock: same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable\nComposition: moment-led framing rooted in the same lived action, 让构图跟随同一个生活节拍，使动作和空间保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 一个真实的生活片段，在流逝中被捕捉。\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, generic aesthetic wallpaper, fashion editorial polish, rewriting the moment into a different event, letting irrelevant bystanders or background people take more visual weight than the protagonist, 通用的美学壁纸, 时尚大片般的精修感, 将这一刻重写为不同的事件, 让背景人物或无关路人占据比主角更多的视觉权重, tourism poster feeling, fashion editorial gloss, photoreal live-action look, empty scenery without character trace, generic anime boy redesign, older-looking redesign, irrelevant bystanders drawing more attention than the protagonist",
+    "shotNotes": [
+      "她拿着杯子的手部特写，可以看清手指与杯沿的接触点。",
+      "她的侧脸或上半身，表情是专注而略带疑惑的停顿。",
+      "背景是家中桌面的局部，光线偏冷，符合傍晚氛围。",
+      "her hand holding the cup, with a clear view of the fingertip touching the small chip on the rim",
+      "her profile or upper body, with an expression of focused, slightly puzzled pause",
+      "partial view of a home desk surface in the background, with cool-toned evening light",
+      "other ordinary items on the desk, like a notebook or pen",
+      "the edge of her sleeve"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "她拿着杯子的手部特写，可以看清手指与杯沿的接触点。, 她的侧脸或上半身，表情是专注而略带疑惑的停顿。, 背景是家中桌面的局部，光线偏冷，符合傍晚氛围。, her hand holding the cup, with a clear view of the fingertip touching the small chip on the rim, her profile or upper body, with an expression of focused, slightly puzzled pause, partial view of a home desk surface in the background, with cool-toned evening light, 她拿着杯子的手部特写，可以看清手指与杯沿的接触点, 她的侧脸或上半身，表情是专注而略带疑惑的停顿, 背景是家中桌面的局部，光线偏冷，符合傍晚氛围",
+      "context": "ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "capturePlan": "observational camera relation, close distance, half body coverage, readable face, balanced environment weight, the frame should feel witnessed from the outside, not automatically self-held, a brief or partial face glimpse is enough; do not force portrait dominance, partial body coverage is enough when it keeps the moment concrete, medium distance is a stable everyday framing for ordinary daily-life moments, balance the protagonist and environment so they support the same lived beat together, the face should be readable, but the lived event may still stay primary, half-body coverage is allowed when it helps the action read cleanly, close framing is allowed when it helps the lived beat read more clearly",
+      "identityLock": "same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+      "composition": "moment-led framing rooted in the same lived action, 让构图跟随同一个生活节拍，使动作和空间保持连贯。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "一个真实的生活片段，在流逝中被捕捉。",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "角色月见璃音在傍晚家中，手指意外触碰到水杯边缘细小缺口时的瞬间。",
+    "needsFaceReview": false,
+    "needsIdentityReview": true,
+    "dryRunDefault": true
+  },
+  "reviewSignals": {
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": [],
+    "captureSummaryEn": "observational camera relation, close distance, half body coverage, readable face, balanced environment weight",
+    "unresolvedIdentityReference": true,
+    "strongerIdentityLock": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen"
+}

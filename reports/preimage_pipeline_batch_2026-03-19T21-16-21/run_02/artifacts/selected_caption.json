@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:55.691Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-18-01",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best captures the private ritual energy and light chunibyo tone by framing the repair as a 'secret signal' with a satisfying internal 'click,' aligning perfectly with the scene's emotional landing of gentle_order and the character's need for private meaning. It avoids being a flat diary summary, integrates the weather as a contrasting texture, and feels like a note to a future self, which is more publishable and fresh than the slightly more generic alternatives.",
+  "caption": "一枚被遗忘的回形针，在指尖恢复了直线。\n这大概不算什么大事，但完成它的瞬间，听到心里“咔”一声轻响——今天可以关上了。\n窗外的雨还在下，但这里已经整齐了一点。",
+  "hashtags": [
+    "#秘密信号",
+    "#微小修复",
+    "#书店时光",
+    "#春日夜晚",
+    "#日常仪式"
+  ],
+  "candidateAngle": "秘密信号",
+  "candidateRationale": "赋予普通物件（回形针）和声音（咔一声轻响）以私密的象征意义，符合“让普通事物带有秘密信号感”的要求，结尾与窗外雨景形成对比。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best captures the private ritual energy and light chunibyo tone by framing the repair as a 'secret signal' with a satisfying internal 'click,' aligning perfectly with the scene's emotional landing of gentle_order and the character's need for private meaning. It avoids being a flat diary summary, integrates the weather as a contrasting texture, and feels like a note to a future self, which is more publishable and fresh than the slightly more generic alternatives.",
+    "strengths": [
+      "Strong private ritual energy with 'secret signal' framing",
+      "Excellent sensory and internal detail ('咔一声轻响')",
+      "Integrates weather as a soft contrast without dominating",
+      "Ending feels like a quiet, personal completion",
+      "Avoids overused '心也整理了一遍' phrasing"
+    ],
+    "risks": [
+      "Slightly more abstract than other candidates",
+      "'今天可以关上了' could be read as mildly melancholic",
+      "Must ensure the hashtag #秘密信号 doesn't feel forced"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:04:54.822Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-04-00",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This caption best balances the required 'light chunibyo' and 'private ritual energy' by framing the ordinary scene as a '结界' (barrier/ward), creating an immediate sense of personal, intimate discovery. It cleanly executes the micro-plot (discovery -> observation -> defined ritual) and integrates the sensory detail of the '冰冷栏杆' (cold railing) without over-explaining. The tone is gently dramatic, feels like a private note, and avoids the theatrical fantasy or fixed slogans the brief warns against, making it the most publishable and persona-fitting option.",
+  "strengths": [
+    "Strongest 'light chunibyo' voice with '结界' (barrier), feeling intimate, not performative.",
+    "Clearly defines the '只看，不碰' (look, don't touch) action as a personal ritual.",
+    "Cleanly follows the micro-plot structure and includes concrete sensory detail.",
+    "Avoids repetitive openings or blocked phrases from recent history."
+  ],
+  "risks": [
+    "Slightly more abstract than other candidates, though still grounded in the scene.",
+    "The '倒过来的楼' (upside-down building) metaphor is poetic but remains within daily-life bounds."
+  ],
+  "errorMessage": ""
+}

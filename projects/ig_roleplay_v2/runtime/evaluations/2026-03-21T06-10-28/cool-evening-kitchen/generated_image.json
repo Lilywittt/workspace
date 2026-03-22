@@ -1,0 +1,85 @@
+{
+    "version":  "2.0.0-alpha.1",
+    "createdAt":  "2026-03-21T06:16:17Z",
+    "scenePlanRunId":  "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen",
+    "sourceRequestCreatedAt":  "2026-03-21T06:16:07.650Z",
+    "provider":  "aliyun-z-image",
+    "model":  "z-image-turbo",
+    "imageUrl":  "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/6c/20260321/448165f2/77719fec-58db-4d8d-ade6-10437487a9931229369909.png?Expires=1774679574\u0026OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1\u0026Signature=cSqGWYRFAcgFxUEpBJsPidTJUgI%3D",
+    "assetId":  null,
+    "remoteJobId":  null,
+    "providerRequestId":  "77719fec-58db-4d8d-ade6-10437487a993",
+    "requestSummary":  {
+                           "generationMode":  "anime_close_crop_trace_lived_moment",
+                           "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                           "aspectRatio":  "4:5",
+                           "candidateCount":  1,
+                           "altText":  "璃音给手机充电，插头对准插孔的瞬间。",
+                           "referenceIds":  [
+                                                "rion_core_face_01"
+                                            ],
+                           "promptPackage":  {
+                                                 "positivePrompt":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手握着充电线和插头, 插座局部的阴影, 动作中途停顿的瞬间, hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket, texture and shadow of the wall socket area, the paused moment of adjustment, fingers slightly repositioning the plug, 手握着充电线和插头，插头正对着或微微偏离插座孔, 插座局部的阴影和纹理, 动作中途停顿的瞬间，手指的轻微调整\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nComposition: close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+                                                 "negativePrompt":  "product close-up of the phone or plug, facial expression as the primary focus, pristine, decorative, or blank wall backgrounds, the action already completed with plug fully inserted, 手机或插头的特写产品展示, 面部表情作为焦点, 干净无瑕的墙面或装饰性背景, 动作已完成、插头已插好的状态, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, fashion editorial polish, empty scenery without character trace",
+                                                 "shotNotes":  [
+                                                                   "手握着充电线和插头",
+                                                                   "插座局部的阴影",
+                                                                   "动作中途停顿的瞬间",
+                                                                   "hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket",
+                                                                   "texture and shadow of the wall socket area",
+                                                                   "the paused moment of adjustment, fingers slightly repositioning the plug"
+                                                               ],
+                                                 "promptBlocks":  {
+                                                                      "subject":  "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+                                                                      "moment":  "手握着充电线和插头, 插座局部的阴影, 动作中途停顿的瞬间, hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket, texture and shadow of the wall socket area, the paused moment of adjustment, fingers slightly repositioning the plug, 手握着充电线和插头，插头正对着或微微偏离插座孔, 插座局部的阴影和纹理, 动作中途停顿的瞬间，手指的轻微调整",
+                                                                      "context":  "ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset",
+                                                                      "composition":  "close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+                                                                      "atmosphere":  "像顺手留下的一段真实生活",
+                                                                      "constraints":  "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+                                                                  }
+                                             }
+                       },
+    "providerRequest":  {
+                            "provider":  "aliyun-z-image",
+                            "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                            "submissionMode":  "host_executed_sync",
+                            "requiredEnv":  [
+                                                "DASHSCOPE_API_KEY"
+                                            ],
+                            "model":  "z-image-turbo",
+                            "assetFilenameHint":  "2026-03-21T06-16-15-aliyun-z-image.png",
+                            "requestBody":  {
+                                                "model":  "z-image-turbo",
+                                                "parameters":  {
+                                                                   "size":  "1024*1280",
+                                                                   "prompt_extend":  false,
+                                                                   "watermark":  false
+                                                               },
+                                                "input":  {
+                                                              "messages":  [
+                                                                               {
+                                                                                   "role":  "user",
+                                                                                   "content":  [
+                                                                                                   {
+                                                                                                       "text":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手握着充电线和插头, 插座局部的阴影, 动作中途停顿的瞬间, hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket, texture and shadow of the wall socket area, the paused moment of adjustment, fingers slightly repositioning the plug, 手握着充电线和插头，插头正对着或微微偏离插座孔, 插座局部的阴影和纹理, 动作中途停顿的瞬间，手指的轻微调整\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nComposition: close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5\n\nAvoid: product close-up of the phone or plug, facial expression as the primary focus, pristine, decorative, or blank wall backgrounds, the action already completed with plug fully inserted, 手机或插头的特写产品展示, 面部表情作为焦点, 干净无瑕的墙面或装饰性背景, 动作已完成、插头已插好的状态, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, fashion editorial polish, empty scenery without character trace"
+                                                                                                   }
+                                                                                               ]
+                                                                               }
+                                                                           ]
+                                                          }
+                                            },
+                            "responseContract":  {
+                                                     "jobIdField":  "request_id",
+                                                     "requestIdField":  "request_id",
+                                                     "imageUrlField":  "output.choices[0].message.content[?].image"
+                                                 }
+                        },
+    "notes":  [
+                  "Host executor generated a real image file from the current image_request.json using aliyun-z-image."
+              ],
+    "status":  "image_ready",
+    "outputFormat":  "png",
+    "localFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T06-16-15-aliyun-z-image.png",
+    "latestFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\current\\latest-aliyun-z-image.png",
+    "failureReason":  ""
+}

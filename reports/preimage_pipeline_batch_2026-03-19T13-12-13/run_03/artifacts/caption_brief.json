@@ -1,0 +1,85 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:15:31.211Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-15-11",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, rainy afternoon spent arranging forgotten objects on a windowsill, blending gentle chunibyo with intimate daily texture. The caption should convey a private ritual feeling, focus on sensory details like the sound of rain and the touch of objects, and end with a soft, reflective note that feels personal and uncommercial.",
+  "audienceFeeling": "A quiet, cozy resonance",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Use short sentences with one slightly longer, breath-like phrase",
+    "End with a soft, trailing tone or gentle self-address",
+    "Keep language simple, intimate, and believable for a daily post",
+    "Let the 'light chunibyo' flavor emerge through private ritual energy, not fantasy",
+    "Incorporate sensory details (touch, sound) to ground the moment",
+    "Start with a simple observation about the rain or the indoor atmosphere",
+    "Mention the act of finding or arranging small objects",
+    "Use a short, breath-like sentence to introduce the ritual feeling",
+    "The sound or feel of the light rain (小雨)",
+    "A list or description of 2-3 specific forgotten objects (e.g., smooth stone, ticket stub)",
+    "The small red hairclip as a visual anchor",
+    "A hint that one object feels faintly symbolic or holds a secret story",
+    "The catchphrase 'Today should still feel bright and alive.' woven naturally"
+  ],
+  "contentBlocks": {
+    "premise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+    "microPlot": [
+      "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+      "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+      "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+    ],
+    "sensoryFocus": "the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A life_record caption about arranging forgotten objects during a rainy afternoon, blending gentle chunibyo with intimate daily texture and a soft, reflective close.",
+    "hashtagAngles": [
+      "#小雨的仪式感 (ritual feeling of light rain)",
+      "#被遗忘的小东西 (forgotten little things)",
+      "#上海阴天 (Shanghai cloudy day)",
+      "#日常收藏 (daily collection)",
+      "#安静下午 (quiet afternoon)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Explicit world-building or theatrical chunibyo",
+    "Commercial or promotional language",
+    "Overly poetic or diary-like exposition",
+    "Directly addressing the camera or audience",
+    "Mentioning AI, KPIs, or collaboration"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

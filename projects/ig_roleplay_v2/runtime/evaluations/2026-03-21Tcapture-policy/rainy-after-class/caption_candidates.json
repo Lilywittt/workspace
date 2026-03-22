@@ -1,0 +1,60 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "concrete_detail",
+      "caption": "弯腰系鞋带的时候，发现塑料头套裂开了一道小口子。",
+      "hashtags": [
+        "#日常碎片",
+        "#生活记录"
+      ],
+      "rationale": "从具体动作和发现切入，陈述事实，不解释感受。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "internal_observation",
+      "caption": "塑料头套裂了，里面的白色纤维露了出来。",
+      "hashtags": [
+        "#日常碎片",
+        "#微小发现"
+      ],
+      "rationale": "聚焦于裂口本身，像在对自己确认一个新的事实。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "action_pause",
+      "caption": "系到一半，手指停了一下。",
+      "hashtags": [
+        "#日常碎片",
+        "#瞬间"
+      ],
+      "rationale": "从动作的微小中断开始，暗示了注意力的转移，留白感强。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "object_focus",
+      "caption": "鞋带松了，然后看见了那个裂口。",
+      "hashtags": [
+        "#日常碎片",
+        "#使用痕迹"
+      ],
+      "rationale": "将两个事实并置，建立简单的因果链，让裂口成为事件的焦点。"
+    },
+    {
+      "id": "caption_05",
+      "angle": "quiet_discovery",
+      "caption": "原来这里，已经裂开了一点点。",
+      "hashtags": [
+        "#日常碎片",
+        "#发现"
+      ],
+      "rationale": "用“原来”带出轻微的认知感，语气私密，像一次安静的确认。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

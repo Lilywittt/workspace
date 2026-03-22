@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:24:15.912Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-23-13",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the scene's core premise of a quiet, intentional act of gentle order, weaving the pencil's worn lead as a stranger's trace, the soft click of return, and the metaphor of mending a thread into a cohesive, publishable moment. It avoids recent opening patterns, delivers the required sensory and micro-plot elements with a light chunibyo touch ('像合上了一本没人读过的书的最后一页'), and lands with the 'gentle_order' emotional target without sounding like a fixed slogan.",
+  "caption": "把一支借来的自动铅笔，还回书店的架子。\n它笔尖的铅芯被磨平了一点点，是某个陌生人思考过的痕迹。\n放回去时，木头发出很轻的咔哒一声。\n像合上了一本没人读过的书的最后一页。\n上海的雨夜，又多了一条被悄悄缝好的线。",
+  "hashtags": [
+    "#物归原处",
+    "#书店日常",
+    "#微小仪式",
+    "#上海小雨",
+    "#生活记录"
+  ],
+  "candidateAngle": "微小闭环",
+  "candidateRationale": "紧扣‘归还与修复’程序，以铅笔磨损的细节和放回的声音赋予日常动作隐秘的仪式感，用‘缝好的线’呼应‘温柔秩序’的情感落点。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the scene's core premise of a quiet, intentional act of gentle order, weaving the pencil's worn lead as a stranger's trace, the soft click of return, and the metaphor of mending a thread into a cohesive, publishable moment. It avoids recent opening patterns, delivers the required sensory and micro-plot elements with a light chunibyo touch ('像合上了一本没人读过的书的最后一页'), and lands with the 'gentle_order' emotional target without sounding like a fixed slogan.",
+    "strengths": [
+      "Strong narrative arc: carries, returns, and lands the feeling in four tight lines",
+      "Rich sensory details: worn lead, soft click, rain night texture",
+      "Light chunibyo metaphor feels intimate, not theatrical",
+      "Avoids fatigue from recent openings and overused accessory family",
+      "Hashtags align perfectly with scene semantics and location"
+    ],
+    "risks": [
+      "Metaphor ('缝好的线') could feel slightly precious if read without the preceding concrete details",
+      "Ending is more poetic than others, but remains grounded in the daily variable (Shanghai rain night)"
+    ]
+  }
+}

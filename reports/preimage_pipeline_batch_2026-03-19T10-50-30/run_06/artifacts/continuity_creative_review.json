@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:11.520Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift focus from self-portrait to environment or activity",
+    "Introduce a new indoor or cozy evening scene"
+  ],
+  "avoidMotifs": [
+    "Repeating '窗外' (outside the window) openings or rainy day themes"
+  ],
+  "narrativeNudges": [
+    "Show a small, completed task or a moment of settling in after a day"
+  ],
+  "captionAdvice": [
+    "Use a concrete observation about an object or sound, not weather"
+  ],
+  "imageAdvice": [
+    "Frame a detail of a room, a book, or hands doing something simple"
+  ],
+  "summary": "Maintain the intimate diary feel but pivot from selfies to quiet, object-focused life records to refresh the streak.",
+  "errorMessage": ""
+}

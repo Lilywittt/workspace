@@ -1,0 +1,36 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:34.108Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift to an outdoor or semi-outdoor location cluster (e.g., park bench, street corner, bus stop)",
+    "Introduce an object family not recently used (e.g., natural_item, clothing, tech_item)",
+    "Use a presence mode that shows more of the character or environment (e.g., full_presence, environmental_portrait)"
+  ],
+  "avoidMotifs": [
+    "Covered walkways and bookstore aisles (shelter_pause, bookish_pause clusters)",
+    "Micro-purchases or repair/return rituals",
+    "Opening captions about weather or studying fatigue"
+  ],
+  "narrativeNudges": [
+    "Frame the moment as a small, spontaneous encounter rather than a planned ritual",
+    "Let the emotional landing be a quiet observation without forward-looking promise",
+    "Connect the object to a fleeting memory or a subtle shift in perception"
+  ],
+  "captionAdvice": [
+    "Start with a concrete, immediate sensory detail (touch, sound, light) not weather-based",
+    "Use a short, reflective observation as the ending, avoiding 'gentle order' or 'shy attachment' closure",
+    "Incorporate one slightly longer, flowing sentence amidst shorter ones for rhythm"
+  ],
+  "imageAdvice": [
+    "Prioritize a wider shot that shows the character in relation to a new environment",
+    "If a close-up, focus on an action-in-progress (e.g., adjusting, holding, noticing) rather than a static object",
+    "Use natural, available light to create a different mood (e.g., soft dusk, artificial streetlight)"
+  ],
+  "summary": "Shift from indoor, ritualistic pauses to a more open, observational moment that retains intimacy but feels spontaneously discovered.",
+  "errorMessage": ""
+}

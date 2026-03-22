@@ -1,0 +1,131 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:26:08.548Z",
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class",
+  "mode": "zero_memory_agent",
+  "scenarioId": "rainy-after-class",
+  "dayContext": {
+    "isoDate": "2026-03-21",
+    "routineWindow": "after_class",
+    "weather": "小雨",
+    "currentContext": "school_transition_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "seasonal_culture",
+      "trending_topics",
+      "weather",
+      "city_trivia",
+      "anime_fandom"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [],
+    "worldStateNotes": []
+  },
+  "characterState": {
+    "mood": "被雨声轻轻包裹，有一点想停下来的安静",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨让一个普通的角落变得不一样了，想悄悄记住。"
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "把书包侧袋里揉成一团的纸巾拿出来时，发现它被雨水洇湿的边缘刚好晕开了一小片模糊的蓝色，像是钢笔漏墨，又像是天空掉下来的一角。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。"
+  },
+  "caption": {
+    "text": "洇湿的纸巾边缘，晕开了一小片模糊的蓝。",
+    "hashtags": [
+      "#日常切片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [],
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T10-26-01-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/8a/20260321/448165f2/86e615d9-1418-4361-9c74-3367df32fecb1787383087.png?Expires=1774694559&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=KhyrfyfgyZtlYFVA69dqOxh5hiY%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

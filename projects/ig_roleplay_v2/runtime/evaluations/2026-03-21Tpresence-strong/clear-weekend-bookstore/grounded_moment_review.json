@@ -1,0 +1,69 @@
+{
+  "recommendedCandidateId": "event_01",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 78,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "物理细节（字迹晕开）触发情感停顿",
+        "图文同源：手与旧书、便签的痕迹",
+        "符合角色对微小征兆的敏感"
+      ],
+      "risksZh": [
+        "需避免画面变成装饰性书桌静物",
+        "需确保人物存在痕迹清晰，以匹配clear_character_presence"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 75,
+      "groundingScore": 70,
+      "postabilityScore": 72,
+      "coherenceScore": 74,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "具体细节（茶渍轮廓）引发停顿",
+        "利用阳光，增加现实质感"
+      ],
+      "risksZh": [
+        "容易滑向装饰性光影场景",
+        "人物存在痕迹弱，难以满足clear_character_presence",
+        "动作（清洗）可能被背景化"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 78,
+      "groundingScore": 72,
+      "postabilityScore": 75,
+      "coherenceScore": 76,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "物理触感（阻力）明确",
+        "动作流中断符合日常真实感"
+      ],
+      "risksZh": [
+        "事件略单薄，可能感觉像任务记录",
+        "人物视觉呈现可能局限于手部，难以清晰体现角色存在",
+        "有重复模板感（与其它候选因果链雷同）"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。推荐event_01，因其细节具体、触发明确，且易于在保持事件原貌的同时满足更强的人物存在感要求。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

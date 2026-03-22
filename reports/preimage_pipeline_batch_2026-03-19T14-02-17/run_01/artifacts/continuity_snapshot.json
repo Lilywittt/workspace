@@ -1,0 +1,131 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:02:17.538Z",
+  "historyWindow": 7,
+  "sourceSnapshot": {
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl"
+  },
+  "recentPosts": [
+    {
+      "at": "2026-03-17T04:47:12.291Z",
+      "lane": "selfie",
+      "captionPreview": "复习了一上午，有点累了呢～",
+      "hashtags": [
+        "#热可可",
+        "#自习日",
+        "#日常",
+        "#上海"
+      ]
+    },
+    {
+      "at": "2026-03-17T04:28:23.564Z",
+      "lane": "selfie",
+      "captionPreview": "今天的风有点调皮呢，把头发吹得乱七八糟的～",
+      "hashtags": [
+        "#风日",
+        "#自拍",
+        "#日常",
+        "#上海"
+      ]
+    },
+    {
+      "at": "2026-03-17T04:04:29.505Z",
+      "lane": "selfie",
+      "captionPreview": "窗外的小雨淅淅沥沥，手指轻轻在玻璃上画了个笑脸呢。",
+      "hashtags": [
+        "#雨天",
+        "#自拍",
+        "#小确幸",
+        "#上海"
+      ]
+    },
+    {
+      "at": "2026-03-16T15:38:30.786Z",
+      "lane": "selfie",
+      "captionPreview": "窗外的小雨淅淅沥沥，手指轻轻在玻璃上画了个笑脸呢。",
+      "hashtags": [
+        "#雨天",
+        "#自拍",
+        "#小确幸",
+        "#上海"
+      ]
+    },
+    {
+      "at": "2026-03-16T15:34:18.239Z",
+      "lane": "selfie",
+      "captionPreview": "今天的风有点柔软，咖啡店窗边的光刚好落在手背上呢。\\n看着路过的人群，突然觉得小城市的慢节奏也很可爱呀。\\n#日常 #小确幸 #午后",
+      "hashtags": [
+        "#日常",
+        "#小确幸",
+        "#午后"
+      ]
+    }
+  ],
+  "laneStats": {
+    "counts": {
+      "selfie": 5
+    },
+    "currentStreak": {
+      "lane": "selfie",
+      "count": 5
+    }
+  },
+  "duplicateGuards": {
+    "frequentHashtags": [
+      {
+        "value": "#上海",
+        "count": 4
+      },
+      {
+        "value": "#日常",
+        "count": 3
+      },
+      {
+        "value": "#自拍",
+        "count": 3
+      },
+      {
+        "value": "#小确幸",
+        "count": 3
+      },
+      {
+        "value": "#雨天",
+        "count": 2
+      },
+      {
+        "value": "#热可可",
+        "count": 1
+      },
+      {
+        "value": "#自习日",
+        "count": 1
+      },
+      {
+        "value": "#风日",
+        "count": 1
+      }
+    ],
+    "recentOpenings": [
+      {
+        "value": "窗外的小雨淅淅沥沥，手指轻轻在玻璃上画了个笑脸呢。",
+        "count": 2
+      },
+      {
+        "value": "复习了一上午，有点累了呢～",
+        "count": 1
+      },
+      {
+        "value": "今天的风有点调皮呢，把头发吹得乱七八糟的～",
+        "count": 1
+      },
+      {
+        "value": "今天的风有点柔软，咖啡店窗边的光刚好落在手背上呢。\\n看着路过的人群，突然觉得小城市的慢节奏也很可爱呀。\\n#日常 #小确幸 #午后",
+        "count": 1
+      }
+    ]
+  },
+  "recommendation": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record"
+  }
+}

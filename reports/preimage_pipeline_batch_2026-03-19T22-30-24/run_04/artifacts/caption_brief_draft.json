@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:35:55.526Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-35-33",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note left for oneself, capturing the quiet ritual of finding and restoring a lost planner page in a late-evening bookstore. It should focus on the small sensory details—the sound of paper, the feel of smoothing a crease, the warm lamplight—and let this ordinary act briefly hold a faint, personal meaning about closing a tiny loop in the day.",
+  "audienceFeeling": "a quiet, satisfied sense of gentle order",
+  "openingMoves": [
+    "Start with the sensory hook: the sound or feel of the paper",
+    "Place the action in the late-evening bookstore atmosphere",
+    "Introduce the page as a found object needing to be put right"
+  ],
+  "mustInclude": [
+    "The act of smoothing the page and sliding it back into the planner",
+    "The soft, dry rustle of paper (sensory focus)",
+    "The warm lamplight catching her wrist or the page edge",
+    "The quiet, satisfied feeling of closing a small loop",
+    "Context of 小雨 and cool temperature in Shanghai",
+    "The planner as a simple, well-used object with pencil notes"
+  ],
+  "mustAvoid": [
+    "Making it a grand, theatrical statement",
+    "Using commercial or promotional language",
+    "A fixed, slogan-like ending or repeated signature line",
+    "Explicitly explaining the 'secret meaning' of the ritual",
+    "Dialogue or lore exposition"
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer, breath-like phrase",
+    "Soft, trailing sentence endings—like a gentle exhale or self-address",
+    "Light chunibyo tone: let the act feel faintly symbolic, not overtly poetic",
+    "Voice should feel intimate, as if writing a note to a future self",
+    "Keep it grounded in daily-life texture and private ritual energy"
+  ],
+  "hashtagAngles": [
+    "gentle order",
+    "bookstore moments",
+    "daily rituals",
+    "small resets",
+    "late evening quiet",
+    "paper whispers"
+  ],
+  "summary": "A quiet, late-evening moment in a Shanghai bookstore where smoothing a lost planner page back into place becomes a small, forward-looking ritual of gentle order.",
+  "errorMessage": ""
+}

@@ -1,0 +1,178 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:19.586Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-18-01",
+  "goal": "Write a caption that captures the quiet, late-evening moment of finding and straightening a bent paper clip in a Shanghai bookstore. The text should feel like a private, gentle ritual, focusing on the small sensory details and the personal satisfaction of completing a tiny, forward-looking task, without making it sound like a commercial or overly poetic statement.",
+  "audienceFeeling": "A soft, intimate sense of calm and quiet recognition.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / paper clip.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with soft, trailing tones or light self-address.",
+    "Keep it intimate, like a note to oneself or a future self.",
+    "Let the paper clip briefly feel like a small, personal omen or secret weight.",
+    "Maintain a gentle, daily-life texture with light chunibyo undertones.",
+    "Start with noticing the small object on the floor.",
+    "Describe the physical act of picking it up and working it back into shape.",
+    "Mention the surrounding atmosphere (lighting, rain, books).",
+    "The cool, metallic feel and slight resistance of the paper clip under fingertips.",
+    "The soft, warm bookstore lighting and blurred background of books.",
+    "A droplet of rain tracing down the windowpane.",
+    "The quiet, satisfied click of the repair completing.",
+    "The act framed as a private ritual, not just tidying."
+  ],
+  "contentBlocks": {
+    "premise": "In the quiet, late evening of a drizzly Shanghai spring, a small, bent paper clip found on the floor of a familiar bookstore aisle becomes a tiny, necessary task. The act of carefully straightening it and placing it back on a shelf isn't just tidying; it's a quiet, forward-looking ritual of gentle order, a private way of closing a small loop in the day before heading home.",
+    "microPlot": [
+      "Noticing a single, bent paper clip on the floor between the shelves.",
+      "Picking it up and, with focused fingers, slowly working it back into its proper shape.",
+      "Feeling a quiet, satisfied click as the tiny repair is completed and the day settles."
+    ],
+    "sensoryFocus": "the faint metallic coolness and slight resistance of the wire under her fingertips",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "paper clip"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 21,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, late-evening caption about straightening a found paper clip in a rainy Shanghai bookstore, treating it as a private ritual of quiet order.",
+    "hashtagAngles": [
+      "#上海小雨",
+      "#书店日常",
+      "#微小仪式",
+      "#春日夜晚",
+      "#安静整理"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial or promotional language.",
+    "Overly dramatic or theatrical chunibyo declarations.",
+    "Fixed slogan or repeated signature sentence endings.",
+    "Forcing the moment into a grand life lesson or fateful declaration.",
+    "Explicitly mentioning AI, KPIs, or collaborations."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

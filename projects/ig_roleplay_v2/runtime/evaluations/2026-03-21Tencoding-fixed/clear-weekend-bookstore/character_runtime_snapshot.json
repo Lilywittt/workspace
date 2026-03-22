@@ -1,0 +1,42 @@
+{
+  "currentState": {
+    "energy": "medium",
+    "mood": "quiet, but slightly caught by one specific detail",
+    "attentionStyle": "detail_seeking",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "keep one small piece of reality"
+    ],
+    "activeDesires": [
+      "do not turn today into a dramatic story"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "午后阳光穿过书店的玻璃，在书脊上投下一条清晰的光带。"
+    ],
+    "weakPullsZh": [
+      "空气里有旧纸张和灰尘的味道，但这不是一个关于书店的故事。",
+      "外面是春天，但室内的时间好像走得慢一些。"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "Do not translate outside signals directly into a forced topic."
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

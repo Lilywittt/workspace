@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:24:15.635Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-23-13",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best fulfills the scene's core premise of a quiet, intentional act of gentle order, weaving the pencil's worn lead as a stranger's trace, the soft click of return, and the metaphor of mending a thread into a cohesive, publishable moment. It avoids recent opening patterns, delivers the required sensory and micro-plot elements with a light chunibyo touch ('像合上了一本没人读过的书的最后一页'), and lands with the 'gentle_order' emotional target without sounding like a fixed slogan.",
+  "strengths": [
+    "Strong narrative arc: carries, returns, and lands the feeling in four tight lines",
+    "Rich sensory details: worn lead, soft click, rain night texture",
+    "Light chunibyo metaphor feels intimate, not theatrical",
+    "Avoids fatigue from recent openings and overused accessory family",
+    "Hashtags align perfectly with scene semantics and location"
+  ],
+  "risks": [
+    "Metaphor ('缝好的线') could feel slightly precious if read without the preceding concrete details",
+    "Ending is more poetic than others, but remains grounded in the daily variable (Shanghai rain night)"
+  ],
+  "errorMessage": ""
+}

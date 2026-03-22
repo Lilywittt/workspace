@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:03:44.104Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on an object or small action, not a face",
+    "Shift from indoor/reflective to a small outdoor scene or activity"
+  ],
+  "avoidMotifs": [
+    "Avoid starting captions with weather observations"
+  ],
+  "narrativeNudges": [
+    "Introduce a tiny, new personal ritual or observation"
+  ],
+  "captionAdvice": [
+    "Use a slightly longer, reflective sentence about a simple object"
+  ],
+  "imageAdvice": [
+    "Frame a detail: hands, an object in soft light, or a small scene"
+  ],
+  "summary": "Shift from selfies to a quiet, object-focused life record that maintains intimate tone.",
+  "errorMessage": ""
+}

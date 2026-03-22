@@ -1,0 +1,177 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "整理旧笔记本时，发现一页纸角被折了两次，形成一个顽固的小三角。",
+      "hookWhyInterestingZh": "这个折痕不是她折的，却留在了她的本子里，像一段无声的对话。",
+      "causalChainZh": [
+        "她只是想把散落的笔记本归位。",
+        "翻开其中一本时，一个异常顽固的折角引起了她的注意。",
+        "她用手指试图抚平它，但它固执地弹回原状。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "window_afternoon_pause"
+        ],
+        "inferredDetailsZh": [
+          "笔记本是个人物品，整理符合周末的节奏。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是想把东西收拾整齐，思绪是平直的。",
+      "interiorShiftZh": "那个不属于她的折痕，让她短暂地停顿，思考起物品上承载的微小历史。",
+      "whyTodayZh": "下午的光线恰好照在纸面上，让那个折角的阴影格外清晰。",
+      "whyShareableZh": "这是一个具体、安静、充满个人痕迹的瞬间，无需解释就能被感知。",
+      "visualEvidenceZh": [
+        "她手持笔记本，目光落在折角上",
+        "手指正轻轻按压那个小三角",
+        "午后光线在纸面上形成明暗交界"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界关于旧书纸张质感的讨论，可能让触觉细节在今天更易被察觉。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "倒水时，一滴水珠沿着杯壁外侧滑落，在桌面上留下一个完美的圆形水渍。",
+      "hookWhyInterestingZh": "她看着那个完美的圆慢慢扩散、变浅，最终消失，仿佛一个微型的生命周期。",
+      "causalChainZh": [
+        "她拿起水壶，给自己倒了一杯水。",
+        "一滴水意外地顺着杯壁外侧流下。",
+        "她放下水壶，看着那滴水在桌面上形成一个圆，然后蒸发。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window",
+          "weather_clear"
+        ],
+        "inferredDetailsZh": [
+          "室内活动，天气晴朗不影响。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是感到有点口渴，动作是机械的。",
+      "interiorShiftZh": "那个短暂存在又消失的完美圆形，让她从日常动作中抽离了半拍。",
+      "whyTodayZh": "周末的安静放大了这种微小事件的清晰度。",
+      "whyShareableZh": "它捕捉了转瞬即逝的物理现象和随之而来的片刻出神。",
+      "visualEvidenceZh": [
+        "她的手还握着水壶，目光却低垂看着桌面",
+        "桌面上有一个清晰的小圆水渍",
+        "光线透过玻璃杯，在桌上投下光影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界对‘日常中几乎无事发生却充满意味的场景’的讨论，可能让这种观察模式在今天更自然。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "路过书店入口的临时陈列架时，她注意到一本笔记本的封面颜色，和她头发上的发卡几乎一模一样。",
+      "hookWhyInterestingZh": "她没有停下脚步，也没有拿起它，只是那个瞬间的巧合让她嘴角动了一下。",
+      "causalChainZh": [
+        "她自然地走过书店入口，目光扫过临时陈列架。",
+        "一本暗红色封面的笔记本跳入视线。",
+        "她下意识地抬手碰了碰自己头发上的红色发卡。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "external_bookstore_weekend_stationery_display",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "临时陈列是事实，她的小红发卡是身份锚点，两者在视觉上产生了偶然联系。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是路过，没有购物的打算，思绪在别处。",
+      "interiorShiftZh": "颜色上的巧合像一个小小的、私人的玩笑，让她感到一丝微妙的愉悦。",
+      "whyTodayZh": "周末略多的人流让她更倾向于快速掠过而非停留，这种瞬间的发现更符合当下的节奏。",
+      "whyShareableZh": "它记录了外部世界与个人标识之间一次偶然的、无言的对话。",
+      "visualEvidenceZh": [
+        "她的侧影正经过陈列架",
+        "目光短暂地落在暗红色笔记本上",
+        "手指正轻触自己头发上的红色发卡"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界关于文具和笔记习惯的讨论，可能让笔记本这类物品在今天更容易进入视觉 periphery。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "系鞋带时，其中一根鞋带比另一根磨损得更严重，露出了里面白色的芯。",
+      "hookWhyInterestingZh": "她盯着那点露出的白色，突然意识到这双鞋已经陪她走了很远的路，而磨损的分布记录了她的走路习惯。",
+      "causalChainZh": [
+        "她弯腰准备系紧有些松开的鞋带。",
+        "手指触碰到鞋带时，感觉到一根的纹理明显更粗糙。",
+        "她凑近看，发现那根鞋带边缘已经磨破，露出了内层。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_weekend_pause_window"
+        ],
+        "inferredDetailsZh": [
+          "系鞋带是日常动作，发生在任何出门或在家的时候。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "她只是觉得鞋带松了，需要整理一下。",
+      "interiorShiftZh": "磨损的细节让她从单纯的“整理”动作，跳到了对物品寿命和个人习惯的短暂沉思。",
+      "whyTodayZh": "周末的慢节奏给了她观察这种细节的余裕。",
+      "whyShareableZh": "它非常具体、私人，且充满了时间的痕迹，是一个典型的“生活记录”瞬间。",
+      "visualEvidenceZh": [
+        "她正弯着腰，手捏着鞋带",
+        "镜头特写磨损处露出的白色内芯",
+        "她的表情是专注的观察，而非烦恼"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "春天换季时节，可能让人对身边物品的状态有更细腻的感知。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

@@ -1,0 +1,54 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:13:19.043Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手边的小物件, 动作停住的一瞬间, 人物存在的痕迹, a hand pulling a faded, ink-blurred note from an old book, the protagonist's upper body or at least shoulder-up posture, showing the moment of paused action, bookshelf or desk as background, showing the ordinary context of tidying up, 一只手正从一本旧书里抽出一张字迹晕开的便签, 人物上半身或至少肩颈以上的姿态，表现出动作暂停的瞬间, 书架或桌面作为背景，显示整理书架的日常环境\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nComposition: moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, aesthetic still-life of a desk, fashion editorial posing, rewriting the tidying action into an interaction with another person, 唯美的书桌静物画, 时尚杂志般的摆拍姿势, 将整理书架的动作改写为与他人互动, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling, fashion editorial polish, empty scenery without character trace",
+    "shotNotes": [
+      "手边的小物件",
+      "动作停住的一瞬间",
+      "人物存在的痕迹",
+      "a hand pulling a faded, ink-blurred note from an old book",
+      "the protagonist's upper body or at least shoulder-up posture, showing the moment of paused action",
+      "bookshelf or desk as background, showing the ordinary context of tidying up"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "手边的小物件, 动作停住的一瞬间, 人物存在的痕迹, a hand pulling a faded, ink-blurred note from an old book, the protagonist's upper body or at least shoulder-up posture, showing the moment of paused action, bookshelf or desk as background, showing the ordinary context of tidying up, 一只手正从一本旧书里抽出一张字迹晕开的便签, 人物上半身或至少肩颈以上的姿态，表现出动作暂停的瞬间, 书架或桌面作为背景，显示整理书架的日常环境",
+      "context": "ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "composition": "moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "月见璃音在整理书架时，发现一张旧便签的瞬间。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T09-11-42-clear_weekend_bookstore"
+}

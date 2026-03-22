@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:08:24.177Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-08-03",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, private moment in a library hallway after hours. The focus is on finding a lost button, treating it as a small, secret artifact that briefly holds the weight of an unknown story. The caption should feel like a soft, observational note to self, blending tactile details with a light chunibyo sense of mystery, without resolving the feeling.",
+  "audienceFeeling": "A gentle, lingering curiosity about small, lost things.",
+  "openingMoves": [
+    "Start with the tactile sensation of the found object.",
+    "Mention the quiet, empty setting indirectly.",
+    "Use a short, simple sentence to establish the moment."
+  ],
+  "mustInclude": [
+    "The pale blue button and its cool, smooth texture.",
+    "The faint hum of the water cooler or scent of floor cleaner.",
+    "A trace of the character (e.g., a red hairclip, a sleeve edge, a shadow).",
+    "A gentle, unanswered question about where lost small things belong.",
+    "The daily variable: light rain in Shanghai, about 10.4°C."
+  ],
+  "mustAvoid": [
+    "Direct eye contact with the camera or face-forward selfie tone.",
+    "Commercial, poetic-for-poetry's-sake, or brand-deck language.",
+    "Fixed slogan endings or repeated signature sentences.",
+    "Legacy blocked phrases like 'bright and alive' or their Chinese equivalents.",
+    "Inventing new plot beats beyond the micro-plot."
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer breath.",
+    "Light chunibyo flavor—intimate, not theatrical.",
+    "Soft endings, gentle trailing tones, or soft self-address.",
+    "Like a private note to self or future self.",
+    "Ordinary language with one small 'secret meaning' beat."
+  ],
+  "hashtagAngles": [
+    "Life record or slice-of-life angle (e.g., #生活碎片).",
+    "Weather or mood angle (e.g., #小雨日记).",
+    "Object or detail focus (e.g., #纽扣).",
+    "Library or quiet space angle (e.g., #图书馆时刻).",
+    "Optional: subtle chunibyo or mystery angle (e.g., #小小暗号)."
+  ],
+  "summary": "A caption about finding a lost button in a library hallway, turning it into a brief, intimate ritual of connection and release, told through tactile details and a gentle, unresolved tone.",
+  "errorMessage": ""
+}

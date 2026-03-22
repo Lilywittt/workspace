@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:52:18.613Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "A quiet moment of discovery while organizing a small collection of keepsakes, where a forgotten item from a past outing resurfaces, bringing a soft smile and a flicker of memory.",
+  "microPlot": [
+    "While tidying a small drawer, a small, smooth pebble from a weekend walk at the riverbank rolls into view.",
+    "Fingers pause, pick it up, and turn it over in the palm, tracing its cool, water-worn surface.",
+    "A quiet, fond warmth spreads, remembering the sound of the water and the feeling of that sunny afternoon."
+  ],
+  "sensoryFocus": "cool, smooth stone against warm palm",
+  "sceneNotes": [
+    "Overhead or close-up angle focused on hands and the small drawer contents.",
+    "Soft, diffused afternoon light from a nearby window, no direct sun.",
+    "A few other small objects visible in the drawer: a hairclip, a folded note, a dried flower.",
+    "Character's sleeve is slightly pushed up, showing a slender wrist.",
+    "The pebble is grey and smooth, about the size of a large coin."
+  ],
+  "tone": [
+    "gentle",
+    "nostalgic"
+  ],
+  "captionFocus": [
+    "A small, forgotten treasure found in the quiet of the afternoon."
+  ],
+  "summary": "A character finds a keepsake pebble while tidying, sparking a gentle moment of nostalgic warmth.",
+  "errorMessage": ""
+}

@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "detail_led",
+      "caption": "插头第三次才对准。前两次的金属声，在安静的傍晚里，特别清楚。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体细节开始，描述感官反馈"
+    },
+    {
+      "id": "caption_03",
+      "angle": "internal_shift",
+      "caption": "一个简单的动作，做了三次。然后，好像才真正回到这个房间里。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "聚焦于注意力从涣散到凝聚的临界点"
+    },
+    {
+      "id": "caption_04",
+      "angle": "sensory_anchor",
+      "caption": "傍晚的安静，让金属摩擦的声音变得好大。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "利用环境放大微小失败，形成私人觉察"
+    },
+    {
+      "id": "caption_05",
+      "angle": "minimal_arc",
+      "caption": "心思在别处，手在重复。直到那点声音，把一切都拉回眼前。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "呈现一个完整的“原因-动作-感觉”弧线，但保持克制"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

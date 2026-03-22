@@ -1,0 +1,46 @@
+{
+  "currentState": {
+    "energy": "low_but_gentle",
+    "mood": "quiet, slightly softened by rain, noticing one small thing that feels different",
+    "attentionStyle": "detail_seeking",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "keep one small piece of reality"
+    ],
+    "activeDesires": [
+      "do not turn today into a dramatic story"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨声让一个普通的角落突然有了重量，想悄悄记下。",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "雨天的光线让平时忽略的角落变得清晰。",
+      "放学后的走廊，脚步声和雨声混在一起。"
+    ],
+    "weakPullsZh": [
+      "外面在讨论整理旧纸片，但这不是指令。",
+      "雨天让细节变得明显，但这不是主题。"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics",
+      "anime_fandom"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "雨天只是背景，不是主题。",
+    "放学后的过渡时刻，不是戏剧性事件。",
+    "保持小规模，不放大情绪。"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

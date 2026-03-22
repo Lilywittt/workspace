@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:38:55.098Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly late evening, a quiet trip to the familiar bookstore aisle becomes a gentle act of putting things back in order. A loose planner page, found tucked between the shelves, isn't just a scrap of paper; it's a small, misplaced piece of the day that asks to be returned, turning a simple errand into a private ritual of mending a tiny, invisible tear in the evening's fabric.",
+  "microPlot": [
+    "A loose page from her planner, forgotten and slipped between the books during a previous visit, catches her eye in the quiet aisle.",
+    "She carefully smooths its creases, tucks it back into its proper section, and closes the cover with a soft press of her hand.",
+    "The small act of restoration, witnessed only by the soft glow of the bookstore lights and the sound of gentle rain outside, leaves a quiet, settled feeling, as if a minor discord has been resolved."
+  ],
+  "sensoryFocus": "the dry, slightly rough texture of the paper under her fingertips, contrasted with the soft, damp chill in the air.",
+  "sceneNotes": [
+    "Focus on hands: one holding the planner, the other carefully aligning the page.",
+    "The planner is well-used but cared for, with faint pencil notes and a small, star-shaped clip marking a page.",
+    "Background is the soft blur of bookshelves, with warm, low lighting from overhead fixtures.",
+    "A glimpse of a wet, dark window reflects the interior lights, hinting at the rainy evening outside."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet satisfaction of fixing something small, not because it was broken, but because it was out of place."
+  ],
+  "summary": "A late-evening bookstore visit shifts from errand to a quiet, forward-looking ritual of restoring order by returning a lost planner page to its rightful place.",
+  "errorMessage": ""
+}

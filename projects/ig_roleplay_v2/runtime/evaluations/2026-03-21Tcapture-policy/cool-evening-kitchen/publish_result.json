@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:54:23.477Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T11-52-15-cool_evening_kitchen",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/6c/20260321/448165f2/af84fd69-04bd-4a71-a91a-a7e9151b7984763664039.png?Expires=1774699857&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=l455rI5Gf%2BrMdKxyd68yLfxXFMQ%3D",
+  "altText": "角色月见璃音在傍晚家中，手指意外触碰到水杯边缘细小缺口时的瞬间。",
+  "releaseStage": "image_ready",
+  "captionChars": 29,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

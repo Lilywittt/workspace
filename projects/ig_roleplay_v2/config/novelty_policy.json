@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "historyWindow": 12,
+  "desiredCandidateCount": 5,
+  "weights": {
+    "sceneProgram": 18,
+    "locationArchetype": 12,
+    "actionKernel": 12,
+    "objectFamily": 10,
+    "emotionalLanding": 9,
+    "weatherRole": 8,
+    "presenceMode": 5,
+    "clusterDominance": 10,
+    "affordanceFit": 8,
+    "personaFit": 8
+  },
+  "dominanceThresholds": {
+    "sceneProgram": 2,
+    "locationArchetype": 3,
+    "objectFamily": 3,
+    "weatherRole": 4,
+    "sceneCluster": 3
+  },
+  "penalties": {
+    "repeatBase": 9,
+    "dominantCluster": 8,
+    "weatherPrimaryOveruse": 10,
+    "indoorClusterOveruse": 7,
+    "studyAftermathClusterOveruse": 9
+  }
+}

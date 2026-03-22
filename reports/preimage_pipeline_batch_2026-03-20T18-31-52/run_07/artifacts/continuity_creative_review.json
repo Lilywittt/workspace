@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:40:51.184Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Try a location outside the home, like a park bench or bus stop",
+    "Shift from reflective support to a weather role like texture_modifier or gentle_obstacle"
+  ],
+  "avoidMotifs": [
+    "Avoid find_unfold_notice_again action kernel",
+    "Avoid accessory object family"
+  ],
+  "narrativeNudges": [
+    "Focus on a small forward-looking action, not rediscovery"
+  ],
+  "captionAdvice": [
+    "Use a different opening than recent rain/wind patterns",
+    "End with a soft observation, not quiet_completion"
+  ],
+  "imageAdvice": [
+    "Frame a scene with partial presence, not wide scene",
+    "Include subtle motion or interaction with environment"
+  ],
+  "summary": "Shift from indoor rediscovery to a small outdoor moment with gentle forward momentum.",
+  "errorMessage": ""
+}

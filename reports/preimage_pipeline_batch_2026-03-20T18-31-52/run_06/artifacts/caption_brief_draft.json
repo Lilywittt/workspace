@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:40:08.443Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-39-51",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate caption for a photo of hands holding a warm cocoa mug under a covered walkway in the drizzly Shanghai evening. The text should frame a simple errand as a shy, intentional act of self-care—a private rescue mission for the day. It should feel like a quiet note to oneself, blending daily-life texture with a light, chunibyo sense of private meaning.",
+  "audienceFeeling": "A soft, shared recognition of finding small comforts.",
+  "openingMoves": [
+    "Start with a sensory detail about the cup's warmth or the rain's sound.",
+    "Frame the action as a small, deliberate choice ('decided to...').",
+    "Mention the transition from a long day to this quiet moment."
+  ],
+  "mustInclude": [
+    "The tactile warmth of the paper cup through thin gloves.",
+    "The covered walkway as a dry, contained shelter from the light rain.",
+    "The small red hairclip visible on her wrist.",
+    "The feeling of 'carrying a small comfort back' as a private promise.",
+    "A light chunibyo touch, like calling it a 'rescue mission' or a 'tiny ritual'."
+  ],
+  "mustAvoid": [
+    "Explicit self-encouragement or motivational slogans.",
+    "Commercial language or describing the cocoa as a product.",
+    "Exaggerated, theatrical fantasy or world-building lore.",
+    "Recapping the entire day's events in detail.",
+    "Using fixed, signature sentence endings."
+  ],
+  "voiceNotes": [
+    "Short sentences, with maybe one slightly longer, breath-like phrase.",
+    "Gentle, trailing tone—soft self-address, not declaration.",
+    "Treat the cocoa mug as an ordinary object with secret, personal weight.",
+    "Keep it intimate, like a private social media note to a future self.",
+    "Light chunibyo flavor: shyly dramatic about small things, not performative."
+  ],
+  "hashtagAngles": [
+    "evening reset ritual",
+    "small comfort purchase",
+    "Shanghai drizzly walk",
+    "daily private meaning",
+    "light chunibyo life"
+  ],
+  "summary": "A shy, intentional cocoa purchase becomes a private evening reset ritual under a covered walkway in the rain.",
+  "errorMessage": ""
+}

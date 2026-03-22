@@ -1,0 +1,81 @@
+{
+  "recommendedCandidateId": "event_04",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "有明确的物理触发（茶渍）",
+        "细节具体且私密，符合角色叙事习惯",
+        "图文同源潜力高"
+      ],
+      "risksZh": [
+        "茶渍与随手画的圈产生联系，可能稍显刻意",
+        "若视觉呈现不佳，容易变成普通的餐具特写"
+      ],
+      "verdict": "good"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 77,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "磨损痕迹是顽固的普通细节",
+        "触觉与视觉结合，感官具体"
+      ],
+      "risksZh": [
+        "“时间留下记号”的解读可能略显模板化",
+        "挂件作为物件，若设计普通，图像易流于装饰"
+      ],
+      "verdict": "acceptable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 82,
+      "groundingScore": 79,
+      "postabilityScore": 78,
+      "coherenceScore": 80,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "物理变化（风）是清晰的触发原因",
+        "半消逝的痕迹带来平静感，情绪转折自然"
+      ],
+      "risksZh": [
+        "“未完成的意图”和“平静的确认感”可能滑向轻微的日记总结",
+        "便签和水渍是常见意象，需警惕掉入通用盆地"
+      ],
+      "verdict": "good"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 88,
+      "groundingScore": 86,
+      "postabilityScore": 87,
+      "coherenceScore": 88,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "动作失败（插头没对准）是极其顽固的普通不便",
+        "金属摩擦声是明确的物理感官细节，直接导致情绪觉察",
+        "瞬间极其生活化，毫无装饰感，图文同源性极强"
+      ],
+      "risksZh": [
+        "需确保图像能捕捉到动作的“笨拙感”而非静态摆拍"
+      ],
+      "verdict": "recommended"
+    }
+  ],
+  "summaryZh": "审查完成。event_04在角色真实性、现实贴合度与图文同源性上表现最佳，其基于微小动作挫折的瞬间最顽固、最像真实生活，过拟合风险最低。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

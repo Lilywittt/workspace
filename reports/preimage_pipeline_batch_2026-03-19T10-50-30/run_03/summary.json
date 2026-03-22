@@ -1,0 +1,269 @@
+{
+  "runIndex": 3,
+  "scenePlanRunId": "sceneplan-2026-03-19T02-53-34",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift from selfie close-ups to wider environmental shots",
+      "Focus on an activity or object, not just a mood"
+    ],
+    "avoidMotifs": [
+      "Repeating '窗外' (outside the window) openings",
+      "Overusing #上海 and #日常 hashtags"
+    ],
+    "captionAdvice": [
+      "Start with an active verb (e.g., '决定', '发现', '整理')",
+      "Mention a specific place or item beyond '咖啡店'"
+    ],
+    "imageAdvice": [
+      "Frame to include hands interacting with something",
+      "Use natural light but from a new angle (e.g., overhead, low)"
+    ],
+    "summary": "Switch to life_record with active, environment-focused content to refresh the visual narrative while maintaining continuity."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a morning of studying, she decides to tidy her desk, discovering a forgotten sketchbook tucked under a pile of notes. The soft rain outside creates a quiet, reflective atmosphere as she flips through the old drawings, each page a small memory from a brighter season.",
+    "microPlot": [
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity.",
+      "She carefully brushes off the cover and opens it to a page of summer flowers.",
+      "A gentle, nostalgic smile forms, mixing the comfort of memory with the cozy present."
+    ],
+    "sceneNotes": [
+      "Desk cluttered with textbooks and a half-empty mug.",
+      "Sketchbook slightly worn at the corners.",
+      "Window in background with raindrops tracing paths.",
+      "Hands gently holding the open sketchbook.",
+      "Small red hairclip visible in her hair."
+    ],
+    "captionFocus": [
+      "The quiet joy of rediscovering a forgotten piece of yourself."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a morning of studying, she decides to tidy her desk, discovering a forgotten sketchbook tucked under a pile of notes. The soft rain outside creates a quiet, reflective atmosphere as she flips through the old drawings, each page a small memory from a brighter season.",
+    "microPlot": [
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity.",
+      "She carefully brushes off the cover and opens it to a page of summer flowers.",
+      "A gentle, nostalgic smile forms, mixing the comfort of memory with the cozy present."
+    ],
+    "sensoryFocus": "The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+    "concreteSceneCues": [
+      "Desk cluttered with textbooks and a half-empty mug",
+      "Sketchbook slightly worn at the corners",
+      "Window in background with raindrops tracing paths",
+      "Hands gently holding the open sketchbook",
+      "Small red hairclip visible in her hair",
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "nostalgic"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a Chinese Instagram caption that captures a quiet, reflective moment of rediscovering an old sketchbook on a rainy afternoon. The caption should convey gentle nostalgia and the small joy of finding a forgotten piece of oneself, using sensory details and daily-life texture to make the scene feel intimate and real.",
+    "audienceFeeling": "A cozy, wistful smile",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo tone: slightly dramatic but grounded in daily life"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Commercial or promotional language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "偶然的旧时光",
+      "opening": "整理书桌时，从笔记堆下翻出一本旧速写本。",
+      "caption": "整理书桌时，从笔记堆下翻出一本旧速写本。\n纸张有淡淡的霉味，翻到画满夏日花朵的那一页，雨声忽然变得很轻。\n原来被遗忘的，都是曾经认真收藏过的光呀。\n今天应该也明亮地活着。",
+      "hashtags": [
+        "#雨天小发现",
+        "#手帐回忆",
+        "#治愈时刻",
+        "#中二病日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨天的秘密抽屉",
+      "opening": "雨让一切变慢。",
+      "caption": "雨让一切变慢。\n在课本和半杯冷掉的茶后面，找到了一个过去的自己——封皮有点磨损的速写本。\n指尖擦过那些幼稚却认真的线条，窗上的雨痕好像也在跟着描摹。\n这样的下午，连呼吸都带着纸页的温柔。",
+      "hashtags": [
+        "#手帐回忆",
+        "#治愈时刻",
+        "#上海日常",
+        "#中二病日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "被存档的夏日",
+      "opening": "发现了一个时间胶囊。",
+      "caption": "发现了一个时间胶囊。\n是藏在论文下面的速写本，角都磨软了。\n里面夹着某个夏天画的花，还有当时用的红色发夹。\n原来记忆不需要刻意保存，它只是安静地等着被再次翻开。\n今天，也要明亮地活着哦。",
+      "hashtags": [
+        "#雨天小发现",
+        "#手帐回忆",
+        "#治愈时刻",
+        "#中二病日常"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "偶然的旧时光",
+      "opening": "整理书桌时，从笔记堆下翻出一本旧速写本。",
+      "caption": "整理书桌时，从笔记堆下翻出一本旧速写本。\n纸张有淡淡的霉味，翻到画满夏日花朵的那一页，雨声忽然变得很轻。\n原来被遗忘的，都是曾经认真收藏过的光呀。\n今天应该也明亮地活着。",
+      "hashtags": [
+        "#雨天小发现",
+        "#手帐回忆",
+        "#治愈时刻",
+        "#中二病日常"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨天的秘密抽屉",
+      "opening": "雨让一切变慢。",
+      "caption": "雨让一切变慢。\n在课本和半杯冷掉的茶后面，找到了一个过去的自己——封皮有点磨损的速写本。\n指尖擦过那些幼稚却认真的线条，窗上的雨痕好像也在跟着描摹。\n这样的下午，连呼吸都带着纸页的温柔。",
+      "hashtags": [
+        "#手帐回忆",
+        "#治愈时刻",
+        "#上海日常",
+        "#中二病日常"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "被存档的夏日",
+      "opening": "发现了一个时间胶囊。",
+      "caption": "发现了一个时间胶囊。\n是藏在论文下面的速写本，角都磨软了。\n里面夹着某个夏天画的花，还有当时用的红色发夹。\n原来记忆不需要刻意保存，它只是安静地等着被再次翻开。\n今天，也要明亮地活着哦。",
+      "hashtags": [
+        "#雨天小发现",
+        "#手帐回忆",
+        "#治愈时刻",
+        "#中二病日常"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "This candidate best balances the required narrative elements and persona tone. It opens with a strong, fresh metaphor ('时间胶囊') that fits the light chunibyo style, clearly executes the micro-plot of finding and opening the sketchbook, and incorporates a specific character trace (the red hairclip) and sensory detail (worn corners). It naturally weaves in the catchphrase at the end, creating a cohesive arc from discovery to a gentle, affirming conclusion that aligns with the 'bright and alive' continuity.",
+    "strengths": [
+      "Strong opening metaphor ('时间胶囊') that is fresh and avoids recent duplicate patterns.",
+      "Effectively integrates a key character trace (red hairclip) and concrete sensory detail (worn corners).",
+      "Cleanly executes the micro-plot from discovery to reflection and ends with the required catchphrase.",
+      "Hashtag selection is appropriate and avoids overused tags from recent history."
+    ],
+    "risks": [
+      "The metaphor, while strong, is slightly more abstract than other candidates' openings.",
+      "The final line closely mirrors the catchphrase, which could feel slightly formulaic if overused in future posts."
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_03",
+    "candidateAngle": "被存档的夏日",
+    "caption": "发现了一个时间胶囊。\n是藏在论文下面的速写本，角都磨软了。\n里面夹着某个夏天画的花，还有当时用的红色发夹。\n原来记忆不需要刻意保存，它只是安静地等着被再次翻开。\n今天，也要明亮地活着哦。",
+    "hashtags": [
+      "#雨天小发现",
+      "#手帐回忆",
+      "#治愈时刻",
+      "#中二病日常"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best balances the required narrative elements and persona tone. It opens with a strong, fresh metaphor ('时间胶囊') that fits the light chunibyo style, clearly executes the micro-plot of finding and opening the sketchbook, and incorporates a specific character trace (the red hairclip) and sensory detail (worn corners). It naturally weaves in the catchphrase at the end, creating a cohesive arc from discovery to a gentle, affirming conclusion that aligns with the 'bright and alive' continuity."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"发现了一个时间胶囊。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Desk cluttered with textbooks and a half-empty mug | Sketchbook slightly worn at the corners | Window in background with raindrops tracing paths | Hands gently holding the open sketchbook | Small red hairclip visible in her hair | Finding the sketchbook hidden under study materials sparks a moment of curiosity"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk cluttered with textbooks and a half-empty mug, Sketchbook slightly worn at the corners, Window in background with raindrops tracing paths, Hands gently holding the open sketchbook, Small red hairclip visible in her hair, Finding the sketchbook hidden under study materials sparks a moment of curiosity, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, nostalgic, The faint scent of paper, the soft rustle of pages, and the muted patter of rain.",
+    "shotNotes": [
+      "Desk cluttered with textbooks and a half-empty mug",
+      "Sketchbook slightly worn at the corners",
+      "Window in background with raindrops tracing paths",
+      "Hands gently holding the open sketchbook",
+      "Small red hairclip visible in her hair",
+      "Finding the sketchbook hidden under study materials sparks a moment of curiosity",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "1507a365d708",
+    "selectedCaption": "66fdc70caca8",
+    "imageScene": "e6324c7bebab",
+    "candidateAngles": "1855467428c7"
+  }
+}

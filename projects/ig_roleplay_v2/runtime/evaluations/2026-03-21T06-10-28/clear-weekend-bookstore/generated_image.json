@@ -1,0 +1,85 @@
+{
+    "version":  "2.0.0-alpha.1",
+    "createdAt":  "2026-03-21T06:13:15Z",
+    "scenePlanRunId":  "zeromemory-2026-03-21T06-10-30-clear_weekend_bookstore",
+    "sourceRequestCreatedAt":  "2026-03-21T06:13:04.021Z",
+    "provider":  "aliyun-z-image",
+    "model":  "z-image-turbo",
+    "imageUrl":  "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/88/20260321/448165f2/b162cbad-14eb-4efb-8d2c-9e1db0c8caf91814986765.png?Expires=1774679390\u0026OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1\u0026Signature=aPlWQg8W3RV9MB4NA2Z20bcZDK0%3D",
+    "assetId":  null,
+    "remoteJobId":  null,
+    "providerRequestId":  "b162cbad-14eb-4efb-8d2c-9e1db0c8caf9",
+    "requestSummary":  {
+                           "generationMode":  "anime_close_crop_trace_lived_moment",
+                           "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                           "aspectRatio":  "4:5",
+                           "candidateCount":  1,
+                           "altText":  "月见璃音的一段日常小瞬间：手指轻触旧笔记边缘的水痕。",
+                           "referenceIds":  [
+                                                "rion_core_face_01"
+                                            ],
+                           "promptPackage":  {
+                                                 "positivePrompt":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 笔记本摊开的那一页, 纸张边缘不规则的皱痕, 手指停在皱痕上的瞬间, an old notebook lying open, with an irregular water-stain wrinkle at the edge of the page, a finger gently touching or resting on the wrinkled texture, 摊开的旧笔记本，纸张边缘有不规则的水渍皱痕, 手指正轻轻触碰或停留在皱痕上\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause\nComposition: close-up of hand and notebook page, moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+                                                 "negativePrompt":  "fashion editorial polish, rewriting the moment into an interaction with another person, empty scenery without character trace, 时尚杂志般的摆拍, 将瞬间改写成与他人互动, 没有角色痕迹的空白场景, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling",
+                                                 "shotNotes":  [
+                                                                   "笔记本摊开的那一页",
+                                                                   "纸张边缘不规则的皱痕",
+                                                                   "手指停在皱痕上的瞬间",
+                                                                   "an old notebook lying open, with an irregular water-stain wrinkle at the edge of the page",
+                                                                   "a finger gently touching or resting on the wrinkled texture",
+                                                                   "the edge of a desk or surface beneath the notebook"
+                                                               ],
+                                                 "promptBlocks":  {
+                                                                      "subject":  "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+                                                                      "moment":  "笔记本摊开的那一页, 纸张边缘不规则的皱痕, 手指停在皱痕上的瞬间, an old notebook lying open, with an irregular water-stain wrinkle at the edge of the page, a finger gently touching or resting on the wrinkled texture, 摊开的旧笔记本，纸张边缘有不规则的水渍皱痕, 手指正轻轻触碰或停留在皱痕上",
+                                                                      "context":  "ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause",
+                                                                      "composition":  "close-up of hand and notebook page, moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+                                                                      "atmosphere":  "像顺手留下的一段真实生活",
+                                                                      "constraints":  "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+                                                                  }
+                                             }
+                       },
+    "providerRequest":  {
+                            "provider":  "aliyun-z-image",
+                            "endpoint":  "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation",
+                            "submissionMode":  "host_executed_sync",
+                            "requiredEnv":  [
+                                                "DASHSCOPE_API_KEY"
+                                            ],
+                            "model":  "z-image-turbo",
+                            "assetFilenameHint":  "2026-03-21T06-13-12-aliyun-z-image.png",
+                            "requestBody":  {
+                                                "model":  "z-image-turbo",
+                                                "parameters":  {
+                                                                   "size":  "1024*1280",
+                                                                   "prompt_extend":  false,
+                                                                   "watermark":  false
+                                                               },
+                                                "input":  {
+                                                              "messages":  [
+                                                                               {
+                                                                                   "role":  "user",
+                                                                                   "content":  [
+                                                                                                   {
+                                                                                                       "text":  "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 笔记本摊开的那一页, 纸张边缘不规则的皱痕, 手指停在皱痕上的瞬间, an old notebook lying open, with an irregular water-stain wrinkle at the edge of the page, a finger gently touching or resting on the wrinkled texture, 摊开的旧笔记本，纸张边缘有不规则的水渍皱痕, 手指正轻轻触碰或停留在皱痕上\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause\nComposition: close-up of hand and notebook page, moment-led framing rooted in the same lived action, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5\n\nAvoid: fashion editorial polish, rewriting the moment into an interaction with another person, empty scenery without character trace, 时尚杂志般的摆拍, 将瞬间改写成与他人互动, 没有角色痕迹的空白场景, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, advertisement feeling"
+                                                                                                   }
+                                                                                               ]
+                                                                               }
+                                                                           ]
+                                                          }
+                                            },
+                            "responseContract":  {
+                                                     "jobIdField":  "request_id",
+                                                     "requestIdField":  "request_id",
+                                                     "imageUrlField":  "output.choices[0].message.content[?].image"
+                                                 }
+                        },
+    "notes":  [
+                  "Host executor generated a real image file from the current image_request.json using aliyun-z-image."
+              ],
+    "status":  "image_ready",
+    "outputFormat":  "png",
+    "localFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T06-13-12-aliyun-z-image.png",
+    "latestFilePath":  "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\current\\latest-aliyun-z-image.png",
+    "failureReason":  ""
+}

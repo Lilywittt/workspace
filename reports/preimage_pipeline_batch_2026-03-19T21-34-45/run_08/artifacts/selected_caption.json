@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:46:26.091Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-45-34",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best captures the scene's quiet, forward-looking ritual with a publishable, grounded tone. It opens with the concrete action, includes the required sensory detail (the soft clink of the ceramic mug), and frames the purchase as a private punctuation for the day. The ending—'carrying this small, shy warmth back into the rain'—naturally embodies the 'shy_attachment' emotional landing without sounding overwritten or melodramatic. It avoids the more explicit 'secret code' or 'promise' language of the others, which feels fresher and less repetitive against recent semantic history.",
+  "caption": "在连廊下买了一杯可可。\n瓷杯放在柜台上的轻响，像给今天按下的一个句点。\n然后带着这点小小的、羞怯的温暖，走回雨里。",
+  "hashtags": [
+    "#小雨夜",
+    "#微小的仪式感",
+    "#可可杯",
+    "#上海日常",
+    "#给自己留的暗号"
+  ],
+  "candidateAngle": "微小的救赎",
+  "candidateRationale": "以购买动作开篇，聚焦瓷杯轻响这一具体感官细节，将其隐喻为一天的句点，符合‘小采购作为私人救赎’的钩子，结尾平静地走回雨夜，完成微情节。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best captures the scene's quiet, forward-looking ritual with a publishable, grounded tone. It opens with the concrete action, includes the required sensory detail (the soft clink of the ceramic mug), and frames the purchase as a private punctuation for the day. The ending—'carrying this small, shy warmth back into the rain'—naturally embodies the 'shy_attachment' emotional landing without sounding overwritten or melodramatic. It avoids the more explicit 'secret code' or 'promise' language of the others, which feels fresher and less repetitive against recent semantic history.",
+    "strengths": [
+      "Strong opening with concrete action and sensory detail",
+      "Clean micro-plot: purchase -> sensory moment -> carrying comfort back",
+      "Light chunibyo touch ('like a period for the day') feels natural",
+      "Ends with a gentle, forward-looking action, not a fixed slogan",
+      "Fits the 'partial_presence' visual mode and life_record lane"
+    ],
+    "risks": [
+      "Slightly shorter than others, but meets all brief requirements",
+      "Metaphor ('period for the day') is subtle but could be missed"
+    ]
+  }
+}

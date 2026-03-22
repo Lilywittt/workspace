@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:35:23.203Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-34-37",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best balances the required sensory detail, daily-life texture, and light chunibyo touch without sounding overwritten. It opens with a concrete, atmospheric sensory detail ('雨打在混凝土上的气味'), directly follows the micro-plot of touching and deciding, and lands on the object as a '不会说话的、但可以被握住的锚'—a perfect, understated expression of 'shy_attachment' and a 'private omen' that feels intimate and publishable. It avoids the slightly more abstract or contractual framing of the others, staying closer to the immediate, tactile experience.",
+  "strengths": [
+    "Strong sensory opening with smell and touch that grounds the scene",
+    "Clear micro-plot flow: cause (cold air) -> action (touch, decision) -> feeling (anchor)",
+    "Light chunibyo touch ('锚') is subtle, believable, and fits 'shy_attachment'",
+    "Avoids repetitive opening patterns and feels fresh for the lane",
+    "Fits the 'partial_presence' visual mode with focus on hands and object"
+  ],
+  "risks": [
+    "The metaphor '锚' is slightly direct, though it works in the gentle context",
+    "Less explicit 'forward-looking ritual' energy than candidate 02, but the private meaning is still present"
+  ],
+  "errorMessage": ""
+}

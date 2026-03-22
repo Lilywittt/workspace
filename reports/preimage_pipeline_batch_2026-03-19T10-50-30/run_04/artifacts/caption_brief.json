@@ -1,0 +1,84 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:55:14.006Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-54-55",
+  "goal": "Write a caption that captures the quiet, reflective moment of stepping out into a rainy Shanghai afternoon to return a borrowed book, blending light chunibyo whimsy with the gentle texture of daily life to make a simple, responsible task feel like a small, meaningful reset.",
+  "audienceFeeling": "A soft, relatable sense of calm transition",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo: slightly poetic, playful self-awareness",
+    "Gentle and reflective, not overly energetic",
+    "Focused on daily-life texture, not fantasy",
+    "First-person, intimate, like a thought shared in passing",
+    "Use up to 2 emojis max, keep them simple (e.g., ☔️, 📖)",
+    "Start with a sensory observation about the rain or the quiet",
+    "Frame the outing as a small, intentional act",
+    "Mention the borrowed book as the reason for stepping out",
+    "Use a light, chunibyo-tinged metaphor for the moment",
+    "The borrowed library book as the task's object",
+    "Sensory detail: sound of rain on umbrella or smell of wet pavement",
+    "The transition from indoor studying to the damp outside world",
+    "The red hairclip as a small spot of color",
+    "A feeling of quiet satisfaction or gentle reset"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying indoors, the character steps out briefly into the light rain of Shanghai, not for a grand outing but to return a borrowed book to a small neighborhood library, finding a quiet moment of transition between the cozy indoors and the soft, wet world outside.",
+    "microPlot": [
+      "A stack of finished review notes and a borrowed library book sit ready by the door.",
+      "She pauses under the building's awning, watching the rain bead on her umbrella before stepping out, the book tucked safely in her bag.",
+      "The quiet, damp air and the simple act feel like a gentle reset, a small bridge between focus and calm."
+    ],
+    "sensoryFocus": "the soft patter of rain on umbrella fabric and the faint smell of wet pavement",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, rainy-day caption about the small satisfaction of returning a borrowed book, blending light chunibyo reflection with slice-of-life texture.",
+    "hashtagAngles": [
+      "#上海雨天",
+      "#日常碎片",
+      "#还书日记",
+      "#轻中二日常",
+      "#生活记录"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Grand adventure or dramatic plot",
+    "Commercial or promotional language",
+    "Pure mood exposition without the micro-plot action",
+    "Explicit lore or backstory dumping",
+    "Photorealistic description inconsistent with anime aesthetic"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

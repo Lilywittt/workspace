@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:59:14.498Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "briefGoal": "Write a caption that captures a quiet, intimate moment of discovery in a Shanghai bookstore, where finding a pressed flower in an old book sparks gentle curiosity and a feeling of shared secret with a stranger, blending the day's light rain with a sense of wonder.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "偶然的浪漫",
+      "caption": "在旧书店随手翻开一本书，里面夹着一朵干枯的花。纸张的灰尘味和窗外的小雨声混在一起，突然觉得和某个陌生人共享了一个温柔的瞬间。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#上海日记",
+        "#小雨中的发现",
+        "#旧书与花",
+        "#生活碎片",
+        "#二次元日常"
+      ],
+      "rationale": "从具体动作（翻开书）切入，融入感官细节（灰尘味、雨声）和核心发现（干花），自然地引出共享秘密的感觉，并以角色口头禅收尾，符合轻中二和日常质感的基调。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "安静的连接",
+      "caption": "复习到有点晕，躲进书店。指尖碰到一本旧书的凉凉封面，翻开时一朵压平的花轻轻飘出来——不知道是谁，在哪个雨天把它留在这里的。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#生活碎片",
+        "#旧书与花",
+        "#小雨中的发现",
+        "#二次元日常"
+      ],
+      "rationale": "以状态（复习到晕）为起因，带出逃避到书店的微情节，聚焦于触觉（凉凉封面）和发现瞬间，通过一个安静的提问营造好奇与连接感，结尾呼应角色信念。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书页间的秘密",
+      "caption": "小雨天的书店，光线很柔和。发现书里夹着一朵花，花瓣的纹路还很清楚。好像不小心读到了别人没写完的日记，心里轻轻动了一下。今天应该还是明亮又生动的。",
+      "hashtags": [
+        "#小雨中的发现",
+        "#旧书与花",
+        "#上海日记",
+        "#生活碎片"
+      ],
+      "rationale": "从环境（小雨天、柔和光线）建立氛围，将干花比作“没写完的日记”，突出那种偶然窥见他人生活的私密感与温柔触动，保持语句简洁且富有画面感。"
+    }
+  ]
+}

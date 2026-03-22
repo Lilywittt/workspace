@@ -1,0 +1,67 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:59:26.802Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "lane": "life_record",
+  "generationMode": "anime_wide_scene_character_trace",
+  "sourceBriefCreatedAt": "2026-03-19T02:59:26.596Z",
+  "references": [
+    {
+      "id": "legacy_daily_style_001",
+      "kind": "style",
+      "source": "legacy_catalog",
+      "weight": 0.55,
+      "why": "Carry forward scene or platform style cues without locking the composition."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, present through subtle but readable character traces\nScene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Character's hand (with small red hairclip visible) gently holding the open book, Soft, diffuse light from a nearby window highlighting the pressed flower on the page, Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop, Subtle reflection of drizzling rain ('小雨') on the windowpane in the background, Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head, She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages, everyday life in Shanghai\nStyle: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood\nCamera: wide scene with readable character trace\nMood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, quietly_wondering, The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.\nDetails: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint\nHard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay",
+    "negativePrompt": "ad poster, glossy editorial, text, watermark, platform UI overlay, extra fingers, bad anatomy, duplicate objects, chaotic clutter, irrelevant fantasy props, tourism poster, empty aesthetic wallpaper, staged look, over-symmetry, over-polished look, text, subtitle, watermark, logo, UI overlay, extra fingers, bad hands, broken anatomy, duplicate objects, identity drift, empty scenery without character trace, tourism poster, ad poster, glossy editorial, photoreal live action",
+    "shotNotes": [
+      "Character's hand (with small red hairclip visible) gently holding the open book",
+      "Soft, diffuse light from a nearby window highlighting the pressed flower on the page",
+      "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop",
+      "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background",
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Incorporate the '小雨' weather subtly in the background or lighting",
+      "Shift from selfie close-ups to wider environmental shots",
+      "Focus on an activity or object, not just a mood",
+      "Character's hand (with small red hairclip visible) gently holding the open book.",
+      "Soft, diffuse light from a nearby window highlighting the pressed flower on the page.",
+      "Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop.",
+      "Subtle reflection of drizzling rain ('小雨') on the windowpane in the background.",
+      "A discovered fragment of someone else's story, left behind like a secret.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ],
+    "promptBlocks": {
+      "layeringStrategy": "global_style + character_core + scene + camera + mood + detail + hard_constraints",
+      "subject": "Subject: Japanese anime bishoujo, about 13 years old in impression, soft anime face, youthful presence, small red hairclip, present through subtle but readable character traces",
+      "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Character's hand (with small red hairclip visible) gently holding the open book, Soft, diffuse light from a nearby window highlighting the pressed flower on the page, Blurred background of crowded bookshelves, suggesting the cozy, cramped space of the shop, Subtle reflection of drizzling rain ('小雨') on the windowpane in the background, Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head, She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages, everyday life in Shanghai",
+      "style": "Style: anime slice-of-life illustration, light novel aesthetic, beautiful girl appeal, clean color design, non-photorealistic, daily record mood",
+      "camera": "Camera: wide scene with readable character trace",
+      "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, quietly_wondering, The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+      "details": "Details: include at least one readable character trace such as a hand holding a phone or drink, a sleeve edge or outfit edge, hair tip or a small red hairclip, a reflection, shadow, or mirror hint",
+      "constraints": "Hard constraints: no empty scenery without character presence, no ad poster feeling, no tourism poster feeling, no glossy fashion editorial look, no photoreal live-action look, no text, subtitle, watermark, or UI overlay"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "seedStrategy": "diversified_candidates",
+    "consistencyPolicy": "scene_first_style_guided"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "A Japanese-anime slice-of-life image with readable character presence.",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready"
+}

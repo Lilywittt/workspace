@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:18.528Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Create a caption that captures a cozy, intimate evening moment of sorting stickers after light rain, conveying a gentle, playful satisfaction through sensory details and the small joy of organizing beautiful things, while maintaining a light chunibyo tone and diary-like intimacy.",
+  "audienceFeeling": "A quiet, warm sense of shared contentment",
+  "openingMoves": [
+    "Start with a sensory observation about the evening or rain",
+    "Mention the activity of sorting stickers as a natural next step",
+    "Use a light chunibyo phrase to frame the moment as special"
+  ],
+  "mustInclude": [
+    "Reference to light rain or damp evening atmosphere",
+    "Sensory detail like warm lamplight or peel-and-stick sound",
+    "Action of placing a favorite sticker (e.g., tiny star)",
+    "Character trace cue (e.g., small red hairclip, hands)",
+    "Daily variable like Shanghai texture if natural"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Overly poetic or abstract exposition",
+    "Dialogue or script-like formatting",
+    "Contradicting the cozy, indoor scene focus",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "voiceNotes": [
+    "Light chunibyo with gentle, playful undertones",
+    "Focused on daily-life texture, not lore or plot",
+    "Intimate diary feel, as if sharing a small secret",
+    "Use casual, conversational Chinese Instagram style",
+    "Incorporate catchphrase 'Today should still feel bright and alive.' naturally"
+  ],
+  "hashtagAngles": [
+    "Life record or slice-of-life (e.g., #生活记录)",
+    "Sticker or stationery hobby (e.g., #手帐贴纸)",
+    "Cozy evening or rainy day mood (e.g., #雨夜)",
+    "Anime aesthetic or bishoujo style (e.g., #日常动漫风)",
+    "Shanghai local flavor if relevant (e.g., #上海日常)"
+  ],
+  "summary": "A gentle evening caption about sorting colorful stickers after rain, blending light chunibyo playfulness with sensory warmth and intimate diary texture.",
+  "errorMessage": ""
+}

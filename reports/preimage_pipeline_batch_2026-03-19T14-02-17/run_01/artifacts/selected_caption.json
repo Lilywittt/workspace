@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:03:35.000Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-02-45",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best fulfills the brief by starting with the sensory detail of rain to establish the hushed, private atmosphere, then directly linking the worn pencil tip to the morning's effort through the 'faint, dry rasp' of graphite, culminating in the 'tiny monument' metaphor that delivers the required light chunibyo and private ritual energy without sounding overwritten. It cleanly executes the three-part micro-plot, feels like a natural note to self, and provides a strong lane shift from selfie to a contemplative life_record.",
+  "caption": "雨声把房间变成了一个安静的盒子。\n拿起早上用钝的铅笔，笔尖在纸上的沙沙声还在。\n它像一个很小很小的纪念碑，纪念了今天上午的时光。",
+  "hashtags": [
+    "#生活切片",
+    "#雨天记录",
+    "#学习痕迹",
+    "#上海日常"
+  ],
+  "candidateAngle": "声音与仪式",
+  "candidateRationale": "以雨声开场建立氛围，将铅笔的磨损声与上午的努力连接，赋予普通物件纪念碑般的私密意义，符合‘私密动态’和‘轻微中二’的基调。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the brief by starting with the sensory detail of rain to establish the hushed, private atmosphere, then directly linking the worn pencil tip to the morning's effort through the 'faint, dry rasp' of graphite, culminating in the 'tiny monument' metaphor that delivers the required light chunibyo and private ritual energy without sounding overwritten. It cleanly executes the three-part micro-plot, feels like a natural note to self, and provides a strong lane shift from selfie to a contemplative life_record.",
+    "strengths": [
+      "Strong opening with sensory rain detail that sets the scene",
+      "Perfectly executes the cause-action-feeling micro-plot structure",
+      "Metaphor ('tiny monument') delivers the required light chunibyo and private ritual energy effectively",
+      "Ends softly and contemplatively, fitting the 'note to self' tone",
+      "Provides a clear lane shift from recent selfies to a focused life_record"
+    ],
+    "risks": [
+      "The 'monument' metaphor, while fitting, could be perceived as slightly heavy if not read in the intended gentle, private context",
+      "Hashtag '#上海日常' is common in recent history, though its use here is contextually appropriate"
+    ]
+  }
+}

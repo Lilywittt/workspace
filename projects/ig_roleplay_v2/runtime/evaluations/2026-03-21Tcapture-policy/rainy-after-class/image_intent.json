@@ -1,0 +1,66 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresencePlanEn": "the protagonist should be clearly readable through her posture, body action, and partial face while the focus remains on the act of tying the shoelace and noticing the cracked plastic tip",
+  "cameraRelation": "observational",
+  "faceReadability": "glimpse",
+  "bodyCoverage": "half",
+  "distance": "medium",
+  "environmentWeight": "balanced",
+  "captureSummaryEn": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight",
+  "captureGuidanceEn": [
+    "the frame should feel witnessed from the outside, not automatically self-held",
+    "a brief or partial face glimpse is enough; do not force portrait dominance",
+    "partial body coverage is enough when it keeps the moment concrete",
+    "medium distance is a stable everyday framing for ordinary daily-life moments",
+    "balance the protagonist and environment so they support the same lived beat together",
+    "half-body coverage is allowed when it helps the action read cleanly"
+  ],
+  "framingZh": "让构图跟随同一个生活瞬间，使弯腰系鞋带的动作和发现裂口的状态保持连贯。",
+  "framingEn": "moment-led framing rooted in the act of tying a shoelace and noticing a small crack",
+  "mustShowZh": [
+    "她弯腰或坐下的姿态，目光向下看着鞋带",
+    "她的手指捏着鞋带，塑料头套上的裂口清晰可见，露出内部白色纤维",
+    "她的上半身姿态和手部动作，证明这是一个正在发生的系鞋带瞬间"
+  ],
+  "mustShowEn": [
+    "her posture, bending over or sitting down, looking at her shoelace",
+    "her fingers holding the shoelace, with the cracked plastic tip clearly visible, showing the white fibers inside",
+    "her upper body posture and hand action, proving the moment of tying the shoelace is happening"
+  ],
+  "mayShowZh": [
+    "校服袖口或衣角",
+    "头发末梢或红色发夹",
+    "脚下的地面或一小片环境，暗示放学后的过渡空间"
+  ],
+  "mayShowEn": [
+    "sleeve edge or corner of school uniform",
+    "hair tip or small red hairclip",
+    "the ground beneath her feet or a small slice of environment, hinting at a post-school transition space"
+  ],
+  "mustAvoidZh": [
+    "时尚大片般的抛光感",
+    "将焦点从鞋带裂口转移到无关的装饰性背景",
+    "让无关的路人或背景人物占据比主角更多的视觉权重",
+    "将这一刻重写为与他人互动或交换物品",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look"
+  ],
+  "mustAvoidEn": [
+    "fashion editorial polish",
+    "shifting focus from the cracked shoelace tip to unrelated decorative backgrounds",
+    "letting irrelevant bystanders or background people take more visual weight than the protagonist",
+    "rewriting the moment into an interaction with another person or an exchange of objects"
+  ],
+  "atmosphereZh": "一个真实的生活切片，在弯腰的短暂停顿中被捕捉。",
+  "altTextZh": "月见璃音在放学后弯腰系鞋带，发现鞋带塑料头套裂开了一道小口子。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

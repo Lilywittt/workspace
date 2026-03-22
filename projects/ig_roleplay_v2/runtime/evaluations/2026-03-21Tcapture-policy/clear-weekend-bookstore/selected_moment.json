@@ -1,0 +1,68 @@
+{
+  "candidateId": "event_03",
+  "lane": "life_record",
+  "eventSummaryZh": "路过书店入口的临时陈列架时，她注意到一本笔记本的封面颜色，和她头发上的发卡几乎一模一样。",
+  "hookWhyInterestingZh": "她没有停下脚步，也没有拿起它，只是那个瞬间的巧合让她嘴角动了一下。",
+  "causalChainZh": [
+    "她自然地走过书店入口，目光扫过临时陈列架。",
+    "一本暗红色封面的笔记本跳入视线。",
+    "她下意识地抬手碰了碰自己头发上的红色发卡。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "external_bookstore_weekend_stationery_display",
+      "identity_stability"
+    ],
+    "inferredDetailsZh": [
+      "临时陈列是事实，她的小红发卡是身份锚点，两者在视觉上产生了偶然联系。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "她只是路过，没有购物的打算，思绪在别处。",
+  "interiorShiftZh": "颜色上的巧合像一个小小的、私人的玩笑，让她感到一丝微妙的愉悦。",
+  "whyTodayZh": "周末略多的人流让她更倾向于快速掠过而非停留，这种瞬间的发现更符合当下的节奏。",
+  "whyShareableZh": "它记录了外部世界与个人标识之间一次偶然的、无言的对话。",
+  "visualEvidenceZh": [
+    "她的侧影正经过陈列架",
+    "目光短暂地落在暗红色笔记本上",
+    "手指正轻触自己头发上的红色发卡"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "外界关于文具和笔记习惯的讨论，可能让笔记本这类物品在今天更容易进入视觉 periphery。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T11:51:09.851Z",
+  "review": {
+    "candidateId": "event_03",
+    "personaTruthScore": 88,
+    "groundingScore": 90,
+    "postabilityScore": 85,
+    "coherenceScore": 87,
+    "characterPresenceFitScore": 88,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "巧妙地将外部事件（临时陈列）作为背景现实，而非指定主题",
+      "利用身份锚点（红色发卡）建立私人的、偶然的联系",
+      "视觉证据（侧影、目光、触碰发卡）自然地支持“clear_character_presence”目标",
+      "情感转变微小、具体，且由视觉巧合驱动"
+    ],
+    "risksZh": [
+      "需确保“路过”的动作在画面中清晰，而非变成静态肖像"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore"
+}

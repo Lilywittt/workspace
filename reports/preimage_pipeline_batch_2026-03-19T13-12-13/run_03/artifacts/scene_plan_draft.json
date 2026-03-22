@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:15:10.970Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "A quiet, rainy afternoon finds her in her room, where the soft sound of rain outside becomes the backdrop for a small, private ritual of discovery and arrangement.",
+  "microPlot": [
+    "cause sentence: The gentle, persistent rain outside makes the indoors feel like a separate, softer world.",
+    "action sentence: She carefully lines up a collection of small, forgotten treasures—a smooth stone, a ticket stub, a single earring—on the windowsill, as if conducting a silent review.",
+    "feeling sentence: There's a quiet satisfaction in giving these tiny, weightless things a moment of attention, as if each one holds a secret, unspoken story."
+  ],
+  "sensoryFocus": "the muffled tap of rain on glass and the cool, smooth texture of collected objects",
+  "sceneNotes": [
+    "Medium shot from across the room, framing her in profile near a rain-streaked window.",
+    "Her small red hairclip is visible, catching a bit of the muted grey light.",
+    "On the windowsill, a neat row of 4-5 small, ordinary objects forms the focal point.",
+    "The rest of the room is softly out of focus, suggesting a cozy, lived-in space.",
+    "Her expression is one of gentle, focused contemplation, not looking at the camera."
+  ],
+  "tone": [
+    "contemplative"
+  ],
+  "captionFocus": [
+    "The quiet ceremony of rediscovering little things the rain makes you remember."
+  ],
+  "summary": "A life_record scene of a character finding a quiet, ritualistic focus in arranging forgotten objects during a rainy afternoon.",
+  "errorMessage": ""
+}

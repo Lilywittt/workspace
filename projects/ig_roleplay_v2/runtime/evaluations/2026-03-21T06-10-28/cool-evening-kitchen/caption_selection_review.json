@@ -1,0 +1,17 @@
+{
+  "selectedCandidateId": "caption_02",
+  "reasonZh": "这一条最像角色会真的发出来的话，保留了具体细节和感官体验，没有过度解释。",
+  "strengthsZh": [
+    "具体",
+    "自然",
+    "保留了原始瞬间的感官细节",
+    "语气像真实的私人观察"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

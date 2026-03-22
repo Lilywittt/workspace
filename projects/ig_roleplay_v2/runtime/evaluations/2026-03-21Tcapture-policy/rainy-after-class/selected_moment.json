@@ -1,0 +1,68 @@
+{
+  "candidateId": "event_03",
+  "lane": "life_record",
+  "eventSummaryZh": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+  "hookWhyInterestingZh": "一个功能性物品上出现的微小破损，在重复了无数次的系鞋带动作中，第一次被真正“看见”。",
+  "causalChainZh": [
+    "她感觉到鞋带松了，很自然地停下脚步或坐下处理。",
+    "在手指穿梭打结的过程中，视觉和触觉同时捕捉到了那个裂口。",
+    "系鞋带的动作没有停止，但完成后的那一两秒，她的注意力还停留在那个裂口上。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_after_class",
+      "identity_stability"
+    ],
+    "inferredDetailsZh": [
+      "鞋带松动是日常高频事件。",
+      "物品的日常磨损非常真实，符合生活记录。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "她只是机械地处理一个日常小麻烦，心里想着别的事，或者什么都没想。",
+  "interiorShiftZh": "那个小小的裂口，像是一个确凿的、关于“使用”和“损耗”的证据，让她在完成动作后，心里产生了一瞬间非常具体的“哦，是这样啊”的认知。",
+  "whyTodayZh": "也许是雨后空气清冷，也许是刚刚结束课程后的短暂放空，让她的感官对这类具体的物理细节敞开了。",
+  "whyShareableZh": "它捕捉到了人与日常物品之间那种沉默的、逐渐累积的互动关系，非常具象。",
+  "visualEvidenceZh": [
+    "她的手指正捏着鞋带，塑料头套上的裂口清晰可见。",
+    "她处于半弯腰或坐着的姿态，目光向下，神情专注中带着一丝发现新事实的平静。",
+    "画面能清晰看到她的上半身姿态、手部动作以及鞋带的特写。"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "城市闲谈中“雨天让被忽视的角落更显眼”的弱信号，可能以非常间接的方式，让她对脚下这个“角落”多看了一眼。"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T11:57:29.242Z",
+  "review": {
+    "candidateId": "event_03",
+    "personaTruthScore": 85,
+    "groundingScore": 82,
+    "postabilityScore": 84,
+    "coherenceScore": 86,
+    "characterPresenceFitScore": 88,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "顽固的日常细节（鞋带头破损），感觉非常普通且真实。",
+      "视觉证据（上半身姿态、手部动作、鞋带特写）能自然支持“clear_character_presence”。",
+      "情感转变（“哦，是这样啊”）由具体的物理证据直接引发。"
+    ],
+    "risksZh": [
+      "需要确保“弯腰或坐着”的姿态在画面中能清晰呈现人物身份。"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together.",
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

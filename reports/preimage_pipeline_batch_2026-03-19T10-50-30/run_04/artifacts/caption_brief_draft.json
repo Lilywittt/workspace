@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:55:13.759Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-54-55",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that captures the quiet, reflective moment of stepping out into a rainy Shanghai afternoon to return a borrowed book, blending light chunibyo whimsy with the gentle texture of daily life to make a simple, responsible task feel like a small, meaningful reset.",
+  "audienceFeeling": "A soft, relatable sense of calm transition",
+  "openingMoves": [
+    "Start with a sensory observation about the rain or the quiet",
+    "Frame the outing as a small, intentional act",
+    "Mention the borrowed book as the reason for stepping out",
+    "Use a light, chunibyo-tinged metaphor for the moment"
+  ],
+  "mustInclude": [
+    "The borrowed library book as the task's object",
+    "Sensory detail: sound of rain on umbrella or smell of wet pavement",
+    "The transition from indoor studying to the damp outside world",
+    "The red hairclip as a small spot of color",
+    "A feeling of quiet satisfaction or gentle reset"
+  ],
+  "mustAvoid": [
+    "Grand adventure or dramatic plot",
+    "Commercial or promotional language",
+    "Pure mood exposition without the micro-plot action",
+    "Explicit lore or backstory dumping",
+    "Photorealistic description inconsistent with anime aesthetic"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: slightly poetic, playful self-awareness",
+    "Gentle and reflective, not overly energetic",
+    "Focused on daily-life texture, not fantasy",
+    "First-person, intimate, like a thought shared in passing",
+    "Use up to 2 emojis max, keep them simple (e.g., ☔️, 📖)"
+  ],
+  "hashtagAngles": [
+    "#上海雨天",
+    "#日常碎片",
+    "#还书日记",
+    "#轻中二日常",
+    "#生活记录"
+  ],
+  "summary": "A gentle, rainy-day caption about the small satisfaction of returning a borrowed book, blending light chunibyo reflection with slice-of-life texture.",
+  "errorMessage": ""
+}

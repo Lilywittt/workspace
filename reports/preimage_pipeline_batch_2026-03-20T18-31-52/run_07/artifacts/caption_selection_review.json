@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:41:52.665Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-41-05",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_03",
+  "reason": "This candidate best balances the scene's concrete sensory details (the precise click, paper scent, slowing rain) with the forward-looking, gentle-order emotional landing. It frames the repair as a 'light preparation for tomorrow' which feels fresh against recent history of quiet completions and shy attachments, avoiding repetition while keeping the private-ritual texture. The tone is gently chunibyo without being theatrical, and the structure flows naturally from action to feeling.",
+  "strengths": [
+    "Strong integration of sensory focus (click) and environment (paper scent, rain)",
+    "Forward-looking 'preparation' angle provides novelty against recent completions",
+    "Clear, publishable micro-plot from action to feeling",
+    "Light chunibyo tone feels natural and persona-appropriate"
+  ],
+  "risks": [
+    "Slightly more abstract than candidate 01's 'patch for the day'",
+    "Must ensure hashtags avoid overused #上海 from recent posts"
+  ],
+  "errorMessage": ""
+}

@@ -1,0 +1,154 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "lane": "life_record",
+      "eventSummaryZh": "本来只是顺手整理一下，结果因为planner停住了半秒。",
+      "hookWhyInterestingZh": "它不是大事件，但像一天里会被真实留下来的那一小块。",
+      "causalChainZh": [
+        "原本只是顺着日常继续往下走。",
+        "某个具体细节忽然把注意力拉住。",
+        "情绪没有变大，只是被轻轻定住了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset",
+          "weather_cloudy",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "这个小细节原本不重要，但刚好在今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_evening_reset",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只是想把这一段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的时间质感和外界气压刚好让这种停顿成立。",
+      "whyShareableZh": "它够具体，也没有被讲满，适合变成一条真实的小记录。",
+      "visualEvidenceZh": [
+        "手指停在边缘",
+        "衣袖口",
+        "半开着的随身物件"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "微凉的傍晚空气从窗户缝隙透进来",
+          "家里灯光在暮色里显得特别安静"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "lane": "life_record",
+      "eventSummaryZh": "只是一个很小的调整动作，却让这段时间忽然有了被看见的理由。",
+      "hookWhyInterestingZh": "这个瞬间足够具体，也足够留白。",
+      "causalChainZh": [
+        "原本只是顺着日常继续往下走。",
+        "某个具体细节忽然把注意力拉住。",
+        "情绪没有变大，只是被轻轻定住了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset",
+          "weather_cloudy",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "这个小细节原本不重要，但刚好在今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_evening_reset",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只是想把这一段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的时间质感和外界气压刚好让这种停顿成立。",
+      "whyShareableZh": "它够具体，也没有被讲满，适合变成一条真实的小记录。",
+      "visualEvidenceZh": [
+        "刚被碰过的小物件",
+        "桌面或台面一角",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "微凉的傍晚空气从窗户缝隙透进来",
+          "家里灯光在暮色里显得特别安静"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "lane": "life_record",
+      "eventSummaryZh": "原本要继续往下走的时间，被一个小痕迹轻轻拦了一下。",
+      "hookWhyInterestingZh": "像生活自己突然给了一个能留住的停顿。",
+      "causalChainZh": [
+        "原本只是顺着日常继续往下走。",
+        "某个具体细节忽然把注意力拉住。",
+        "情绪没有变大，只是被轻轻定住了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset",
+          "weather_cloudy",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "这个小细节原本不重要，但刚好在今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [
+        "planner",
+        "mechanical_pencil"
+      ],
+      "routineRef": "window_evening_reset",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只是想把这一段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的时间质感和外界气压刚好让这种停顿成立。",
+      "whyShareableZh": "它够具体，也没有被讲满，适合变成一条真实的小记录。",
+      "visualEvidenceZh": [
+        "手边的物件",
+        "经过中的场景边缘",
+        "还没完全结束的动作"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "微凉的傍晚空气从窗户缝隙透进来",
+          "家里灯光在暮色里显得特别安静"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "fallback",
+    "promptName": "moment-generator-agent",
+    "error": "Model response JSON block was incomplete."
+  },
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen"
+}

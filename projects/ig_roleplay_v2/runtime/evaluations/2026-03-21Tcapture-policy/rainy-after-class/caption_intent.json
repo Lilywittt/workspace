@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那个微小裂口带来的、关于‘使用’和‘损耗’的瞬间认知。",
+  "whatToSayZh": "只说‘鞋带塑料头套裂开了一道小口子，露出里面的白色纤维’，不解释它为什么在今天被看见，也不解释它意味着什么。",
+  "whatToLeaveUnsaidZh": "把‘哦，是这样啊’那种具体的、沉默的认知留在空白里。",
+  "openingMovesZh": [
+    "从弯腰系鞋带的动作开始，或者直接从那个裂口开始。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class"
+}

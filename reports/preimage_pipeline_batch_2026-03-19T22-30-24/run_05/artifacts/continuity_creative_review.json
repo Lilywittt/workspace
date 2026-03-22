@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:36:45.071Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Use weather as active texture, not just reflective support",
+    "Shift from finding forgotten objects to a small, forward-looking action"
+  ],
+  "avoidMotifs": [
+    "Avoid 'find_unfold_notice_again' action kernel"
+  ],
+  "narrativeNudges": [
+    "Frame the scene as a tiny, intentional step toward tomorrow"
+  ],
+  "captionAdvice": [
+    "Use a slightly more active opening than '窗外的小雨...'"
+  ],
+  "imageAdvice": [
+    "Show a small action in progress, not just a static object"
+  ],
+  "summary": "Shift from rediscovering past fragments to a gentle, forward-looking ritual that uses the cool, drizzly evening as an active texture.",
+  "errorMessage": ""
+}

@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:42:05.163Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-41-27",
+  "briefGoal": "Write a caption that feels like a private note to oneself, capturing the quiet ritual of finding and returning a stray sticky note in a rainy evening bookstore. It should focus on the small sensory details—the feel of the paper, the dusty light, the sound of rain—and let the act of smoothing its corner carry a faint, personal meaning about gentle order and closing tiny loops.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "私密修复仪式",
+      "caption": "在书店的角落，发现一张卷了边的便条纸。\n把它抚平，放回原处。\n这个小小的动作，像在雨夜里解开了一个无人知晓的结。\n指尖的触感，是纸张轻微的沙沙声。",
+      "hashtags": [
+        "#便条纸的温柔",
+        "#角落整理",
+        "#生活记录",
+        "#私密动态",
+        "#小雨夜"
+      ],
+      "rationale": "紧扣“修复作为安静的爱意”钩子，以发现-抚平-放回的动作链完成微情节，用“解开无人知晓的结”赋予日常行为私密仪式感，并融入触觉细节。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "细小秩序感",
+      "caption": "给一张迷路的便签，找到了它的书架。\n雨声是背景音，尘埃在灯光里缓缓下沉。\n原来，让一件小事回到它该在的地方，心里会这么安静。",
+      "hashtags": [
+        "#细小仪式感",
+        "#轻中二日常",
+        "#上海书店",
+        "#生活记录"
+      ],
+      "rationale": "从“将小物归位”的钩子出发，用“迷路”和“找到书架”拟人化对象，将天气作为纹理修饰而非主体，落脚于“心里安静”的情感着陆点，符合 gentle_order。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "日常暗号",
+      "caption": "便条纸的卷边，被我抚平了。\n一个几乎听不见的、沙沙的暗号。\n意思是：今晚，所有走散的小东西，都可以回家。",
+      "hashtags": [
+        "#日常修复仪式",
+        "#轻中二日常",
+        "#私密动态",
+        "#生活切片"
+      ],
+      "rationale": "将普通手势（抚平卷边）和声音（沙沙声）转化为带有轻微中二感的“私密暗号”，并赋予其“让走散之物回家”的温柔、前瞻性含义，满足“普通事物带有秘密意义”的要求。"
+    }
+  ]
+}

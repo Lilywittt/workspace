@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:33:33.874Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-32-38",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best balances the scene's concrete sensory detail with a light, private-ritual texture, avoiding the overtly metaphorical language of candidate 02 and the slightly overwrought internal reflection of candidate 03. It cleanly executes the micro-plot, grounds the action in the cool metal feel and distant rain, and lands with a gentle, forward-leaning observation ('像给今天一个微小的、向前的结') that fits the 'gentle_order' emotional landing without sounding like a fixed slogan. The hashtags are well-aligned and support the lane switch to life_record with fresh angles.",
+  "caption": "在书店过道的地板上，捡到一个被踩弯的回形针。\n把它一点点掰直，金属在指尖变回原来的形状。\n像给今天一个微小的、向前的结。\n雨声在窗外，很轻。",
+  "hashtags": [
+    "#书店时光",
+    "#微小治愈",
+    "#轻柔秩序",
+    "#上海雨夜",
+    "#日常仪式感"
+  ],
+  "candidateAngle": "私密修复仪式",
+  "candidateRationale": "聚焦于修复动作的私密仪式感，将具体感官（金属触感）与抽象感受（给今天一个结）结合，以窗外雨声作安静收尾，符合‘轻柔秩序’的情感落点。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best balances the scene's concrete sensory detail with a light, private-ritual texture, avoiding the overtly metaphorical language of candidate 02 and the slightly overwrought internal reflection of candidate 03. It cleanly executes the micro-plot, grounds the action in the cool metal feel and distant rain, and lands with a gentle, forward-leaning observation ('像给今天一个微小的、向前的结') that fits the 'gentle_order' emotional landing without sounding like a fixed slogan. The hashtags are well-aligned and support the lane switch to life_record with fresh angles.",
+    "strengths": [
+      "Strong sensory grounding with '金属在指尖变回原来的形状' and '雨声在窗外'",
+      "Clean three-part micro-plot: find, fix, feel",
+      "Ending line is a subtle, publishable omen that fits the 'light chunibyo' tone",
+      "Avoids over-explaining the ritual or making it a grand statement",
+      "Hashtags are fresh and support the scene's mood without repetition fatigue"
+    ],
+    "risks": [
+      "The final line is slightly abstract, but its brevity and connection to the physical action keep it believable",
+      "Slightly shorter than other options, but meets all required elements efficiently"
+    ]
+  }
+}

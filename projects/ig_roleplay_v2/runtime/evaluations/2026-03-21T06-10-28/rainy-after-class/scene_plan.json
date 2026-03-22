@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class",
+  "createdAt": "2026-03-21T06:19:14.567Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "小雨",
+    "locationName": "Shanghai",
+    "routineWindow": "after_class"
+  },
+  "narrative": {
+    "premise": "把书包放在教室后排的椅子上，发现椅背的木纹里嵌着一小截断掉的蓝色粉笔头。",
+    "microPlot": [
+      "下课后，想找个角落放一下书包。",
+      "把书包搭上椅背时，手指蹭到了不平整的触感。",
+      "低头看见那截粉笔，像被遗忘的标点，心里顿了一下。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "那个小小的、坚硬的蓝色存在，让这个普通的动作有了一个具体的停顿点。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "concreteSceneCues": [
+      "深色木椅的纹理",
+      "嵌在缝隙里的蓝色粉笔头",
+      "搭在椅背上的书包带子"
+    ],
+    "sceneNotes": [
+      "context: school_transition_window",
+      "weather: 小雨"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "window_after_class",
+      "context_school_transition_window"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

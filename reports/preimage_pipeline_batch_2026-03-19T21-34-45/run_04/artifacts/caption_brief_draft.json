@@ -1,0 +1,40 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:40:26.258Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-40-07",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a quiet, private note to her future self, capturing the small ritual of buying a tea sachet on a damp evening. It should focus on the sensory details of the moment—the feel of the paper bag, the cool air—and let the ordinary object briefly carry a shy, personal meaning, without turning into a grand statement.",
+  "audienceFeeling": "a quiet, intimate recognition of small comforts",
+  "openingMoves": [
+    "Start with a sensory observation about the weather or the evening",
+    "Mention the small, focused action of choosing or buying the tea",
+    "Frame the errand as a quiet, personal need"
+  ],
+  "mustInclude": [
+    "The cool, damp air or mist (小雨, about 10.4C)",
+    "The tea sachet in its small paper bag",
+    "A detail about hands, light, or sound (e.g., rustle of paper, shop glow)",
+    "A hint that this tiny act is a private promise or reset"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "A fixed, slogan-like ending",
+    "Overly dramatic or world-building chunibyo",
+    "Explicit self-encouragement or diary-style recap"
+  ],
+  "voiceNotes": [
+    "Use short sentences with one occasional longer breath",
+    "End with a soft, trailing tone or gentle self-address",
+    "Keep it intimate, like a note to herself",
+    "Let the tea sachet feel faintly symbolic for a moment"
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#小雨的晚上",
+    "#一个人的小仪式",
+    "#茶包与私密承诺"
+  ],
+  "summary": "A shy, sensory-focused caption about buying a tea sachet on a damp Shanghai evening, treating it as a private ritual of quiet self-care.",
+  "errorMessage": ""
+}

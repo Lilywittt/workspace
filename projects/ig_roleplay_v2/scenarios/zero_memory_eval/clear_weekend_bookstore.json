@@ -1,0 +1,33 @@
+{
+  "scenarioId": "clear-weekend-bookstore",
+  "timestamp": "2026-03-22T15:10:00+08:00",
+  "forceRoutineWindow": "afternoon_pause",
+  "weather": {
+    "summary": "clear to lightly cloudy",
+    "bucket": "clear",
+    "temperatureC": 17.8,
+    "precipitationMm": 0.0
+  },
+  "location": {
+    "city": "Shanghai",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "weekend_pause_window"
+  },
+  "contentIntent": {
+    "characterPresenceTarget": "clear_character_presence"
+  },
+  "ambient": {
+    "cityTrivia": [
+      "People have been talking more this weekend about old-book smells and paper textures inside bookstores."
+    ],
+    "trendingTopics": [
+      "Some people are sharing the bookmarks and note-taking habits they still have not changed."
+    ],
+    "animeFandom": [
+      "Recent discussion has focused on everyday scenes where almost nothing happens except one tiny action carrying the whole beat."
+    ]
+  },
+  "notes": [
+    "Test whether a weekend bookstore mood can still feel character-true instead of collapsing into a generic literary template."
+  ]
+}

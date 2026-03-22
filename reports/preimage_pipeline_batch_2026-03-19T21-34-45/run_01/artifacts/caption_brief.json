@@ -1,0 +1,180 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:35:43.182Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-35-18",
+  "goal": "Write a caption that captures the quiet, private ritual of returning a stray sticky note to its dispenser in a bookstore aisle on a cool, drizzly Shanghai evening. The text should feel like a soft, self-addressed note, turning a small act of order into a gentle, forward-looking satisfaction that closes a tiny loop in the day.",
+  "audienceFeeling": "A soft, intimate recognition of finding meaning in small, caring gestures.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Use the current scene program as a semantic backbone: return_or_repair_program.",
+    "Keep the location archetype and object binding legible: bookstore_aisle / sticky note.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Sound like a private note to self or a future self.",
+    "Keep it grounded in daily-life texture, not poetic abstraction.",
+    "Let the sticky note feel briefly symbolic—a small omen of order.",
+    "Start with a sensory detail from the moment (e.g., the feel of the paper, the cool air).",
+    "Frame the action as a small, observed event, not a grand statement.",
+    "Use a gentle, present-tense observation to draw the viewer into the scene.",
+    "The tactile sensation of the sticky note (soft, dry rasp).",
+    "The act of picking it up, smoothing it, and returning it to the shelf.",
+    "The cool, still bookstore air with a faint scent of paper and damp wool.",
+    "A mention of the small red hairclip (visible at the frame's edge).",
+    "The location (Shanghai bookstore aisle) and weather (小雨, cool).",
+    "A light chunibyo touch—a private, slightly poetic weight given to the ordinary act."
+  ],
+  "contentBlocks": {
+    "premise": "In the quiet, damp air of a late spring evening, a small errand to a familiar bookstore aisle becomes a quiet act of gentle order. Finding a stray sticky note isn't just clutter; it's a tiny, intentional gesture of repair, putting a small thing back where it belongs as a private ritual of care for the quiet space.",
+    "microPlot": [
+      "A stray sticky note, fallen and forgotten in the aisle, catches her eye.",
+      "She picks it up, smooths its curled edge, and carefully returns it to the shelf's small dispenser.",
+      "A quiet, forward-looking satisfaction settles in, as if the day closed a tiny, perfect loop."
+    ],
+    "sensoryFocus": "the soft, dry rasp of paper under fingertips",
+    "freshness": {
+      "weatherSignal": "小雨, about 10.4C",
+      "trendSignal": "No stable trend signal, so daily world-state cues should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts and 12 semantic history items for repetition risk"
+    },
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_07",
+      "sceneProgramId": "return_or_repair_program",
+      "affordanceId": "return_or_repair_window",
+      "locationArchetype": "bookstore_aisle",
+      "locationCluster": "bookish_pause",
+      "objectFamily": "stationery",
+      "objectBindings": [
+        "sticky note"
+      ],
+      "actionKernel": "return_fix_restore",
+      "weatherRole": "texture_modifier",
+      "emotionalLanding": "gentle_order",
+      "presencePolicy": "partial_presence",
+      "captionHooks": [
+        "putting a small thing back where it belongs",
+        "repair as quiet affection"
+      ],
+      "imageHooks": [
+        "hands fixing or returning an item",
+        "small before/after feeling"
+      ]
+    },
+    "worldState": {
+      "timeContext": {
+        "timezone": "Asia/Shanghai",
+        "localDate": "2026-03-17",
+        "localHour": 21,
+        "daypart": "late_evening",
+        "weekdayMode": "school_day",
+        "seasonPhase": "early_spring",
+        "routineAnchors": [
+          "after_class_reset",
+          "short_errand",
+          "evening_reset",
+          "shelter_pause",
+          "indoor_reset",
+          "rediscovery_window"
+        ]
+      },
+      "environment": {
+        "city": "Shanghai",
+        "locationName": "Shanghai",
+        "weatherCode": 61,
+        "weatherSummary": "小雨",
+        "temperatureC": 10.4,
+        "windSpeedKmh": 10.8,
+        "temperatureBand": "cool",
+        "mobilityWindow": "short_walk_ok",
+        "weatherRoleDefault": "reflective_support"
+      },
+      "characterState": {
+        "lanePreference": "life_record",
+        "energy": "low",
+        "socialBandwidth": "solo_preferred",
+        "attentionShape": "detail_seeking",
+        "needState": [
+          "small_reset",
+          "private_meaning"
+        ],
+        "temperament": [
+          "light_chunibyo",
+          "gentle",
+          "occasionally_tsundere",
+          "sensitive_to_daily_details",
+          "playful",
+          "private_ritual_energy",
+          "quietly_reads_small_omens"
+        ]
+      },
+      "continuityPressure": {
+        "preferredLane": "life_record",
+        "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+        "sceneFatigue": [
+          "legacy_program",
+          "micro_purchase_program"
+        ],
+        "objectFatigue": [
+          "accessory"
+        ],
+        "weatherOveruse": false,
+        "indoorOveruse": false,
+        "studyAftermathOveruse": false
+      }
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "gentle_order"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle, sensory-rich caption about restoring a stray sticky note as a private ritual of care on a drizzly evening.",
+    "hashtagAngles": [
+      "#上海日常",
+      "#书店碎片",
+      "#轻微中二病",
+      "#细小仪式感",
+      "#雨天治愈时刻"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Commercial language, collab hints, or marketing jargon.",
+    "A fixed, slogan-like ending or repeated signature phrase.",
+    "Forcing the moment into a grand fateful declaration.",
+    "Explicit AI self-disclosure or meta-commentary.",
+    "Overly theatrical or world-building-heavy chunibyo."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

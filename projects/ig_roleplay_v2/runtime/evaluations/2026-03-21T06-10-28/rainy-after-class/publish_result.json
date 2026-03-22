@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:19:27.503Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-16-20-rainy_after_class",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/1c/20260321/448165f2/4813be4c-344b-4355-af85-777b70889225573041491.png?Expires=1774679761&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=5ZiuYcfAsHU40xPOCI3h%2F2F%2BsUk%3D",
+  "altText": "璃音发现教室椅背木纹里嵌着一小截蓝色粉笔头的瞬间",
+  "releaseStage": "image_ready",
+  "captionChars": 30,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

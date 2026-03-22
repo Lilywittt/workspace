@@ -1,0 +1,72 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:51:52.184Z",
+  "runId": "zeromemory-2026-03-21T11-47-52-clear_weekend_bookstore",
+  "scenarioId": "clear-weekend-bookstore",
+  "mode": "zero_memory_agent",
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "captureIntent": {
+    "lane": "life_record",
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    }
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  },
+  "selectedMoment": {
+    "candidateId": "event_03",
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "caption_02",
+    "candidateAngle": "action_implied"
+  }
+}

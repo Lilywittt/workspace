@@ -1,0 +1,55 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:27:17.347Z",
+  "mode": "weak_background_only",
+  "categories": [
+    "weather",
+    "seasonal_culture",
+    "trending_topics",
+    "city_trivia",
+    "anime_fandom"
+  ],
+  "items": [
+    {
+      "signalId": "weather_2026-03-22",
+      "category": "weather",
+      "text": "晴到多云 around Shanghai.",
+      "sourceType": "signals",
+      "freshness": "current",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "seasonal_spring_03-22",
+      "category": "seasonal_culture",
+      "text": "Shanghai is currently in a spring seasonal transition.",
+      "sourceType": "calendar",
+      "freshness": "current",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "trend_1",
+      "category": "trending_topics",
+      "text": "不少人在分享自己一直没有换掉的书签和笔记习惯。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "city_1",
+      "category": "city_trivia",
+      "text": "这周末书店里关于旧书气味和纸张触感的话题忽然变多了。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "anime_1",
+      "category": "anime_fandom",
+      "text": "最近有人在聊新番里那种看似没发生什么、其实全靠微小动作撑起来的日常感。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    }
+  ],
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}

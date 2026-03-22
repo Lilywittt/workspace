@@ -1,0 +1,57 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen",
+  "createdAt": "2026-03-21T09:17:20.347Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "微凉的多云傍晚",
+    "locationName": "Shanghai",
+    "routineWindow": "evening_reset"
+  },
+  "narrative": {
+    "premise": "本来只是顺手整理一下，结果因为planner停住了半秒。",
+    "microPlot": [
+      "原本只是顺着日常继续往下走。",
+      "某个具体细节忽然把注意力拉住。",
+      "情绪没有变大，只是被轻轻定住了一下。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "结果因为一个很小的细节，心里轻轻停了一下。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "手指停在边缘",
+      "衣袖口",
+      "半开着的随身物件"
+    ],
+    "sceneNotes": [
+      "context: home_evening_reset",
+      "weather: 微凉的多云傍晚",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "context_home_evening_reset",
+      "window_evening_reset",
+      "weather_cloudy",
+      "identity_stability"
+    ],
+    "supportObjectRefs": [
+      "planner",
+      "mechanical_pencil"
+    ],
+    "supportPlaceRef": "",
+    "supportRoutineRef": "window_evening_reset"
+  }
+}

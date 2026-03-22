@@ -1,0 +1,17 @@
+{
+  "selectedCandidateId": "caption_01",
+  "reasonZh": "这句最像一个真实的人在记录一个具体的、未加解释的停顿瞬间，保留了被选中的时刻感。",
+  "strengthsZh": [
+    "具体动作",
+    "自然口语",
+    "未过度解释",
+    "保留私人空白"
+  ],
+  "risksZh": [],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-review-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

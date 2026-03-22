@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:35:18.101Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, damp air of a late spring evening, a small errand to a familiar bookstore aisle becomes a quiet act of gentle order. Finding a stray sticky note isn't just clutter; it's a tiny, intentional gesture of repair, putting a small thing back where it belongs as a private ritual of care for the quiet space.",
+  "microPlot": [
+    "A stray sticky note, fallen and forgotten in the aisle, catches her eye.",
+    "She picks it up, smooths its curled edge, and carefully returns it to the shelf's small dispenser.",
+    "A quiet, forward-looking satisfaction settles in, as if the day closed a tiny, perfect loop."
+  ],
+  "sensoryFocus": "the soft, dry rasp of paper under fingertips",
+  "sceneNotes": [
+    "Hands in motion, one holding the note, the other gently pressing it flat against the shelf.",
+    "The cool, still air of the bookstore, carrying the faint scent of paper and damp wool from outside.",
+    "A single, small red hairclip visible at the edge of the frame, catching the soft overhead light."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A quiet repair as a form of shy affection for a shared space."
+  ],
+  "summary": "A small, intentional act of returning a stray sticky note becomes a private ritual of gentle order in a quiet bookstore aisle.",
+  "errorMessage": ""
+}

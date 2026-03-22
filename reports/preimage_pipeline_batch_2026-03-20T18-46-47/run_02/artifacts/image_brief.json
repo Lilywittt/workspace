@@ -1,0 +1,139 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:49:43.722Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-48-53",
+  "lane": "life_record",
+  "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+  "storyBinding": {
+    "premise": "In the cool, drizzly early evening, a short wait at a station edge becomes a quiet, suspended moment. A folded shopping list, carried in a bag, isn't just an errand reminder; it's a small, tangible fragment of the day's ordinary intent, briefly held in the liminal space between here and there, becoming a quiet, keepable trace of a simple plan.",
+    "microPlot": [
+      "A folded shopping list, carried from a morning errand, rests at the bottom of a bag.",
+      "During a brief wait at a station platform edge, the list is noticed, its creases smoothed with a thumb in a small, absent gesture.",
+      "The simple act of holding this ordinary fragment in a place of transit makes the day's small intentions feel momentarily solid and quietly precious."
+    ],
+    "sensoryFocus": "the faint, dry rustle of paper against fabric",
+    "sceneSemantics": {
+      "selectedCandidateId": "scene_cand_04",
+      "sceneProgramId": "transit_fragment_program",
+      "affordanceId": "transit_fragment_window",
+      "locationArchetype": "station_edge",
+      "locationCluster": "transit_fragment",
+      "objectFamily": "bag_contents",
+      "objectBindings": [
+        "folded shopping list"
+      ],
+      "actionKernel": "wait_carry_pass_through",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset",
+      "presencePolicy": "wide_scene_with_character_trace",
+      "captionHooks": [
+        "ordinary transit becomes keepable",
+        "carrying a small thing through the city"
+      ],
+      "imageHooks": [
+        "platform edge",
+        "bag or hand detail",
+        "motion held briefly still"
+      ]
+    },
+    "selectedCaptionOpening": "等车时，摸到包里一张皱皱的购物清单。",
+    "selectedCaptionSummary": "等车时，摸到包里一张皱皱的购物清单。 用拇指把它抚平，纸片摩擦帆布的沙沙声，比雨声还清楚。 原来一天的意图，可以这么轻，又这么具体。",
+    "candidateAngle": "触觉仪式"
+  },
+  "semanticBindings": {
+    "sceneProgramId": "transit_fragment_program",
+    "locationArchetype": "station_edge",
+    "locationCluster": "transit_fragment",
+    "objectFamily": "bag_contents",
+    "objectBindings": [
+      "folded shopping list"
+    ],
+    "actionKernel": "wait_carry_pass_through",
+    "weatherRole": "reflective_support",
+    "emotionalLanding": "tiny_reset",
+    "presencePolicy": "wide_scene_with_character_trace"
+  },
+  "identityControl": {
+    "stableTraits": [
+      "core_face_shape",
+      "hair_color_family",
+      "age_impression",
+      "overall_temperament"
+    ],
+    "allowedVariation": [
+      "expression",
+      "small_accessory",
+      "outfit_accent",
+      "lighting",
+      "camera_angle"
+    ],
+    "requiredIdentityAnchors": [],
+    "optionalStyleAnchors": [
+      "legacy_daily_style_001"
+    ],
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ]
+  },
+  "visualDirectives": [
+    "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+    "Bind the image to the selected caption opening: \"等车时，摸到包里一张皱皱的购物清单。\"",
+    "Scene program: transit_fragment_program",
+    "Location archetype: station_edge",
+    "Object bindings: folded shopping list",
+    "Weather role: reflective_support",
+    "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful, private_ritual_energy, quietly_reads_small_omens",
+    "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Carry at least one sensory cue from the plan: the faint, dry rustle of paper against fabric",
+    "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+    "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+    "Make these scene cues legible in the frame: Character trace: a hand holding the list, edge of a sleeve or bag strap visible | Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces | Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs | Action texture: thumb gently smoothing a crease, a pause in motion | Object detail: list is slightly worn, one corner softened from being carried | Scene location archetype: station edge",
+    "Do not fall back to stock cafe, window, tabletop, or drink scenery unless the current scene cues explicitly call for it.",
+    "Presence mode: wide_scene_with_character_trace",
+    "The full face may stay off screen, but the image must still contain readable character traces.",
+    "Include at least one trace cue from: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+    "Optional style anchors for scene tone: legacy_daily_style_001",
+    "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+    "Keep character presence readable through traces, posture, or interaction with the scene.",
+    "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+    "platform edge",
+    "bag or hand detail",
+    "motion held briefly still",
+    "ordinary transit becomes keepable",
+    "carrying a small thing through the city",
+    "Prioritize a wider shot that shows the character in relation to a new environment",
+    "If a close-up, focus on an action-in-progress (e.g., adjusting, holding, noticing) rather than a static object",
+    "Use natural, available light to create a different mood (e.g., soft dusk, artificial streetlight)",
+    "Character trace: a hand holding the list, edge of a sleeve or bag strap visible.",
+    "Environment: platform edge, wet concrete, soft glow of station lights reflecting on damp surfaces.",
+    "Lighting: cool, diffuse early-evening light, artificial warmth from nearby signs.",
+    "Action texture: thumb gently smoothing a crease, a pause in motion.",
+    "Object detail: list is slightly worn, one corner softened from being carried.",
+    "Presence mode: wide_scene_with_character_trace.",
+    "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸."
+  ],
+  "negativeDirectives": [
+    "Do not look like an ad, campaign poster, or glossy fashion editorial.",
+    "Do not add watermarks, on-image text, or platform UI overlays.",
+    "Avoid extra fingers, broken anatomy, duplicate objects, or chaotic clutter.",
+    "Avoid unrelated fantasy props that are not grounded in daily life.",
+    "Do not turn the scene into a tourism poster or empty aesthetic wallpaper.",
+    "Avoid looking staged, over-symmetrical, or unrealistically polished."
+  ],
+  "renderHints": {
+    "platform": "instagram",
+    "aspectRatio": "4:5",
+    "candidateCount": 3,
+    "narrativePriority": "scene_authenticity"
+  }
+}

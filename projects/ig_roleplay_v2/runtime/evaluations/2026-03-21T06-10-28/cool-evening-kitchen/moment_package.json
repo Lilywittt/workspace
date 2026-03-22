@@ -1,0 +1,82 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:15:34.636Z",
+  "sourceCandidateId": "event_04",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "给手机充电，插头第三次才对准插孔插进去。前两次的金属摩擦声在安静的房间里显得特别清楚。",
+    "hookWhyInterestingZh": "一个微小的、重复的失败，最终成功时带来的不是成就感，而是一种对自身状态的觉察。",
+    "causalChainZh": [
+      "执行一个简单的、肌肉记忆般的动作。",
+      "动作意外地不顺畅，产生了额外的感官反馈（声音）。",
+      "注意力被拉回到身体和环境的当下连接上。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_home_evening_reset",
+        "window_evening_reset"
+      ],
+      "inferredDetailsZh": [
+        "傍晚的安静放大了细微的声音。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "只形成气压，不形成命题"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "心思在别处，动作只是自动导航。",
+    "after": "几次笨拙的尝试，像一个小小的提醒，让人回到了“正在这里做这件事”的实感中。",
+    "whyPostToday": "有一个瞬间短暂地值得留下。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "home_evening_reset",
+    "routineWindow": "evening_reset",
+    "weather": "微凉的多云傍晚",
+    "minimalBounds": [
+      "context_home_evening_reset",
+      "window_evening_reset",
+      "weather_cloudy",
+      "identity_stability"
+    ]
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "whyShareableZh": "它极其普通，却精确地描绘了注意力从涣散到短暂凝聚的那个临界点。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "手握着充电线和插头",
+      "插座局部的阴影",
+      "动作中途停顿的瞬间"
+    ],
+    "mayShow": [
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

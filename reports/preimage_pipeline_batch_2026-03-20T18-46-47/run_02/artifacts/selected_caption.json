@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:49:43.536Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-48-53",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=This candidate best captures the scene's core sensory and private-ritual texture, starting with the tactile 'thumb smoothing' action and the specific sound of 'paper against fabric' from the brief. It feels like a spontaneous, whispered observation that fits the 'light chunibyo' tone without overwriting, and its short, breath-like structure mirrors the 'note to future self' directive while avoiding the indoor/study fatigue of recent posts.",
+  "caption": "等车时，摸到包里一张皱皱的购物清单。\n用拇指把它抚平，纸片摩擦帆布的沙沙声，比雨声还清楚。\n原来一天的意图，可以这么轻，又这么具体。",
+  "hashtags": [
+    "#站台碎片",
+    "#购物清单仪式感",
+    "#上海小雨",
+    "#触觉日常"
+  ],
+  "candidateAngle": "触觉仪式",
+  "candidateRationale": "以触觉（抚平纸张的沙沙声）为核心，将微小动作转化为私密仪式，符合‘让普通手势有秘密意义’的要求。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best captures the scene's core sensory and private-ritual texture, starting with the tactile 'thumb smoothing' action and the specific sound of 'paper against fabric' from the brief. It feels like a spontaneous, whispered observation that fits the 'light chunibyo' tone without overwriting, and its short, breath-like structure mirrors the 'note to future self' directive while avoiding the indoor/study fatigue of recent posts.",
+    "strengths": [
+      "Strong sensory hook with 'thumb smoothing' and 'paper rustle' matching the brief's focus",
+      "Light, private ritual energy that feels genuine and unprompted",
+      "Concise, three-line structure that reads like a quiet breath, not a slogan",
+      "Avoids overused semantics like 'archive' or 'anchor' that risk feeling repetitive"
+    ],
+    "risks": [
+      "Slightly abstract final line ('intention can be this light, this concrete') may feel less grounded than the opening",
+      "Could be perceived as subtle, but fits the 'tiny_reset' emotional landing appropriately"
+    ]
+  }
+}

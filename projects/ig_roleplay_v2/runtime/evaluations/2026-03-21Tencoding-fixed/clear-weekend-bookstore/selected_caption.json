@@ -1,0 +1,17 @@
+{
+  "selectedAt": "2026-03-21T10:37:58.057Z",
+  "selectedCandidateId": "caption_01",
+  "selectionReason": "这句最像一个真实的人在记录一个具体的、未加解释的停顿瞬间，保留了被选中的时刻感。",
+  "selectionStrengthsZh": [
+    "具体动作",
+    "自然口语",
+    "未过度解释",
+    "保留私人空白"
+  ],
+  "candidateAngle": "concrete_action",
+  "caption": "手指停在计划本的边缘，整理的动作就断了半拍。",
+  "hashtags": [
+    "#日常碎片"
+  ],
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

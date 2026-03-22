@@ -1,0 +1,69 @@
+{
+  "recommendedCandidateId": "event_01_paper_pause",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 78,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "有具体的物理触发（planner）",
+        "情绪弧清晰且克制",
+        "视觉证据（手指停在边缘）与因果链一致"
+      ],
+      "risksZh": [
+        "presenceMode为partial_presence，可能无法满足clear_character_presence目标",
+        "需要确保细节足够新，避免掉入常见盆地"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 77,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "保持了小规模、私人的基调",
+        "符合日常停顿的分享冲动"
+      ],
+      "risksZh": [
+        "事件描述（很小的调整动作）过于模糊，像装饰性提示",
+        "视觉证据（人物存在的痕迹）不具体，图文同源性弱",
+        "难以满足clear_character_presence目标"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "personaTruthScore": 76,
+      "groundingScore": 74,
+      "postabilityScore": 75,
+      "coherenceScore": 76,
+      "characterPresenceFitScore": 72,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "捕捉了被外界“轻轻擦过”的感觉",
+        "符合角色安静、寻求细节的注意力风格"
+      ],
+      "risksZh": [
+        "事件总结（被小痕迹轻轻拦了一下）抽象，缺乏具体物理细节",
+        "视觉证据（经过中的场景边缘）模糊，可能沦为氛围场景",
+        "因果链与另两个候选人类似，有被事实压力拖入重复盆地的风险"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "审查完成。event_01_paper_pause在真实性、具体性和图文同源性上最佳，但其partial_presence模式需要调整以满足clear_character_presence目标。event_02和event_03事件描述模糊，有装饰性提示和重复盆地风险。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-15-51-clear_weekend_bookstore"
+}

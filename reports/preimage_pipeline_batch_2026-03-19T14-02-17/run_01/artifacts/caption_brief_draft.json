@@ -1,0 +1,39 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T06:03:03.257Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T06-02-45",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption that turns a worn-down pencil into a quiet, private ritual. Capture the hushed feeling of a rainy study break, where a small object briefly feels like a monument to the morning's effort. Use short sentences with one longer breath, ending softly like a note to oneself.",
+  "audienceFeeling": "A quiet, shared recognition of a small, tangible effort.",
+  "openingMoves": [
+    "Start with the sound or feeling of the rain outside.",
+    "Mention noticing the pencil left on the desk.",
+    "Describe the texture or state of the pencil tip."
+  ],
+  "mustInclude": [
+    "The soft, steady sound of rain creating a hushed room.",
+    "The physical detail of the pencil's worn-down tip.",
+    "A quiet, satisfied feeling from the day's tangible mark.",
+    "At least one trace of the character (e.g., a hand, sleeve, or hairclip)."
+  ],
+  "mustAvoid": [
+    "Commercial language, KPI, or marketing jargon.",
+    "The blocked legacy phrases like 'bright and alive'.",
+    "A fixed, slogan-like ending or grand fate declaration.",
+    "Exposition or lore-building outside the moment."
+  ],
+  "voiceNotes": [
+    "Light chunibyo flavor, intimate, not theatrical.",
+    "Gentle, trailing sentence endings.",
+    "Treat the pencil as an ordinary object with secret weight.",
+    "Sound like a private note, not a performance."
+  ],
+  "hashtagAngles": [
+    "Life record or slice-of-life angle.",
+    "Study or rainy day mood.",
+    "A subtle object-focused angle."
+  ],
+  "summary": "A life_record caption where a worn pencil becomes a quiet monument to a morning's work on a rainy day.",
+  "errorMessage": ""
+}

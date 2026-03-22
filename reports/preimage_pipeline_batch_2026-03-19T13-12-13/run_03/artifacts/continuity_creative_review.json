@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:14:54.081Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Focus on a wider scene or activity, not a close-up selfie",
+    "Incorporate the current '小雨' weather as a background element, not the main subject"
+  ],
+  "avoidMotifs": [
+    "Repeating the 'drawing on a rainy window' or 'wind in hair' opening lines",
+    "Overusing hashtags #上海, #日常, #自拍, #小确幸"
+  ],
+  "narrativeNudges": [
+    "Show a small action or discovery within the rainy day (e.g., finding something, a quiet indoor moment)"
+  ],
+  "captionAdvice": [
+    "Write from a slightly more observational, third-person-ish perspective",
+    "Mention the weather subtly as atmosphere, not the first line"
+  ],
+  "imageAdvice": [
+    "Use a medium shot showing environment and activity",
+    "Consider a still-life composition of objects related to the moment"
+  ],
+  "summary": "Shift from selfie close-ups to a scene-focused life_record that maintains the cozy, reflective mood but changes the framing.",
+  "errorMessage": ""
+}

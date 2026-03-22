@@ -1,0 +1,125 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T06-06-42",
+  "createdAt": "2026-03-19T06:06:42.485Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ]
+  },
+  "narrative": {
+    "premise": "After a morning of studying, a small, deliberate act of tidying her desk becomes a quiet ritual to clear her mind, turning a simple task into a moment of personal order.",
+    "microPlot": [
+      "The scattered notes and empty mug from her review session create a small, familiar chaos.",
+      "She carefully aligns the edge of her notebook with the desk's corner, her fingers brushing away a stray eraser crumb.",
+      "A quiet satisfaction settles in, as if arranging these objects also sorts the lingering thoughts in her head."
+    ],
+    "sensoryFocus": "the faint, dry scent of paper and the soft scrape of a notebook sliding into place"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Partial view: focus on hands and the desk surface, with her figure slightly out of focus in the background",
+      "A single red hairclip rests on the corner of a closed textbook",
+      "Soft, diffuse light from a cloudy window illuminates the textures of paper and wood grain",
+      "A half-empty glass of water with a faint condensation ring on the desk",
+      "The scattered notes and empty mug from her review session create a small, familiar chaos",
+      "She carefully aligns the edge of her notebook with the desk's corner, her fingers brushing away a stray eraser crumb"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Frame a detail of a personal item or a partial view of a scene",
+      "Use natural, indirect lighting to match the gentle, observant mood",
+      "Focus on an object or small action, not a face-forward selfie",
+      "Shift to a wider scene or environmental detail",
+      "Partial view: focus on hands and the desk surface, with her figure slightly out of focus in the background.",
+      "A single red hairclip rests on the corner of a closed textbook.",
+      "Soft, diffuse light from a cloudy window illuminates the textures of paper and wood grain.",
+      "A half-empty glass of water with a faint condensation ring on the desk.",
+      "A small, deliberate action as a form of mental reset.",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Shift from consecutive selfies to a life_record that observes a small, meaningful detail in the environment.",
+    "draftSummary": "A life_record scene where tidying a study desk becomes a gentle, private ritual to find calm.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

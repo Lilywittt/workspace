@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:13:18.864Z",
+  "sourceMode": "scenario_override",
+  "scenarioId": "cool-evening-kitchen",
+  "date": {
+    "isoDate": "2026-03-23",
+    "weekday": "Mon",
+    "scheduleMode": "school_day",
+    "season": "spring"
+  },
+  "time": {
+    "timestamp": "2026-03-23T19:25:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "localHour": 19,
+    "localMinute": 25,
+    "daypart": "early_evening",
+    "routineWindow": "evening_reset"
+  },
+  "weather": {
+    "summary": "微凉的多云傍晚",
+    "bucket": "cloudy",
+    "temperatureC": 13.2,
+    "precipitationMm": 0,
+    "windSpeedKmh": 10.8
+  },
+  "location": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "home_evening_reset",
+    "specificPlaceHint": "",
+    "mobilityPhase": "settled",
+    "indoorOutdoorBias": "mostly_indoor"
+  },
+  "boundaries": {
+    "longDistanceTravelLikely": false,
+    "sameCityAssumed": true,
+    "largePublicEventAssumed": false
+  },
+  "factualNotes": [
+    "Current context: home_evening_reset.",
+    "Weather: 微凉的多云傍晚.",
+    "Routine window: evening_reset."
+  ],
+  "overrideNotes": [
+    "测试夜间 home reset 下是否能生成不空泛的室内生活瞬间。"
+  ],
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

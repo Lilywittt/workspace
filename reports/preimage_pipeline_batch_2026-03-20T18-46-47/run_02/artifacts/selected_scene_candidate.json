@@ -1,0 +1,92 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:48:35.095Z",
+  "source": "code",
+  "status": "selected_scene_candidate_ready",
+  "selectedCandidateId": "scene_cand_04",
+  "selectionReason": "Selected transit_fragment_program because it balanced novelty 106, feasibility 92, and persona fit 88.",
+  "selectedCandidate": {
+    "candidateId": "scene_cand_04",
+    "lane": "life_record",
+    "sceneProgramId": "transit_fragment_program",
+    "affordanceId": "transit_fragment_window",
+    "locationArchetype": "station_edge",
+    "locationCluster": "transit_fragment",
+    "objectFamily": "bag_contents",
+    "objectBindings": [
+      "folded shopping list"
+    ],
+    "weatherRole": "reflective_support",
+    "actionKernel": "wait_carry_pass_through",
+    "actionSequence": [
+      "carry folded shopping list through a short transition",
+      "pause while waiting or passing through",
+      "let an ordinary fragment become keepable"
+    ],
+    "emotionalLanding": "tiny_reset",
+    "presenceMode": "wide_scene_with_character_trace",
+    "captionHooks": [
+      "ordinary transit becomes keepable",
+      "carrying a small thing through the city"
+    ],
+    "imageHooks": [
+      "platform edge",
+      "bag or hand detail",
+      "motion held briefly still"
+    ],
+    "premiseSeed": "folded shopping list becomes the center of a wait carry pass through moment at station edge.",
+    "scores": {
+      "total": 106,
+      "novelty": 106,
+      "feasibility": 92,
+      "personaFit": 88
+    }
+  },
+  "rankedCandidates": [
+    {
+      "candidateId": "scene_cand_04",
+      "sceneProgramId": "transit_fragment_program",
+      "totalScore": 106,
+      "locationArchetype": "station_edge",
+      "objectFamily": "bag_contents",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    },
+    {
+      "candidateId": "scene_cand_02",
+      "sceneProgramId": "rediscovery_program",
+      "totalScore": 94,
+      "locationArchetype": "indoor_desk_corner",
+      "objectFamily": "paper_fragment",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen"
+    },
+    {
+      "candidateId": "scene_cand_03",
+      "sceneProgramId": "threshold_pause_program",
+      "totalScore": 91,
+      "locationArchetype": "campus_edge",
+      "objectFamily": "accessory",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "private_omen"
+    },
+    {
+      "candidateId": "scene_cand_09",
+      "sceneProgramId": "kitchen_comfort_program",
+      "totalScore": 79,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "quiet_completion"
+    },
+    {
+      "candidateId": "scene_cand_08",
+      "sceneProgramId": "laundry_corner_program",
+      "totalScore": 75,
+      "locationArchetype": "window_seat",
+      "objectFamily": "comfort_item",
+      "weatherRole": "reflective_support",
+      "emotionalLanding": "tiny_reset"
+    }
+  ]
+}

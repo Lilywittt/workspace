@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:36:31.981Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-35-33",
+  "selectedCandidateId": "ai_cand_03",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate 03 best embodies the 'private ritual energy' and 'gentle_order' required by the scene, focusing on the intimate sensory detail of touch ('指尖传来纸张特有的、干燥而顺从的触感') which grounds the action in daily-life texture. It frames the act as a '最微小的秩序维护', a phrase that carries light chunibyo weight without being theatrical, and cleanly integrates the warm lamplight and light rain as ambient texture. Its structure—action, sensation, personal meaning, environment—feels like a natural, publishable note to a future self, avoiding the slightly more abstract or repetitive phrasing of the other options.",
+  "caption": "抚平一张皱褶的纸，让它回到该在的位置。指尖传来纸张特有的、干燥而顺从的触感。这大概就是，为今天执行的、最微小的秩序维护。灯很暖，雨很轻。",
+  "hashtags": [
+    "#归位",
+    "#触感日记",
+    "#秩序维护",
+    "#夜间书店",
+    "#生活记录"
+  ],
+  "candidateAngle": "纸页的归位",
+  "candidateRationale": "强调触觉这一具体感官细节，并将'秩序维护'这一普通概念赋予轻微的中二感和私人意义，符合角色气质。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_03",
+    "reason": "Candidate 03 best embodies the 'private ritual energy' and 'gentle_order' required by the scene, focusing on the intimate sensory detail of touch ('指尖传来纸张特有的、干燥而顺从的触感') which grounds the action in daily-life texture. It frames the act as a '最微小的秩序维护', a phrase that carries light chunibyo weight without being theatrical, and cleanly integrates the warm lamplight and light rain as ambient texture. Its structure—action, sensation, personal meaning, environment—feels like a natural, publishable note to a future self, avoiding the slightly more abstract or repetitive phrasing of the other options.",
+    "strengths": [
+      "Strongest sensory focus on touch, a fresh and intimate detail",
+      "'最微小的秩序维护' perfectly balances light chunibyo with daily-life believability",
+      "Clean, breath-like sentence flow that matches the 'note to self' directive",
+      "Integrates weather and light as supporting texture without dominating",
+      "Avoids overused metaphors like '句点' or '循环', offering a fresher conceptual angle"
+    ],
+    "risks": [
+      "Slightly less explicit mention of the 'bookstore aisle' location compared to candidate 01",
+      "The phrase '秩序维护' could feel slightly formal if read without the gentle, private context"
+    ]
+  }
+}

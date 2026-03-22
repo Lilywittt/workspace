@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把书包放在教室后排的椅子上，发现椅背的木纹里嵌着一小截断掉的蓝色粉笔头。",
+      "hookWhyInterestingZh": "它就在那里，和椅子颜色几乎融为一体，但今天被看见了。",
+      "causalChainZh": [
+        "下课后，想找个角落放一下书包。",
+        "把书包搭上椅背时，手指蹭到了不平整的触感。",
+        "低头看见那截粉笔，像被遗忘的标点，心里顿了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "可能是之前上课时无意间崩断，卡在了木缝里。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是找个地方放东西，让身体休息几秒。",
+      "interiorShiftZh": "那个小小的、坚硬的蓝色存在，让这个普通的动作有了一个具体的停顿点。",
+      "whyTodayZh": "雨天的光线让木头的纹理和那点蓝色都显得更清晰。",
+      "whyShareableZh": "它就是一个被发现的、无关紧要的细节，刚好够记录。",
+      "visualEvidenceZh": [
+        "深色木椅的纹理",
+        "嵌在缝隙里的蓝色粉笔头",
+        "搭在椅背上的书包带子"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天让人更容易注意到室内被忽略的角落"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "拧开水龙头洗手，发现水流比平时小，声音变成一种细碎的、持续的滴答。",
+      "hookWhyInterestingZh": "不是故障，只是水压的变化，但今天听起来像在数什么。",
+      "causalChainZh": [
+        "从外面回来，习惯性地去洗手。",
+        "打开水龙头，水流没有立刻涌出，而是先迟疑地滴了几滴。",
+        "随后水流变细，声音从哗啦变成一种有节奏的滴落。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "可能是雨天，楼里用水的人多，水压暂时不稳。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "一个机械的、清洁的动作。",
+      "interiorShiftZh": "水流的声音变了，这个日常行为的背景音被替换了，注意力被拉到了手上。",
+      "whyTodayZh": "安静的氛围里，这种细微的变化变得明显。",
+      "whyShareableZh": "捕捉到了一个感官上的微小偏移，很具体。",
+      "visualEvidenceZh": [
+        "细小的水流从龙头落下",
+        "洗手池里溅起的微小水花",
+        "悬在空中的、等待的手"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "被外界（天气）轻轻影响后的室内细节"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "翻开一本很久没用的笔记本，发现某一页的页角被折了一个很小的三角形，但完全不记得为什么。",
+      "hookWhyInterestingZh": "一个自己留下的、却已失效的标记，像过去的某个念头突然回访。",
+      "causalChainZh": [
+        "想找一张空白纸记点东西。",
+        "随手从抽屉里抽出一本旧笔记本。",
+        "翻动时，手指碰到一个不寻常的、硬硬的页角。",
+        "看到那个小小的折痕，停住了翻页的动作。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "笔记本可能是上学期的，折角或许是为了标记某个待办或重点。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是想找张纸，目标明确。",
+      "interiorShiftZh": "被一个自己制造的、但意义已空的记号短暂地拦住了。",
+      "whyTodayZh": "今天那种“想留住一点真实感”的倾向，让这种无意义的遗留物变得值得看一眼。",
+      "whyShareableZh": "关于遗忘和痕迹的小事，没有结论，只是呈现。",
+      "visualEvidenceZh": [
+        "旧笔记本的封面",
+        "被折起一个角的书页",
+        "手指捏着那个折角"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "形成一种对“旧物与痕迹”略微敏感的气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "走廊的声控灯坏了，拍手也不亮，但走过时，隔壁教室透出的光把自己的影子斜斜地投在墙上。",
+      "hookWhyInterestingZh": "一个失效的预期，被另一个偶然的光源填补，产生了意料之外的画面。",
+      "causalChainZh": [
+        "走过一段通常有声控灯的走廊。",
+        "习惯性地拍了下手，灯没亮。",
+        "继续走，发现墙壁上出现了自己移动的影子。",
+        "光源来自旁边一间还亮着灯的教室门缝。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "放学后，部分教室还有人，走廊灯可能刚好故障。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "走一段熟悉的路，依赖习惯的照明。",
+      "interiorShiftZh": "预期的光没有出现，却意外地看到了自己以另一种方式“存在”于这个空间。",
+      "whyTodayZh": "雨天傍晚，室内外明暗对比更明显，这种光影的替代效应更清晰。",
+      "whyShareableZh": "捕捉了一个小小的、关于预期落空和偶然呈现的瞬间。",
+      "visualEvidenceZh": [
+        "昏暗走廊的墙壁",
+        "斜投在墙上的模糊人影",
+        "远处门缝下漏出的条形光亮"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天和放学后的时间共同营造的、略带疏离感的室内氛围"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-16-20-rainy_after_class"
+}

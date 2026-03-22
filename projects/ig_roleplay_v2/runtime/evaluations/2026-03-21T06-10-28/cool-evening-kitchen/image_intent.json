@@ -1,0 +1,50 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection",
+  "mustShowZh": [
+    "手握着充电线和插头，插头正对着或微微偏离插座孔",
+    "插座局部的阴影和纹理",
+    "动作中途停顿的瞬间，手指的轻微调整"
+  ],
+  "mustShowEn": [
+    "hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket",
+    "texture and shadow of the wall socket area",
+    "the paused moment of adjustment, fingers slightly repositioning the plug"
+  ],
+  "mayShowZh": [
+    "一小截充电线垂下的弧度",
+    "手腕或袖口的边缘",
+    "墙面或家具的普通局部作为背景"
+  ],
+  "mayShowEn": [
+    "a small arc of the charger cable hanging down",
+    "edge of a wrist or sleeve",
+    "ordinary section of wall or furniture as background"
+  ],
+  "mustAvoidZh": [
+    "手机或插头的特写产品展示",
+    "面部表情作为焦点",
+    "干净无瑕的墙面或装饰性背景",
+    "动作已完成、插头已插好的状态",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look"
+  ],
+  "mustAvoidEn": [
+    "product close-up of the phone or plug",
+    "facial expression as the primary focus",
+    "pristine, decorative, or blank wall backgrounds",
+    "the action already completed with plug fully inserted"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "璃音给手机充电，插头对准插孔的瞬间。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

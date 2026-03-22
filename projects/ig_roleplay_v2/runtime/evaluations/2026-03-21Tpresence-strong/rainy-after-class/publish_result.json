@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-21T09:19:46.905Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T09-17-36-rainy_after_class",
+  "platform": "instagram",
+  "dryRun": true,
+  "status": "dry_run_ready",
+  "imageSource": "v2_generated_image",
+  "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/7f/20260321/448165f2/ee047f71-75fb-4f75-947c-95b43b5dd38d976572576.png?Expires=1774690581&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=ni0hzCMb42B3lv%2F%2BGDs1dS4MbMs%3D",
+  "altText": "月见璃音收拾书包时，手指碰到一张去年的电影票根。",
+  "releaseStage": "image_ready",
+  "captionChars": 30,
+  "publishTarget": {
+    "graphApiBase": "https://graph.facebook.com/v19.0",
+    "mode": "dry_run",
+    "provider": "aliyun-z-image",
+    "providerEndpoint": "https://dashscope.aliyuncs.com/api/v1/services/aigc/multimodal-generation/generation"
+  },
+  "result": null,
+  "notes": [
+    "Dry run only: the package is structurally ready for a real publish attempt."
+  ]
+}

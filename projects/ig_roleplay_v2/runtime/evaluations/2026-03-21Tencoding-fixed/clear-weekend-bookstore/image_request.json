@@ -1,0 +1,92 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:38:11.065Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable.",
+      "libraryStatus": "placeholder",
+      "librarySource": "manual_curation_required",
+      "assetPath": "",
+      "notes": "Manual curation is still required. This anchor exists as an upstream contract, not as an executable reference asset yet."
+    }
+  ],
+  "referencePlan": {
+    "identityReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "styleReferenceIds": [],
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ]
+  },
+  "referenceHandling": {
+    "requestedReferenceCount": 1,
+    "unresolvedReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "placeholderReferenceIds": [
+      "rion_core_face_01"
+    ],
+    "deliveryMode": "pending_provider_selection"
+  },
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: finger paused at an edge, sleeve cuff, partially opened carried item, finger paused at the edge of a notebook or planner, sleeve cuff or part of the arm, partially opened carried item (e.g., notebook, planner), 手指在笔记本或纸张边缘暂停的动作, 袖口或部分手臂, 部分打开的随身物品（如笔记本、计划本）\nContext: ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause, A temporary stationery and notebook display is set near the quiet bookstore aisle entrance., Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.\nCharacterPresence: clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary\nIdentityLock: same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable\nComposition: moment-led framing rooted in the same lived action of pausing while tidying, 让构图跟随同一个生活瞬间，保持动作和空间的连贯性。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 一个真实的生活切片，在流逝中被捕捉。\nRenderStyle: clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability\nRenderGuardrails: adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "muddy clothing colors, washed out contrast, blurry linework, flat fabric rendering, generic aesthetic wallpaper, fashion editorial polish, tourism poster feeling, empty scenery without character trace, rewriting the action into an interaction with another person, 通用的美学壁纸, 时尚大片般的精致感, 旅游海报感, 没有人物痕迹的空旷风景, 将动作重写成与他人互动, fashion editorial gloss, generic anime boy redesign, older-looking redesign, irrelevant bystanders drawing more attention than the protagonist",
+    "shotNotes": [
+      "finger paused at an edge",
+      "sleeve cuff",
+      "partially opened carried item",
+      "finger paused at the edge of a notebook or planner",
+      "sleeve cuff or part of the arm",
+      "partially opened carried item (e.g., notebook, planner)",
+      "quiet bookstore aisle background",
+      "afternoon sunlight casting a light band on a bookshelf or table"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, action-led lived-moment framing, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable, clear character presence must strengthen recognition of the same girl, not replace her with a generic anime lead, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "finger paused at an edge, sleeve cuff, partially opened carried item, finger paused at the edge of a notebook or planner, sleeve cuff or part of the arm, partially opened carried item (e.g., notebook, planner), 手指在笔记本或纸张边缘暂停的动作, 袖口或部分手臂, 部分打开的随身物品（如笔记本、计划本）",
+      "context": "ordinary weekend pause space, quiet public or indoor edge, soft overcast light, routine afternoon_pause, A temporary stationery and notebook display is set near the quiet bookstore aisle entrance., Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday.",
+      "characterPresence": "clear_character_presence, the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+      "identityLock": "same recurring girl character, middle-school age impression, soft anime face shape, small red hairclip when naturally visible, keep the same recurring girl-character identity even in action-led daily-life framing, preserve the same youthful face and age impression when the face is partially or fully visible, do not drift toward an older-looking or masculine-coded redesign, when the protagonist is more clearly visible, keep the same face shape, age impression, and red-hairclip identity cue stable",
+      "composition": "moment-led framing rooted in the same lived action of pausing while tidying, 让构图跟随同一个生活瞬间，保持动作和空间的连贯性。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "一个真实的生活切片，在流逝中被捕捉。",
+      "renderStyle": "clean anime linework, balanced local color separation, controlled contrast, clear clothing seam readability",
+      "renderGuardrails": "adjust rendering craft only, do not change character identity, age impression, clothing design, props, actions, setting, story event, or camera framing, do not add new objects, remove required evidence, or rewrite the selected moment",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "角色在整理时因计划本而短暂停顿的日常瞬间。",
+    "needsFaceReview": false,
+    "needsIdentityReview": true,
+    "dryRunDefault": true
+  },
+  "reviewSignals": {
+    "characterPresenceTarget": "clear_character_presence",
+    "activeExternalEventIds": [
+      "bookstore_weekend_stationery_display"
+    ],
+    "unresolvedIdentityReference": true,
+    "strongerIdentityLock": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

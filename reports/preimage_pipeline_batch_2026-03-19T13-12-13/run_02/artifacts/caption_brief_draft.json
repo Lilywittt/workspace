@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:14:07.999Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-13-50",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a Chinese Instagram caption that captures a quiet, private moment of finding and arranging colored paperclips into a small pattern after studying. Convey gentle satisfaction and a light chunibyo sense of creating a secret sign from ordinary objects, using sensory details and daily-life texture to make the scene feel intimate and real.",
+  "audienceFeeling": "A soft, contemplative smile",
+  "openingMoves": [
+    "Start with a simple observation about the desk or the found object",
+    "Mention the action of sorting or arranging with gentle focus",
+    "Hint at a private meaning without over-explaining"
+  ],
+  "mustInclude": [
+    "The micro-plot: finding paperclips, sorting by color, arranging a pattern",
+    "Sensory detail: faint metallic click, cool smooth desk",
+    "Daily variable: light rain, 10.4°C in Shanghai",
+    "One ordinary object with secret weight: paperclips as a tiny constellation",
+    "Character trace: small red hairclip visible"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Overly poetic or theatrical chunibyo",
+    "Lore exposition or world-building",
+    "Recapping full diary or plot beats"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: treat the paperclip pattern as a faintly meaningful sign",
+    "Gentle, private ritual energy",
+    "Mostly short sentences with one longer breath",
+    "Soft sentence endings, like a light exhale or gentle trailing tone",
+    "Non-commercial, contemplative daily-life texture"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#桌面仪式 (desk ritual)",
+    "#上海日常 (Shanghai daily life)",
+    "#轻中二日常 (light chunibyo daily life)",
+    "#文具小确幸 (stationery small happiness)"
+  ],
+  "summary": "A life-record caption about arranging found paperclips into a secret pattern, blending gentle chunibyo with intimate daily texture.",
+  "errorMessage": ""
+}

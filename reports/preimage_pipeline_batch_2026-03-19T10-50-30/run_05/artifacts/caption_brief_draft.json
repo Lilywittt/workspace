@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:56:30.866Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-56-12",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a gentle, cozy Chinese Instagram caption that shares a small moment of satisfaction from tidying a study desk after morning work, using light chunibyo voice and sensory details to make the ordinary feel quietly special, without sounding like a commercial or poetic diary entry.",
+  "audienceFeeling": "a warm, relatable contentment",
+  "openingMoves": [
+    "Start with a simple observation about the desk or pens",
+    "Mention the action of tidying as a small, personal ritual",
+    "Use a soft, reflective tone to invite the viewer into the moment"
+  ],
+  "mustInclude": [
+    "Reference to arranging pens by color or stacking notebooks",
+    "At least one sensory detail (e.g., rustle of paper, graphite scent, lamplight)",
+    "The small red hairclip as a character trace",
+    "A daily variable like the lukewarm tea or weather hint",
+    "The catchphrase 'Today should still feel bright and alive.' woven naturally"
+  ],
+  "mustAvoid": [
+    "Face-forward selfie descriptions or full-face focus",
+    "Overly poetic or commercial language",
+    "Inventing new plot beats beyond tidying",
+    "Pure environmental description without character traces",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "voiceNotes": [
+    "Light chunibyo: slightly whimsical, but grounded in daily life",
+    "Gentle and cozy, like sharing a quiet thought with a friend",
+    "Use casual, conversational Chinese fitting for Instagram",
+    "Hint at tsundere playfulness without being overtly sharp"
+  ],
+  "hashtagAngles": [
+    "#生活碎片 (life fragments)",
+    "#书桌整理 (desk tidying)",
+    "#治愈瞬间 (healing moment)",
+    "#上海日常 (Shanghai daily life)",
+    "#手帐女孩 (notebook girl)"
+  ],
+  "summary": "A quiet life-record caption about finding warm contentment in tidying a study desk, told with gentle chunibyo voice and sensory details.",
+  "errorMessage": ""
+}

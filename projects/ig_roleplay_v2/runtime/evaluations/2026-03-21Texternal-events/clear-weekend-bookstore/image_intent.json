@@ -1,0 +1,50 @@
+{
+  "imageMode": "trace_led_life_record",
+  "faceVisibility": "optional",
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresencePlanEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "framingZh": "构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。",
+  "framingEn": "moment-led framing rooted in the same lived action",
+  "mustShowZh": [
+    "手指停在planner边缘的瞬间",
+    "衣袖口",
+    "半开着的随身物件（如planner或笔记本）"
+  ],
+  "mustShowEn": [
+    "hand paused at the edge of a planner",
+    "sleeve cuff",
+    "partially open personal item (e.g., planner or notebook)"
+  ],
+  "mayShowZh": [
+    "安静的室内环境（如书店过道）",
+    "其他文具（如自动铅笔、收据角、压平的叶子）"
+  ],
+  "mayShowEn": [
+    "quiet indoor environment (e.g., bookstore aisle)",
+    "other stationery items (e.g., mechanical pencil, receipt corner, pressed leaf)"
+  ],
+  "mustAvoidZh": [
+    "通用美学壁纸",
+    "时尚大片感",
+    "旅游海报感",
+    "没有角色痕迹的空景",
+    "generic aesthetic wallpaper",
+    "tourism poster feeling",
+    "fashion editorial gloss",
+    "photoreal live-action look"
+  ],
+  "mustAvoidEn": [
+    "generic aesthetic wallpaper",
+    "fashion editorial polish",
+    "tourism poster feeling",
+    "empty scenery without character trace"
+  ],
+  "atmosphereZh": "像顺手留下的一段真实生活",
+  "altTextZh": "本来只是顺手整理一下，结果因为planner停住了半秒。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "image-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-15-51-clear_weekend_bookstore"
+}

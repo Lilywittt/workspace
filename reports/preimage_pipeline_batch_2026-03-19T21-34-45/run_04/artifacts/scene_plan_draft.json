@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:40:07.284Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, damp air of a late spring evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple tea sachet isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the drizzly night as a private promise of a gentle reset.",
+  "microPlot": [
+    "The evening feels cool and damp after a long day, creating a quiet need for a small, tangible comfort.",
+    "She chooses a single tea sachet from a small shop in a covered walkway, completing the tiny purchase with focused care.",
+    "Carrying the small paper bag back into the misty evening feels like holding a shy, private promise to her future self."
+  ],
+  "sensoryFocus": "the soft rustle of a paper bag, cool damp air on skin",
+  "sceneNotes": [
+    "Frame focuses on hands holding a small, plain paper bag, with the tea sachet just visible inside.",
+    "Light from the shop counter casts a warm, soft glow on skin and the bag, contrasting with the cool, grey mist of the walkway outside.",
+    "A faint trace of condensation on the walkway's glass or metal railing in the background."
+  ],
+  "tone": [
+    "shy_attachment"
+  ],
+  "captionFocus": [
+    "The immediate, tactile sensation of the purchase and carrying it home."
+  ],
+  "summary": "A small, intentional purchase of a tea sachet becomes a quiet ritual of self-care and a forward-looking promise on a cool, drizzly evening.",
+  "errorMessage": ""
+}

@@ -1,0 +1,180 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "她只是想把书包里的东西整理一下，却发现一张旧电影票的边角被雨滴打湿了，墨迹晕开了一点点。",
+      "hookWhyInterestingZh": "一个被遗忘的小物件，在雨天里显露出它正在消逝的痕迹。",
+      "causalChainZh": [
+        "放学后，在窗边整理书包。",
+        "手指碰到一张夹在笔记本里的旧票根。",
+        "发现票根一角被雨水浸湿，字迹变得模糊。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "weather_rain"
+        ],
+        "inferredDetailsZh": [
+          "雨天的湿度让纸张更容易留下痕迹。",
+          "放学后的安静时刻让这种细微变化被注意到。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是机械地收拾东西，思绪放空。",
+      "interiorShiftZh": "看着那团晕开的墨迹，心里轻轻‘啊’了一下，像是一个微小的告别。",
+      "whyTodayZh": "雨声让环境变得安静，触觉和视觉都变得更敏锐，容易捕捉到这种缓慢的变化。",
+      "whyShareableZh": "它记录了一个物品在时间中的微小损耗，真实且不刻意。",
+      "visualEvidenceZh": [
+        "一只拿着湿了一角的旧票根的手",
+        "窗玻璃上滑落的雨痕",
+        "摊开的书包和笔记本"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "雨天的质感让‘消逝’和‘痕迹’的感觉更具体，但没有直接谈论雨天。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "擦桌子时，发现昨天留在杯底的一圈水渍，形状意外地像一片叶子。",
+      "hookWhyInterestingZh": "一个无意义的残留物，在特定的光线下获得了短暂的‘形象’。",
+      "causalChainZh": [
+        "准备写作业前，习惯性地擦拭桌面。",
+        "抹布划过玻璃杯昨晚放置的位置。",
+        "水渍的轮廓在台灯下显得清晰，形状让她停顿。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "window_after_class",
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "放学后的个人空间，注意力容易落在熟悉的物品上。",
+          "室内光线在雨天傍晚更显集中。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "带着一点倦意，开始每日的清理动作。",
+      "interiorShiftZh": "那个无心的形状让她从例行公事中抽离了半秒，感到一种偶然的趣味。",
+      "whyTodayZh": "低能量状态下的感官反而对这类无目的的细节更开放。",
+      "whyShareableZh": "捕捉了日常中一次微小的、非人为的‘成像’瞬间。",
+      "visualEvidenceZh": [
+        "一只手用抹布停在桌面上",
+        "台灯光晕下清晰的水渍轮廓",
+        "桌面上散落的文具和玻璃杯"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "过渡时间的微妙停顿感，让这种偶然的发现更容易发生。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "想把发夹重新别好，指尖却摸到金属背面不知何时沾上的一点点橡皮屑。",
+      "hookWhyInterestingZh": "身体佩戴物上积累的、未被察觉的微小‘携带物’。",
+      "causalChainZh": [
+        "感到头发有些松散，下意识去调整发夹。",
+        "指尖在熟悉的金属触感中碰到一点异常的碎屑。",
+        "取下来看，是细小的、已经压扁的粉色橡皮屑。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "发夹是日常佩戴物，容易在活动中沾上环境里的碎屑。",
+          "触觉在安静时刻变得敏感。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "有点心不在焉，动作全凭习惯。",
+      "interiorShiftZh": "触感上的微小异物带来一瞬的困惑，随即转化为一种‘原来它一直在这里’的淡淡察觉。",
+      "whyTodayZh": "整体平缓的节奏让这种细微的触觉差异变得突出。",
+      "whyShareableZh": "非常私人和具体的身体感体验，连接了物品、身体和未被注意的时间。",
+      "visualEvidenceZh": [
+        "指尖捏着取下的红色发夹，特写背面的橡皮屑",
+        "另一只手轻轻拢着头发的动作",
+        "可能映出窗外雨光的镜子一角"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "‘角落变得安静’的氛围，让对自身佩戴物的感知更向内收。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "翻开一本很久没动的参考书，里面夹着的便签飘落，背面朝上，露出她自己都忘了什么时候画的一只简笔小猫。",
+      "hookWhyInterestingZh": "来自过去某个随手时刻的微小产出，在无意中被自己重新发现。",
+      "causalChainZh": [
+        "需要查一个知识点，从书架抽出这本旧书。",
+        "翻动时，一张黄色便签飘落。",
+        "捡起来，发现背面有自己画的幼稚涂鸦。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_school_transition_window"
+        ],
+        "inferredDetailsZh": [
+          "放学后可能涉及学习或资料查找。",
+          "旧物容易成为这种时间胶囊的载体。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "带着明确的学习目的翻开书，思绪是功能性的。",
+      "interiorShiftZh": "看到涂鸦的瞬间，目的性中断，被一种轻微的、面对过去自己的陌生感取代。",
+      "whyTodayZh": "‘过渡时间’的心理状态更容易接纳这种来自时间夹层的意外插曲。",
+      "whyShareableZh": "它关于记忆的偶然性，以及自我痕迹的无声存留。",
+      "visualEvidenceZh": [
+        "一只手捏着飘落的黄色便签",
+        "便签背面稚拙的简笔画",
+        "摊开的厚重参考书"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "空气里的‘微妙停顿’与发现过去痕迹的瞬间节奏吻合。"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

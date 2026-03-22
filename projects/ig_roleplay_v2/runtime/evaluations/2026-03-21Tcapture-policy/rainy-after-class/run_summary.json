@@ -1,0 +1,146 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T11:58:27.171Z",
+  "runId": "zeromemory-2026-03-21T11-54-25-rainy_after_class",
+  "mode": "zero_memory_agent",
+  "scenarioId": "rainy-after-class",
+  "dayContext": {
+    "isoDate": "2026-03-21",
+    "routineWindow": "after_class",
+    "weather": "light rain",
+    "currentContext": "school_transition_window"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "weather",
+      "trending_topics",
+      "anime_fandom",
+      "seasonal_culture",
+      "city_trivia"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [],
+    "worldStateNotes": []
+  },
+  "characterState": {
+    "mood": "quiet, but slightly caught by one specific detail",
+    "preferredLane": "life_record",
+    "whyPostToday": "One tiny beat briefly felt worth keeping."
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "captureIntent": {
+    "lane": "life_record",
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    }
+  },
+  "selectedMoment": {
+    "summaryZh": "她弯腰系松开的鞋带，系到一半发现其中一根鞋带的塑料头套裂开了一道小口子，里面的白色纤维微微露了出来。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "caption": {
+    "text": "弯腰系鞋带的时候，发现塑料头套裂开了一道小口子。",
+    "hashtags": [
+      "#日常碎片",
+      "#生活记录"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "captureSummaryEn": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [],
+      "captureSummaryEn": "observational camera relation, medium distance, half body coverage, glimpse face readability, balanced environment weight",
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T11-58-22-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/c6/20260321/448165f2/ff48ec58-154e-47a7-9b36-a86b056b77eb1120781320.png?Expires=1774700100&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=0ItlN6e53pBsJ8LEzPHyWX0uup8%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

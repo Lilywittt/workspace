@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:11:18.506Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, late-evening lull of a familiar bookstore, a small, forgotten paper clip becomes the focus of a gentle, forward-leaning ritual. The act of picking it up and returning it to its proper place isn't just tidying; it's a quiet, decisive gesture that closes a tiny loop in the day, turning a stray object into a small promise of order.",
+  "microPlot": [
+    "Finding a lone, bent paper clip on the floor of a bookstore aisle.",
+    "Carefully straightening it and placing it back into a small dish on a nearby shelf.",
+    "Feeling a quiet, private satisfaction, as if the day itself has been gently nudged back into alignment."
+  ],
+  "sensoryFocus": "the cool, smooth metal of the paper clip against warm fingertips",
+  "sceneNotes": [
+    "Focus on hands in frame, holding the small silver clip.",
+    "Soft, warm light from a nearby reading lamp, casting long shadows in the quiet aisle.",
+    "A small, ceramic dish on a lower shelf, half-full of other stationery odds and ends.",
+    "The faint, dusty scent of old paper in the still, cool air."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "A small, decisive action that feels like a private promise."
+  ],
+  "summary": "A quiet, late-evening moment in a bookstore where returning a stray paper clip becomes a gentle act of restoring order.",
+  "errorMessage": ""
+}

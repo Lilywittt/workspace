@@ -1,0 +1,4 @@
+interface:
+  display_name: "Caption Selection Reviewer"
+  short_description: "Review caption options and recommend the strongest one."
+  default_prompt: "Use $caption-selection-reviewer to review validated caption options and recommend the strongest one."

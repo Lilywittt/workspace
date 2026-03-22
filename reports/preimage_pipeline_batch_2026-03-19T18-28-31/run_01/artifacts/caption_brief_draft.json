@@ -1,0 +1,41 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:29:17.434Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-28-59",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to future self, capturing a quiet evening moment where a small red hairclip on a notebook briefly becomes a personal omen for tomorrow. Use short sentences with one longer breath, blending daily texture with light chunibyo intimacy.",
+  "audienceFeeling": "A soft, shared secret about finding meaning in small things.",
+  "openingMoves": [
+    "Start with a sensory observation about the fading light or room's quiet.",
+    "Mention a specific, ordinary object (the notebook, the hairclip).",
+    "Let the object briefly shift into a private symbol or wish."
+  ],
+  "mustInclude": [
+    "The red hairclip resting on the open notebook page.",
+    "The tactile feel of paper and the cool smoothness of the clip.",
+    "A quiet wish or thought for the coming morning.",
+    "At least one trace of the character's presence (e.g., a hand, sleeve, reflection)."
+  ],
+  "mustAvoid": [
+    "Explicitly calling the moment 'fate' or 'destiny'.",
+    "A fixed, slogan-like closing sentence.",
+    "Commercial or promotional language.",
+    "Expository lore or world-building."
+  ],
+  "voiceNotes": [
+    "Short sentences, one slightly longer for a breath.",
+    "Light chunibyo—private symbolism, not theatrical表演.",
+    "Gentle, trailing tone as if speaking softly to oneself.",
+    "Anchor in concrete detail before the slight symbolic turn."
+  ],
+  "hashtagAngles": [
+    "#上海日常",
+    "#书桌仪式感",
+    "#少女心发现",
+    "#生活碎片",
+    "#晚间独白"
+  ],
+  "summary": "A quiet evening scene where a red hairclip on a notebook becomes a tiny, personal omen for tomorrow, shared as a gentle, private Instagram note.",
+  "errorMessage": ""
+}

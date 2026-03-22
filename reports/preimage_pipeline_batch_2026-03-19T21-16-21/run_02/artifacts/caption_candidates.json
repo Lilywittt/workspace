@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:18:42.666Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-18-01",
+  "briefGoal": "Write a caption that captures the quiet, late-evening moment of finding and straightening a bent paper clip in a Shanghai bookstore. The text should feel like a private, gentle ritual, focusing on the small sensory details and the personal satisfaction of completing a tiny, forward-looking task, without making it sound like a commercial or overly poetic statement.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "微小修复",
+      "caption": "在书店角落捡到一枚弯掉的回形针。\n指尖慢慢把它扳直，金属的凉意和微小的阻力，像在完成一个只有自己知道的仪式。\n放回原处，今天的小小缺口，补上了。",
+      "hashtags": [
+        "#书店日常",
+        "#微小仪式",
+        "#春日夜晚",
+        "#安静整理",
+        "#上海小雨"
+      ],
+      "rationale": "聚焦于修复动作的私密感，将感官细节（金属凉意）与仪式感结合，结尾落在“补上缺口”的轻量满足上，符合return_or_repair_program。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨夜秩序",
+      "caption": "雨夜的书店，空气里有纸张和安静。\n发现地板上一枚歪掉的银色回形针，捡起来，轻轻捏回它该有的形状。\n把一件小东西归位，心好像也悄悄整理了一遍。",
+      "hashtags": [
+        "#雨夜书店",
+        "#归位时刻",
+        "#春日记录",
+        "#生活切片",
+        "#安静整理"
+      ],
+      "rationale": "以环境（雨夜书店）开场，带出动作，并将外部整理与内心感受（心悄悄整理）做轻量连接，体现gentle_order的情感着陆。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "秘密信号",
+      "caption": "一枚被遗忘的回形针，在指尖恢复了直线。\n这大概不算什么大事，但完成它的瞬间，听到心里“咔”一声轻响——今天可以关上了。\n窗外的雨还在下，但这里已经整齐了一点。",
+      "hashtags": [
+        "#秘密信号",
+        "#微小修复",
+        "#书店时光",
+        "#春日夜晚",
+        "#日常仪式"
+      ],
+      "rationale": "赋予普通物件（回形针）和声音（咔一声轻响）以私密的象征意义，符合“让普通事物带有秘密信号感”的要求，结尾与窗外雨景形成对比。"
+    }
+  ]
+}

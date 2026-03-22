@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/caption-brief.schema.json",
+  "title": "IG Roleplay Caption Brief",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "goal",
+    "writingDirectives",
+    "contentBlocks",
+    "avoidList",
+    "delivery"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "writingDirectives": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "contentBlocks": {
+      "type": "object"
+    },
+    "avoidList": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "delivery": {
+      "type": "object"
+    }
+  }
+}

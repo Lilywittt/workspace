@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:56:11.776Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "After a morning of studying, she quietly finishes organizing her desk, finding a small satisfaction in the neat order of her pens and notes.",
+  "microPlot": [
+    "Cause: The scattered pens and papers from studying feel messy and distracting.",
+    "Action: She carefully lines up each pen by color and stacks her notebooks into a tidy pile.",
+    "Feeling: A quiet, warm contentment settles in as the small chaos becomes a clean, personal order."
+  ],
+  "sensoryFocus": "soft rustle of paper, faint graphite scent, warm lamplight on wood grain",
+  "sceneNotes": [
+    "Hands in frame, one holding a red pen, the other arranging a small stack of notebooks",
+    "Desk surface visible with subtle wood grain and a worn, warm patina",
+    "Soft, diffuse light from a desk lamp casting gentle shadows, no harsh sunlight",
+    "A small red hairclip subtly visible at the edge of her hair, resting on her shoulder",
+    "A half-empty mug of lukewarm tea sits just out of focus, a faint wisp of steam gone"
+  ],
+  "tone": [
+    "cozy"
+  ],
+  "captionFocus": [
+    "A quiet moment of putting things in their right place"
+  ],
+  "summary": "A gentle, object-focused scene of tidying a study space, capturing a small, satisfying completion.",
+  "errorMessage": ""
+}

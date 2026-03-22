@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:55:34.199Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-54-55",
+  "briefGoal": "Write a caption that captures the quiet, reflective moment of stepping out into a rainy Shanghai afternoon to return a borrowed book, blending light chunibyo whimsy with the gentle texture of daily life to make a simple, responsible task feel like a small, meaningful reset.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "雨日仪式",
+      "caption": "把读完的书装进包里，撑伞走进细雨里。雨点敲在伞布上的声音，像给上午的专注画上一个柔软的句号。去还书的路上，空气湿漉漉的，心却清清爽爽。今天应该也明亮地活着。",
+      "hashtags": [
+        "#上海雨天",
+        "#还书日记",
+        "#轻中二日常",
+        "#生活记录",
+        "#日常碎片"
+      ],
+      "rationale": "以归还书籍这一具体动作为核心，构建从室内专注到户外宁静的过渡感，融入雨声的感官细节，并以角色口头禅收尾，符合微情节与氛围要求。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "片刻重置",
+      "caption": "在屋檐下停了一会儿，看雨珠在伞面上滚来滚去。然后走进雨里，去完成一件很小、很确定的事——把借来的故事还回去。潮湿的街道，图书馆的暖光，这一刻像呼吸之间的停顿。",
+      "hashtags": [
+        "#生活记录",
+        "#日常碎片",
+        "#轻中二日常",
+        "#雨天漫步",
+        "#片刻重置"
+      ],
+      "rationale": "聚焦“屋檐下的停顿”这一具体场景切片，强调“小确事”带来的心理重置感，通过视觉对比（湿冷街道与暖光）营造宁静的日常纹理。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "书与雨的契约",
+      "caption": "和一本陪伴过的书道别，最好的方式就是亲手送它回家。细雨是安静的背景音，脚步不匆忙。完成这个小小的约定，仿佛也为自己的节奏按下了一次轻柔的刷新键。",
+      "hashtags": [
+        "#还书日记",
+        "#生活记录",
+        "#轻中二日常",
+        "#雨天小事",
+        "#日常仪式"
+      ],
+      "rationale": "从“与书道别”的拟人化、略带中二感的视角切入，将还书构建为一种“契约”与“仪式”，突出行动带来的心理刷新感，避免直接描写情绪。"
+    }
+  ]
+}

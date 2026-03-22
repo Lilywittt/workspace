@@ -1,0 +1,55 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:13:18.880Z",
+  "mode": "weak_background_only",
+  "categories": [
+    "weather",
+    "seasonal_culture",
+    "trending_topics",
+    "city_trivia",
+    "anime_fandom"
+  ],
+  "items": [
+    {
+      "signalId": "weather_2026-03-23",
+      "category": "weather",
+      "text": "微凉的多云傍晚 around Shanghai.",
+      "sourceType": "signals",
+      "freshness": "current",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "seasonal_spring_03-23",
+      "category": "seasonal_culture",
+      "text": "Shanghai is currently in a spring seasonal transition.",
+      "sourceType": "calendar",
+      "freshness": "current",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "trend_1",
+      "category": "trending_topics",
+      "text": "关于“忙完回家后先做哪一个小动作才算真正切回自己的时间”有很多轻松讨论。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "city_1",
+      "category": "city_trivia",
+      "text": "最近有人在说，天气一转凉，家里的灯光和杯子边缘会突然变得很有存在感。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    },
+    {
+      "signalId": "anime_1",
+      "category": "anime_fandom",
+      "text": "新一集播出后，有人特别喜欢角色在厨房和房间角落之间那种生活感过渡。",
+      "sourceType": "scenario",
+      "freshness": "recent",
+      "directiveness": "low"
+    }
+  ],
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

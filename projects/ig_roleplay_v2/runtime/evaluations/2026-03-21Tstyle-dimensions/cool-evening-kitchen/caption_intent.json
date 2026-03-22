@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "Keep the small shift the moment caused.",
+  "whatToSayZh": "Name the concrete detail without unpacking the whole reason.",
+  "whatToLeaveUnsaidZh": "Leave the private meaning in the blank space.",
+  "openingMovesZh": [
+    "Start from one concrete detail."
+  ],
+  "hashtagAnglesZh": [
+    "daily fragment"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

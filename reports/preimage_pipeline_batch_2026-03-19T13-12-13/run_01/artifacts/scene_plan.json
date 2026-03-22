@@ -1,0 +1,126 @@
+{
+  "version": "2.0.0-alpha.1",
+  "runId": "sceneplan-2026-03-19T05-12-37",
+  "createdAt": "2026-03-19T05:12:37.720Z",
+  "lane": "life_record",
+  "laneReason": "Current selfie streak is 5, so the next run should switch to life_record",
+  "sourceSnapshot": {
+    "signalsPath": "/home/node/.openclaw/workspace/data/ig_roleplay/signals.json",
+    "postedPath": "/home/node/.openclaw/workspace/data/ig_roleplay/posted.jsonl",
+    "continuitySnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+    "continuityCreativeReviewPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_creative_review.json",
+    "scenePlanDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/scene_plan_draft.json",
+    "identityProfilePath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/character/identity_profile.json",
+    "referenceLibraryPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/vision/reference_library.json"
+  },
+  "freshness": {
+    "weatherSignal": "light rain, about 10.4C",
+    "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+    "locationName": "Shanghai",
+    "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+  },
+  "continuity": {
+    "recentPostCount": 5,
+    "recentStyles": [
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie",
+      "selfie"
+    ],
+    "catchphrase": "Today should still feel bright and alive."
+  },
+  "narrative": {
+    "premise": "After the long study session, the quiet of the room feels different—not empty, but holding a space for a small, private discovery. The focus shifts from the self to the immediate, lived-in world of the desk, where a forgotten object waits to be noticed with new eyes.",
+    "microPlot": [
+      "The last textbook is closed, leaving a sudden, soft silence in the room.",
+      "Fingers trace the worn edge of the desk, then pause over a small, forgotten hairclip tucked against a pencil cup.",
+      "A quiet, secret smile forms—a tiny omen that the day's effort was worth it, and a small ritual of putting things back in their place begins."
+    ],
+    "sensoryFocus": "the faint, woody scent of an old desk and the cool, smooth texture of a plastic hairclip"
+  },
+  "visual": {
+    "mode": "life_record",
+    "styleDirection": "japanese_anime_bishoujo_slice_of_life",
+    "presenceMode": "wide_scene_with_character_trace",
+    "identityAnchors": [],
+    "characterTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "allowedVariation": {
+      "sceneFocus": [
+        "weather_detail",
+        "city_corner",
+        "daily_object",
+        "small_surprise"
+      ]
+    },
+    "concreteSceneCues": [
+      "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it",
+      "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug",
+      "A stack of closed textbooks and a single, abandoned highlighter with its cap off",
+      "The red hairclip is the only bright color in the muted, warm tones of wood and paper",
+      "Soft, shallow depth of field blurs the background, focusing on the clip and the hand",
+      "The last textbook is closed, leaving a sudden, soft silence in the room"
+    ],
+    "sceneNotes": [
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene.",
+      "Let Shanghai arrive through believable local texture only when it naturally supports today's scene.",
+      "Compose a shot of hands, a desk item, or a cozy interior corner, not a face-forward selfie",
+      "Shift focus from self-portraits to the surrounding environment or objects",
+      "Introduce a subtle narrative of transition, like moving indoors or a change in activity",
+      "Wide shot of a cluttered but cozy desk corner, late afternoon light slanted across it.",
+      "The character's hand is visible, slender fingers resting near a small red hairclip half-hidden by a mug.",
+      "A stack of closed textbooks and a single, abandoned highlighter with its cap off.",
+      "The red hairclip is the only bright color in the muted, warm tones of wood and paper.",
+      "Soft, shallow depth of field blurs the background, focusing on the clip and the hand.",
+      "Observing the quiet weight of ordinary objects after focused work",
+      "A wider scene is allowed, but at least one character trace must still be visible and readable",
+      "Preferred trace cues: hand_with_phone_or_drink, sleeve_or_outfit_edge, hair_tip_or_red_hairclip, reflection_shadow_or_mirror_hint, soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics rather than photorealistic live action"
+    ]
+  },
+  "caption": {
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "reflective"
+    ],
+    "requiredElements": [
+      "micro_plot",
+      "sensory_detail",
+      "daily_variable"
+    ],
+    "limits": {
+      "minHashtags": 2,
+      "maxHashtags": 5,
+      "maxEmojis": 2,
+      "targetMaxChars": 180
+    }
+  },
+  "publish": {
+    "platform": "instagram",
+    "dryRunDefault": true
+  },
+  "creativeDirection": {
+    "continuitySoftPreference": "life_record",
+    "continuitySummary": "Maintain the intimate, reflective tone but pivot the camera's focus from self to setting for a fresh perspective.",
+    "draftSummary": "A quiet, wide-angle moment at the desk where a forgotten hairclip becomes a small, meaningful discovery after studying.",
+    "sourceStatus": {
+      "continuityCreativeReview": "creative_review_ready",
+      "scenePlanDraft": "scene_plan_draft_ready"
+    }
+  }
+}

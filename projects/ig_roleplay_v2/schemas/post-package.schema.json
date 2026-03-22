@@ -1,0 +1,182 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openclaw-dev.local/schemas/post-package.schema.json",
+  "title": "IG Roleplay Post Package",
+  "type": "object",
+  "required": [
+    "version",
+    "createdAt",
+    "scenePlanRunId",
+    "lane",
+    "caption",
+    "hashtags",
+    "fullCaptionText",
+    "captionSource",
+    "image",
+    "publish"
+  ],
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "createdAt": {
+      "type": "string"
+    },
+    "scenePlanRunId": {
+      "type": "string"
+    },
+    "lane": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "hashtags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "fullCaptionText": {
+      "type": "string"
+    },
+    "captionSource": {
+      "type": "object",
+      "required": [
+        "selectedCandidateId",
+        "selectionReason"
+      ],
+      "properties": {
+        "selectedCandidateId": {
+          "type": "string"
+        },
+        "selectionReason": {
+          "type": "string"
+        }
+      }
+    },
+    "image": {
+      "type": "object",
+      "required": [
+        "source",
+        "imageUrl",
+        "altText",
+        "note"
+      ],
+      "properties": {
+        "source": {
+          "type": "string",
+          "enum": [
+            "v2_generated_image",
+            "v2_generated_image_job",
+            "v2_image_request",
+            "legacy_selected_image"
+          ]
+        },
+        "provider": {
+          "type": "string"
+        },
+        "model": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "generationMode": {
+          "type": "string"
+        },
+        "requestStatus": {
+          "type": "string"
+        },
+        "remoteJobId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerRequestId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "providerEndpoint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "assetId": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "assetFilenameHint": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "referenceIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "aspectRatio": {
+          "type": "string"
+        },
+        "submissionMode": {
+          "type": "string"
+        },
+        "altText": {
+          "type": "string"
+        },
+        "imageUrl": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "publish": {
+      "type": "object",
+      "required": [
+        "platform",
+        "dryRunDefault",
+        "readiness",
+        "releaseStage",
+        "blockers",
+        "releaseChecklist"
+      ],
+      "properties": {
+        "platform": {
+          "type": "string"
+        },
+        "dryRunDefault": {
+          "type": "boolean"
+        },
+        "readiness": {
+          "type": "string"
+        },
+        "releaseStage": {
+          "type": "string"
+        },
+        "blockers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "releaseChecklist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

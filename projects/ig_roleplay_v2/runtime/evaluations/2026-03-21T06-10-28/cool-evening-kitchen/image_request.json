@@ -1,0 +1,51 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:16:07.650Z",
+  "scenePlanRunId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen",
+  "lane": "life_record",
+  "generationMode": "anime_close_crop_trace_lived_moment",
+  "references": [
+    {
+      "id": "rion_core_face_01",
+      "kind": "identity",
+      "source": "character_profile",
+      "weight": 1,
+      "why": "Keep the recurring character visually stable."
+    }
+  ],
+  "promptPackage": {
+    "positivePrompt": "Subject: anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction\nMoment: 手握着充电线和插头, 插座局部的阴影, 动作中途停顿的瞬间, hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket, texture and shadow of the wall socket area, the paused moment of adjustment, fingers slightly repositioning the plug, 手握着充电线和插头，插头正对着或微微偏离插座孔, 插座局部的阴影和纹理, 动作中途停顿的瞬间，手指的轻微调整\nContext: ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset\nComposition: close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible\nAtmosphere: 像顺手留下的一段真实生活\nConstraints: not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5",
+    "negativePrompt": "product close-up of the phone or plug, facial expression as the primary focus, pristine, decorative, or blank wall backgrounds, the action already completed with plug fully inserted, 手机或插头的特写产品展示, 面部表情作为焦点, 干净无瑕的墙面或装饰性背景, 动作已完成、插头已插好的状态, generic aesthetic wallpaper, tourism poster feeling, fashion editorial gloss, photoreal live-action look, fashion editorial polish, empty scenery without character trace",
+    "shotNotes": [
+      "手握着充电线和插头",
+      "插座局部的阴影",
+      "动作中途停顿的瞬间",
+      "hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket",
+      "texture and shadow of the wall socket area",
+      "the paused moment of adjustment, fingers slightly repositioning the plug"
+    ],
+    "promptBlocks": {
+      "subject": "anime slice-of-life illustration, action-led lived-moment framing, character presence readable through action, posture, clothing, nearby objects, or small trace cues, let framing scale follow the lived moment instead of a fixed crop template, life_record may be trace-led, face-visible, half-body, or fuller-body when the same moment supports it, prefer unposed action truth over portrait correction",
+      "moment": "手握着充电线和插头, 插座局部的阴影, 动作中途停顿的瞬间, hand holding a phone charger and plug, plug oriented towards or slightly misaligned with a wall socket, texture and shadow of the wall socket area, the paused moment of adjustment, fingers slightly repositioning the plug, 手握着充电线和插头，插头正对着或微微偏离插座孔, 插座局部的阴影和纹理, 动作中途停顿的瞬间，手指的轻微调整",
+      "context": "ordinary home interior during evening reset, nearby everyday objects, soft overcast light, routine evening_reset",
+      "composition": "close-up framing focused on the hand and plug, showing the moment of alignment or slight misalignment before connection, 构图跟着这个瞬间走，让同一个瞬间里的动作和现场先成立。, moment-first composition, the lived action stays primary even if more of the body is visible",
+      "atmosphere": "像顺手留下的一段真实生活",
+      "constraints": "not photorealistic, not a poster, not an ad, moment-led scene, not a posed portrait setup, instagram vertical 4:5"
+    }
+  },
+  "renderPlan": {
+    "aspectRatio": "4:5",
+    "candidateCount": 1,
+    "seedStrategy": "single_moment_truth",
+    "consistencyPolicy": "trace_led_character_consistency"
+  },
+  "publishHints": {
+    "platform": "instagram",
+    "recommendedCrop": "4:5",
+    "altText": "璃音给手机充电，插头对准插孔的瞬间。",
+    "needsFaceReview": false,
+    "dryRunDefault": true
+  },
+  "status": "generation_request_ready",
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

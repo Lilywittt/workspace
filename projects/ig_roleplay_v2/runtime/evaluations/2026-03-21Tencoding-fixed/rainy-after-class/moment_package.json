@@ -1,0 +1,90 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:44:35.136Z",
+  "sourceCandidateId": "event_03",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "走廊里，她的鞋带松了。系好站起来时，正好看见对面班级门上的玻璃窗，映出自己身后空荡走廊的一小段，被雨水打湿的窗框分割成几块。",
+    "hookWhyInterestingZh": "一次短暂的身体失衡和恢复，恰好对准了一个不寻常的、包含自身的反射视角。",
+    "causalChainZh": [
+      "走过走廊，鞋带松脱。",
+      "停下，弯腰系鞋带。",
+      "起身的瞬间，视线高度与对面门上的玻璃窗齐平。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "window_after_class",
+        "weather_rain"
+      ],
+      "inferredDetailsZh": [
+        "放学后走廊人渐少。",
+        "雨天让玻璃的反光更明显。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "雨天的光线和空旷感影响了视觉体验。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "想着走路要小心，别踩到水。",
+    "after": "在玻璃的倒影里，自己成了身后空旷场景的一个静默注脚。",
+    "whyPostToday": "雨声让一个普通的角落突然有了重量，想悄悄记下。",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "school_transition_window",
+    "routineWindow": "after_class",
+    "weather": "light rain",
+    "minimalBounds": [
+      "context_school_transition_window",
+      "window_after_class",
+      "weather_rain",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "结合了身体动作（系鞋带）和意外的视觉构图（反射景象），有很强的场景感。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "系鞋带的弯腰动作",
+      "玻璃窗上倒映的走廊和她模糊的轮廓",
+      "潮湿的窗框将画面分割"
+    ],
+    "mayShow": [
+      "covered walkway is a plausible nearby anchor in this context.",
+      "station edge is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T10-42-21-rainy_after_class"
+}

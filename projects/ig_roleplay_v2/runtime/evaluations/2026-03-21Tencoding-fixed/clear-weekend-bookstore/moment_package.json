@@ -1,0 +1,97 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:37:35.760Z",
+  "sourceCandidateId": "event_01_paper_pause",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "She was only tidying up for a second, then paused because of planner.",
+    "hookWhyInterestingZh": "It is tiny, but it feels like the sort of fragment a real day would leave behind.",
+    "causalChainZh": [
+      "She was only moving through an ordinary routine.",
+      "One specific detail briefly pulled her attention sideways.",
+      "The feeling did not grow into drama; it just settled for a moment."
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "context_weekend_pause_window",
+        "window_afternoon_pause",
+        "weather_clear",
+        "identity_stability"
+      ],
+      "inferredDetailsZh": [
+        "The detail was minor in itself, but today it happened to register."
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "午后阳光穿过书店的玻璃，在书脊上投下一条清晰的光带。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "She was only trying to move through the moment normally.",
+    "after": "A tiny detail made her pause internally for half a beat.",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "weekend_pause_window",
+    "routineWindow": "afternoon_pause",
+    "weather": "clear to lightly cloudy",
+    "minimalBounds": [
+      "context_weekend_pause_window",
+      "window_afternoon_pause",
+      "weather_clear",
+      "identity_stability",
+      "external_bookstore_weekend_stationery_display"
+    ],
+    "activeExternalEventIds": [
+      "bookstore_weekend_stationery_display"
+    ],
+    "externalEventFacts": [
+      "A temporary stationery and notebook display is set near the quiet bookstore aisle entrance.",
+      "Weekend browsing traffic is slightly denser around the entrance shelves than on an ordinary weekday."
+    ]
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "It is concrete and quiet at the same time, so it can become a believable post.",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "finger paused at an edge",
+      "sleeve cuff",
+      "partially opened carried item"
+    ],
+    "mayShow": [
+      "quiet bookstore aisle is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context.",
+      "pressed leaf is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T10-34-34-clear_weekend_bookstore"
+}

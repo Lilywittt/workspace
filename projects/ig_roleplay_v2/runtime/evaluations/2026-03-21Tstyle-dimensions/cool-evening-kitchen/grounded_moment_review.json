@@ -1,0 +1,88 @@
+{
+  "recommendedCandidateId": "event_03",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 84,
+      "characterPresenceFitScore": 70,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "具体的物理触发（杯沿的凉意）。",
+        "情感转变由清晰的触觉细节引起。",
+        "文案和图像可以来自同一上游事实。"
+      ],
+      "risksZh": [
+        "在‘清晰角色存在’的目标下，侧身站立的‘部分存在’模式可能显得视觉权重不足。",
+        "需要调整构图来加强角色可读性，可能偏离原本的瞬间。"
+      ],
+      "verdict": "viable"
+    },
+    {
+      "candidateId": "event_02",
+      "personaTruthScore": 88,
+      "groundingScore": 85,
+      "postabilityScore": 83,
+      "coherenceScore": 86,
+      "characterPresenceFitScore": 75,
+      "sourceMirroringRiskScore": 12,
+      "strengthsZh": [
+        "捕捉了日常使用中非刻意的物理痕迹。",
+        "细节具体且顽固（发夹卡住）。",
+        "很好地利用了身份锚点（红色发夹）。"
+      ],
+      "risksZh": [
+        "俯身、头发垂下的姿势在‘清晰角色存在’目标下，可能使面部可读性不足。",
+        "视觉焦点可能过于集中在手部痕迹，需要调整以平衡角色存在感。"
+      ],
+      "verdict": "viable"
+    },
+    {
+      "candidateId": "event_03",
+      "personaTruthScore": 87,
+      "groundingScore": 88,
+      "postabilityScore": 85,
+      "coherenceScore": 87,
+      "characterPresenceFitScore": 90,
+      "sourceMirroringRiskScore": 10,
+      "strengthsZh": [
+        "物理细节（体温消雾）直接导致了情感转变。",
+        "瞬间本身支持从手部痕迹到角色侧脸/身体的清晰构图。",
+        "在不破坏原事件的前提下，能自然满足‘清晰角色存在’的目标。",
+        "环境（玻璃、暮色）与角色动作紧密结合。"
+      ],
+      "risksZh": [
+        "需要确保‘查看天色’的意图不被环境信号（凉意）扭曲为直接指令。"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_04",
+      "personaTruthScore": 80,
+      "groundingScore": 78,
+      "postabilityScore": 75,
+      "coherenceScore": 79,
+      "characterPresenceFitScore": 65,
+      "sourceMirroringRiskScore": 20,
+      "strengthsZh": [
+        "呈现了物品真实的使用后状态，而非理想化收纳。",
+        "情感联系具体（看到上一次的匆忙）。"
+      ],
+      "risksZh": [
+        "蹲下/弯腰的姿势在‘清晰角色存在’目标下，可能使角色在画面中过于次要或难以辨认。",
+        "充电线和插座作为视觉元素，可能过于普通，缺乏独特的纹理。",
+        "存在滑向通用‘日常生活片段’的风险。"
+      ],
+      "verdict": "viable"
+    }
+  ],
+  "summaryZh": "已完成对角色真实性、事实基础、可发布性、图文一致性及角色存在感契合度的评审。推荐 event_03，因其物理触发清晰，情感转变具体，且原事件能自然支持‘清晰角色存在’的构图目标，无需强行修正。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-37-24-cool_evening_kitchen"
+}

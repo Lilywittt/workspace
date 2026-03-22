@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:50:16.720Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_02",
+  "sceneProgramId": "rediscovery_program",
+  "requestedPresenceMode": "wide_scene_with_character_trace",
+  "narrativePremise": "In the cool, drizzly early evening, a quiet pause at a familiar desk corner becomes a moment of private rediscovery. A dried petal, tucked away and forgotten, is found again—not just a piece of paper, but a tiny, tangible whisper from an earlier self, briefly holding the day's scattered energy in its fragile shape.",
+  "microPlot": [
+    "While tidying the desk corner, a small, dried petal falls from between the pages of a notebook.",
+    "She picks it up, unfolds its delicate form in her palm, and holds it to the soft, grey window light.",
+    "For a moment, the petal feels like a quiet, secret omen—a tiny, keepable trace of a past spring, carried forward into the present evening."
+  ],
+  "sensoryFocus": "the papery rustle of a dried petal",
+  "sceneNotes": [
+    "Desk corner cluttered with soft shadows and a single notebook.",
+    "Grey, diffuse window light catching the petal's delicate veins.",
+    "Hands cradling the petal gently, as if holding a small secret."
+  ],
+  "tone": [
+    "quietly_omen-like"
+  ],
+  "captionFocus": [
+    "A small, found object briefly becoming a private, meaningful anchor."
+  ],
+  "summary": "A dried petal, rediscovered at a desk corner, becomes a tiny, private omen that holds a quiet moment of connection between past and present.",
+  "errorMessage": ""
+}

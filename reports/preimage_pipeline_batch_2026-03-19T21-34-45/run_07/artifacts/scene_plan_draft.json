@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:44:07.724Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_07",
+  "sceneProgramId": "return_or_repair_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the quiet, lamplit aisle of a small bookstore, a simple mechanical pencil left askew on a shelf becomes a tiny, forward-looking task. The act of picking it up and carefully placing it back in its proper cup isn't just tidying; it's a quiet, private ritual of restoring a small, gentle order to the world.",
+  "microPlot": [
+    "Noticing a lone mechanical pencil lying forgotten on a bookshelf.",
+    "Picking it up, testing its lead with a soft click, and returning it to the communal cup by the register.",
+    "Feeling the quiet satisfaction of closing a tiny, invisible loop in the day."
+  ],
+  "sensoryFocus": "the soft click of the pencil's mechanism",
+  "sceneNotes": [
+    "Hands in frame, gently holding the silver pencil against the warm wood of a bookshelf.",
+    "Soft, yellow lamplight casting long shadows down the quiet aisle.",
+    "A hint of the rainy street outside, blurred and reflected in the dark store window.",
+    "The pencil's eraser is slightly worn, a small trace of shared, anonymous use."
+  ],
+  "tone": [
+    "gentle_order"
+  ],
+  "captionFocus": [
+    "The quiet affection in putting a small thing back where it belongs."
+  ],
+  "summary": "A late-evening bookstore errand turns into a moment of gentle, private order, as a forgotten pencil is quietly returned to its place.",
+  "errorMessage": ""
+}

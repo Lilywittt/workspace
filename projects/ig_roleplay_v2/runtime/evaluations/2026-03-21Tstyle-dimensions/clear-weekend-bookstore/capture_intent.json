@@ -1,0 +1,63 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:33:05.648Z",
+  "lane": "life_record",
+  "sourceMode": "persona_lane_default",
+  "personaLaneDefault": {
+    "cameraRelation": "observational",
+    "faceReadability": "glimpse",
+    "bodyCoverage": "partial",
+    "distance": "medium",
+    "environmentWeight": "balanced"
+  },
+  "scenarioOverride": {},
+  "allowances": {
+    "cameraRelation": [
+      "observational",
+      "companion_like",
+      "ambiguous",
+      "self_held",
+      "mirror_mediated"
+    ],
+    "faceReadability": [
+      "not_required",
+      "glimpse",
+      "readable"
+    ],
+    "bodyCoverage": [
+      "hand_only",
+      "partial",
+      "half",
+      "three_quarter",
+      "full"
+    ],
+    "distance": [
+      "macro",
+      "close",
+      "medium",
+      "wide"
+    ],
+    "environmentWeight": [
+      "low",
+      "balanced",
+      "high"
+    ]
+  },
+  "resolvedTarget": {
+    "cameraRelation": "observational",
+    "faceReadability": "glimpse",
+    "bodyCoverage": "partial",
+    "distance": "medium",
+    "environmentWeight": "balanced"
+  },
+  "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+  "guidanceEn": [
+    "the frame should feel witnessed from the outside, not automatically self-held",
+    "a brief or partial face glimpse is enough; do not force portrait dominance",
+    "partial body coverage is enough when it keeps the moment concrete",
+    "medium distance is a stable everyday framing for ordinary daily-life moments",
+    "balance the protagonist and environment so they support the same lived beat together"
+  ],
+  "notesEn": [],
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

@@ -1,0 +1,46 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "触觉细节",
+      "caption": "指尖碰到杯沿那圈水痕，凉凉的。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "从最具体的触觉切入，短促直接。"
+    },
+    {
+      "id": "caption_02",
+      "angle": "动作停顿",
+      "caption": "放回杯子时，因为一圈水痕停了一下。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "描述动作的微小中断，聚焦“停”的瞬间。"
+    },
+    {
+      "id": "caption_03",
+      "angle": "视觉发现",
+      "caption": "傍晚的光里，杯沿那圈水痕突然变得很显眼。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "结合光线环境，强调细节的“显眼”，稍长的句子带出氛围。"
+    },
+    {
+      "id": "caption_04",
+      "angle": "私人时刻",
+      "caption": "只是看着那圈水痕，没有立刻擦掉。",
+      "hashtags": [
+        "#日常碎片"
+      ],
+      "rationale": "聚焦“看着”这个静默动作，暗示一种私人的、非功利的凝视。"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen"
+}

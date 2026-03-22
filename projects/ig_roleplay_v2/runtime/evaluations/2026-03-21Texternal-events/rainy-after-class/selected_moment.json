@@ -1,0 +1,73 @@
+{
+  "candidateId": "event_01",
+  "lane": "life_record",
+  "eventSummaryZh": "把书包侧袋里揉成一团的纸巾拿出来时，发现它被雨水洇湿的边缘刚好晕开了一小片模糊的蓝色，像是钢笔漏墨，又像是天空掉下来的一角。",
+  "hookWhyInterestingZh": "一个本该被直接扔掉的废品，因为雨水的偶然参与，变成了一小块可以被注视的、安静的意外。",
+  "causalChainZh": [
+    "放学后，在空荡的走廊里整理书包侧袋。",
+    "手指碰到一团湿软的旧纸巾，下意识想拿出来丢掉。",
+    "展开时，发现被雨水洇湿的边缘晕染开一小片不规则的淡蓝色痕迹。",
+    "动作停住了，盯着那团模糊的蓝色看了几秒。"
+  ],
+  "factSupport": {
+    "provisionalBoundIds": [
+      "window_after_class",
+      "weather_rain"
+    ],
+    "inferredDetailsZh": [
+      "纸巾可能是早上或更早之前塞进去的。",
+      "雨水通过书包的缝隙或敞开的拉链渗入，造成了这次洇染。",
+      "蓝色来源不明，可能是蹭到了什么，但此刻不重要了。"
+    ]
+  },
+  "placeRef": "",
+  "objectRefs": [],
+  "routineRef": "",
+  "presenceMode": "partial_presence",
+  "interiorStateBeforeZh": "只是机械地清理杂物，让书包轻一点，心思是放空的。",
+  "interiorShiftZh": "那片偶然的、安静的蓝色，让原本要被丢弃的瞬间，有了一点可以被记住的质地。",
+  "whyTodayZh": "雨天的湿气和放学后的安静，让这种对微小意外的察觉变得可能。",
+  "whyShareableZh": "它具体、安静，没有结论，只是一次被雨改变的注视。",
+  "visualEvidenceZh": [
+    "捏着湿纸巾的指尖",
+    "纸巾上晕开的淡蓝色水痕",
+    "走廊窗边昏暗的天光映在侧脸上"
+  ],
+  "ambientInfluence": {
+    "used": true,
+    "resonanceOnlyZh": [
+      "雨声提供了背景的细密感",
+      "走廊的空荡让这个停顿不被干扰"
+    ],
+    "mustNotBeReadAsDirectCause": true
+  },
+  "imageMode": "trace_led_life_record",
+  "captionVoice": "soft_private_observation",
+  "selectedAt": "2026-03-21T10:25:20.770Z",
+  "review": {
+    "candidateId": "event_01",
+    "personaTruthScore": 85,
+    "groundingScore": 80,
+    "postabilityScore": 82,
+    "coherenceScore": 84,
+    "characterPresenceFitScore": 85,
+    "sourceMirroringRiskScore": 15,
+    "strengthsZh": [
+      "物理触发明确（湿纸巾的蓝色晕染）",
+      "细节顽固而普通（废品、洇湿边缘）",
+      "图文同源性强（指尖、水痕、侧脸光）",
+      "能支持清晰角色存在而不破坏事件"
+    ],
+    "risksZh": [
+      "蓝色来源需保持模糊，避免过度解释",
+      "需确保画面焦点在事件，而非单纯肖像"
+    ],
+    "verdict": "recommended"
+  },
+  "heuristicPenalty": 0,
+  "characterPresenceTarget": "clear_character_presence",
+  "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+  "selectionMode": "meets_thresholds",
+  "selectionReasonZh": "这个瞬间同时满足角色真实感、现实贴合度、可发布性和图文同源性。",
+  "runId": "zeromemory-2026-03-21T10-24-02-rainy_after_class"
+}

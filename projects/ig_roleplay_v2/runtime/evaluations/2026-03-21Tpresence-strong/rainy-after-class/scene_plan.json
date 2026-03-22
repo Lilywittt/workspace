@@ -1,0 +1,51 @@
+{
+  "version": "3.0.0-alpha.1",
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class",
+  "createdAt": "2026-03-21T09:19:33.723Z",
+  "lane": "life_record",
+  "freshness": {
+    "weatherSignal": "小雨",
+    "locationName": "Shanghai",
+    "routineWindow": "after_class"
+  },
+  "narrative": {
+    "premise": "收拾书包时，手指碰到夹层里一张被压得平平整整的、去年的电影票根。",
+    "microPlot": [
+      "手伸进书包夹层找东西。",
+      "指尖触感不是要找的，而是一张光滑的纸片。",
+      "抽出来看，动作比思考快。"
+    ],
+    "sensoryFocus": "像顺手留下的一段真实生活",
+    "emotionalLanding": "触觉先于视觉识别了那个物件，带来一个短暂的、纯粹的物理停顿。"
+  },
+  "visual": {
+    "mode": "trace_led_life_record",
+    "presenceMode": "partial_presence",
+    "characterPresenceTarget": "clear_character_presence",
+    "concreteSceneCues": [
+      "半抽出的手和票根一角",
+      "书包的局部和人物侧影",
+      "指尖与纸片接触的特写"
+    ],
+    "sceneNotes": [
+      "context: school_transition_window",
+      "weather: 小雨",
+      "character_presence: the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary"
+    ],
+    "characterTraceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ]
+  },
+  "sceneSemantics": {
+    "runtimeMode": "living_character_zero_memory",
+    "supportBoundIds": [
+      "window_after_class"
+    ],
+    "supportObjectRefs": [],
+    "supportPlaceRef": "",
+    "supportRoutineRef": ""
+  }
+}

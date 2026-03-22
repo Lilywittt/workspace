@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:44:59.816Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-44-07",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_02",
+  "reason": "Candidate 02 best balances the required private ritual energy and light chunibyo tone with a fresh, publishable voice. It frames the simple act of returning a pencil as a 'secret signal,' which fits the character's tendency to read small omens and aligns with the 'repair as quiet affection' hook. The language is intimate and slightly dramatic without being theatrical, and it avoids the more common sensory-heavy or weather-focused endings of the other options, offering better novelty against recent semantic history.",
+  "strengths": [
+    "Persona fit: 'light chunibyo' tone with 'private ritual energy' is clear and natural.",
+    "Freshness: '暗号' (secret signal) concept is a novel, character-appropriate twist on the return action.",
+    "Publishability: Short, conversational lines with a clear micro-plot and a satisfying, intimate closure.",
+    "Continuity: Uses 'texture_modifier' weather subtly without letting it dominate the scene."
+  ],
+  "risks": [
+    "Slightly less sensory detail than candidate 03, though the '清脆的‘咔’' still delivers the required focus.",
+    "The '暗号' metaphor could feel slightly forced if not read in the character's gentle, playful voice."
+  ],
+  "errorMessage": ""
+}

@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:39:51.656Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly early evening, a small errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing a simple mug of cocoa isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the day as a private promise of a gentle reset.",
+  "microPlot": [
+    "A long day of studying leaves a quiet, low-energy need for a small reset.",
+    "She steps out into the light rain, not for a walk, but to make a tiny, intentional purchase at a small kiosk under a covered walkway.",
+    "Carrying the warm mug back, she feels a shy attachment to this small, chosen comfort—a private rescue mission for the evening."
+  ],
+  "sensoryFocus": "the soft warmth of the paper cup through thin gloves",
+  "sceneNotes": [
+    "Frame focuses on hands holding the paper cup, with the covered walkway's sheltering roof and soft, diffuse evening light in the background.",
+    "A small shopping bag rests at her feet, slightly blurred, containing just this one item.",
+    "Her sleeve is pushed back just enough to show a familiar small red hairclip against her wrist.",
+    "The light rain creates a gentle, misty texture in the air beyond the shelter, but the immediate space is dry and contained."
+  ],
+  "tone": [
+    "shyly intentional"
+  ],
+  "captionFocus": [
+    "A small, chosen comfort carried back like a secret."
+  ],
+  "summary": "A micro-purchase of cocoa becomes a shy, forward-looking ritual of self-care in the shelter of a rainy evening walkway.",
+  "errorMessage": ""
+}

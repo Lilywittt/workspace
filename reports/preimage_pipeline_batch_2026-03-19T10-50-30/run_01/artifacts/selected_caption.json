@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:51.026Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This candidate best fulfills the life_record lane's pivot from selfies by fully immersing in the sensory and intimate scene. It directly incorporates the required sensory detail ('撕下背胶时那一声细微的“嘶啦”') and daily variable ('雨后的夜晚'), weaves a complete micro-plot from cause to feeling, and naturally integrates the catchphrase. Its tone is gentle, focused, and diary-like, avoiding commercial language while maintaining a light chunibyo sensibility through its quiet observation.",
+  "caption": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+  "hashtags": [
+    "#生活记录",
+    "#手帐贴纸",
+    "#雨夜",
+    "#治愈时刻",
+    "#日常动漫风"
+  ],
+  "candidateAngle": "感官沉浸",
+  "candidateRationale": "从听觉与触觉的感官细节切入，营造安静专注的氛围，并以角色口头禅自然收尾，符合日记般的私密感与轻中二基调。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This candidate best fulfills the life_record lane's pivot from selfies by fully immersing in the sensory and intimate scene. It directly incorporates the required sensory detail ('撕下背胶时那一声细微的“嘶啦”') and daily variable ('雨后的夜晚'), weaves a complete micro-plot from cause to feeling, and naturally integrates the catchphrase. Its tone is gentle, focused, and diary-like, avoiding commercial language while maintaining a light chunibyo sensibility through its quiet observation.",
+    "strengths": [
+      "Strong sensory immersion aligns perfectly with the brief's focus",
+      "Naturally integrates the required catchphrase as a closing thought",
+      "Provides a complete, quiet micro-plot from setting to action to reflection",
+      "Uses fresh, lane-appropriate hashtags that avoid recent overuse"
+    ],
+    "risks": [
+      "Opening line about quiet rain could feel slightly similar to recent '窗外的小雨' posts, though the context is distinct",
+      "Slightly less overtly playful than other options, leaning more into gentle focus"
+    ]
+  }
+}

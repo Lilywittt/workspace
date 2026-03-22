@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:44:25.278Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-44-07",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to oneself, capturing the quiet ritual of finding a misplaced mechanical pencil in a lamplit bookstore aisle, testing its click, and returning it. The text should convey a gentle, forward-looking satisfaction from restoring a small order, using short sentences with one longer breath, and letting the ordinary object briefly hold secret weight.",
+  "audienceFeeling": "a soft, intimate recognition of small, meaningful acts",
+  "openingMoves": [
+    "Start with a simple observation of the object or the moment",
+    "Use a sensory detail like the sound or the light",
+    "Frame it as a small, personal task discovered"
+  ],
+  "mustInclude": [
+    "The soft click of the pencil mechanism",
+    "The act of picking it up and returning it to the cup",
+    "The warm lamplight and rainy Shanghai evening texture",
+    "A hint of the pencil's worn eraser as a trace of shared use",
+    "The feeling of closing a tiny, invisible loop"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "Grand, theatrical declarations of fate",
+    "A fixed, slogan-like ending",
+    "Explicit self-encouragement phrases",
+    "Lore exposition or world-building"
+  ],
+  "voiceNotes": [
+    "Short sentences with one occasional longer, breath-like phrase",
+    "Soft, trailing endings or gentle self-address",
+    "Light chunibyo tone—intimate, not performative",
+    "Focus on micro-plot, sensory detail, and daily variables",
+    "Let the pencil feel faintly symbolic, like a small omen or private ritual"
+  ],
+  "hashtagAngles": [
+    "#上海书店 #小雨夜",
+    "#日常的微小仪式",
+    "#机械铅笔的轻响",
+    "#温柔秩序",
+    "#月见璃音的随手记"
+  ],
+  "summary": "A gentle, late-evening caption about restoring a misplaced pencil in a rainy Shanghai bookstore, treating the small act as a private ritual that brings quiet satisfaction.",
+  "errorMessage": ""
+}

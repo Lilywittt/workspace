@@ -1,0 +1,139 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T15:44:29.661Z",
+  "sourceCandidateId": "event_03",
+  "lane": "life_record",
+  "livedEvent": {
+    "summaryZh": "想把发夹重新别好，指尖却摸到金属背面不知何时沾上的一点点橡皮屑。",
+    "hookWhyInterestingZh": "身体佩戴物上积累的、未被察觉的微小‘携带物’。",
+    "causalChainZh": [
+      "感到头发有些松散，下意识去调整发夹。",
+      "指尖在熟悉的金属触感中碰到一点异常的碎屑。",
+      "取下来看，是细小的、已经压扁的粉色橡皮屑。"
+    ],
+    "factSupport": {
+      "provisionalBoundIds": [
+        "identity_stability"
+      ],
+      "inferredDetailsZh": [
+        "发夹是日常佩戴物，容易在活动中沾上环境里的碎屑。",
+        "触觉在安静时刻变得敏感。"
+      ]
+    },
+    "ambientInfluence": {
+      "used": true,
+      "resonanceOnlyZh": [
+        "‘角落变得安静’的氛围，让对自身佩戴物的感知更向内收。"
+      ],
+      "mustNotBeReadAsDirectCause": true
+    }
+  },
+  "characterInterior": {
+    "before": "有点心不在焉，动作全凭习惯。",
+    "after": "触感上的微小异物带来一瞬的困惑，随即转化为一种‘原来它一直在这里’的淡淡察觉。",
+    "whyPostToday": "One tiny beat briefly felt worth keeping.",
+    "shareImpulse": "low_but_present"
+  },
+  "groundingContext": {
+    "city": "Shanghai",
+    "currentContext": "school_transition_window",
+    "routineWindow": "after_class",
+    "weather": "light rain",
+    "minimalBounds": [
+      "context_school_transition_window",
+      "window_after_class",
+      "weather_rain",
+      "identity_stability"
+    ],
+    "activeExternalEventIds": [],
+    "externalEventFacts": []
+  },
+  "postIntent": {
+    "preferredLane": "life_record",
+    "disclosureStyle": "implied_not_explained",
+    "captionVoice": "soft_private_observation",
+    "imageMode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "characterPresenceGuidanceEn": "the protagonist should be clearly readable in the frame through face, posture, or fuller-body action while the lived event stays primary",
+    "characterPresenceSourceMode": "scenario_override",
+    "whyShareableZh": "非常私人和具体的身体感体验，连接了物品、身体和未被注意的时间。",
+    "ambientUsePolicy": "ambient_can_color_but_not_direct"
+  },
+  "captureIntent": {
+    "sourceMode": "persona_lane_default",
+    "summaryEn": "observational camera relation, medium distance, partial body coverage, glimpse face readability, balanced environment weight",
+    "resolvedTarget": {
+      "cameraRelation": "observational",
+      "faceReadability": "glimpse",
+      "bodyCoverage": "partial",
+      "distance": "medium",
+      "environmentWeight": "balanced"
+    },
+    "allowances": {
+      "cameraRelation": [
+        "observational",
+        "companion_like",
+        "ambiguous",
+        "self_held",
+        "mirror_mediated"
+      ],
+      "faceReadability": [
+        "not_required",
+        "glimpse",
+        "readable"
+      ],
+      "bodyCoverage": [
+        "hand_only",
+        "partial",
+        "half",
+        "three_quarter",
+        "full"
+      ],
+      "distance": [
+        "macro",
+        "close",
+        "medium",
+        "wide"
+      ],
+      "environmentWeight": [
+        "low",
+        "balanced",
+        "high"
+      ]
+    },
+    "guidanceEn": [
+      "the frame should feel witnessed from the outside, not automatically self-held",
+      "a brief or partial face glimpse is enough; do not force portrait dominance",
+      "partial body coverage is enough when it keeps the moment concrete",
+      "medium distance is a stable everyday framing for ordinary daily-life moments",
+      "balance the protagonist and environment so they support the same lived beat together"
+    ]
+  },
+  "visualEvidence": {
+    "mustShow": [
+      "指尖捏着取下的红色发夹，特写背面的橡皮屑",
+      "另一只手轻轻拢着头发的动作",
+      "可能映出窗外雨光的镜子一角"
+    ],
+    "mayShow": [
+      "covered walkway is a plausible nearby anchor in this context.",
+      "station edge is a plausible nearby anchor in this context.",
+      "planner is a plausible object anchor in this context.",
+      "mechanical pencil is a plausible object anchor in this context.",
+      "receipt corner is a plausible object anchor in this context."
+    ],
+    "traceCues": [
+      "hand_with_object",
+      "sleeve_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_or_shadow_hint"
+    ],
+    "mustAvoid": [
+      "generic aesthetic wallpaper",
+      "fashion editorial polish",
+      "tourism poster feeling",
+      "empty scenery without character trace"
+    ]
+  },
+  "runId": "zeromemory-2026-03-21T15-41-51-rainy_after_class"
+}

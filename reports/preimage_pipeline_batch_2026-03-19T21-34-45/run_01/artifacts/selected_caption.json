@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:36:17.115Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T13-35-18",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=115. review=Candidate 01 most cleanly executes the scene's core action with a strong sensory focus, delivering the required micro-plot and daily texture while feeling like a private, publishable note. It avoids the slightly abstract or generalized tone of the others by grounding the ritual in the concrete sound and feel of the paper, which aligns perfectly with the 'repair as quiet affection' hook and the character's detail-seeking temperament.",
+  "caption": "在书店的过道里，捡起一张掉落的便利贴。指尖抚平它卷起的边角，再轻轻放回架子上的小盒。纸张干燥的沙沙声，像给这个潮湿的夜晚打了个小小的结。",
+  "hashtags": [
+    "#书店碎片",
+    "#细小仪式感",
+    "#上海日常",
+    "#轻微中二病"
+  ],
+  "candidateAngle": "私密仪式",
+  "candidateRationale": "聚焦于触觉细节（纸张的沙沙声）和“打结”的隐喻，将微小动作转化为私密仪式，呼应‘repair as quiet affection’的钩子。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "Candidate 01 most cleanly executes the scene's core action with a strong sensory focus, delivering the required micro-plot and daily texture while feeling like a private, publishable note. It avoids the slightly abstract or generalized tone of the others by grounding the ritual in the concrete sound and feel of the paper, which aligns perfectly with the 'repair as quiet affection' hook and the character's detail-seeking temperament.",
+    "strengths": [
+      "Strong sensory detail ('纸张干燥的沙沙声') directly from the brief",
+      "Clear, concise micro-plot: find, smooth, return",
+      "Light chunibyo touch ('打了个小小的结') feels natural and private",
+      "Excellent scene fit for bookstore aisle and sticky note object",
+      "Avoids overused hashtags like #上海日常 from recent history"
+    ],
+    "risks": [
+      "The metaphor ('打了个小小的结') is slightly common, but its gentleness fits the tone",
+      "Ending is soft but could be perceived as a minor closure cliché; however, it's a fresh action for this continuity"
+    ]
+  }
+}

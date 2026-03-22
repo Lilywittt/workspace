@@ -1,0 +1,27 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:32:23.888Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from passive rediscovery to a small, forward-looking action",
+    "Use weather as active texture, not just reflective support"
+  ],
+  "avoidMotifs": [
+    "Finding forgotten accessories on desk"
+  ],
+  "narrativeNudges": [
+    "Frame a tiny errand as a quiet promise to tomorrow"
+  ],
+  "captionAdvice": [
+    "Use a slightly more active, present-tense observation"
+  ],
+  "imageAdvice": [
+    "Focus on a small action in hand, not a wide scene"
+  ],
+  "summary": "Propose a gentle, forward-leaning micro-action to refresh the quiet, rediscovery-heavy pattern.",
+  "errorMessage": ""
+}

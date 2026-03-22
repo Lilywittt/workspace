@@ -1,0 +1,64 @@
+{
+  "recommendedCandidateId": "event_01_paper_pause",
+  "candidateReviews": [
+    {
+      "candidateId": "event_01_paper_pause",
+      "personaTruthScore": 85,
+      "groundingScore": 80,
+      "postabilityScore": 82,
+      "coherenceScore": 83,
+      "characterPresenceFitScore": 85,
+      "sourceMirroringRiskScore": 15,
+      "strengthsZh": [
+        "有具体的物理触发（手指停在planner边缘）",
+        "可以做成图文同源",
+        "能支持clear_character_presence而不破坏事件"
+      ],
+      "risksZh": [
+        "如果细节不够新，可能掉回常见盆地"
+      ],
+      "verdict": "recommended"
+    },
+    {
+      "candidateId": "event_02_small_adjustment",
+      "personaTruthScore": 78,
+      "groundingScore": 75,
+      "postabilityScore": 76,
+      "coherenceScore": 77,
+      "characterPresenceFitScore": 78,
+      "sourceMirroringRiskScore": 22,
+      "strengthsZh": [
+        "有物理触发（刚被碰过的小物件）"
+      ],
+      "risksZh": [
+        "事件描述较模糊，可能沦为装饰",
+        "视觉证据不够具体，可能削弱图文同源性"
+      ],
+      "verdict": "not_recommended"
+    },
+    {
+      "candidateId": "event_03_carryover",
+      "personaTruthScore": 76,
+      "groundingScore": 74,
+      "postabilityScore": 75,
+      "coherenceScore": 76,
+      "characterPresenceFitScore": 77,
+      "sourceMirroringRiskScore": 25,
+      "strengthsZh": [
+        "有物理触发（手边的物件）"
+      ],
+      "risksZh": [
+        "事件描述重复且模糊，可能被强事实压力拖入重复盆地",
+        "视觉证据不够具体，可能削弱图文同源性"
+      ],
+      "verdict": "not_recommended"
+    }
+  ],
+  "summaryZh": "完成角色真实性、现实贴合度、外界信号过拟合风险和图文同源性审查。",
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-critic-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-13-36-cool_evening_kitchen"
+}

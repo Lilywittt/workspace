@@ -1,0 +1,276 @@
+{
+  "runIndex": 10,
+  "scenePlanRunId": "sceneplan-2026-03-19T03-02-31",
+  "statuses": {
+    "continuityCreativeReview": "creative_review_ready",
+    "scenePlanDraft": "scene_plan_draft_ready",
+    "captionBriefDraft": "caption_brief_draft_ready",
+    "captionCandidatesAi": "caption_candidates_ai_ready",
+    "captionSelectionReview": "caption_selection_review_ready",
+    "creativeValidation": "creative_intelligence_ready"
+  },
+  "continuity": {
+    "preferredLane": "life_record",
+    "reason": "Current selfie streak is 5, so the next run should switch to life_record",
+    "recentOpeningCount": 4,
+    "frequentHashtags": [
+      "#上海",
+      "#日常",
+      "#自拍",
+      "#小确幸",
+      "#雨天"
+    ]
+  },
+  "creativeReview": {
+    "freshnessTargets": [
+      "Shift focus from self-portrait to environment or activity",
+      "Introduce a new indoor or cozy evening setting"
+    ],
+    "avoidMotifs": [
+      "Repeating '窗外' or rain-related openings",
+      "Overusing #上海, #日常, #自拍, #小确幸 hashtags"
+    ],
+    "captionAdvice": [
+      "Use a different opening phrase, perhaps about a sound or a feeling of accomplishment",
+      "Mention a specific, new detail in the scene"
+    ],
+    "imageAdvice": [
+      "Frame a wider shot showing more of the room or a specific activity setup",
+      "Use warmer, artificial lighting if it's evening"
+    ],
+    "summary": "Switch to life_record lane with a focus on environmental details and a fresh narrative hook to maintain continuity while avoiding repetition."
+  },
+  "scenePlanDraft": {
+    "requestedPresenceMode": "wide_scene_with_character_trace",
+    "narrativePremise": "After a day of studying, the character has just finished organizing her desk, creating a small, tidy corner that feels like a personal victory against the lingering drizzle outside.",
+    "microPlot": [
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered.",
+      "She carefully stacks the books, aligns her pens in a mug, and places a small, newly finished origami crane beside the lamp.",
+      "A quiet sense of order and calm settles in, making the cozy, lamplit room feel like a perfect little world."
+    ],
+    "sceneNotes": [
+      "Desk corner with a warm, vintage-style desk lamp as the main light source.",
+      "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately.",
+      "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light.",
+      "A red hairclip resting on the edge of an open notebook.",
+      "Framing is slightly wide to show the organized space and the character's hand adjusting the crane."
+    ],
+    "captionFocus": [
+      "The quiet satisfaction of tidying a small space after work."
+    ]
+  },
+  "scenePlan": {
+    "lane": "life_record",
+    "presenceMode": "wide_scene_with_character_trace",
+    "premise": "After a day of studying, the character has just finished organizing her desk, creating a small, tidy corner that feels like a personal victory against the lingering drizzle outside.",
+    "microPlot": [
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered.",
+      "She carefully stacks the books, aligns her pens in a mug, and places a small, newly finished origami crane beside the lamp.",
+      "A quiet sense of order and calm settles in, making the cozy, lamplit room feel like a perfect little world."
+    ],
+    "sensoryFocus": "warm lamplight on wood grain",
+    "concreteSceneCues": [
+      "Desk corner with a warm, vintage-style desk lamp as the main light source",
+      "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately",
+      "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light",
+      "A red hairclip resting on the edge of an open notebook",
+      "Framing is slightly wide to show the organized space and the character's hand adjusting the crane",
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered"
+    ],
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "cozy_accomplishment"
+    ]
+  },
+  "captionBrief": {
+    "goal": "Write a Chinese Instagram caption that shares a quiet, personal victory of tidying a desk corner after studying, using warm lamplight and the evening rain as sensory anchors to create a cozy, intimate slice-of-life moment that feels bright and alive.",
+    "audienceFeeling": "cozy, intimate satisfaction",
+    "writingDirectives": [
+      "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+      "Do not sound commercial, promotional, or self-descriptive as an AI.",
+      "Use one small micro-plot: cause -> action -> feeling.",
+      "Include at least one concrete sensory detail.",
+      "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+      "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+      "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+      "Light chunibyo: slightly dramatic but gentle"
+    ],
+    "avoidList": [
+      "commercial tone",
+      "marketing language",
+      "AI self-reference",
+      "flat diary summary",
+      "repeating a recent opening line",
+      "Overly poetic or abstract language"
+    ]
+  },
+  "captionCandidatesAi": [
+    {
+      "id": "ai_cand_01",
+      "angle": "秩序与光",
+      "opening": "把散落的书和笔记一一归位，最后放上折好的纸鹤。",
+      "caption": "把散落的书和笔记一一归位，最后放上折好的纸鹤。\n台灯的光落在木纹上，暖烘烘的。窗外的雨声很轻，屋里却是一个刚刚整理好的、安静的小世界。\n今天也应该明亮而鲜活地度过呀。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈系",
+        "#二次元日常",
+        "#雨天"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨夜角落",
+      "opening": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。",
+      "caption": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\n笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。\n嗯，今天也是明亮的一天。",
+      "hashtags": [
+        "#上海夜晚",
+        "#生活记录",
+        "#书桌整理",
+        "#治愈时刻",
+        "#日常美学"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "无声的完成式",
+      "opening": "整理书桌像完成一个无声的仪式。",
+      "caption": "整理书桌像完成一个无声的仪式。\n当最后一本书靠墙立好，灯光便温柔地填满了所有空隙。雨在玻璃上划出细痕，而屋里只有纸张的摩擦声和一种圆满的静。\n这样的一刻，让今天显得明亮而鲜活。",
+      "hashtags": [
+        "#日常仪式感",
+        "#学习角落",
+        "#温暖时光",
+        "#生活切片",
+        "#安静时刻"
+      ]
+    }
+  ],
+  "captionCandidatesValidated": [
+    {
+      "id": "ai_cand_01",
+      "angle": "秩序与光",
+      "opening": "把散落的书和笔记一一归位，最后放上折好的纸鹤。",
+      "caption": "把散落的书和笔记一一归位，最后放上折好的纸鹤。\n台灯的光落在木纹上，暖烘烘的。窗外的雨声很轻，屋里却是一个刚刚整理好的、安静的小世界。\n今天也应该明亮而鲜活地度过呀。",
+      "hashtags": [
+        "#生活碎片",
+        "#书桌日常",
+        "#治愈系",
+        "#二次元日常",
+        "#雨天"
+      ]
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "雨夜角落",
+      "opening": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。",
+      "caption": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\n笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。\n嗯，今天也是明亮的一天。",
+      "hashtags": [
+        "#上海夜晚",
+        "#生活记录",
+        "#书桌整理",
+        "#治愈时刻",
+        "#日常美学"
+      ]
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "无声的完成式",
+      "opening": "整理书桌像完成一个无声的仪式。",
+      "caption": "整理书桌像完成一个无声的仪式。\n当最后一本书靠墙立好，灯光便温柔地填满了所有空隙。雨在玻璃上划出细痕，而屋里只有纸张的摩擦声和一种圆满的静。\n这样的一刻，让今天显得明亮而鲜活。",
+      "hashtags": [
+        "#日常仪式感",
+        "#学习角落",
+        "#温暖时光",
+        "#生活切片",
+        "#安静时刻"
+      ]
+    }
+  ],
+  "selectionReview": {
+    "selectedCandidateId": "ai_cand_02",
+    "reason": "Candidate 02 best balances the required life_record lane shift with a fresh narrative hook, weaving multiple concrete scene objects (mug, crane, hairclip) and the weather variable into a cohesive micro-plot that feels intimate and gently dramatic, directly supporting the 'bright and alive' continuity while avoiding recent opening patterns.",
+    "strengths": [
+      "Strong life_record pivot with rich environmental detail",
+      "Integrates multiple specific objects from the visual cues",
+      "Clear cause-action-feeling micro-plot structure",
+      "Natural, non-repetitive incorporation of the catchphrase"
+    ],
+    "risks": [
+      "Slightly more abstract '对抗倦怠' opening may feel less immediate",
+      "Hashtag #上海夜晚 is a minor continuity repetition"
+    ]
+  },
+  "selectedCaption": {
+    "selectedCandidateId": "ai_cand_02",
+    "candidateAngle": "雨夜角落",
+    "caption": "结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\n笔插进马克杯，纸鹤停在灯下，红色的发夹是未完待续的标记。雨点模糊了窗外的夜色，而这一角被灯光烘得干燥又安心。\n嗯，今天也是明亮的一天。",
+    "hashtags": [
+      "#上海夜晚",
+      "#生活记录",
+      "#书桌整理",
+      "#治愈时刻",
+      "#日常美学"
+    ],
+    "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=Candidate 02 best balances the required life_record lane shift with a fresh narrative hook, weaving multiple concrete scene objects (mug, crane, hairclip) and the weather variable into a cohesive micro-plot that feels intimate and gently dramatic, directly supporting the 'bright and alive' continuity while avoiding recent opening patterns."
+  },
+  "imageBrief": {
+    "briefGoal": "Generate an Instagram-ready Japanese-anime slice-of-life image that still carries clear character presence while supporting the selected caption.",
+    "faceVisibility": "optional_with_character_trace",
+    "presenceMode": "wide_scene_with_character_trace",
+    "requiredTraceCues": [
+      "hand_with_phone_or_drink",
+      "sleeve_or_outfit_edge",
+      "hair_tip_or_red_hairclip",
+      "reflection_shadow_or_mirror_hint",
+      "soft_anime_face",
+      "youthful_presence",
+      "small_red_hairclip",
+      "清瘦脸颊",
+      "平胸"
+    ],
+    "visualDirectives": [
+      "Follow the scene plan first; the image must look like it belongs to today, not like a generic mood board.",
+      "Bind the image to the selected caption opening: \"结束了一天的学习，对抗倦怠的方式是创造一小块整齐。\"",
+      "Preserve the character temperament: light_chunibyo, gentle, occasionally_tsundere, sensitive_to_daily_details, playful",
+      "Preserve the signature traits when visible: soft_anime_face, youthful_presence, small_red_hairclip, 清瘦脸颊, 平胸",
+      "Carry at least one sensory cue from the plan: warm lamplight on wood grain",
+      "Use Japanese anime / bishoujo slice-of-life aesthetics, not photorealistic live-action photography.",
+      "Prefer scene-led composition driven by today's concrete action, object, and environmental clue rather than a stock backdrop.",
+      "Make these scene cues legible in the frame: Desk corner with a warm, vintage-style desk lamp as the main light source | Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately | Window in the background, dark with evening rain, reflecting a soft blur of the indoor light | A red hairclip resting on the edge of an open notebook | Framing is slightly wide to show the organized space and the character's hand adjusting the crane | The scattered notes and textbooks from the morning's review session left the desk feeling cluttered"
+    ]
+  },
+  "imageRequest": {
+    "generationMode": "anime_wide_scene_character_trace",
+    "scene": "Scene: light rain, rain-muted room tone, soft rainy daylight, cool damp air, slightly chilly, Desk corner with a warm, vintage-style desk lamp as the main light source, Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately, Window in the background, dark with evening rain, reflecting a soft blur of the indoor light, A red hairclip resting on the edge of an open notebook, Framing is slightly wide to show the organized space and the character's hand adjusting the crane, The scattered notes and textbooks from the morning's review session left the desk feeling cluttered, everyday life in Shanghai",
+    "camera": "Camera: wide scene with readable character trace",
+    "mood": "Mood: slightly chunibyo, gentle, lived-in daily texture, non-commercial, cozy_accomplishment, warm lamplight on wood grain",
+    "shotNotes": [
+      "Desk corner with a warm, vintage-style desk lamp as the main light source",
+      "Textbooks neatly stacked, a mug holding pens, and a single origami crane placed deliberately",
+      "Window in the background, dark with evening rain, reflecting a soft blur of the indoor light",
+      "A red hairclip resting on the edge of an open notebook",
+      "Framing is slightly wide to show the organized space and the character's hand adjusting the crane",
+      "The scattered notes and textbooks from the morning's review session left the desk feeling cluttered",
+      "Prefer environment-led framing shaped by today's concrete action, found object, or discovery, not a stock backdrop.",
+      "Keep character presence readable through traces, posture, or interaction with the scene."
+    ],
+    "referenceIds": [
+      "legacy_daily_style_001"
+    ]
+  },
+  "validation": {
+    "status": "creative_intelligence_ready",
+    "passedChecks": 70,
+    "warningCount": 0,
+    "errorCount": 0
+  },
+  "_signatures": {
+    "premise": "46d8938c6f4c",
+    "selectedCaption": "e3a85e119214",
+    "imageScene": "1ea0e8b1ebc6",
+    "candidateAngles": "34188f0f88ca"
+  }
+}

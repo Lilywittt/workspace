@@ -1,0 +1,29 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:37:03.061Z",
+  "source": "skill",
+  "status": "scene_plan_draft_ready",
+  "selectedSceneCandidateId": "scene_cand_06",
+  "sceneProgramId": "micro_purchase_program",
+  "requestedPresenceMode": "partial_presence",
+  "narrativePremise": "In the cool, drizzly late evening, a short errand to a covered walkway becomes a quiet, forward-looking ritual. Choosing and paying for a simple warm cup sleeve isn't just a purchase; it's a tiny, shy act of self-care, carrying a small comfort back into the damp night as a private promise of a gentle reset.",
+  "microPlot": [
+    "The cool evening and a need for a small reset prompt a short walk to a sheltered vendor.",
+    "She carefully chooses a warm cup sleeve, completes the tiny purchase, and tucks it into her bag.",
+    "Carrying the small comfort back into the drizzle feels like holding a quiet, forward-looking secret."
+  ],
+  "sensoryFocus": "the faint crinkle of paper and the cool, damp air under the covered walkway",
+  "sceneNotes": [
+    "Focus on the hands: one holding the small paper bag, the other brushing a stray hair damp from the mist.",
+    "The vendor's counter light casts a warm, isolated pool on the wet pavement.",
+    "A small, star-shaped hairclip is just visible, a familiar anchor in the soft focus."
+  ],
+  "tone": [
+    "shyly intentional"
+  ],
+  "captionFocus": [
+    "A small purchase as a private rescue, carrying a tiny comfort back with her."
+  ],
+  "summary": "A late-evening micro-purchase of a warm cup sleeve becomes a gentle, forward-looking ritual under the drizzly shelter of a covered walkway.",
+  "errorMessage": ""
+}

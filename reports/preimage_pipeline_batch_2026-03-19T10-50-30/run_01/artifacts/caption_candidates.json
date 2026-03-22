@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:51:39.950Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-50-58",
+  "briefGoal": "Create a caption that captures a cozy, intimate evening moment of sorting stickers after light rain, conveying a gentle, playful satisfaction through sensory details and the small joy of organizing beautiful things, while maintaining a light chunibyo tone and diary-like intimacy.",
+  "source": "skill",
+  "sourceStatus": "caption_candidates_ai_ready",
+  "candidates": [
+    {
+      "id": "ai_cand_01",
+      "angle": "感官沉浸",
+      "caption": "雨后的夜晚，连空气都变得安静。在台灯的光晕里，慢慢整理着攒了很久的贴纸。撕下背胶时那一声细微的“嘶啦”，和纸张的触感，让时间都慢了下来。今天应该也明亮地活着吧。",
+      "hashtags": [
+        "#生活记录",
+        "#手帐贴纸",
+        "#雨夜",
+        "#治愈时刻",
+        "#日常动漫风"
+      ],
+      "rationale": "从听觉与触觉的感官细节切入，营造安静专注的氛围，并以角色口头禅自然收尾，符合日记般的私密感与轻中二基调。"
+    },
+    {
+      "id": "ai_cand_02",
+      "angle": "微小仪式",
+      "caption": "给潮湿的傍晚一点干燥的仪式感。把星星、云朵和花朵形状的回忆铺满桌面，再挑一颗最喜欢的小星星，轻轻按在笔记本的角落。完成这个动作的瞬间，心里好像也亮了一下。",
+      "hashtags": [
+        "#生活切片",
+        "#文具控",
+        "#晚间日常",
+        "#治愈系",
+        "#小仪式"
+      ],
+      "rationale": "以“仪式感”作为核心角度，描述从整理到粘贴的完整微情节，突出动作带来的微小满足感，避开被禁用的开头和标签。"
+    },
+    {
+      "id": "ai_cand_03",
+      "angle": "色彩与温度",
+      "caption": "台灯是今晚的小太阳。光晕暖暖地罩住这些彩色的碎片，每一张都是一个等待发生的故事。10.4度的雨夜，手边却是春天般的温度。今天，也收集到了一点光亮呢。",
+      "hashtags": [],
+      "rationale": "结合天气变量（10.4度）与感官焦点（光与温度），形成冷暖对比，用比喻和收尾句强化“收集光亮”的轻中二满足感，开场句独特。"
+    }
+  ]
+}

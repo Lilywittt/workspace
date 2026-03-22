@@ -1,0 +1,131 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T10:42:19.034Z",
+  "runId": "zeromemory-2026-03-21T10-38-29-cool_evening_kitchen",
+  "mode": "zero_memory_agent",
+  "scenarioId": "cool-evening-kitchen",
+  "dayContext": {
+    "isoDate": "2026-03-23",
+    "routineWindow": "evening_reset",
+    "weather": "cool cloudy evening",
+    "currentContext": "home_evening_reset"
+  },
+  "ambient": {
+    "poolSize": 5,
+    "packetSize": 5,
+    "categories": [
+      "weather",
+      "city_trivia",
+      "anime_fandom",
+      "seasonal_culture",
+      "trending_topics"
+    ]
+  },
+  "externalWorldState": {
+    "activeEventIds": [],
+    "worldStateNotes": []
+  },
+  "characterState": {
+    "mood": "quiet, but slightly caught by one specific detail",
+    "preferredLane": "life_record",
+    "whyPostToday": "One tiny beat briefly felt worth keeping."
+  },
+  "contentIntent": {
+    "lane": "life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "sourceMode": "scenario_override"
+  },
+  "selectedMoment": {
+    "summaryZh": "她只是把杯子放回架子上，却因为杯沿上残留的一圈水痕停了一下。",
+    "characterPresenceTarget": "clear_character_presence",
+    "selectionMode": "meets_thresholds",
+    "selectionReasonZh": "This candidate best satisfies persona truth, grounding, postability, and caption-image coherence together."
+  },
+  "caption": {
+    "text": "指尖碰到杯沿那圈水痕，凉凉的。",
+    "hashtags": [
+      "#日常碎片"
+    ]
+  },
+  "image": {
+    "mode": "trace_led_life_record",
+    "characterPresenceTarget": "clear_character_presence",
+    "styleProfileId": "default_neutral_anime_render",
+    "requestStatus": "generation_request_ready",
+    "generatedStatus": "image_ready",
+    "referencePlan": {
+      "identityReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "styleReferenceIds": [],
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ]
+    },
+    "reviewSignals": {
+      "characterPresenceTarget": "clear_character_presence",
+      "activeExternalEventIds": [],
+      "unresolvedIdentityReference": true,
+      "strongerIdentityLock": true
+    },
+    "referenceHandling": {
+      "requestedReferenceCount": 1,
+      "unresolvedReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "placeholderReferenceIds": [
+        "rion_core_face_01"
+      ],
+      "providerCapability": "text_prompt_only",
+      "hostTransport": "metadata_only",
+      "deliveryMode": "metadata_only"
+    },
+    "localFilePath": "F:\\openclaw-dev\\workspace\\projects\\ig_roleplay_v2\\runtime\\generated\\history\\2026-03-21T10-42-13-aliyun-z-image.png",
+    "imageUrl": "https://dashscope-result-bj.oss-cn-beijing.aliyuncs.com/7d/fe/20260321/448165f2/b46138c1-db54-40bb-8bf9-55f1bbbf707d256382216.png?Expires=1774695532&OSSAccessKeyId=LTAI5tPxpiCM2hjmWrFXrym1&Signature=26lhv7nTItF08fnk9RFJOSBJGQA%3D"
+  },
+  "release": {
+    "postReadiness": "ready_for_dry_run_or_publish",
+    "publishStatus": "dry_run_ready",
+    "blockers": []
+  },
+  "stageSources": {
+    "characterState": {
+      "mode": "llm",
+      "promptName": "character-state-agent",
+      "error": ""
+    },
+    "protoMomentGeneration": {
+      "mode": "llm",
+      "promptName": "moment-generator-agent",
+      "error": ""
+    },
+    "groundingReview": {
+      "mode": "llm",
+      "promptName": "moment-critic-agent",
+      "error": ""
+    },
+    "captionIntent": {
+      "mode": "llm",
+      "promptName": "caption-intent-agent",
+      "error": ""
+    },
+    "captionCandidates": {
+      "mode": "llm",
+      "promptName": "caption-writer-agent",
+      "error": ""
+    },
+    "captionReview": {
+      "mode": "llm",
+      "promptName": "caption-review-agent",
+      "error": ""
+    },
+    "imageIntent": {
+      "mode": "llm",
+      "promptName": "image-intent-agent",
+      "error": ""
+    }
+  }
+}

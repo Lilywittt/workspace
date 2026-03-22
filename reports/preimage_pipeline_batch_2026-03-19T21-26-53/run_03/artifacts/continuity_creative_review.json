@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T13:29:42.496Z",
+  "sceneWindow": 7,
+  "sourceSnapshotPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/continuity_snapshot.json",
+  "source": "skill",
+  "status": "creative_review_ready",
+  "laneSoftPreference": "life_record",
+  "freshnessTargets": [
+    "Shift from 'finding forgotten objects' to a small, forward-looking action",
+    "Use weather as active texture (drizzle on surfaces, cool air) rather than just reflective support"
+  ],
+  "avoidMotifs": [
+    "Repeating 'find_unfold_notice_again' action kernel",
+    "Another 'accessory' object family"
+  ],
+  "narrativeNudges": [
+    "Frame a tiny errand or preparation as a quiet promise to tomorrow"
+  ],
+  "captionAdvice": [
+    "Start with a sensory detail of the late-evening drizzle or cool air",
+    "End with a gentle, forward-looking thought, not a completion"
+  ],
+  "imageAdvice": [
+    "Focus on a small action in motion (e.g., hands adjusting, stepping out)",
+    "Use the cool, damp light of early spring evening"
+  ],
+  "summary": "After many quiet rediscoveries, suggest a small, forward-leaning action in the cool drizzle to gently refresh the narrative.",
+  "errorMessage": ""
+}

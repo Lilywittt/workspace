@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把杯子放回架子上时，发现杯沿有一小块没洗干净的茶渍，形状刚好像昨天随手画在纸上的一个圈。",
+      "hookWhyInterestingZh": "它足够小，但像一天里会被真实留下来的那一块。",
+      "causalChainZh": [
+        "原本只是继续往下做日常动作。",
+        "某个具体细节突然把注意力拉住。",
+        "心里的重量轻轻偏了一下。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "这个细节原本不重要，但今天被注意到了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "原本只想把这段时间顺过去。",
+      "interiorShiftZh": "结果因为一个很小的细节，心里轻轻停了一下。",
+      "whyTodayZh": "今天的节奏和空气让这种停顿刚好成立。",
+      "whyShareableZh": "它具体，也没有被讲满，适合发成一条小记录。",
+      "visualEvidenceZh": [
+        "手边的小物件",
+        "动作停住的一瞬间",
+        "人物存在的痕迹"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只是形成一点点今日气压"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "从包里拿出钥匙，发现钥匙圈上挂着的那个小挂件，表面的漆被磨掉了一小块，露出了底下银色的金属。",
+      "hookWhyInterestingZh": "磨损的痕迹突然变得很清晰，像时间自己留下了一个记号。",
+      "causalChainZh": [
+        "只是完成一个进门的动作。",
+        "触感和视觉上同时捕捉到一个变化。",
+        "动作和思绪都因此有了一个微小的顿点。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "挂件可能和身份锚点（如小发卡）有类似的日常陪伴属性。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "带着一种完成事务后的轻微放空。",
+      "interiorShiftZh": "一个熟悉的物件上陌生的细节，让回来的感觉变得具体了一点。",
+      "whyTodayZh": "微凉的傍晚让触觉和视觉都更敏锐一些。",
+      "whyShareableZh": "是关于“回来”的瞬间，但不说破，只呈现痕迹。",
+      "visualEvidenceZh": [
+        "钥匙和挂件的特写",
+        "手指触碰的瞬间",
+        "门锁附近的局部光线"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只形成气压，不形成命题"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "整理桌面时，一张便签纸被风吹得翻了个面，背面是上周写的一个词，但被水渍晕开了一半，认不出来了。",
+      "hookWhyInterestingZh": "一个未完成的意图，以意外的方式再次出现，然后消失得更彻底。",
+      "causalChainZh": [
+        "进行着无意识的整理。",
+        "一个偶然的物理变化（风）揭示了被遗忘的层面。",
+        "面对这个半消逝的痕迹，产生了一种平静的确认感。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "可能是窗边，有轻微的空气流动。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "处于一种机械性的、不投入思考的状态。",
+      "interiorShiftZh": "一个过去的碎片以残缺的形式回归，反而让此刻更清晰。",
+      "whyTodayZh": "多云天气下室内的光线和空气流动，共同构成了这个发现的场景。",
+      "whyShareableZh": "捕捉到了“遗忘”与“发现”之间那个微妙的、无意义的交点。",
+      "visualEvidenceZh": [
+        "桌面上摊开的纸张",
+        "被风吹起一角的便签",
+        "模糊的字迹和光影"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "被外界轻轻擦过的感觉"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "给手机充电，插头第三次才对准插孔插进去。前两次的金属摩擦声在安静的房间里显得特别清楚。",
+      "hookWhyInterestingZh": "一个微小的、重复的失败，最终成功时带来的不是成就感，而是一种对自身状态的觉察。",
+      "causalChainZh": [
+        "执行一个简单的、肌肉记忆般的动作。",
+        "动作意外地不顺畅，产生了额外的感官反馈（声音）。",
+        "注意力被拉回到身体和环境的当下连接上。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "傍晚的安静放大了细微的声音。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "心思在别处，动作只是自动导航。",
+      "interiorShiftZh": "几次笨拙的尝试，像一个小小的提醒，让人回到了“正在这里做这件事”的实感中。",
+      "whyTodayZh": "需要“留住一小块真实感”的潜在需求，在这种小小的磕绊里得到了意外的回应。",
+      "whyShareableZh": "它极其普通，却精确地描绘了注意力从涣散到短暂凝聚的那个临界点。",
+      "visualEvidenceZh": [
+        "手握着充电线和插头",
+        "插座局部的阴影",
+        "动作中途停顿的瞬间"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "只形成气压，不形成命题"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-13-18-cool_evening_kitchen"
+}

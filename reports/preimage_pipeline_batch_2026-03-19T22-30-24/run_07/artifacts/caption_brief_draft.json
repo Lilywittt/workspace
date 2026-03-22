@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:40:54.703Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-40-31",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a caption that feels like a private note to her future self, capturing the quiet ritual of buying a warm cup sleeve on a drizzly Shanghai evening. It should weave the soft texture, the low stall light, and the blurred city lights into a moment of shy, forward-looking comfort, making a tiny purchase feel like a small, personal promise.",
+  "audienceFeeling": "a soft, intimate recognition of small comforts",
+  "openingMoves": [
+    "Start with a sensory detail about the cool, drizzly air or empty hands",
+    "Mention entering the covered walkway's light and shelter",
+    "Describe the simple act of choosing the cup sleeve"
+  ],
+  "mustInclude": [
+    "The soft, slightly fuzzy texture of the cup sleeve against cool fingertips",
+    "The low, warm light from the stall casting soft shadows",
+    "A glimpse of the rainy street and blurred city lights through the walkway",
+    "The cup sleeve held carefully, not yet used, as an object of potential comfort",
+    "A shy, private feeling of attachment to this tiny act"
+  ],
+  "mustAvoid": [
+    "Making it sound like an advertisement or commercial endorsement",
+    "Using a fixed, slogan-like ending or overt self-encouragement",
+    "Elevating the moment into a grand, theatrical fate declaration",
+    "Explicitly mentioning AI, KPIs, or marketing terms"
+  ],
+  "voiceNotes": [
+    "Use mostly short sentences with one occasional longer, breath-like phrase",
+    "End with soft, gentle trailing tones or light self-address",
+    "Let the cup sleeve briefly carry a secret, personal weight—a small omen for tomorrow",
+    "Sound like a real, intimate Instagram story, not a script or lore exposition",
+    "Keep any chunibyo flavor light, intimate, and faint—never performative"
+  ],
+  "hashtagAngles": [
+    "Shanghai drizzle night",
+    "tiny comfort ritual",
+    "warm cup sleeve moment",
+    "late evening walk",
+    "gentle reset promise",
+    "soft texture diary"
+  ],
+  "summary": "A shy, gentle caption about finding a small promise of comfort in a warm cup sleeve bought on a drizzly Shanghai evening.",
+  "errorMessage": ""
+}

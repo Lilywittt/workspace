@@ -1,0 +1,89 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T10:30:30.213Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T10-30-13",
+  "goal": "Write a caption that turns the small act of tidying a study desk after morning work into a gentle, personal reset. Convey the quiet satisfaction of ordering physical space to clear mental clutter, using sensory details and a light chunibyo touch to make the mundane feel faintly meaningful, like a private ritual.",
+  "audienceFeeling": "A quiet, shared recognition of small comforts.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, faintly chunibyo, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Let one ordinary object, gesture, or sound feel quietly meaningful, like a private ritual, without turning the post into lore exposition.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "文案应该像她给自己或未来的自己留下一条私密动态：短句为主，偶尔有一口稍长的呼吸，允许轻微中二，但必须像真实人在发。",
+    "普通物件可以短暂带上一点私人的意义",
+    "更偏向细小动作、手感、光线、声音，而不是宏大抒情",
+    "像在给过去或未来的自己留一张小纸条",
+    "Use short sentences with one occasional longer, breath-like phrase.",
+    "End with a soft, trailing tone or gentle self-address.",
+    "Keep it intimate, like a note to herself or a future self.",
+    "Let the 'ordinary object with secret weight' be subtle (e.g., the hairclip or the star).",
+    "Start with a simple observation of the post-study clutter.",
+    "Mention the physical action of tidying with a specific detail.",
+    "Let the feeling of reset emerge naturally, not declared.",
+    "The faint scent of wood polish on a cloth.",
+    "The red hairclip resting on the neat desk.",
+    "The hand-drawn star on the textbook cover.",
+    "A sense that ordering the space also tidied a thought."
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, a small, deliberate act of tidying becomes a quiet ritual to clear the mind and reset the day's energy.",
+    "microPlot": [
+      "The scattered notes and empty mug from the morning's review session create a small, cluttered island on the desk.",
+      "She carefully aligns the edges of each notebook, wipes a faint cocoa ring from the wood, and places a single, stray pen back in its cup.",
+      "A small, focused satisfaction settles in, as if ordering the physical space has also tidied a corner of her thoughts."
+    ],
+    "sensoryFocus": "the faint, clean scent of wood polish on a cloth",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "private ritual energy",
+      "daily-life texture",
+      "non-commercial",
+      "contemplative"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A life_record caption about tidying a desk, where a simple task becomes a gentle reset, shared with light chunibyo intimacy.",
+    "hashtagAngles": [
+      "#生活碎片",
+      "#整理心情",
+      "#上海日常",
+      "#书桌日记",
+      "#小仪式感"
+    ],
+    "personaSummaryZh": "月见璃音像一个会把平凡日常短暂看成小暗号的少女。她敏感、克制、偶尔嘴硬，但不会夸张表演。"
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "不要固定口号式收尾",
+    "不要每条都落在自我鼓励句",
+    "不要把日常强行拔高成命运宣言",
+    "Explicit self-help or motivational slogans.",
+    "Overly poetic or world-building exposition.",
+    "Commercial or brand-like language.",
+    "A fixed, repeated signature ending line."
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

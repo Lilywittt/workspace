@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T05:13:24.286Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T05-12-37",
+  "selectedCandidateId": "ai_cand_01",
+  "selectionReason": "Selected by creative review plus novelty-aware scoring. score=113. review=This caption best fulfills the brief by weaving the sensory detail of the cool hairclip with a light chunibyo metaphor ('a small, quiet period'), directly executes the micro-plot from closing the book to the discovery, and cleanly integrates the character's catchphrase as a natural, uplifting conclusion. It feels the most complete and publishable, balancing private ritual energy with daily-life texture without overcomplication.",
+  "caption": "合上最后一本书，房间的寂静忽然有了形状。指尖划过桌面，触到一枚被遗忘的红色发夹，凉凉的，像雨停后留在叶子上的水珠。它躺在这里，像一个小小的、安静的句号。今天也应该明亮而鲜活地度过。",
+  "hashtags": [
+    "#生活碎片",
+    "#书桌日常",
+    "#治愈时刻",
+    "#上海雨天",
+    "#发现小确幸"
+  ],
+  "candidateAngle": "静谧的仪式感",
+  "candidateRationale": "以感官细节（触感、比喻）将发夹的发现转化为一个安静的私人仪式，呼应了‘微小预兆’的轻中二感，并以角色口头禅自然收尾。",
+  "creativeReview": {
+    "selectedCandidateId": "ai_cand_01",
+    "reason": "This caption best fulfills the brief by weaving the sensory detail of the cool hairclip with a light chunibyo metaphor ('a small, quiet period'), directly executes the micro-plot from closing the book to the discovery, and cleanly integrates the character's catchphrase as a natural, uplifting conclusion. It feels the most complete and publishable, balancing private ritual energy with daily-life texture without overcomplication.",
+    "strengths": [
+      "Strong sensory integration with tactile detail and poetic simile",
+      "Clear narrative arc from study end to discovery to feeling",
+      "Seamlessly incorporates the required character catchphrase",
+      "Tone is gently reflective with perfect light chunibyo weight"
+    ],
+    "risks": [
+      "Metaphor ('shape of silence') could feel slightly abstract to some",
+      "Slightly less explicit weather integration than candidate 02"
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "currentState": {
+    "energy": "low_but_steady",
+    "mood": "被雨声包裹，有一点出神，但指尖碰到的东西会突然变得清晰",
+    "attentionStyle": "trace_following",
+    "socialBandwidth": "solo_preferred",
+    "activeNeeds": [
+      "让一个瞬间的触感停留得久一点"
+    ],
+    "activeDesires": [
+      "不把雨天讲成故事，只留下它擦过手边的样子"
+    ]
+  },
+  "postingTendency": {
+    "shareImpulse": "low_but_present",
+    "preferredLane": "life_record",
+    "whyPostToday": "雨让世界变慢，有一个角落的细节突然变得可以触摸。",
+    "disclosureStyle": "implied_not_explained"
+  },
+  "ambientResonance": {
+    "activeTexturesZh": [
+      "雨滴在窗沿的节奏",
+      "放学后走廊里变淡的光"
+    ],
+    "weakPullsZh": [
+      "别人在聊收拾旧纸片，但那只是一种遥远的气压",
+      "新番的角色出场感像一层很淡的滤镜"
+    ],
+    "ignoredSignalCategories": [
+      "trending_topics",
+      "anime_fandom"
+    ],
+    "directiveGuardrail": "ambient_can_color_but_not_direct"
+  },
+  "groundingNotes": [
+    "雨天是背景，不是命题。",
+    "触觉细节优先于天气描述。"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "character-state-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T09-17-36-rainy_after_class"
+}

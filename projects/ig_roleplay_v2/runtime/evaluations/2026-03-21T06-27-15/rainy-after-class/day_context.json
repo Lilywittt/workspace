@@ -1,0 +1,50 @@
+{
+  "version": "3.0.0-alpha.1",
+  "createdAt": "2026-03-21T06:32:30.210Z",
+  "sourceMode": "scenario_override",
+  "scenarioId": "rainy-after-class",
+  "date": {
+    "isoDate": "2026-03-21",
+    "weekday": "Sat",
+    "scheduleMode": "weekend",
+    "season": "spring"
+  },
+  "time": {
+    "timestamp": "2026-03-21T16:35:00+08:00",
+    "timezone": "Asia/Shanghai",
+    "localHour": 16,
+    "localMinute": 35,
+    "daypart": "afternoon",
+    "routineWindow": "after_class"
+  },
+  "weather": {
+    "summary": "小雨",
+    "bucket": "rain",
+    "temperatureC": 11.6,
+    "precipitationMm": 0.4,
+    "windSpeedKmh": 10.8
+  },
+  "location": {
+    "city": "Shanghai",
+    "locale": "zh-CN",
+    "timezone": "Asia/Shanghai",
+    "currentContext": "school_transition_window",
+    "specificPlaceHint": "",
+    "mobilityPhase": "between_places",
+    "indoorOutdoorBias": "mostly_indoor"
+  },
+  "boundaries": {
+    "longDistanceTravelLikely": false,
+    "sameCityAssumed": true,
+    "largePublicEventAssumed": false
+  },
+  "factualNotes": [
+    "Current context: school_transition_window.",
+    "Weather: 小雨.",
+    "Routine window: after_class."
+  ],
+  "overrideNotes": [
+    "测试雨天放学后场景，观察是否会生成具体但不过度模板化的生活瞬间。"
+  ],
+  "runId": "zeromemory-2026-03-21T06-32-30-rainy_after_class"
+}

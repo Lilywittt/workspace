@@ -1,0 +1,20 @@
+{
+  "shareDistance": "private_but_legible",
+  "disclosureLevel": "implied_not_explained",
+  "voiceMode": "soft_private_observation",
+  "emotionalFocusZh": "保持那个微小停顿带来的质地变化。",
+  "whatToSayZh": "只说手指停在纸页边缘这个动作，不提为什么停下。",
+  "whatToLeaveUnsaidZh": "把那个让日常突然变慢的理由留在空白里。",
+  "openingMovesZh": [
+    "从手指碰到纸页边缘的触感开始。"
+  ],
+  "hashtagAnglesZh": [
+    "日常碎片"
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-intent-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T15-32-53-clear_weekend_bookstore"
+}

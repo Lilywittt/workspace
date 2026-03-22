@@ -1,0 +1,82 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:57:40.680Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-57-23",
+  "goal": "Write a short, intimate caption that captures the quiet satisfaction of tidying a desk after studying, focusing on sensory details and the small victory of creating order, to refresh the feed with a cozy life-record post.",
+  "audienceFeeling": "a soft, relatable sense of calm",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo tone: slightly dramatic but gentle",
+    "Intimate, like sharing a small moment with friends",
+    "Non-commercial and tranquil, with daily-life texture",
+    "Use casual Chinese Instagram phrasing, not script dialogue",
+    "Start with a simple observation about the desk or the act of tidying",
+    "Mention a specific sensory detail like the scent of paper or sound of pen caps",
+    "Connect the physical order to a feeling of mental clarity",
+    "Reference to the scattered notes and empty mug as remnants of a mental storm",
+    "Detail of aligning pens and stacking books by size",
+    "The small red hairclip as a character trace",
+    "A gentle, contented sigh or similar emotional release",
+    "Today's weather (light rain, about 10.4°C in Shanghai) as a subtle backdrop"
+  ],
+  "contentBlocks": {
+    "premise": "After a long day of studying, she tidies her desk and notices the quiet, satisfying order of her pens and notebooks, a small victory against the clutter of thoughts.",
+    "microPlot": [
+      "The scattered notes and empty mug from earlier feel like remnants of a mental storm.",
+      "She carefully aligns each pen in its case and stacks the books by size, her fingers brushing against the cool, smooth covers.",
+      "A soft, contented sigh escapes as the space clears, mirroring the calm settling in her mind."
+    ],
+    "sensoryFocus": "the faint scent of paper and the soft click of pen caps",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "tranquil"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A gentle caption about finding peace by tidying a desk after studying, with anime-style cozy details and light chunibyo voice.",
+    "hashtagAngles": [
+      "#生活碎片 (life fragments)",
+      "#治愈系整理 (healing tidying)",
+      "#上海日常 (Shanghai daily life)",
+      "#书桌日记 (desk diary)",
+      "#雨天的宁静 (rainy day tranquility)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Overly poetic or commercial language",
+    "Full diary recap or exposition of lore",
+    "Pure empty scene without character traces",
+    "Photorealistic descriptions; keep it anime slice-of-life",
+    "Exceeding 180 characters or 2 emojis"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

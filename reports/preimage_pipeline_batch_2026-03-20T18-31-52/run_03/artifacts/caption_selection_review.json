@@ -1,0 +1,21 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-20T10:36:42.916Z",
+  "scenePlanRunId": "sceneplan-2026-03-20T10-35-54",
+  "source": "skill",
+  "status": "caption_selection_review_ready",
+  "selectedCandidateId": "ai_cand_01",
+  "reason": "This candidate best balances the scene's gentle, forward-looking ritual with daily-life believability and a fresh narrative shape. It cleanly executes the 'return_or_repair_program' micro-plot from discovery to action to internal feeling, incorporates the key sensory detail of paper rustle, and lands with a 'gentle_order' emotional tone that feels publishable and subtly enchanted. It avoids the more overt metaphorical framing of the other options, which, while creative, risk sounding overwritten or melodramatic for a life_record post after a streak of selfies.",
+  "strengths": [
+    "Clear, complete micro-plot structure (find, smooth, return, feeling)",
+    "Strong sensory detail ('指尖擦过纸张的沙沙声')",
+    "Light chunibyo texture in '给明天悄悄整理了一个小小的秩序' feels private and human-scale",
+    "Fits the 'gentle_order' emotional landing and 'partial_presence' mode perfectly",
+    "Uses fresh hashtag angles that avoid recent semantic fatigue"
+  ],
+  "risks": [
+    "The final line's metaphor is slightly more explicit than a pure observation, but remains grounded in daily action",
+    "Slightly more direct than the 'soft_observation' ending family dominant in history, but provides needed novelty"
+  ],
+  "errorMessage": ""
+}

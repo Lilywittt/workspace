@@ -1,0 +1,83 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T02:58:54.865Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T02-58-36",
+  "goal": "Write a caption that captures a quiet, intimate moment of discovery in a Shanghai bookstore, where finding a pressed flower in an old book sparks gentle curiosity and a feeling of shared secret with a stranger, blending the day's light rain with a sense of wonder.",
+  "audienceFeeling": "A soft, wondering connection to a small, beautiful detail.",
+  "writingDirectives": [
+    "Keep the tone gentle, lightly dramatic, and grounded in daily life.",
+    "Do not sound commercial, promotional, or self-descriptive as an AI.",
+    "Use one small micro-plot: cause -> action -> feeling.",
+    "Include at least one concrete sensory detail.",
+    "Bring in one daily variable from weather or trend, but do not let it dominate the post.",
+    "Center one observed scene, object, or small daily fragment, while preserving character presence indirectly.",
+    "Keep compatibility with the character catchphrase: \"Today should still feel bright and alive.\"",
+    "Light chunibyo tone: slightly dramatic but gentle",
+    "Daily-life texture: casual, intimate, like a diary snippet",
+    "Quietly wondering: curious, soft, not overly emotional",
+    "Use simple, concise Chinese sentences",
+    "Max 2 emojis, keep them subtle (e.g., 🌧️, 📖)",
+    "Start with a sensory detail (e.g., the smell of old paper, the feel of rain)",
+    "Mention the action of taking a walk to clear a tired mind",
+    "Introduce the discovery of the flower as a found secret",
+    "The pressed flower as a discovered object",
+    "Sensory detail (dusty paper scent, cool book cover)",
+    "The light rain ('小雨') weather context",
+    "A trace of the character (e.g., hand with red hairclip, sleeve)",
+    "A wondering thought about the flower's past owner"
+  ],
+  "contentBlocks": {
+    "premise": "After a morning of studying, the character steps into a small, quiet bookstore to browse, finding a worn-out novel with a pressed flower tucked inside its pages, sparking a moment of quiet curiosity and connection to a stranger's past.",
+    "microPlot": [
+      "Feeling mentally drained from reviewing notes, she decides to take a short walk to clear her head.",
+      "She wanders into a cozy, dimly lit bookstore and picks up an old book, discovering a delicate, dried flower left between the pages.",
+      "A soft, wondering smile touches her lips as she imagines the story behind the forgotten bookmark, feeling a gentle, shared secret with the unknown previous reader."
+    ],
+    "sensoryFocus": "The faint, dusty scent of old paper and the cool, smooth texture of the book's cover.",
+    "freshness": {
+      "weatherSignal": "light rain, about 10.4C",
+      "trendSignal": "No stable trend signal, so weather and daily detail should lead the run",
+      "locationName": "Shanghai",
+      "noveltyGuard": "Checked the latest 5 posts for lane rhythm and near-duplicate risk"
+    },
+    "tone": [
+      "light chunibyo",
+      "gentle",
+      "daily-life texture",
+      "non-commercial",
+      "quietly_wondering"
+    ],
+    "lane": "life_record",
+    "visualMode": "life_record",
+    "creativeSummary": "A life_record caption about finding a pressed flower in a Shanghai bookstore, blending rain, sensory details, and quiet curiosity in a gentle, chunibyo-tinged voice.",
+    "hashtagAngles": [
+      "#上海日记 (Shanghai diary)",
+      "#小雨中的发现 (Discovery in light rain)",
+      "#旧书与花 (Old book and flower)",
+      "#生活碎片 (Life fragment)",
+      "#二次元日常 (Anime daily life)"
+    ]
+  },
+  "avoidList": [
+    "commercial tone",
+    "marketing language",
+    "AI self-reference",
+    "flat diary summary",
+    "repeating a recent opening line",
+    "Commercial or promotional language",
+    "Overly poetic or abstract phrasing",
+    "Exposition of lore or backstory",
+    "Direct dialogue or script-like lines",
+    "Mood without concrete action or object"
+  ],
+  "delivery": {
+    "maxChars": 180,
+    "minHashtags": 2,
+    "maxHashtags": 5,
+    "maxEmojis": 2
+  },
+  "creativeInputs": {
+    "captionBriefDraftPath": "/home/node/.openclaw/workspace/projects/ig_roleplay_v2/runtime/current/caption_brief_draft.json",
+    "sourceStatus": "caption_brief_draft_ready"
+  }
+}

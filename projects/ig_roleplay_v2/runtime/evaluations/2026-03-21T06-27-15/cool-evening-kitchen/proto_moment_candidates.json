@@ -1,0 +1,178 @@
+{
+  "candidates": [
+    {
+      "candidateId": "event_01",
+      "lane": "life_record",
+      "eventSummaryZh": "把杯子放进洗碗机时，发现杯底有一圈没冲干净的茶渍，形状像个小岛。",
+      "hookWhyInterestingZh": "它只是残留物，但今天看起来像一幅地图。",
+      "causalChainZh": [
+        "傍晚收拾厨房，顺手把用过的杯子放进去。",
+        "杯底朝上，那圈茶渍的轮廓突然变得清晰。",
+        "动作停了一下，没立刻去冲洗。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "weather_cloudy"
+        ],
+        "inferredDetailsZh": [
+          "傍晚的光线让杯底的细节更容易被注意到。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "只是机械地完成收拾的动作。",
+      "interiorShiftZh": "那个不完美的形状突然有了自己的存在感。",
+      "whyTodayZh": "多云傍晚的室内光线，让这种微小的不完美变得柔和而显眼。",
+      "whyShareableZh": "它具体到可以看见，又模糊到可以想象。",
+      "visualEvidenceZh": [
+        "白色马克杯杯底",
+        "浅褐色的不规则茶渍圈",
+        "洗碗机敞开的门和内部格架"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "外界关于“回家后小动作”和“杯子边缘存在感”的讨论，只是让这类时刻更容易被自己捕捉"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_02",
+      "lane": "life_record",
+      "eventSummaryZh": "给手机充电，插头碰到插座边缘时发出很轻的“咔”一声，比平时响。",
+      "hookWhyInterestingZh": "一个每天重复的动作，今天的声音质地不一样。",
+      "causalChainZh": [
+        "走到床边准备给手机充电。",
+        "金属插头接触插座黄铜片的瞬间，声音比记忆里清脆。",
+        "手指停住，确认了一下是不是插紧了。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "identity_stability"
+        ],
+        "inferredDetailsZh": [
+          "可能是空气湿度或温度让金属接触声变了。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "脑子里在想别的事，手在自动执行动作。",
+      "interiorShiftZh": "被那个具体的声音拉回了当下。",
+      "whyTodayZh": "偏安静的傍晚，让这种细微的声响有了被单独听见的空间。",
+      "whyShareableZh": "捕捉到了一个感官上的具体偏差。",
+      "visualEvidenceZh": [
+        "手机充电线悬垂的末端",
+        "墙上的白色插座",
+        "手指捏着插头的特写"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "“被外界轻轻擦过”的感觉，让对日常动作中微小差异的敏感度提高了"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_03",
+      "lane": "life_record",
+      "eventSummaryZh": "从衣柜拿睡衣，发现最上面那件的标签翻出来了，硬硬地硌了一下手心。",
+      "hookWhyInterestingZh": "标签一直都在，但今天第一次被“收到”了。",
+      "causalChainZh": [
+        "打开衣柜门，手伸向叠好的那摞睡衣。",
+        "抓住最上面那件棉质T恤的瞬间，手心感觉到一小块方形硬物。",
+        "翻过来看，是缝在后领的洗涤标签，不知何时翻到了外面。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "context_home_evening_reset",
+          "window_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "可能是上次晾晒或折叠时没注意。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "带着完成睡前准备的心情。",
+      "interiorShiftZh": "触觉上的意外打断，让拿衣服这个动作从流程中独立了出来。",
+      "whyTodayZh": "需要“留住一小块真实感”的倾向，让身体更愿意接收这种微小的、不顺畅的反馈。",
+      "whyShareableZh": "关于衣物、触感和一个被修正的微小不顺。",
+      "visualEvidenceZh": [
+        "打开的衣柜门和叠放的衣物",
+        "手心朝上，托着那件浅色睡衣",
+        "翻到外面的白色洗涤标签特写"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "季节转换期对“家里物件存在感”的普遍谈论，可能轻微放大了对这类细节的注意"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    },
+    {
+      "candidateId": "event_04",
+      "lane": "life_record",
+      "eventSummaryZh": "关窗时，发现窗框凹槽里积了一小撮灰，形状被风吹成了波浪纹。",
+      "hookWhyInterestingZh": "灰尘每天都在积，但今天的图案是风画的。",
+      "causalChainZh": [
+        "傍晚觉得微凉，走去关窗。",
+        "手握住窗把手时，视线自然下垂。",
+        "看到下方窗框轨道里，灰尘不是均匀一层，而是有清晰、细密的波纹。"
+      ],
+      "factSupport": {
+        "provisionalBoundIds": [
+          "weather_cloudy",
+          "context_home_evening_reset"
+        ],
+        "inferredDetailsZh": [
+          "多云有风的天气，让窗缝的气流形成了这个图案。"
+        ]
+      },
+      "placeRef": "",
+      "objectRefs": [],
+      "routineRef": "",
+      "presenceMode": "partial_presence",
+      "interiorStateBeforeZh": "想着关窗保暖这件事。",
+      "interiorShiftZh": "被那个无意中形成的、短暂的“作品”吸引，关窗的动作慢了一拍。",
+      "whyTodayZh": "微凉的天气和关窗这个具体动作，共同创造了发现它的契机。",
+      "whyShareableZh": "记录了一个即将被抹去的、由自然力完成的微小痕迹。",
+      "visualEvidenceZh": [
+        "铝制窗框的凹槽特写",
+        "灰白色灰尘形成的波浪状纹路",
+        "握住窗把手的手部局部"
+      ],
+      "ambientInfluence": {
+        "used": true,
+        "resonanceOnlyZh": [
+          "“被外界轻轻擦过”的质感，与风在灰尘上留下的痕迹形成了微弱呼应"
+        ],
+        "mustNotBeReadAsDirectCause": true
+      },
+      "imageMode": "trace_led_life_record",
+      "captionVoice": "soft_private_observation"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "moment-generator-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-30-26-cool_evening_kitchen"
+}

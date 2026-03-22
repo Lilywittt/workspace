@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0-alpha.1",
+  "createdAt": "2026-03-19T14:37:26.154Z",
+  "scenePlanRunId": "sceneplan-2026-03-19T14-37-03",
+  "source": "skill",
+  "status": "caption_brief_draft_ready",
+  "goal": "Write a short, intimate Instagram caption that turns a simple errand—buying a warm cup sleeve on a drizzly Shanghai evening—into a quiet, forward-looking ritual. The text should feel like a private note to herself, capturing the gentle, shyly intentional act of choosing and carrying a small comfort back into the night as a soft reset.",
+  "audienceFeeling": "a quiet, tender recognition of small comforts",
+  "openingMoves": [
+    "Start with a sensory detail from the damp, cool evening",
+    "Mention the small need or impulse that prompted the walk",
+    "Describe the act of choosing the cup sleeve with quiet focus"
+  ],
+  "mustInclude": [
+    "The faint crinkle of paper and the cool, damp air under the covered walkway",
+    "Hands: one holding the small paper bag, the other brushing damp hair",
+    "The vendor's warm counter light on wet pavement",
+    "Tucking the cup sleeve away like a small, forward-looking secret",
+    "A soft, trailing sentence ending that feels like a light exhale"
+  ],
+  "mustAvoid": [
+    "Commercial or promotional language",
+    "A fixed, slogan-like closing line",
+    "Exaggerated, theatrical chunibyo or world-building",
+    "Turning the moment into a grand fateful declaration",
+    "Disclosing AI or meta-commentary"
+  ],
+  "voiceNotes": [
+    "Mostly short sentences with one occasional longer breath",
+    "Light chunibyo flavor—intimate, not performative",
+    "Gentle, private ritual energy, like a note to a future self",
+    "Focus on small actions, textures, light, and sound over big emotions",
+    "Allow the cup sleeve to briefly feel like a personal, faintly symbolic object"
+  ],
+  "hashtagAngles": [
+    "late evening walks",
+    "Shanghai drizzle",
+    "small comforts",
+    "private rituals",
+    "gentle reset",
+    "daily details"
+  ],
+  "summary": "A shy, intentional purchase of a warm cup sleeve on a damp night becomes a quiet ritual of self-care and a soft promise for tomorrow.",
+  "errorMessage": ""
+}

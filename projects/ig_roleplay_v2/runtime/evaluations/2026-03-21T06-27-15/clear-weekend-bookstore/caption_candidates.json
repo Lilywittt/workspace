@@ -1,0 +1,55 @@
+{
+  "candidates": [
+    {
+      "id": "caption_01",
+      "angle": "soft_observation",
+      "caption": "只是碰到一下，今天就忽然有了一个能停一停的地方。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "自然且有留白"
+    },
+    {
+      "id": "caption_02",
+      "angle": "sensory_detail",
+      "caption": "金属的凉意，比记忆先一步抵达指尖。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "从具体触感切入，符合‘细节先于记忆’的钩子"
+    },
+    {
+      "id": "caption_03",
+      "angle": "private_ritual",
+      "caption": "在抽屉角落，和一枚很久没用的发夹重逢。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将普通动作赋予‘重逢’的轻微仪式感，符合角色气质"
+    },
+    {
+      "id": "caption_04",
+      "angle": "momentary_pause",
+      "caption": "原本只是继续往下做日常动作，却被一个很小的细节拉住了。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "直接引用因果链，描述注意力被拉住的瞬间"
+    },
+    {
+      "id": "caption_05",
+      "angle": "implied_weight",
+      "caption": "心里的重量，因为一点凉意，轻轻偏了一下。",
+      "hashtags": [
+        "#日常切片"
+      ],
+      "rationale": "将物理触感转化为内心的轻微变化，含蓄而有重量"
+    }
+  ],
+  "agentMeta": {
+    "mode": "llm",
+    "promptName": "caption-writer-agent",
+    "error": ""
+  },
+  "runId": "zeromemory-2026-03-21T06-27-17-clear_weekend_bookstore"
+}
