@@ -1,0 +1,116 @@
+{
+  "version": "3.1.0-alpha.1",
+  "paths": {
+    "legacyPipelineConfigPath": "../../../../data/ig_roleplay/pipeline.config.json",
+    "outputSignalsPath": "../../../../data/ig_roleplay/signals.json",
+    "outputReportPath": "../../../../data/ig_roleplay/signal_collection_report.json"
+  },
+  "locationDefaults": {
+    "name": "Tokyo",
+    "country": "JP",
+    "latitude": 35.6764,
+    "longitude": 139.65,
+    "timezone": "Asia/Tokyo",
+    "language": "zh"
+  },
+  "limits": {
+    "animeFandom": 5,
+    "news": 10,
+    "trends": 8,
+    "localEvents": 4,
+    "popCulture": 4,
+    "socialChatter": 6,
+    "externalSignals": 12
+  },
+  "sources": [
+    {
+      "id": "weather_open_meteo",
+      "kind": "open_meteo_weather",
+      "enabled": true,
+      "sourceLabel": "Open-Meteo Current Weather",
+      "current": [
+        "temperature_2m",
+        "relative_humidity_2m",
+        "apparent_temperature",
+        "precipitation",
+        "weather_code",
+        "wind_speed_10m",
+        "cloud_cover"
+      ],
+      "airQualityCurrent": [
+        "pm10",
+        "pm2_5",
+        "us_aqi",
+        "uv_index"
+      ]
+    },
+    {
+      "id": "city_brief_gdelt",
+      "kind": "gdelt_news",
+      "enabled": true,
+      "sourceLabel": "GDELT Tokyo Headlines",
+      "query": "Tokyo",
+      "maxRecords": 8,
+      "timespan": "3d",
+      "sort": "datedesc",
+      "titleAnyKeywords": [
+        "tokyo",
+        "akihabara",
+        "shibuya",
+        "ikebukuro",
+        "anime",
+        "manga",
+        "event",
+        "exhibition"
+      ],
+      "preferSourceCountries": [
+        "Japan"
+      ],
+      "trendKeywords": 4,
+      "priorityWeight": 1
+    },
+    {
+      "id": "tokyo_calendar_gotokyo",
+      "kind": "html_link_list",
+      "enabled": true,
+      "sourceLabel": "GO TOKYO Calendar",
+      "category": "localEvents",
+      "url": "https://www.gotokyo.org/en/calendar/index.html",
+      "limit": 4,
+      "freshnessWindowDays": 400,
+      "hrefIncludes": [
+        "/en/event/"
+      ],
+      "priorityWeight": 1
+    },
+    {
+      "id": "tokyo_anime_station_feed",
+      "kind": "html_link_list",
+      "enabled": true,
+      "sourceLabel": "Anime Tokyo Station Events",
+      "category": "animeFandom",
+      "url": "https://animetokyo.jp/en/events/event/",
+      "limit": 4,
+      "hrefIncludes": [
+        "/en/archives/events/"
+      ],
+      "freshnessWindowDays": 120,
+      "postprocessProfiles": [
+        "normalize_text_fields",
+        "enclosed_series_numbers",
+        "unmatched_label_brackets"
+      ],
+      "priorityWeight": 2
+    },
+    {
+      "id": "anilist_trending_anime",
+      "kind": "anilist_graphql",
+      "enabled": true,
+      "sourceLabel": "AniList Trending Anime",
+      "category": "animeFandom",
+      "limit": 3,
+      "seasonOnly": true,
+      "priorityWeight": 1
+    }
+  ]
+}

@@ -4,6 +4,10 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
+    "refresh:signals": "node scripts/refresh_signals.js",
+    "image:generate": "node scripts/run_image_generation.js",
+    "image:generate:local": "node scripts/run_comfyui_workflow.js --provider comfyui-local-anime",
+    "image:workflow:payload": "node scripts/build_comfyui_workflow_payload.js",
     "test": "node --test tests/*.test.js"
   }
 }

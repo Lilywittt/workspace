@@ -85,32 +85,41 @@ function resolveRuntimeLayout(runtimeDir) {
   };
 }
 
+function runtimeLayoutPaths(runtimeDir) {
+  const { runtimeRootDir, intermediateDir, finalDir } = resolveRuntimeLayout(runtimeDir);
+  const historyDir = path.join(intermediateDir, 'history');
+
+  return {
+    runtimeRootDir,
+    intermediateDir,
+    intermediateCurrentDir: path.join(intermediateDir, 'current'),
+    intermediateRunsDir: path.join(intermediateDir, 'runs'),
+    intermediateHistoryDir: historyDir,
+    intermediatePublishHistoryPath: path.join(historyDir, 'publish_history.jsonl'),
+    finalDir,
+    finalCurrentDir: path.join(finalDir, 'current'),
+    finalHistoryDir: path.join(finalDir, 'history')
+  };
+}
+
 function runtimeCurrentDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).intermediateDir, 'current');
+  return runtimeLayoutPaths(runtimeDir).intermediateCurrentDir;
 }
 
 function runtimeRunsDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).intermediateDir, 'runs');
+  return runtimeLayoutPaths(runtimeDir).intermediateRunsDir;
 }
 
 function runtimeHistoryDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).intermediateDir, 'history');
-}
-
-function runtimeGeneratedDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).intermediateDir, 'generated');
-}
-
-function runtimeEvaluationsDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).intermediateDir, 'evaluations');
+  return runtimeLayoutPaths(runtimeDir).intermediateHistoryDir;
 }
 
 function runtimeFinalCurrentDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).finalDir, 'current');
+  return runtimeLayoutPaths(runtimeDir).finalCurrentDir;
 }
 
 function runtimeFinalHistoryDir(runtimeDir) {
-  return path.join(resolveRuntimeLayout(runtimeDir).finalDir, 'history');
+  return runtimeLayoutPaths(runtimeDir).finalHistoryDir;
 }
 
 function fileExists(filePath) {
@@ -162,11 +171,10 @@ module.exports = {
   readJsonl,
   resolveRelative,
   resolveRuntimeLayout,
+  runtimeLayoutPaths,
   runtimeCurrentDir,
-  runtimeEvaluationsDir,
   runtimeFinalCurrentDir,
   runtimeFinalHistoryDir,
-  runtimeGeneratedDir,
   runtimeHistoryDir,
   runtimeRunsDir,
   writeRuntimeArtifact

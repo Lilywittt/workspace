@@ -16,7 +16,6 @@ function main() {
 
   const config = readJson(configPath, {});
   const runtimeDir = resolveRelative(configPath, (config.paths && config.paths.runtimeDir) || '../runtime');
-  const legacyDataDir = resolveRelative(configPath, (config.paths && config.paths.legacyDataDir) || '../../../data/ig_roleplay');
   const currentDir = runtimeCurrentDir(runtimeDir);
 
   const scenePlan = readJson(path.join(currentDir, 'scene_plan.json'), null);
@@ -25,7 +24,6 @@ function main() {
   const generatedImage = readJson(path.join(currentDir, 'generated_image.json'), null);
   const imageRequest = readJson(path.join(currentDir, 'image_request.json'), null);
   const externalEventPacket = readJson(path.join(currentDir, 'external_event_packet.json'), null);
-  const selectedImage = readJson(path.join(legacyDataDir, 'selected_image.json'), {});
 
   if (!scenePlan || !selectedCaption) {
     throw new Error('scene_plan.json or selected_caption.json is missing');
@@ -38,10 +36,11 @@ function main() {
     selectedCaption,
     generatedImage,
     imageRequest,
-    externalEventPacket,
-    selectedImage
+    externalEventPacket
   });
-  const written = writeRuntimeArtifact(runtimeDir, 'post_package.json', 'postpackage', output);
+  const written = writeRuntimeArtifact(runtimeDir, 'post_package.json', 'postpackage', output, {
+    runId: scenePlan.runId
+  });
 
   console.log(`post package created: ${written.currentPath}`);
   console.log(`post package archived: ${written.archivedPath}`);

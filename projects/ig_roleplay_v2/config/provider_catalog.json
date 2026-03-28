@@ -92,5 +92,34 @@
       "1:1": "1024*1024",
       "9:16": "720*1280"
     }
+  },
+  "comfyui-local-anime": {
+    "apiStyle": "comfyui-workflow",
+    "endpoint": "http://127.0.0.1:8188",
+    "requiredEnv": [],
+    "defaultModel": "animagine-xl-4.0-opt.safetensors",
+    "workflowProfilePath": "./render/comfyui_anime_engineering_profile.json",
+    "workflowTransport": {
+      "submitPath": "/prompt",
+      "historyPath": "/history/{prompt_id}",
+      "viewPath": "/view",
+      "pollIntervalMs": 2000,
+      "timeoutMs": 300000
+    },
+    "responseContract": {
+      "jobIdField": "prompt_id",
+      "requestIdField": "prompt_id",
+      "imageUrlField": "history.{prompt_id}.outputs[{node_id}].images[0]"
+    },
+    "referenceHandling": {
+      "providerCapability": "workflow_prompt_only",
+      "hostTransport": "workflow_json",
+      "deliveryMode": "local_only"
+    },
+    "sizeByAspectRatio": {
+      "4:5": "1024x1280",
+      "1:1": "1024x1024",
+      "9:16": "832x1472"
+    }
   }
 }

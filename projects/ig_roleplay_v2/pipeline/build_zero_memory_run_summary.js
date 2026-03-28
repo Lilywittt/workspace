@@ -114,6 +114,8 @@ function main() {
     finalDelivery: {
       deliveryId: finalDelivery?.deliveryId || '',
       publishable: Boolean(finalDelivery?.deliveryReadiness?.publishable),
+      reviewRootDir: finalDelivery?.reviewBundle?.rootDir || '',
+      reviewGuidePath: finalDelivery?.reviewBundle?.reviewGuidePath || '',
       finalCaptionPath: finalDelivery?.caption?.fullTextPath || '',
       finalImagePath: finalDelivery?.image?.localFilePath || '',
       finalImageUrl: finalDelivery?.image?.imageUrl || ''

@@ -1,9 +1,6 @@
 node_modules/
+.tmp/
 
-runtime/current/
-runtime/runs/
-runtime/generated/
-runtime/deliverables/
 runtime/intermediate/current/
 runtime/intermediate/runs/
 runtime/intermediate/generated/
@@ -11,10 +8,10 @@ runtime/intermediate/history/
 runtime/final/current/
 runtime/final/history/
 runtime/memory/
-runtime/history/run_bundles/
-runtime/history/latest_run_bundle.json
-runtime/history/run_bundle_index.json
-runtime/history/publish_history.jsonl
 
 tools/__pycache__/
 *.pyc
+
+eval/runs/
+runtime/experiments/
+runtime/replays/

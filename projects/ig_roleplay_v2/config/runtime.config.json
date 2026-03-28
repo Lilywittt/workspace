@@ -4,7 +4,7 @@
   "paths": {
     "legacyDataDir": "../../../data/ig_roleplay",
     "runtimeDir": "../runtime",
-    "identityProfile": "../character/identity_profile.json",
+    "characterEditableDir": "../character/editable",
     "referenceLibrary": "../vision/reference_library.json"
   },
   "planner": {

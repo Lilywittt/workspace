@@ -1,4 +1,4 @@
-# Pipelines And Repository Layout
+﻿# Pipelines And Repository Layout
 
 ## Why This Document Exists
 
@@ -8,33 +8,73 @@ The project now has two different needs:
 2. define a replacement pipeline and repository layout that can support a believable living-character product.
 
 This document does both.
+本文档同时承担这两个目的。
+
+Canonical runtime layout note:
+当前 runtime 正式目录约定以 `ARCHITECTURE.md` 为准：
+
+- `runtime/intermediate/`
+- `runtime/final/`
+
+Any later references in this file to `runtime/current`, `runtime/runs`, `runtime/generated`, or other alternate layouts are audit notes or migration proposals, not the active directory contract.
+本文后续若出现 `runtime/current`、`runtime/runs`、`runtime/generated` 等其它布局，均表示历史审计或迁移设想，不代表当前有效目录约定。
 
 It is intentionally explicit about:
+它会明确说明：
 
 - which step reads which data,
+- 每一步读取什么数据，
 - which step is code-owned,
+- 哪一步由代码主导，
 - which step is LLM-led,
+- 哪一步由 LLM 主导，
 - where static enumerative content still controls the output,
+- 哪些地方仍被静态枚举内容控制，
 - which static inputs are allowed in the new hot path,
+- 新热路径允许哪些静态输入，
 - which directories should be consolidated or retired.
+- 哪些目录应该合并或退役。
 
-## Current Pipeline
+## Active Product Pipeline
+## 当前产品链
 
-### Current top-level entrypoint
+### Active top-level entrypoint
+### 当前顶层入口
 
-- `F:\openclaw-dev\ig-roleplay-v2-run.ps1`
+- `run_product.ps1`
+- workspace wrapper: `F:\openclaw-dev\ig-roleplay-v2-run.ps1`
 
-This script orchestrates:
+This active product script now orchestrates only the zero-memory path:
+当前产品脚本现在只负责 zero-memory 路径：
 
-- Node scripts inside the container,
-- host-side image generation through PowerShell,
-- final packaging and run summary writing.
+- `pipeline/run_zero_memory_agent.js`
+- `tools/run_image_generation.ps1`
+- `scripts/build_post_package.js`
+- `scripts/build_final_delivery.js`
+- `scripts/publish_post_package.js`
+- `pipeline/build_zero_memory_run_summary.js`
+
+It also resets the current runtime surfaces before each run, so stale legacy artifacts do not remain in the active review directories.
+它还会在每次运行前重置 current 面板，避免旧链残留继续停留在当前验收目录。
+
+In the active architecture, `runtime/` should now keep only `intermediate/` and `final/` as top-level directories.
+在当前架构下，`runtime/` 顶层现在只应保留 `intermediate/` 和 `final/`。
+
+## Legacy Enumerative Pipeline Audit
+## 遗留枚举链审计
+
+The following section is retained as an audit of the retired scene-program pipeline. It is no longer the active product hot path.
+下面这部分保留为已退役 scene-program 链的审计记录；它已经不是当前产品热路径。
 
 ### Current source classes
 
 #### User-editable character data
 
-- `character/identity_profile.json`
+- `character/editable/角色基础.json`
+- `character/editable/表达风格.json`
+- `character/editable/视觉形象.json`
+- `character/editable/发布策略.json`
+- `character/editable/穿搭规则.json`
 - `vision/reference_library.json`
 - `config/runtime.config.json`
 
@@ -66,7 +106,7 @@ This script orchestrates:
 | 1 | `build_continuity_snapshot.js` | `posted.jsonl`, runtime config | code | `continuity_snapshot.json` | direct legacy history dependency |
 | 2 | `build_novelty_ledger.js` | `continuity_snapshot.json`, runtime history bundles | code | `novelty_ledger.json` | memory is semantic counts, not lived events |
 | 3 | `build_reflection_notes.js` | `novelty_ledger.json` | code | `reflection_notes.json` | still derived from counts only |
-| 4 | `build_world_state_snapshot.js` | `signals.json`, `continuity_snapshot.json`, `setting_model.json`, `world_state_rules.json`, `identity_profile.json`, novelty and reflection artifacts | code | `world_state_snapshot.json` | state is rule-derived from fixed configs |
+| 4 | `build_world_state_snapshot.js` | `signals.json`, `continuity_snapshot.json`, `setting_model.json`, `world_state_rules.json`, editable persona projection, novelty and reflection artifacts | code | `world_state_snapshot.json` | state is rule-derived from fixed configs |
 | 5 | `build_affordance_pool.js` | `world_state_snapshot.json`, `setting_model.json` | code | `affordance_pool.json` | affordances are predefined ids |
 | 6 | `build_world_graph_snapshot.js` | world state, affordances, `setting_model.json`, `scene_program_catalog.json`, `world_graph.json`, novelty, identity | code | `world_graph_snapshot.json` | reachable world is defined by static graph and catalog |
 | 7 | `build_continuity_creative_review.js` | continuity, novelty, reflection, world state, daily signals, persona | LLM with fallback | `continuity_creative_review.json` | can only suggest direction, cannot redefine the world |
@@ -87,8 +127,8 @@ This script orchestrates:
 | 22 | `select_caption_candidate.js` | caption candidates, continuity, selection review | code | `selected_caption.json` | final selection is still code-scored |
 | 23 | `build_image_brief.js` | scene plan, selected caption, identity, reference library | code | `image_brief.json` | image is explicitly bound to scene program, location archetype, object bindings, weather role |
 | 24 | `build_image_request.js` | scene plan, image brief, selected caption, identity | code | `image_request.json` | image prompt is assembled from code-owned semantic slots |
-| 25 | `host_generate_openai_image.ps1` | `image_request.json`, provider config, env keys | model provider | `generated_image.json` and generated asset file | model renders an already fixed prompt package |
-| 26 | `build_post_package.js` | scene plan, selected caption, generated image, image request, legacy `selected_image.json` fallback | code | `post_package.json` | packaging still happens in intermediate runtime only |
+| 25 | `run_image_generation.ps1` | `image_request.json`, provider config, env keys | model provider | `generated_image.json` and generated asset file | model renders an already fixed prompt package |
+| 26 | `build_post_package.js` | scene plan, selected caption, generated image, image request | code | `post_package.json` | packaging still happens in intermediate runtime only |
 | 27 | `build_final_delivery.js` | post package, selected caption, generated image | code | `runtime/final/current/*` | final caption + final image + final manifest are separated from engineering artifacts |
 | 28 | `publish_post_package.js` | final delivery | code | `publish_result.json` | publish now reads only the final delivery manifest |
 
@@ -148,7 +188,7 @@ These are facts, constraints, or stable identity anchors. They should remain.
 - owned objects and recurring places as world facts,
 - school schedule and daily routine facts,
 - provider capabilities and publish policies,
-- safety rules and schema contracts.
+- structural constraints and schema contracts.
 
 ### Static inputs that must not remain hot-path content drivers
 
@@ -248,7 +288,7 @@ Persistent store of lived events, posted moments, open threads, and continuity s
 
 #### Policy and provider config
 
-Validation, safety, publish, and render capability constraints.
+Validation, publish, and render capability constraints.
 
 ### Non-enumerative rule for the fact layer
 
@@ -349,13 +389,7 @@ They are stronger if:
 
 ### Current problem
 
-Right now the editable character surface is too concentrated and too mixed:
-
-- `identity_profile.json` combines immutable identity, voice, creative guidance, and visual stability,
-- `vision/reference_library.json` keeps visual anchors outside the character directory,
-- some world-facing character biases leak into config and runtime layers.
-
-This makes character editing harder than it should be.
+The old single-file `identity_profile.json` has been removed. The active editable surface is the split folder under `character/editable/`, but the surrounding docs and projections still need to stay disciplined so product editing remains predictable.
 
 ### Target editable persona surface
 
@@ -366,16 +400,15 @@ Recommended structure:
 ```text
 character/
   editable/
-    core.identity.json
-    voice.style.json
-    visual.identity.json
-    posting.behavior.json
+    角色基础.json
+    表达风格.json
+    视觉形象.json
+    发布策略.json
+    穿搭规则.json
     README.md
-  compiled/
-    character_profile.json
 ```
 
-#### `core.identity.json`
+#### `角色基础.json`
 
 Human-edited:
 
@@ -385,7 +418,7 @@ Human-edited:
 - stable temperament,
 - hard prohibitions.
 
-#### `voice.style.json`
+#### `表达风格.json`
 
 Human-edited:
 
@@ -394,7 +427,7 @@ Human-edited:
 - disclosure style,
 - narrative must-have and must-not-have rules.
 
-#### `visual.identity.json`
+#### `视觉形象.json`
 
 Human-edited:
 
@@ -403,7 +436,7 @@ Human-edited:
 - required identity anchor ids,
 - trace cue preferences for non-selfie content.
 
-#### `posting.behavior.json`
+#### `发布策略.json`
 
 Human-edited:
 
@@ -419,7 +452,8 @@ The hot path should not read the editable files directly from many places.
 Instead:
 
 - human edits `character/editable/*`,
-- a code-owned builder compiles them into `character/compiled/character_profile.json`,
+- a code-owned builder compiles them into `runtime/intermediate/current/character_profile.json` during each run,
+- old scripts only read a projection derived from the same editable source,
 - the runtime reads only the compiled profile.
 
 This keeps manual editing simple without letting the codebase scatter persona rules across unrelated directories.
@@ -431,7 +465,7 @@ The current `vision/` directory should be folded into the character surface.
 Recommended migration:
 
 - move `vision/reference_library.json`
-- into `character/editable/visual.identity.json` or a nearby `character/editable/visual_anchors.json`
+- into `character/editable/视觉形象.json` or a nearby `character/editable/视觉锚点.json`
 
 Reason:
 

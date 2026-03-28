@@ -77,11 +77,11 @@ function buildReleaseAssessment(image) {
     };
   }
 
-  if (image.imageUrl) {
+  if (image.source === 'v2_image_generation_missing') {
     return {
-      readiness: 'ready_for_dry_run_or_publish',
-      stage: 'legacy_image_ready',
-      blockers: []
+      readiness: 'caption_ready_image_generation_missing',
+      stage: 'image_generation_missing',
+      blockers: ['image_request_missing']
     };
   }
 
@@ -170,47 +170,21 @@ function summarizeGeneratedImage(generatedImage) {
   };
 }
 
-function summarizeLegacyImage(selectedImage) {
+function summarizeMissingImage() {
   return {
-    source: 'legacy_selected_image',
-    id: selectedImage.id || null,
-    style: selectedImage.style || null,
+    source: 'v2_image_generation_missing',
+    generationMode: 'unknown',
+    requestStatus: 'missing',
     altText: '',
-    imageUrl: selectedImage.image_url || '',
-    note: 'Still using legacy image selection path until V2 image generation is implemented.'
+    imageUrl: '',
+    note: 'The current zero-memory run did not produce image_request.json or generated_image.json.'
   };
 }
 
-function buildImageSummary({ generatedImage, imageRequest, selectedImage }) {
+function buildImageSummary({ generatedImage, imageRequest }) {
   if (generatedImage) return summarizeGeneratedImage(generatedImage);
   if (imageRequest) return summarizeImageRequest(imageRequest);
-  return summarizeLegacyImage(selectedImage);
-}
-
-function buildReviewWarnings(image, selectedMoment, externalEventPacket) {
-  const warnings = [];
-  const characterPresenceTarget = image?.reviewSignals?.characterPresenceTarget
-    || selectedMoment?.characterPresenceTarget
-    || '';
-  const referenceHandling = image?.referenceHandling || {};
-  if (
-    ['clear_character_presence', 'expression_led'].includes(characterPresenceTarget)
-    && referenceHandling.deliveryMode === 'metadata_only'
-    && Number(referenceHandling.requestedReferenceCount || 0) > 0
-  ) {
-    warnings.push('identity_reference_metadata_only_manual_review_required');
-  }
-  if (
-    image?.reviewSignals?.unresolvedIdentityReference
-    || (referenceHandling.placeholderReferenceIds || []).length > 0
-    || (referenceHandling.unresolvedReferenceIds || []).length > 0
-  ) {
-    warnings.push('identity_anchor_placeholder_or_unregistered');
-  }
-  if ((externalEventPacket?.activeEventIds || []).length > 0) {
-    warnings.push('active_external_world_state_present_review_against_moment');
-  }
-  return warnings;
+  return summarizeMissingImage();
 }
 
 function buildPostPackage({
@@ -220,16 +194,14 @@ function buildPostPackage({
   selectedCaption,
   generatedImage,
   imageRequest,
-  externalEventPacket,
-  selectedImage
+  externalEventPacket
 }) {
   if (!scenePlan || !selectedCaption) {
     throw new Error('scene_plan.json or selected_caption.json is missing');
   }
 
-  const image = buildImageSummary({ generatedImage, imageRequest, selectedImage });
+  const image = buildImageSummary({ generatedImage, imageRequest });
   const release = buildReleaseAssessment(image);
-  const reviewWarnings = buildReviewWarnings(image, selectedMoment, externalEventPacket);
   const releaseChecklist = [
     'caption_selected',
     image.imageUrl ? 'image_ready' : 'image_pending',
@@ -250,7 +222,9 @@ function buildPostPackage({
     fullCaptionText: joinCaptionAndHashtags(selectedCaption.caption, selectedCaption.hashtags),
     captionSource: {
       selectedCandidateId: selectedCaption.selectedCandidateId,
-      selectionReason: selectedCaption.selectionReason
+      selectionReason: selectedCaption.selectionReason,
+      candidatePlanSlot: selectedCaption.candidatePlanSlot || '',
+      candidatePostingAct: selectedCaption.candidatePostingAct || ''
     },
     image,
     publish: {
@@ -259,8 +233,7 @@ function buildPostPackage({
       readiness: release.readiness,
       releaseStage: release.stage,
       blockers: release.blockers,
-      releaseChecklist,
-      reviewWarnings
+      releaseChecklist
     },
     reviewContext: {
       selectedMomentSummaryZh: selectedMoment?.eventSummaryZh || '',

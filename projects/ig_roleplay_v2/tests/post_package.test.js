@@ -10,11 +10,12 @@ function makeBaseInputs(extra = {}) {
       caption: 'Rain on the corner shop window.',
       hashtags: ['#rain', '#city'],
       selectedCandidateId: 'cand_1',
+      candidatePlanSlot: 'caption_02',
+      candidatePostingAct: 'world_facing_reaction',
       selectionReason: 'top score'
     },
     imageRequest: null,
     generatedImage: null,
-    selectedImage: {},
     ...extra
   };
 }
@@ -34,6 +35,8 @@ test('buildPostPackage prefers a ready V2 generated image', () => {
   assert.equal(output.publish.releaseStage, 'image_ready');
   assert.equal(output.image.imageUrl, 'https://cdn.example.com/final.jpg');
   assert.equal(output.image.altText, '');
+  assert.equal(output.captionSource.candidatePlanSlot, 'caption_02');
+  assert.equal(output.captionSource.candidatePostingAct, 'world_facing_reaction');
   assert.deepEqual(output.publish.releaseChecklist, ['caption_selected', 'image_ready', 'alt_text_missing', 'image_provider_attached']);
   assert.deepEqual(output.publish.blockers, []);
 });
@@ -66,8 +69,8 @@ test('buildPostPackage marks local generated images as not yet publishable witho
       provider: 'openai-images',
       status: 'image_generated_local_only',
       imageUrl: '',
-      localFilePath: '/tmp/generated/history/example.png',
-      latestFilePath: '/tmp/generated/current/latest-openai-images.png',
+      localFilePath: '/tmp/runtime/intermediate/runs/sceneplan-1/generated_assets/example.png',
+      latestFilePath: '',
       requestSummary: { altText: 'Rainy street corner' },
       providerRequest: { endpoint: 'https://api.openai.com/v1/images/generations' }
     }
@@ -76,7 +79,7 @@ test('buildPostPackage marks local generated images as not yet publishable witho
   assert.equal(output.image.source, 'v2_generated_image_local');
   assert.equal(output.publish.readiness, 'local_image_ready_public_url_missing');
   assert.equal(output.publish.releaseStage, 'local_image_ready');
-  assert.equal(output.image.localFilePath, '/tmp/generated/history/example.png');
+  assert.equal(output.image.localFilePath, '/tmp/runtime/intermediate/runs/sceneplan-1/generated_assets/example.png');
   assert.equal(output.image.altText, 'Rainy street corner');
   assert.deepEqual(output.publish.blockers, ['generated_image_public_url_missing']);
 });
@@ -118,43 +121,22 @@ test('buildPostPackage surfaces provider auth failure as a formal blocker', () =
   assert.deepEqual(output.publish.blockers, ['generated_image_provider_auth_failed']);
 });
 
-test('buildPostPackage surfaces identity review warnings when references stayed metadata-only', () => {
+test('buildPostPackage keeps delivery context without injecting architecture-level review warnings', () => {
   const output = buildPostPackage(makeBaseInputs({
     selectedMoment: {
-      eventSummaryZh: 'She pauses near the bookstore aisle.',
-      characterPresenceTarget: 'clear_character_presence'
+      eventSummaryZh: '路过转角的时候看到玻璃上那一点雨痕。',
+      characterPresenceTarget: 'supporting_presence'
     },
-    externalEventPacket: {
-      activeEventIds: ['bookstore_weekend_stationery_display']
-    },
-    generatedImage: {
-      provider: 'aliyun-z-image',
-      status: 'image_ready',
-      imageUrl: 'https://cdn.example.com/final.jpg',
-      requestSummary: {
-        altText: 'Bookstore aisle',
-        reviewSignals: {
-          characterPresenceTarget: 'clear_character_presence',
-          captureSummaryEn: 'observational camera relation, medium distance, half body coverage, readable face, balanced environment weight',
-          renderStyleSummaryEn: 'line clean_crisp, contrast controlled_clear, color richness balanced_rich, color separation clear_local, edge readability clear_edges, depth separation layered_depth'
-        },
-        referenceHandling: {
-          requestedReferenceCount: 1,
-          unresolvedReferenceIds: ['rion_core_face_01'],
-          placeholderReferenceIds: ['rion_core_face_01'],
-          deliveryMode: 'metadata_only'
-        }
-      }
+    imageRequest: {
+      generationMode: 'scene_grounded_daily_record',
+      status: 'generation_request_ready',
+      references: [],
+      renderPlan: { aspectRatio: '4:5' },
+      publishHints: { altText: 'Rainy city corner' }
     }
   }));
 
-  assert.deepEqual(output.publish.reviewWarnings, [
-    'identity_reference_metadata_only_manual_review_required',
-    'identity_anchor_placeholder_or_unregistered',
-    'active_external_world_state_present_review_against_moment'
-  ]);
-  assert.equal(output.reviewContext.characterPresenceTarget, 'clear_character_presence');
-  assert.match(output.reviewContext.captureSummaryEn, /observational camera relation/);
-  assert.match(output.reviewContext.renderStyleSummaryEn, /line clean_crisp/);
-  assert.deepEqual(output.reviewContext.activeExternalEventIds, ['bookstore_weekend_stationery_display']);
+  assert.equal(output.reviewContext.selectedMomentSummaryZh, '路过转角的时候看到玻璃上那一点雨痕。');
+  assert.equal(output.reviewContext.characterPresenceTarget, 'supporting_presence');
+  assert.equal(Object.prototype.hasOwnProperty.call(output.reviewContext, 'reviewWarnings'), false);
 });

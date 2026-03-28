@@ -25,7 +25,9 @@ async function postForm(url, params) {
 function writeArtifacts(runtimeDir, output) {
   const historyDir = runtimeHistoryDir(runtimeDir);
   ensureDir(historyDir);
-  const written = writeRuntimeArtifact(runtimeDir, 'publish_result.json', 'publishresult', output);
+  const written = writeRuntimeArtifact(runtimeDir, 'publish_result.json', 'publishresult', output, {
+    runId: output.scenePlanRunId
+  });
   appendJsonl(path.join(historyDir, 'publish_history.jsonl'), output);
   return written;
 }
